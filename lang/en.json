@@ -1,5 +1,32 @@
 {
 	"MageHandPress": {
-		
+		"Setting": {
+			"FirearmModifier": {
+				"hint": "Don't apply the ability modifier to damage for any weapon that has the Firearm property.",
+				"name": "Ignore Modifier for Firearms"
+			},
+			"Warmage": {
+				"hint": "Configure customization & automation related to Warmage class",
+				"FIELDS": {
+					"customization": {
+						"hint": "Add a new Warmage spellcasting type and new feature types for various class features.",
+						"label": "Warmage Customization"
+					},
+					"warmageEdge": {
+						"hint": "Display Warmage Edge option is damage dialog.",
+						"label": "Warmage Edge"
+					}
+				},
+				"label": "Warmage Settings",
+				"name": "Warmage"
+			}
+		},
+		"Warmage": {
+			"ArcaneInitiation": "Arcane Initiation",
+			"Spellcasting": "Warmage",
+			"Strategem": "Strategem",
+			"WarmageEdge": "Warmage Edge",
+			"WarmageTrick": "Warmage Trick"
+		}
 	}
 }
