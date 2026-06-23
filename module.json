@@ -1,6 +1,6 @@
 {
-  "id": "mage-hand-press-__MODULE_ID__",
-  "title": "Mage Hand Press - __MODULE_TITLE__",
+  "id": "mage-hand-press-core",
+  "title": "Mage Hand Press - Core",
 	"description": "<p>__MODULE_DESCRIPTION__</p>",
   "version": "1.0.0",
   "compatibility": {
@@ -25,8 +25,7 @@
       }
     ]
   },
-	"esmodules": ["./code/__MODULE_ID__.mjs"],
-	"styles": ["./styles/__MODULE_ID__.css"],
+	"esmodules": ["./code/core.mjs"],
   "packs": [],
 	"packFolders": [],
 	"languages": [
@@ -40,12 +39,12 @@
 	"media": [
 		{
 			"type": "setup",
-			"url": "modules/mage-hand-press-__MODULE_ID__/assets/setup.webp"
+			"url": "modules/mage-hand-press-core/assets/setup.webp"
 		}
 	],
 	"flags": {},
 	"protected": false,
-	"bugs": "https://github.com/mage-hand-press/premium-content/issues",
-	"manifest": "https://r2.foundryvtt.com/packages-public/mage-hand-press-__MODULE_ID__/module.json",
-	"url": "https://foundryvtt.com/packages/mage-hand-press-__MODULE_ID__"
+	"bugs": "https://github.com/mage-hand-press/core/issues",
+	"manifest": "https://raw.githubusercontent.com/mage-hand-press/core/system.json",
+	"url": "https://foundryvtt.com/packages/mage-hand-press-core"
 }

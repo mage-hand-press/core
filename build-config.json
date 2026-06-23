@@ -1,7 +1,7 @@
 {
 	"project": {
 		"type": "module",
-		"premium": true
+		"premium": false
 	},
 	"sources": "packs/_source",
 	"includes": ["assets/"]
