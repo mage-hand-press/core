@@ -1,0 +1,8 @@
+{
+	"project": {
+		"type": "module",
+		"premium": true
+	},
+	"sources": "packs/_source",
+	"includes": ["assets/"]
+}

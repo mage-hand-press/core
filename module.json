@@ -1,0 +1,51 @@
+{
+  "id": "mage-hand-press-__MODULE_ID__",
+  "title": "Mage Hand Press - __MODULE_TITLE__",
+	"description": "<p>__MODULE_DESCRIPTION__</p>",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+	"authors": [
+		{
+			"name": "Mage Hand Press",
+			"url": "https://magehandpress.com",
+			"flags": {}
+		}
+	],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+					"minimum": "5.3.0"
+				}
+      }
+    ]
+  },
+	"esmodules": ["./code/__MODULE_ID__.mjs"],
+	"styles": ["./styles/__MODULE_ID__.css"],
+  "packs": [],
+	"packFolders": [],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "lang/en.json",
+			"flags": {}
+		}
+	],
+	"media": [
+		{
+			"type": "setup",
+			"url": "modules/mage-hand-press-__MODULE_ID__/assets/setup.webp"
+		}
+	],
+	"flags": {},
+	"protected": false,
+	"bugs": "https://github.com/mage-hand-press/premium-content/issues",
+	"manifest": "https://r2.foundryvtt.com/packages-public/mage-hand-press-__MODULE_ID__/module.json",
+	"url": "https://foundryvtt.com/packages/mage-hand-press-__MODULE_ID__"
+}

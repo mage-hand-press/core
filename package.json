@@ -1,0 +1,11 @@
+{
+	"scripts": {
+		"build": "npm run compile",
+		"compile": "node ./utils/cli.mjs package pack",
+		"extract": "node ./utils/cli.mjs package unpack"
+	},
+	"devDependencies": {
+		"@foundryvtt/foundryvtt-cli": "^3.0.3",
+		"yargs": "^18.0.0"
+	}
+}

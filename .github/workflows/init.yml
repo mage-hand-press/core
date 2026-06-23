@@ -1,0 +1,40 @@
+name: Customize Template
+
+on: create
+
+jobs:
+  build:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+
+    - name: Adjust manifest
+      uses: richardrigutins/replace-in-files@v3
+      with:
+        files: "module.json"
+        search-text: "__MODULE_NAME__"
+        replacement-text: ${{ github.event.repository.name }}
+
+
+    - name: Rename Javascript
+      run: mv ./code/__MODULE_ID__.mjs ./code/${{ github.event.repository.name }}.mjs
+
+
+    - name: Rename CSS
+      run: mv ./styles/__MODULE_ID__.css ./styles/${{ github.event.repository.name }}.css
+
+
+    - name: Delete README.md
+      run: rm ./README.md
+
+
+    - name: Delete customization script
+      run: rm ./.github/workflows/init.yml
+
+
+    - name: Commit & Push Changes
+      uses: actions-x/commit@v6
+      with:
+        message: Customize template for module
