@@ -20,7 +20,7 @@ export default class WarmageSpellcasting extends dnd5e.dataModels.spellcasting.S
 
 		CONFIG.DND5E.spellcasting.warmage = {
 			label: "MageHandPress.Warmage.Spellcasting",
-			img: "",
+			img: "icons/magic/light/hand-sparks-smoke-green.webp",
 			order: 30,
 			type: "warmage",
 			progression: {
@@ -29,16 +29,8 @@ export default class WarmageSpellcasting extends dnd5e.dataModels.spellcasting.S
 				}
 			}
 		};
-
-		// TODO: Remove this hook when switching to DnD5e 5.2
-		Hooks.on("dnd5e.buildWarmageSpellcastingTable", (table, item, spellcasting) => {
-			table.headers = [[{ content: "" }]];
-			table.cols = [];
-			table.rows = [];
-		});
 	}
 
-	// TODO: Remove these stub methods when switching to DnD5e 5.2
-	computeProgression(progression, actor, cls, spellcasting, count) {}
+	// TODO: Remove this stub method when switching to DnD5e 6.0
 	prepareSlots(spells, actor, progression) {}
 }

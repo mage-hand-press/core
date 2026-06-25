@@ -21,6 +21,9 @@
 				"name": "Warmage"
 			}
 		},
+		"Source": {
+			"CompleteWarmage": "Complete Warmage"
+		},
 		"Warmage": {
 			"ArcaneInitiation": "Arcane Initiation",
 			"Spellcasting": "Warmage",

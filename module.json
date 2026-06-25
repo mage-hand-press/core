@@ -1,7 +1,7 @@
 {
   "id": "mage-hand-press-core",
-  "title": "Mage Hand Press - Core",
-	"description": "<p>__MODULE_DESCRIPTION__</p>",
+  "title": "Mage Hand Press - Core Classes",
+	"description": "<p>Complete implementation of 13 free classes from Mage Hand Press, including various small autoation features to make playing the classes easier.</p>",
   "version": "1.0.0",
   "compatibility": {
     "minimum": "14",
@@ -26,7 +26,19 @@
     ]
   },
 	"esmodules": ["./code/core.mjs"],
-  "packs": [],
+  "packs": [
+		{
+			"name": "journal",
+			"label": "Journals",
+			"path": "packs/journal",
+			"type": "JournalEntry",
+			"ownership": {
+				"GAMEMASTER": "OWNER"
+			},
+			"system": "dnd5e",
+			"flags": {}
+		}
+	],
 	"packFolders": [],
 	"languages": [
 		{
@@ -42,7 +54,13 @@
 			"url": "modules/mage-hand-press-core/assets/setup.webp"
 		}
 	],
-	"flags": {},
+	"flags": {
+		"dnd5e": {
+			"sourceBooks": {
+				"Complete Warmage": "MageHandPress.Source.CompleteWarmage"
+			}
+		}
+	},
 	"protected": false,
 	"bugs": "https://github.com/mage-hand-press/core/issues",
 	"manifest": "https://raw.githubusercontent.com/mage-hand-press/core/system.json",
