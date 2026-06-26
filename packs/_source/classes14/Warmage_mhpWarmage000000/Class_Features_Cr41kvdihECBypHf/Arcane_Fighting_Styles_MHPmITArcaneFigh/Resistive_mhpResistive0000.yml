@@ -1,45 +1,95 @@
 folder: MHPmITArcaneFigh
 name: Resistive
 type: feat
-_id: mhpResistive0000
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/defensive/shield-barrier-glowing-blue.webp
 system:
-  activities: {}
+  description:
+    value: >-
+      <p>While you are wearing light armor or are under the effects of the
+      <em>@UUID[Compendium.dnd5e.spells.CKZTpZlxj7hjjo2H]{mage armor}</em> spell, you gain a +1
+      bonus to your Armor Class.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Warmage
+    page: ''
+    license: ''
+    rules: '2014'
+    revision: 1
+  cover: null
+  crewed: false
   uses:
+    max: ''
     spent: 0
     recovery: []
-    max: ''
-  advancement: {}
-  description:
-    value: ''
-    chat: ''
-  identifier: resistive
-  source:
-    revision: 1
-    rules: '2024'
-  crewed: false
-  enchant: {}
-  prerequisites:
-    items: []
-    repeatable: false
-    level: null
-  properties: []
-  requirements: ''
   type:
     value: class
     subtype: fightingStyle
-effects: []
-sort: 0
-ownership:
-  default: 0
+  requirements: Warmage
+  properties: []
+  identifier: resistive
+  activities: {}
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    items:
+      - class:warmage
+    repeatable: false
+    level: null
+effects:
+  - origin: Item.5Qn8I2aIr02q7eno
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    disabled: true
+    _id: hm3AWfFU3VshZE7H
+    tint: '#ffffff'
+    transfer: true
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    name: Resistive
+    description: ''
+    statuses: []
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1777321136963
+      modifiedTime: 1782515644730
+      lastModifiedBy: magehandpress000
+      compendiumSource: Item.hllQJIH2OUCpyGZm.ActiveEffect.iL4B0tvyWHu5HjlU
+      duplicateSource: null
+      exportSource: null
+    img: icons/magic/defensive/shield-barrier-blue.webp
+    type: base
+    system:
+      changes:
+        - key: system.attributes.ac.bonus
+          value: 1
+          priority: null
+          type: add
+          phase: initial
+    sort: 0
+    start: null
+    showIcon: 1
+    folder: null
+    _key: '!items.effects!mhpResistive0000.hm3AWfFU3VshZE7H'
 flags: {}
 _stats:
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  coreVersion: '14.364'
+  createdTime: 1777321136963
+  modifiedTime: 1782515656833
+  lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
-  systemId: dnd5e
-  systemVersion: 5.3.0
-  createdTime: 1774369907955
-  modifiedTime: 1774369907955
-  lastModifiedBy: magehandpress000
+_id: mhpResistive0000
+sort: 300000
+ownership:
+  default: 0
 _key: '!items!mhpResistive0000'

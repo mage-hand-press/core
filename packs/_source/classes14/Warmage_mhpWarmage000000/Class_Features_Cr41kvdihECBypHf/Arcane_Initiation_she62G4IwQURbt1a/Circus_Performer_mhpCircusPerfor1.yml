@@ -6,13 +6,12 @@ system:
   description:
     value: >-
       <p>You learned a few simple tricks to participate in a sideshow or circus act. You learn the
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplMinorIllus]{Minor Illusion} and
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplStarryWisp]{Starry Wisp} cantrips and you gain
-      proficiency in the Acrobatics skill.</p>
+      <em>@UUID[Compendium.dnd5e.spells.Item.CAxSzHWizrafT033]{dancing lights}</em> and
+      <em>@UUID[Compendium.dnd5e.spells.Item.oIzA2MEHwxhtQneU]{minor illusion}</em> cantrips.</p>
     chat: ''
   source:
     custom: ''
-    book: ''
+    book: Complete Warmage
     page: ''
     license: ''
     revision: 1
@@ -35,7 +34,11 @@ system:
       type: ItemGrant
       _id: iTuVs8TWa2OJHd14
       configuration:
-        items: []
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.CAxSzHWizrafT033
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.oIzA2MEHwxhtQneU
+            optional: false
         optional: false
         spell:
           ability: []
@@ -60,11 +63,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369906978
-  modifiedTime: 1774369906978
+  modifiedTime: 1782515860963
   lastModifiedBy: magehandpress000
 _id: mhpCircusPerfor1
 sort: 200000

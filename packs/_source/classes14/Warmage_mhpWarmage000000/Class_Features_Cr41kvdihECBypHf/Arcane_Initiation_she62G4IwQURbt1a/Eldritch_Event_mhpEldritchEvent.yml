@@ -14,7 +14,11 @@ system:
       type: ItemGrant
       _id: iTuVs8TWa2OJHd14
       configuration:
-        items: []
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.vrN18tbTw7io5MWd
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.icZokbgV1jIMpNCv
+            optional: false
         optional: false
         spell:
           ability: []
@@ -30,7 +34,10 @@ system:
       hint: ''
       flags: {}
   description:
-    value: ''
+    value: >-
+      <p>An influx of insidious magic left an imprint on you. You learn the
+      <em>@UUID[Compendium.dnd5e.spells.Item.vrN18tbTw7io5MWd]{chill touch}</em> and
+      <em>@UUID[Compendium.dnd5e.spells.Item.icZokbgV1jIMpNCv]{message}</em> cantrips.</p>
     chat: ''
   identifier: eldritch-event
   source:
@@ -55,10 +62,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369907155
-  modifiedTime: 1774369907155
+  modifiedTime: 1782515884362
   lastModifiedBy: magehandpress000
 _key: '!items!mhpEldritchEvent'

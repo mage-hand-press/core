@@ -6,13 +6,13 @@ system:
   description:
     value: >-
       <p>You apprenticed under a spellcaster for some time, who taught you the fundamentals of
-      arcana. You learn the @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitation}
-      and @UUID[Compendium.dnd5e.spells24.Item.phbsplShockingGr]{Shocking Grasp} cantrips and you
-      gain proficiency in the Arcana skill.</p>
+      arcana. You learn the
+      <em>@UUID[Compendium.dnd5e.spells.Item.udsLtG0BugXHR2JQ]{prestidigitation}</em> and
+      <em>@UUID[Compendium.dnd5e.spells.Item.XvbiNhNqXXIFisIy]{shocking grasp}</em> cantrips.</p>
     chat: ''
   source:
     custom: ''
-    book: ''
+    book: Complete Warmage
     page: ''
     license: ''
     revision: 1
@@ -35,7 +35,11 @@ system:
       type: ItemGrant
       _id: iTuVs8TWa2OJHd14
       configuration:
-        items: []
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.udsLtG0BugXHR2JQ
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.XvbiNhNqXXIFisIy
+            optional: false
         optional: false
         spell:
           ability: []
@@ -60,11 +64,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369908288
-  modifiedTime: 1774369908288
+  modifiedTime: 1782515992681
   lastModifiedBy: magehandpress000
 _id: mhpTowerApprent1
 sort: 262500

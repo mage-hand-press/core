@@ -5,16 +5,16 @@ img: icons/magic/light/explosion-beam-impact-silhouette.webp
 system:
   description:
     value: >-
-      <p>Once on each of your turns, when you deal damage with a Warmage cantrip, you can double the
-      number of damage dice dealt by the spell, as if you scored a Critical Hit. If you use this
-      feature to improve a spell that has already scored a Critical Hit, the cantrip deals triple
-      the number of damage dice in total.</p><p>You can use this feature twice. You regain one of
-      its expended uses when you finish a Short Rest, and you regain all expended uses when you
-      finish a Long Rest. You gain an additional use when you reach Warmage level 11.</p>
+      <p>Starting at 5th level, you learn to tap into a vast reservoir of magical power and unleash
+      it upon your foes. Once on each of your turns, when you deal damage with a warmage cantrip,
+      you can double the number of damage dice dealt by the spell. You can’t use this feature on a
+      spell that has scored a critical hit.</p><p>Once you use this feature, you can’t use it again
+      until you finish a short or long rest. Starting at 11th level, you can use this feature twice
+      between rests.</p>
     chat: ''
   source:
     custom: ''
-    book: ''
+    book: Complete Warmage
     page: ''
     license: ''
     revision: 1
@@ -30,7 +30,7 @@ system:
   type:
     value: class
     subtype: ''
-  requirements: ''
+  requirements: Warmage
   properties: []
   activities:
     dnd5eactivity000:
@@ -128,11 +128,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369906762
-  modifiedTime: 1774369906762
+  modifiedTime: 1782516326723
   lastModifiedBy: magehandpress000
 _id: mhpArcaneSurge01
 sort: 221875

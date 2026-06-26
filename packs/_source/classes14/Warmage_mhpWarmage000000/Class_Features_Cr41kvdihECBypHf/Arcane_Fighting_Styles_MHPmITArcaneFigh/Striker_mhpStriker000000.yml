@@ -1,45 +1,130 @@
 folder: MHPmITArcaneFigh
 name: Striker
 type: feat
-_id: mhpStriker000000
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/sonic/explosion-shock-wave-teal.webp
 system:
-  activities: {}
-  uses:
-    spent: 0
-    recovery: []
-    max: ''
-  advancement: {}
   description:
-    value: ''
+    value: >-
+      <p>When you hit a creature with a cantrip that requires a melee attack and exceed the target’s
+      AC by 5 or more or score a critical hit, you can add your proficiency bonus to the damage
+      roll.</p>
     chat: ''
-  identifier: striker
   source:
+    custom: ''
+    book: Complete Warmage
+    page: ''
+    license: ''
     revision: 1
-    rules: '2024'
+    rules: '2014'
+  cover: null
   crewed: false
-  enchant: {}
-  prerequisites:
-    items: []
-    repeatable: false
-    level: null
-  properties: []
-  requirements: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
   type:
     value: class
     subtype: fightingStyle
+  requirements: Warmage
+  properties: []
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: damage
+      activation:
+        type: ''
+        value: null
+        condition: >-
+          When you hit a creature with a cantrip that requires a melee attack and exceed the
+          target’s AC by 5 or more or score a critical hit
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: touch
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - custom:
+              enabled: true
+              formula: '@prof'
+            number: null
+            denomination: null
+            bonus: ''
+            types: []
+            scaling:
+              number: 1
+      img: ''
+      sort: 0
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      name: ''
+  advancement: {}
+  identifier: striker
+  enchant: {}
+  prerequisites:
+    items:
+      - class:warmage
+    repeatable: false
+    level: null
 effects: []
-sort: 0
-ownership:
-  default: 0
 flags: {}
 _stats:
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  coreVersion: '14.364'
+  createdTime: 1777321168743
+  modifiedTime: 1782515736511
+  lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
-  systemId: dnd5e
-  systemVersion: 5.3.0
-  createdTime: 1774369908218
-  modifiedTime: 1774369908218
-  lastModifiedBy: magehandpress000
+_id: mhpStriker000000
+sort: 500000
+ownership:
+  default: 0
 _key: '!items!mhpStriker000000'

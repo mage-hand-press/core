@@ -5,14 +5,14 @@ img: icons/magic/light/beam-red-orange.webp
 system:
   description:
     value: >-
-      <p><em>Prerequisite: </em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLight00000]{Light}<em>
+      <p><em>Prerequisite: </em>@UUID[Compendium.dnd5e.spells.Item.Bnn9Nzajixvow9xi]{light}<em>
       cantrip</em></p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.MHPlTEBlindingLi
       inline]</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.MHPlTETrickswith
       inline classes="hide-in-embed"]</p>
     chat: ''
   source:
     custom: ''
-    book: ''
+    book: Complete Warmage
     page: ''
     license: ''
     revision: 1
@@ -169,11 +169,11 @@ system:
     level: null
     repeatable: false
     items:
-      - light
+      - spell:light
 effects:
   - name: Blinded
     img: systems/dnd5e/icons/svg/statuses/blinded.svg
-    origin: Compendium.mage-hand-press-core.class24.Item.MHPlFEBlindingLi
+    origin: Compendium.mage-hand-press-core.classes24.Item.MHPlFEBlindingLi
     transfer: false
     _id: mhpBlinded000000
     type: base
@@ -260,9 +260,9 @@ _stats:
   exportSource: null
   coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369906836
-  modifiedTime: 1774369906836
+  modifiedTime: 1782516582193
   lastModifiedBy: magehandpress000
 _id: mhpBlindingLigh1
 sort: 300000

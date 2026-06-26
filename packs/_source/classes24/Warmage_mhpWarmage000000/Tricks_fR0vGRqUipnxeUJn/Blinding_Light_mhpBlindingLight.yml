@@ -12,7 +12,7 @@ system:
     chat: ''
   source:
     custom: ''
-    book: ''
+    book: Complete Warmage
     page: ''
     license: ''
     revision: 1
@@ -173,7 +173,7 @@ system:
 effects:
   - name: Blinded
     img: systems/dnd5e/icons/svg/statuses/blinded.svg
-    origin: Compendium.mage-hand-press-core.class24.Item.mhpBlindingLight
+    origin: Compendium.mage-hand-press-core.classes24.Item.mhpBlindingLight
     transfer: false
     _id: mhpBlinded000000
     type: base

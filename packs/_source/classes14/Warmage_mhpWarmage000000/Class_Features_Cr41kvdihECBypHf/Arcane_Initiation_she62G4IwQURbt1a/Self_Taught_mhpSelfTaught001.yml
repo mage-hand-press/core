@@ -6,13 +6,12 @@ system:
   description:
     value: >-
       <p>You taught yourself all the fundamentals of magic from a dusty old tome or abandoned
-      scroll. You learn the @UUID[Compendium.dnd5e.spells24.Item.phbsplFireBolt00]{Fire Bolt} and
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplLight00000]{Light} cantrips and you gain
-      proficiency in one skill of your choice.</p>
+      scroll. You learn the <em>@UUID[Compendium.dnd5e.spells.Item.EOmsUcFQJTfG2oio]{fire bolt}</em>
+      and <em>@UUID[Compendium.dnd5e.spells.Item.Bnn9Nzajixvow9xi]{light}</em> cantrips.</p>
     chat: ''
   source:
     custom: ''
-    book: ''
+    book: Complete Warmage
     page: ''
     license: ''
     revision: 1
@@ -35,7 +34,11 @@ system:
       type: ItemGrant
       _id: iTuVs8TWa2OJHd14
       configuration:
-        items: []
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.EOmsUcFQJTfG2oio
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.Bnn9Nzajixvow9xi
+            optional: false
         optional: false
         spell:
           ability: []
@@ -60,11 +63,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369907994
-  modifiedTime: 1774369907994
+  modifiedTime: 1782516019445
   lastModifiedBy: magehandpress000
 _id: mhpSelfTaught001
 sort: 400000

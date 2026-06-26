@@ -76,7 +76,7 @@ system:
       Daggers}</em> or
       <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpForceDart0000]{Force
       Dart}</em> using the
-      @UUID[Compendium.mage-hand-press-core.class24.Item.mhpSplitFire0000]{Split Fire} trick, and
+      @UUID[Compendium.mage-hand-press-core.classes24.Item.mhpSplitFire0000]{Split Fire} trick, and
       you miss with one or more attacks, you can reroll all of your misses.</p><p>Once you use this
       trick, you can’t do so again until you finish a Short or Long Rest.</p>
     chat: ''

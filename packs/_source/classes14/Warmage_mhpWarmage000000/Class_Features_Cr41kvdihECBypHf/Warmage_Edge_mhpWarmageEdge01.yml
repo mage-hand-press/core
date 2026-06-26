@@ -5,16 +5,18 @@ img: icons/magic/fire/orbs-silhouette-sun.webp
 system:
   description:
     value: >-
-      <p>Once per turn when you cast a Warmage cantrip, you can improve the spell, gaining the
-      following benefits.</p><p><strong>Intelligence to Damage.</strong> Add your Intelligence
-      modifier to one damage roll of the spell if you don’t already add it.</p><p><strong>Improved
-      Cantrip Upgrade.</strong> Starting at Warmage level 5, you improve one damage roll of the
-      spell, adding extra dice to the damage roll as shown on the Cantrip Bonus Dice column of the
-      Warmage Features table.</p>
+      <p>Starting at 2nd level, once on each of your turns when you deal damage with a warmage
+      cantrip, you can improve one damage roll of the spell, adding your Intelligence modifier to
+      the roll if you don’t already add it. Starting at 5th level, and as you gain levels in this
+      class, you also add extra dice to the damage roll of your warmage cantrips, as shown in the
+      Cantrip Bonus Dice column of the Warmage table. For example, when you are at 5th level, you
+      can improve the damage of the <em>@UUID[Compendium.dnd5e.spells.Item.EOmsUcFQJTfG2oio]{fire
+      bolt}</em> cantrip to deal fire damage equal to 3d10 + your Intelligence modifier on a
+      hit.</p>
     chat: ''
   source:
     custom: ''
-    book: ''
+    book: Complete Warmage
     page: ''
     license: ''
     revision: 1
@@ -30,14 +32,14 @@ system:
   type:
     value: class
     subtype: ''
-  requirements: ''
+  requirements: Warmage
   properties: []
   activities: {}
   identifier: warmage-edge
   advancement: {}
   enchant: {}
   prerequisites:
-    level: 1
+    level: 2
     repeatable: false
     items: []
 effects: []
@@ -45,11 +47,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369908370
-  modifiedTime: 1774369908370
+  modifiedTime: 1782516432007
   lastModifiedBy: magehandpress000
 _id: mhpWarmageEdge01
 sort: 250000

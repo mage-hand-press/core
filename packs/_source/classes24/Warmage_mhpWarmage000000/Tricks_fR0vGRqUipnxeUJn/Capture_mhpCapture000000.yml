@@ -106,7 +106,7 @@ system:
 effects:
   - name: Captured
     img: icons/commodities/gems/pearl-rough-white.webp
-    origin: Compendium.mage-hand-press-core.class24.Item.mhpCapture000000
+    origin: Compendium.mage-hand-press-core.classes24.Item.mhpCapture000000
     transfer: false
     _id: mhpCaptured00000
     type: base

@@ -1,14 +1,62 @@
 folder: mhpWarmage000000
 name: Warmage
 type: class
-img: systems/dnd5e/icons/svg/items/class.svg
+img: modules/mage-hand-press-core/assets/options/warmage.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>An elf recites the motions for the simplest spell she knows, repeating them until she knows
+      they are perfect. With a single, precise stroke, she unleashes a wave of arcane energy,
+      focused into a searing blue beam.</p><p>A tiefling waves her hands to conjure floating
+      greatswords of humming blue energy that dance about in mesmerizing and deadly arcs. One blade
+      takes on an aspect of fire, and the other lightning, as she begins to cleave through the
+      goblinoid horde.</p><p>Waving a black-and-red checkered banner, a dragonborn king charges into
+      the fore. At his sides are warmages of all houses, a chessboard of elite arcanists, poised to
+      turn the tide of battle.</p><p>The undisputed masters of cantrips, warmages turn the most
+      fundamental types of magic into a deadly and precise art.</p><h3>Cantrip Masters</h3><p>While
+      other spellcasters aspire to grander and more complex spells, warmages refine and master the
+      most fundamental magic: cantrips. Warmages wield their magic in the same way that a warrior
+      uses a sword, bow, or axe—as weapons to be perfected, not as an unknowable force to be feared.
+      In contrast to sorcerers and wizards, their magic is a trainable skill, one that can be
+      mastered by almost anyone with discipline and aptitude. Therefore, warmages stand among the
+      most fearsome of spellcasters, with only the most rudimentary of spells.</p><h3>Strategic
+      Geniuses</h3><p>Warmages have a long and storied history as masterful strategists and
+      tacticians, both in grand battles and personal skirmishes. If a warmage is outgunned or
+      outnumbered, they’ll try to outthink their foes, which works more often than not. Warmages
+      demonstrate an efficient kind of pragmatism, owing perhaps to their ability to solve many
+      problems with just a few magical tools.</p><h3>Aligned Free Agents</h3><p>While some warmages
+      are fully self-taught, the majority join a house: a loose confederation of warmages who
+      practice together and share secrets of the trade. Houses teach invaluable battlefield
+      strategy, but each individual house also touts their own brands of tactics and styles of
+      magical tricks. The House of Knights, for example, emphasizes armor and martial prowess,
+      whereas the House of Kings emphasizes battlefield strategy.</p><p>By way of metaphor, houses
+      that value honor and teamwork above all else brand themselves after games of strategy, whereas
+      those who epitomize self-reliance name themselves for games of chance. This division in the
+      warmage houses is representative of a schism that dates back to the earliest warmage masters.
+      Legend has it that the first two masters separated when one decided to found a college. The
+      other, out of spite, built a casino outside its grounds.</p><h3>Creating a
+      Warmage</h3><p>Warmages come from all walks of life, so as you build yours, consider where you
+      first learned the fundamentals of magic, which you would go on to perfect. You might have
+      picked up cantrips from a fellow adventurer or in the early stages of wizarding training. You
+      could even be self-taught. Choose an Arcane Initiation which best fits your character’s
+      history with magic.</p><p>Moreover, consider how you feel about magic as a whole. Are you
+      envious of other spellcasters, or are you confident you could best them regardless? Did you
+      once pine to be a wizard, but found you could never muster enough true magic to form a spell
+      slot? Did you choose warmagistry to hone your talents to their absolute peak, or did you
+      choose it to wield power no warrior can equal?</p><p>Lastly, consider your prospective warmage
+      House. Though you don’t choose one until reaching 3rd level, your aspirations might shape
+      which house you favor the most. If you would like to dabble with greater arcane magic, the
+      House of Bishops is the best fit. If the clashing of swords at the frontlines piques your
+      interest, consider the House of Knights.</p><h4>Quick Build</h4><p>You can make a Warmage
+      quickly by following these suggestions. First, Intelligence should be your highest ability
+      score, followed by Constitution. Make Strength your third highest if you plan to take the
+      House of Knights. Then choose the chill touch, force dart, force weapon, and phantom grapnel
+      cantrips, and the Adventurer Arcane Initiation. Pick any background that emphasizes your
+      magical discipline.</p>
     chat: ''
   source:
     custom: ''
-    book: ''
+    book: Complete Warmage
     page: ''
     license: ''
     revision: 1
@@ -118,11 +166,11 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpSpellcasting3
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpSpellcasting3
             optional: false
-          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpArcaneInitia1
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpArcaneInitia1
             optional: false
-          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpArcaneFightin
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpArcaneFightin
             optional: false
         optional: false
         spell:
@@ -138,55 +186,14 @@ system:
       title: Features
       hint: ''
       flags: {}
-    gpXueEjeYh2OESRI:
-      _id: gpXueEjeYh2OESRI
-      type: ItemChoice
-      configuration:
-        choices:
-          '1':
-            count: 1
-            replacement: false
-        allowDrops: false
-        type: feat
-        pool:
-          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpAdventurer001
-          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpCircusPerfor1
-          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpEldritchEvent
-          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpMercenary0001
-          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpSelfTaught001
-          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpSurvival00001
-          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpTemple0000000
-          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpTowerApprent1
-        spell:
-          ability:
-            - ''
-          uses:
-            max: ''
-            per: ''
-            requireSlot: false
-          prepared: 0
-        restriction:
-          type: class
-          subtype: arcaneInitiation
-          level: ''
-          list: []
-      value:
-        added: {}
-        replaced: {}
-      title: Arcane Initiation
-      hint: >-
-        Warmages come from all backgrounds and walks of life. At 1st level, choose where you first
-        learned the basics of magic. The cantrips offered by your initiation don’t count against
-        your total number of warmage cantrips known.
-      flags: {}
     GeuKY0TOoi9xN1oh:
       _id: GeuKY0TOoi9xN1oh
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpWarmageEdge01
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpWarmageEdge01
             optional: false
-          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpWarmageTrick0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpWarmageTrick0
             optional: false
         optional: false
         spell:
@@ -261,7 +268,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpArcaneSurge01
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpArcaneSurge01
             optional: false
         optional: false
         spell:
@@ -282,7 +289,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpTacticalInsi1
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpTacticalInsi1
             optional: false
         optional: false
         spell:
@@ -303,7 +310,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpStrategicDef1
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpStrategicDef1
             optional: false
         optional: false
         spell:
@@ -324,7 +331,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpMasterWarmag1
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpMasterWarmag1
             optional: false
         optional: false
         spell:
@@ -515,37 +522,6 @@ system:
       title: ''
       hint: ''
       flags: {}
-    TZt73mQN2asNqpLd:
-      type: ItemChoice
-      title: Arcane Fighting Style
-      _id: TZt73mQN2asNqpLd
-      configuration:
-        allowDrops: false
-        choices:
-          '1':
-            count: 1
-            replacement: false
-        pool:
-          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpBlaster000000
-          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpDeflector0000
-          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpResistive0000
-          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpSniper0000000
-          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpStriker000000
-        restriction:
-          list: []
-          type: class
-          subtype: fightingStyle
-        spell: null
-        type: feat
-      value:
-        added: {}
-        replaced: {}
-      hint: >-
-        <p>Warmages learn that magic is the purest of weapons, and can be wielded just as easily as
-        any other. At 1st level, choose one of the following fighting styles:</p>
-      flags: {}
-      icon: ''
-      classRestriction: ''
   spellcasting:
     progression: warmage
     ability: int
@@ -555,7 +531,78 @@ system:
     denomination: d8
     spent: 0
     additional: ''
-  startingEquipment: []
+  startingEquipment:
+    - type: AND
+      requiresProficiency: false
+      _id: jeiT4xOUK6yIOh0I
+      group: ''
+      sort: 100000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.WwdpHLXGX5r8uZu5
+      requiresProficiency: false
+      _id: gSOYIwZwInM6rKQG
+      group: jeiT4xOUK6yIOh0I
+      sort: 900000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.0E565kQUBmndJ1a2
+      requiresProficiency: false
+      _id: e5iOJyG1fwddKeHB
+      group: jeiT4xOUK6yIOh0I
+      sort: 1000000
+    - type: weapon
+      count: null
+      key: sim
+      requiresProficiency: false
+      _id: npa0kZOSJLhZsDou
+      group: jeiT4xOUK6yIOh0I
+      sort: 1100000
+    - type: OR
+      requiresProficiency: false
+      _id: zytGL9QzEWgFYWnU
+      group: ''
+      sort: 200000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.eZGmdOhaTWMicXPW
+      requiresProficiency: false
+      _id: AK91iiZV4bNGiY86
+      group: zytGL9QzEWgFYWnU
+      sort: 700000
+    - type: focus
+      count: null
+      key: arcane
+      requiresProficiency: false
+      _id: WG3u8ftHjM4H5qXB
+      group: zytGL9QzEWgFYWnU
+      sort: 800000
+    - type: OR
+      requiresProficiency: false
+      _id: GcrUN7eGI5mpqlUw
+      group: ''
+      sort: 300000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.8KWz5DJbWUpNWniP
+      requiresProficiency: false
+      _id: vGcjIuqvPa3UZq2Z
+      group: GcrUN7eGI5mpqlUw
+      sort: 500000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.UOE8RGOpgv2oWIvM
+      requiresProficiency: false
+      _id: hWNArgFafEEAr58z
+      group: GcrUN7eGI5mpqlUw
+      sort: 600000
+    - type: tool
+      count: null
+      key: game
+      requiresProficiency: false
+      _id: OFEhKTkYMGUnjaIN
+      group: ''
+      sort: 400000
   primaryAbility:
     value:
       - int
@@ -569,9 +616,9 @@ _stats:
   exportSource: null
   coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369908354
-  modifiedTime: 1782439856772
+  modifiedTime: 1782515214321
   lastModifiedBy: magehandpress000
 _id: mhpWarmage000001
 sort: 100000

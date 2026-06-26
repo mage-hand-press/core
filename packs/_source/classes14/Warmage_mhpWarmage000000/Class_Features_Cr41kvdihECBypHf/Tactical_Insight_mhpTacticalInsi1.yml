@@ -5,13 +5,13 @@ img: icons/magic/defensive/shield-barrier-blades-teal.webp
 system:
   description:
     value: >-
-      <p>You gain a bonus to saving throws against spells and other magical effects equal to your
-      Intelligence modifier (minimum bonus of +1). You don’t gain this bonus to Intelligence saving
-      throws.</p>
+      <p>At 6th level, you learn how to use ambient magical power to defend yourself from your foes’
+      magical attacks. You can add your Intelligence modifier to saving throws you make against
+      spells and other magical effects that deal damage.</p>
     chat: ''
   source:
     custom: ''
-    book: ''
+    book: Complete Warmage
     page: ''
     license: ''
     revision: 1
@@ -25,14 +25,14 @@ system:
   type:
     value: class
     subtype: ''
-  requirements: ''
+  requirements: Warmage
   properties: []
   activities: {}
   identifier: tactical-insight
   advancement: {}
   enchant: {}
   prerequisites:
-    level: null
+    level: 6
     repeatable: false
     items: []
 effects: []
@@ -40,11 +40,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369908244
-  modifiedTime: 1774369908244
+  modifiedTime: 1782516398933
   lastModifiedBy: magehandpress000
 _id: mhpTacticalInsi1
 sort: 212500

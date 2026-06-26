@@ -5,12 +5,15 @@ img: icons/magic/light/orb-hands-humanoid-yellow.webp
 system:
   description:
     value: >-
-      <p>Whenever you roll Initiative and have no uses of Arcane Surge left, you regain one expended
-      use of it.</p>
+      <p>At 20th level, you reach the pinnacle of your warmage prowess. Whenever you cast a cantrip
+      that deals 4 dice of damage to a target, it instead deals 5 dice of damage (excluding your
+      cantrip bonus dice). If you cast a cantrip that makes 4 attacks, it instead makes 5
+      attacks.</p><p>Whenever you roll Initiative and have no uses of Arcane Surge left, you regain
+      one expended use of it.</p>
     chat: ''
   source:
     custom: ''
-    book: ''
+    book: Complete Warmage
     page: ''
     license: ''
     revision: 1
@@ -24,7 +27,7 @@ system:
   type:
     value: class
     subtype: ''
-  requirements: ''
+  requirements: Warmage
   properties: []
   activities:
     ByCOmfskNpcnLZkF:
@@ -88,7 +91,7 @@ system:
   advancement: {}
   enchant: {}
   prerequisites:
-    level: null
+    level: 20
     repeatable: false
     items: []
 effects:
@@ -131,9 +134,9 @@ _stats:
   exportSource: null
   coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369907731
-  modifiedTime: 1774369907731
+  modifiedTime: 1782516353925
   lastModifiedBy: magehandpress000
 _id: mhpMasterWarmag1
 sort: 125000

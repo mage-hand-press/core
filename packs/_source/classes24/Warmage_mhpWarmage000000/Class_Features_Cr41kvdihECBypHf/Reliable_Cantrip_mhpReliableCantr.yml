@@ -24,7 +24,7 @@ system:
   source:
     revision: 1
     rules: '2024'
-    book: ''
+    book: Complete Warmage
     page: ''
     custom: ''
     license: ''
@@ -33,11 +33,11 @@ system:
   crewed: false
   enchant: {}
   prerequisites:
-    level: null
+    level: 2
     repeatable: false
     items: []
   properties: []
-  requirements: ''
+  requirements: Warmage
   type:
     value: class
     subtype: ''
@@ -49,10 +49,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369904417
-  modifiedTime: 1774369904417
+  modifiedTime: 1782514743742
   lastModifiedBy: magehandpress000
 _key: '!items!mhpReliableCantr'

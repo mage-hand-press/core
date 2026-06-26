@@ -1,6 +1,6 @@
 export function initialize() {
 	if ( !game.settings.get("mage-hand-press-core", "warmage").customization ) return;
-	Object.assign(CONFIG.DND5E.featureTypes.class, featureTypes.class);
+	Object.assign(CONFIG.DND5E.featureTypes.class.subtypes, featureTypes.class);
 }
 
 /* -------------------------------------------- */

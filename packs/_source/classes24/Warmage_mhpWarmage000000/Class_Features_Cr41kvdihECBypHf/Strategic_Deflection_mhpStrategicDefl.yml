@@ -17,7 +17,7 @@ system:
     chat: ''
   source:
     custom: ''
-    book: ''
+    book: Complete Warmage
     page: ''
     license: ''
     revision: 1
@@ -33,7 +33,7 @@ system:
   type:
     value: class
     subtype: ''
-  requirements: ''
+  requirements: Warmage
   properties: []
   activities:
     dnd5eactivity000:
@@ -116,7 +116,7 @@ system:
   advancement: {}
   enchant: {}
   prerequisites:
-    level: null
+    level: 14
     repeatable: false
     items: []
 effects: []
@@ -124,11 +124,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369904703
-  modifiedTime: 1774369904703
+  modifiedTime: 1782514716213
   lastModifiedBy: magehandpress000
 _id: mhpStrategicDefl
 sort: 137500
