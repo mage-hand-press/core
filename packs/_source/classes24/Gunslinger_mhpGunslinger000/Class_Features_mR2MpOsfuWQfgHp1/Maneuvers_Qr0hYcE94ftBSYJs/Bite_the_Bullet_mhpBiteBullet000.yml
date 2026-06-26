@@ -1,0 +1,109 @@
+folder: Qr0hYcE94ftBSYJs
+name: Bite the Bullet
+type: feat
+_id: mhpBiteBullet000
+img: icons/magic/life/heart-shadow-red.webp
+system:
+  activities:
+    wq1Awe82gmVylBq7:
+      type: heal
+      name: Bite the Bullet
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpRisk000000000
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        types:
+          - temphp
+        custom:
+          enabled: true
+          formula: '@scale.gunslinger2024.risk-die + @classes.gunslinger2024.levels'
+        scaling:
+          number: 1
+        number: null
+        denomination: null
+        bonus: ''
+      _id: wq1Awe82gmVylBq7
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><span class="s1">As a Bonus Action, you can expend one Risk Die to gain Temporary Hit
+      Points equal to the number rolled on the die plus your Gunslinger level.</span></p>
+    chat: ''
+  identifier: bite-the-bullet
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 2
+  properties: []
+  requirements: Gunslinger
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254056382
+  modifiedTime: 1775254056382
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpBiteBullet000'

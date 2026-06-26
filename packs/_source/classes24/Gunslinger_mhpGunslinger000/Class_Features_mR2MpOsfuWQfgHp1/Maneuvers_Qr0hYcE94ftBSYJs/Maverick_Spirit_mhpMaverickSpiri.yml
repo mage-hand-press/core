@@ -1,0 +1,104 @@
+folder: Qr0hYcE94ftBSYJs
+name: Maverick Spirit
+type: feat
+_id: mhpMaverickSpiri
+img: icons/magic/control/debuff-energy-hold-blue-yellow.webp
+system:
+  activities:
+    U0sDiGA4kRHJZ8jv:
+      type: utility
+      name: Maverick Spirit
+      _id: U0sDiGA4kRHJZ8jv
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpRisk000000000
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: Maverick Spirit
+        formula: '@scale.gunslinger2024.risk-dice'
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><span class="s1">When you fail an Intelligence, Wisdom, or Charisma ability check or saving
+      throw, you can expend one Risk Die to add it to the roll, potentially turning it into a
+      success. You can only use this maneuver once per turn.</span></p>
+    chat: ''
+  identifier: maverick-spirit
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 2
+  properties: []
+  requirements: Gunslinger
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254055559
+  modifiedTime: 1775254055559
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpMaverickSpiri'

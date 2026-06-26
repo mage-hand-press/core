@@ -1,0 +1,180 @@
+folder: mR2MpOsfuWQfgHp1
+name: Headshot
+type: feat
+_id: mhpHeadshot00000
+img: icons/skills/wounds/injury-eyes-blood-red.webp
+system:
+  activities:
+    egPttS45LL2DL62B:
+      type: damage
+      name: Headshot
+      _id: egPttS45LL2DL62B
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 10
+            denomination: 10
+            bonus: ''
+            types: []
+            scaling:
+              number: 1
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    tp61Q8bOEjgcobLz:
+      type: utility
+      name: Restore Use
+      _id: tp61Q8bOEjgcobLz
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '3'
+            target: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpRisk000000000
+            scaling: {}
+          - type: itemUses
+            value: '-1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
+  advancement: {}
+  description:
+    value: >-
+      <p><span class="s1">When you score a Critical Hit against a creature using a Ranged weapon,
+      you can choose for it to be a Headshot. If the creature has less than 100 Hit Points, it dies.
+      Otherwise, it takes an extra 10d10 damage of the weapon’s type.</span></p><p class="p1"><span
+      class="s1">Once you use this feature, you can’t use it again until you finish a Short or Long
+      Rest. You can also restore your use of it by expending three Risk Dice (no action
+      required).</span></p>
+    chat: ''
+  identifier: headshot
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 20
+  properties:
+    - trait
+  requirements: Gunslinger
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254055642
+  modifiedTime: 1775254055642
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpHeadshot00000'

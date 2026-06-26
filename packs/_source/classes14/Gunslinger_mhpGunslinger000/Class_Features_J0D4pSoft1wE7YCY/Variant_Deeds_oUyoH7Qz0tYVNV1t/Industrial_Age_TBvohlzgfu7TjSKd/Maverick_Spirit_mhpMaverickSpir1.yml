@@ -1,0 +1,111 @@
+folder: TBvohlzgfu7TjSKd
+name: Maverick Spirit
+type: feat
+_id: mhpMaverickSpir1
+img: icons/equipment/head/hat-belted-simple-brown.webp
+system:
+  activities:
+    i2Ce1es3DUO4pOrj:
+      type: utility
+      _id: i2Ce1es3DUO4pOrj
+      sort: 0
+      activation:
+        type: reaction
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpRisk000000001
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: Maverick Spirit
+        formula: '@scale.gunslinger.risk.die'
+      name: ''
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p><span class="s1">As a reaction when you make an Intelligence, Wisdom, or Charisma saving
+      throw, you can expend one risk die and add it to saving throw.</span></p>
+    chat: ''
+  identifier: maverick-spirit
+  source:
+    revision: 1
+    rules: '2014'
+    book: Complete Gunslinger 2014
+    page: '5'
+    custom: ''
+    license: SRD 5.1
+  advancement: {}
+  crewed: false
+  enchant: {}
+  prerequisites:
+    repeatable: false
+    level: 2
+    items: []
+  properties: []
+  requirements: Gunslinger
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254058239
+  modifiedTime: 1775254058239
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpMaverickSpir1'

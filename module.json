@@ -58,7 +58,6 @@
 			"system": "dnd5e",
 			"flags": {
 				"dnd5e": {
-					"sorting": "m",
 					"types": ["class", "feat"]
 				},
 				"mage-hand-press-core": {
@@ -79,7 +78,6 @@
 			"system": "dnd5e",
 			"flags": {
 				"dnd5e": {
-					"sorting": "m",
 					"types": ["class", "feat"]
 				},
 				"mage-hand-press-core": {

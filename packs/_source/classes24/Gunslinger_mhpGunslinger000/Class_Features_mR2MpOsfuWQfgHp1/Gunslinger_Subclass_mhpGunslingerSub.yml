@@ -1,0 +1,50 @@
+name: Gunslinger Subclass
+type: feat
+_id: mhpGunslingerSub
+img: icons/equipment/head/hat-belted-simple.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><span class="s1">You gain a Gunslinger subclass of your choice. A subclass is a
+      specialization that grants you features at certain Gunslinger levels. For the rest of your
+      career, you gain each of your subclass’s features that are of your Gunslinger level or
+      lower.</span></p>
+    chat: ''
+  identifier: gunslinger-subclass
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: Gunslinger
+  type:
+    value: class
+    subtype: ''
+effects: []
+folder: mR2MpOsfuWQfgHp1
+sort: 200000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254055110
+  modifiedTime: 1775254055110
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpGunslingerSub'

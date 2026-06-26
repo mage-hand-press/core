@@ -1,0 +1,19 @@
+type: Item
+folder: mhpGunslinger000
+name: Class Features
+color: null
+sorting: a
+_id: J0D4pSoft1wE7YCY
+description: ''
+sort: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  createdTime: 1753132468736
+  modifiedTime: 1774634813610
+  lastModifiedBy: magehandpress000
+_key: '!folders!J0D4pSoft1wE7YCY'

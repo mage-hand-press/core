@@ -1,0 +1,51 @@
+folder: mR2MpOsfuWQfgHp1
+name: Improved Critical Shot (2)
+type: feat
+_id: mhpImprovedCrit1
+img: icons/skills/ranged/target-bullseye-arrow-blue.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p><span class="s1">At Gunslinger level 17, your attack rolls with Ranged weapons can score a
+      Critical Hit on a roll of 17–20 on the d20.</span></p><section class="secret"
+      id="secret-UpKpwuJ1f37qwRaJ"><p><em><strong>*Foundry Note:</strong></em> This feature is not
+      automated. Each time your Critical Hit range changes you will have to update your weapons to
+      match.</p></section>
+    chat: ''
+  identifier: improved-critical-shot-2
+  source:
+    revision: 1
+    rules: '2024'
+  advancement: {}
+  crewed: false
+  enchant: {}
+  prerequisites:
+    repeatable: false
+    level: 17
+    items: []
+  properties:
+    - trait
+  requirements: Gunslinger
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 900000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254056763
+  modifiedTime: 1775254056763
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpImprovedCrit1'

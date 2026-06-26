@@ -1,0 +1,107 @@
+folder: Qr0hYcE94ftBSYJs
+name: Dodge Roll
+type: feat
+_id: mhpDodgeRoll0000
+img: icons/skills/movement/figure-running-gray.webp
+system:
+  activities:
+    iyfjESWhLll4lFA8:
+      type: utility
+      name: Dodge Roll
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpRisk000000000
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '15'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      _id: iyfjESWhLll4lFA8
+      img: null
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><span class="s1">You can expend one Risk Die as a Bonus Action to move up to 15 feet and
+      reload any Ranged weapon you are holding. This movement doesn’t provoke
+      &amp;Reference[Opportunity Attacks] and is unaffected by &amp;Reference[Difficult
+      Terrain].</span></p>
+    chat: ''
+  identifier: dodge-roll
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 2
+  properties: []
+  requirements: Gunslinger
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254055179
+  modifiedTime: 1775254055179
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpDodgeRoll0000'

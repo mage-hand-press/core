@@ -1,0 +1,53 @@
+folder: mR2MpOsfuWQfgHp1
+name: Weapon Mastery
+type: feat
+_id: mhpWeaponMastery
+img: icons/skills/ranged/rifle-scoped-firing-yellow-green.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p><span class="s1">Your training with weapons allows you to use the
+      @UUID[Compendium.dnd5e.content24.JournalEntry.phbEquipment0000]{mastery properties} of two
+      kinds of Simple or Martial Ranged weapons of your choice. Whenever you finish a Long Rest, you
+      can practice weapon drills and change one of those weapon choices.</span></p><p
+      class="p1"><span class="s1">When you reach certain Gunslinger levels, you gain the ability to
+      use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of
+      the Gunslinger Features table.</span></p>
+    chat: ''
+  identifier: level-1-weapon-mastery
+  source:
+    revision: 1
+    rules: '2024'
+  advancement: {}
+  crewed: false
+  enchant: {}
+  prerequisites:
+    repeatable: false
+    level: 1
+    items: []
+  properties:
+    - trait
+  requirements: Gunslinger
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 700000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254056225
+  modifiedTime: 1775254056225
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpWeaponMastery'

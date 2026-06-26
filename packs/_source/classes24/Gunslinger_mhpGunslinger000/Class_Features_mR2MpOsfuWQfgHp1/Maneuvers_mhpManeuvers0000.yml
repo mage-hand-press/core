@@ -1,0 +1,500 @@
+folder: mR2MpOsfuWQfgHp1
+name: Maneuvers
+type: feat
+_id: mhpManeuvers0000
+img: icons/magic/control/buff-strength-muscle-damage.webp
+system:
+  activities:
+    qoPcBhNpjTsDY6Ke:
+      type: heal
+      name: Bite the Bullet
+      _id: qoPcBhNpjTsDY6Ke
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpRisk000000000
+            scaling: {}
+      description:
+        chatFlavor: >-
+          <strong><em>Bite the Bullet.</em></strong> As a Bonus Action, you can expend one Risk Die
+          to gain Temporary Hit Points equal to the number rolled on the die plus your Gunslinger
+          level.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        types:
+          - temphp
+        custom:
+          enabled: true
+          formula: '@scale.gunslinger2024.risk-die + @classes.gunslinger2024.levels'
+        scaling:
+          number: 1
+        number: null
+        denomination: null
+        bonus: ''
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    TkvTXsabJqCQHYmZ:
+      type: utility
+      name: Blindfire
+      _id: TkvTXsabJqCQHYmZ
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpRisk000000000
+            scaling: {}
+      description:
+        chatFlavor: >-
+          <strong><em>Blindfire.</em></strong> You can take a Bonus Action and expend one Risk Die
+          to gain Blindsight with a range of 30 feet until the end of the current turn.
+      duration:
+        units: turn
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: lt1Zif40t3Ng6IdM
+          level: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    ye46DnfIg6m0VnUX:
+      type: utility
+      name: Dodge Roll
+      _id: ye46DnfIg6m0VnUX
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpRisk000000000
+            scaling: {}
+      description:
+        chatFlavor: >-
+          <strong><em>Dodge Roll.</em></strong> You can expend one Risk Die as a Bonus Action to
+          move up to 15 feet and reload any Ranged weapon you are holding. This movement doesn’t
+          provoke Opportunity Attacks and is unaffected by Difficult Terrain.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '15'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    2iChFtb7Y8Zm3wto:
+      type: damage
+      name: Grazing Shot
+      _id: 2iChFtb7Y8Zm3wto
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: When you miss with a ranged attack roll using a weapon
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpRisk000000000
+            scaling: {}
+      description:
+        chatFlavor: >-
+          <strong><em>Grazing Shot.</em></strong> When you miss with a ranged attack roll using a
+          weapon, you can expend one Risk Die (no action required) to deal damage to that creature
+          equal to a roll of the die plus your Dexterity modifier (minimum of 1). This damage is the
+          same type dealt by the weapon, and the damage can be increased only by increasing the
+          ability modifier. You can only use this maneuver once per turn.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: spec
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: '@scale.gunslinger2024.risk-die + max(1,@abilities.dex.mod)'
+            number: null
+            denomination: null
+            bonus: ''
+            types: []
+            scaling:
+              number: 1
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    gN8B9olonkLB83XT:
+      type: utility
+      name: Maverick Spirit
+      _id: gN8B9olonkLB83XT
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpRisk000000000
+            scaling: {}
+      description:
+        chatFlavor: >-
+          <strong><em>Maverick Spirit.</em></strong> When you fail an Intelligence, Wisdom, or
+          Charisma ability check or saving throw, you can expend one Risk Die to add it to the roll,
+          potentially turning it into a success. You can only use this maneuver once per turn.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: Maverick Spirit
+        formula: '@scale.gunslinger2024.risk-die'
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    iTrvSV203d87wgfG:
+      type: utility
+      name: Skin of Your Teeth
+      _id: iTrvSV203d87wgfG
+      sort: 0
+      activation:
+        type: reaction
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpRisk000000000
+            scaling: {}
+      description:
+        chatFlavor: >-
+          <strong><em>Skin of Your Teeth.</em></strong> When a creature you can see hits you with an
+          attack roll, you can take a Reaction and expend one Risk Die to dodge out of harm’s way.
+          Roll the die and add the number rolled to your AC against this attack, potentially causing
+          it to miss.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: Temporary AC
+        formula: '@attributes.ac.value + @scale.gunslinger2024.risk-die'
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p><span class="s1">The maneuvers are presented in alphabetical order.</span></p><h3><span
+      class="s1">Bite the Bullet</span></h3><p class="p1"><span class="s1">As a Bonus Action, you
+      can expend one Risk Die to gain Temporary Hit Points equal to the number rolled on the die
+      plus your Gunslinger level.</span></p><h3><span class="s1">Blindfire</span></h3><p
+      class="p2"><span class="s1">You can take a Bonus Action and expend one Risk Die to gain
+      &amp;Reference[Blindsight] with a range of 30 feet until the end of the current
+      turn.</span></p><h3><span class="s1">Dodge Roll</span></h3><p class="p2"><span class="s1">You
+      can expend one Risk Die as a Bonus Action to move up to 15 feet and reload any Ranged weapon
+      you are holding. This movement doesn’t provoke &amp;Reference[Opportunity Attacks] and is
+      unaffected by &amp;Reference[Difficult Terrain].</span></p><h3><span class="s1">Grazing
+      Shot</span></h3><p class="p2"><span class="s1">When you miss with a ranged attack roll using a
+      weapon, you can expend one Risk Die (no action required) to deal damage to that creature equal
+      to a roll of the die plus your Dexterity modifier (minimum of 1). This damage is the same type
+      dealt by the weapon, and the damage can be increased only by increasing the ability modifier.
+      You can only use this maneuver once per turn.</span></p><h3><span class="s1">Maverick
+      Spirit</span></h3><p class="p2"><span class="s1">When you fail an Intelligence, Wisdom, or
+      Charisma ability check or saving throw, you can expend one Risk Die to add it to the roll,
+      potentially turning it into a success. You can only use this maneuver once per
+      turn.</span></p><h3><span class="s1">Skin of Your Teeth</span></h3><p class="p2"><span
+      class="s1">When a creature you can see hits you with an attack roll, you can take a Reaction
+      and expend one Risk Die to dodge out of harm’s way. Roll the die and add the number rolled to
+      your AC against this attack, potentially causing it to miss.</span></p><section class="secret"
+      id="secret-zlrrNgMvXeZU7B06"><p><em><strong>*Foundry Note:</strong></em> If you would prefer
+      to have each of your maneuvers separate, I'll include them below. You'll have to drag each one
+      to your character
+      sheet.</p><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpBiteBullet000]{Bite
+      the Bullet} |
+      @UUID[Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpBlindfire0000]{Blindfire}
+      | @UUID[Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpDodgeRoll0000]{Dodge
+      Roll} |
+      @UUID[Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpGrazingShot00]{Grazing
+      Shot} |
+      @UUID[Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpMaverickSpiri]{Maverick
+      Spirit} |
+      @UUID[Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpSkinYourTeeth]{Skin of
+      Your Teeth}</p></section>
+    chat: >-
+      <p><span class="s1">You can perform incredible feats of daring fueled by special dice called
+      Risk Dice.</span></p>
+  identifier: maneuvers
+  source:
+    revision: 1
+    rules: '2024'
+  advancement: {}
+  crewed: false
+  enchant: {}
+  prerequisites:
+    repeatable: false
+    level: 2
+    items: []
+  properties: []
+  requirements: Gunslinger
+  type:
+    value: ''
+    subtype: ''
+effects:
+  - name: Blindfire
+    img: icons/magic/perception/eye-ringed-glow-angry-red.webp
+    origin: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpManeuvers0000
+    transfer: false
+    _id: mhpBlindfire0000
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.senses.blindsight
+        mode: 2
+        value: '30'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: >-
+      <p><span class="s1">You can take a Bonus Action and expend one Risk Die to gain Blindsight
+      with a range of 30 feet until the end of the current turn.</span></p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.3.1
+      lastModifiedBy: null
+    _key: '!items.effects!mhpManeuvers0000.mhpBlindfire0000'
+sort: 500000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254056029
+  modifiedTime: 1775254056029
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpManeuvers0000'

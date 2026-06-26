@@ -1,0 +1,52 @@
+folder: J0D4pSoft1wE7YCY
+name: Extra Attack
+type: feat
+_id: mhpExtraAttack01
+img: icons/skills/ranged/bullets-triple-ball-orange.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p><span class="s1">Beginning at 5th level, you can attack twice, instead of once, whenever
+      you take the Attack action on your turn.</span></p>
+    chat: ''
+  identifier: extra-attack
+  source:
+    revision: 1
+    rules: '2014'
+    book: Complete Gunslinger 2014
+    page: '3'
+    custom: ''
+    license: SRD 5.1
+  advancement: {}
+  crewed: false
+  enchant: {}
+  prerequisites:
+    repeatable: false
+    level: 5
+    items: []
+  properties:
+    - trait
+  requirements: Gunslinger
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254057993
+  modifiedTime: 1775254057993
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpExtraAttack01'

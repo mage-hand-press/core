@@ -1,0 +1,674 @@
+name: Gunslinger
+type: class
+_id: mhpGunslinger001
+img: modules/complete-gunslinger-2014/art/Gunslinger%20Cover%20(1).webp
+system:
+  description:
+    value: >-
+      <p><span class="s1">As a gunslinger, you gain the following class
+      features.</span></p><h3><span class="s1">Hit Points</span></h3><p class="p3"><strong>Hit
+      Dice:</strong><span class="s1"> 1d8 per gunslinger level<br /></span><strong>Hit Points at 1st
+      Level:</strong><span class="s1"> 8 + your Constitution modifier<br /></span><strong>Hit Points
+      at Higher Levels:</strong><span class="s1"> 1d8 (or 5) + your Constitution modifier per
+      gunslinger level after 1st</span></p><h3><span class="s1">Proficiencies</span></h3><p
+      class="p3"><strong>Armor:</strong><span class="s1"> Light armor<br
+      /></span><strong>Weapons:</strong><span class="s1"> Simple weapons, simple firearms, martial
+      firearms<br /></span><strong>Tools:</strong><span class="s1"> One type of gaming set<br
+      /></span><strong>Saving Throws:</strong><span class="s1"> Dexterity, Charisma<br
+      /></span><strong>Skills:</strong><span class="s1"> Choose two from: Acrobatics, Animal
+      Handling, Athletics, Deception, Insight, Intimidation, Perception, Persuasion, Sleight of
+      Hand, and Stealth</span></p>
+    chat: ''
+  identifier: gunslinger
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  startingEquipment:
+    - type: AND
+      requiresProficiency: false
+      _id: wfwiRPElInqfUken
+      group: ''
+      sort: 0
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.0E565kQUBmndJ1a2
+      requiresProficiency: false
+      _id: nVV2joIwZgpu6AJp
+      group: wfwiRPElInqfUken
+      sort: 256250
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.WwdpHLXGX5r8uZu5
+      requiresProficiency: false
+      _id: HFN7vrxyOLtgr5ZQ
+      group: wfwiRPElInqfUken
+      sort: 212500
+    - type: OR
+      requiresProficiency: false
+      _id: 7QzQBDiiXJQQ57Zc
+      group: ''
+      sort: 300000
+    - type: AND
+      requiresProficiency: false
+      _id: DHvRIRLUOvy42xDQ
+      group: 7QzQBDiiXJQQ57Zc
+      sort: 400000
+    - type: linked
+      count: null
+      key: Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpHandgun000001
+      requiresProficiency: false
+      _id: dWGGSob5XNrVuTCO
+      group: DHvRIRLUOvy42xDQ
+      sort: 500000
+    - type: linked
+      count: 10
+      key: Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpBullets000000
+      requiresProficiency: false
+      _id: vtYhhni9kNNOW0sC
+      group: DHvRIRLUOvy42xDQ
+      sort: 600000
+    - type: AND
+      requiresProficiency: false
+      _id: Wvc5f0hyXHPt4tZb
+      group: 7QzQBDiiXJQQ57Zc
+      sort: 700000
+    - type: linked
+      count: null
+      key: Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpRevolver00001
+      requiresProficiency: false
+      _id: HRVgl0t7V58CwDU6
+      group: Wvc5f0hyXHPt4tZb
+      sort: 800000
+    - type: linked
+      count: 10
+      key: Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpBullets000000
+      requiresProficiency: false
+      _id: LETS2Vleyu9M2ygM
+      group: Wvc5f0hyXHPt4tZb
+      sort: 900000
+    - type: AND
+      requiresProficiency: false
+      _id: AMzEc8oAG6YFffMb
+      group: ''
+      sort: 2450000
+    - type: OR
+      requiresProficiency: false
+      _id: 7STfgXQ2K7mljfsD
+      group: AMzEc8oAG6YFffMb
+      sort: 950000
+    - type: linked
+      count: 3
+      key: Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpBullets000000
+      requiresProficiency: false
+      _id: j6RrU9zHKueTFP02
+      group: 7STfgXQ2K7mljfsD
+      sort: 2200000
+    - type: linked
+      count: 3
+      key: Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpShell00000000
+      requiresProficiency: false
+      _id: 4y3QzvLHmnKEXtrP
+      group: 7STfgXQ2K7mljfsD
+      sort: 2300000
+    - type: OR
+      requiresProficiency: false
+      _id: M8oEymTYQv5TbrL5
+      group: AMzEc8oAG6YFffMb
+      sort: 1000000
+    - type: linked
+      count: null
+      key: Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpMusket0000000
+      requiresProficiency: false
+      _id: G8AqWlHgAcSjYL0t
+      group: M8oEymTYQv5TbrL5
+      sort: 1100000
+    - type: linked
+      count: null
+      key: Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpDoubleBarrel1
+      requiresProficiency: false
+      _id: oXlVJ1lu5pKVwjmO
+      group: M8oEymTYQv5TbrL5
+      sort: 1200000
+    - type: linked
+      count: null
+      key: Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpHuntingRifle1
+      requiresProficiency: false
+      _id: GrPE9UaC1ob1BiRp
+      group: M8oEymTYQv5TbrL5
+      sort: 1300000
+    - type: linked
+      count: null
+      key: Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpAssaultRifle1
+      requiresProficiency: false
+      _id: kDSlFReuSFNwEE9E
+      group: M8oEymTYQv5TbrL5
+      sort: 1400000
+    - type: linked
+      count: null
+      key: Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpGrenadeLaunc1
+      requiresProficiency: false
+      _id: y3MAfnHTc73usvXg
+      group: M8oEymTYQv5TbrL5
+      sort: 1500000
+    - type: linked
+      count: null
+      key: Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpAviaRaSunsta1
+      requiresProficiency: false
+      _id: DLm1ndrrK9lV6UgA
+      group: M8oEymTYQv5TbrL5
+      sort: 1600000
+    - type: linked
+      count: null
+      key: Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpIonCannon0001
+      requiresProficiency: false
+      _id: DXl9IJpuPrnyuT29
+      group: M8oEymTYQv5TbrL5
+      sort: 1700000
+    - type: linked
+      count: null
+      key: Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpStandardCarb1
+      requiresProficiency: false
+      _id: h4oWqHl2I70quuXl
+      group: M8oEymTYQv5TbrL5
+      sort: 1800000
+    - type: linked
+      count: null
+      key: Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpConcussionRi1
+      requiresProficiency: false
+      _id: 0epp5K8NPdNIBXG6
+      group: M8oEymTYQv5TbrL5
+      sort: 1900000
+    - type: linked
+      count: null
+      key: Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpExperimentalC
+      requiresProficiency: false
+      _id: buM06SVM8DExnmUs
+      group: M8oEymTYQv5TbrL5
+      sort: 2000000
+    - type: OR
+      requiresProficiency: false
+      _id: TWLrFEeISZoVUzyW
+      group: ''
+      sort: 2475000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.XY8b594Dn7plACLL
+      requiresProficiency: false
+      _id: Tns0NwHukHMgUoWb
+      group: TWLrFEeISZoVUzyW
+      sort: 2500000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.8KWz5DJbWUpNWniP
+      requiresProficiency: false
+      _id: 474xCmAEsjkm6bUt
+      group: TWLrFEeISZoVUzyW
+      sort: 2600000
+  levels: 1
+  primaryAbility:
+    value:
+      - dex
+    all: true
+  hd:
+    additional: ''
+    denomination: d8
+    spent: 0
+  advancement:
+    td5gupouuEoZeULB:
+      type: HitPoints
+      _id: td5gupouuEoZeULB
+      configuration: {}
+      value: {}
+      flags: {}
+      hint: ''
+    Lkb05AAzIo0sgVDd:
+      type: ItemChoice
+      _id: Lkb05AAzIo0sgVDd
+      configuration:
+        allowDrops: false
+        choices:
+          '1':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpAkimbo0000000
+          - uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpBullseye00000
+          - uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpDuelist000000
+          - uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpShotgunner000
+        spell: null
+        type: feat
+        restriction:
+          type: class
+          list: []
+          subtype: fightingStyle
+      value:
+        added: {}
+        replaced: {}
+      title: Fighting Style
+      hint: >-
+        <p>You adopt a particular style of gunfighting as your specialty. Choose one of the
+        following options. You can’t take a Fighting Style option more than once, even if you later
+        get to choose again.</p>
+      flags: {}
+    AdcVITNsEZCeDKET:
+      type: ItemGrant
+      _id: AdcVITNsEZCeDKET
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpFightingStyl1
+          - optional: false
+            uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpQuickDraw0001
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Features
+      hint: ''
+      flags: {}
+    IENl3FCmOSn0VN9n:
+      type: Trait
+      _id: IENl3FCmOSn0VN9n
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - armor:lgt
+        mode: default
+      level: 1
+      title: Armor Proficiency
+      hint: ''
+      value: {}
+      flags: {}
+    FfaxDGaOtI8KxZzI:
+      type: Trait
+      _id: FfaxDGaOtI8KxZzI
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - weapon:sim
+        mode: default
+      level: 1
+      title: Weapon Proficiency
+      hint: ''
+      value: {}
+      flags: {}
+    YoiFwd6QEEGbwzkc:
+      type: Trait
+      _id: YoiFwd6QEEGbwzkc
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:game
+        grants: []
+        mode: default
+      level: 1
+      title: Tool Proficiency
+      hint: ''
+      value: {}
+      flags: {}
+    uLI0bg8dYrxZwtlB:
+      type: Trait
+      _id: uLI0bg8dYrxZwtlB
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - saves:dex
+          - saves:cha
+        mode: default
+      level: 1
+      title: Saving Throws
+      hint: ''
+      value: {}
+      flags: {}
+    YZguQ6BEhPj8Wpk0:
+      type: Trait
+      _id: YZguQ6BEhPj8Wpk0
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 2
+            pool:
+              - skills:acr
+              - skills:ani
+              - skills:ath
+              - skills:dec
+              - skills:ins
+              - skills:itm
+              - skills:prc
+              - skills:per
+              - skills:slt
+              - skills:ste
+        grants: []
+        mode: default
+      level: 1
+      title: Skill Proficiencies
+      hint: ''
+      value: {}
+      flags: {}
+    WyTc60Vk6EFu8Sal:
+      type: ItemGrant
+      _id: WyTc60Vk6EFu8Sal
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpCriticalShot1
+          - optional: false
+            uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpPokerFace0001
+          - optional: false
+            uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpRisk000000001
+          - optional: false
+            uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpDeeds00000000
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: Features
+      hint: ''
+      flags: {}
+    5om5MvN6GgZlbEmD:
+      type: ScaleValue
+      _id: 5om5MvN6GgZlbEmD
+      configuration:
+        identifier: risk
+        type: dice
+        distance:
+          units: ''
+        scale:
+          '2':
+            number: 4
+            faces: 8
+            modifiers: []
+          '6':
+            number: 5
+            faces: 8
+            modifiers: []
+          '10':
+            number: 5
+            faces: 10
+            modifiers: []
+          '14':
+            number: 6
+            faces: 10
+            modifiers: []
+          '18':
+            number: 6
+            faces: 12
+            modifiers: []
+      value: {}
+      title: Risk Dice
+      hint: ''
+      flags: {}
+    9KqJJTSwX2udS5E6:
+      type: ItemGrant
+      _id: 9KqJJTSwX2udS5E6
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpGunslingersCr
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Features
+      hint: ''
+      flags: {}
+    gseWQxwLfU5m8JU7:
+      type: Subclass
+      _id: gseWQxwLfU5m8JU7
+      configuration: {}
+      value:
+        document: null
+        uuid: null
+      level: 3
+      title: ''
+      hint: ''
+      flags: {}
+    cbtehQ959F20x80Z:
+      type: AbilityScoreImprovement
+      _id: cbtehQ959F20x80Z
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: null
+      value:
+        type: asi
+      level: 4
+      title: ''
+      hint: ''
+      flags: {}
+    oTb1UfVGCEuCfNBk:
+      type: AbilityScoreImprovement
+      _id: oTb1UfVGCEuCfNBk
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: null
+      value:
+        type: asi
+      level: 8
+      title: ''
+      hint: ''
+      flags: {}
+    fl2Wu383MVUmUW3m:
+      type: AbilityScoreImprovement
+      _id: fl2Wu383MVUmUW3m
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: null
+      value:
+        type: asi
+      level: 12
+      title: ''
+      hint: ''
+      flags: {}
+    aSTrfV0Gw7d18Rjh:
+      type: AbilityScoreImprovement
+      _id: aSTrfV0Gw7d18Rjh
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: null
+      value:
+        type: asi
+      level: 16
+      title: ''
+      hint: ''
+      flags: {}
+    W2bHXr0Q06A6VFDD:
+      type: AbilityScoreImprovement
+      _id: W2bHXr0Q06A6VFDD
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: null
+      value:
+        type: asi
+      level: 19
+      title: ''
+      hint: ''
+      flags: {}
+    vspqTQewRREqJSTP:
+      type: ItemGrant
+      _id: vspqTQewRREqJSTP
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpExtraAttack01
+        optional: false
+        spell: null
+      value: {}
+      level: 5
+      title: Features
+      hint: ''
+      flags: {}
+    jya49jKyJDrBHN8D:
+      type: ItemGrant
+      _id: jya49jKyJDrBHN8D
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpGutShot000001
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Features
+      hint: ''
+      flags: {}
+    29USWVyoZMG57YUO:
+      type: ItemGrant
+      _id: 29USWVyoZMG57YUO
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpMankiller0000
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      title: Features
+      hint: ''
+      flags: {}
+    dAa9ryLwUuInVFAJ:
+      type: ItemGrant
+      _id: dAa9ryLwUuInVFAJ
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpDireGambit001
+        optional: false
+        spell: null
+      value: {}
+      level: 13
+      title: Features
+      hint: ''
+      flags: {}
+    uRyZvyHg1f8xITu2:
+      type: ItemGrant
+      _id: uRyZvyHg1f8xITu2
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpCheatDeath001
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Features
+      hint: ''
+      flags: {}
+    unNbdHTGWGRT4md2:
+      type: ItemGrant
+      _id: unNbdHTGWGRT4md2
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpMaverick00000
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Features
+      hint: ''
+      flags: {}
+    PGVgTwgoCoa2ZlLo:
+      type: ItemGrant
+      _id: PGVgTwgoCoa2ZlLo
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpHeadShot00000
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: Features
+      hint: ''
+      flags: {}
+    d51IlRncYZkBUU3Z:
+      type: ItemGrant
+      _id: d51IlRncYZkBUU3Z
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpEvasion000001
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Features
+      hint: ''
+      flags: {}
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+  wealth: ''
+  properties: []
+effects: []
+folder: mhpGunslinger000
+sort: 100000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254057106
+  modifiedTime: 1775254057106
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpGunslinger001'

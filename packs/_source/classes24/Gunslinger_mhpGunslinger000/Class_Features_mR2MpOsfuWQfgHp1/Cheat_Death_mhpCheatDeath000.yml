@@ -1,0 +1,116 @@
+folder: mR2MpOsfuWQfgHp1
+name: Cheat Death
+type: feat
+_id: mhpCheatDeath000
+img: icons/magic/death/hand-dirt-undead-zombie.webp
+system:
+  activities:
+    mGCkFkzfgkt57tK7:
+      type: heal
+      _id: mGCkFkzfgkt57tK7
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: When you are reduced to 0 Hit Points and not killed outright
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: 1 + @classes.gunslinger2024.levels
+        scaling:
+          number: 1
+        number: null
+        denomination: null
+        bonus: ''
+      name: ''
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
+  advancement: {}
+  description:
+    value: >-
+      <p><span class="s1">When you are reduced to 0 Hit Points and not killed </span><span
+      class="s2">outright, you can drop to 1 Hit Point instead, and you regain </span><span
+      class="s1">a number of Hit Points equal to your Gunslinger level.</span></p><p
+      class="p1"><span class="s1">Once you use this feature, you can’t use it again until you finish
+      a Short or Long Rest.</span></p>
+    chat: ''
+  identifier: cheat-death
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 13
+  properties:
+    - trait
+  requirements: Gunslinger
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254056466
+  modifiedTime: 1775254056466
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpCheatDeath000'

@@ -1,0 +1,48 @@
+folder: mR2MpOsfuWQfgHp1
+name: Extra Attack
+type: feat
+_id: mhpExtraAttack00
+img: icons/skills/ranged/bullets-triple-ball-ice-blue.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><span class="s1">You can attack twice instead of once whenever you take the Attack action
+      on your turn.</span></p>
+    chat: ''
+  identifier: extra-attack
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 5
+  properties:
+    - trait
+  requirements: Gunslinger
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254055034
+  modifiedTime: 1775254055034
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpExtraAttack00'

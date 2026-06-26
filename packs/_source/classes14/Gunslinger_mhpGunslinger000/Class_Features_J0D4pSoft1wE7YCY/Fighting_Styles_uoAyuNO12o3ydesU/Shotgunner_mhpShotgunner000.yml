@@ -1,0 +1,54 @@
+folder: uoAyuNO12o3ydesU
+name: Shotgunner
+type: feat
+_id: mhpShotgunner000
+img: icons/weapons/guns/gun-double-barrel.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p><span class="s1">When you hit with a ranged weapon attack using a firearm that has the
+      Scatter property, you can reroll the lowest damage die, and you must use the new roll, even if
+      the new roll is worse than the original.</span></p><p>[[/damage 1d4]] | [[/damage 1d6]] |
+      [[/damage 1d8]] | [[/damage 1d10]] | [[/damage 1d12]]</p>
+    chat: ''
+  identifier: shotgunner
+  source:
+    revision: 1
+    rules: '2014'
+    book: Complete Gunslinger 2014
+    page: '3'
+    custom: ''
+    license: SRD 5.1
+  advancement: {}
+  crewed: false
+  enchant: {}
+  prerequisites:
+    repeatable: false
+    level: 1
+    items: []
+  properties:
+    - trait
+  requirements: Gunslinger Fighting Style
+  type:
+    value: class
+    subtype: fightingStyle
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254057175
+  modifiedTime: 1775254057175
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpShotgunner000'

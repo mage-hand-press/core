@@ -1,0 +1,145 @@
+folder: Qr0hYcE94ftBSYJs
+name: Blindfire
+type: feat
+_id: mhpBlindfire0000
+img: icons/magic/perception/eye-ringed-glow-angry-large-red.webp
+system:
+  activities:
+    9dQ0lD5wLLCArVjv:
+      type: utility
+      name: Blindfire
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpRisk000000000
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: turn
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: oH7Abfigw5Bd6jxt
+          level: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      _id: 9dQ0lD5wLLCArVjv
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><span class="s1">You can take a Bonus Action and expend one Risk Die to gain
+      &amp;Reference[Blindsight] with a range of 30 feet until the end of the current
+      turn.</span></p>
+    chat: ''
+  identifier: blindfire
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 2
+  properties: []
+  requirements: Gunslinger
+  type:
+    value: ''
+    subtype: ''
+effects:
+  - name: Blindfire
+    img: icons/magic/perception/eye-ringed-glow-angry-large-red.webp
+    origin: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpBlindfire0000
+    transfer: false
+    _id: mhpBlindfire0000
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.senses.blindsight
+        mode: 2
+        value: '30'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.3.1
+      lastModifiedBy: null
+    _key: '!items.effects!mhpBlindfire0000.mhpBlindfire0000'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254055313
+  modifiedTime: 1775254055313
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpBlindfire0000'

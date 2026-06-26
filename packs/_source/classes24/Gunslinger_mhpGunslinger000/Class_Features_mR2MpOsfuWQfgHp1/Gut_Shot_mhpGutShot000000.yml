@@ -1,0 +1,148 @@
+folder: mR2MpOsfuWQfgHp1
+name: Gut Shot
+type: feat
+_id: mhpGutShot000000
+img: icons/skills/wounds/injury-pain-body-orange.webp
+system:
+  activities:
+    3xRSYJ5dd2iJzNf3:
+      type: utility
+      name: Gut Shot
+      _id: 3xRSYJ5dd2iJzNf3
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: seOhSt5tiTZvW00x
+          level: {}
+      range:
+        units: spec
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><span class="s1">Whenever you score a Critical Hit against a Large or smaller creature with
+      a ranged attack using a weapon, the projectile lodges itself in the target. For 1 minute or
+      until the target replaces one of its attacks with dislodging the projectile, its Speed is
+      halved and it has <strong>Disadvantage</strong> on attack rolls.</span></p>
+    chat: ''
+  identifier: gut-shot
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 5
+  properties: []
+  requirements: Gunslinger
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Gut Shot
+    img: icons/skills/wounds/injury-pain-body-orange.webp
+    origin: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpGutShot000000
+    transfer: false
+    _id: mhpGutShot000000
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.walk
+        mode: 1
+        value: '0.5'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p><span class="s1">Whenever you score a Critical Hit against a Large or smaller creature with
+      a ranged attack using a weapon, the projectile lodges itself in the target. For 1 minute or
+      until the target replaces one of its attacks with dislodging the projectile, its Speed is
+      halved and it has Disadvantage on attack rolls.</span></p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.3.1
+      lastModifiedBy: null
+    _key: '!items.effects!mhpGutShot000000.mhpGutShot000000'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254055228
+  modifiedTime: 1775254055228
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpGutShot000000'

@@ -1,0 +1,825 @@
+name: Gunslinger
+type: class
+_id: mhpGunslinger000
+img: systems/dnd5e/icons/svg/items/class.svg
+system:
+  description:
+    value: "<table><caption>Core Gunslinger Traits</caption><tbody><tr><th><p>Primary Ability</p></th><td><p>Dexterity</p></td></tr><tr><th><p>Hit Point Die</p></th><td><p>D8 per Gunslinger level</p></td></tr><tr><th><p>Saving Throw Proficiencies</p></th><td><p>Dexterity and Charisma</p></td></tr><tr><th><p>Skill Proficiencies</p></th><td><p><em>Choose 2:</em> Acrobatics, Animal Handling, Athletics, Deception, Insight, Intimidation, Perception, Persuasion, Sleight of Hand, and Stealth</p></td></tr><tr><th><p>Weapon Proficiencies</p></th><td><p>Simple weapons and Martial Ranged weapons</p></td></tr><tr><th><p>Armor Training</p></th><td><p>Light armor</p></td></tr><tr><th><p>Starting Equipment</p></th><td><p><em>Choose A or B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbarmLeatherArm]{Leather Armor}, 2 @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Daggers}, @UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpRevolver00000]{Revolver}, 50 @UUID[Compendium.dnd5e.equipment24.Item.phbamoBulletsFir]{Bullets}, @UUID[Compendium.dnd5e.equipment24.Item.phbagExplorersPa]{Explorer’s Pack}, and 11 GP; or (B) 175 GP</p></td></tr></tbody></table><p><span class=\"s1\">Risk is in a Gunslinger’s blood. They are bold renegades, bucking tradition and forging a new path with dangerous and inelegant firearms. Gunslingers are infamous for surviving by their wits and relying on split-second timing and a considerable amount of luck to survive.</span></p><p></p><h2>Becoming a Gunslinger</h2><h3>As a Level 1 Character</h3><ul><li><p><span class=\"s1\">Gain all of the traits in the Core Gunslinger Traits table.</span><span class=\"Apple-converted-space\">\_</span></p></li><li><p><span class=\"s1\">Gain the Gunslinger’s level 1 features, which are listed in the Gunslinger Features table.</span></p></li></ul><h3><span class=\"s1\">As a Multiclass Character</span></h3><ul><li><p class=\"p2\"><span class=\"s1\">Gain the following traits from the Core Gunslinger Traits table: Hit Point Die, and proficiency with Martial Ranged weapons.</span></p></li><li><p class=\"p2\"><span class=\"s1\">Gain the Gunslinger’s level 1 features, which are listed in the Gunslinger Features table.</span></p></li></ul>"
+    chat: ''
+  identifier: gunslinger
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  startingEquipment:
+    - type: AND
+      requiresProficiency: false
+      _id: gxoUYR7ziDTWXo1J
+      group: ''
+      sort: 600000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.equipment24.Item.phbarmLeatherArm
+      requiresProficiency: false
+      _id: NGVadvNbt4zxLCI6
+      group: gxoUYR7ziDTWXo1J
+      sort: -100000
+    - type: linked
+      count: 2
+      key: Compendium.dnd5e.equipment24.Item.phbwepDagger0000
+      requiresProficiency: false
+      _id: LIxzrNG493V2UiCf
+      group: gxoUYR7ziDTWXo1J
+      sort: 0
+    - type: linked
+      count: null
+      key: Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpRevolver00000
+      requiresProficiency: false
+      _id: J7EwJVu0M5u8LoS7
+      group: gxoUYR7ziDTWXo1J
+      sort: 50000
+    - type: linked
+      count: 50
+      key: Compendium.dnd5e.equipment24.Item.phbamoBulletsFir
+      requiresProficiency: false
+      _id: qyjqv7HJAr61NprU
+      group: gxoUYR7ziDTWXo1J
+      sort: 100000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.equipment24.Item.phbagExplorersPa
+      requiresProficiency: false
+      _id: lkQMK3zqSb4xj6KT
+      group: gxoUYR7ziDTWXo1J
+      sort: 350000
+    - type: currency
+      count: 11
+      key: gp
+      requiresProficiency: false
+      _id: FbNeKkq9Tp39RfAP
+      group: gxoUYR7ziDTWXo1J
+      sort: 700000
+  levels: 1
+  primaryAbility:
+    value:
+      - dex
+    all: true
+  hd:
+    additional: ''
+    denomination: d8
+    spent: 0
+  advancement:
+    xvGwIdmHxXQwiLEq:
+      type: HitPoints
+      _id: xvGwIdmHxXQwiLEq
+      configuration: {}
+      value: {}
+      title: ''
+      hint: ''
+      flags: {}
+    8VTCacYZvf0tUKgJ:
+      type: AbilityScoreImprovement
+      _id: 8VTCacYZvf0tUKgJ
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: null
+      value:
+        type: asi
+      level: 8
+      title: ''
+      hint: ''
+      flags: {}
+    INNXjenI4jt6MsOf:
+      type: AbilityScoreImprovement
+      _id: INNXjenI4jt6MsOf
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: null
+      value:
+        type: asi
+      level: 12
+      title: ''
+      hint: ''
+      flags: {}
+    pSU1xUJLxy8KLzyd:
+      type: AbilityScoreImprovement
+      _id: pSU1xUJLxy8KLzyd
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: null
+      value:
+        type: asi
+      level: 16
+      title: ''
+      hint: ''
+      flags: {}
+    VAD58OeasJstDdID:
+      type: Trait
+      _id: VAD58OeasJstDdID
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - saves:dex
+          - saves:cha
+        mode: default
+      level: 1
+      title: ''
+      hint: ''
+      classRestriction: primary
+      value: {}
+      flags: {}
+    75K3B6YpNO6lOJX4:
+      type: Trait
+      _id: 75K3B6YpNO6lOJX4
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 2
+            pool:
+              - skills:acr
+              - skills:ani
+              - skills:ath
+              - skills:dec
+              - skills:ins
+              - skills:itm
+              - skills:prc
+              - skills:per
+              - skills:slt
+              - skills:ste
+        grants: []
+        mode: default
+      level: 1
+      title: ''
+      hint: ''
+      classRestriction: primary
+      value: {}
+      flags: {}
+    Q07XUxz6P6U3OwtF:
+      type: Trait
+      _id: Q07XUxz6P6U3OwtF
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - weapon:sim
+          - weapon:mar:antimatterCarbine
+          - weapon:mar:assaultRifle
+          - weapon:mar:blitzCannon
+          - weapon:mar:blowgun
+          - weapon:mar:blunderbuss
+          - weapon:mar:cannon
+          - weapon:mar:concussionRifle
+          - weapon:mar:duelingLaser
+          - weapon:mar:gatlingGun
+          - weapon:mar:grenadeLauncher
+          - weapon:mar:handcrossbow
+          - weapon:mar:heavycrossbow
+          - weapon:mar:longbow
+          - weapon:mar:magnum
+          - weapon:mar:magnus
+          - weapon:mar:musket
+          - weapon:mar:pistol
+          - weapon:mar:plasmaLauncher
+          - weapon:mar:pumpShotgun
+          - weapon:mar:recGun
+          - weapon:mar:repeater
+          - weapon:mar:sniperRifle
+          - weapon:mar:submachineGun
+          - weapon:mar:swarmPistol
+        mode: default
+      level: 1
+      title: ''
+      hint: Simple weapons and Martial Ranged weapons
+      classRestriction: primary
+      value: {}
+      flags: {}
+    QoHknsk5ZT4RMy0f:
+      type: Trait
+      _id: QoHknsk5ZT4RMy0f
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - armor:lgt
+        mode: default
+      level: 1
+      title: ''
+      hint: ''
+      classRestriction: primary
+      value: {}
+      flags: {}
+    yNhsgU9dHe0c524A:
+      type: ScaleValue
+      _id: yNhsgU9dHe0c524A
+      configuration:
+        identifier: risk
+        type: dice
+        distance:
+          units: ''
+        scale:
+          '2':
+            number: 4
+            faces: 8
+            modifiers: []
+          '6':
+            number: 5
+            faces: 8
+            modifiers: []
+          '10':
+            number: 5
+            faces: 10
+            modifiers: []
+          '14':
+            number: 6
+            faces: 10
+            modifiers: []
+          '18':
+            number: 6
+            faces: 12
+            modifiers: []
+      value: {}
+      title: Risk Dice
+      hint: ''
+      flags: {}
+    12sbfrfUSGPmoiiO:
+      type: Subclass
+      _id: 12sbfrfUSGPmoiiO
+      configuration: {}
+      value:
+        document: null
+        uuid: null
+      level: 3
+      title: ''
+      hint: ''
+      flags: {}
+    qHxzTd4tzyTIV9Lb:
+      type: Trait
+      _id: qHxzTd4tzyTIV9Lb
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - weapon:mar:antimatterCarbine
+          - weapon:mar:assaultRifle
+          - weapon:mar:blitzCannon
+          - weapon:mar:blowgun
+          - weapon:mar:blunderbuss
+          - weapon:mar:cannon
+          - weapon:mar:concussionRifle
+          - weapon:mar:duelingLaser
+          - weapon:mar:gatlingGun
+          - weapon:mar:grenadeLauncher
+          - weapon:mar:handcrossbow
+          - weapon:mar:heavycrossbow
+          - weapon:mar:longbow
+          - weapon:mar:magnum
+          - weapon:mar:magnus
+          - weapon:mar:musket
+          - weapon:mar:pistol
+          - weapon:mar:plasmaLauncher
+          - weapon:mar:pumpShotgun
+          - weapon:mar:recGun
+          - weapon:mar:repeater
+          - weapon:mar:sniperRifle
+          - weapon:mar:submachineGun
+          - weapon:mar:swarmPistol
+        mode: default
+      level: 1
+      title: ''
+      hint: Martial Ranged weapons
+      classRestriction: secondary
+      value: {}
+      flags: {}
+    7Daqs36Z6A7BhvW5:
+      type: AbilityScoreImprovement
+      _id: 7Daqs36Z6A7BhvW5
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: null
+        max: null
+      value:
+        type: asi
+      level: 4
+      title: ''
+      hint: >-
+        You gain the Ability Score Improvement feat or another feat of your choice for which you
+        qualify. You gain this feature again at Gunslinger levels 8, 12, and 16.
+      flags: {}
+    UZGQt1NzHp9eUnCU:
+      type: ItemGrant
+      _id: UZGQt1NzHp9eUnCU
+      configuration:
+        items:
+          - uuid: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpFightingStyle
+            optional: false
+          - uuid: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpQuickDraw0000
+            optional: false
+          - uuid: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpWeaponMastery
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Features
+      hint: ''
+      flags: {}
+    9Q4c9APl2HOcYF9H:
+      type: ScaleValue
+      _id: 9Q4c9APl2HOcYF9H
+      configuration:
+        identifier: masteries
+        type: number
+        distance:
+          units: ''
+        scale:
+          '1':
+            value: 2
+          '4':
+            value: 3
+          '10':
+            value: 4
+      value: {}
+      title: Weapon Masteries Known
+      hint: ''
+      flags: {}
+    Qc926Rb6mmrwGLhm:
+      type: ItemGrant
+      _id: Qc926Rb6mmrwGLhm
+      configuration:
+        items:
+          - uuid: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpCriticalShot0
+            optional: false
+          - uuid: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpRisk000000000
+            optional: false
+          - uuid: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpManeuvers0000
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: Features
+      hint: ''
+      flags: {}
+    5hMZWRrKNcOPDTlU:
+      type: ItemGrant
+      _id: 5hMZWRrKNcOPDTlU
+      configuration:
+        items:
+          - uuid: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpGunslingerSub
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Features
+      hint: ''
+      flags: {}
+    FGOypWXREjHEMNNp:
+      type: ItemGrant
+      _id: FGOypWXREjHEMNNp
+      configuration:
+        items:
+          - uuid: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpImprovedCriti
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 9
+      title: Features
+      hint: ''
+      flags: {}
+    3tGd8dL5uhyNhnFB:
+      type: ItemGrant
+      _id: 3tGd8dL5uhyNhnFB
+      configuration:
+        items:
+          - uuid: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpImprovedCrit1
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Features
+      hint: ''
+      flags: {}
+    VGraK54iAUfpFSh1:
+      type: ItemGrant
+      _id: VGraK54iAUfpFSh1
+      configuration:
+        items:
+          - uuid: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpExtraAttack00
+            optional: false
+          - uuid: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpGutShot000000
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 5
+      title: Features
+      hint: ''
+      flags: {}
+    Wz4DrZtqIyntHaSc:
+      type: ItemGrant
+      _id: Wz4DrZtqIyntHaSc
+      configuration:
+        items:
+          - uuid: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpEvasion000000
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Features
+      hint: ''
+      flags: {}
+    1UNAgfSmwbPP8oI8:
+      type: ItemGrant
+      _id: 1UNAgfSmwbPP8oI8
+      configuration:
+        items:
+          - uuid: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpOverkill00000
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      title: Features
+      hint: ''
+      flags: {}
+    xywOJn25qQvnOlN2:
+      type: ItemGrant
+      _id: xywOJn25qQvnOlN2
+      configuration:
+        items:
+          - uuid: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpCheatDeath000
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 13
+      title: Features
+      hint: ''
+      flags: {}
+    Dx1cNIOWDRv7BCMh:
+      type: ItemGrant
+      _id: Dx1cNIOWDRv7BCMh
+      configuration:
+        items:
+          - uuid: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpDireGambit000
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Features
+      hint: ''
+      flags: {}
+    cGfSbLfJCGaipEJW:
+      type: ItemChoice
+      _id: cGfSbLfJCGaipEJW
+      configuration:
+        allowDrops: true
+        choices:
+          '1':
+            count: 1
+            replacement: false
+          '2':
+            count: null
+            replacement: true
+          '3':
+            count: null
+            replacement: true
+          '4':
+            count: null
+            replacement: true
+          '5':
+            count: null
+            replacement: true
+          '6':
+            count: null
+            replacement: true
+          '7':
+            count: null
+            replacement: true
+          '8':
+            count: null
+            replacement: true
+          '9':
+            count: null
+            replacement: true
+          '10':
+            count: null
+            replacement: true
+          '11':
+            count: null
+            replacement: true
+          '12':
+            count: null
+            replacement: true
+          '13':
+            count: null
+            replacement: true
+          '14':
+            count: null
+            replacement: true
+          '15':
+            count: null
+            replacement: true
+          '16':
+            count: null
+            replacement: true
+          '17':
+            count: null
+            replacement: true
+          '18':
+            count: null
+            replacement: true
+          '19':
+            count: null
+            replacement: true
+          '20':
+            count: null
+            replacement: true
+        pool: []
+        restriction:
+          list: []
+          type: feat
+          subtype: fightingStyle
+        spell: null
+        type: feat
+      value:
+        added: {}
+        replaced: {}
+      title: Fighting Style
+      hint: ''
+      flags: {}
+    TMqHtYoNuBRYZPu0:
+      type: Trait
+      _id: TMqHtYoNuBRYZPu0
+      configuration:
+        allowReplacements: true
+        choices:
+          - count: 2
+            pool:
+              - weapon:sim:antimatterPistol
+              - weapon:sim:aviaRaSunstaff
+              - weapon:sim:boltCaster
+              - weapon:sim:dart
+              - weapon:sim:doubleBarrelShotgun
+              - weapon:sim:flareGun
+              - weapon:sim:handgun
+              - weapon:sim:huntingRifle
+              - weapon:sim:ionCannon
+              - weapon:sim:lightcrossbow
+              - weapon:sim:parlorGun
+              - weapon:sim:phaser
+              - weapon:sim:revolver
+              - weapon:sim:shortbow
+              - weapon:sim:sling
+              - weapon:sim:standardCarbine
+              - weapon:mar:antimatterCarbine
+              - weapon:mar:assaultRifle
+              - weapon:mar:blitzCannon
+              - weapon:mar:blowgun
+              - weapon:mar:blunderbuss
+              - weapon:mar:cannon
+              - weapon:mar:concussionRifle
+              - weapon:mar:duelingLaser
+              - weapon:mar:gatlingGun
+              - weapon:mar:grenadeLauncher
+              - weapon:mar:handcrossbow
+              - weapon:mar:heavycrossbow
+              - weapon:mar:longbow
+              - weapon:mar:magnum
+              - weapon:mar:magnus
+              - weapon:mar:musket
+              - weapon:mar:pistol
+              - weapon:mar:plasmaLauncher
+              - weapon:mar:pumpShotgun
+              - weapon:mar:recGun
+              - weapon:mar:repeater
+              - weapon:mar:sniperRifle
+              - weapon:mar:submachineGun
+              - weapon:mar:swarmPistol
+        grants: []
+        mode: mastery
+      level: 1
+      title: Weapon Mastery
+      hint: Choose two Simple or Martial Ranged weapons
+      value: {}
+      flags: {}
+    tq5pOsfRuaAaIRMp:
+      type: Trait
+      _id: tq5pOsfRuaAaIRMp
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - weapon:sim:antimatterPistol
+              - weapon:sim:aviaRaSunstaff
+              - weapon:sim:boltCaster
+              - weapon:sim:dart
+              - weapon:sim:doubleBarrelShotgun
+              - weapon:sim:flareGun
+              - weapon:sim:handgun
+              - weapon:sim:huntingRifle
+              - weapon:sim:ionCannon
+              - weapon:sim:lightcrossbow
+              - weapon:sim:parlorGun
+              - weapon:sim:phaser
+              - weapon:sim:revolver
+              - weapon:sim:shortbow
+              - weapon:sim:sling
+              - weapon:sim:standardCarbine
+              - weapon:mar:antimatterCarbine
+              - weapon:mar:assaultRifle
+              - weapon:mar:blitzCannon
+              - weapon:mar:blowgun
+              - weapon:mar:blunderbuss
+              - weapon:mar:cannon
+              - weapon:mar:concussionRifle
+              - weapon:mar:duelingLaser
+              - weapon:mar:gatlingGun
+              - weapon:mar:grenadeLauncher
+              - weapon:mar:handcrossbow
+              - weapon:mar:heavycrossbow
+              - weapon:mar:longbow
+              - weapon:mar:magnum
+              - weapon:mar:magnus
+              - weapon:mar:musket
+              - weapon:mar:pistol
+              - weapon:mar:plasmaLauncher
+              - weapon:mar:pumpShotgun
+              - weapon:mar:recGun
+              - weapon:mar:repeater
+              - weapon:mar:sniperRifle
+              - weapon:mar:submachineGun
+              - weapon:mar:swarmPistol
+        grants: []
+        mode: mastery
+      level: 4
+      title: Weapon Mastery
+      hint: >-
+        <p>When you reach certain Gunslinger levels, you gain the ability to use the mastery
+        properties of more kinds of weapons, as shown in the Weapon Mastery column of the Gunslinger
+        Features table.</p>
+      value: {}
+      flags: {}
+    qMXuVbiJl81ALu0C:
+      type: Trait
+      _id: qMXuVbiJl81ALu0C
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - weapon:sim:antimatterPistol
+              - weapon:sim:aviaRaSunstaff
+              - weapon:sim:boltCaster
+              - weapon:sim:dart
+              - weapon:sim:doubleBarrelShotgun
+              - weapon:sim:flareGun
+              - weapon:sim:handgun
+              - weapon:sim:huntingRifle
+              - weapon:sim:ionCannon
+              - weapon:sim:lightcrossbow
+              - weapon:sim:parlorGun
+              - weapon:sim:phaser
+              - weapon:sim:revolver
+              - weapon:sim:shortbow
+              - weapon:sim:sling
+              - weapon:sim:standardCarbine
+              - weapon:mar:antimatterCarbine
+              - weapon:mar:assaultRifle
+              - weapon:mar:blitzCannon
+              - weapon:mar:blowgun
+              - weapon:mar:blunderbuss
+              - weapon:mar:cannon
+              - weapon:mar:concussionRifle
+              - weapon:mar:duelingLaser
+              - weapon:mar:gatlingGun
+              - weapon:mar:grenadeLauncher
+              - weapon:mar:handcrossbow
+              - weapon:mar:heavycrossbow
+              - weapon:mar:longbow
+              - weapon:mar:magnum
+              - weapon:mar:magnus
+              - weapon:mar:musket
+              - weapon:mar:pistol
+              - weapon:mar:plasmaLauncher
+              - weapon:mar:pumpShotgun
+              - weapon:mar:recGun
+              - weapon:mar:repeater
+              - weapon:mar:sniperRifle
+              - weapon:mar:submachineGun
+              - weapon:mar:swarmPistol
+        grants: []
+        mode: mastery
+      level: 10
+      title: Weapon Mastery
+      hint: >-
+        When you reach certain Gunslinger levels, you gain the ability to use the mastery properties
+        of more kinds of weapons, as shown in the Weapon Mastery column of the Gunslinger Features
+        table.
+      value: {}
+      flags: {}
+    ZeQ9j2VeqiRWmJcu:
+      type: AbilityScoreImprovement
+      _id: ZeQ9j2VeqiRWmJcu
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: Compendium.dnd5e.feats24.Item.phbBoonofIrresis
+        max: null
+      value:
+        type: asi
+      level: 19
+      title: ''
+      hint: ''
+      flags: {}
+    8nWCQjo6s1qAVsnt:
+      type: ItemGrant
+      _id: 8nWCQjo6s1qAVsnt
+      configuration:
+        items:
+          - uuid: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpHeadshot00000
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: Features
+      hint: ''
+      flags: {}
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+  wealth: '175'
+  properties: []
+effects: []
+folder: mhpGunslinger000
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254056056
+  modifiedTime: 1775254056056
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpGunslinger000'

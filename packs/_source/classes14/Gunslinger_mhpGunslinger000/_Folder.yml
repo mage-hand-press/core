@@ -1,0 +1,19 @@
+type: Item
+folder: null
+name: Gunslinger
+color: null
+sorting: a
+_id: mhpGunslinger000
+description: ''
+sort: -100000
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1782442218397
+  modifiedTime: 1782442221458
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!mhpGunslinger000'

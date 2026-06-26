@@ -1,0 +1,55 @@
+folder: J0D4pSoft1wE7YCY
+name: Gut Shot
+type: feat
+_id: mhpGutShot000001
+img: icons/skills/wounds/injury-pain-body-orange.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p><span class="s1">Starting at 6th level, whenever you score a critical hit against a Large
+      or smaller creature with a firearm, the bullet lodges itself in the target. Until the creature
+      uses its action to dislodge the bullet, it moves at half speed and has
+      <strong>disadvantage</strong> on attack rolls and ability checks. Elementals, Oozes, and
+      Undead are immune to this effect.</span></p>
+    chat: ''
+  identifier: gut-shot
+  source:
+    revision: 1
+    rules: '2014'
+    book: Complete Gunslinger 2014
+    page: '3'
+    custom: ''
+    license: SRD 5.1
+  advancement: {}
+  crewed: false
+  enchant: {}
+  prerequisites:
+    repeatable: false
+    level: 6
+    items: []
+  properties:
+    - trait
+  requirements: Gunslinger
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254057225
+  modifiedTime: 1775254057225
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpGutShot000001'

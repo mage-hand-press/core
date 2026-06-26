@@ -1,0 +1,52 @@
+folder: J0D4pSoft1wE7YCY
+name: Gunslinger's Creed
+type: feat
+_id: mhpGunslingersCr
+img: icons/equipment/head/hat-belted-simple-brown.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p><span class="s1">By the time gunslingers reach 3rd level, they embrace a way of living,
+      known as their creed, which guides their judgments and their unique brand of gunslinging. Your
+      choice grants you features at 3rd level and again at 7th, 10th, and 14th level.</span></p>
+    chat: ''
+  identifier: gunslingers-creed
+  source:
+    revision: 1
+    rules: '2014'
+    book: Complete Gunslinger 2014
+    page: '3'
+    custom: ''
+    license: SRD 5.1
+  advancement: {}
+  crewed: false
+  enchant: {}
+  prerequisites:
+    repeatable: false
+    level: null
+    items: []
+  properties: []
+  requirements: Gunslinger
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254057068
+  modifiedTime: 1775254057068
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpGunslingersCr'

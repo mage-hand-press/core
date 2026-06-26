@@ -1,0 +1,122 @@
+folder: J0D4pSoft1wE7YCY
+name: Cheat Death
+type: feat
+_id: mhpCheatDeath001
+img: icons/magic/death/hand-dirt-undead-zombie.webp
+system:
+  activities:
+    0Z1TpsRU4hV23FoK:
+      type: heal
+      _id: 0Z1TpsRU4hV23FoK
+      sort: 0
+      activation:
+        type: reaction
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: risk
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: sr
+            type: recoverAll
+        max: '1'
+      healing:
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: '@scale.gunslinger.risk.die'
+        scaling:
+          number: 1
+        number: null
+        denomination: null
+        bonus: ''
+      name: ''
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p><span class="s1">By 15th level, you have a knack for evading the grave. When you drop to 0
+      hit points and don’t die outright, you can use your reaction and expend one risk die to remain
+      standing. You instead drop to a number of hit points equal to the number rolled on the
+      die.</span></p><p class="p1"><span class="s1">Once you use this feature, you can’t use it
+      again until you finish a short or long rest.</span></p>
+    chat: ''
+  identifier: cheat-death
+  source:
+    revision: 1
+    rules: '2014'
+    book: Complete Gunslinger 2014
+    page: '3'
+    custom: ''
+    license: SRD 5.1
+  advancement: {}
+  crewed: false
+  enchant: {}
+  prerequisites:
+    repeatable: false
+    level: 15
+    items: []
+  properties: []
+  requirements: Gunslinger
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254057024
+  modifiedTime: 1775254057024
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpCheatDeath001'

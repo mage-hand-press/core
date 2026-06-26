@@ -1,0 +1,113 @@
+folder: TBvohlzgfu7TjSKd
+name: Fancy Gunplay
+type: feat
+_id: mhpFancyGunplay1
+img: icons/weapons/guns/gun-pistol-flintlock-metal.webp
+system:
+  activities:
+    T2NkWERhw0BBlU6l:
+      type: utility
+      _id: T2NkWERhw0BBlU6l
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpRisk000000001
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: Fancy Gunplay
+        formula: '@scale.gunslinger.risk.die'
+      name: ''
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p><span class="s1">You can impressively twirl your weapons to impress others. Whenever you
+      make a Charisma (Performance) check or a Dexterity (Sleight of Hand) check using one of your
+      ranged weapons, you can expend a risk die and add it to the ability check.</span></p>
+    chat: ''
+  identifier: fancy-gunplay
+  source:
+    revision: 1
+    rules: '2014'
+    book: Complete Gunslinger 2014
+    page: '5'
+    custom: ''
+    license: SRD 5.1
+  advancement: {}
+  crewed: false
+  enchant: {}
+  prerequisites:
+    repeatable: false
+    level: 2
+    items: []
+  properties:
+    - trait
+  requirements: Gunslinger
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 100000
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254056942
+  modifiedTime: 1775254056942
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpFancyGunplay1'

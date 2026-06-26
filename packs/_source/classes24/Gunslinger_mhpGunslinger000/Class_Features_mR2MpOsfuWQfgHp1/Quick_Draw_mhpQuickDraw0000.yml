@@ -1,0 +1,46 @@
+folder: mR2MpOsfuWQfgHp1
+name: Quick Draw
+type: feat
+_id: mhpQuickDraw0000
+img: icons/magic/control/silhouette-aura-energy.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: "<p><span class=\"s1\">You’re adept at drawing and firing before others have time to react, granting you the following benefits.</span></p><p><span class=\"s1\"><em><strong>Initiative.</strong></em> You have <strong>Advantage</strong> on Initiative rolls.</span><span class=\"Apple-converted-space\">\_</span></p><p class=\"p1\"><span class=\"s1\"><em><strong>Double Draw.</strong></em> You can draw or stow two weapons that lack the Two-Handed property when you would normally be able to draw or stow only one.</span></p>"
+    chat: ''
+  identifier: level-1-quick-draw
+  source:
+    revision: 1
+    rules: '2024'
+  advancement: {}
+  crewed: false
+  enchant: {}
+  prerequisites:
+    repeatable: false
+    level: null
+    items: []
+  properties:
+    - trait
+  requirements: Gunslinger
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 100000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254055269
+  modifiedTime: 1775254055269
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpQuickDraw0000'

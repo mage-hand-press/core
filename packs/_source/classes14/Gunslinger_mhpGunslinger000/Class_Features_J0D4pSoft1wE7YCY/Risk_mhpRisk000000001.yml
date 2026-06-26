@@ -1,0 +1,125 @@
+folder: J0D4pSoft1wE7YCY
+name: Risk
+type: feat
+_id: mhpRisk000000001
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+system:
+  activities:
+    xjmo4tEARA3TpTUx:
+      type: utility
+      name: Risk Dice
+      _id: xjmo4tEARA3TpTUx
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '@scale.gunslinger.risk.number'
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '@scale.gunslinger.risk.number'
+  description:
+    value: >-
+      <p><span class="s1">By 2nd level, you can perform incredible feats of daring that are fueled
+      by special dice called risk dice.</span></p><h3><span class="s1">Risk Dice</span></h3><p
+      class="p1"><span class="s1">You have four risk dice, which are d8s. You gain additional risk
+      dice, and your risk dice change as you gain levels in this class, as shown in the Risk Dice
+      column of the Gunslinger table. You regain all expended risk dice when you finish a long
+      rest.</span></p><h3><span class="s1">Using Risk Dice</span></h3><p class="p1"><span
+      class="s1">Once per turn, you can expend a risk die to perform a deed of your choice. Your
+      deed options are detailed
+      @UUID[Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpDeeds00000000]{here}.</span></p><h3><span
+      class="s1">Saving Throws</span></h3><p class="p1"><span class="s1">Some of your deeds require
+      your target to make a saving throw to resist the deed’s effects. The saving throw DC is
+      calculated as follows:</span></p><p class="p3" style="text-align:center"><span
+      class="s1"><em><strong>Deed save DC</strong> = 8 + your proficiency bonus + your Dexterity
+      modifier</em></span></p><p></p><section id="secret-0vU9F8p3TBM6wnDz"
+      class="secret"><p><em><strong>*Foundry Note: </strong></em>This feature tracks the number of
+      Risk Die uses and will automatically scale by level. </p></section>
+    chat: ''
+  identifier: risk
+  source:
+    revision: 1
+    rules: '2014'
+    book: Complete Gunslinger 2014
+    page: '3'
+    custom: ''
+    license: SRD 5.1
+  advancement: {}
+  crewed: false
+  enchant: {}
+  prerequisites:
+    repeatable: false
+    level: 2
+    items: []
+  properties: []
+  requirements: Gunslinger
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254057721
+  modifiedTime: 1775254057721
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpRisk000000001'

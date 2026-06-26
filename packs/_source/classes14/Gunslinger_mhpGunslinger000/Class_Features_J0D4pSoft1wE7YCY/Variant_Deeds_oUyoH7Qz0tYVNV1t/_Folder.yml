@@ -1,0 +1,17 @@
+type: Item
+folder: J0D4pSoft1wE7YCY
+name: Variant Deeds
+color: null
+sorting: a
+_id: oUyoH7Qz0tYVNV1t
+description: ''
+sort: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  lastModifiedBy: null
+_key: '!folders!oUyoH7Qz0tYVNV1t'

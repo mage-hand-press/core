@@ -1,0 +1,52 @@
+folder: uoAyuNO12o3ydesU
+name: Akimbo
+type: feat
+_id: mhpAkimbo0000000
+img: icons/skills/ranged/bullets-triple-ball-orange.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p><span class="s1">When you engage in two-weapon fighting with firearms, you don’t take a
+      penalty to the damage of the second attack.</span></p>
+    chat: ''
+  identifier: akimbo
+  source:
+    revision: 1
+    rules: '2014'
+    book: Complete Gunslinger 2014
+    page: '2'
+    custom: ''
+    license: SRD 5.1
+  advancement: {}
+  crewed: false
+  enchant: {}
+  prerequisites:
+    repeatable: false
+    level: 1
+    items: []
+  properties:
+    - trait
+  requirements: Gunslinger Fighting Style
+  type:
+    value: class
+    subtype: fightingStyle
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254056932
+  modifiedTime: 1775254056932
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpAkimbo0000000'
