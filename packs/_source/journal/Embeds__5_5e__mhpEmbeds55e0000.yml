@@ -1,0 +1,613 @@
+name: Embeds (5.5e)
+_id: mhpEmbeds55e0000
+pages:
+  - sort: 75000
+    name: Blade Cantrips and Warmages
+    type: text
+    _id: mhpBladeCantrips
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <section class="fvtt advice"><figure class="icon"><img class="round"
+        src="icons/magic/symbols/question-stone-yellow.webp" /></figure><article><h3
+        data-no-toc>Blade Cantrips and Warmages</h3><p>The weapon damage dealt by <em>Arc
+        Blade</em>, <em>Burning Blade</em>, <em>Frigid Blade</em>, and <em>True Strike</em> count as
+        cantrip damage for the purposes of your Warmage features.</p></article></section>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: mhpWarmage000000
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: magehandpress000
+      modifiedTime: 1774371969576
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpBladeCantrips'
+  - sort: 175000
+    name: Tricks with Enchantments
+    type: text
+    _id: mhpTrickswithEnc
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <section class="fvtt advice"><figure class="icon"><img class="round"
+        src="icons/magic/symbols/question-stone-yellow.webp" /></figure><article><h3
+        data-no-toc>Tricks with Enchantments</h3><p>Warmage tricks that modify existing spells
+        contain an Enchant activity that can be used to apply an Enchantment to the modified spell.
+        When gaining this trick, use its Enchant activity and then drag the appropriate spell from
+        the <strong>Spells</strong> tab on your character sheet onto the chat card created.</p><p>To
+        remove the modification simply open the enchanted spell, change to the
+        <strong>Effects</strong> tab and right click on the enchantment where you can disable or
+        delete it.</p></article></section>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: mhpWarmage000000
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: magehandpress000
+      modifiedTime: 1774371971893
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpTrickswithEnc'
+  - sort: 200000
+    name: Blinding Light
+    type: text
+    _id: mhpBlindingLight
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>When you cast the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLight00000]{Light}</em>
+        cantrip on an object you are holding, you can direct a flare at a creature you can see
+        within 10 feet of yourself, which must make a Constitution saving throw against your spell
+        save DC. On a failed save, the target has the &amp;Reference[Blinded] condition until the
+        start of your next turn. A creature that fails its save against this effect is immune to it
+        for 1 minute, after which it can be affected again.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: mhpWarmage000000
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: magehandpress000
+      modifiedTime: 1774371872912
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpBlindingLight'
+  - sort: 300000
+    name: Encryptogram
+    type: text
+    _id: mhpEncryptogram0
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Your knowledge of ciphers has improved your magically clandestine communications. When
+        you cast the
+        <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpCryptogram000]{Cryptogram}</em>
+        cantrip, its limit is 20 characters, instead of 8, and you can choose to magically encrypt
+        the message such that only the specified recipient can read it.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: mhpWarmage000000
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: magehandpress000
+      modifiedTime: 1774371874854
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpEncryptogram0'
+  - sort: 400000
+    name: Infinite Variation
+    type: text
+    _id: mhpInfiniteVaria
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>You have become exceptionally skilled at using the
+        <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitation}</em> cantrip to
+        mimic other spells. When you cast <em>Prestidigitation</em>, you can attempt to emulate the
+        effects of another cantrip that doesn’t deal damage, even one that is not on the Warmage
+        spell list. To do so, you must succeed on a [[/check]] check, otherwise the spell fails.
+        Intelligence is your spellcasting ability for a cantrip cast using this trick, and it counts
+        as a Warmage cantrip for you.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: mhpWarmage000000
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: magehandpress000
+      modifiedTime: 1774371880312
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpInfiniteVaria'
+  - sort: 500000
+    name: Mage Hand Knack
+    type: text
+    _id: mhpMageHandKnack
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Your skill with the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMageHand00]{Mage
+        Hand}</em> cantrip allows you to use it as an extension of yourself. You can cast the spell
+        as a Bonus Action instead of an action. You can also control the hand as a Bonus Action on
+        each of your turns, and can use one of the following abilities when you control the
+        hand.</p><p><strong>Press.</strong> The hand pushes against a Large or smaller creature
+        within 5 feet of it until the start of your next turn. Choose a direction away from that
+        creature. Every foot of movement in that direction while the hand is pressing against it
+        costs the creature 1 extra foot of movement.</p><p><strong>Punch.</strong> The hand strikes
+        one creature or object within 5 feet of it. Make a melee spell attack for the hand. On a
+        hit, the target takes [[/damage]] damage.</p><p><strong>Seize.</strong> The hand attempts to
+        grapple a Small or smaller creature within 5 feet of it. The target must succeed on a
+        [[/save]] saving throw against your spell save DC (it chooses which), or it has the Grappled
+        condition. The escape DC equals your spell save DC. The hand continues grappling the target
+        until the spell ends or you take a Bonus Action to control the hand.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: mhpWarmage000000
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: magehandpress000
+      modifiedTime: 1774371882883
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpMageHandKnack'
+  - sort: 600000
+    name: Magic Moment
+    type: text
+    _id: mhpMagicMoment00
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>When you cast
+        <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpMomenttoThink]{Moment
+        to Think}</em>, you can choose to also stop time for a creature you can see within 30 feet
+        of you. The creature can take one of the actions permitted by the spell during your turn,
+        and you can interact with one another while time is stopped. During this time you can take
+        the Influence action, exchange items, swap locations with a willing creature within 5 feet
+        of you, take the Help action for tasks while time is stopped, attempt to stabilize an
+        Unconscious creature that has 0 Hit Points, or have a short conversation without
+        eavesdropping or interruption.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: mhpWarmage000000
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: magehandpress000
+      modifiedTime: 1774371885955
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpMagicMoment00'
+  - sort: 700000
+    name: Minor Shadow Illusion
+    type: text
+    _id: mhpMinorShadowIl
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>When you create the image of an object in an unoccupied space using the
+        <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMinorIllus]{Minor Illusion}</em> cantrip, you
+        can fill it with fibers of shadowstuff, causing it to become partially real. No matter what
+        form the semi-real object takes, it still must be no larger than a 5-foot Cube. It has AC 10
+        and 5 Hit Points, and it weighs 5 pounds. You can only have one semi-real illusion at a
+        time. While this semi-real object exists, the cantrip requires Concentration.</p><p>The
+        illusion can’t replicate a creature, but it can deal damage to a creature within its 5-foot
+        Cube if the illusion is of an object that can deal damage. A creature that enters the
+        illusion’s area or begins its turn there must make an Intelligence saving throw against your
+        spell save DC. On a failed save, the creature takes [[/damage]]{1d6} damage of a type
+        appropriate to the illusion. This damage can’t trigger Warmage Edge or any Warmage tricks.
+        This damage increases by 1d6 when you reach Warmage level 5 (2d6), 11 (3d6), and 17
+        (4d6).</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: mhpWarmage000000
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: magehandpress000
+      modifiedTime: 1774371888700
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpMinorShadowIl'
+  - sort: 800000
+    name: Mystical Athlete (springheel)
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>When you cast the
+        <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpringheel000]{Springheel}</em>
+        cantrip, your jumping distance increases by 20 feet instead of 10 feet. If you know the
+        <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpQuickstep0000]{Quickstep}</em>
+        cantrip, you can cast it as part of the same bonus action.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: mhpWarmage000000
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: magehandpress000
+      modifiedTime: 1782517944877
+      createdTime: 1782517944877
+    _id: mhpMysticalAthSp
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpMysticalAthSp'
+  - sort: 850000
+    name: Mystical Athlete (quickstep)
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>When you cast the
+        <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpQuickstep0000]{Quickstep}</em>
+        cantrip, your speed increases by 20 feet instead of 10 feet. If you know the
+        <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpringheel000]{Springheel}</em>
+        cantrip, you can cast it as part of the same bonus action.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: mhpWarmage000000
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: magehandpress000
+      modifiedTime: 1782517924167
+      createdTime: 1782517924167
+    _id: mhpMysticalAthQu
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpMysticalAthQu'
+  - sort: 900000
+    name: Phantom Hookshot
+    type: text
+    _id: mhpPhantomHooksh
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>You can cast the
+        <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpPhantomGrapne]{Phantom
+        Grapnel}</em> cantrip as a Bonus Action. If you do so, its range is reduced to 15 feet. When
+        you cast the spell as an action, the target is pulled an additional 10 feet toward you by
+        the spell.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: mhpWarmage000000
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: magehandpress000
+      modifiedTime: 1774371980144
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpPhantomHooksh'
+  - sort: 1000000
+    name: Rapid Fortification
+    type: text
+    _id: mhpRapidFortific
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>You can cast the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]{Mending}</em>
+        cantrip as an action or a Bonus Action. If you cast it as an action, you can use one of the
+        following effects.</p><p><strong>Repair.</strong> You can restore a single nonmagical
+        object, such as a door, Cart, or window, to pristine condition if at least half of its parts
+        are present. This object can be no larger than 10 cubic feet, or 1 cubic foot if it is
+        exceptionally complex (such as a clock).</p><p><strong>Fortify.</strong> You can build
+        simple fortifications, such as sealing a door shut, adding wooden planks to a window, or
+        building a short stone wall (no larger than 10 cubic feet). You must have the materials
+        present to use this ability.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: mhpWarmage000000
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: magehandpress000
+      modifiedTime: 1774371984205
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpRapidFortific'
+  - sort: 350000
+    name: Field Medic
+    type: text
+    _id: mhpFieldMedic000
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>You learn the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSparetheDy]{Spare the
+        Dying}</em> cantrip. You can cast this cantrip as a Bonus Action. Additionally, when you
+        cast it on a creature that has 0 Hit Points, the target regains 1 Hit Point and gains
+        Temporary Hit Points equal to your Warmage level, which last for 1 minute.</p><p>Once a
+        creature regains Hit Points from this trick, it can’t do so again until it finishes a Long
+        Rest.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: mhpWarmage000000
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: magehandpress000
+      modifiedTime: 1774371877516
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpFieldMedic000'
+  - sort: 850000
+    name: Mystical Retort
+    type: text
+    _id: mhpMysticalRetor
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>You learn the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplViciousMoc]{Vicious
+        Mockery}</em> cantrip. Additionally, when a creature you can see makes an attack roll
+        against you, you take a Reaction to cast <em>Vicious Mockery</em> targeting the attacker. If
+        the creature fails its saving throw, the attacker has Disadvantage on the triggering attack
+        roll, instead of its next attack roll, potentially causing the attack to miss.</p><p>Once
+        you cast this cantrip as a Reaction, you can’t do so again until you finish a Short or Long
+        Rest.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: mhpWarmage000000
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: magehandpress000
+      modifiedTime: 1774371977744
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpMysticalRetor'
+  - sort: 1100000
+    name: Force Aegis
+    type: text
+    _id: mhpForceAegis000
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>When you cast the
+        <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpForceBuckler0]{Force
+        Buckler}</em> cantrip, you can concentrate on it for up to 1 minute. The spell doesn’t end
+        early if you are hit by an attack.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: mhpWarmage000000
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: magehandpress000
+      modifiedTime: 1774371987010
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpForceAegis000'
+  - sort: 1200000
+    name: Mystical Weaponmaster
+    type: text
+    _id: mhpMysticalWeapo
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>When you cast
+        <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpForceWeapon00]{Force
+        Weapon}</em> or
+        <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpMagicDaggers1]{Magic
+        Daggers}</em>, you can take a Bonus Action to make one additional spell attack with that
+        cantrip.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: mhpWarmage000000
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: magehandpress000
+      modifiedTime: 1774371990381
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpMysticalWeapo'
+folder: null
+categories:
+  - name: Warmage
+    sort: 1300000
+    _id: mhpWarmage000000
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+    _key: '!journal.categories!mhpEmbeds55e0000.mhpWarmage000000'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 6.0.0
+  createdTime: 1782430563289
+  modifiedTime: 1782430563290
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!mhpEmbeds55e0000'
