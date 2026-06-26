@@ -1,0 +1,55 @@
+folder: fR0vGRqUipnxeUJn
+name: Leading Edge Tactics
+type: feat
+img: icons/skills/melee/strike-axe-energy-pink.webp
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: Coalition Warmage or House of Lancers</em></p><p>You always have a plan
+      when engaging the enemy. Attacks against you have Disadvantage during the first round of
+      combat. You can’t use this trick if you have Disadvantage on your Initiative roll.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: warmageTrick
+  requirements: ''
+  properties: []
+  activities: {}
+  identifier: leading-edge-tactics
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items:
+      - house-of-lancers
+      - coalition-arcanist
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369907637
+  modifiedTime: 1774369907637
+  lastModifiedBy: magehandpress000
+_id: mhpLeadingEdgeT1
+sort: 1800000
+ownership:
+  default: 0
+_key: '!items!mhpLeadingEdgeT1'

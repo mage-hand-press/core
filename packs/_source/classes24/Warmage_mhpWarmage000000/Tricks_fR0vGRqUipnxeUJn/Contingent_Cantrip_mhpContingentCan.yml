@@ -1,0 +1,107 @@
+folder: fR0vGRqUipnxeUJn
+name: Contingent Cantrip
+type: feat
+_id: mhpContingentCan
+img: icons/magic/time/clock-spinning-gold-pink.webp
+system:
+  activities:
+    h7NlPAVrOFc9oyzz:
+      type: utility
+      _id: h7NlPAVrOFc9oyzz
+      sort: 0
+      activation:
+        type: minute
+        override: false
+        condition: ''
+        value: 10
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      img: null
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>When you finish a Long Rest, you can spend 10 minutes performing a ritual to create a
+      Contingent Cantrip. Cast a Warmage cantrip that has a casting time of an action or Bonus
+      Action and doesn’t deal damage. The cantrip doesn’t take effect immediately, but instead it
+      takes effect the next time you speak a specified command word (no action required). When you
+      perform this ritual, choose whether the cantrip targets you, the nearest ally, or the nearest
+      enemy. You can’t use Warmage tricks on the cantrip when it comes into effect. You can only
+      have one Contingent Cantrip at a time. If you perform this ritual again, the previous
+      Contingent Cantrip ends.</p>
+    chat: ''
+  identifier: contingent-cantrip
+  source:
+    revision: 1
+    rules: '2024'
+  advancement: {}
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: warmageTrick
+effects: []
+sort: 500000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369903236
+  modifiedTime: 1774369903236
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpContingentCan'

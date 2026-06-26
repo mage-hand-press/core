@@ -1,0 +1,157 @@
+folder: fR0vGRqUipnxeUJn
+name: Capture
+type: feat
+_id: mhpCapture000000
+img: icons/commodities/gems/pearl-rough-white.webp
+system:
+  activities:
+    zKL7uVzsXgNpM4I1:
+      type: save
+      _id: zKL7uVzsXgNpM4I1
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: xms5fdjV8D02LlQj
+          level: {}
+          onSave: false
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: none
+        parts: []
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      img: null
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
+  advancement: {}
+  description:
+    value: >-
+      <p><em>Prerequisite: Level 10+ Warmage, House of Go</em></p><p>You gain the following
+      formation: Capture. You can use this formation when you and three or more allies that don’t
+      have the &amp;Reference[Incapacitated apply=false] condition are adjacent to an enemy and
+      surround it. You can determine this by placing an imaginary cube around the enemy. If you and
+      your allies are adjacent to each side of the cube, the creature is surrounded.</p><p>When you
+      activate this formation, the enemy must make a Dexterity saving throw against your spell save
+      DC or be enveloped by chains of magical force and have the &amp;Reference[Stunned] condition
+      for 1 minute. The Stunned target repeats the save at the end of each of its turns, ending the
+      condition on itself and this formation on a success.</p><p>Once you use this trick, you can’t
+      use it again until you finish a Short or Long Rest.</p>
+    chat: ''
+  identifier: capture
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - house-of-go
+    repeatable: false
+    level: 10
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: warmageTrick
+effects:
+  - name: Captured
+    img: icons/commodities/gems/pearl-rough-white.webp
+    origin: Compendium.mage-hand-press-core.class24.Item.mhpCapture000000
+    transfer: false
+    _id: mhpCaptured00000
+    type: base
+    system:
+      changes: []
+    disabled: false
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    tint: '#ffffff'
+    statuses:
+      - stunned
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
+    showIcon: 2
+    start: null
+    folder: null
+    _key: '!items.effects!mhpCapture000000.mhpCaptured00000'
+sort: 300000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369903069
+  modifiedTime: 1774369903069
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpCapture000000'

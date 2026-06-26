@@ -1,0 +1,19 @@
+name: Tricks
+sorting: a
+folder: mhpWarmage000000
+type: Item
+_id: fR0vGRqUipnxeUJn
+description: ''
+sort: 100000
+color: '#9e7a31'
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 4.3.0
+  createdTime: 1782439870565
+  modifiedTime: 1782440699422
+  lastModifiedBy: magehandpress000
+  exportSource: null
+_key: '!folders!fR0vGRqUipnxeUJn'

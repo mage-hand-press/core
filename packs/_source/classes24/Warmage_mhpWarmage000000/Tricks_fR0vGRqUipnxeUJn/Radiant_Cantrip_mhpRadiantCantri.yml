@@ -1,0 +1,50 @@
+folder: fR0vGRqUipnxeUJn
+name: Radiant Cantrip
+type: feat
+_id: mhpRadiantCantri
+img: icons/magic/holy/projectiles-blades-salvo-yellow.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>Once on each of your turns, when you cast a Warmage cantrip that deals Acid, Cold, Fire,
+      Force, Lightning, Poison, or Thunder damage, you can change the damage type to
+      Radiant.</p><p>When you deal Radiant damage with a Warmage cantrip, you can reroll one of the
+      cantrip’s damage dice, and you must use the new roll. The number of damage dice you can reroll
+      increases by 1 when you reach Warmage levels 11 (2 dice) and 17 (3 dice).</p>
+    chat: ''
+  identifier: radiant-cantrip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: warmageTrick
+effects: []
+sort: 1300000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369904389
+  modifiedTime: 1774369904389
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpRadiantCantri'

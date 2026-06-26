@@ -1,0 +1,73 @@
+folder: she62G4IwQURbt1a
+name: Self-Taught
+type: feat
+img: icons/magic/light/beam-rays-blue-large.webp
+system:
+  description:
+    value: >-
+      <p>You taught yourself all the fundamentals of magic from a dusty old tome or abandoned
+      scroll. You learn the @UUID[Compendium.dnd5e.spells24.Item.phbsplFireBolt00]{Fire Bolt} and
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplLight00000]{Light} cantrips and you gain
+      proficiency in one skill of your choice.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: arcaneInitiation
+  requirements: ''
+  properties: []
+  activities: {}
+  identifier: self-taught
+  advancement:
+    iTuVs8TWa2OJHd14:
+      type: ItemGrant
+      _id: iTuVs8TWa2OJHd14
+      configuration:
+        items: []
+        optional: false
+        spell:
+          ability: []
+          method: warmage
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      value: {}
+      level: 1
+      title: Initiation Spells
+      hint: ''
+      flags: {}
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369907994
+  modifiedTime: 1774369907994
+  lastModifiedBy: magehandpress000
+_id: mhpSelfTaught001
+sort: 400000
+ownership:
+  default: 0
+_key: '!items!mhpSelfTaught001'

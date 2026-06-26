@@ -1,0 +1,58 @@
+folder: Cr41kvdihECBypHf
+name: Warmage Edge
+type: feat
+img: icons/magic/fire/orbs-silhouette-sun.webp
+system:
+  description:
+    value: >-
+      <p>Once per turn when you cast a Warmage cantrip, you can improve the spell, gaining the
+      following benefits.</p><p><strong>Intelligence to Damage.</strong> Add your Intelligence
+      modifier to one damage roll of the spell if you don’t already add it.</p><p><strong>Improved
+      Cantrip Upgrade.</strong> Starting at Warmage level 5, you improve one damage roll of the
+      spell, adding extra dice to the damage roll as shown on the Cantrip Bonus Dice column of the
+      Warmage Features table.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+      - period: turn
+        type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  requirements: ''
+  properties: []
+  activities: {}
+  identifier: warmage-edge
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    level: 1
+    repeatable: false
+    items: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369908370
+  modifiedTime: 1774369908370
+  lastModifiedBy: magehandpress000
+_id: mhpWarmageEdge01
+sort: 250000
+ownership:
+  default: 0
+_key: '!items!mhpWarmageEdge01'

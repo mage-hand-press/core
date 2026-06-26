@@ -1,0 +1,73 @@
+folder: Cr41kvdihECBypHf
+name: Arcane Initiation
+type: feat
+img: icons/sundries/books/book-open-brown.webp
+system:
+  description:
+    value: >-
+      <p>Choose where you first learned the basics of
+      magic.</p><p><em><strong>Adventurer</strong>.</em>
+      @Embed[Compendium.mage-hand-press-core.class24.Item.mhpAdventurer000
+      inline]</p><p><em><strong>Arcane Event.</strong></em>
+      @Embed[Compendium.mage-hand-press-core.class24.Item.mhpArcaneEvent00
+      inline]</p><p><em><strong>Circus Performer.</strong></em>
+      @Embed[Compendium.mage-hand-press-core.class24.Item.mhpCircusPerform
+      inline]</p><p><em><strong>Mercenary.</strong></em>
+      @Embed[Compendium.mage-hand-press-core.class24.Item.mhpMercenary0000
+      inline]</p><p><em><strong>Temple Initiate.</strong></em>
+      @Embed[Compendium.mage-hand-press-core.class24.Item.mhpTempleInitiat
+      inline]</p><p><em><strong>Tower Apprentice.</strong></em>
+      @Embed[Compendium.mage-hand-press-core.class24.Item.mhpTowerApprenti
+      inline]</p><p><em><strong>Self-Taught.</strong></em>
+      @Embed[Compendium.mage-hand-press-core.class24.Item.mhpSelfTaught000
+      inline]</p><p><em><strong>Survivalist.</strong></em>
+      @Embed[Compendium.mage-hand-press-core.class24.Item.mhpSurvival00000 inline]</p><section
+      class="fvtt advice"><figure class="icon"><img class="round"
+      src="icons/sundries/books/book-open-brown.webp" /></figure><article><h3>Making Your Own
+      Initiation</h3><p>You can work with your GM to create an Arcane Initiation to suit your
+      character’s background. Choose two cantrips of your choice from any class’s spell list; one
+      cantrip should be suitable for combat, and the other for utility. Avoid choosing cantrips that
+      are otherwise exclusive to another spellcaster. Also choose one skill.</p></article></section>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2024'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: ''
+  properties: []
+  activities: {}
+  identifier: arcane-initiation
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369902892
+  modifiedTime: 1774369902892
+  lastModifiedBy: magehandpress000
+_id: mhpArcaneInitiat
+sort: 200000
+ownership:
+  default: 0
+_key: '!items!mhpArcaneInitiat'

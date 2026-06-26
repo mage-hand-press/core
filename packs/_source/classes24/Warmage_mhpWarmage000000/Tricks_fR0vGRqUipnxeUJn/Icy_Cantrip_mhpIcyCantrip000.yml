@@ -1,0 +1,54 @@
+folder: fR0vGRqUipnxeUJn
+name: Icy Cantrip
+type: feat
+img: icons/magic/water/barrier-ice-wall-explosion.webp
+system:
+  description:
+    value: >-
+      <p>Once on each of your turns, when you deal Cold damage to a creature with a Warmage cantrip,
+      you can numb the target with a frigid blast. The first time the target makes an attack roll
+      before the end of its next turn, subtract half your Warmage level
+      ([[floor(@classes.warmage.levels / 2)]]) from the attack roll.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2024'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: warmageTrick
+  requirements: ''
+  properties: []
+  activities: {}
+  identifier: icy-cantrip
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369903902
+  modifiedTime: 1774369903902
+  lastModifiedBy: magehandpress000
+_id: mhpIcyCantrip000
+sort: 3500000
+ownership:
+  default: 0
+_key: '!items!mhpIcyCantrip000'

@@ -1,0 +1,55 @@
+folder: fR0vGRqUipnxeUJn
+name: Blackjack
+type: feat
+_id: mhpBlackjack0000
+img: icons/sundries/gaming/playing-cards-brown.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p><em>Prerequisite: House of Cards, House of Darts, House of Dice, or House of
+      Roulette</em></p><p>When you cast a cantrip that requires a single spell attack roll and you
+      don’t have Disadvantage on the roll, you can choose to roll with Advantage. The attack
+      automatically misses if the sum of the two rolled dice exceeds 21, and it scores a Critical
+      Hit if the sum equals 21.</p>
+    chat: ''
+  identifier: blackjack
+  source:
+    revision: 1
+    rules: '2024'
+  advancement: {}
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items:
+      - house-of-cards
+      - house-of-darts
+      - house-of-dice
+      - house-of-roulette
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: warmageTrick
+effects: []
+sort: 200000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369902965
+  modifiedTime: 1774369902965
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpBlackjack0000'

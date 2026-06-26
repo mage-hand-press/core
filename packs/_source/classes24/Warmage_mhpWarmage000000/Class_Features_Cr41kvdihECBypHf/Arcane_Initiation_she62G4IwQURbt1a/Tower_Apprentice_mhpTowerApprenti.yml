@@ -1,0 +1,91 @@
+folder: she62G4IwQURbt1a
+name: Tower Apprentice
+type: feat
+img: icons/magic/fire/explosion-fireball-small-blue.webp
+system:
+  description:
+    value: >-
+      <p>You apprenticed under a spellcaster for some time, who taught you the fundamentals of
+      arcana. You learn the @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitation}
+      and @UUID[Compendium.dnd5e.spells24.Item.phbsplShockingGr]{Shocking Grasp} cantrips and you
+      gain proficiency in the Arcana skill.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2024'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: arcaneInitiation
+  requirements: ''
+  properties: []
+  activities: {}
+  identifier: tower-apprentice
+  advancement:
+    iTuVs8TWa2OJHd14:
+      type: ItemGrant
+      _id: iTuVs8TWa2OJHd14
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplPrestidigi
+            optional: false
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplShockingGr
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: warmage
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      value: {}
+      level: 1
+      title: Initiation Spells
+      hint: ''
+      flags: {}
+    dTFqGX1kLaphpC9a:
+      type: Trait
+      title: Initiation Proficiency
+      _id: dTFqGX1kLaphpC9a
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - skills:arc
+        mode: default
+      level: 1
+      hint: ''
+      value: {}
+      flags: {}
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369904843
+  modifiedTime: 1774369904843
+  lastModifiedBy: magehandpress000
+_id: mhpTowerApprenti
+sort: 262500
+ownership:
+  default: 0
+_key: '!items!mhpTowerApprenti'

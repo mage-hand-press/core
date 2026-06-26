@@ -1,0 +1,55 @@
+folder: fR0vGRqUipnxeUJn
+name: Severe Cantrip
+type: feat
+img: icons/magic/light/beam-rays-orange-small.webp
+system:
+  description:
+    value: >-
+      <p>When a creature rolls a 1 on the d20 for a saving throw against one of your Warmage
+      cantrips, it suffers a Critical Failure. It fails the save regardless of its modifiers or the
+      spell save DC. If the spell deals damage, you roll all of the spell’s damage dice twice and
+      add them together, then add any relevant modifiers. This additional damage applies only to the
+      creature that rolled a 1.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: warmageTrick
+  requirements: ''
+  properties: []
+  activities: {}
+  identifier: severe-cantrip
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369908005
+  modifiedTime: 1774369908005
+  lastModifiedBy: magehandpress000
+_id: mhpSevereCantri1
+sort: 2700000
+ownership:
+  default: 0
+_key: '!items!mhpSevereCantri1'

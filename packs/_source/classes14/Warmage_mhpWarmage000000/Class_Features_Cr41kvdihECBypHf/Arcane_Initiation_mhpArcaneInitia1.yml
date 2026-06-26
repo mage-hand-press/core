@@ -1,0 +1,65 @@
+folder: Cr41kvdihECBypHf
+name: Arcane Initiation
+type: feat
+img: icons/sundries/books/book-open-brown.webp
+system:
+  description:
+    value: >-
+      <p>Warmages come from all backgrounds and walks of life. At 1st level, choose where you first
+      learned the basics of magic. The cantrips offered by your initiation don’t count against your
+      total number of warmage cantrips
+      known.</p><h5><strong>Adventurer</strong></h5><p>@Embed[Compendium.mage-hand-press-core.class14.Item.mhpAdventurer001
+      inline]</p><h5>Circus
+      Performer</h5><p>@Embed[Compendium.mage-hand-press-core.class14.Item.mhpCircusPerfor1
+      inline]</p><h5>Eldritch
+      Event</h5><p>@Embed[Compendium.mage-hand-press-core.class14.Item.mhpEldritchEvent
+      inline]</p><h5>Mercenary</h5><p>@Embed[Compendium.mage-hand-press-core.class14.Item.mhpMercenary0001
+      inline]</p><h5>Temple</h5><p>@Embed[Compendium.mage-hand-press-core.class14.Item.mhpTemple0000000
+      inline]</p><h5>Tower
+      Apprentice</h5><p>@Embed[Compendium.mage-hand-press-core.class14.Item.mhpTowerApprent1
+      inline]</p><h5>Self-Taught</h5><p>@Embed[Compendium.mage-hand-press-core.class14.Item.mhpSelfTaught001
+      inline]</p><h5>Survival</h5><p>@Embed[Compendium.mage-hand-press-core.class14.Item.mhpSurvival00001
+      inline]</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: ''
+  properties: []
+  activities: {}
+  identifier: arcane-initiation
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369906738
+  modifiedTime: 1774369906738
+  lastModifiedBy: magehandpress000
+_id: mhpArcaneInitia1
+sort: 200000
+ownership:
+  default: 0
+_key: '!items!mhpArcaneInitia1'

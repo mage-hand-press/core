@@ -1,0 +1,45 @@
+folder: MHPmITArcaneFigh
+name: Blaster
+type: feat
+_id: mhpBlaster000000
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: ''
+    chat: ''
+  identifier: blaster
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: fightingStyle
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369906813
+  modifiedTime: 1774369906813
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpBlaster000000'

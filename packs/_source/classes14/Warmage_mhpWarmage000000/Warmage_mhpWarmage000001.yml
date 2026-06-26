@@ -1,0 +1,580 @@
+folder: mhpWarmage000000
+name: Warmage
+type: class
+img: systems/dnd5e/icons/svg/items/class.svg
+system:
+  description:
+    value: ''
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  identifier: warmage
+  levels: 1
+  advancement:
+    5CN2IhPrK538DiIH:
+      _id: 5CN2IhPrK538DiIH
+      type: HitPoints
+      configuration: {}
+      value: {}
+      flags: {}
+      hint: ''
+    feGzlkIpxpnsm0Pq:
+      _id: feGzlkIpxpnsm0Pq
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value:
+        type: asi
+      level: 8
+      title: ''
+      flags: {}
+      hint: ''
+    Ahc4gBvONd12XfoZ:
+      _id: Ahc4gBvONd12XfoZ
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value:
+        type: asi
+      level: 12
+      title: ''
+      flags: {}
+      hint: ''
+    s1IHGqQulAqp6aHC:
+      _id: s1IHGqQulAqp6aHC
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value:
+        type: asi
+      level: 16
+      title: ''
+      flags: {}
+      hint: ''
+    mUUyOhJne0sLfV4s:
+      _id: mUUyOhJne0sLfV4s
+      type: ScaleValue
+      configuration:
+        identifier: cantrips-known
+        type: number
+        distance:
+          units: ''
+        scale:
+          '1':
+            value: 4
+          '3':
+            value: 5
+          '5':
+            value: 6
+          '9':
+            value: 7
+          '13':
+            value: 8
+          '17':
+            value: 9
+          '20':
+            value: 10
+      value: {}
+      title: Cantrips Known
+      hint: ''
+      flags: {}
+    hgjIc3r2H4j1Y5Kw:
+      _id: hgjIc3r2H4j1Y5Kw
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpSpellcasting3
+            optional: false
+          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpArcaneInitia1
+            optional: false
+          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpArcaneFightin
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      value: {}
+      level: 1
+      title: Features
+      hint: ''
+      flags: {}
+    gpXueEjeYh2OESRI:
+      _id: gpXueEjeYh2OESRI
+      type: ItemChoice
+      configuration:
+        choices:
+          '1':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: feat
+        pool:
+          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpAdventurer001
+          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpCircusPerfor1
+          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpEldritchEvent
+          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpMercenary0001
+          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpSelfTaught001
+          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpSurvival00001
+          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpTemple0000000
+          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpTowerApprent1
+        spell:
+          ability:
+            - ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+        restriction:
+          type: class
+          subtype: arcaneInitiation
+          level: ''
+          list: []
+      value:
+        added: {}
+        replaced: {}
+      title: Arcane Initiation
+      hint: >-
+        Warmages come from all backgrounds and walks of life. At 1st level, choose where you first
+        learned the basics of magic. The cantrips offered by your initiation don’t count against
+        your total number of warmage cantrips known.
+      flags: {}
+    GeuKY0TOoi9xN1oh:
+      _id: GeuKY0TOoi9xN1oh
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpWarmageEdge01
+            optional: false
+          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpWarmageTrick0
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      value: {}
+      level: 2
+      title: Features
+      hint: ''
+      flags: {}
+    HHiCnlUS7Ohtriov:
+      _id: HHiCnlUS7Ohtriov
+      type: ItemChoice
+      configuration:
+        choices:
+          '2':
+            count: 2
+            replacement: false
+          '3':
+            count: 1
+            replacement: false
+          '5':
+            count: 1
+            replacement: false
+          '7':
+            count: 1
+            replacement: false
+          '9':
+            count: 1
+            replacement: false
+          '11':
+            count: 1
+            replacement: false
+          '13':
+            count: 1
+            replacement: false
+          '15':
+            count: 1
+            replacement: false
+          '17':
+            count: 1
+            replacement: false
+        allowDrops: true
+        type: feat
+        pool: []
+        spell:
+          ability:
+            - ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+        restriction:
+          type: class
+          subtype: warmageTrick
+          level: ''
+          list: []
+      value:
+        added: {}
+        replaced: {}
+      title: Warmage Tricks
+      hint: ''
+      flags: {}
+    K5AnOoG23GuBydLC:
+      _id: K5AnOoG23GuBydLC
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpArcaneSurge01
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      value: {}
+      level: 5
+      title: Features
+      hint: ''
+      flags: {}
+    Ps4Tm4yQKk5ESXvG:
+      _id: Ps4Tm4yQKk5ESXvG
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpTacticalInsi1
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      value: {}
+      level: 6
+      title: Features
+      hint: ''
+      flags: {}
+    PuDhNtthrOUCyk9O:
+      _id: PuDhNtthrOUCyk9O
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpStrategicDef1
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      value: {}
+      level: 14
+      title: Features
+      hint: ''
+      flags: {}
+    8bnNrdD0BHme6Qer:
+      _id: 8bnNrdD0BHme6Qer
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpMasterWarmag1
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      value: {}
+      level: 20
+      title: Features
+      hint: ''
+      flags: {}
+    SRtclEPAOzOaPckm:
+      type: Trait
+      level: 1
+      configuration:
+        grants:
+          - saves:con
+          - saves:int
+        mode: default
+        allowReplacements: false
+        choices: []
+      value:
+        chosen:
+          - saves:con
+          - saves:int
+      _id: SRtclEPAOzOaPckm
+      title: ''
+      icon: null
+      classRestriction: primary
+      flags: {}
+      hint: ''
+    EUw9EN2faIeih1GY:
+      type: Trait
+      level: 1
+      configuration:
+        choices:
+          - count: 2
+            pool:
+              - skills:acr
+              - skills:ani
+              - skills:arc
+              - skills:ath
+              - skills:his
+              - skills:inv
+              - skills:med
+              - skills:prc
+              - skills:sur
+        mode: default
+        allowReplacements: false
+        grants: []
+      _id: EUw9EN2faIeih1GY
+      title: ''
+      icon: null
+      classRestriction: primary
+      value:
+        chosen: []
+      flags: {}
+      hint: ''
+    FCl6nwn3lPlFZfMX:
+      _id: FCl6nwn3lPlFZfMX
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - armor:lgt
+        choices: []
+      level: 1
+      title: Armor
+      value:
+        chosen: []
+      hint: ''
+      classRestriction: primary
+      flags: {}
+    mbeJuYdgDqkUqhsu:
+      _id: mbeJuYdgDqkUqhsu
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - weapon:sim
+        choices: []
+      level: 1
+      title: Weapons
+      icon: null
+      classRestriction: primary
+      value:
+        chosen: []
+      flags: {}
+      hint: ''
+    ZESC0oTbhizzMy4f:
+      _id: ZESC0oTbhizzMy4f
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          - count: 1
+            pool:
+              - tool:art:*
+          - count: 1
+            pool:
+              - tool:game:*
+      level: 1
+      title: ''
+      classRestriction: primary
+      value:
+        chosen: []
+      hint: ''
+      flags: {}
+    N3AHZXstArmuEOYk:
+      _id: N3AHZXstArmuEOYk
+      type: ScaleValue
+      configuration:
+        identifier: bonus-dice
+        type: number
+        distance:
+          units: ''
+        scale:
+          '5':
+            value: 1
+          '11':
+            value: 2
+          '17':
+            value: 3
+      value: {}
+      title: Cantrip Bonus Dice
+      hint: ''
+      flags: {}
+    lLmYytUHe4zs4uDe:
+      _id: lLmYytUHe4zs4uDe
+      type: Subclass
+      configuration: {}
+      value:
+        document: null
+        uuid: null
+      level: 3
+      title: Warmage House
+      hint: ''
+      flags: {}
+    hsgyOHQSlzlUKuPG:
+      type: AbilityScoreImprovement
+      _id: hsgyOHQSlzlUKuPG
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: null
+        max: null
+      value:
+        type: asi
+      level: 4
+      title: ''
+      hint: ''
+      flags: {}
+    DTcxlbakOB3RhYZz:
+      type: AbilityScoreImprovement
+      _id: DTcxlbakOB3RhYZz
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: null
+        max: null
+      value:
+        type: asi
+      level: 19
+      title: ''
+      hint: ''
+      flags: {}
+    TZt73mQN2asNqpLd:
+      type: ItemChoice
+      title: Arcane Fighting Style
+      _id: TZt73mQN2asNqpLd
+      configuration:
+        allowDrops: false
+        choices:
+          '1':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpBlaster000000
+          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpDeflector0000
+          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpResistive0000
+          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpSniper0000000
+          - uuid: Compendium.mage-hand-press-core.class14.Item.mhpStriker000000
+        restriction:
+          list: []
+          type: class
+          subtype: fightingStyle
+        spell: null
+        type: feat
+      value:
+        added: {}
+        replaced: {}
+      hint: >-
+        <p>Warmages learn that magic is the purest of weapons, and can be wielded just as easily as
+        any other. At 1st level, choose one of the following fighting styles:</p>
+      flags: {}
+      icon: ''
+      classRestriction: ''
+  spellcasting:
+    progression: warmage
+    ability: int
+    preparation:
+      formula: ''
+  hd:
+    denomination: d8
+    spent: 0
+    additional: ''
+  startingEquipment: []
+  primaryAbility:
+    value:
+      - int
+    all: true
+  wealth: ''
+  properties: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369908354
+  modifiedTime: 1782439856772
+  lastModifiedBy: magehandpress000
+_id: mhpWarmage000001
+sort: 100000
+ownership:
+  default: 0
+_key: '!items!mhpWarmage000001'

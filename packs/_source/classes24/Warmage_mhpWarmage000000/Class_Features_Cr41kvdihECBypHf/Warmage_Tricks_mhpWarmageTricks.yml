@@ -1,0 +1,62 @@
+folder: Cr41kvdihECBypHf
+name: Warmage Tricks
+type: feat
+img: icons/magic/lightning/claws-unarmed-strike-teal.webp
+system:
+  description:
+    value: >-
+      <p>You learn to use Warmage tricks, special techniques that alter the way you fight, move, and
+      cast your spells. You learn two tricks of your choice for which you meet the prerequisites.
+      Warmage Tricks are described in the
+      “@UUID[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpWarmageModern.JournalEntryPage.mhpWarmageTrickO]{Warmage
+      Trick Options}” section later on in the class’s
+      description.</p><p><strong>Prerequisites.</strong> If a trick has a prerequisite, you must
+      meet it to learn that trick. For example, if a trick requires you to be a level 5+ Warmage,
+      you can select the trick once you reach Warmage level 5.</p><p><strong>Replacing and Gaining
+      Tricks.</strong> Whenever you gain a Warmage level, you can replace one of your tricks with
+      another one for which you qualify. When you gain certain Warmage levels, you gain more tricks
+      of your choice, as shown in the Tricks column of the Warmage Features table. You can’t pick
+      the same trick more than once unless its description says otherwise.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2024'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: ''
+  properties: []
+  activities: {}
+  identifier: warmage-tricks
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369904965
+  modifiedTime: 1774369904965
+  lastModifiedBy: magehandpress000
+_id: mhpWarmageTricks
+sort: 225000
+ownership:
+  default: 0
+_key: '!items!mhpWarmageTricks'

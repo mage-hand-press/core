@@ -37,9 +37,55 @@
 			},
 			"system": "dnd5e",
 			"flags": {}
+		},
+		{
+			"name": "classes24",
+			"label": "Classes (5.5e)",
+			"path": "packs/classes24",
+			"type": "Item",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"system": "dnd5e",
+			"flags": {
+				"dnd5e": {
+					"sorting": "m",
+					"types": ["class", "feat"]
+				}
+			}
+		},
+		{
+			"name": "classes14",
+			"label": "Classes (5e)",
+			"path": "packs/classes14",
+			"type": "Item",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"system": "dnd5e",
+			"flags": {
+				"dnd5e": {
+					"sorting": "m",
+					"types": ["class", "feat"]
+				}
+			}
 		}
 	],
-	"packFolders": [],
+	"packFolders": [
+		{
+			"name": "Mage Hand Press",
+			"color": "#6c578d",
+			"sorting": "m",
+			"packs": [
+				"journal",
+				"classes24",
+				"classes14"
+			],
+			"folders": []
+		}
+	],
 	"languages": [
 		{
 			"lang": "en",

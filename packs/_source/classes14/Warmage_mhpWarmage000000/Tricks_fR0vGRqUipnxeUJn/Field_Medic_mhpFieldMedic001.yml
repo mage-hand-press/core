@@ -1,0 +1,230 @@
+folder: fR0vGRqUipnxeUJn
+name: Field Medic
+type: feat
+img: icons/magic/life/cross-area-circle-green-white.webp
+system:
+  description:
+    value: >-
+      <p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.MHPlTEFieldMedic
+      inline]</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.MHPlTETrickswith
+      inline classes="hide-in-embed"]</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: warmageTrick
+  requirements: ''
+  properties: []
+  activities:
+    82TKmYK54sk8Q9hL:
+      type: enchant
+      name: Modify "Spare the Dying"
+      _id: 82TKmYK54sk8Q9hL
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: zBZkSDqlGA65MdIH
+          level: {}
+          riders:
+            activity: []
+            effect: []
+            item: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      enchant:
+        self: false
+      restrictions:
+        allowMagical: false
+        categories: []
+        properties: []
+        type: spell
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      img: null
+    TsIAn0hZkbe0UKrT:
+      type: heal
+      name: Restore Hit Points
+      _id: TsIAn0hZkbe0UKrT
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: 1 + @classes.warmage.levels[temphp]
+        scaling:
+          number: 1
+        number: null
+        denomination: null
+        bonus: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      img: null
+  identifier: field-medic
+  advancement:
+    6GPBwmBTI2agqkVS:
+      type: ItemGrant
+      _id: 6GPBwmBTI2agqkVS
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplSparetheDy
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+      flags: {}
+      hint: ''
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+effects:
+  - type: enchantment
+    name: Field Medic
+    img: icons/magic/life/cross-area-circle-green-white.webp
+    disabled: true
+    _id: mhpFieldMedic000
+    system:
+      changes:
+        - key: system.description.value
+          value: >-
+            <hr>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.MHPlTEFieldMedic
+            inline]
+          priority: null
+          type: add
+        - key: system.activation.type
+          value: bonus
+          priority: null
+          type: override
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
+    start: null
+    showIcon: 1
+    folder: null
+    _key: '!items.effects!mhpFieldMedic001.mhpFieldMedic000'
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369907254
+  modifiedTime: 1774369907254
+  lastModifiedBy: magehandpress000
+_id: mhpFieldMedic001
+sort: 1200000
+ownership:
+  default: 0
+_key: '!items!mhpFieldMedic001'

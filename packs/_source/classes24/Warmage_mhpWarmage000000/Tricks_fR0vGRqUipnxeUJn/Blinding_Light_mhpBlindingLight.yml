@@ -1,0 +1,271 @@
+folder: fR0vGRqUipnxeUJn
+name: Blinding Light
+type: feat
+img: icons/magic/light/beam-red-orange.webp
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: </em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLight00000]{Light}<em>
+      cantrip</em></p><p>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpBlindingLight
+      inline]</p><p>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpTrickswithEnc
+      inline classes="hide-in-embed"]</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2024'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: warmageTrick
+  requirements: ''
+  properties: []
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: special
+        value: null
+        condition: When you cast the Light cantrip
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: '1'
+        units: round
+        special: ''
+        override: false
+      effects:
+        - _id: nII5AZFrWeoa4cP0
+          level: {}
+          onSave: false
+      range:
+        value: '10'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts: []
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 200000
+      name: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      img: null
+    8a55pU7Rrkaq0s1Z:
+      type: enchant
+      _id: 8a55pU7Rrkaq0s1Z
+      sort: 100000
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: ECKHKuaLYCUcji9F
+          level:
+            min: null
+            max: null
+          riders:
+            activity:
+              - dnd5eactivity000
+            effect: []
+            item: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      enchant:
+        self: false
+      restrictions:
+        allowMagical: false
+        categories: []
+        properties: []
+        type: spell
+      name: Modify "Light"
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      img: null
+  identifier: blinding-light
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items:
+      - light
+effects:
+  - name: Blinded
+    img: systems/dnd5e/icons/svg/statuses/blinded.svg
+    origin: Compendium.mage-hand-press-core.class24.Item.mhpBlindingLight
+    transfer: false
+    _id: mhpBlinded000000
+    type: base
+    system:
+      changes: []
+    disabled: false
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    tint: '#ffffff'
+    statuses:
+      - blinded
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
+    showIcon: 2
+    start: null
+    folder: null
+    _key: '!items.effects!mhpBlindingLight.mhpBlinded000000'
+  - type: enchantment
+    name: Blinding Light
+    img: icons/magic/light/beam-red-orange.webp
+    disabled: true
+    _id: mhpBlindingLight
+    system:
+      changes:
+        - key: system.description.value
+          value: >-
+            <hr>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpBlindingLight
+            inline]
+          priority: null
+          type: add
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
+    start: null
+    showIcon: 1
+    folder: null
+    _key: '!items.effects!mhpBlindingLight.mhpBlindingLight'
+flags:
+  dnd5e:
+    riders:
+      activity:
+        - dnd5eactivity000
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369903009
+  modifiedTime: 1774369903009
+  lastModifiedBy: magehandpress000
+_id: mhpBlindingLight
+sort: 100000
+ownership:
+  default: 0
+_key: '!items!mhpBlindingLight'

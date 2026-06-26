@@ -1,0 +1,53 @@
+folder: fR0vGRqUipnxeUJn
+name: Extended Range
+type: feat
+img: icons/magic/sonic/explosion-shock-sound-wave.webp
+system:
+  description:
+    value: >-
+      <p>When you cast a Warmage cantrip that has a range of 5 feet or greater, you can double its
+      range. You can also double the length of Lines, the size of Cones and Cubes, and the radii of
+      Cylinders, Emanations, and Spheres created by your Warmage cantrips.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warmage
+  properties: []
+  activities: {}
+  identifier: extended-range
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369907224
+  modifiedTime: 1774369907224
+  lastModifiedBy: magehandpress000
+_id: mhpExtendedRang1
+sort: 1100000
+ownership:
+  default: 0
+_key: '!items!mhpExtendedRang1'

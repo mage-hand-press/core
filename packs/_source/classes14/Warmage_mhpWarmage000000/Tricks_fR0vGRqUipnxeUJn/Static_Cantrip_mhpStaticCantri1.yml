@@ -1,0 +1,189 @@
+folder: fR0vGRqUipnxeUJn
+name: Static Cantrip
+type: feat
+img: icons/magic/lightning/bolt-strike-hand-gray.webp
+system:
+  description:
+    value: >-
+      <p>Whenever you deal Lightning damage to an enemy with a Warmage cantrip, you can sap part of
+      the energy into a charge, which clings to your body until the start of your next turn. While
+      charged, you can take a Reaction in response to taking damage from a creature you can see
+      within 5 feet of you to deal Lightning damage equal to half your Warmage level to the
+      creature.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: '1'
+    spent: 1
+    recovery:
+      - period: turnStart
+        type: loseAll
+  type:
+    value: class
+    subtype: warmageTrick
+  requirements: ''
+  properties: []
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: damage
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '5'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - custom:
+              enabled: true
+              formula: floor(@classes.warmage.levels/2)
+            number: null
+            denomination: null
+            bonus: ''
+            types:
+              - lightning
+            scaling:
+              number: 1
+      sort: 100000
+      name: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      img: null
+    1aGvH4gh8wrALoWq:
+      type: utility
+      name: Gain Charge
+      _id: 1aGvH4gh8wrALoWq
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: When you deal Lightning damage to an enemy with a Warmage cantrip
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '-1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      img: null
+  identifier: static-cantrip
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369908177
+  modifiedTime: 1774369908177
+  lastModifiedBy: magehandpress000
+_id: mhpStaticCantri1
+sort: 3100000
+ownership:
+  default: 0
+_key: '!items!mhpStaticCantri1'

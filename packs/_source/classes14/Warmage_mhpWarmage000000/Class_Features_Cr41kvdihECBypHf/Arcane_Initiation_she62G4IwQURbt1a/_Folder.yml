@@ -1,0 +1,19 @@
+name: Arcane Initiation
+sorting: a
+folder: Cr41kvdihECBypHf
+type: Item
+_id: she62G4IwQURbt1a
+description: ''
+sort: 0
+color: '#8f6b1f'
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 4.3.0
+  createdTime: 1782440270723
+  modifiedTime: 1782440708301
+  lastModifiedBy: magehandpress000
+  exportSource: null
+_key: '!folders!she62G4IwQURbt1a'

@@ -1,0 +1,19 @@
+type: Item
+folder: null
+name: Warmage
+color: '#ae8941'
+sorting: a
+_id: mhpWarmage000000
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1782439867694
+  modifiedTime: 1782440679815
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!mhpWarmage000000'

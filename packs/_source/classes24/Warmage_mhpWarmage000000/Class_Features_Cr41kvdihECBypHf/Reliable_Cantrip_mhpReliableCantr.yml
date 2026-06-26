@@ -1,0 +1,58 @@
+folder: Cr41kvdihECBypHf
+name: Reliable Cantrip
+type: feat
+_id: mhpReliableCantr
+img: icons/magic/light/projectile-smoke-blue-light.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>When you cast a Warmage cantrip at a creature and you miss with the attack roll or the
+      target succeeds on a saving throw against the cantrip, the target takes the cantrip’s minimum
+      amount of damage (if any) but suffers no additional effect from the cantrip. You can apply
+      Warmage Edge to this damage (which also deals minimum damage), but you can’t use this damage
+      to trigger Warmage Tricks. For example, if you cast
+      @UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpForceDart0000]{Force Dart}
+      and miss, you can apply Warmage Edge to deal Force damage equal to 1 plus your Intelligence
+      modifier.</p>
+    chat: ''
+  identifier: reliable-cantrip
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  advancement: {}
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369904417
+  modifiedTime: 1774369904417
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpReliableCantr'

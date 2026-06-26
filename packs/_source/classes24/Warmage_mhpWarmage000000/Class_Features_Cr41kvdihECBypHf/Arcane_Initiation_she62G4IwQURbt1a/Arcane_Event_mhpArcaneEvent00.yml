@@ -1,0 +1,90 @@
+folder: she62G4IwQURbt1a
+name: Arcane Event
+type: feat
+_id: mhpArcaneEvent00
+img: icons/magic/unholy/hand-claw-fire-blue.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    iTuVs8TWa2OJHd14:
+      type: ItemGrant
+      _id: iTuVs8TWa2OJHd14
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplMessage000
+            optional: false
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplSorcerousB
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: warmage
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      value: {}
+      level: 1
+      title: Initiation Spells
+      hint: ''
+      flags: {}
+    dTFqGX1kLaphpC9a:
+      type: Trait
+      title: Initiation Proficiency
+      _id: dTFqGX1kLaphpC9a
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - skills:ins
+        mode: default
+      level: 1
+      hint: ''
+      value: {}
+      flags: {}
+  description:
+    value: >-
+      <p>An influx of insidious magic left an imprint on you. You learn the
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplMessage000]{Message} and
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplSorcerousB]{Sorcerous Burst} cantrips and you gain
+      proficiency in the Insight skill.</p>
+    chat: ''
+  identifier: eldritch-event
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: arcaneInitiation
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369902879
+  modifiedTime: 1774369902879
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpArcaneEvent00'

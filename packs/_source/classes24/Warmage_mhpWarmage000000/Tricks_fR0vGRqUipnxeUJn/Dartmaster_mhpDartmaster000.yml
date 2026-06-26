@@ -1,0 +1,113 @@
+folder: fR0vGRqUipnxeUJn
+name: Dartmaster
+type: feat
+_id: mhpDartmaster000
+img: icons/weapons/ammunition/arrow-broadhead-white.webp
+system:
+  activities:
+    zirvSDGsdIV8hQGk:
+      type: utility
+      name: Reroll Misses
+      _id: zirvSDGsdIV8hQGk
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: When you cast a cantrip using the Split Fire trick and you miss with one or more attacks
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      img: null
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
+  advancement: {}
+  description:
+    value: >-
+      <p><em>Prerequisite: Level 10+ Warmage, House of Darts</em></p><p>When you cast a cantrip that
+      allows you to make multiple ranged spell attacks, such as
+      <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpMagicDaggers1]{Magic
+      Daggers}</em> or
+      <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpForceDart0000]{Force
+      Dart}</em> using the
+      @UUID[Compendium.mage-hand-press-core.class24.Item.mhpSplitFire0000]{Split Fire} trick, and
+      you miss with one or more attacks, you can reroll all of your misses.</p><p>Once you use this
+      trick, you can’t do so again until you finish a Short or Long Rest.</p>
+    chat: ''
+  identifier: dartmaster
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - house-of-darts
+    repeatable: false
+    level: 10
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: warmageTrick
+effects: []
+sort: 600000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369903292
+  modifiedTime: 1774369903292
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpDartmaster000'

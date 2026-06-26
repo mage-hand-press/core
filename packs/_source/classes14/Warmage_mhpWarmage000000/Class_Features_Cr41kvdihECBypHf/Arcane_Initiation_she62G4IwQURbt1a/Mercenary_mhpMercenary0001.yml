@@ -1,0 +1,73 @@
+folder: she62G4IwQURbt1a
+name: Mercenary
+type: feat
+img: icons/magic/water/strike-ice-blade-fang.webp
+system:
+  description:
+    value: >-
+      <p>You mastered the fundamentals of war magic to engage in battle with similarly armed
+      arcanists. You learn the @UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]{Mending} and
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplTrueStrike]{True Strike} cantrips and you gain
+      proficiency in the Athletics skill.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: arcaneInitiation
+  requirements: ''
+  properties: []
+  activities: {}
+  identifier: mercenary
+  advancement:
+    iTuVs8TWa2OJHd14:
+      type: ItemGrant
+      _id: iTuVs8TWa2OJHd14
+      configuration:
+        items: []
+        optional: false
+        spell:
+          ability: []
+          method: warmage
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      value: {}
+      level: 1
+      title: Initiation Spells
+      hint: ''
+      flags: {}
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369907745
+  modifiedTime: 1774369907745
+  lastModifiedBy: magehandpress000
+_id: mhpMercenary0001
+sort: 250000
+ownership:
+  default: 0
+_key: '!items!mhpMercenary0001'

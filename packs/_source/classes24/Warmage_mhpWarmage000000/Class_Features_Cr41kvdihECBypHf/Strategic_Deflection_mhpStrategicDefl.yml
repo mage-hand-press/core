@@ -1,0 +1,137 @@
+folder: Cr41kvdihECBypHf
+name: Strategic Deflection
+type: feat
+img: icons/magic/defensive/shield-barrier-deflect-gold.webp
+system:
+  description:
+    value: >-
+      <p>When a creature casts a spell that forces you to make a saving throw to avoid damage, you
+      can take a Reaction to attempt to redirect some of the spell’s energy to a new target. If you
+      succeed on your saving throw against the spell, choose another creature you can see within the
+      spell’s range or up to 30 feet away from you, whichever is closer, to make a saving throw
+      against the spell, using your spell save DC. The chosen creature can be the original
+      spellcaster. On a failed save, the creature suffers the effects of the spell as if you had
+      cast the spell and it had been the original target or been within the area of the
+      spell.</p><p>Once you use this feature, you can’t use it again until you finish a Short or
+      Long Rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2024'
+  cover: null
+  crewed: false
+  uses:
+    max: '1'
+    recovery:
+      - period: sr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: ''
+  properties: []
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: reaction
+        value: null
+        condition: When a creature casts a spell that forces you to make a saving throw to avoid damage
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts: []
+      save:
+        ability:
+          - str
+          - dex
+          - con
+          - int
+          - wis
+          - cha
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+      name: Deflect
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      img: null
+  identifier: strategic-deflection
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369904703
+  modifiedTime: 1774369904703
+  lastModifiedBy: magehandpress000
+_id: mhpStrategicDefl
+sort: 137500
+ownership:
+  default: 0
+_key: '!items!mhpStrategicDefl'

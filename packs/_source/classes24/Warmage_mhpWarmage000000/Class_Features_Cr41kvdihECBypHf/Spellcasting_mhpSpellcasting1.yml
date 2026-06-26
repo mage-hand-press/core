@@ -1,0 +1,65 @@
+folder: Cr41kvdihECBypHf
+name: Spellcasting
+type: feat
+img: icons/magic/light/hand-sparks-smoke-green.webp
+system:
+  description:
+    value: >-
+      <p>You have learned the simple, yet potent brand of spellcasting for which Warmages are
+      known.</p><p><strong>Cantrips.</strong> You know four Warmage cantrips of your choice.
+      @UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpForceDart0000]{Force Dart},
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitation},
+      @UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpQuickstep0000]{Quickstep},
+      and @UUID[Compendium.dnd5e.spells24.Item.phbsplShockingGr]{Shocking Grasp} are recommended.
+      Whenever you gain a Warmage level, you can replace one of your cantrips from this feature with
+      another Warmage cantrip of your choice. You can’t replace a cantrip that is a prerequisite for
+      a Warmage trick, unless you replace the trick at the same time.</p><p>You learn additional
+      Warmage cantrips of your choice at higher levels, as shown in the Cantrips column of the
+      Warmage Features table.</p><p>If another Warmage feature gives you cantrips, those cantrips
+      don’t count against your number of cantrips known, but otherwise count as Warmage cantrips for
+      you.</p><p><strong>Spellcasting Ability.</strong> Intelligence is your spellcasting ability
+      for your Warmage spells.</p><p><strong>Spellcasting Focus.</strong> You can use an Arcane
+      Focus as a Spellcasting Focus for your Warmage spells.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2024'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: ''
+  properties: []
+  activities: {}
+  identifier: spellcasting
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369904578
+  modifiedTime: 1774369904578
+  lastModifiedBy: magehandpress000
+_id: mhpSpellcasting1
+sort: 100000
+ownership:
+  default: 0
+_key: '!items!mhpSpellcasting1'

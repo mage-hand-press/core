@@ -1,0 +1,97 @@
+folder: fR0vGRqUipnxeUJn
+name: Opening Move
+type: feat
+img: icons/sundries/gaming/chess-pawn-white-glass.webp
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: House of Bishops, House of Go, House of Kings, House of Knights, House of
+      Pawns, or House of Rooks</em></p><p>During the first round of combat, the first spell attack
+      you make has Advantage. You can’t use this trick if you have Disadvantage on your Initiative
+      roll.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2024'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: warmageTrick
+  requirements: ''
+  properties: []
+  activities: {}
+  identifier: opening-move
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items:
+      - house-of-bishops
+      - house-of-go
+      - house-of-kings
+      - house-of-knights
+      - house-of-pawns
+      - house-of-rooks
+effects:
+  - origin: Item.OuTsyvuxf8afS7Ve
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    disabled: false
+    _id: mhpAbilityCheckB
+    tint: '#ffffff'
+    transfer: true
+    flags: {}
+    name: Ability Check Bonus - Initiative
+    description: ''
+    statuses: []
+    _stats:
+      compendiumSource: Item.hllQJIH2OUCpyGZm.ActiveEffect.xSQ3lcIuh12V5KJY
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
+    img: icons/magic/defensive/shield-barrier-glowing-triangle-teal.webp
+    type: base
+    system:
+      changes:
+        - key: system.attributes.init.bonus
+          value: '@abilities.int.mod'
+          priority: null
+          type: add
+    sort: 0
+    start: null
+    showIcon: 1
+    folder: null
+    _key: '!items.effects!mhpOpeningMove00.mhpAbilityCheckB'
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369904288
+  modifiedTime: 1774369904288
+  lastModifiedBy: magehandpress000
+_id: mhpOpeningMove00
+sort: 1100000
+ownership:
+  default: 0
+_key: '!items!mhpOpeningMove00'

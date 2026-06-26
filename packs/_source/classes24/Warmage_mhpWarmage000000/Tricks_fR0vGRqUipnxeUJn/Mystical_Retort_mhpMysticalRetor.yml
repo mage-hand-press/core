@@ -1,0 +1,246 @@
+folder: fR0vGRqUipnxeUJn
+name: Mystical Retort
+type: feat
+_id: mhpMysticalRetor
+img: icons/magic/control/fear-fright-monster-grin-green.webp
+system:
+  activities:
+    AEzefSfnd4HiPMtE:
+      type: enchant
+      _id: AEzefSfnd4HiPMtE
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: lmOnQJo6sycjqBni
+          level:
+            min: null
+            max: null
+          riders:
+            activity:
+              - lyvDjrqkC7GWPukx
+            effect: []
+            item: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      enchant:
+        self: false
+      restrictions:
+        allowMagical: false
+        categories: []
+        properties: []
+        type: spell
+      name: Modify "Vicious Mockery"
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      img: null
+    lyvDjrqkC7GWPukx:
+      type: save
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: When a creature you can see makes an attack roll against you
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling:
+              mode: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: sr
+            type: recoverAll
+        max: '1'
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - psychic
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+        onSave: none
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: Reactive Mockery
+      _id: lyvDjrqkC7GWPukx
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      img: null
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    pQsI13LPqhwnA4N6:
+      type: ItemGrant
+      _id: pQsI13LPqhwnA4N6
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplViciousMoc
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+      flags: {}
+      hint: ''
+  description:
+    value: >-
+      <p>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpMysticalRetor
+      inline]</p><p>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpTrickswithEnc
+      inline classes="hide-in-embed"]</p>
+    chat: ''
+  identifier: mystical-retort
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: warmageTrick
+effects:
+  - type: enchantment
+    name: Mystical Retort
+    img: icons/magic/control/fear-fright-monster-grin-green.webp
+    disabled: true
+    _id: mhpMysticalRetor
+    system:
+      changes:
+        - key: system.description.value
+          value: >-
+            <hr>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpMysticalRetor
+            inline]
+          priority: null
+          type: add
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
+    start: null
+    showIcon: 1
+    folder: null
+    _key: '!items.effects!mhpMysticalRetor.mhpMysticalRetor'
+sort: 900000
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity:
+        - lyvDjrqkC7GWPukx
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369904235
+  modifiedTime: 1774369904235
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpMysticalRetor'

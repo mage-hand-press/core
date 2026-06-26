@@ -1,0 +1,45 @@
+name: Chivalrous Presence
+type: feat
+_id: mhpChivalrousPre
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: ''
+    chat: ''
+  identifier: chivalrous-presence
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: warmageTrick
+effects: []
+folder: fR0vGRqUipnxeUJn
+sort: 3050000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369906969
+  modifiedTime: 1774369906969
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpChivalrousPre'

@@ -1,0 +1,104 @@
+folder: fR0vGRqUipnxeUJn
+name: Chips are Down
+type: feat
+_id: mhpChipsareDown0
+img: icons/commodities/stone/engraved-symbol-water-grey.webp
+system:
+  activities:
+    uc39l2qTO3cLMpJ8:
+      type: utility
+      name: Regain Chip
+      _id: uc39l2qTO3cLMpJ8
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: When you expend one or more Chips of Fate to bet and lose at least one bet
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '-1'
+            target: spin-the-wheel
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      img: null
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><em>Prerequisites: Level 10+ Warmage, House of Roulette</em></p><p>When you expend one or
+      more Chips of Fate to bet and lose at least one bet, you regain one expended Chip of Fate.</p>
+    chat: ''
+  identifier: chips-are-down
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - house-of-roulette
+    repeatable: false
+    level: 10
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: warmageTrick
+effects: []
+sort: 400000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369903183
+  modifiedTime: 1774369903183
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpChipsareDown0'

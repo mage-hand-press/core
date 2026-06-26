@@ -1,0 +1,225 @@
+folder: fR0vGRqUipnxeUJn
+name: Phantom Hookshot
+type: feat
+img: icons/magic/control/debuff-chains-orb-movement-blue.webp
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite:
+      </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpPhantomGrapne]{Phantom
+      Grapnel}<em>
+      Cantrip</em></p><p>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpPhantomHooksh
+      inline]</p><p>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpTrickswithEnc
+      inline classes="hide-in-embed"]</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2024'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: warmageTrick
+  requirements: ''
+  properties: []
+  activities:
+    FQPrFSgRliZIgjWT:
+      type: enchant
+      name: Modify "Phantom Grapnel"
+      _id: FQPrFSgRliZIgjWT
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: 3pmTCn7LS6Yo4qQn
+          level:
+            min: null
+            max: null
+          riders:
+            activity:
+              - fRxMjHDhMi6IqFBw
+            effect: []
+            item: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      enchant:
+        self: false
+      restrictions:
+        allowMagical: false
+        categories: []
+        properties: []
+        type: spell
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      img: null
+    fRxMjHDhMi6IqFBw:
+      type: save
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '15'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: any
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: none
+        parts: []
+      save:
+        ability:
+          - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: Quick Shot
+      _id: fRxMjHDhMi6IqFBw
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      img: null
+  identifier: phantom-hookshot
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items:
+      - phantom-grapnel
+effects:
+  - type: enchantment
+    name: Phantom Hookshot
+    img: icons/magic/control/debuff-chains-orb-movement-blue.webp
+    disabled: true
+    _id: mhpPhantomHooksh
+    system:
+      changes:
+        - key: system.description.value
+          value: >-
+            <hr>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpPhantomHooksh
+            inline]
+          priority: null
+          type: add
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
+    start: null
+    showIcon: 1
+    folder: null
+    _key: '!items.effects!mhpPhantomHooksh.mhpPhantomHooksh'
+flags:
+  dnd5e:
+    riders:
+      activity:
+        - fRxMjHDhMi6IqFBw
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369904336
+  modifiedTime: 1774369904336
+  lastModifiedBy: magehandpress000
+_id: mhpPhantomHooksh
+sort: 1800000
+ownership:
+  default: 0
+_key: '!items!mhpPhantomHooksh'

@@ -1,0 +1,53 @@
+folder: Cr41kvdihECBypHf
+name: Tactical Insight
+type: feat
+img: icons/magic/defensive/shield-barrier-blades-teal.webp
+system:
+  description:
+    value: >-
+      <p>You gain a bonus to saving throws against spells and other magical effects equal to your
+      Intelligence modifier (minimum bonus of +1). You don’t gain this bonus to Intelligence saving
+      throws.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2024'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: ''
+  properties: []
+  activities: {}
+  identifier: tactical-insight
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369904743
+  modifiedTime: 1774369904743
+  lastModifiedBy: magehandpress000
+_id: mhpTacticalInsig
+sort: 212500
+ownership:
+  default: 0
+_key: '!items!mhpTacticalInsig'

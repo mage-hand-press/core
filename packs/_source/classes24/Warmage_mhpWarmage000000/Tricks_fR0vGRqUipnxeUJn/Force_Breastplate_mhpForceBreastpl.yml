@@ -1,0 +1,48 @@
+folder: fR0vGRqUipnxeUJn
+name: Force Breastplate
+type: feat
+_id: mhpForceBreastpl
+img: icons/magic/defensive/shield-barrier-deflect-teal.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><em>Prerequisite: Level 10+ Warmage, House of Knights</em></p><p>While you have all of your
+      Hit Points, you have Resistance to all damage.</p>
+    chat: ''
+  identifier: force-breastplate
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - house-of-knights
+    repeatable: false
+    level: 10
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: warmageTrick
+effects: []
+sort: 700000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369903629
+  modifiedTime: 1774369903629
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpForceBreastpl'

@@ -1,0 +1,53 @@
+folder: fR0vGRqUipnxeUJn
+name: Prismatic Cantrip
+type: feat
+_id: mhpPrismaticCant
+img: icons/magic/sonic/projectile-sound-rings-wave.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>Once on each of your turns, when you deal Force damage with a Warmage cantrip, you can roll
+      a d6 on the following table to change the cantrip’s damage type for this casting. You can
+      apply tricks to the casting as normal using the new damage type. Additionally, you can apply
+      the trick corresponding to the rolled damage type, even if you don’t know the trick.</p><p>You
+      can use this trick a number of times equal to your Intelligence modifier (minimum of once).
+      You regain all expended uses when you finish a Long
+      Rest.</p><p>@Embed[Compendium.mage-hand-press-complete-warmage.tables.RollTable.mhpPrismaticCan1
+      caption=false cite=false rollable]</p>
+    chat: ''
+  identifier: prismatic-cantrip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: warmageTrick
+effects: []
+sort: 1200000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369904362
+  modifiedTime: 1774369904362
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpPrismaticCant'

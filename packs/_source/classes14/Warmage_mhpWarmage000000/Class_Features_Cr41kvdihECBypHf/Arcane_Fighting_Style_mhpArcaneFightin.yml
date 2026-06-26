@@ -1,0 +1,53 @@
+folder: Cr41kvdihECBypHf
+name: Arcane Fighting Style
+type: feat
+_id: mhpArcaneFightin
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>Warmages learn that magic is the purest of weapons, and can be wielded just as easily as
+      any other. At 1st level, choose one of the following fighting
+      styles:</p><h5>Blaster</h5><p>@Embed[Compendium.mage-hand-press-core.class14.Item.mhpBlaster000000
+      inline]</p><h5>Deflector</h5><p>@Embed[Compendium.mage-hand-press-core.class14.Item.mhpDeflector0000
+      inline]</p><h5>Resistive</h5><p>@Embed[Compendium.mage-hand-press-core.class14.Item.mhpResistive0000
+      inline]</p><h5>Sniper</h5><p>@Embed[Compendium.mage-hand-press-core.class14.Item.mhpSniper0000000
+      inline]</p><h5>Striker</h5><p>@Embed[Compendium.mage-hand-press-core.class14.Item.mhpStriker000000
+      inline]</p>
+    chat: ''
+  identifier: arcane-fighting-style
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369906728
+  modifiedTime: 1774369906728
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpArcaneFightin'

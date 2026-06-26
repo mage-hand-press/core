@@ -1,0 +1,19 @@
+name: Class Features
+sorting: a
+folder: mhpWarmage000000
+type: Item
+_id: Cr41kvdihECBypHf
+description: ''
+sort: 100000
+color: '#9e7a31'
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 4.3.0
+  createdTime: 1738544334427
+  modifiedTime: 1782440692178
+  lastModifiedBy: magehandpress000
+  exportSource: null
+_key: '!folders!Cr41kvdihECBypHf'

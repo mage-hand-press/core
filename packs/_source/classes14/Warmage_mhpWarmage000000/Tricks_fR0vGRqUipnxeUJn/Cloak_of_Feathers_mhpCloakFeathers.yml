@@ -1,0 +1,45 @@
+folder: fR0vGRqUipnxeUJn
+name: Cloak of Feathers
+type: feat
+_id: mhpCloakFeathers
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: ''
+    chat: ''
+  identifier: cloak-of-feathers
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: warmageTrick
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369906987
+  modifiedTime: 1774369906987
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpCloakFeathers'

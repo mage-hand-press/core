@@ -1,0 +1,53 @@
+folder: fR0vGRqUipnxeUJn
+name: Flexible Range
+type: feat
+img: icons/magic/control/debuff-energy-hold-green.webp
+system:
+  description:
+    value: >-
+      <p>Being within 5 feet of an enemy doesn’t impose Disadvantage on your ranged attack rolls
+      with Warmage cantrips. Additionally, when you cast a Warmage cantrip that requires a melee
+      spell attack, you can increase its range to 10 feet.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: warmageTrick
+  requirements: ''
+  properties: []
+  activities: {}
+  identifier: flexible-range
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369907300
+  modifiedTime: 1774369907300
+  lastModifiedBy: magehandpress000
+_id: mhpFlexibleRang1
+sort: 1300000
+ownership:
+  default: 0
+_key: '!items!mhpFlexibleRang1'

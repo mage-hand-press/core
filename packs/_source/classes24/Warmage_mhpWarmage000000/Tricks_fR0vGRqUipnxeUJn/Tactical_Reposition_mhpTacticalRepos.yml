@@ -1,0 +1,112 @@
+folder: fR0vGRqUipnxeUJn
+name: Tactical Reposition
+type: feat
+_id: mhpTacticalRepos
+img: icons/environment/wilderness/portal.webp
+system:
+  activities:
+    VJQ1Xm18hoBjDuFO:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplDimensionD
+        challenge:
+          override: false
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+        ability: ''
+        level: 4
+      _id: VJQ1Xm18hoBjDuFO
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          stationary: false
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      img: null
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '1'
+  advancement: {}
+  description:
+    value: >-
+      <p><em>Prerequisite: Level 10+ Warmage, Coalition Arcanist</em></p><p>You can cast
+      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDimensionD]{Dimension Door}</em> once without a
+      spell slot or components. When you cast the spell using this trick, you can also teleport a
+      number of willing creatures within 30 feet of yourself up to your Intelligence modifier, each
+      of which teleports to spaces within 10 feet of your destination space. Each teleported
+      creature, including yourself, has Advantage on the next attack roll it makes before the end of
+      its next turn.</p><p>Once you use this trick, you can’t use it again until you finish a Long
+      Rest.</p>
+    chat: ''
+  identifier: tactical-reposition
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - coalition-arcanist
+    repeatable: false
+    level: 10
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: warmageTrick
+effects: []
+sort: 1500000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369904805
+  modifiedTime: 1774369904805
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpTacticalRepos'

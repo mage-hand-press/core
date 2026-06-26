@@ -1,0 +1,73 @@
+folder: she62G4IwQURbt1a
+name: Adventurer
+type: feat
+img: icons/magic/water/projectile-ice-faceted-blue.webp
+system:
+  description:
+    value: >-
+      <p>You picked up your magic informally by traveling with a dozen different mages over the
+      years. You learn the @UUID[Compendium.dnd5e.spells24.Item.phbsplMageHand00]{Mage Hand} and
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplRayofFrost]{Ray of Frost} cantrips and you gain
+      proficiency in the Perception skill.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: arcaneInitiation
+  requirements: Warmage 1
+  properties: []
+  activities: {}
+  identifier: adventurer
+  advancement:
+    iTuVs8TWa2OJHd14:
+      type: ItemGrant
+      _id: iTuVs8TWa2OJHd14
+      configuration:
+        items: []
+        optional: false
+        spell:
+          ability: []
+          method: warmage
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      value: {}
+      level: 1
+      title: Initiation Spells
+      hint: ''
+      flags: {}
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369906677
+  modifiedTime: 1774369906677
+  lastModifiedBy: magehandpress000
+_id: mhpAdventurer001
+sort: 100000
+ownership:
+  default: 0
+_key: '!items!mhpAdventurer001'

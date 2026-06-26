@@ -1,0 +1,91 @@
+folder: she62G4IwQURbt1a
+name: Survival
+type: feat
+img: icons/magic/fire/dagger-rune-enchant-flame-blue.webp
+system:
+  description:
+    value: >-
+      <p>To survive in the wild, you taught yourself to cast simple spells. You learn the
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplDruidcraft]{Druidcraft} and
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplShillelagh]{Shillelagh} cantrips and you gain
+      proficiency in the Survival skill.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2024'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: arcaneInitiation
+  requirements: ''
+  properties: []
+  activities: {}
+  identifier: survival
+  advancement:
+    iTuVs8TWa2OJHd14:
+      type: ItemGrant
+      _id: iTuVs8TWa2OJHd14
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.spells24.Item.phbsplDruidcraft
+          - optional: false
+            uuid: Compendium.dnd5e.spells24.Item.phbsplShillelagh
+        optional: false
+        spell:
+          ability: []
+          method: warmage
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      value: {}
+      level: 1
+      title: Initiation Spells
+      hint: ''
+      flags: {}
+    dTFqGX1kLaphpC9a:
+      type: Trait
+      title: Initiation Proficiency
+      _id: dTFqGX1kLaphpC9a
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - skills:sur
+        mode: default
+      level: 1
+      hint: ''
+      value: {}
+      flags: {}
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369904724
+  modifiedTime: 1774369904724
+  lastModifiedBy: magehandpress000
+_id: mhpSurvival00000
+sort: 275000
+ownership:
+  default: 0
+_key: '!items!mhpSurvival00000'

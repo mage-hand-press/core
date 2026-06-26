@@ -1,0 +1,358 @@
+folder: fR0vGRqUipnxeUJn
+name: Mage Hand Knack
+type: feat
+img: icons/magic/light/hand-sparks-smoke-teal.webp
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: </em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMageHand00]{Mage
+      Hand}<em>
+      Cantrip</em></p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.MHPlTEMageHandKn
+      inline]</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.MHPlTETrickswith
+      inline classes="hide-in-embed"]</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: warmageTrick
+  requirements: ''
+  properties: []
+  activities:
+    x1MAiDByGwrI7VzB:
+      type: enchant
+      name: Modify "Mage Hand"
+      _id: x1MAiDByGwrI7VzB
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: xpw8pjJOXpqATu9V
+          level:
+            min: null
+            max: null
+          riders:
+            activity:
+              - r11sHBPunIYVk0gn
+              - rVyrPM6YIVifeu9u
+              - Q7lgcbp30GoR9SbR
+            effect: []
+            item: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      enchant:
+        self: false
+      restrictions:
+        allowMagical: false
+        categories: []
+        properties: []
+        type: spell
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      img: null
+    r11sHBPunIYVk0gn:
+      type: utility
+      name: Press
+      _id: r11sHBPunIYVk0gn
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '5'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: Large or smaller
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      img: null
+    rVyrPM6YIVifeu9u:
+      type: attack
+      name: Punch
+      _id: rVyrPM6YIVifeu9u
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '5'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: creatureOrObject
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: spell
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - force
+            scaling:
+              number: 1
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      img: null
+    Q7lgcbp30GoR9SbR:
+      type: save
+      name: Seize
+      _id: Q7lgcbp30GoR9SbR
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '5'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: none
+        parts: []
+      save:
+        ability:
+          - str
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      img: null
+  identifier: mage-hand-knack
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items:
+      - mage-hand
+effects:
+  - type: enchantment
+    name: Mage Hand Knack
+    img: icons/magic/light/hand-sparks-smoke-teal.webp
+    disabled: true
+    _id: mhpMageHandKnack
+    system:
+      changes:
+        - key: system.description.value
+          value: >-
+            <hr>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.MHPlTEMageHandKn
+            inline]
+          priority: null
+          type: add
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
+    start: null
+    showIcon: 1
+    folder: null
+    _key: '!items.effects!mhpMageHandKnac1.mhpMageHandKnack'
+flags:
+  dnd5e:
+    riders:
+      activity:
+        - r11sHBPunIYVk0gn
+        - rVyrPM6YIVifeu9u
+        - Q7lgcbp30GoR9SbR
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369907682
+  modifiedTime: 1774369907682
+  lastModifiedBy: magehandpress000
+_id: mhpMageHandKnac1
+sort: 1900000
+ownership:
+  default: 0
+_key: '!items!mhpMageHandKnac1'

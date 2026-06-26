@@ -1,0 +1,53 @@
+folder: fR0vGRqUipnxeUJn
+name: Snake Eyes
+type: feat
+img: icons/sundries/gaming/dice-runed-tan.webp
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: Level 10+ Warmage, House of Dice</em></p><p>If you roll a 1 or 2 on a Die
+      of Fate, you keep the die instead of giving it to the GM.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: warmageTrick
+  requirements: Warmage 10
+  properties: []
+  activities: {}
+  identifier: snake-eyes
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    level: 10
+    repeatable: false
+    items:
+      - house-of-dice
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369908087
+  modifiedTime: 1774369908087
+  lastModifiedBy: magehandpress000
+_id: mhpSnakeEyes0001
+sort: 3000000
+ownership:
+  default: 0
+_key: '!items!mhpSnakeEyes0001'

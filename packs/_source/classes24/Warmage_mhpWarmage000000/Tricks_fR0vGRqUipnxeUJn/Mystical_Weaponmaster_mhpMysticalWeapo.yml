@@ -1,0 +1,157 @@
+folder: fR0vGRqUipnxeUJn
+name: Mystical Weaponmaster
+type: feat
+_id: mhpMysticalWeapo
+img: icons/weapons/daggers/dagger-magical-glowing-blue.webp
+system:
+  activities:
+    GbZqJCMgvmFJtXb6:
+      type: enchant
+      name: Modify Spells
+      _id: GbZqJCMgvmFJtXb6
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: wkMiZ4pqj33M6UxO
+          level: {}
+          riders:
+            activity: []
+            effect: []
+            item: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      enchant:
+        self: false
+      restrictions:
+        allowMagical: false
+        categories: []
+        properties: []
+        type: spell
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      img: null
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><em>Prerequisite: Level 5+ Warmage,
+      </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpForceWeapon00]{Force
+      Weapon}<em> or
+      </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpMagicDaggers1]{Magic
+      Daggers}<em>
+      Cantrip</em></p><p>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpMysticalWeapo
+      inline]</p><p>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpTrickswithEnc
+      inline classes="hide-in-embed"]</p>
+    chat: ''
+  identifier: mystical-weaponmaster
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - force-weapon
+      - magic-daggers
+    repeatable: false
+    level: 5
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: warmageTrick
+effects:
+  - type: enchantment
+    name: Mystical Weaponmaster
+    img: icons/weapons/daggers/dagger-magical-glowing-blue.webp
+    disabled: true
+    _id: mhpMysticalWeapo
+    system:
+      changes:
+        - key: system.description.value
+          value: >-
+            <hr>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpMysticalWeapo
+            inline]
+          priority: null
+          type: add
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
+    start: null
+    showIcon: 1
+    folder: null
+    _key: '!items.effects!mhpMysticalWeapo.mhpMysticalWeapo'
+sort: 1000000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1774369904278
+  modifiedTime: 1774369904278
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpMysticalWeapo'
