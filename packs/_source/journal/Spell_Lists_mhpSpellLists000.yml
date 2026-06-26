@@ -1,0 +1,521 @@
+name: Spell Lists
+_id: mhpSpellLists000
+pages:
+  - sort: 0
+    name: Warmage
+    type: spells
+    _id: mhpWarmage55e000
+    system:
+      type: class
+      grouping: none
+      description:
+        value: ''
+      spells:
+        - Compendium.dnd5e.spells24.Item.phbsplAcidSplash
+        - Compendium.dnd5e.spells24.Item.phbsplChillTouch
+        - Compendium.dnd5e.spells24.Item.phbsplFireBolt00
+        - Compendium.dnd5e.spells24.Item.phbsplLight00000
+        - Compendium.dnd5e.spells24.Item.phbsplMageHand00
+        - Compendium.dnd5e.spells24.Item.phbsplMending000
+        - Compendium.dnd5e.spells24.Item.phbsplMinorIllus
+        - Compendium.dnd5e.spells24.Item.phbsplPoisonSpra
+        - Compendium.dnd5e.spells24.Item.phbsplPrestidigi
+        - Compendium.dnd5e.spells24.Item.phbsplProduceFla
+        - Compendium.dnd5e.spells24.Item.phbsplRayofFrost
+        - Compendium.dnd5e.spells24.Item.phbsplShockingGr
+        - Compendium.dnd5e.spells24.Item.phbsplTrueStrike
+      unlinkedSpells:
+        - _id: bxGULIP8kLd7hLjm
+          identifier: arc-blade
+          name: Arc Blade
+          system:
+            level: 0
+            school: evo
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpArcBlade00000
+        - _id: DcbsdvZkUjua9cAC
+          identifier: burning-blade
+          name: Burning Blade
+          system:
+            level: 0
+            school: evo
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpBurningBlade0
+        - _id: SvhjKS43Kt2fXEOu
+          name: Card Trick
+          system:
+            level: 0
+            school: trs
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpCardTrick0000
+          identifier: card-trick
+        - _id: hSidJL9492T9kfzf
+          identifier: cheat
+          name: Cheat
+          system:
+            level: 0
+            school: div
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpCheat00000000
+        - _id: JhAaqpieJLC6Tm90
+          identifier: cryptogram
+          name: Cryptogram
+          system:
+            level: 0
+            school: con
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpCryptogram000
+        - _id: N2D9T3UmDDZJC0jQ
+          identifier: force-buckler
+          name: Force Buckler
+          system:
+            level: 0
+            school: abj
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpForceBuckler0
+        - _id: muqWyGVSf0w3qvrq
+          identifier: force-dart
+          name: Force Dart
+          system:
+            level: 0
+            school: evo
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpForceDart0000
+        - _id: nZ6JUM6gUiqmjHTX
+          identifier: force-weapon
+          name: Force Weapon
+          system:
+            level: 0
+            school: evo
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpForceWeapon00
+        - _id: SPWnudeYHUlRswLY
+          identifier: frigid-blade
+          name: Frigid Blade
+          system:
+            level: 0
+            school: evo
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpFrigidBlade00
+        - _id: OxaC5vrimkEn43rN
+          identifier: lightning-surge
+          name: Lightning Surge
+          system:
+            level: 0
+            school: evo
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpLightningSurg
+        - _id: xIh5z7QSFLhp329Y
+          identifier: magic-daggers
+          name: Magic Daggers
+          system:
+            level: 0
+            school: con
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpMagicDaggers1
+        - _id: VcmlFhb0VlZ0b7wU
+          identifier: moment-to-think
+          name: Moment to Think
+          system:
+            level: 0
+            school: trs
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpMomenttoThink
+        - _id: wuijh62WW69zFZpR
+          identifier: phantom-grapnel
+          name: Phantom Grapnel
+          system:
+            level: 0
+            school: evo
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpPhantomGrapne
+        - _id: B00amW9qVw9Xbcos
+          identifier: quickstep
+          name: Quickstep
+          system:
+            level: 0
+            school: trs
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpQuickstep0000
+        - _id: xvMrDdTl292UGmIF
+          identifier: sonic-pulse
+          name: Sonic Pulse
+          system:
+            level: 0
+            school: evo
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSonicPulse000
+        - _id: isx8Ly61Y36m3xij
+          identifier: springheel
+          name: Springheel
+          system:
+            level: 0
+            school: trs
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpringheel000
+        - _id: gfFnzwmRY5g9ktYx
+          identifier: sulfuric-smoke
+          name: Sulfuric Smoke
+          system:
+            level: 0
+            school: con
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSulfuricSmoke
+        - _id: TazLMRkySmLq2Str
+          identifier: thunderous-echo
+          name: Thunderous Echo
+          system:
+            level: 0
+            school: evo
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpThunderousEch
+      identifier: warmage
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 6.0.0
+      lastModifiedBy: magehandpress000
+      modifiedTime: 1782431569736
+      createdTime: 1782430582835
+    category: 89sI5H8w5chjJmxI
+    _key: '!journal.pages!mhpSpellLists000.mhpWarmage55e000'
+  - sort: 100000
+    name: Warmage
+    type: spells
+    system:
+      type: class
+      grouping: none
+      description:
+        value: ''
+      spells:
+        - Compendium.dnd5e.spells.Item.JLTQyqXEaJDrTXyW
+        - Compendium.dnd5e.spells.Item.vrN18tbTw7io5MWd
+        - Compendium.dnd5e.spells.Item.EOmsUcFQJTfG2oio
+        - Compendium.dnd5e.spells.Item.Bnn9Nzajixvow9xi
+        - Compendium.dnd5e.spells.Item.Utk1OQRwYkMkFRD3
+        - Compendium.dnd5e.spells.Item.kjmjY0zlE6IEiQVL
+        - Compendium.dnd5e.spells.Item.oIzA2MEHwxhtQneU
+        - Compendium.dnd5e.spells.Item.g2u9PYfqWQAyg9OI
+        - Compendium.dnd5e.spells.Item.udsLtG0BugXHR2JQ
+        - Compendium.dnd5e.spells.Item.eCPQuQkIabFKTl9u
+        - Compendium.dnd5e.spells.Item.ctW81uiX56xZR2c5
+        - Compendium.dnd5e.spells.Item.XvbiNhNqXXIFisIy
+        - Compendium.dnd5e.spells.Item.mGGlcLdggHwcL7MG
+      unlinkedSpells:
+        - _id: 9klMnAapJUr34LFF
+          identifier: arc-blade
+          name: Arc Blade
+          system:
+            level: 0
+            school: evo
+          source:
+            book: ''
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpArcBlade00000
+        - _id: B9dxLbwn1QIvnITo
+          identifier: burning-blade
+          name: Burning Blade
+          system:
+            level: 0
+            school: evo
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpBurningBlade0
+        - _id: AU0n0IL6NmtUro2J
+          identifier: caustic-blade
+          name: Caustic Blade
+          system:
+            level: 0
+            school: evo
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpCausticBlade0
+        - _id: qvvNlyWA9tHft2kU
+          identifier: cheat
+          name: Cheat
+          system:
+            level: 0
+            school: div
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpCheat00000000
+        - _id: Q7jwEo6g0IGHpNJb
+          identifier: cryptogram
+          name: Cryptogram
+          system:
+            level: 0
+            school: con
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpCryptogram000
+        - _id: dYQQ3RPiw6WyR0MB
+          identifier: force-buckler
+          name: Force Buckler
+          system:
+            level: 0
+            school: abj
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpForceBuckler0
+        - _id: aEYE26ASwLtNBkpg
+          identifier: force-dart
+          name: Force Dart
+          system:
+            level: 0
+            school: evo
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpForceDart0000
+        - _id: cmSluKrcVLQFrPtT
+          identifier: force-weapon
+          name: Force Weapon
+          system:
+            level: 0
+            school: evo
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpForceWeapon00
+        - _id: 3uH1zy8u4hRt2UHJ
+          identifier: frigid-blade
+          name: Frigid Blade
+          system:
+            level: 0
+            school: evo
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpFrigidBlade00
+        - _id: EB9QmWEUqVshFYBa
+          identifier: lightning-surge
+          name: Lightning Surge
+          system:
+            level: 0
+            school: evo
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpLightningSurg
+        - _id: KKJ0uWoOjdsd8rAq
+          identifier: magic-daggers
+          name: Magic Daggers
+          system:
+            level: 0
+            school: con
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpMagicDaggers0
+        - _id: n8SUsufeMTexVsDN
+          identifier: phantom-grapnel
+          name: Phantom Grapnel
+          system:
+            level: 0
+            school: evo
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpPhantomGrapne
+        - _id: m8hrZllzJ7Eq72qv
+          identifier: quickstep
+          name: Quickstep
+          system:
+            level: 0
+            school: trs
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpQuickstep0000
+        - _id: KkngjdTNqlfkJhqw
+          identifier: sonic-pulse
+          name: Sonic Pulse
+          system:
+            level: 0
+            school: evo
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpSonicPulse000
+        - _id: rt2c7ujKTLYa9yni
+          identifier: springheel
+          name: Springheel
+          system:
+            level: 0
+            school: trs
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpSpringheel000
+        - _id: MlWMMXS6KanzKfE3
+          identifier: thunderous-distortion
+          name: Thunderous Distortion
+          system:
+            level: 0
+            school: evo
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpThunderousDis
+      identifier: warmage
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: z9xGcJTffBU09tw4
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 6.0.0
+      lastModifiedBy: magehandpress000
+      modifiedTime: 1782431572699
+      createdTime: 1782430606193
+    _id: mhpWarmage50e000
+    _key: '!journal.pages!mhpSpellLists000.mhpWarmage50e000'
+folder: null
+categories:
+  - name: 5.5e
+    sort: 100000
+    _id: 89sI5H8w5chjJmxI
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 6.0.0
+      createdTime: 1782430587545
+      modifiedTime: 1782430593072
+      lastModifiedBy: YRMhx8BUTW0cHVBn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.categories!mhpSpellLists000.89sI5H8w5chjJmxI'
+  - name: 5e
+    sort: 200000
+    _id: z9xGcJTffBU09tw4
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 6.0.0
+      createdTime: 1782430587849
+      modifiedTime: 1782430596177
+      lastModifiedBy: YRMhx8BUTW0cHVBn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.categories!mhpSpellLists000.z9xGcJTffBU09tw4'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 6.0.0
+  createdTime: 1782430556143
+  modifiedTime: 1782430596177
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!mhpSpellLists000'
