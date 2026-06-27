@@ -15,7 +15,7 @@ system:
       <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpringheel000]{Springheel}</em>
       cantrip, the distance of your jumps increases by 20 feet instead of 10 feet. If you know both
       of these cantrips, you can cast both of them as part of the same Bonus
-      Action.</p><p>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpTrickswithEnc
+      Action.</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpTrickswithEnc
       inline classes="hide-in-embed"]</p>
     chat: ''
   source:
@@ -58,10 +58,8 @@ system:
         concentration: false
         override: false
       effects:
-        - _id: siiK3x0lSyhRGP5i
-          level:
-            min: null
-            max: null
+        - _id: l1yXLvroiSt8KjVX
+          level: {}
           riders:
             activity: []
             effect: []
@@ -94,11 +92,14 @@ system:
         type: spell
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-      img: null
+        identifier: ''
+      img: ''
     xFcqtTmHdVCfcgkN:
       type: enchant
       name: Modify "Springheel"
@@ -120,10 +121,8 @@ system:
         concentration: false
         override: false
       effects:
-        - _id: BnVyCutShNNTrAlX
-          level:
-            min: null
-            max: null
+        - _id: mhpMysticalAthle
+          level: {}
           riders:
             activity: []
             effect: []
@@ -156,11 +155,14 @@ system:
         type: spell
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-      img: null
+        identifier: ''
+      img: ''
   identifier: mystical-athlete
   advancement: {}
   enchant: {}
@@ -168,8 +170,8 @@ system:
     level: null
     repeatable: false
     items:
-      - quickstep
-      - springheel
+      - spell:quickstep
+      - spell:springheel
 effects:
   - type: enchantment
     name: Mystical Athlete (springheel)
@@ -179,15 +181,17 @@ effects:
     system:
       changes:
         - key: system.description.value
-          value: >-
-            <hr>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpMysticalAthle
-            inline]
-          priority: null
           type: add
-        - key: flags.mage-hand-press-complete-warmage.increase
-          value: 20
+          value: >-
+            <hr>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpMysticalAthSp
+            inline]
+          phase: initial
           priority: null
+        - key: flags.mage-hand-press-complete-warmage.increase
           type: upgrade
+          value: 20
+          phase: initial
+          priority: null
     duration:
       value: null
       units: seconds
@@ -209,23 +213,71 @@ effects:
       exportSource: null
       coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.0
-      lastModifiedBy: null
-      createdTime: null
-      modifiedTime: null
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1782518361811
+      modifiedTime: 1782518361811
     start: null
     showIcon: 1
     folder: null
     _key: '!items.effects!mhpMysticalAthle.mhpMysticalAthle'
+  - type: enchantment
+    name: Mystical Athlete (quickstep)
+    img: icons/skills/movement/feet-winged-sandals-tan.webp
+    disabled: true
+    system:
+      changes:
+        - key: system.description.value
+          type: add
+          value: >-
+            <hr>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpMysticalAthQu
+            inline]
+          phase: initial
+          priority: null
+        - key: flags.mage-hand-press-complete-warmage.increase
+          type: upgrade
+          value: 20
+          phase: initial
+          priority: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1782518363208
+      modifiedTime: 1782518384676
+    start: null
+    showIcon: 1
+    folder: null
+    _id: l1yXLvroiSt8KjVX
+    _key: '!items.effects!mhpMysticalAthle.l1yXLvroiSt8KjVX'
 flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
   coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369904191
-  modifiedTime: 1774369904191
+  modifiedTime: 1782586739694
   lastModifiedBy: magehandpress000
 _id: mhpMysticalAthle
 sort: 3100000

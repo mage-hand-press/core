@@ -105,7 +105,7 @@ system:
     level: 10
     repeatable: false
     items:
-      - house-of-rooks
+      - subclass:house-rooks
 effects: []
 flags: {}
 _stats:

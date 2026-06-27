@@ -6,10 +6,10 @@ system:
   description:
     value: >-
       <p><em>Prerequisite:
-      </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpPhantomGrapne]{Phantom
-      Grapnel}<em>
-      Cantrip</em></p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.MHPlTEPhantomHoo
-      inline]</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.MHPlTETrickswith
+      </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpPhantomGrapne]{phantom
+      grapnel}<em>
+      cantrip</em></p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpPhantomHooksh
+      inline]</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpTrickswithEnc
       inline classes="hide-in-embed"]</p>
     chat: ''
   source:
@@ -52,7 +52,7 @@ system:
         concentration: false
         override: false
       effects:
-        - _id: 3pmTCn7LS6Yo4qQn
+        - _id: mhpPhantomHooksh
           level:
             min: null
             max: null
@@ -89,11 +89,14 @@ system:
         type: spell
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-      img: null
+        identifier: ''
+      img: ''
     fRxMjHDhMi6IqFBw:
       type: save
       sort: 0
@@ -160,7 +163,7 @@ system:
     level: null
     repeatable: false
     items:
-      - phantom-grapnel
+      - spell:phantom-grapnel
 effects:
   - type: enchantment
     name: Phantom Hookshot
@@ -170,11 +173,12 @@ effects:
     system:
       changes:
         - key: system.description.value
-          value: >-
-            <hr>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.MHPlTEPhantomHoo
-            inline]
-          priority: null
           type: add
+          value: >-
+            <hr>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpPhantomHooksh
+            inline]
+          phase: initial
+          priority: null
     duration:
       value: null
       units: seconds
@@ -196,10 +200,10 @@ effects:
       exportSource: null
       coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.0
-      lastModifiedBy: null
-      createdTime: null
-      modifiedTime: null
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1782583955188
+      modifiedTime: 1782583955188
     start: null
     showIcon: 1
     folder: null
@@ -214,9 +218,9 @@ _stats:
   exportSource: null
   coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369907900
-  modifiedTime: 1774369907900
+  modifiedTime: 1782585922361
   lastModifiedBy: magehandpress000
 _id: mhpPhantomHooks1
 sort: 2500000

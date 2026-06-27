@@ -8,8 +8,8 @@ system:
       <p><em>Prerequisite:
       </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpPhantomGrapne]{Phantom
       Grapnel}<em>
-      Cantrip</em></p><p>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpPhantomHooksh
-      inline]</p><p>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpTrickswithEnc
+      Cantrip</em></p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpPhantomHooksh
+      inline]</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpTrickswithEnc
       inline classes="hide-in-embed"]</p>
     chat: ''
   source:
@@ -52,7 +52,7 @@ system:
         concentration: false
         override: false
       effects:
-        - _id: 3pmTCn7LS6Yo4qQn
+        - _id: mhpPhantomHooksh
           level:
             min: null
             max: null
@@ -89,11 +89,14 @@ system:
         type: spell
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-      img: null
+        identifier: ''
+      img: ''
     fRxMjHDhMi6IqFBw:
       type: save
       sort: 0
@@ -160,7 +163,7 @@ system:
     level: null
     repeatable: false
     items:
-      - phantom-grapnel
+      - spell:phantom-grapnel
 effects:
   - type: enchantment
     name: Phantom Hookshot
@@ -171,7 +174,7 @@ effects:
       changes:
         - key: system.description.value
           value: >-
-            <hr>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpPhantomHooksh
+            <hr>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpPhantomHooksh
             inline]
           priority: null
           type: add
@@ -214,9 +217,9 @@ _stats:
   exportSource: null
   coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369904336
-  modifiedTime: 1774369904336
+  modifiedTime: 1782586777598
   lastModifiedBy: magehandpress000
 _id: mhpPhantomHooksh
 sort: 1800000

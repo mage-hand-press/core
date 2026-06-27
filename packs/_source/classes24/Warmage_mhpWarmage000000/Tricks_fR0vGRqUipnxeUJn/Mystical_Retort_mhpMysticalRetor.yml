@@ -25,7 +25,7 @@ system:
         concentration: false
         override: false
       effects:
-        - _id: lmOnQJo6sycjqBni
+        - _id: mhpMysticalRetor
           level:
             min: null
             max: null
@@ -63,11 +63,14 @@ system:
       name: Modify "Vicious Mockery"
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-      img: null
+        identifier: ''
+      img: ''
     lyvDjrqkC7GWPukx:
       type: save
       sort: 0
@@ -164,8 +167,8 @@ system:
       hint: ''
   description:
     value: >-
-      <p>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpMysticalRetor
-      inline]</p><p>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpTrickswithEnc
+      <p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpMysticalRetor
+      inline]</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpTrickswithEnc
       inline classes="hide-in-embed"]</p>
     chat: ''
   identifier: mystical-retort
@@ -193,7 +196,7 @@ effects:
       changes:
         - key: system.description.value
           value: >-
-            <hr>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpMysticalRetor
+            <hr>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpMysticalRetor
             inline]
           priority: null
           type: add
@@ -239,8 +242,8 @@ _stats:
   exportSource: null
   coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369904235
-  modifiedTime: 1774369904235
+  modifiedTime: 1782586757279
   lastModifiedBy: magehandpress000
 _key: '!items!mhpMysticalRetor'

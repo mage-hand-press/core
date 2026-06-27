@@ -48,8 +48,8 @@ pages:
     text:
       format: 1
       content: >-
-        <section class="fvtt advice"><figure class="icon"><img class="round"
-        src="icons/magic/symbols/question-stone-yellow.webp" /></figure><article><h3
+        <section class="fvtt advice"><figure class="icon"><img
+        src="icons/magic/symbols/question-stone-yellow.webp" class="round"></figure><article><h3
         data-no-toc>Tricks with Enchantments</h3><p>Warmage tricks that modify existing spells
         contain an Enchant activity that can be used to apply an Enchantment to the modified spell.
         When gaining this trick, use its Enchant activity and then drag the appropriate spell from
@@ -72,7 +72,7 @@ pages:
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: magehandpress000
-      modifiedTime: 1782517956213
+      modifiedTime: 1782582893199
       createdTime: 1782517956213
     _key: '!journal.pages!mhpEmbeds5e00000.mhpTrickswithEnc'
   - sort: 300000
@@ -249,7 +249,7 @@ pages:
         illusion can’t replicate a creature, but it can deal damage to a creature within its 5-foot
         cube. If the illusion is of an object that can deal damage, a creature that enters the
         object’s 5-foot cube or begins its turn there must make an Intelligence saving throw against
-        your spell save DC. On a failed save, the creature takes [[/damage]] damage of a type
+        your spell save DC. On a failed save, the creature takes [[/damage]]{1d6} damage of a type
         appropriate to the illusion. This damage increases by 1d6 when you reach 5th level (2d6),
         11th level (3d6), and 17th level (4d6). This damage can’t trigger Warmage Edge or any
         warmage tricks.</p>
@@ -268,7 +268,7 @@ pages:
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: magehandpress000
-      modifiedTime: 1782517956214
+      modifiedTime: 1782583653696
       createdTime: 1782517581459
     _key: '!journal.pages!mhpEmbeds5e00000.mhpMinorShadowIl'
   - sort: 1000000
@@ -306,7 +306,7 @@ pages:
       createdTime: 1782517874682
     _id: mhpMysticalAthSp
     _key: '!journal.pages!mhpEmbeds5e00000.mhpMysticalAthSp'
-  - sort: 1100000
+  - sort: 950000
     name: Mystical Athlete (quickstep)
     type: text
     system: {}
@@ -337,7 +337,7 @@ pages:
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: magehandpress000
-      modifiedTime: 1782517956214
+      modifiedTime: 1782584174956
       createdTime: 1782517889332
     _id: mhpMysticalAthQu
     _key: '!journal.pages!mhpEmbeds5e00000.mhpMysticalAthQu'
@@ -527,7 +527,7 @@ pages:
     system: {}
     title:
       show: true
-      level: 1
+      level: 2
     image: {}
     text:
       format: 1
@@ -548,11 +548,48 @@ pages:
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1782518084932
-      modifiedTime: 1782518101447
+      modifiedTime: 1782584087909
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpEmbeds5e00000.mhpUnerringStrik'
+  - sort: 1700000
+    name: Signature Focus
+    type: text
+    category: mhpWarmage000000
+    _id: mhpSignatureFocu
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <ul><li><p>As a bonus action, you can call your signature focus to your hand, as long as you
+        are on the same plane of existence as it.</p></li><li><p>You can add your Intelligence
+        modifier, instead of your Strength or Dexterity modifier, to attack and damage rolls using
+        your signature focus.</p></li><li><p>Your signature focus gains a number of charges equal to
+        your Intelligence modifier (a minimum of 1). When you deal damage to a creature with it or a
+        cantrip cast through it, you can expend 1 charge to deal an extra 1d8 force damage to that
+        creature. Your focus regains all expended charges when you finish a long rest.</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1782586111239
+      modifiedTime: 1782586140829
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds5e00000.mhpSignatureFocu'
 folder: null
 categories:
   - name: Warmage

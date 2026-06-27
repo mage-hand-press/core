@@ -79,7 +79,7 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - house-of-roulette
+      - subclass:house-roulette
     repeatable: false
     level: 10
   properties: []

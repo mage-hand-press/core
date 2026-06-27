@@ -87,7 +87,7 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - coalition-arcanist
+      - subclass:coalition-arcanist
     repeatable: false
     level: 10
   properties: []

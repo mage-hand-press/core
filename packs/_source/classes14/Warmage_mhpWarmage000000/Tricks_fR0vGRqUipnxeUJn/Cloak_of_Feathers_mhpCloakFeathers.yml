@@ -2,7 +2,7 @@ folder: fR0vGRqUipnxeUJn
 name: Cloak of Feathers
 type: feat
 _id: mhpCloakFeathers
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/equipment/back/cloak-fur-brown.webp
 system:
   activities: {}
   uses:
@@ -11,7 +11,9 @@ system:
     max: ''
   advancement: {}
   description:
-    value: ''
+    value: >-
+      <p><em>Prerequisite: House of Rooks</em></p><p>While you aren’t wearing armor or wielding a
+      shield, your AC equals 10 + your Dexterity modifier + your Intelligence modifier.</p>
     chat: ''
   identifier: cloak-of-feathers
   source:
@@ -20,7 +22,8 @@ system:
   crewed: false
   enchant: {}
   prerequisites:
-    items: []
+    items:
+      - subclass:house-rooks
     repeatable: false
     level: null
   properties: []
@@ -28,7 +31,53 @@ system:
   type:
     value: class
     subtype: warmageTrick
-effects: []
+effects:
+  - name: Cloak of Feathers
+    img: icons/equipment/back/cloak-fur-brown.webp
+    origin: Compendium.mage-hand-press-core.classes14.Item.mhpCloakFeathers
+    type: base
+    _id: 02HAHzmntghFcqqH
+    system:
+      changes:
+        - key: system.attributes.ac.calc
+          type: override
+          value: custom
+          phase: initial
+          priority: null
+        - key: system.attributes.ac.formula
+          type: override
+          value: 10 + @abilities.dex.mod + @abilities.int.mod
+          phase: initial
+          priority: null
+    disabled: false
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1782584620536
+      modifiedTime: 1782584665425
+      lastModifiedBy: magehandpress000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!mhpCloakFeathers.02HAHzmntghFcqqH'
 sort: 0
 ownership:
   default: 0
@@ -36,10 +85,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369906987
-  modifiedTime: 1774369906987
+  modifiedTime: 1782584610813
   lastModifiedBy: magehandpress000
 _key: '!items!mhpCloakFeathers'

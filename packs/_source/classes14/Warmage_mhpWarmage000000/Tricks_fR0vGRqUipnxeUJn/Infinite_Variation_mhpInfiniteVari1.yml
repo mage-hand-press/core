@@ -6,9 +6,9 @@ system:
   description:
     value: >-
       <p><em>Prerequisite:
-      </em>@UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitation}<em>
-      Cantrip</em></p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.MHPlTEInfiniteVa
-      inline]</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.MHPlTETrickswith
+      </em>@UUID[Compendium.dnd5e.spells.Item.udsLtG0BugXHR2JQ]{prestidigitation}<em>
+      Cantrip</em></p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpInfiniteVaria
+      inline]</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpTrickswithEnc
       inline classes="hide-in-embed"]</p>
     chat: ''
   source:
@@ -27,7 +27,7 @@ system:
   type:
     value: class
     subtype: warmageTrick
-  requirements: Warmage
+  requirements: ''
   properties: []
   activities:
     zSVFKmd3n2v7RFHz:
@@ -104,7 +104,7 @@ system:
         concentration: false
         override: false
       effects:
-        - _id: aCMm2qwNMYiVQwJI
+        - _id: mhpInfiniteVaria
           level:
             min: null
             max: null
@@ -142,11 +142,14 @@ system:
       name: Modify "Prestidigitation"
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-      img: null
+        identifier: ''
+      img: ''
   identifier: infinite-variation
   advancement: {}
   enchant: {}
@@ -154,7 +157,7 @@ system:
     level: null
     repeatable: false
     items:
-      - prestidigitation
+      - spell:prestidigitation
 effects:
   - type: enchantment
     name: Infinite Variation
@@ -164,11 +167,12 @@ effects:
     system:
       changes:
         - key: system.description.value
-          value: >-
-            <hr>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.MHPlTEInfiniteVa
-            inline]
-          priority: null
           type: add
+          value: >-
+            <hr>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpInfiniteVaria
+            inline]
+          phase: initial
+          priority: null
     duration:
       value: null
       units: seconds
@@ -190,10 +194,10 @@ effects:
       exportSource: null
       coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.0
-      lastModifiedBy: null
-      createdTime: null
-      modifiedTime: null
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1782583197348
+      modifiedTime: 1782583197348
     start: null
     showIcon: 1
     folder: null
@@ -208,9 +212,9 @@ _stats:
   exportSource: null
   coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369907586
-  modifiedTime: 1774369907586
+  modifiedTime: 1782585566025
   lastModifiedBy: magehandpress000
 _id: mhpInfiniteVari1
 sort: 1700000

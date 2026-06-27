@@ -71,6 +71,16 @@
 					"types": ["class", "feat"]
 				}
 			}
+		},
+		{
+			"name": "tables",
+			"label": "Roll Tables",
+			"path": "packs/tables",
+			"type": "RollTable",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
 		}
 	],
 	"packFolders": [
@@ -81,7 +91,8 @@
 			"packs": [
 				"journal",
 				"classes24",
-				"classes14"
+				"classes14",
+				"tables"
 			],
 			"folders": []
 		}

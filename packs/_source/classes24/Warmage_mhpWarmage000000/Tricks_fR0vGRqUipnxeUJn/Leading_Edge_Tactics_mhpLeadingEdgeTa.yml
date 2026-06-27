@@ -35,8 +35,8 @@ system:
     level: null
     repeatable: false
     items:
-      - house-of-lancers
-      - coalition-arcanist
+      - subclass:house-lancers
+      - subclass:coalition-arcanist
 effects: []
 flags: {}
 _stats:

@@ -44,6 +44,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
+            target: ''
             scaling: {}
         scaling:
           allowed: false
@@ -74,8 +75,8 @@ system:
           units: ft
           stationary: false
         affects:
-          count: ''
-          type: ''
+          count: '1'
+          type: creature
           choice: false
           special: ''
         prompt: true
@@ -100,14 +101,17 @@ system:
             scaling:
               number: 1
       sort: 100000
-      name: ''
+      name: Discharge
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-      img: null
+        identifier: ''
+      img: ''
     1aGvH4gh8wrALoWq:
       type: utility
       name: Gain Charge
@@ -176,11 +180,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369904674
-  modifiedTime: 1774369904674
+  modifiedTime: 1782586570617
   lastModifiedBy: magehandpress000
 _id: mhpStaticCantrip
 sort: 3300000

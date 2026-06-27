@@ -26,7 +26,7 @@ system:
         concentration: false
         override: false
       effects:
-        - _id: wkMiZ4pqj33M6UxO
+        - _id: mhpMysticalWeapo
           level: {}
           riders:
             activity: []
@@ -60,11 +60,14 @@ system:
         type: spell
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-      img: null
+        identifier: ''
+      img: ''
   uses:
     spent: 0
     recovery: []
@@ -72,13 +75,13 @@ system:
   advancement: {}
   description:
     value: >-
-      <p><em>Prerequisite: Level 5+ Warmage,
-      </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpForceWeapon00]{Force
-      Weapon}<em> or
-      </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpMagicDaggers0]{Magic
-      Daggers}<em>
-      Cantrip</em></p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.MHPlTEMysticalWe
-      inline]</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.MHPlTETrickswith
+      <p><em>Prerequisite:
+      </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpForceWeapon00]{force
+      weapon}<em> or
+      </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpMagicDaggers0]{magic
+      daggers}<em>
+      cantrip</em></p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpMysticalWeapo
+      inline]</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpTrickswithEnc
       inline classes="hide-in-embed"]</p>
     chat: ''
   identifier: mystical-weaponmaster
@@ -89,10 +92,10 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - force-weapon
-      - magic-daggers
+      - spell:force-weapon
+      - spell:magic-daggers
     repeatable: false
-    level: 5
+    level: null
   properties: []
   requirements: ''
   type:
@@ -107,11 +110,12 @@ effects:
     system:
       changes:
         - key: system.description.value
-          value: >-
-            <hr>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.MHPlTEMysticalWe
-            inline]
-          priority: null
           type: add
+          value: >-
+            <hr>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpMysticalWeapo
+            inline]
+          phase: initial
+          priority: null
     duration:
       value: null
       units: seconds
@@ -133,10 +137,10 @@ effects:
       exportSource: null
       coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.0
-      lastModifiedBy: null
-      createdTime: null
-      modifiedTime: null
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1782583917842
+      modifiedTime: 1782583917842
     start: null
     showIcon: 1
     folder: null
@@ -150,8 +154,8 @@ _stats:
   exportSource: null
   coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369907857
-  modifiedTime: 1774369907857
+  modifiedTime: 1782585817097
   lastModifiedBy: magehandpress000
 _key: '!items!mhpMysticalWeap2'

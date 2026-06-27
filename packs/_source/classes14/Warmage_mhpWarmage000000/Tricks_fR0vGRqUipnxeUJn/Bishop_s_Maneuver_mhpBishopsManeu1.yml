@@ -5,9 +5,9 @@ img: icons/sundries/gaming/chess-bishop-gray.webp
 system:
   description:
     value: >-
-      <p><em>Prerequisite: Level 10+ Warmage, House of Bishops</em></p><p>You can take the Disengage
-      action as a bonus action. When you do so, your walking speed increases by 10 feet until the
-      end of your turn.</p>
+      <p><em>Prerequisite: 10th level, House of Bishops</em></p><p>You can take the
+      &amp;Reference[Disengage] action as a bonus action. When you do so, your walking speed
+      increases by 10 feet until the end of your turn.</p>
     chat: ''
   source:
     custom: ''
@@ -37,16 +37,10 @@ system:
         condition: ''
         override: false
       consumption:
-        targets:
-          - type: spellSlots
-            value: '1'
-            target: '1'
-            scaling:
-              mode: level
-              formula: ''
+        targets: []
         scaling:
-          allowed: true
-          max: '9'
+          allowed: false
+          max: ''
         spellSlot: true
       description:
         chatFlavor: ''
@@ -56,12 +50,16 @@ system:
         units: inst
         special: ''
         override: false
-      effects: []
+      effects:
+        - _id: mhpBishopsManeuv
+          level:
+            min: null
+            max: null
       range:
-        units: ft
+        units: self
         special: ''
         override: false
-        value: 15 * @scaling
+        value: ''
       target:
         template:
           count: ''
@@ -74,7 +72,7 @@ system:
           stationary: false
         affects:
           count: ''
-          type: ''
+          type: self
           choice: false
           special: ''
         prompt: true
@@ -89,14 +87,17 @@ system:
         prompt: false
         visible: false
       sort: 0
-      name: Teleport
+      name: Disengage
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-      img: null
+        identifier: ''
+      img: ''
   identifier: bishops-maneuver
   advancement: {}
   enchant: {}
@@ -108,15 +109,18 @@ system:
 effects:
   - origin: Item.waXMQ85X4zvxmeqi
     duration:
-      value: 1
-      units: turns
-      expiry: turnStart
+      value: null
+      units: seconds
+      expiry: turnEnd
       expired: false
     disabled: true
     _id: mhpBishopsManeuv
     tint: '#ffffff'
     transfer: true
-    flags: {}
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
     name: Bishop's Maneuver
     description: ''
     statuses: []
@@ -126,10 +130,10 @@ effects:
       exportSource: null
       coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.0
-      lastModifiedBy: null
-      createdTime: null
-      modifiedTime: null
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1782582809082
+      modifiedTime: 1782582809082
     img: icons/magic/nature/wolf-paw-glow-large-green.webp
     type: base
     system:
@@ -151,7 +155,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1774369906794
-  modifiedTime: 1782516497201
+  modifiedTime: 1782584890906
   lastModifiedBy: magehandpress000
 _id: mhpBishopsManeu1
 sort: 3200000

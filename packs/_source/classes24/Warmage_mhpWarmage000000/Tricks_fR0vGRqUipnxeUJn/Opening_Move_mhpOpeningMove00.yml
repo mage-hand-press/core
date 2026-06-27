@@ -36,12 +36,12 @@ system:
     level: null
     repeatable: false
     items:
-      - house-of-bishops
-      - house-of-go
-      - house-of-kings
-      - house-of-knights
-      - house-of-pawns
-      - house-of-rooks
+      - subclass:house-bishops
+      - subclass:house-go
+      - subclass:house-kings
+      - subclass:house-knights
+      - subclass:house-pawns
+      - subclass:house-rooks
 effects:
   - origin: Item.OuTsyvuxf8afS7Ve
     duration:

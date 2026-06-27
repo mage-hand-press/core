@@ -2,16 +2,217 @@ folder: fR0vGRqUipnxeUJn
 name: Signature Focus
 type: feat
 _id: mhpSignatureFocu
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/symbols/runes-etched-steel-blade.webp
 system:
-  activities: {}
+  activities:
+    Wri9fdfLt6lR1qeG:
+      type: enchant
+      name: Place Sigil
+      _id: Wri9fdfLt6lR1qeG
+      img: ''
+      sort: 0
+      activation:
+        type: longRest
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: bcTaWN8DzPduHAIW
+          level:
+            min: null
+            max: null
+          riders:
+            activity:
+              - L49RqHDpPVzmYfRJ
+              - BS4ebeubbjKwLbqq
+            effect: []
+            item: []
+      flags: {}
+      range:
+        units: touch
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: object
+          count: '1'
+          special: Simple or martial weapon
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      enchant:
+        self: false
+      restrictions:
+        allowMagical: true
+        categories: []
+        properties: []
+        type: ''
+    L49RqHDpPVzmYfRJ:
+      type: utility
+      name: Call Focus
+      _id: L49RqHDpPVzmYfRJ
+      img: ''
+      sort: 100000
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: any
+        override: false
+        special: Same plane of existence
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+    BS4ebeubbjKwLbqq:
+      type: damage
+      name: Extra Damage
+      _id: BS4ebeubbjKwLbqq
+      img: ''
+      sort: 200000
+      activation:
+        type: ''
+        override: false
+        condition: When you deal damage to a creature with your signature focus or a cantrip cast through it
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: max(1, @abilities.int.mod)
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: true
+        identifier: ''
+      damage:
+        critical:
+          allow: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 8
+            bonus: ''
+            types:
+              - force
+            scaling:
+              number: 1
   uses:
     spent: 0
     recovery: []
     max: ''
   advancement: {}
   description:
-    value: ''
+    value: >-
+      <p><em>Prerequisite: 5th level</em></p><p>When you finish a long rest, you can place a unique
+      sigil on a simple or martial weapon, which becomes your signature focus until you use this
+      ability again. This weapon becomes magical, and you can use it as a spellcasting focus for
+      your warmage spells. Your signature focus is bonded to you, and gains a number of special
+      abilities:</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpSignatureFocu
+      inline]</p>
     chat: ''
   identifier: signature-focus
   source:
@@ -28,18 +229,72 @@ system:
   type:
     value: class
     subtype: warmageTrick
-effects: []
+effects:
+  - type: enchantment
+    name: Signature Focus
+    img: icons/magic/symbols/runes-etched-steel-blade.webp
+    disabled: true
+    _id: bcTaWN8DzPduHAIW
+    system:
+      changes:
+        - key: system.description.value
+          type: add
+          value: >-
+            <h5>Signature
+            Focus</h5>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpSignatureFocu
+            inline]
+          phase: initial
+          priority: null
+        - key: activities[attack].attack.ability
+          type: override
+          value: int
+          phase: initial
+          priority: null
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1782586078370
+      modifiedTime: 1782586359354
+      lastModifiedBy: magehandpress000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!mhpSignatureFocu.bcTaWN8DzPduHAIW'
 sort: 0
 ownership:
   default: 0
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity:
+        - L49RqHDpPVzmYfRJ
+        - BS4ebeubbjKwLbqq
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369908063
-  modifiedTime: 1774369908063
+  modifiedTime: 1782586364632
   lastModifiedBy: magehandpress000
 _key: '!items!mhpSignatureFocu'

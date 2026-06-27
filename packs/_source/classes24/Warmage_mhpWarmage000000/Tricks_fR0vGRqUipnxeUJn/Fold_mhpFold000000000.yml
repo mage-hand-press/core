@@ -59,7 +59,7 @@ system:
     level: 10
     repeatable: false
     items:
-      - house-of-cards
+      - subclass:house-cards
 effects: []
 flags: {}
 _stats:

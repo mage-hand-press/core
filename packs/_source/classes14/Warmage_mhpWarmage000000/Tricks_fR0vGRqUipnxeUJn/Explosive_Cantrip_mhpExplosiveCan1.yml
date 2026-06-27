@@ -5,11 +5,10 @@ img: icons/magic/fire/beam-jet-stream-yellow.webp
 system:
   description:
     value: >-
-      <p>Once on each of your turns, when you deal Fire damage to a creature with a Warmage cantrip,
-      you can create an explosion in a 5-foot Emanation originating from the target. Each creature
-      other than the target and yourself within the Emanation makes a Dexterity saving throw against
-      your spell save DC, taking half the Fire damage rolled on a failed save, or no damage on a
-      successful one.</p>
+      <p>Once on each of your turns, when you deal fire damage to a creature with a warmage cantrip,
+      you can cause it to explode. Each creature within 5 feet of the target, except you and the
+      target, must succeed on a Dexterity saving throw against your spell save DC or take half the
+      fire damage dealt to the target.</p>
     chat: ''
   source:
     custom: ''
@@ -27,7 +26,7 @@ system:
   type:
     value: class
     subtype: warmageTrick
-  requirements: Warmage
+  requirements: ''
   properties: []
   activities:
     dnd5eactivity000:
@@ -108,11 +107,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369907201
-  modifiedTime: 1774369907201
+  modifiedTime: 1782585299563
   lastModifiedBy: magehandpress000
 _id: mhpExplosiveCan1
 sort: 1000000

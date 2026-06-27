@@ -29,10 +29,10 @@ system:
     level: null
     repeatable: false
     items:
-      - house-of-cards
-      - house-of-darts
-      - house-of-dice
-      - house-of-roulette
+      - subclass:house-cards
+      - subclass:house-darts
+      - subclass:house-dice
+      - subclass:house-roulette
   properties: []
   requirements: ''
   type:

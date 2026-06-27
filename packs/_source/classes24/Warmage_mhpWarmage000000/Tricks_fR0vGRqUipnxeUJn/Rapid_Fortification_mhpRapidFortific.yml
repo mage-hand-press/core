@@ -6,8 +6,8 @@ system:
   description:
     value: >-
       <p><em>Prerequisite: </em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]{Mending}<em>
-      Cantrip</em></p><p>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpRapidFortific
-      inline]</p><p>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpTrickswithEnc
+      Cantrip</em></p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpRapidFortific
+      inline]</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpTrickswithEnc
       inline classes="hide-in-embed"]</p>
     chat: ''
   source:
@@ -50,7 +50,7 @@ system:
         concentration: false
         override: false
       effects:
-        - _id: ykzXtLIEJShPcgD9
+        - _id: mhpRapidFortific
           level:
             min: null
             max: null
@@ -88,11 +88,14 @@ system:
         type: spell
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-      img: null
+        identifier: ''
+      img: ''
     ygYCUuliJhzTOOxV:
       type: utility
       name: Repair
@@ -210,7 +213,7 @@ effects:
       changes:
         - key: system.description.value
           value: >-
-            <hr>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpRapidFortific
+            <hr>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpRapidFortific
             inline]
           priority: null
           type: add
@@ -258,9 +261,9 @@ _stats:
   exportSource: null
   coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369904399
-  modifiedTime: 1774369904399
+  modifiedTime: 1782586790398
   lastModifiedBy: magehandpress000
 _id: mhpRapidFortific
 sort: 1700000

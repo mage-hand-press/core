@@ -5,11 +5,10 @@ img: icons/magic/light/beam-rays-orange-small.webp
 system:
   description:
     value: >-
-      <p>When a creature rolls a 1 on the d20 for a saving throw against one of your Warmage
-      cantrips, it suffers a Critical Failure. It fails the save regardless of its modifiers or the
-      spell save DC. If the spell deals damage, you roll all of the spell’s damage dice twice and
-      add them together, then add any relevant modifiers. This additional damage applies only to the
-      creature that rolled a 1.</p>
+      <p>When a creature rolls a 1 on a saving throw against one of your warmage cantrips, it
+      automatically fails the save and takes twice the number of damage dice dealt by the spell, as
+      if you scored a critical hit. The additional damage only applies to the creature that rolled a
+      1.</p>
     chat: ''
   source:
     custom: ''
@@ -42,11 +41,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369908005
-  modifiedTime: 1774369908005
+  modifiedTime: 1782585948446
   lastModifiedBy: magehandpress000
 _id: mhpSevereCantri1
 sort: 2700000

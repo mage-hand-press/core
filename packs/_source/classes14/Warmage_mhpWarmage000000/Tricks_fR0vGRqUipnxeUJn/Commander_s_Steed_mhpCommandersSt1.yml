@@ -5,11 +5,10 @@ img: icons/environment/creatures/horse-tan.webp
 system:
   description:
     value: >-
-      <p><em>Prerequisite: Level 10+ Warmage, House of Kings</em></p><p>You can cast the spell
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplFindSteed0]{Find Steed}</em> without expending
-      a spell slot and regain the ability to do so when you finish a Long Rest. When you cast the
-      spell using this trick, its spell slot level is your Wamage level divided by four, rounded
-      up.</p>
+      <p><em>Prerequisites: House of Kings</em></p><p>You learn the
+      <em>@UUID[Compendium.dnd5e.spells.Item.5eh2HFbS13078Y3H]{find steed} </em>spell and can cast
+      it at will without expending a spell slot. Your steed is more resilient than most; its hit
+      point maximum is increased by an amount equal to your warmage level.</p>
     chat: ''
   source:
     custom: ''
@@ -35,13 +34,10 @@ system:
     I69KDRCF4BbFLQD4:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplFindSteed0
+        uuid: Compendium.dnd5e.spells.Item.5eh2HFbS13078Y3H
         challenge:
           override: false
-        properties:
-          - vocal
-          - somatic
-          - material
+        properties: []
         spellbook: true
         ability: ''
         level: 2
@@ -57,6 +53,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
+            target: ''
             scaling: {}
       description:
         chatFlavor: ''
@@ -83,29 +80,32 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-      img: null
+        identifier: ''
+      img: ''
   identifier: commanders-steed
   advancement: {}
   enchant: {}
   prerequisites:
-    level: 10
+    level: null
     repeatable: false
     items:
-      - house-of-kings
+      - subclass:house-kings
 effects: []
 flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369906997
-  modifiedTime: 1774369906997
+  modifiedTime: 1782584795816
   lastModifiedBy: magehandpress000
 _id: mhpCommandersSt1
 sort: 500000

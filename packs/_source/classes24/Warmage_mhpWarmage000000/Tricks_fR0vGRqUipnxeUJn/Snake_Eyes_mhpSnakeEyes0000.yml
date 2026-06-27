@@ -34,7 +34,7 @@ system:
     level: 10
     repeatable: false
     items:
-      - house-of-dice
+      - subclass:house-dice
 effects: []
 flags: {}
 _stats:

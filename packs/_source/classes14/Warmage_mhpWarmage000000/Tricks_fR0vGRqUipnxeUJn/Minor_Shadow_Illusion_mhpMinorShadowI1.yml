@@ -5,10 +5,10 @@ img: icons/magic/death/undead-ghost-scream-teal.webp
 system:
   description:
     value: >-
-      <p><em>Prerequisite: </em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMinorIllus]{Minor
-      Illusion}<em>
-      Cantrip</em></p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.MHPlTEMinorShado
-      inline]</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.MHPlTETrickswith
+      <p><em>Prerequisite: </em>@UUID[Compendium.dnd5e.spells.Item.oIzA2MEHwxhtQneU]{minor
+      illusion}<em>
+      cantrip</em></p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpMinorShadowIl
+      inline]</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpTrickswithEnc
       inline classes="hide-in-embed"]</p>
     chat: ''
   source:
@@ -139,7 +139,7 @@ system:
         concentration: false
         override: false
       effects:
-        - _id: abfDmWV58idfHbei
+        - _id: mhpMinorShadowIl
           level:
             min: null
             max: null
@@ -176,11 +176,14 @@ system:
         type: spell
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-      img: null
+        identifier: ''
+      img: ''
   identifier: minor-shadow-illusion
   advancement: {}
   enchant: {}
@@ -188,7 +191,7 @@ system:
     level: null
     repeatable: false
     items:
-      - minor-illusion
+      - spell:minor-illusion
 effects:
   - type: enchantment
     name: Minor Shadow Illusion
@@ -198,11 +201,12 @@ effects:
     system:
       changes:
         - key: system.description.value
-          value: >-
-            <hr>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.MHPlTEMinorShado
-            inline]
-          priority: null
           type: add
+          value: >-
+            <hr>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpMinorShadowIl
+            inline]
+          phase: initial
+          priority: null
     duration:
       value: null
       units: seconds
@@ -224,10 +228,10 @@ effects:
       exportSource: null
       coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.0
-      lastModifiedBy: null
-      createdTime: null
-      modifiedTime: null
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1782583940859
+      modifiedTime: 1782583940859
     start: null
     showIcon: 1
     folder: null
@@ -242,9 +246,9 @@ _stats:
   exportSource: null
   coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369907757
-  modifiedTime: 1774369907757
+  modifiedTime: 1782585901577
   lastModifiedBy: magehandpress000
 _id: mhpMinorShadowI1
 sort: 2000000

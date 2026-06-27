@@ -104,7 +104,7 @@ system:
     level: 10
     repeatable: false
     items:
-      - house-of-bishops
+      - subclass:house-bishops
 effects:
   - origin: Item.waXMQ85X4zvxmeqi
     duration:

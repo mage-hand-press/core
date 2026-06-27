@@ -88,7 +88,7 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - house-of-darts
+      - subclass:house-darts
     repeatable: false
     level: 10
   properties: []

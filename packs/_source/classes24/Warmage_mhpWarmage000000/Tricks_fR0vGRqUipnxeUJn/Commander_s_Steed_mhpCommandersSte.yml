@@ -95,7 +95,7 @@ system:
     level: 10
     repeatable: false
     items:
-      - house-of-kings
+      - subclass:house-kings
 effects: []
 flags: {}
 _stats:

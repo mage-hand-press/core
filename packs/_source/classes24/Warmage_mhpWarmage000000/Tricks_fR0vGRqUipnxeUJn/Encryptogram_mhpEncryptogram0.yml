@@ -7,8 +7,8 @@ system:
     value: >-
       <p><em>Prerequisite:
       </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpCryptogram000]{Cryptogram}<em>
-      cantrip</em></p><p>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpEncryptogram0
-      inline]</p><p>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpTrickswithEnc
+      cantrip</em></p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpEncryptogram0
+      inline]</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpTrickswithEnc
       inline classes="hide-in-embed"]</p>
     chat: ''
   source:
@@ -50,10 +50,8 @@ system:
         concentration: false
         override: false
       effects:
-        - _id: QDTykC4yz6xrJpMC
-          level:
-            min: null
-            max: null
+        - _id: mhpEncryptogram0
+          level: {}
           riders:
             activity: []
             effect: []
@@ -87,11 +85,14 @@ system:
       name: Modify "Cryptogram"
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-      img: null
+        identifier: ''
+      img: ''
   identifier: encryptogram
   advancement: {}
   enchant: {}
@@ -99,7 +100,7 @@ system:
     level: null
     repeatable: false
     items:
-      - cryptogram
+      - spell:cryptogram
 effects:
   - type: enchantment
     name: Encryptogram
@@ -110,7 +111,7 @@ effects:
       changes:
         - key: system.description.value
           value: >-
-            <hr>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpEncryptogram0
+            <hr>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpEncryptogram0
             inline]
           priority: null
           type: add
@@ -149,9 +150,9 @@ _stats:
   exportSource: null
   coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369903420
-  modifiedTime: 1774369903420
+  modifiedTime: 1782586656374
   lastModifiedBy: magehandpress000
 _id: mhpEncryptogram0
 sort: 2000000

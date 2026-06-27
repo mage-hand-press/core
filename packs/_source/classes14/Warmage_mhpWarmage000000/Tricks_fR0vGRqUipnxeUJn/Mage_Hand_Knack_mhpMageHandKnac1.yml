@@ -5,10 +5,9 @@ img: icons/magic/light/hand-sparks-smoke-teal.webp
 system:
   description:
     value: >-
-      <p><em>Prerequisite: </em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMageHand00]{Mage
-      Hand}<em>
-      Cantrip</em></p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.MHPlTEMageHandKn
-      inline]</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.MHPlTETrickswith
+      <p><em>Prerequisite: </em>@UUID[Compendium.dnd5e.spells.Item.Utk1OQRwYkMkFRD3]{mage hand}<em>
+      cantrip</em></p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpMageHandKnack
+      inline]</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpTrickswithEnc
       inline classes="hide-in-embed"]</p>
     chat: ''
   source:
@@ -51,7 +50,7 @@ system:
         concentration: false
         override: false
       effects:
-        - _id: xpw8pjJOXpqATu9V
+        - _id: mhpMageHandKnack
           level:
             min: null
             max: null
@@ -59,7 +58,7 @@ system:
             activity:
               - r11sHBPunIYVk0gn
               - rVyrPM6YIVifeu9u
-              - Q7lgcbp30GoR9SbR
+              - kcTVYxR2z316TQGM
             effect: []
             item: []
       range:
@@ -90,11 +89,14 @@ system:
         type: spell
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-      img: null
+        identifier: ''
+      img: ''
     r11sHBPunIYVk0gn:
       type: utility
       name: Press
@@ -224,11 +226,12 @@ system:
         requireIdentification: false
         requireMagic: false
       img: null
-    Q7lgcbp30GoR9SbR:
-      type: save
+    kcTVYxR2z316TQGM:
+      type: check
       name: Seize
-      _id: Q7lgcbp30GoR9SbR
-      sort: 0
+      _id: kcTVYxR2z316TQGM
+      img: ''
+      sort: 100000
       activation:
         type: bonus
         override: false
@@ -244,7 +247,10 @@ system:
         units: inst
         concentration: false
         override: false
-      effects: []
+      effects:
+        - _id: FSU1fVoVoby6Jh44
+          level: {}
+      flags: {}
       range:
         units: ft
         override: false
@@ -253,9 +259,9 @@ system:
       target:
         template:
           contiguous: false
+          stationary: false
           units: ft
           type: ''
-          stationary: false
         affects:
           choice: false
           type: creature
@@ -267,23 +273,22 @@ system:
         spent: 0
         recovery: []
         max: ''
-      damage:
-        onSave: none
-        parts: []
-      save:
-        ability:
-          - str
-          - dex
-        dc:
-          calculation: spellcasting
-          formula: ''
-      flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-      img: null
+        identifier: ''
+      check:
+        associated:
+          - acr
+          - ath
+        dc:
+          calculation: spellcasting
+          formula: ''
+        ability: ''
   identifier: mage-hand-knack
   advancement: {}
   enchant: {}
@@ -291,7 +296,7 @@ system:
     level: null
     repeatable: false
     items:
-      - mage-hand
+      - spell:mage-hand
 effects:
   - type: enchantment
     name: Mage Hand Knack
@@ -301,11 +306,12 @@ effects:
     system:
       changes:
         - key: system.description.value
-          value: >-
-            <hr>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.MHPlTEMageHandKn
-            inline]
-          priority: null
           type: add
+          value: >-
+            <hr>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpMageHandKnack
+            inline]
+          phase: initial
+          priority: null
     duration:
       value: null
       units: seconds
@@ -327,29 +333,66 @@ effects:
       exportSource: null
       coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.0
-      lastModifiedBy: null
-      createdTime: null
-      modifiedTime: null
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1782583393795
+      modifiedTime: 1782583393795
     start: null
     showIcon: 1
     folder: null
     _key: '!items.effects!mhpMageHandKnac1.mhpMageHandKnack'
+  - name: Grappled
+    img: systems/dnd5e/icons/svg/statuses/grappled.svg
+    origin: Compendium.mage-hand-press-core.classes14.Item.mhpMageHandKnac1
+    transfer: false
+    _id: FSU1fVoVoby6Jh44
+    type: base
+    system:
+      changes: []
+    disabled: false
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    tint: '#ffffff'
+    statuses:
+      - grappled
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1782583482696
+      modifiedTime: 1782583508681
+      lastModifiedBy: magehandpress000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!mhpMageHandKnac1.FSU1fVoVoby6Jh44'
 flags:
   dnd5e:
     riders:
       activity:
         - r11sHBPunIYVk0gn
         - rVyrPM6YIVifeu9u
-        - Q7lgcbp30GoR9SbR
+        - kcTVYxR2z316TQGM
 _stats:
   duplicateSource: null
   exportSource: null
   coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369907682
-  modifiedTime: 1774369907682
+  modifiedTime: 1782585893186
   lastModifiedBy: magehandpress000
 _id: mhpMageHandKnac1
 sort: 1900000

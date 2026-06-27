@@ -5,9 +5,9 @@ img: icons/magic/unholy/hand-light-pink.webp
 system:
   description:
     value: >-
-      <p>Whenever you deal Necrotic or Poison damage to an enemy with a Warmage cantrip, you can
-      siphon some of its life force. You gain Temporary Hit Points equal to half your Warmage level,
-      which last for 1 minute.</p>
+      <p>Whenever you deal necrotic or poison damage to a hostile creature with a warmage cantrip,
+      you can siphon some of its life force. You gain temporary hit points equal to half your
+      warmage level, which last for 1 minute.</p>
     chat: ''
   source:
     custom: ''
@@ -25,7 +25,7 @@ system:
   type:
     value: class
     subtype: warmageTrick
-  requirements: Warmage
+  requirements: ''
   properties: []
   activities:
     dnd5eactivity000:
@@ -110,11 +110,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369907144
-  modifiedTime: 1774369907144
+  modifiedTime: 1782585296534
   lastModifiedBy: magehandpress000
 _id: mhpDrainingCant1
 sort: 800000

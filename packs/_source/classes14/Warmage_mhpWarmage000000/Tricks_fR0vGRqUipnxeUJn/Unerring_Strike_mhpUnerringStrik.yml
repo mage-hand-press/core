@@ -2,16 +2,143 @@ folder: fR0vGRqUipnxeUJn
 name: Unerring Strike
 type: feat
 _id: mhpUnerringStrik
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/fire/dagger-rune-enchant-flame-strong-blue-yellow.webp
 system:
-  activities: {}
+  activities:
+    ey4pOnkSXvw9BBe5:
+      type: enchant
+      name: Modify "True Strike"
+      _id: ey4pOnkSXvw9BBe5
+      img: ''
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: NSj5dTFvzvrCAieb
+          level:
+            min: null
+            max: null
+          riders:
+            activity:
+              - iGqyHnQfNHGVgujF
+            effect: []
+            item: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      enchant:
+        self: false
+      restrictions:
+        allowMagical: false
+        categories: []
+        properties: []
+        type: spell
+    iGqyHnQfNHGVgujF:
+      type: utility
+      name: Cast (concentration)
+      _id: iGqyHnQfNHGVgujF
+      img: ''
+      sort: 100000
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: true
+        override: true
+        value: '1'
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
   uses:
     spent: 0
     recovery: []
     max: ''
   advancement: {}
   description:
-    value: ''
+    value: >-
+      <p><em>Prerequisites: 10th level,
+      </em>@UUID[Compendium.dnd5e.spells.Item.mGGlcLdggHwcL7MG]{true strike}<em>
+      cantrip</em></p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpUnerringStrik
+      inline]</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpTrickswithEnc
+      inline classes="hide-in-embed"]</p>
     chat: ''
   identifier: unerring-strike
   source:
@@ -28,18 +155,65 @@ system:
   type:
     value: class
     subtype: warmageTrick
-effects: []
+effects:
+  - type: enchantment
+    name: Unerring Strike
+    img: icons/magic/fire/dagger-rune-enchant-flame-strong-blue-yellow.webp
+    disabled: true
+    _id: NSj5dTFvzvrCAieb
+    system:
+      changes:
+        - key: system.description.value
+          type: add
+          value: >-
+            <hr>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpUnerringStrik
+            inline]
+          phase: initial
+          priority: null
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1782584397884
+      modifiedTime: 1782584411099
+      lastModifiedBy: magehandpress000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!mhpUnerringStrik.NSj5dTFvzvrCAieb'
 sort: 0
 ownership:
   default: 0
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity:
+        - iGqyHnQfNHGVgujF
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369908339
-  modifiedTime: 1774369908339
+  modifiedTime: 1782584507194
   lastModifiedBy: magehandpress000
 _key: '!items!mhpUnerringStrik'

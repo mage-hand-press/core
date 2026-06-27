@@ -8,8 +8,8 @@ system:
       <p><em>Prerequisite: Level 5+ Warmage,
       </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpForceBuckler0]{Force
       Buckler}<em>
-      cantrip</em></p><p>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpForceAegis000
-      inline]</p><p>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpTrickswithEnc
+      cantrip</em></p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpForceAegis000
+      inline]</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpTrickswithEnc
       inline classes="hide-in-embed"]</p>
     chat: ''
   source:
@@ -52,7 +52,7 @@ system:
         concentration: false
         override: false
       effects:
-        - _id: f3xocxU9H9jAvDBe
+        - _id: mhpForceAegis000
           level: {}
           riders:
             activity: []
@@ -86,11 +86,14 @@ system:
         type: spell
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-      img: null
+        identifier: ''
+      img: ''
   identifier: force-aegis
   advancement: {}
   enchant: {}
@@ -98,7 +101,7 @@ system:
     level: 5
     repeatable: false
     items:
-      - force-buckler
+      - spell:force-buckler
 effects:
   - type: enchantment
     name: Force Aegis
@@ -109,7 +112,7 @@ effects:
       changes:
         - key: system.description.value
           value: >-
-            <hr>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpForceAegis000
+            <hr>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpForceAegis000
             inline]
           priority: null
           type: add
@@ -160,9 +163,9 @@ _stats:
   exportSource: null
   coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369903618
-  modifiedTime: 1774369903618
+  modifiedTime: 1782586681355
   lastModifiedBy: magehandpress000
 _id: mhpForceAegis000
 sort: 3800000

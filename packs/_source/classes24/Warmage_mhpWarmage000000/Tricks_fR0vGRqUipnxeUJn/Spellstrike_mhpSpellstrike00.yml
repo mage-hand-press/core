@@ -37,10 +37,10 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - arc-blade
-      - burning-blade
-      - frigid-blade
-      - true-strike
+      - spell:arc-blade
+      - spell:burning-blade
+      - spell:frigid-blade
+      - spell:true-strike
     repeatable: false
     level: 10
   properties: []

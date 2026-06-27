@@ -7,8 +7,8 @@ system:
     value: >-
       <p><em>Prerequisite: </em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMinorIllus]{Minor
       Illusion}<em>
-      Cantrip</em></p><p>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpMinorShadowIl
-      inline]</p><p>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpTrickswithEnc
+      Cantrip</em></p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpMinorShadowIl
+      inline]</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpTrickswithEnc
       inline classes="hide-in-embed"]</p>
     chat: ''
   source:
@@ -139,7 +139,7 @@ system:
         concentration: false
         override: false
       effects:
-        - _id: abfDmWV58idfHbei
+        - _id: mhpMinorShadowIl
           level:
             min: null
             max: null
@@ -176,11 +176,14 @@ system:
         type: spell
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-      img: null
+        identifier: ''
+      img: ''
   identifier: minor-shadow-illusion
   advancement: {}
   enchant: {}
@@ -188,7 +191,7 @@ system:
     level: null
     repeatable: false
     items:
-      - minor-illusion
+      - spell:minor-illusion
 effects:
   - type: enchantment
     name: Minor Shadow Illusion
@@ -199,7 +202,7 @@ effects:
       changes:
         - key: system.description.value
           value: >-
-            <hr>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpMinorShadowIl
+            <hr>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpMinorShadowIl
             inline]
           priority: null
           type: add
@@ -242,9 +245,9 @@ _stats:
   exportSource: null
   coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369904119
-  modifiedTime: 1774369904119
+  modifiedTime: 1782586723646
   lastModifiedBy: magehandpress000
 _id: mhpMinorShadowIl
 sort: 2700000

@@ -5,10 +5,10 @@ img: icons/magic/control/energy-stream-link-spiral-white.webp
 system:
   description:
     value: >-
-      <p><em>Prerequisites: Level 10+ Warmage, House of Rooks</em></p><p>As a Magic action, you can
-      choose a willing Small or Medium creature you can see within 120 feet of you. You both
-      teleport, swapping places.</p><p>Once you use this trick, you can’t use it again until you
-      finish a Short or Long Rest.</p>
+      <p><em>Prerequisites: 10th level, House of Rooks</em></p><p>As an action, you can choose a
+      willing Small or Medium creature you can see within 120 feet of you. You both teleport,
+      swapping places.</p><p>Once you use this trick, you can’t use it again until you finish a
+      short or long rest.</p>
     chat: ''
   source:
     custom: ''
@@ -77,7 +77,7 @@ system:
           count: '1'
           type: willing
           choice: false
-          special: Small or medium creature you can see
+          special: Small or Medium creature you can see
         prompt: true
         override: false
       uses:
@@ -93,11 +93,14 @@ system:
       name: Teleport
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-      img: null
+        identifier: ''
+      img: ''
   identifier: castle
   advancement: {}
   enchant: {}
@@ -105,17 +108,17 @@ system:
     level: 10
     repeatable: false
     items:
-      - house-of-rooks
+      - subclass:house-rooks
 effects: []
 flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369906914
-  modifiedTime: 1774369906914
+  modifiedTime: 1782584863786
   lastModifiedBy: magehandpress000
 _id: mhpCastle0000001
 sort: 400000

@@ -5,8 +5,8 @@ img: icons/magic/life/cross-area-circle-green-white.webp
 system:
   description:
     value: >-
-      <p>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpFieldMedic000
-      inline]</p><p>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpTrickswithEnc
+      <p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpFieldMedic000
+      inline]</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpTrickswithEnc
       inline classes="hide-in-embed"]</p>
     chat: ''
   source:
@@ -49,10 +49,13 @@ system:
         concentration: false
         override: false
       effects:
-        - _id: zBZkSDqlGA65MdIH
-          level: {}
+        - _id: mhpFieldMedic000
+          level:
+            min: null
+            max: null
           riders:
-            activity: []
+            activity:
+              - TsIAn0hZkbe0UKrT
             effect: []
             item: []
       range:
@@ -83,11 +86,14 @@ system:
         type: spell
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-      img: null
+        identifier: ''
+      img: ''
     TsIAn0hZkbe0UKrT:
       type: heal
       name: Restore Hit Points
@@ -176,7 +182,7 @@ effects:
       changes:
         - key: system.description.value
           value: >-
-            <hr>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpFieldMedic000
+            <hr>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpFieldMedic000
             inline]
           priority: null
           type: add
@@ -213,15 +219,19 @@ effects:
     showIcon: 1
     folder: null
     _key: '!items.effects!mhpFieldMedic000.mhpFieldMedic000'
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity:
+        - TsIAn0hZkbe0UKrT
 _stats:
   duplicateSource: null
   exportSource: null
   coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369903528
-  modifiedTime: 1774369903528
+  modifiedTime: 1782586669015
   lastModifiedBy: magehandpress000
 _id: mhpFieldMedic000
 sort: 3600000

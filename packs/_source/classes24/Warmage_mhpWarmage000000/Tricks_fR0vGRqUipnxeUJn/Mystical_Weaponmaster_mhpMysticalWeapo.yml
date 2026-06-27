@@ -26,7 +26,7 @@ system:
         concentration: false
         override: false
       effects:
-        - _id: wkMiZ4pqj33M6UxO
+        - _id: mhpMysticalWeapo
           level: {}
           riders:
             activity: []
@@ -60,11 +60,14 @@ system:
         type: spell
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-      img: null
+        identifier: ''
+      img: ''
   uses:
     spent: 0
     recovery: []
@@ -77,8 +80,8 @@ system:
       Weapon}<em> or
       </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpMagicDaggers1]{Magic
       Daggers}<em>
-      Cantrip</em></p><p>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpMysticalWeapo
-      inline]</p><p>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpTrickswithEnc
+      Cantrip</em></p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpMysticalWeapo
+      inline]</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpTrickswithEnc
       inline classes="hide-in-embed"]</p>
     chat: ''
   identifier: mystical-weaponmaster
@@ -89,8 +92,8 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - force-weapon
-      - magic-daggers
+      - spell:force-weapon
+      - spell:magic-daggers
     repeatable: false
     level: 5
   properties: []
@@ -108,7 +111,7 @@ effects:
       changes:
         - key: system.description.value
           value: >-
-            <hr>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpMysticalWeapo
+            <hr>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpMysticalWeapo
             inline]
           priority: null
           type: add
@@ -150,8 +153,8 @@ _stats:
   exportSource: null
   coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369904278
-  modifiedTime: 1774369904278
+  modifiedTime: 1782586765771
   lastModifiedBy: magehandpress000
 _key: '!items!mhpMysticalWeapo'

@@ -5,9 +5,8 @@ img: icons/magic/defensive/shield-barrier-glowing-blue.webp
 system:
   description:
     value: >-
-      <p>You can cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMageArmor0]{Mage Armor}</em> on
-      yourself without expending a spell slot. While under the effects of this spell, you can add
-      your Intelligence modifier, instead of Dexterity, to your Armor Class.</p>
+      <p>You can cast the <em>@UUID[Compendium.dnd5e.spells.Item.CKZTpZlxj7hjjo2H]{mage armor}</em>
+      spell on yourself at will, without using a spell slot or spell components.</p>
     chat: ''
   source:
     custom: ''
@@ -31,7 +30,7 @@ system:
     hWQusGjdCkyruGqX:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplMageArmor0
+        uuid: Compendium.dnd5e.spells.Item.CKZTpZlxj7hjjo2H
         challenge:
           override: false
         properties:
@@ -39,6 +38,8 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: ''
+        level: 1
       _id: hWQusGjdCkyruGqX
       sort: 0
       activation:
@@ -49,7 +50,8 @@ system:
           allowed: false
         spellSlot: true
         targets: []
-      description: {}
+      description:
+        chatFlavor: ''
       duration:
         units: inst
         concentration: false
@@ -69,13 +71,18 @@ system:
       uses:
         spent: 0
         recovery: []
+        max: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-      img: null
+        identifier: ''
+      img: ''
+      name: ''
   identifier: mystical-armor
   advancement: {}
   enchant: {}
@@ -88,11 +95,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369907794
-  modifiedTime: 1774369907794
+  modifiedTime: 1782585730155
   lastModifiedBy: magehandpress000
 _id: mhpMysticalArmo1
 sort: 2100000

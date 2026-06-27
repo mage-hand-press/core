@@ -5,14 +5,13 @@ img: icons/sundries/gaming/dice-runed-brown.webp
 system:
   description:
     value: >-
-      <p><em>Prerequisite:
-      </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpCheat00000000]{Cheat}<em>
-      Cantrip; House of Cards, House of Darts, House of Dice, or House of Roulette</em></p><p>You
-      are always under the effects of the
-      <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpCheat00000000]{Cheat}</em>
-      cantrip. Additionally, when you fail a D20 Test, you can reroll the die, and you must use the
-      new roll.</p><p>You can use this trick twice. You regain one of its expended uses when you
-      finish a Short Rest, and you regain all expended uses when you finish a Long Rest.</p>
+      <p><em>Prerequisite: House of Cards or House of Dice,
+      </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpCheat00000000]{cheat}<em>
+      cantrip</em></p><p>You are always under the effects of the
+      <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpCheat00000000]{cheat}</em>
+      cantrip.</p><p>Additionally, when you miss with an attack roll, or you fail an ability check
+      or saving throw, you can reroll the d20 and must use the new roll. Once you use this ability,
+      you can’t use it again until you finish a short or long rest.</p>
     chat: ''
   source:
     custom: ''
@@ -24,18 +23,15 @@ system:
   cover: null
   crewed: false
   uses:
-    max: '2'
+    max: '1'
     recovery:
       - period: sr
-        type: formula
-        formula: '1'
-      - period: lr
         type: recoverAll
-    spent: 1
+    spent: 0
   type:
     value: class
     subtype: warmageTrick
-  requirements: Warmage
+  requirements: ''
   properties: []
   activities:
     dnd5eactivity000:
@@ -44,7 +40,7 @@ system:
       activation:
         type: special
         value: null
-        condition: When you fail a D20 Test
+        condition: When you miss with an attack roll, or you fail an ability check orr saving throw
         override: false
       consumption:
         targets:
@@ -99,11 +95,14 @@ system:
       name: Reroll
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-      img: null
+        identifier: ''
+      img: ''
   identifier: gamble
   advancement: {}
   enchant: {}
@@ -111,19 +110,19 @@ system:
     level: null
     repeatable: false
     items:
-      - house-of-cards
-      - house-of-dice
-      - cheat
+      - subclass:house-cards
+      - subclass:house-dice
+      - spell:cheat
 effects: []
 flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369907381
-  modifiedTime: 1774369907381
+  modifiedTime: 1782585539632
   lastModifiedBy: magehandpress000
 _id: mhpGamble0000001
 sort: 1500000

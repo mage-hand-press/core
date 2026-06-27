@@ -1,0 +1,167 @@
+name: Prismatic Cantrip Damage Types
+_id: mhpPrismaticCant
+img: icons/magic/sonic/projectile-sound-rings-wave.webp
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: mhpAcid000000000
+    name: Acid
+    img: icons/magic/acid/projectile-faceted-glob.webp
+    description: >-
+      <p>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpCorrosiveCant]{Corrosive
+      Cantrip}</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: YRMhx8BUTW0cHVBn
+      createdTime: 1782582519915
+      modifiedTime: 1782582519915
+    documentUuid: null
+    _key: '!tables.results!mhpPrismaticCant.mhpAcid000000000'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: mhpCold000000000
+    name: Cold
+    img: icons/magic/water/barrier-ice-wall-explosion.webp
+    description: <p>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpIcyCantrip000]{Icy Cantrip}</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: YRMhx8BUTW0cHVBn
+      createdTime: 1782582521273
+      modifiedTime: 1782582529498
+    documentUuid: null
+    _key: '!tables.results!mhpPrismaticCant.mhpCold000000000'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: mhpFire000000000
+    name: Fire
+    img: icons/magic/fire/beam-jet-stream-yellow.webp
+    description: >-
+      <p>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpExplosiveCant]{Explosive
+      Cantrip}</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: YRMhx8BUTW0cHVBn
+      createdTime: 1782582535618
+      modifiedTime: 1782582535618
+    documentUuid: null
+    _key: '!tables.results!mhpPrismaticCant.mhpFire000000000'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: mhpLightning0000
+    name: Lightning
+    img: icons/magic/lightning/bolt-strike-hand-gray.webp
+    description: <p>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpStaticCantrip]{Static Cantrip}</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: YRMhx8BUTW0cHVBn
+      createdTime: 1782582542003
+      modifiedTime: 1782582542003
+    documentUuid: null
+    _key: '!tables.results!mhpPrismaticCant.mhpLightning0000'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: mhpPoison0000000
+    name: Poison
+    img: icons/magic/unholy/hand-light-pink.webp
+    description: >-
+      <p>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpDrainingCantr]{Draining
+      Cantrip}</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: YRMhx8BUTW0cHVBn
+      createdTime: 1782582549420
+      modifiedTime: 1782582549420
+    documentUuid: null
+    _key: '!tables.results!mhpPrismaticCant.mhpPoison0000000'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: mhpThunder000000
+    name: Thunder
+    img: icons/magic/unholy/orb-colllecting-energy-green.webp
+    description: <p>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpSilentCantrip]{Silent Cantrip}</p>
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: YRMhx8BUTW0cHVBn
+      createdTime: 1782582556545
+      modifiedTime: 1782582556545
+    documentUuid: null
+    _key: '!tables.results!mhpPrismaticCant.mhpThunder000000'
+replacement: true
+displayRoll: true
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1763856635586
+  modifiedTime: 1763856635586
+  lastModifiedBy: magehandpress000
+formula: 1d6
+_key: '!tables!mhpPrismaticCant'

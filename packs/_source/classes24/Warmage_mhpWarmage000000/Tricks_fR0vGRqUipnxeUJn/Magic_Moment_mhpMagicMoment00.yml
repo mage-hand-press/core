@@ -25,10 +25,8 @@ system:
         concentration: false
         override: false
       effects:
-        - _id: aEPfEMexug8bx8Nm
-          level:
-            min: null
-            max: null
+        - _id: mhpMagicMoment00
+          level: {}
           riders:
             activity: []
             effect: []
@@ -62,11 +60,14 @@ system:
       name: Modify "Moment to Think"
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-      img: null
+        identifier: ''
+      img: ''
   uses:
     spent: 0
     recovery: []
@@ -77,8 +78,8 @@ system:
       <p><em>Prerequisite:
       </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpMomenttoThink]{Moment
       to Think}<em>
-      Cantrip</em></p><p>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpMagicMoment00
-      inline]</p><p>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpTrickswithEnc
+      Cantrip</em></p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpMagicMoment00
+      inline]</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpTrickswithEnc
       inline classes="hide-in-embed"]</p>
     chat: ''
   identifier: magic-moment
@@ -89,7 +90,7 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - moment-to-think
+      - spell:moment-to-think
     repeatable: false
     level: null
   properties: []
@@ -107,7 +108,7 @@ effects:
       changes:
         - key: system.description.value
           value: >-
-            <hr>@Embed[Compendium.mage-hand-press-complete-warmage.journal.JournalEntry.mhpEmbeds0000000.JournalEntryPage.mhpMagicMoment00
+            <hr>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpMagicMoment00
             inline]
           priority: null
           type: add
@@ -149,8 +150,8 @@ _stats:
   exportSource: null
   coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369904061
-  modifiedTime: 1774369904061
+  modifiedTime: 1782586715892
   lastModifiedBy: magehandpress000
 _key: '!items!mhpMagicMoment00'

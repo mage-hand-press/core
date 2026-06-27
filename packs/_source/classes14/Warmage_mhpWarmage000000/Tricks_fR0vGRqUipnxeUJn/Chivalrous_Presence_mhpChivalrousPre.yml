@@ -1,16 +1,33 @@
 name: Chivalrous Presence
 type: feat
 _id: mhpChivalrousPre
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/control/control-influence-crown-gold.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement:
+    pG9TxFk1fscBjIYK:
+      type: Trait
+      _id: pG9TxFk1fscBjIYK
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - skills:ins
+          - skills:per
+        mode: default
+      flags: {}
+      level: 0
+      hint: ''
+      title: ''
   description:
-    value: ''
+    value: >-
+      <p><em>Prerequisite: House of Knights</em></p><p>You gain proficiency in the Insight and
+      Persuasion skills, and you have advantage on ability checks you make to interact with
+      nobility. Additionally, other creatures can always discern when you are telling the truth.</p>
     chat: ''
   identifier: chivalrous-presence
   source:
@@ -19,7 +36,8 @@ system:
   crewed: false
   enchant: {}
   prerequisites:
-    items: []
+    items:
+      - subclass:house-knights
     repeatable: false
     level: null
   properties: []
@@ -36,10 +54,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369906969
-  modifiedTime: 1774369906969
+  modifiedTime: 1782584579471
   lastModifiedBy: magehandpress000
 _key: '!items!mhpChivalrousPre'

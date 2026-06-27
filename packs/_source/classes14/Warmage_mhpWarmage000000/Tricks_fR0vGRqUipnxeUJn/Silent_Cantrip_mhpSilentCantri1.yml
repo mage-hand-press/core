@@ -5,12 +5,10 @@ img: icons/magic/unholy/orb-colllecting-energy-green.webp
 system:
   description:
     value: >-
-      <p>Once on each of your turns immediately after you deal Thunder damage to an enemy with a
-      Warmage cantrip, you can create a 5-foot Emanation of magical silence originating from the
-      target, which lasts until the start of your next turn. Any creature or object entirely inside
-      the Emanation has Immunity to Thunder damage, and creatures have the &amp;Reference[Deafened]
-      condition while entirely inside it. Casting a spell that includes a Verbal component is
-      impossible there.</p>
+      <p>Once on each of your turns when you deal thunder damage to a hostile creature with a
+      warmage cantrip, you can create a 15-foot-diameter sphere of magical silence (as per the
+      <em>@UUID[Compendium.dnd5e.spells.Item.5VhqFROQYjr1P9lp]{silence}</em> spell), centered on
+      yourself or the creature (your choice), which lasts until the start of your next turn.</p>
     chat: ''
   source:
     custom: ''
@@ -62,15 +60,15 @@ system:
         template:
           count: ''
           contiguous: false
-          type: radius
-          size: '5'
+          type: sphere
+          size: '15'
           width: ''
           height: ''
           units: ft
           stationary: false
         affects:
-          count: '1'
-          type: enemy
+          count: ''
+          type: ''
           choice: false
           special: ''
         prompt: true
@@ -85,14 +83,17 @@ system:
         prompt: false
         visible: false
       sort: 0
-      name: ''
+      name: Silence
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-      img: null
+        identifier: ''
+      img: ''
   identifier: silent-cantrip
   advancement: {}
   enchant: {}
@@ -105,11 +106,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.3
   createdTime: 1774369908077
-  modifiedTime: 1774369908077
+  modifiedTime: 1782586424866
   lastModifiedBy: magehandpress000
 _id: mhpSilentCantri1
 sort: 2800000

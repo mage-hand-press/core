@@ -111,9 +111,9 @@ system:
     level: null
     repeatable: false
     items:
-      - house-of-cards
-      - house-of-dice
-      - cheat
+      - subclass:house-cards
+      - subclass:house-dice
+      - spell:cheat
 effects: []
 flags: {}
 _stats:

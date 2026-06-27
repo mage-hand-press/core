@@ -95,7 +95,7 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - house-of-go
+      - subclass:house-go
     repeatable: false
     level: 10
   properties: []
