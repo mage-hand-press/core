@@ -52,6 +52,9 @@
 				"dnd5e": {
 					"sorting": "m",
 					"types": ["class", "feat"]
+				},
+				"mage-hand-press-core": {
+					"rulesVersion": "modern"
 				}
 			}
 		},
@@ -69,6 +72,9 @@
 				"dnd5e": {
 					"sorting": "m",
 					"types": ["class", "feat"]
+				},
+				"mage-hand-press-core": {
+					"rulesVersion": "legacy"
 				}
 			}
 		},

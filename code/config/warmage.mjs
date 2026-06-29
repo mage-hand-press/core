@@ -3,6 +3,7 @@ export function initialize() {
 		? "Compendium.mage-hand-press-core.journal.JournalEntry.mhpWarmage5e0000.JournalEntryPage.mhpWarmageSpellL"
 		: "Compendium.mage-hand-press-core.journal.JournalEntry.mhpWarmage55e000.JournalEntryPage.mhpWarmageSpellL"
 	);
+	// TODO: Add support for including Wizard cantrips in Warmage list
 
 	if ( !game.settings.get("mage-hand-press-core", "warmage").customization ) return;
 	Object.assign(CONFIG.DND5E.featureTypes.class.subtypes, featureTypes.class);

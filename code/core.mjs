@@ -22,3 +22,5 @@ Hooks.once("init", () => {
 Hooks.once("i18nInit", () => {
 	foundry.helpers.Localization.localizeDataModel(data.WarmageSettingData);
 });
+
+// TODO: Automatically set compendium browser filtering based on rules version
