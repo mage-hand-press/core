@@ -1,0 +1,64 @@
+folder: Cr41kvdihECBypHf
+name: Spellcasting
+type: feat
+img: icons/magic/light/hand-sparks-smoke-green.webp
+system:
+  description:
+    value: >-
+      <p>At 1st level, you begin to learn the simple, yet potent, brand of spellcasting for which
+      warmages are known.</p><h5>Cantrips</h5><p>You know four cantrips of your choice from the
+      @UUID[Compendium.mage-hand-press-core.journal.JournalEntry.mhpWarmageLegacy.JournalEntryPage.mhpWarmageSpellL]{warmage
+      spell list}. You learn additional warmage cantrips of your choice at higher levels, as shown
+      in the Cantrips Known column of the Warmage table.</p><p>Additionally, when you gain a level
+      in this class, you can choose one of the warmage cantrips you know and replace it with another
+      warmage cantrip.</p><h5>Spellcasting Ability</h5><p>Intelligence is your spellcasting ability
+      for your warmage spells, since you learn your spells through practice and mental discipline.
+      You use your Intelligence whenever a spell refers to your spellcasting ability. In addition,
+      you use your Intelligence modifier when setting the saving throw DC for a warmage spell you
+      cast and when making an attack roll with one.</p><p><strong>Spell save DC</strong> = 8 + your
+      proficiency bonus + your Intelligence modifier</p><p><strong>Spell attack modifier</strong> =
+      your proficiency bonus + your Intelligence modifier</p><h5>Spellcasting Focus</h5><p>You can
+      use an arcane focus as a spellcasting focus for your warmage spells.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Warmage
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Warmage
+  properties: []
+  activities: {}
+  identifier: spellcasting
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    level: 1
+    repeatable: false
+    items: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 6.0.0
+  createdTime: 1774369908144
+  modifiedTime: 1782754827661
+  lastModifiedBy: magehandpress000
+_id: mhpWarmageSpellc
+sort: 100000
+ownership:
+  default: 0
+_key: '!items!mhpWarmageSpellc'

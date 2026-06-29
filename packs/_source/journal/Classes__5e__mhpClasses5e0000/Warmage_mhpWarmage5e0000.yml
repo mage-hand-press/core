@@ -1,0 +1,430 @@
+name: Warmage
+_id: mhpWarmage5e0000
+pages:
+  - sort: 200000
+    name: Warmage
+    type: class
+    _id: mhpWarmage000000
+    system:
+      item: Compendium.mage-hand-press-core.classes14.Item.mhpWarmage000001
+      description:
+        value: >-
+          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpWarmage000001
+          caption=false]</p><h3>Cantrip Masters</h3><p>While other spellcasters aspire to grander
+          and more complex spells, warmages refine and master the most fundamental magic: cantrips.
+          Warmages wield their magic in the same way that a warrior uses a sword, bow, or axe—as
+          weapons to be perfected, not as an unknowable force to be feared. In contrast to sorcerers
+          and wizards, their magic is a trainable skill, one that can be mastered by almost anyone
+          with discipline and aptitude. Therefore, warmages stand among the most fearsome of
+          spellcasters, with only the most rudimentary of spells.</p><h3>Strategic
+          Geniuses</h3><p>Warmages have a long and storied history as masterful strategists and
+          tacticians, both in grand battles and personal skirmishes. If a warmage is outgunned or
+          outnumbered, they’ll try to outthink their foes, which works more often than not. Warmages
+          demonstrate an efficient kind of pragmatism, owing perhaps to their ability to solve many
+          problems with just a few magical tools.</p><h3>Aligned Free Agents</h3><p>While some
+          warmages are fully self-taught, the majority join a house: a loose confederation of
+          warmages who practice together and share secrets of the trade. Houses teach invaluable
+          battlefield strategy, but each individual house also touts their own brands of tactics and
+          styles of magical tricks. The House of Knights, for example, emphasizes armor and martial
+          prowess, whereas the House of Kings emphasizes battlefield strategy.</p><p>By way of
+          metaphor, houses that value honor and teamwork above all else brand themselves after games
+          of strategy, whereas those who epitomize self-reliance name themselves for games of
+          chance. This division in the warmage houses is representative of a schism that dates back
+          to the earliest warmage masters. Legend has it that the first two masters separated when
+          one decided to found a college. The other, out of spite, built a casino outside its
+          grounds.</p><h3>Creating a Warmage</h3><p>Warmages come from all walks of life, so as you
+          build yours, consider where you first learned the fundamentals of magic, which you would
+          go on to perfect. You might have picked up cantrips from a fellow adventurer or in the
+          early stages of wizarding training. You could even be self-taught. Choose an Arcane
+          Initiation which best fits your character’s history with magic.</p><p>Moreover, consider
+          how you feel about magic as a whole. Are you envious of other spellcasters, or are you
+          confident you could best them regardless? Did you once pine to be a wizard, but found you
+          could never muster enough true magic to form a spell slot? Did you choose warmagistry to
+          hone your talents to their absolute peak, or did you choose it to wield power no warrior
+          can equal?</p><p>Lastly, consider your prospective warmage House. Though you don’t choose
+          one until reaching 3rd level, your aspirations might shape which house you favor the most.
+          If you would like to dabble with greater arcane magic, the House of Bishops is the best
+          fit. If the clashing of swords at the frontlines piques your interest, consider the House
+          of Knights.</p><h4>Quick Build</h4><p>You can make a Warmage quickly by following these
+          suggestions. First, Intelligence should be your highest ability score, followed by
+          Constitution. Make Strength your third highest if you plan to take the House of Knights.
+          Then choose the chill touch, force dart, force weapon, and phantom grapnel cantrips, and
+          the Adventurer Arcane Initiation. Pick any background that emphasizes your magical
+          discipline.</p>
+        additionalHitPoints: ''
+        additionalTraits: ''
+        additionalEquipment: ''
+        subclass: ''
+      subclassItems: []
+      style: ''
+      subclassHeader: ''
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 6.0.0
+      lastModifiedBy: magehandpress000
+      modifiedTime: 1782754746110
+      createdTime: 1782754711341
+    _key: '!journal.pages!mhpWarmage5e0000.mhpWarmage000000'
+  - sort: 300000
+    name: Warmage Tricks
+    type: text
+    _id: mhpWarmageTricks
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>The following tricks are presented in alphabetical order. If a warmage trick has
+        prerequisites, you must meet them to choose it. You can choose the trick at the same time
+        that you meet its prerequisites. A level prerequisite refers to your level in this
+        class.</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpBishopsManeuv]{Bishop’s
+        Maneuver}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpBishopsManeuv
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpBlastingCantr]{Blasting
+        Cantrip}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpBlastingCantr
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpBlindingLight]{Blinding
+        Light}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpBlindingLight
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpCastle0000000]{Castle}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpCastle0000000
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpChivalrousPre]{Chivalrous
+        Presence}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpChivalrousPre
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpCloakFeathers]{Cloak
+        of Feathers}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpCloakFeathers
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpCommandersSte]{Commander’s
+        Steed}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpCommandersSte
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpCorrosiveCant]{Corrosive
+        Cantrip}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpCorrosiveCant
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpDirectedMomen]{Directed
+        Momentum}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpDirectedMomen
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpDrainingCantr]{Draining
+        Cantrip}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpDrainingCantr
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpEncryptogram0]{Encryptogram}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpEncryptogram0
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpExplosiveCant]{Explosive
+        Cantrip}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpExplosiveCant
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpExtendedRange]{Extended
+        Range}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpExtendedRange
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpFieldMedic000]{Field
+        Medic}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpFieldMedic000
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpFlexibleRange]{Flexible
+        Range}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpFlexibleRange
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpFold000000000]{Fold}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpFold000000000
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpGamble0000000]{Gamble}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpGamble0000000
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpInfiniteVaria]{Infinite
+        Variation}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpInfiniteVaria
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpIcyCantrip000]{Icy
+        Cantrip}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpIcyCantrip000
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpKnightsAegis0]{Knight’s
+        Aegis}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpKnightsAegis0
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpLeadingEdgeTa]{Leading
+        Edge Tactics}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpLeadingEdgeTa
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpLieutenantsDe]{Lieutenant’s
+        Demand}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpLieutenantsDe
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpMageHandKnack]{Mage
+        Hand Knack}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpMageHandKnack
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpMinorShadowIl]{Minor
+        Shadow
+        Illusion}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpMinorShadowIl
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpMysticalArmor]{Mystical
+        Armor}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpMysticalArmor
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpMysticalAthle]{Mystical
+        Athlete}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpMysticalAthle
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpMysticalWeapo]{Mystical
+        Weaponmaster}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpMysticalWeapo
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpMysticalVisio]{Mystical
+        Vision}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpMysticalVisio
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpPhantomHooksh]{Phantom
+        Hookshot}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpPhantomHooksh
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpRapidFortific]{Rapid
+        Fortification}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpRapidFortific
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpSnakeEyes0000]{Snake
+        Eyes}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpSnakeEyes0000
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpSevereCantrip]{Severe
+        Cantrip}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpSevereCantrip
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpSignatureFocu]{Signature
+        Focus}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpSignatureFocu
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpSilentCantrip]{Silent
+        Cantrip}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpSilentCantrip
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpSplitFire0000]{Split
+        Fire}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpSplitFire0000
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpStaticCantrip]{Static
+        Cantrip}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpStaticCantrip
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpUnerringStrik]{Unerring
+        Strike}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpUnerringStrik
+        inline]</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: magehandpress000
+      modifiedTime: 1774471666491
+      createdTime: null
+    _key: '!journal.pages!mhpWarmage5e0000.mhpWarmageTricks'
+  - sort: 1500000
+    name: Warmage Spell List
+    type: spells
+    system:
+      type: class
+      grouping: none
+      description:
+        value: ''
+      spells:
+        - Compendium.dnd5e.spells.Item.JLTQyqXEaJDrTXyW
+        - Compendium.dnd5e.spells.Item.vrN18tbTw7io5MWd
+        - Compendium.dnd5e.spells.Item.EOmsUcFQJTfG2oio
+        - Compendium.dnd5e.spells.Item.Bnn9Nzajixvow9xi
+        - Compendium.dnd5e.spells.Item.Utk1OQRwYkMkFRD3
+        - Compendium.dnd5e.spells.Item.kjmjY0zlE6IEiQVL
+        - Compendium.dnd5e.spells.Item.oIzA2MEHwxhtQneU
+        - Compendium.dnd5e.spells.Item.g2u9PYfqWQAyg9OI
+        - Compendium.dnd5e.spells.Item.udsLtG0BugXHR2JQ
+        - Compendium.dnd5e.spells.Item.eCPQuQkIabFKTl9u
+        - Compendium.dnd5e.spells.Item.ctW81uiX56xZR2c5
+        - Compendium.dnd5e.spells.Item.XvbiNhNqXXIFisIy
+        - Compendium.dnd5e.spells.Item.mGGlcLdggHwcL7MG
+      unlinkedSpells:
+        - _id: 9klMnAapJUr34LFF
+          identifier: arc-blade
+          name: Arc Blade
+          system:
+            level: 0
+            school: evo
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpArcBlade00000
+        - _id: B9dxLbwn1QIvnITo
+          identifier: burning-blade
+          name: Burning Blade
+          system:
+            level: 0
+            school: evo
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpBurningBlade0
+        - _id: AU0n0IL6NmtUro2J
+          identifier: caustic-blade
+          name: Caustic Blade
+          system:
+            level: 0
+            school: evo
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpCausticBlade0
+        - _id: qvvNlyWA9tHft2kU
+          identifier: cheat
+          name: Cheat
+          system:
+            level: 0
+            school: div
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpCheat00000000
+        - _id: Q7jwEo6g0IGHpNJb
+          identifier: cryptogram
+          name: Cryptogram
+          system:
+            level: 0
+            school: con
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpCryptogram000
+        - _id: dYQQ3RPiw6WyR0MB
+          identifier: force-buckler
+          name: Force Buckler
+          system:
+            level: 0
+            school: abj
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpForceBuckler0
+        - _id: aEYE26ASwLtNBkpg
+          identifier: force-dart
+          name: Force Dart
+          system:
+            level: 0
+            school: evo
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpForceDart0000
+        - _id: cmSluKrcVLQFrPtT
+          identifier: force-weapon
+          name: Force Weapon
+          system:
+            level: 0
+            school: evo
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpForceWeapon00
+        - _id: 3uH1zy8u4hRt2UHJ
+          identifier: frigid-blade
+          name: Frigid Blade
+          system:
+            level: 0
+            school: evo
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpFrigidBlade00
+        - _id: EB9QmWEUqVshFYBa
+          identifier: lightning-surge
+          name: Lightning Surge
+          system:
+            level: 0
+            school: evo
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpLightningSurg
+        - _id: KKJ0uWoOjdsd8rAq
+          identifier: magic-daggers
+          name: Magic Daggers
+          system:
+            level: 0
+            school: con
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpMagicDaggers0
+        - _id: n8SUsufeMTexVsDN
+          identifier: phantom-grapnel
+          name: Phantom Grapnel
+          system:
+            level: 0
+            school: evo
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpPhantomGrapne
+        - _id: m8hrZllzJ7Eq72qv
+          identifier: quickstep
+          name: Quickstep
+          system:
+            level: 0
+            school: trs
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpQuickstep0000
+        - _id: KkngjdTNqlfkJhqw
+          identifier: sonic-pulse
+          name: Sonic Pulse
+          system:
+            level: 0
+            school: evo
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpSonicPulse000
+        - _id: rt2c7ujKTLYa9yni
+          identifier: springheel
+          name: Springheel
+          system:
+            level: 0
+            school: trs
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpSpringheel000
+        - _id: MlWMMXS6KanzKfE3
+          identifier: thunderous-distortion
+          name: Thunderous Distortion
+          system:
+            level: 0
+            school: evo
+          source:
+            book: Complete Warmage
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpThunderousDis
+      identifier: warmage
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 6.0.0
+      lastModifiedBy: magehandpress000
+      modifiedTime: 1782754808276
+      createdTime: 1782754800632
+    _id: mhpWarmageSpellL
+    _key: '!journal.pages!mhpWarmage5e0000.mhpWarmageSpellL'
+folder: mhpClasses5e0000
+categories: []
+sort: 100000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1763856630412
+  modifiedTime: 1782754873059
+  lastModifiedBy: magehandpress000
+_key: '!journal!mhpWarmage5e0000'

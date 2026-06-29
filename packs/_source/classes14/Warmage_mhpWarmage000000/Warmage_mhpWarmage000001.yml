@@ -13,46 +13,9 @@ system:
       goblinoid horde.</p><p>Waving a black-and-red checkered banner, a dragonborn king charges into
       the fore. At his sides are warmages of all houses, a chessboard of elite arcanists, poised to
       turn the tide of battle.</p><p>The undisputed masters of cantrips, warmages turn the most
-      fundamental types of magic into a deadly and precise art.</p><h3>Cantrip Masters</h3><p>While
-      other spellcasters aspire to grander and more complex spells, warmages refine and master the
-      most fundamental magic: cantrips. Warmages wield their magic in the same way that a warrior
-      uses a sword, bow, or axe—as weapons to be perfected, not as an unknowable force to be feared.
-      In contrast to sorcerers and wizards, their magic is a trainable skill, one that can be
-      mastered by almost anyone with discipline and aptitude. Therefore, warmages stand among the
-      most fearsome of spellcasters, with only the most rudimentary of spells.</p><h3>Strategic
-      Geniuses</h3><p>Warmages have a long and storied history as masterful strategists and
-      tacticians, both in grand battles and personal skirmishes. If a warmage is outgunned or
-      outnumbered, they’ll try to outthink their foes, which works more often than not. Warmages
-      demonstrate an efficient kind of pragmatism, owing perhaps to their ability to solve many
-      problems with just a few magical tools.</p><h3>Aligned Free Agents</h3><p>While some warmages
-      are fully self-taught, the majority join a house: a loose confederation of warmages who
-      practice together and share secrets of the trade. Houses teach invaluable battlefield
-      strategy, but each individual house also touts their own brands of tactics and styles of
-      magical tricks. The House of Knights, for example, emphasizes armor and martial prowess,
-      whereas the House of Kings emphasizes battlefield strategy.</p><p>By way of metaphor, houses
-      that value honor and teamwork above all else brand themselves after games of strategy, whereas
-      those who epitomize self-reliance name themselves for games of chance. This division in the
-      warmage houses is representative of a schism that dates back to the earliest warmage masters.
-      Legend has it that the first two masters separated when one decided to found a college. The
-      other, out of spite, built a casino outside its grounds.</p><h3>Creating a
-      Warmage</h3><p>Warmages come from all walks of life, so as you build yours, consider where you
-      first learned the fundamentals of magic, which you would go on to perfect. You might have
-      picked up cantrips from a fellow adventurer or in the early stages of wizarding training. You
-      could even be self-taught. Choose an Arcane Initiation which best fits your character’s
-      history with magic.</p><p>Moreover, consider how you feel about magic as a whole. Are you
-      envious of other spellcasters, or are you confident you could best them regardless? Did you
-      once pine to be a wizard, but found you could never muster enough true magic to form a spell
-      slot? Did you choose warmagistry to hone your talents to their absolute peak, or did you
-      choose it to wield power no warrior can equal?</p><p>Lastly, consider your prospective warmage
-      House. Though you don’t choose one until reaching 3rd level, your aspirations might shape
-      which house you favor the most. If you would like to dabble with greater arcane magic, the
-      House of Bishops is the best fit. If the clashing of swords at the frontlines piques your
-      interest, consider the House of Knights.</p><h4>Quick Build</h4><p>You can make a Warmage
-      quickly by following these suggestions. First, Intelligence should be your highest ability
-      score, followed by Constitution. Make Strength your third highest if you plan to take the
-      House of Knights. Then choose the chill touch, force dart, force weapon, and phantom grapnel
-      cantrips, and the Adventurer Arcane Initiation. Pick any background that emphasizes your
-      magical discipline.</p>
+      fundamental types of magic into a deadly and precise art.</p><p
+      class="hide-in-embed">@UUID[Compendium.mage-hand-press-core.journal.JournalEntry.mhpWarmage5e0000.JournalEntryPage.mhpWarmage000000]{Continue
+      reading…}</p>
     chat: ''
   source:
     custom: ''
@@ -166,9 +129,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpSpellcasting3
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpWarmageSpellc
             optional: false
-          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpArcaneInitia1
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpArcaneInitiat
             optional: false
           - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpArcaneFightin
             optional: false
@@ -191,7 +154,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpWarmageEdge01
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpWarmageEdge00
             optional: false
           - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpWarmageTrick0
             optional: false
@@ -268,7 +231,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpArcaneSurge01
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpArcaneSurge00
             optional: false
         optional: false
         spell:
@@ -289,7 +252,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpTacticalInsi1
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpTacticalInsig
             optional: false
         optional: false
         spell:
@@ -310,7 +273,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpStrategicDef1
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpStrategicDefl
             optional: false
         optional: false
         spell:
@@ -331,7 +294,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpMasterWarmag1
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpMasterWarmage
             optional: false
         optional: false
         spell:
@@ -616,9 +579,9 @@ _stats:
   exportSource: null
   coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.3
+  systemVersion: 6.0.0
   createdTime: 1774369908354
-  modifiedTime: 1782515214321
+  modifiedTime: 1782754772435
   lastModifiedBy: magehandpress000
 _id: mhpWarmage000001
 sort: 100000

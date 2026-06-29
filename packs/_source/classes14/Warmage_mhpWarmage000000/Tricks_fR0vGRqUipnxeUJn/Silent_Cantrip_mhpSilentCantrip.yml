@@ -1,0 +1,119 @@
+folder: fR0vGRqUipnxeUJn
+name: Silent Cantrip
+type: feat
+img: icons/magic/unholy/orb-colllecting-energy-green.webp
+system:
+  description:
+    value: >-
+      <p>Once on each of your turns when you deal thunder damage to a hostile creature with a
+      warmage cantrip, you can create a 15-foot-diameter sphere of magical silence (as per the
+      <em>@UUID[Compendium.dnd5e.spells.Item.5VhqFROQYjr1P9lp]{silence}</em> spell), centered on
+      yourself or the creature (your choice), which lasts until the start of your next turn.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Warmage
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: warmageTrick
+  requirements: ''
+  properties: []
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: special
+        value: null
+        condition: After you deal Thunder damage to an enemy with a Warmage cantrip
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: '1'
+        units: round
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: any
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: sphere
+          size: '15'
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+      name: Silence
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      img: ''
+  identifier: silent-cantrip
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1774369908077
+  modifiedTime: 1782586424866
+  lastModifiedBy: magehandpress000
+_id: mhpSilentCantrip
+sort: 2800000
+ownership:
+  default: 0
+_key: '!items!mhpSilentCantrip'

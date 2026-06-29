@@ -1,0 +1,19 @@
+type: JournalEntry
+folder: null
+name: Classes (5e)
+color: null
+sorting: a
+_id: mhpClasses5e0000
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 6.0.0
+  createdTime: 1782754863307
+  modifiedTime: 1782754863307
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!mhpClasses5e0000'

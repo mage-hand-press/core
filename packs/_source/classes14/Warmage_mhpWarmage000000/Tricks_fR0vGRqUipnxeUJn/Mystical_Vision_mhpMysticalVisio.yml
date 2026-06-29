@@ -1,0 +1,105 @@
+folder: fR0vGRqUipnxeUJn
+name: Mystical Vision
+type: feat
+img: icons/magic/perception/eye-ringed-glow-angry-teal.webp
+system:
+  description:
+    value: >-
+      <p>You can cast the <em>@UUID[Compendium.dnd5e.spells.Item.ghXTfe7sgCbgf1Q8]{detect
+      magic}</em> spell at will without expending a spell slot.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Warmage
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: warmageTrick
+  requirements: ''
+  properties: []
+  activities:
+    rmPSFlYef1vssw7b:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.ghXTfe7sgCbgf1Q8
+        challenge:
+          override: false
+        properties: []
+        spellbook: true
+        ability: ''
+        level: 1
+      _id: rmPSFlYef1vssw7b
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          stationary: false
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      img: ''
+      name: ''
+  identifier: mystical-vision
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1774369907843
+  modifiedTime: 1782585766798
+  lastModifiedBy: magehandpress000
+_id: mhpMysticalVisio
+sort: 2300000
+ownership:
+  default: 0
+_key: '!items!mhpMysticalVisio'

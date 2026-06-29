@@ -1,0 +1,108 @@
+folder: fR0vGRqUipnxeUJn
+name: Mystical Armor
+type: feat
+img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+system:
+  description:
+    value: >-
+      <p>You can cast the <em>@UUID[Compendium.dnd5e.spells.Item.CKZTpZlxj7hjjo2H]{mage armor}</em>
+      spell on yourself at will, without using a spell slot or spell components.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Warmage
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: warmageTrick
+  requirements: ''
+  properties: []
+  activities:
+    hWQusGjdCkyruGqX:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.CKZTpZlxj7hjjo2H
+        challenge:
+          override: false
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+        ability: ''
+        level: 1
+      _id: hWQusGjdCkyruGqX
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          stationary: false
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      img: ''
+      name: ''
+  identifier: mystical-armor
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1774369907794
+  modifiedTime: 1782585730155
+  lastModifiedBy: magehandpress000
+_id: mhpMysticalArmor
+sort: 2100000
+ownership:
+  default: 0
+_key: '!items!mhpMysticalArmor'

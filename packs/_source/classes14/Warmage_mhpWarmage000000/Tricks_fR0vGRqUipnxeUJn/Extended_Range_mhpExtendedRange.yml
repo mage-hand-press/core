@@ -1,0 +1,52 @@
+folder: fR0vGRqUipnxeUJn
+name: Extended Range
+type: feat
+img: icons/magic/sonic/explosion-shock-sound-wave.webp
+system:
+  description:
+    value: >-
+      <p>Whenever you cast a warmage cantrip that has a range of 5 feet or greater, its range is
+      doubled.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Warmage
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: warmageTrick
+  requirements: ''
+  properties: []
+  activities: {}
+  identifier: extended-range
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1774369907224
+  modifiedTime: 1782585271130
+  lastModifiedBy: magehandpress000
+_id: mhpExtendedRange
+sort: 1100000
+ownership:
+  default: 0
+_key: '!items!mhpExtendedRange'

@@ -1,0 +1,116 @@
+folder: fR0vGRqUipnxeUJn
+name: Fold
+type: feat
+img: icons/magic/defensive/shield-barrier-blue.webp
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: 10th level, House of Cards</em></p><p>You have learned to graciously
+      accept defeat using your Deck of Fate. As a reaction when you are hit by an attack, you can
+      play your entire hand to cast the
+      <em>@UUID[Compendium.dnd5e.spells.Item.z1mx84ONwkXKUZd7]{shield}</em> spell without expending
+      a spell slot.</p><p>Once you use this trick, you can’t use it again until you finish a short
+      or long rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Warmage
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: '1'
+    recovery:
+      - period: sr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: warmageTrick
+  requirements: ''
+  properties: []
+  activities:
+    i2iez6ZimHbH1tmm:
+      type: cast
+      _id: i2iez6ZimHbH1tmm
+      img: ''
+      sort: 0
+      activation:
+        type: reaction
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      spell:
+        challenge:
+          override: false
+        properties: []
+        spellbook: true
+        uuid: Compendium.dnd5e.spells.Item.z1mx84ONwkXKUZd7
+        ability: ''
+        level: 1
+      name: ''
+  identifier: fold
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    level: 10
+    repeatable: false
+    items:
+      - subclass:house-cards
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1774369907341
+  modifiedTime: 1782585425107
+  lastModifiedBy: magehandpress000
+_id: mhpFold000000000
+sort: 1400000
+ownership:
+  default: 0
+_key: '!items!mhpFold000000000'

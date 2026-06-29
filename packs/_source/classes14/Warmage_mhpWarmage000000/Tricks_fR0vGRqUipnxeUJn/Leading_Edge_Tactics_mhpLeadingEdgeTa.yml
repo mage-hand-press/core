@@ -1,0 +1,54 @@
+folder: fR0vGRqUipnxeUJn
+name: Leading Edge Tactics
+type: feat
+img: icons/skills/melee/strike-axe-energy-pink.webp
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: House of Lancers</em></p><p>You always have a plan when engaging the
+      enemy. Attacks against you have disadvantage during the first round of combat. You can’t use
+      this feature when you are surprised.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Warmage
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: warmageTrick
+  requirements: ''
+  properties: []
+  activities: {}
+  identifier: leading-edge-tactics
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items:
+      - subclass:house-lancers
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1774369907637
+  modifiedTime: 1782585595000
+  lastModifiedBy: magehandpress000
+_id: mhpLeadingEdgeTa
+sort: 1800000
+ownership:
+  default: 0
+_key: '!items!mhpLeadingEdgeTa'

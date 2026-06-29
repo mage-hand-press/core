@@ -1,0 +1,59 @@
+folder: fR0vGRqUipnxeUJn
+name: Split Fire
+type: feat
+img: icons/magic/fire/projectile-fireball-sparks-orange.webp
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: 5th level</em></p><p>When you cast a warmage cantrip that requires a
+      single spell attack roll, you can select multiple creatures and make a spell attack roll
+      against each one. You can target a number of creatures equal to the number of damage dice the
+      cantrip deals, and split your damage dice up amongst your targets, to a minimum of 1 die of
+      damage per target. Each attack must target a different creature.</p><p>For example,
+      <em>@UUID[Compendium.dnd5e.spells.Item.EOmsUcFQJTfG2oio]{fire bolt}</em> deals 3d10 damage.
+      You can choose to target three creatures and deal 1d10 damage to each creature, or you can
+      target two creatures, dealing 1d10 damage to one creature and 2d10 damage to the other
+      creature, or you can target one creature for 3d10 damage.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Warmage
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: warmageTrick
+  requirements: ''
+  properties: []
+  activities: {}
+  identifier: split-fire
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    level: 5
+    repeatable: false
+    items: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1774369908157
+  modifiedTime: 1782586477110
+  lastModifiedBy: magehandpress000
+_id: mhpSplitFire0000
+sort: 2900000
+ownership:
+  default: 0
+_key: '!items!mhpSplitFire0000'

@@ -1,0 +1,76 @@
+folder: she62G4IwQURbt1a
+name: Survival
+type: feat
+img: icons/magic/fire/dagger-rune-enchant-flame-blue.webp
+system:
+  description:
+    value: >-
+      <p>To survive in the wilderness, you taught yourself to cast simple spells. You learn the
+      <em>@UUID[Compendium.dnd5e.spells.Item.SbSvZKkJASyk8jKo]{druidcraft}</em> and
+      <em>@UUID[Compendium.dnd5e.spells.Item.VzgFzcmocr1X1cp4]{shillelagh}</em> cantrips.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Warmage
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: arcaneInitiation
+  requirements: ''
+  properties: []
+  activities: {}
+  identifier: survival
+  advancement:
+    iTuVs8TWa2OJHd14:
+      type: ItemGrant
+      _id: iTuVs8TWa2OJHd14
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.SbSvZKkJASyk8jKo
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.VzgFzcmocr1X1cp4
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: warmage
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      value: {}
+      level: 1
+      title: Initiation Spells
+      hint: ''
+      flags: {}
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1774369908235
+  modifiedTime: 1782516040365
+  lastModifiedBy: magehandpress000
+_id: mhpSurvival00000
+sort: 275000
+ownership:
+  default: 0
+_key: '!items!mhpSurvival00000'

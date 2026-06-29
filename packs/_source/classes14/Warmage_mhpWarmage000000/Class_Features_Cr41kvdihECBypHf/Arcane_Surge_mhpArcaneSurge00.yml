@@ -1,0 +1,141 @@
+folder: Cr41kvdihECBypHf
+name: Arcane Surge
+type: feat
+img: icons/magic/light/explosion-beam-impact-silhouette.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 5th level, you learn to tap into a vast reservoir of magical power and unleash
+      it upon your foes. Once on each of your turns, when you deal damage with a warmage cantrip,
+      you can double the number of damage dice dealt by the spell. You can’t use this feature on a
+      spell that has scored a critical hit.</p><p>Once you use this feature, you can’t use it again
+      until you finish a short or long rest. Starting at 11th level, you can use this feature twice
+      between rests.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Warmage
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: '@scale.arcane-surge.uses'
+    recovery:
+      - period: sr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Warmage
+  properties: []
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: special
+        value: null
+        condition: When you deal damage with a warmage cantrip
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+      name: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      img: null
+  identifier: arcane-surge
+  advancement:
+    cHO4J5bofEPRaf3E:
+      _id: cHO4J5bofEPRaf3E
+      type: ScaleValue
+      configuration:
+        identifier: uses
+        type: number
+        distance:
+          units: ''
+        scale:
+          '5':
+            value: 1
+          '11':
+            value: 2
+      value: {}
+      title: Arcane Surge Uses
+      hint: ''
+      flags: {}
+  enchant: {}
+  prerequisites:
+    level: 5
+    repeatable: false
+    items: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1774369906762
+  modifiedTime: 1782516326723
+  lastModifiedBy: magehandpress000
+_id: mhpArcaneSurge00
+sort: 221875
+ownership:
+  default: 0
+_key: '!items!mhpArcaneSurge00'
