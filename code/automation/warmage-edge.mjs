@@ -74,7 +74,7 @@ export function renderDamageRollConfigurationDialog(app, html, context, options)
  * @param {BasicRollMessageConfiguration} message
  */
 export function postDamageRollConfiguration(rolls, process, dialog, message) {
-	if ( !process.mageHandPress?.warmageEdge?.enabled || !rolls[0] ) return;
+	if ( !process.mageHandPress?.warmageEdge?.enabled || !rolls[0] || !process.subject.actor ) return;
 
 	// Modify damage to include Warmage Edge
 	const addModifier = !process.rolls[0].parts.find(p => p.includes("@mod") || p.includes("@abilities.int.mod"));
