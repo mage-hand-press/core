@@ -1,7 +1,7 @@
 {
   "id": "mage-hand-press-core",
   "title": "Mage Hand Press - Core Classes",
-	"description": "<p>Complete implementation of 13 free classes from Mage Hand Press, including various small autoation features to make playing the classes easier.</p>",
+	"description": "<p>Complete implementation of 13 free classes from Mage Hand Press, including various small automation features to make playing the classes easier.</p>",
   "version": "1.0.0",
   "compatibility": {
     "minimum": "14",
