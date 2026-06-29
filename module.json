@@ -29,7 +29,7 @@
   "packs": [
 		{
 			"name": "journal",
-			"label": "Journals",
+			"label": "Core Classes",
 			"path": "packs/journal",
 			"type": "JournalEntry",
 			"ownership": {

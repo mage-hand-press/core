@@ -1,41 +1,6 @@
 name: Embeds (5e)
 _id: mhpEmbeds5e00000
 pages:
-  - sort: 100000
-    name: Blade Cantrips and Warmages
-    type: text
-    _id: mhpBladeCantrips
-    system: {}
-    title:
-      show: true
-      level: 1
-    image: {}
-    text:
-      format: 1
-      content: >-
-        <section class="fvtt advice"><figure class="icon"><img class="round"
-        src="icons/magic/symbols/question-stone-yellow.webp" /></figure><article><h3
-        data-no-toc>Blade Cantrips and Warmages</h3><p>The weapon damage dealt by <em>Arc
-        Blade</em>, <em>Burning Blade</em>, <em>Frigid Blade</em>, and <em>True Strike</em> count as
-        cantrip damage for the purposes of your Warmage features.</p></article></section>
-    video:
-      controls: true
-      volume: 0.5
-    src: null
-    category: mhpWarmage000000
-    ownership:
-      default: -1
-    flags: {}
-    _stats:
-      duplicateSource: null
-      exportSource: null
-      coreVersion: '14.364'
-      systemId: dnd5e
-      systemVersion: 5.2.0
-      lastModifiedBy: magehandpress000
-      modifiedTime: 1782517956213
-      createdTime: 1782517956213
-    _key: '!journal.pages!mhpEmbeds5e00000.mhpBladeCantrips'
   - sort: 200000
     name: Tricks with Enchantments
     type: text
