@@ -31,6 +31,7 @@
 			"name": "journal",
 			"label": "Core Classes",
 			"path": "packs/journal",
+			"banner": "modules/mage-hand-press-core/assets/interface/banners/journal.webp",
 			"type": "JournalEntry",
 			"ownership": {
 				"GAMEMASTER": "OWNER"
@@ -42,6 +43,7 @@
 			"name": "classes24",
 			"label": "Classes (5.5e)",
 			"path": "packs/classes24",
+			"banner": "modules/mage-hand-press-core/assets/interface/banners/classes24.webp",
 			"type": "Item",
 			"ownership": {
 				"PLAYER": "OBSERVER",
@@ -62,6 +64,7 @@
 			"name": "classes14",
 			"label": "Classes (5e)",
 			"path": "packs/classes14",
+			"banner": "modules/mage-hand-press-core/assets/interface/banners/classes14.webp",
 			"type": "Item",
 			"ownership": {
 				"PLAYER": "OBSERVER",
@@ -82,6 +85,7 @@
 			"name": "tables",
 			"label": "Roll Tables",
 			"path": "packs/tables",
+			"banner": "modules/mage-hand-press-core/assets/interface/banners/tables.webp",
 			"type": "RollTable",
 			"ownership": {
 				"PLAYER": "OBSERVER",
