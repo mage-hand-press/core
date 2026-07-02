@@ -1,0 +1,13 @@
+.table-of-contents:is([data-compendium-id^="mage-hand-press-core"],
+                      [data-compendium-id^="mage-hand-press-complete-"],
+                      [data-compendium-id^="mage-hand-press-expanded-"]) {
+	article .contents section {
+		column-count: 2;
+	}
+}
+
+.table-of-contents[data-compendium-id^="mage-hand-press-core"] {
+	&:not(.minimized, .minimizing, .maximizing) {
+		min-block-size: 240px;
+	}
+}

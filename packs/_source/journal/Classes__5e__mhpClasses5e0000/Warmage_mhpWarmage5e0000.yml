@@ -71,7 +71,9 @@ pages:
     category: null
     ownership:
       default: -1
-    flags: {}
+    flags:
+      dnd5e:
+        title: Warmage Class Features
     _stats:
       duplicateSource: null
       exportSource: null
@@ -79,7 +81,7 @@ pages:
       systemId: dnd5e
       systemVersion: 6.0.0
       lastModifiedBy: magehandpress000
-      modifiedTime: 1782754746110
+      modifiedTime: 1783016198679
       createdTime: 1782754711341
     _key: '!journal.pages!mhpWarmage5e0000.mhpWarmage000000'
   - sort: 300000
@@ -417,14 +419,18 @@ categories: []
 sort: 100000
 ownership:
   default: 0
-flags: {}
+flags:
+  dnd5e:
+    type: chapter
+    position: 24
+    title: Warmage (5e)
 _stats:
   duplicateSource: null
   exportSource: null
   coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.2.0
+  systemVersion: 6.0.0
   createdTime: 1763856630412
-  modifiedTime: 1782754873059
+  modifiedTime: 1783016255128
   lastModifiedBy: magehandpress000
 _key: '!journal!mhpWarmage5e0000'

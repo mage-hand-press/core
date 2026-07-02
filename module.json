@@ -26,6 +26,7 @@
     ]
   },
 	"esmodules": ["./code/core.mjs"],
+	"styles": ["./styles/core.css"],
   "packs": [
 		{
 			"name": "journal",
@@ -37,7 +38,11 @@
 				"GAMEMASTER": "OWNER"
 			},
 			"system": "dnd5e",
-			"flags": {}
+			"flags": {
+				"dnd5e": {
+					"display": "table-of-contents"
+				}
+			}
 		},
 		{
 			"name": "classes24",
