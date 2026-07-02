@@ -4,5 +4,5 @@
 		"premium": false
 	},
 	"sources": "packs/_source",
-	"includes": ["assets/"]
+	"includes": ["assets/", "code/", "styles/""]
 }
