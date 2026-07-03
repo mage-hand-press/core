@@ -1,16 +1,15 @@
-folder: TBvohlzgfu7TjSKd
-name: Fancy Gunplay
+folder: IQV2AoF70GS2zJYP
+name: Covering Fire
 type: feat
-_id: mhpFancyGunplay0
-img: icons/weapons/guns/gun-pistol-flintlock-metal.webp
+_id: mhpCoveringFire0
+img: systems/dnd5e/icons/svg/items/feature.svg
 system:
   activities:
-    T2NkWERhw0BBlU6l:
+    P6z8UXdJJziRn0Rh:
       type: utility
-      _id: T2NkWERhw0BBlU6l
       sort: 0
       activation:
-        type: special
+        type: bonus
         override: false
         condition: ''
       consumption:
@@ -23,11 +22,16 @@ system:
             target: Compendium.mage-hand-press-core.classes14.Item.mhpRisk000000000
             scaling: {}
       description:
-        chatFlavor: ''
+        chatFlavor: >-
+          <strong><em>Covering Fire.</em></strong> When you hit a creature with a ranged weapon
+          attack, you can expend one risk die as a bonus action to cow the creature. Roll the risk
+          die and subtract it from the next attack roll the creature makes before the start of your
+          next turn.
       duration:
-        units: inst
+        units: round
         concentration: false
         override: false
+        value: '1'
       effects: []
       range:
         units: self
@@ -51,9 +55,9 @@ system:
       roll:
         prompt: false
         visible: false
-        name: Fancy Gunplay
         formula: '@scale.gunslinger.risk.die'
-      name: ''
+        name: Covering Fire
+      name: Covering Fire
       img: ''
       flags: {}
       visibility:
@@ -61,53 +65,49 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      _id: P6z8UXdJJziRn0Rh
   uses:
     spent: 0
     recovery: []
     max: ''
+  advancement: {}
   description:
     value: >-
-      <p>You can impressively twirl your weapons to impress others. Whenever you make a Charisma
-      (Performance) check or a Dexterity (Sleight of Hand) check using one of your ranged weapons,
-      you can expend a risk die and add it to the ability check.</span></p>
+      <p>When you hit a creature with a ranged weapon attack, you can expend one risk die as a bonus
+      action to cow the creature. Roll the risk die and subtract it from the next attack roll the
+      creature makes before the start of your next turn.</p>
     chat: ''
-  identifier: fancy-gunplay
+  identifier: covering-fire
   source:
     revision: 1
     rules: '2014'
     book: Complete Gunslinger
-    page: '5'
+    page: ''
     custom: ''
     license: ''
-  advancement: {}
   crewed: false
   enchant: {}
   prerequisites:
-    repeatable: false
-    level: 2
     items: []
-  properties:
-    - trait
-  requirements: Gunslinger
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
   type:
-    value: ''
-    subtype: ''
+    value: class
+    subtype: gunslingerDeed
 effects: []
-sort: 100000
+sort: 0
 ownership:
   default: 0
-flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+flags: {}
 _stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1783120038328
+  modifiedTime: 1783120342179
+  lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
-  systemId: dnd5e
-  systemVersion: 5.3.1
-  createdTime: 1775254056942
-  modifiedTime: 1775254056942
-  lastModifiedBy: magehandpress000
-_key: '!items!mhpFancyGunplay0'
+_key: '!items!mhpCoveringFire0'

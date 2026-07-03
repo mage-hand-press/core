@@ -1,16 +1,15 @@
-folder: 8b8vMvnsKu2gpfKE
-name: Reposition
+folder: IQV2AoF70GS2zJYP
+name: Dodge Roll
 type: feat
-_id: mhpReposition000
-img: icons/skills/movement/feet-winged-boots-blue.webp
+_id: mhpDodgeRoll0000
+img: systems/dnd5e/icons/svg/items/feature.svg
 system:
   activities:
-    mHj4jFPXn56hj0ET:
+    WbdPNWWapCE9grmu:
       type: utility
-      _id: mHj4jFPXn56hj0ET
       sort: 0
       activation:
-        type: reaction
+        type: bonus
         override: false
         condition: ''
       consumption:
@@ -23,7 +22,11 @@ system:
             target: Compendium.mage-hand-press-core.classes14.Item.mhpRisk000000000
             scaling: {}
       description:
-        chatFlavor: ''
+        chatFlavor: >-
+          <strong><em>Dodge Roll.</em></strong> You can expend one risk die as a bonus action to
+          move up to 15 feet and reload any firearm you are holding. This movement doesn’t provoke
+          opportunity attacks, ignores difficult terrain, and allows you to move through a hostile
+          creature’s space, as long as you don’t end your movement there.
       duration:
         units: inst
         concentration: false
@@ -51,9 +54,9 @@ system:
       roll:
         prompt: false
         visible: false
-        name: ''
         formula: ''
-      name: ''
+        name: ''
+      name: Dodge Roll
       img: ''
       flags: {}
       visibility:
@@ -61,51 +64,50 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      _id: WbdPNWWapCE9grmu
   uses:
     spent: 0
     recovery: []
     max: ''
+  advancement: {}
   description:
     value: >-
-      <p>As a reaction when a hostile creature within 30 feet from you moves, you can expend a risk
-      die to move up to your movement speed.</span></p>
+      <p>You can expend one risk die as a bonus action to move up to 15 feet and reload any firearm
+      you are holding. This movement doesn’t provoke opportunity attacks, ignores
+      &amp;Reference[difficult terrain], and allows you to move through a hostile creature’s space,
+      as long as you don’t end your movement there.</p>
     chat: ''
-  identifier: reposition
+  identifier: dodge-roll
   source:
     revision: 1
     rules: '2014'
     book: Complete Gunslinger
-    page: '4'
+    page: ''
     custom: ''
     license: ''
-  advancement: {}
   crewed: false
   enchant: {}
   prerequisites:
-    repeatable: false
-    level: 2
     items: []
+    repeatable: false
+    level: null
   properties: []
-  requirements: Gunslinger
+  requirements: ''
   type:
-    value: ''
-    subtype: ''
+    value: class
+    subtype: gunslingerDeed
 effects: []
-sort: 200000
+sort: 0
 ownership:
   default: 0
-flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+flags: {}
 _stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1783120042661
+  modifiedTime: 1783120353446
+  lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
-  systemId: dnd5e
-  systemVersion: 5.3.1
-  createdTime: 1775254057363
-  modifiedTime: 1775254057363
-  lastModifiedBy: magehandpress000
-_key: '!items!mhpReposition000'
+_key: '!items!mhpDodgeRoll0000'

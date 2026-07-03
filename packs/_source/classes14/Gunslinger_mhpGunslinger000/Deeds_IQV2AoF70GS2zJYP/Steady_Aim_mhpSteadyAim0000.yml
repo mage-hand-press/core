@@ -1,13 +1,12 @@
-folder: CnhdXrEDYgydGLkr
-name: Blindfire
+folder: IQV2AoF70GS2zJYP
+name: Steady Aim
 type: feat
-_id: mhpBlindfire0000
-img: icons/magic/nature/stealth-hide-eyes-green.webp
+_id: mhpSteadyAim0000
+img: systems/dnd5e/icons/svg/items/feature.svg
 system:
   activities:
-    WpwEqs4uRoCkfIKw:
+    wDl6ulidDbNVUgSP:
       type: utility
-      _id: WpwEqs4uRoCkfIKw
       sort: 0
       activation:
         type: bonus
@@ -23,7 +22,10 @@ system:
             target: Compendium.mage-hand-press-core.classes14.Item.mhpRisk000000000
             scaling: {}
       description:
-        chatFlavor: ''
+        chatFlavor: >-
+          <strong><em>Steady Aim.</em></strong> On your turn, you can use a bonus action and expend
+          one risk die to double the normal and maximum range for the next ranged weapon attack you
+          make.
       duration:
         units: inst
         concentration: false
@@ -51,9 +53,9 @@ system:
       roll:
         prompt: false
         visible: false
-        name: ''
         formula: ''
-      name: ''
+        name: ''
+      name: Steady Aim
       img: ''
       flags: {}
       visibility:
@@ -61,52 +63,48 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      _id: wDl6ulidDbNVUgSP
   uses:
     spent: 0
     recovery: []
     max: ''
+  advancement: {}
   description:
     value: >-
-      <p>While you are in &amp;Reference[total cover], you can expend a risk die as a bonus action
-      to make one ranged weapon attack with <strong>disadvantage</strong> against any target within
-      the weapon’s range.</span></p>
+      <p>On your turn, you can use a bonus action and expend one risk die to double the normal and
+      maximum range for the next ranged weapon attack you make.</p>
     chat: ''
-  identifier: blindfire
+  identifier: steady-aim
   source:
     revision: 1
     rules: '2014'
     book: Complete Gunslinger
-    page: '5'
+    page: ''
     custom: ''
     license: ''
-  advancement: {}
   crewed: false
   enchant: {}
   prerequisites:
-    repeatable: false
-    level: 2
     items: []
+    repeatable: false
+    level: null
   properties: []
-  requirements: Gunslinger
+  requirements: ''
   type:
-    value: ''
-    subtype: ''
+    value: class
+    subtype: gunslingerDeed
 effects: []
 sort: 0
 ownership:
   default: 0
-flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+flags: {}
 _stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1783120058726
+  modifiedTime: 1783120382220
+  lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
-  systemId: dnd5e
-  systemVersion: 5.3.1
-  createdTime: 1775254057351
-  modifiedTime: 1775254057351
-  lastModifiedBy: magehandpress000
-_key: '!items!mhpBlindfire0000'
+_key: '!items!mhpSteadyAim0000'

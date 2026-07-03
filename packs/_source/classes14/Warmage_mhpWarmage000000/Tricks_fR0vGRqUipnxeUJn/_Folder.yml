@@ -5,7 +5,7 @@ type: Item
 _id: fR0vGRqUipnxeUJn
 description: ''
 sort: 200000
-color: '#9e7a31'
+color: '#3a6f3f'
 flags: {}
 _stats:
   duplicateSource: null
@@ -13,7 +13,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.3.0
   createdTime: 1782439855929
-  modifiedTime: 1782440694992
+  modifiedTime: 1783120478097
   lastModifiedBy: magehandpress000
   exportSource: null
 _key: '!folders!fR0vGRqUipnxeUJn'

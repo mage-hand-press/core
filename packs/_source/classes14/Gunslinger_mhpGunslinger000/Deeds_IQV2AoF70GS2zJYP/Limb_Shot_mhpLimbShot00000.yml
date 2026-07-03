@@ -1,0 +1,120 @@
+folder: IQV2AoF70GS2zJYP
+name: Limb Shot
+type: feat
+_id: mhpLimbShot00000
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  activities:
+    k0QC07Vm9sz9Sqbj:
+      type: save
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.mage-hand-press-core.classes14.Item.mhpRisk000000000
+            scaling: {}
+      description:
+        chatFlavor: >-
+          <strong><em>Limb Shot.</em></strong> When you hit a creature with a ranged weapon attack,
+          you can expend one risk die as a bonus action and aim for one of its limbs, attempting to
+          force it to drop one item of your choice that it’s holding. The target must make a
+          Constitution saving throw. On a failed save, it drops the object you choose. The object
+          lands at its feet.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: none
+      save:
+        ability:
+          - con
+        dc:
+          calculation: dex
+          formula: ''
+      name: Limb Shot
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      _id: k0QC07Vm9sz9Sqbj
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>When you hit a creature with a ranged weapon attack, you can expend one risk die as a bonus
+      action and aim for one of its limbs, attempting to force it to drop one item of your choice
+      that it’s holding. The target must make a [[/save con]] saving throw. On a failed save, it
+      drops the object you choose. The object lands at its feet.</p>
+    chat: ''
+  identifier: limb-shot
+  source:
+    revision: 1
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: gunslingerDeed
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1783120047576
+  modifiedTime: 1783120362964
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!mhpLimbShot00000'

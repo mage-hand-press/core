@@ -1,0 +1,49 @@
+folder: PSxNbkLRuKXh8iNG
+name: Take the Bullet
+type: feat
+_id: mhpTakeBullet000
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: ''
+    chat: ''
+  identifier: take-the-bullet
+  source:
+    revision: 1
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: gunslingerDeed
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1783120155261
+  modifiedTime: 1783120198081
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!mhpTakeBullet000'

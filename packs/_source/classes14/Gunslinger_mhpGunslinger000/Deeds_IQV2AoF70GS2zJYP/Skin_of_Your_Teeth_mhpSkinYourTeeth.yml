@@ -1,0 +1,159 @@
+folder: IQV2AoF70GS2zJYP
+name: Skin of Your Teeth
+type: feat
+_id: mhpSkinYourTeeth
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  activities:
+    KoMniwvi88c84Sy8:
+      type: utility
+      sort: 0
+      activation:
+        type: reaction
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.mage-hand-press-core.classes14.Item.mhpRisk000000000
+            scaling: {}
+      description:
+        chatFlavor: >-
+          <strong><em>Skin of Your Teeth.</em></strong> When an attacker you can see makes an attack
+          roll against you, you can expend a risk die as a reaction to dodge out of harm’s way at
+          the last second. You add the risk die to your AC against this attack, potentially causing
+          it to miss.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: 1LQTrHRLAIfhH1vR
+          level: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      name: Skin of Your Teeth
+      img: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      _id: KoMniwvi88c84Sy8
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>When an attacker you can see makes an attack roll against you, you can expend a risk die as
+      a reaction to dodge out of harm’s way at the last second. You add the risk die to your AC
+      against this attack, potentially causing it to miss.</p>
+    chat: ''
+  identifier: skin-of-your-teeth
+  source:
+    revision: 1
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: gunslingerDeed
+effects:
+  - name: Skin of Your Teeth
+    img: icons/skills/movement/feet-winged-boots-glowing-yellow.webp
+    origin: Compendium.mage-hand-press-core.classes14.Item.mhpSkinYourTeeth
+    transfer: false
+    _id: 1LQTrHRLAIfhH1vR
+    type: base
+    system:
+      changes:
+        - key: system.attributes.ac.bonus
+          value: '@scale.gunslinger.risk.die'
+          priority: null
+          type: add
+          phase: initial
+    disabled: false
+    duration:
+      value: 1
+      units: turns
+      expiry: turnStart
+      expired: false
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: >-
+        Compendium.mage-hand-press-core.classes14.Item.4XhOzkq6hFZMes8y.ActiveEffect.mQOwh84r4xN6SVUz
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783120388832
+      modifiedTime: 1783120388832
+    start: null
+    showIcon: 1
+    folder: null
+    _key: '!items.effects!mhpSkinYourTeeth.1LQTrHRLAIfhH1vR'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1783120053419
+  modifiedTime: 1783120392561
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!mhpSkinYourTeeth'

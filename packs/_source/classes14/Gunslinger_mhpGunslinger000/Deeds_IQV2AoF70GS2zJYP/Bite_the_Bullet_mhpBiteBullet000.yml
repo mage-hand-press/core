@@ -1,16 +1,15 @@
-folder: 8b8vMvnsKu2gpfKE
-name: Grazing Shot
+folder: IQV2AoF70GS2zJYP
+name: Bite the Bullet
 type: feat
-_id: mhpGrazingShot00
-img: icons/skills/wounds/injury-triple-slash-bleed.webp
+_id: mhpBiteBullet000
+img: systems/dnd5e/icons/svg/items/feature.svg
 system:
   activities:
-    PpqCRGwd3wBPIbeR:
-      type: damage
-      _id: PpqCRGwd3wBPIbeR
+    zk6V19iOc0NV0ssE:
+      type: heal
       sort: 0
       activation:
-        type: reaction
+        type: bonus
         override: false
         condition: ''
       consumption:
@@ -23,7 +22,10 @@ system:
             target: Compendium.mage-hand-press-core.classes14.Item.mhpRisk000000000
             scaling: {}
       description:
-        chatFlavor: ''
+        chatFlavor: >-
+          <strong><em>Bite the Bullet.</em></strong> As a bonus action on your turn, you can expend
+          one risk die to gain temporary hit points equal the number rolled on the die + your
+          Constitution modifier.
       duration:
         units: inst
         concentration: false
@@ -48,20 +50,18 @@ system:
         spent: 0
         recovery: []
         max: ''
-      damage:
-        critical:
-          allow: false
-        parts:
-          - custom:
-              enabled: true
-              formula: '@scale.gunslinger.risk.die'
-            number: null
-            denomination: null
-            bonus: ''
-            types: []
-            scaling:
-              number: 1
-      name: ''
+      healing:
+        types:
+          - temphp
+        custom:
+          enabled: true
+          formula: '@scale.gunslinger.risk.die + @abilities.con.mod'
+        scaling:
+          number: 1
+        number: null
+        denomination: null
+        bonus: ''
+      name: Bite the Bullet
       img: ''
       flags: {}
       visibility:
@@ -69,53 +69,48 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      _id: zk6V19iOc0NV0ssE
   uses:
     spent: 0
     recovery: []
     max: ''
+  advancement: {}
   description:
     value: >-
-      <p>When you make a ranged attack against a target within the weapon’s normal range and miss,
-      you can spend a risk die as a reaction to deal damage to the target equal to the roll on the
-      die. This ability deals no damage if the attack roll misses the target’s AC by 10 or
-      more.</span></p>
+      <p>As a bonus action on your turn, you can expend one risk die to gain temporary hit points
+      equal the number rolled on the die + your Constitution modifier.</p>
     chat: ''
-  identifier: grazing-shot
+  identifier: bite-the-bullet
   source:
     revision: 1
     rules: '2014'
     book: Complete Gunslinger
-    page: '4'
+    page: ''
     custom: ''
     license: ''
-  advancement: {}
   crewed: false
   enchant: {}
   prerequisites:
-    repeatable: false
-    level: 2
     items: []
+    repeatable: false
+    level: null
   properties: []
-  requirements: Gunslinger
+  requirements: ''
   type:
-    value: ''
-    subtype: ''
+    value: class
+    subtype: gunslingerDeed
 effects: []
-sort: 100000
+sort: 0
 ownership:
   default: 0
-flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+flags: {}
 _stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1783120033100
+  modifiedTime: 1783120331004
+  lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
-  systemId: dnd5e
-  systemVersion: 5.3.1
-  createdTime: 1775254058462
-  modifiedTime: 1775254058462
-  lastModifiedBy: magehandpress000
-_key: '!items!mhpGrazingShot00'
+_key: '!items!mhpBiteBullet000'

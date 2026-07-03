@@ -1,7 +1,7 @@
 type: Item
 folder: Cr41kvdihECBypHf
 name: Arcane Fighting Styles
-color: '#8f6b1f'
+color: '#1c5324'
 sorting: a
 _id: MHPmITArcaneFigh
 description: ''
@@ -15,5 +15,5 @@ _stats:
   systemVersion: 5.1.10
   lastModifiedBy: magehandpress000
   createdTime: 1782440268341
-  modifiedTime: 1782440706449
+  modifiedTime: 1783120505579
 _key: '!folders!MHPmITArcaneFigh'
