@@ -78,12 +78,12 @@ system:
     max: ''
   description:
     value: >-
-      <p><span class="s1">At 20th level, when you score a critical hit against a creature with a
-      firearm, you can choose for the shot to be a head shot. If the creature has less than 100 hit
-      points, it dies. Otherwise, it takes an extra 10d10 damage from the hit. Elementals, Oozes,
-      Undead, and creatures that lack nervous systems or vital organs take no extra damage from this
-      feature.</span></p><p class="p1"><span class="s1">Once you use this feature, you can’t use it
-      again until you finish a short or long rest.</span></p>
+      <p>At 20th level, when you score a critical hit against a creature with a firearm, you can
+      choose for the shot to be a head shot. If the creature has less than 100 hit points, it dies.
+      Otherwise, it takes an extra 10d10 damage from the hit. Elementals, Oozes, Undead, and
+      creatures that lack nervous systems or vital organs take no extra damage from this
+      feature.</p><p>Once you use this feature, you can’t use it again until you finish a short or
+      long rest.</p>
     chat: ''
   identifier: head-shot
   source:

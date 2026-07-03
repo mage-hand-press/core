@@ -1,0 +1,858 @@
+name: Gunslinger
+_id: mhpCompleteGuns1
+pages:
+  - sort: 100000
+    name: Gunslinger
+    type: class
+    _id: mhpGunslinger000
+    system:
+      item: Compendium.mage-hand-press-core.classes14.Item.mhpGunslinger000
+      description:
+        value: >-
+          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpGunslinger000
+          caption=false]</p><h3>Guts and Gunpowder</h3><p>Black powder is not for the faint of
+          heart. Its thunderous applause is volatile and imprecise—a barely controlled explosion
+          directed at an enemy. Only the truly fearless seek to master it, for one must be mad or
+          have nerves of steel to weather the risk of its use. But those who call themselves
+          gunslingers are fearless combatants, hurling death from their guns in a roaring cacophony.
+          Adapted for shootouts, gunslingers are mobile and daring, knowing that life or death hangs
+          on snap decision-making and one’s own mettle.</p><h3>Dangerous Outsiders</h3><p>A
+          gunslinger’s explosive lifestyle lends well to wandering and adventuring. Gunslingers will
+          often shoot first and ask questions later, an attitude which earns them few friends and
+          bountiful enemies. In their travels, most gunslingers are secretive and take great lengths
+          to go unnoticed, lest they be spotted by old foes with scores to settle.</p><p>Yet, their
+          skills are not unneeded. Anyone requiring protection or revenge of their own can count on
+          a gunslinger to be in need of an odd job when they roll into town. After all, skill with a
+          gun is always in demand somewhere.</p><h3>Creating a Gunslinger</h3><p>When creating your
+          gunslinger, consider where firearms fit in the campaign’s world and what the common
+          perceptions are of those who use them. If firearms are the norm, your gunslinger might be
+          a mercenary or militia fighter. If firearms are rare, your gunslinger might be one of a
+          kind, a trailblazer in new types of warfare.</p><p>It’s also not unusual for a gunslinger
+          to be haunted by their past. Did some event drive you to the gun and motivate you to
+          travel? Is there a bounty on your head in one or more areas? Do you have any old enemies
+          that seek you for revenge?</p><h4>Quick Build</h4><p>To make a gunslinger quickly, follow
+          these suggestions. Make Dexterity and Constitution your highest ability scores. If you
+          plan to choose the Gun Tank creed, instead make Strength your highest ability score.
+          Lastly, choose any background, preferably one that emphasizes your familiarity with
+          firearms and penchant for risk-taking.</p>
+        additionalHitPoints: ''
+        additionalTraits: <p>You also gain proficiency in simple and martial firearms.</p>
+        additionalEquipment: ''
+        subclass: ''
+      subclassItems:
+        - Compendium.mage-hand-press-core.classes14.Item.mhpCovertOperati
+        - Compendium.mage-hand-press-core.classes14.Item.mhpGrenadier0001
+        - Compendium.mage-hand-press-core.classes14.Item.mhpGunTank000001
+        - Compendium.mage-hand-press-core.classes14.Item.mhpGunKoMaster01
+        - Compendium.mage-hand-press-core.classes14.Item.mhpGundead000000
+        - Compendium.mage-hand-press-core.classes14.Item.mhpHighRoller001
+        - Compendium.mage-hand-press-core.classes14.Item.mhpJanissary0000
+        - Compendium.mage-hand-press-core.classes14.Item.mhpLaserist00001
+        - Compendium.mage-hand-press-core.classes14.Item.mhpMusketeer0001
+        - Compendium.mage-hand-press-core.classes14.Item.mhpPistolero0001
+        - Compendium.mage-hand-press-core.classes14.Item.mhpSharpshooter0
+        - Compendium.mage-hand-press-core.classes14.Item.mhpSpaceCowboy01
+        - Compendium.mage-hand-press-core.classes14.Item.mhpStormGunner00
+        - Compendium.mage-hand-press-core.classes14.Item.mhpTrickShot0001
+        - Compendium.mage-hand-press-core.classes14.Item.mhpTwiceDamned00
+        - Compendium.mage-hand-press-core.classes14.Item.mhpWhiteHat00001
+        - Compendium.mage-hand-press-core.classes14.Item.mhpSpellslinger1
+      style: ''
+      subclassHeader: ''
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783115752043
+      modifiedTime: 1783115929325
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpCompleteGuns1.mhpGunslinger000'
+  - sort: 200000
+    name: Eras
+    type: text
+    _id: mhpEras000000000
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Gunslingers are inseparably connected to their eras, as the implements of their trade
+        have evolved throughout history and will continue to evolve into the far future. Whereas the
+        earliest gunslingers used muskets and black powder, space-faring gunslingers fire high-tech
+        blasters that never run low on ammunition. Both are gunslingers; equally brash and
+        singularly dangerous.</span></p><p>In general terms, gunslingers can be organized into the
+        following eras:</span></p><h2>Renaissance</h2><p>Renaissance-era firearms are the gun’s
+        first steps away from heavy cannons and into portable rifles. Weapons from this era use
+        musket balls and loose black powder, and therefore are slow to reload and prone to
+        malfunction. Consequently, Renaissance-era gunslingers will be skilled in swords and cannons
+        in addition to guns, making them fearsome foes, no matter the theater.</span></p><p>Such
+        gunslingers are known to take to the sea in pirate vessels, participate in swashbuckling
+        escapades in well-fortified castles, and engage in pistol duels for their honor, but few
+        simply line up with their fellows and exchange musket fire.</span></p><p><span
+        class="s2"><em><strong>Variant Deeds.</strong></em></span> With the GM’s permission, you can
+        pick the following two Deeds in place of two of your normal Deeds, if you are in a setting
+        that primarily uses Renaissance firearms.</span></p><h3>Grazing Shot</span></h3><p>When you
+        make a ranged attack against a target within the weapon’s normal range and miss, you can
+        spend a risk die as a reaction to deal damage to the target equal to the roll on the die.
+        This ability deals no damage if the attack roll misses the target’s AC by 10 or
+        more.</span></p><h3>Reposition</span></h3><p>As a reaction when a hostile creature within 30
+        feet from you moves, you can expend a risk die to move up to your movement
+        speed.</span></p><h2>Industrial Age</h2><p class="p2">In the Industrial Age (concurrent with
+        the Wild West of cowboys and locomotive travel), cartridged bullets and lever-action
+        firearms accelerated the tempo of combat, even introducing the first automatic weapons.
+        These guns lacked the clean assembly-line consistency of modern firearms, but laid down the
+        bedrock for designs that have not changed much since: a classic six-shot revolver is as
+        timeless as it is effective.</span></p><p class="p2">Gunslingers in the Industrial Age
+        fought in legendarily bloody wars, trailblazed the frontier, formed gangs to rob trains by
+        horseback, and had shootouts in saloons.</span></p><p class="p2"><span
+        class="s2"><em><strong>Variant Deeds.</strong></em></span> With the GM’s permission, you can
+        pick the following two Deeds in place of two of your normal Deeds, if you are in a setting
+        that primarily uses Industrial Age firearms.</span></p><h3>Fancy Gunplay</span></h3><p
+        class="p2">You can impressively twirl your weapons to impress others. Whenever you make a
+        Charisma (Performance) check or a Dexterity (Sleight of Hand) check using one of your ranged
+        weapons, you can expend a risk die and add it to the ability check.</span></p><h3>Maverick
+        Spirit</span></h3><p class="p2">As a reaction when you make an Intelligence, Wisdom, or
+        Charisma saving throw, you can expend one risk die and add it to saving
+        throw.</span></p><h2>Modern</h2><p class="p2">Modern firearms have embraced automatic fire,
+        ammunition magazines, and lighter caliber bullets (which travel at much higher speeds). For
+        these guns, form begets function: weapons are designed for a specific role, such as sniper
+        rifles for long range and shotguns for close quarters, and every aspect of their design
+        supports this role. Moreover, weapons that enjoyed success in the West, such as the
+        double-barrel shotgun, can still be found in use today.</span></p><p class="p2">Modern
+        gunslingers can be gangsters wielding twin machine pistols, modern soldiers with assault
+        rifles, assassins that prefer to snipe their targets from a safe distance, or covert spies,
+        infiltrating a building with a pistol hidden in a phone.</span></p><p class="p2"><span
+        class="s2"><em><strong>Variant Deeds.</strong></em></span> With the GM’s permission, you can
+        pick the following two Deeds in place of two of your normal Deeds, if you are in a setting
+        that primarily uses Modern firearms.</span></p><h3>Curved Trajectory</span></h3><p
+        class="p2">When you make an attack with a ranged weapon against a target within the weapon’s
+        normal range, you can expend a risk die to ignore half and three-quarters
+        cover.</span></p><h3>Take the Bullet</span></h3><p class="p2">As a reaction when a creature
+        within 15 feet of you is targeted by a ranged attack, you can spend a risk die to dive in
+        the way of the bullet. You move next to the creature and become the target of the attack. If
+        you are hit, you can subtract the risk die from the damage
+        taken.</span></p><h2>Futuristic</h2><p class="p2">Firearms of the future have only tenuous
+        connections to the weapons of the past. Though they still retain the profile of handguns,
+        shotguns, and assault rifles, futuristic firearms are powered by rechargeable arcane
+        batteries (or power cells) and produce bursts of pure energy instead of bullets. Generally,
+        these weapons are referred to as blasters and, though they never need to be reloaded, tend
+        to be more expensive and more finicky than modern firearms. Blasters, for example, can
+        overheat, and require a cooldown period before being used again.</span></p><p
+        class="p2">Future gunslingers jet across the galaxy, with a blaster in hand and a song in
+        their hearts. Others, however, see the potential of blasters as cutting-edge technology and
+        attempt to optimize them to their limits.</span></p><p class="p2"><span
+        class="s2"><em><strong>Variant Deeds.</strong></em></span> With the GM’s permission, you can
+        pick the following two Deeds in place of two of your normal Deeds, if you are in a setting
+        that primarily uses Futuristic firearms.</span></p><h3>Blindfire</span></h3><p
+        class="p2">While you are in total cover, you can expend a risk die as a bonus action to make
+        one ranged weapon attack with <strong>disadvantage</strong> against any target within the
+        weapon’s range.</span></p><h3>Disguised Shot</span></h3><p class="p2">Once per turn when you
+        make a ranged weapon attack, you can spend a risk die to hide the source of the attack.
+        Though this does not silence the attack, it does obscure other markers of the attack, such
+        as muzzle flare, which might implicate you as the attacker. Make a [[/check dec]] check and
+        add the risk die to the roll, opposed by the highest passive Perception score of the
+        spectators. On a success, no spectator to the attack can identify its
+        source.</span></p><h2>Suggested Era</h2><p class="p2">Though some weapons can exist in any
+        era (especially if the story demands an exotic firearm enter the fray), many are best suited
+        to their own era. Gunslingers, too, will seem out of place if in the wrong era; a musketeer
+        will probably not spend their holidays on their spaceship going to Mars, for example. The
+        following table provides a suggested list of firearms and gunslingers for different eras and
+        recommends different names for firearms that would otherwise seem out of
+        place.</span></p><p></p><table><tbody><tr><td
+        colspan="3"><h4>Eras</h4></td></tr><tr><td><p></p></td><td><p><strong>Creeds</strong></p></td><td><p><strong>Firearms</strong></p></td></tr><tr><td><p><strong>Renaissance</strong></p></td><td><p>Janissary,
+        Musketeer, Sharpshooter</p></td><td><p>Blunderbuss, Flintlock, Harpoon Gun,
+        Musket</p></td></tr><tr><td><p><strong>Industrial Age</strong></p></td><td><p>Gundead, Gun
+        Tank, Gun-Ko Master, High Roller, Pistolero, Sharpshooter, Spellslinger, Trick Shot,
+        Twice-Damned, White Hat</p></td><td><p>Double Barrel Shotgun, Gatling Gun, Handgun (Light
+        Revolver), Hunting Rifle, Light Cannon, Magnum, Parlor Gun, Pump Shotgun (Lever-Action
+        Shotgun) Revolver, Sawed-Off Shotgun, Sniper Rifle (Infantry
+        Rifle)</p></td></tr><tr><td><p><strong>Modern</strong></p></td><td><p>Covert Operative,
+        Grenadier, Gun Tank, Gun-Ko Master, High Roller, Pistolero, Sharpshooter, Spellslinger,
+        Storm Gunner, Trick Shot, Twice-Damned</p></td><td><p>Assault Rifle, Double-Barrel Shotgun,
+        Handgun, Hunting Rifle, Gatling Gun (Minigun), Grenade Launcher, Light Machine Gun, Machine
+        Pistol, Magnum, Parlor Gun (Pocket Pistol), Pump Shotgun, Revolver, Rocket Launcher,
+        Sawed-Off Shotgun, Sniper Rifle, Submachine
+        Gun</p></td></tr><tr><td><p><strong>Futuristic</strong></p></td><td><p>Covert Operative, Gun
+        Tank, Laserist, Sharpshooter, Space Cowboy, Spellslinger</p></td><td><p>Blitz Cannon,
+        Concussion Rifle, Diode Beam, Impactor Cannon, Ion Cannon, Magnus, Phaser, REC Gun,
+        Repeater, Rocket Launcher (Devastator Missile), Standard Carbine, Singularity Emitter, Swarm
+        Pistol</p></td></tr></tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783115752043
+      modifiedTime: 1783115752043
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpCompleteGuns1.mhpEras000000000'
+  - sort: 300000
+    name: Feats
+    type: text
+    _id: mhpFeats00000000
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>A feat represents a talent or an area of expertise that gives a character special
+        capabilities. It embodies training, experience, and abilities beyond what a class
+        provides.</span></p><p>At certain levels, your class gives you the Ability Score Improvement
+        feature. Using the optional feats rule, you can forgo taking that feature to take a feat of
+        your choice instead. You can take each feat only once, unless the feat’s description says
+        otherwise.</span></p><p>You must meet any prerequisite specified in a feat to take that
+        feat. If you ever lose a feat’s prerequisite, you can’t use that feat until you regain the
+        prerequisite. For example, the Grappler feat requires you to have a Strength of 13 or
+        higher. If your Strength is reduced below 13 somehow—perhaps by a withering curse—you can’t
+        benefit from the Grappler feat until your Strength is
+        restored.</span></p><h2>Blitzwarrior</h2><p class="p3"><em>Prerequisite: Proficiency with
+        simple firearms</em></span></p><p>When you roll damage for a firearm with the Scatter
+        property, you can reroll one of the damage dice, and must use the new roll. Additionally,
+        being within 5 feet of a hostile creature doesn’t impose disadvantage on your ranged attack
+        rolls.</span></p><h2>Bounty Hunter</h2><p>When there’s a price on someone’s head, you aim to
+        collect. You gain the following benefits:</span></p><ul><li><p class="p4">Increase your
+        Wisdom score by 1, to a maximum of 20.</span></p></li><li><p class="p4">You perfectly
+        remember the name and face of every person you’ve ever met.</span></p></li><li><p
+        class="p4">You can use your action to mark a creature you can see within 120 feet of you for
+        1 hour. You have advantage on any Wisdom (Perception) or Wisdom (Survival) checks you make
+        to find the marked creature. Additionally, as long as the creature is marked, you can
+        discern whether or not the creature has passed through a location. You can have only one
+        creature marked at a time.</span></p></li><li><p class="p4">Whenever you reduce a creature
+        to 0 hit points with any attack you make or spell that you cast, you can choose to knock the
+        creature out instead of killing it.</span></p></li></ul><h2>Gun-Mage Adept</h2><p
+        class="p3"><em>Prerequisites: Spellcasting feature or Pact Magic
+        feature</em></span></p><p>You’ve learned how to meld subtle arcana with the brute force of a
+        firearm, gaining the following benefits:</span></p><ul><li><p class="p4">You gain
+        proficiency with four simple or martial firearms of your choice. You can use a firearm as a
+        spellcasting focus.</span></p></li><li><p class="p4">All spells with the renaissance tag are
+        added to your class’s spell list, if they are a level for which your class gets spell slots.
+        Use your spellcasting ability for these spells.</span></p></li><li><p class="p4">You learn
+        either the <em>concealed shot </em>or <em>finger guns </em>cantrip, your choice, which
+        doesn’t count against your total number of cantrips known.</span></p></li><li><p
+        class="p4">You learn four spells of your choice that you cast with the renaissance tag. If
+        you prepare spells, these spells are always prepared for you and don’t count against the
+        number of spells you can prepare each day. If you are a wizard, they are added to your
+        spellbook instantly at no cost. If you learn spells, these spells do not count against your
+        total number of spells known. When you gain a level in your spellcasting class, you can
+        replace one of these spells with another spell with the renaissance tag for which you have
+        spell slots.</span></p></li></ul><h2>Iron Hero</h2><p>You have resolved yourself to save the
+        day when all hope seems lost. You gain the following benefits:</span></p><ul><li><p
+        class="p4">When you are attacked by a creature that has a CR higher than your level, you
+        gain a +2 bonus to your Armor Class.</span></p></li><li><p class="p4">You have
+        <strong>advantage</strong> on attack rolls against any creature that has reduced one of your
+        allies to 0 hit points in the last round.</span></p></li><li><p class="p4">If a hostile
+        creature you can see takes a legendary action, you can use your reaction to intercede,
+        preventing the legendary action from happening. Once you use this ability, you can’t use it
+        again until you finish a short or long rest.</span></p></li></ul><h2>Marksman’s
+        Luck</h2><p>Once per turn, when you roll for damage with a ranged weapon, you can flip one
+        of the damage dice over and use the number on the bottom. You can’t use this ability on d4s.
+        Note that for a balanced die, the top and bottom numbers add up to one more than the die’s
+        largest number.</span></p><h2>Run and Gun</h2><p class="p3"><em>Prerequisite: Proficiency
+        with simple blasters</em></span></p><p>On any turn in which you use your action to Dash, you
+        can make a ranged weapon attack as a bonus action.</span></p><h2>Spray and Pray</h2><p
+        class="p3"><em>Prerequisite: Proficiency with martial firearms</em></span></p><p>When it
+        comes to bullets, quantity often beats quality. By holding down the trigger and firing
+        nonstop, you gain the following benefits: </span></p><ul><li><p class="p4">As an action,
+        while wielding a weapon that has the Automatic property, you can target a 10-foot cube area
+        with a hail of bullets. Each creature in the area must succeed on a Dexterity saving throw
+        (DC equals 8 + your proficiency bonus + your Dexterity modifier) or take the weapon’s normal
+        damage. This action expends ten pieces of ammunition.</span></p></li><li><p class="p4">You
+        can use your Strength modifier instead of your Dexterity modifier when making attack rolls
+        with a weapon that has the Mounted property.</span></p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783115752043
+      modifiedTime: 1783115752043
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpCompleteGuns1.mhpFeats00000000'
+  - sort: 400000
+    name: Firearms
+    type: text
+    _id: mhpFirearms00000
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>A gunslinger’s implements come in a myriad of forms that have morphed and evolved
+        throughout history. This chapter contains rules for firearms and their
+        use.</span></p><h2><span class="s2">Firearms</span></h2><p>Black powder represents a
+        paradigm shift in the art of warfare, fueling everything from powerful siege weapons to
+        concealable, handheld guns. In many campaign settings, firearms supplant the traditional
+        scheme of weapons, forcing arrows, swords, and battleaxes into obsolescence. They might even
+        be commonplace, a staple tool for hunting and defense.</span></p><p>Futuristic firearms,
+        powered by arcane energy or extremely advanced science, are called blasters, and fire a
+        pulse of energy or condensed plasma instead of conventional projectiles. While blasters are
+        commonplace in many science-fiction settings, they might only make an appearance in other
+        settings only as wild, steampunk-esque experiments, or in the remnants of a derelict,
+        advanced civilization.</span></p><p>Firearms follow slightly different rules to conventional
+        ranged weapons, and also generally use two or more damage dice. Blasters used in futuristic
+        settings are considered firearms and use these rules as well.</span></p><h3>Firearm Damage
+        Rolls</span></h3><p>Unlike other weapons, you don’t add your ability modifier to the damage
+        roll of a firearm unless otherwise stated.</span></p><h3>Two-Weapon Fighting with
+        Firearms</span></h3><p>When you engage in two-weapon fighting with two light firearms, you
+        subtract 2 from the damage roll of the bonus attack, to a minimum of 1
+        damage.</span></p><h3>Firearm Ammunition</span></h3><p>All firearms require special
+        ammunition. Most firearms use bullets, but some require even more specialized projectiles.
+        The ammunition of a firearm is destroyed upon use.</span></p><p></p><table><tbody><tr><td
+        colspan="3"><h4>Firearm
+        Ammunition</h4></td></tr><tr><td><p><strong>Ammunition</strong></p></td><td><p><strong>Cost</strong></p></td><td><p><strong>Weight</strong></p></td></tr><tr><td><p>Blunderbuss
+        shot (10)</p></td><td><p>1 gp</p></td><td><p>2 lb.</p></td></tr><tr><td><p>Bullets
+        (10)</p></td><td><p>2 gp</p></td><td><p>2 lb.</p></td></tr><tr><td><p>Dragon
+        Bullet</p></td><td><p>1 gp</p></td><td><p>—</p></td></tr><tr><td><p>Grenade</p></td><td><p>5
+        gp</p></td><td><p>3 lb.</p></td></tr><tr><td><p>Harpoon</p></td><td><p>5 gp</p></td><td><p>4
+        lb.</p></td></tr><tr><td><p>Musket balls (10)</p></td><td><p>1 gp</p></td><td><p>2
+        lb.</p></td></tr><tr><td><p>Rocket</p></td><td><p>20 gp</p></td><td><p>6
+        lb.</p></td></tr><tr><td><p>Shell (10)</p></td><td><p>5 gp</p></td><td><p>2
+        lb.</p></td></tr></tbody></table><p></p><h3>Firearm Proficiencies</span></h3><p
+        class="p2">Characters in most campaign worlds won’t have proficiency with firearms, but in
+        settings with widespread firearms, characters gain the proficiencies listed on the Firearm
+        Proficiencies table.</span></p><p></p><table><tbody><tr><td colspan="2"><h4>Firearm
+        Proficiencies</h4></td></tr><tr><td><p><strong>Class</strong></p></td><td><p><strong>Proficiencies</strong></p></td></tr><tr><td
+        colspan="2"><p><em>Core Classes</em></p></td></tr><tr><td><p>Barbarian</p></td><td><p>Simple
+        firearms, martial firearms</p></td></tr><tr><td><p>Bard</p></td><td><p>Simple firearms,
+        martial firearms that don’t have the Explosive, Heat, Heavy, or Overheat
+        properties</p></td></tr><tr><td><p>Cleric</p></td><td><p>Simple
+        firearms</p></td></tr><tr><td><p>Druid</p></td><td><p>Simple firearms that don’t have the
+        Two-Handed or Scatter properties</p></td></tr><tr><td><p>Fighter</p></td><td><p>Simple
+        firearms, martial firearms</p></td></tr><tr><td><p>Monk</p></td><td><p>Simple
+        firearms</p></td></tr><tr><td><p>Paladin</p></td><td><p>Simple firearms, martial
+        firearms</p></td></tr><tr><td><p>Ranger</p></td><td><p>Simple firearms, martial
+        firearms</p></td></tr><tr><td><p>Rogue</p></td><td><p>Simple firearms, martial firearms that
+        don’t have the Explosive, Heat, Heavy, or Overheat
+        properties</p></td></tr><tr><td><p>Sorcerer</p></td><td><p>Simple firearms that don’t have
+        the Two-Handed or Scatter properties</p></td></tr><tr><td><p>Warlock</p></td><td><p>Simple
+        firearms</p></td></tr><tr><td><p>Wizard</p></td><td><p>Simple firearms that don’t have the
+        Two-Handed or Scatter properties</p></td></tr><tr><td colspan="2"><p><em>Mage Hand Press
+        Classes</em></p></td></tr><tr><td><p>Alchemist</p></td><td><p>Simple
+        firearms</p></td></tr><tr><td><p>Binder</p></td><td><p>Simple
+        firearms</p></td></tr><tr><td><p>Captain</p></td><td><p>Simple firearms, martial
+        firearms</p></td></tr><tr><td><p>Channeler</p></td><td><p>Simple firearms, martial
+        firearms</p></td></tr><tr><td><p>Craftsman</p></td><td><p>Simple firearms, martial firearms,
+        exotic firearms</p></td></tr><tr><td><p>Gunslinger</p></td><td><p>Simple firearms, martial
+        firearms</p></td></tr><tr><td><p>Investigator</p></td><td><p>Simple firearms, martial
+        firearms that don’t have the Explosive, Heat, Heavy, or Overheat
+        properties</p></td></tr><tr><td><p>Martyr</p></td><td><p>Simple firearms, martial
+        firearms</p></td></tr><tr><td><p>Necromancer</p></td><td><p>Simple
+        firearms</p></td></tr><tr><td><p>Warden</p></td><td><p>Simple firearms, martial firearms
+        that don’t have the Sighted property</p></td></tr><tr><td><p>Warmage</p></td><td><p>Simple
+        firearms</p></td></tr><tr><td><p>Witch</p></td><td><p>Simple
+        firearms</p></td></tr></tbody></table><p></p><table><tbody><tr><td colspan="5"><h4>Simple
+        Renaissance
+        Firearms</h4></td></tr><tr><td><p><strong>Name</strong></p></td><td><p><strong>Cost</strong></p></td><td><p><strong>Damage</strong></p></td><td><p><strong>Weight</strong></p></td><td><p><strong>Properties</strong></p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpFlintlock0000]{Flintlock}</p></td><td><p>75
+        gp</p></td><td><p>2d6 piercing</p></td><td><p>6 lb.</p></td><td><p>Ammunition (range
+        30/120), dry, light, loading, misfire</p></td></tr><tr><td colspan="5"><h4>Martial
+        Renaisance
+        Firearms</h4></td></tr><tr><td><p><strong>Name</strong></p></td><td><p><strong>Cost</strong></p></td><td><p><strong>Damage</strong></p></td><td><p><strong>Weight</strong></p></td><td><p><strong>Properties</strong></p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpBlunderbuss01]{Blunderbuss}</p></td><td><p>180
+        gp</p></td><td><p>2d8 piercing</p></td><td><p>8 lb.</p></td><td><p>Ammunition (range 30/90),
+        dry, heavy, loading, misfire, scatter (2d10),
+        two-handed</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpMusket0000000]{Musket}</p></td><td><p>175
+        gp</p></td><td><p>2d8 piercing</p></td><td><p>10 lb.</p></td><td class="td1"><p>Ammunition
+        (range 80/320), dry, loading, misfire, two-handed</p></td></tr><tr><td
+        colspan="5"><h4>Exotic Renaissance
+        Firearms</h4></td></tr><tr><td><p><strong>Name</strong></p></td><td><p><strong>Cost</strong></p></td><td><p><strong>Damage</strong></p></td><td><p><strong>Weight</strong></p></td><td><p><strong>Properties</strong></p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpDucksFoot0000]{Duck's
+        Foot}</p></td><td><p>225 gp</p></td><td><p>2d8 piercing</p></td><td><p>12
+        lb.</p></td><td><p>Ammunition (range 30/120), dry, light, loading, misfire,
+        twinshot</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpVolleyGun0000]{Volley
+        Gun}</p></td><td><p>300 gp</p></td><td><p>2d8 piercing</p></td><td><p>40
+        lb.</p></td><td><p>Ammunition (range 100/400), dry, heavy, misfire, reload <br>(10, 2
+        actions), two-handed</p></td></tr></tbody></table><p></p><table><tbody><tr><td
+        colspan="5"><h4>Simple Industrial Age
+        Firearms</h4></td></tr><tr><td><p><strong>Name</strong></p></td><td><p><strong>Cost</strong></p></td><td><p><strong>Damage</strong></p></td><td><p><strong>Weight</strong></p></td><td><p><strong>Properties</strong></p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpDoubleBarrel1]{Double-Barrel
+        Shotgun}</p></td><td><p>200 gp</p></td><td><p>2d6 piercing</p></td><td><p>8
+        lb.</p></td><td><p>Ammunition (range 10/30), reload (2), scatter (2d8),
+        two-handed</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpHuntingRifle1]{Hunting
+        Rifle}</p></td><td><p>175 gp</p></td><td><p>2d6 piercing</p></td><td><p>8
+        lb.</p></td><td><p>Ammunition (range 80/320), reload (5),
+        two-handed</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpParlorGun0001]{Parlor
+        Gun}</p></td><td><p>75 gp</p></td><td><p>2d4 piercing</p></td><td><p>2
+        lb.</p></td><td><p>Ammunition (range 30/120), concealable, light, reload
+        (2)</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpRevolver00001]{Revolver}</p></td><td><p>100
+        gp</p></td><td><p>2d6 piercing</p></td><td><p>3 lb.</p></td><td><p>Ammunition (range
+        60/240), reload (6)</p></td></tr><tr><td colspan="5"><h4>Martial Industrial Age
+        Firearms</h4></td></tr><tr><td><p><strong>Name</strong></p></td><td><p><strong>Cost</strong></p></td><td><p><strong>Damage</strong></p></td><td><p><strong>Weight</strong></p></td><td><p><strong>Properties</strong></p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpGatlingGun001]{Gatling
+        Gun}</p></td><td><p>3,000 gp</p></td><td><p>2d8 piercing</p></td><td><p>125
+        lb.</p></td><td><p>Ammunition (range 80/320), automatic, heavy, mounted, reload (40),
+        two-handed</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpHarpoonGun000]{Harpoon
+        Gun}</p></td><td><p>250 gp</p></td><td><p>2d8 piercing</p></td><td><p>10
+        lb.</p></td><td><p>Ammunition (range 30/120),
+        loading</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpLightCannon00]{Light
+        Cannon}</p></td><td><p>3,000 gp</p></td><td><p>2d12 bludgeoning</span></p></td><td><p>225
+        lb.</p></td><td><p>Ammunition (range 80/320), heavy, mounted, reload <br>(1, 2 actions),
+        special, two-handed</p></td></tr><tr><td colspan="5"><h4>Exotic Industrial Age
+        Firearms</h4></td></tr><tr><td><p><strong>Name</strong></p></td><td><p><strong>Cost</strong></p></td><td><p><strong>Damage</strong></p></td><td><p><strong>Weight</strong></p></td><td><p><strong>Properties</strong></p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpDoubleHandgun]{Double
+        Handgun}</p></td><td><p>300 gp</p></td><td><p>2d8 piercing</p></td><td class="td1"><p>6
+        lb.</p></td><td><p>Ammunition (range 30/120), reload (6),
+        twinshot</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpDragonRifle00]{Dragon
+        Rifle}</p></td><td><p>225 gp</p></td><td><p>2d10 fire</p></td><td><p>8
+        lb.</p></td><td><p>Ammunition (range 100/400), dry, heavy, loading,
+        two-handed</span></p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpQuadrupleBarr]{Quadruple-Barrel
+        Shotgun}</p></td><td><p>250 gp</p></td><td><p>2d8 piercing</p></td><td><p>16
+        lb.</p></td><td><p>Ammunition (range 30/90), heavy, reload (4), scatter (2d10),
+        two-handed</p></td></tr></tbody></table><p></p><table><tbody><tr><td colspan="5"><h4>Simple
+        Modern
+        Firearms</h4></td></tr><tr><td><p><strong>Name</strong></p></td><td><p><strong>Cost</strong></p></td><td><p><strong>Damage</strong></p></td><td><p><strong>Weight</strong></p></td><td><p><strong>Properties</strong></p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpHandgun000001]{Handgun}</p></td><td><p>100
+        gp</p></td><td><p>2d6 piercing</p></td><td><p>3 lb.</p></td><td><p>Ammunition (range
+        60/240), reload
+        (10)</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpSubmachineGu1]{Submachine
+        Gun}</p></td><td><p>200 gp</p></td><td><p>2d4 piercing</p></td><td><p>6
+        lb.</p></td><td><p>Ammunition (range 10/40), automatic, light, reload (16),
+        foregrip</p></td></tr><tr><td colspan="5"><h4>Martial Modern
+        Firearms</h4></td></tr><tr><td><p><strong>Name</strong></p></td><td><p><strong>Cost</strong></p></td><td><p><strong>Damage</strong></p></td><td><p><strong>Weight</strong></p></td><td><p><strong>Properties</strong></p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpAssaultRifle1]{Assault
+        Rifle}</p></td><td><p>350 gp</p></td><td><p>2d6 piercing</p></td><td><p>7
+        lb.</p></td><td><p>Ammunition (range 80/320), automatic, reload (20),
+        two-handed</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpGrenadeLaunc1]{Grenade
+        Launcher}</span></p></td><td><p>850 gp</p></td><td><p>2d8 fire</p></td><td><p>10
+        lb.</p></td><td><p>Ammunition (80/320), explosive, loading,
+        two-handed</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpMagnum0000001]{Magnum}</p></td><td><p>500
+        gp</p></td><td><p>2d8 piercing</p></td><td><p>6 lb.</p></td><td><p>Ammunition (50/200),
+        heavy, reload
+        (6)</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpPumpShotgun01]{Pump
+        Shotgun}</p></td><td><p>200 gp</p></td><td><p>2d6 piercing</p></td><td class="td1"><p>7
+        lb.</p></td><td><p>Ammunition (range 30/90), heavy, reload (10), scatter (2d8),
+        two-handed</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpRocketLaunche]{Rocket
+        Launcher}</p></td><td><p>1,250 gp</span></p></td><td><p>2d10 fire</p></td><td><p>20
+        lb.</p></td><td><p>Ammunition (range 80/320), heavy, reload (1, 2 actions), special,
+        two-handed</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpSniperRifle01]{Sniper
+        Rifle}</p></td><td><p>500 gp</p></td><td><p>2d8 piercing</p></td><td><p>8
+        lb.</p></td><td><p>Ammunition (range 150/560), heavy, reload (4), sighted,
+        two-handed</p></td></tr><tr><td colspan="5"><h4>Exotic Modern
+        Firearms</h4></td></tr><tr><td><p><strong>Name</strong></p></td><td><p><strong>Cost</strong></p></td><td><p><strong>Damage</strong></p></td><td><p><strong>Weight</strong></p></td><td><p><strong>Properties</strong></p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpAntiMaterialR]{Anti-Material
+        Rifle}</p></td><td><p>650 gp</p></td><td><p>2d10 piercing</p></td><td><p>30
+        lb.</p></td><td><p>Ammunition (range 150/450), heavy, loading, sighted,
+        two-handed</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpAssaultShotgu]{Assault
+        Shotgun}</p></td><td><p>350 gp</p></td><td><p>2d8 piercing</p></td><td><p>10
+        lb.</p></td><td><p>Ammunition (range 10/30), automatic, heat, heavy, scatter (2d10),
+        two-handed</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpBriefcaseGun0]{Briefcase
+        Gun}</p></td><td><p>650 gp</p></td><td><p>2d8 piercing</p></td><td><p>6
+        lb.</p></td><td><p>Ammunition (range 30/120), concealable, reload
+        (10)</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpMagnumExplosi]{Magnum,
+        Explosive}</span></p></td><td><p>1,250 gp</span></p></td><td><p>2d8 fire</p></td><td><p>8
+        lb.</p></td><td><p>Ammunition (range 50/200), explosive, heavy, reload
+        (4)</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpMultiRocketLa]{Multi-Rocket
+        Launcher}</p></td><td><p>1,750 gp</span></p></td><td><p>2d8 fire</p></td><td><p>22
+        lb.</p></td><td><p>Ammunition (range 30/90), explosive, heavy, loading, scatter (2d10),
+        two-handed</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpRevolvingGren]{Revolving
+        Grenade Launcher}</span></p></td><td><p>900 gp</p></td><td><p>2d8 fire</p></td><td><p>16
+        lb.</p></td><td><p>Ammunition (range 100/400), explosive, heavy, reload (6),
+        two-handed</p></td></tr></tbody></table><p></p><table><tbody><tr><td colspan="5"><h4>Simple
+        Futuristic
+        Blasters</h4></td></tr><tr><td><p><strong>Name</strong></p></td><td><p><strong>Cost</strong></p></td><td><p><strong>Damage</strong></p></td><td><p><strong>Weight</strong></p></td><td><p><strong>Properties</strong></p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpAviaRaSunsta1]{Avia-Ra
+        Sunstaff}</p></td><td><p>150 gp</p></td><td><p>2d6 radiant</p></td><td><p>6
+        lb.</p></td><td><p>Blaster (range 100/400), special,
+        two-handed</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpIonCannon0001]{Ion
+        Cannon}</p></td><td><p>250 gp</p></td><td><p>2d6 radiant</p></td><td><p>6
+        lb.</p></td><td><p>Blaster (range 30/90), scatter (2d8),
+        two-handed</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpPhaser0000001]{Phaser}</p></td><td><p>75
+        gp</p></td><td><p>2d4 radiant</p></td><td><p>2 lb.</p></td><td><p>Blaster (range 50/200),
+        light,
+        nonlethal</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpRepeater00001]{Repeater}</p></td><td><p>100
+        gp</p></td><td><p>2d6 radiant</p></td><td><p>3 lb.</p></td><td><p>Blaster (range
+        60/240)</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpStandardCarb1]{Standard
+        Carbine}</span></p></td><td><p>250 gp</p></td><td><p>2d6 radiant</p></td><td><p>7
+        lb.</p></td><td><p>Automatic, blaster (range 80/320),
+        two-handed</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpSwarmPistol01]{Swarm
+        Pistol}</p></td><td><p>100 gp</p></td><td><p>2d4 radiant</p></td><td><p>2
+        lb.</p></td><td><p>Automatic, blaster (range 30/120), foregrip, light</p></td></tr><tr><td
+        colspan="5"><h4>Martial Futuristic
+        Blasters</h4></td></tr><tr><td><p><strong>Name</strong></p></td><td><p><strong>Cost</strong></p></td><td><p><strong>Damage</strong></p></td><td><p><strong>Weight</strong></p></td><td><p><strong>Properties</strong></p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpAntimatterCa1]{Antimatter
+        Carbine}</span></p></td><td><p>400 gp</p></td><td class="td1"><p>2d6
+        necrotic</p></td><td><p>4 lb.</p></td><td><p>Automatic, blaster (range 30/120),
+        foregrip</p></td></tr><tr><td
+        class="td1"><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpBlitzCannon01]{Blitz
+        Cannon}</p></td><td><p>800 gp</p></td><td><p>2d8 lightning</p></td><td><p>7
+        lb.</p></td><td><p>Blaster (range 10/30), heavy, scatter (2d10),
+        two-handed</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpConcussionRi1]{Concussion
+        Rifle}</p></td><td><p>800 gp</p></td><td><p>2d8 thunder</p></td><td><p>8
+        lb.</p></td><td><p>Blaster (range 150/600), sighted,
+        two-handed</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpDiodeBeam0000]{Diode
+        Beam}</p></td><td><p>2,000 gp</p></td><td><p>2d8 radiant</p></td><td><p>80
+        lb.</p></td><td><p>Blaster (range 120/480), heavy, mounted, special,
+        two-handed</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpMagnus0000001]{Magnus}</p></td><td><p>800
+        gp</p></td><td><p>2d8 radiant</p></td><td><p>6 lb.</p></td><td><p>Blaster (range 70/280),
+        heavy,
+        overheat</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpPlasmaLaunch1]{Plasma
+        Launcher}</span></p></td><td><p>1,000 gp</p></td><td><p>2d6 fire</p></td><td><p>8
+        lb.</p></td><td><p>Blaster (range 50/200), explosive,
+        foregrip</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpPsionicHelm00]{Psionic
+        Helm}</p></td><td><p>750 gp</p></td><td><p>2d6 psychic</p></td><td><p>3
+        lb.</p></td><td><p>Blaster (range 70/280),
+        special</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpRECGun0000001]{REC
+        Gun}</p></td><td><p>1,500 gp</p></td><td><p>2d8 radiant</p></td><td><p>120
+        lb.</p></td><td><p>Automatic, blaster (range 100/400), heavy, mounted,
+        two-handed</span></p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpSingularityEm]{Singularity
+        Emitter}</span></p></td><td><p>2,500 gp</p></td><td><p>2d10 force</p></td><td><p>400
+        lb.</p></td><td><p>Blaster (range 120/480), heavy, overheat, special,
+        two-handed</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpVolcanic00000]{Volcanic}</p></td><td><p>1,000
+        gp</p></td><td><p>2d6 fire</p></td><td><p>10 lb.</p></td><td><p>Blaster (range 15-foot
+        cone), heat, heavy, two-handed, special</p></td></tr><tr><td colspan="5"><h4>Exotic
+        Futuristic
+        Blasters</h4></td></tr><tr><td><p><strong>Name</strong></p></td><td><p><strong>Cost</strong></p></td><td><p><strong>Damage</strong></p></td><td><p><strong>Weight</strong></p></td><td><p><strong>Properties</strong></p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpBinaryGun0000]{Binary
+        Gun}</p></td><td><p>550 gp</p></td><td class="td1"><p>2d6 radiant</p></td><td><p>6
+        lb.</p></td><td><p>Automatic, blaster (range 80/320), light,
+        twinshot</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpExperimentalC]{Experimental
+        Carbine}</p></td><td><p>450 gp</p></td><td><p>2d8 force</p></td><td><p>5
+        lb.</p></td><td><p>Automatic, blaster (range 80/320),
+        two-handed</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpFusionEmitter]{Fusion
+        Emitter}</p></td><td><p>3,000 gp</span></p></td><td><p>2d10 radiant</p></td><td><p>60
+        lb.</p></td><td><p>Blaster (range 120/480), heat, heavy, special,
+        two-handed</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpHardlightBall]{Hardlight
+        Ballista}</p></td><td><p>1,250 gp</span></p></td><td><p>2d10 force</p></td><td><p>20
+        lb.</p></td><td><p>Blaster (range 170/680), heavy, reload (1), sighted,
+        two-handed</span></p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpHyperBlitzCan]{Hyper
+        Blitz Cannon}</p></td><td><p>950 gp</p></td><td><p>2d8 lightning</p></td><td><p>10
+        lb.</p></td><td><p>Automatic, blaster (range 30/90), heat, heavy, scatter (2d10),
+        two-handed</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpLinearAcceler]{Linear
+        Accelerator}</p></td><td><p>800 gp</p></td><td><p>2d8 varies</p></td><td><p>12
+        lb.</p></td><td><p>Automatic, ammunition (range 100/400), heavy, special,
+        two-handed</span></p></td></tr></tbody></table><p></p><h2>Weapon Properties</h2><p>Many
+        weapons have special properties related to their use, as shown in the weapons
+        tables.</span></p><p><span class="s2"><em><strong>Ammunition.</strong></em></span> You can
+        use a weapon that has the Ammunition property to make a ranged attack only if you have
+        ammunition to fire from the weapon. Each time you attack with the weapon, you expend one
+        piece of ammunition. The ammunition of a firearm is destroyed upon use. Drawing the
+        ammunition from a quiver, case, or other container is part of the attack (you need a free
+        hand to load a one-handed weapon). At the end of the battle, you can recover half your
+        expended ammunition by taking a minute to search the battlefield.</span></p><p>If you use a
+        weapon that has the Ammunition property to make a melee attack, you treat the weapon as an
+        improvised weapon. A sling must be loaded to deal any damage when used in this
+        way.</span></p><p><span class="s2"><em><strong>Automatic.</strong></em></span> When you make
+        an attack with this weapon on your turn, you can choose to make two attacks instead. These
+        attacks are always made with disadvantage, regardless of circumstance. These attacks use
+        twice the normal amount of ammunition.</span></p><p><span
+        class="s2"><em><strong>Blaster.</strong></em></span> A weapon with the Blaster property is a
+        ranged weapon that requires no ammunition. Blasters are considered firearms for the purpose
+        of class features and abilities. Like firearms, you don’t add your ability score modifier to
+        blasters’ damage rolls.</span></p><p><span
+        class="s2"><em><strong>Concealable.</strong></em></span> While stowed, you have advantage on
+        Dexterity (Stealth) checks made to conceal this weapon.</span></p><p><span
+        class="s2"><em><strong>Dry.</strong></em></span> If this weapon is ever submerged in water
+        or doused with a significant quantity of water, it jams. A jammed firearm can’t be used to
+        make an attack until a creature uses its action to clear the weapon
+        malfunction.</span></p><p><span class="s2"><em><strong>Explosive.</strong></em></span> When
+        this weapon’s projectile hits a target, it explodes in a 15-foot diameter sphere. The
+        projectile can target an unoccupied space within its range. Each creature other than the
+        target within the blast radius (for a Medium or smaller target, each creature within 5 feet
+        of it) must make a DC 14 Dexterity saving throw, taking half the damage rolled on a failed
+        save or no damage on a successful one.</span></p><p><span
+        class="s2"><em><strong>Foregrip.</strong></em></span> This weapon can be used with one or
+        two hands. If used in two hands, its normal range increases by 50 feet and its long range
+        increases by 200 feet.</span></p><p><span class="s2"><em><strong>Heat.</strong></em></span>
+        This weapon gains a heat point whenever an attack is made with it, and loses one heat point
+        whenever you begin your turn. If the weapon gains 3 heat points, it overheats and loses all
+        heat points. An overheated weapon can’t be used to make an attack again until the end of
+        your next turn.</span></p><p><span class="s2"><em><strong>Heavy.</strong></em></span> Small
+        creatures have disadvantage on attack rolls with heavy weapons. A heavy weapon’s size and
+        bulk make it too large for a Small creature to use effectively.</span></p><p><span
+        class="s2"><em><strong>Light.</strong></em></span> A light weapon is small and easy to
+        handle, making it ideal for use when fighting with two weapons.</span></p><p><span
+        class="s2"><em><strong>Loading.</strong></em></span> Because of the time required to load
+        this weapon, you can fire only one piece of ammunition from it when you use an action, bonus
+        action, or reaction to fire it, regardless of the number of attacks you can normally
+        make.</span></p><p><span class="s2"><em><strong>Misfire.</strong></em></span> When you roll
+        a 1 on the d20 for an attack roll with this weapon, it jams. A jammed weapon can’t be used
+        to make an attack until a creature uses its action to clear the weapon
+        malfunction.</span></p><p><span class="s2"><em><strong>Mounted.</strong></em></span> This
+        weapon is normally used while attached to a tripod, vehicle, or other bracing mount. You can
+        mount or unmount this weapon as an action. While it is mounted, it can’t be moved. It can
+        only be used to make an attack while unmounted if held by a Medium or larger creature with a
+        Strength score of at least 15.</span></p><p><span
+        class="s2"><em><strong>Nonlethal.</strong></em></span> When you reduce a creature to 0 hit
+        points using this weapon, you can choose to knock the creature out, rendering it
+        unconscious, rather than deal a killing blow.</span></p><p><span
+        class="s2"><em><strong>Overheat.</strong></em></span> Once you make an attack with this
+        weapon, it can’t be used again to make an attack until the end of your next
+        turn.</span></p><p><span class="s2"><em><strong>Reload.</strong></em></span> This weapon can
+        be used to make a number of attacks before it must be reloaded. If you are proficient with
+        the weapon, reloading it takes a bonus action; otherwise, reloading it takes an action. Some
+        weapons require an action or longer to reload, even if you have proficiency, which is
+        specified in the Reload property. If reloading a weapon requires longer than one action, the
+        weapon can’t be used to make attacks until reloading is finished.</span></p><p><span
+        class="s2"><em><strong>Scatter.</strong></em></span> If you make an attack against a target
+        that is within half this weapon’s normal range, you deal the damage value listed in
+        parentheses instead of the weapon’s normal damage dice.</span></p><p><span
+        class="s2"><em><strong>Sighted.</strong></em></span> This weapon has disadvantage on attack
+        rolls made against targets within 20 feet.</span></p><p><span
+        class="s2"><em><strong>Special.</strong></em></span> A weapon with the special property has
+        unusual rules governing its use, explained in the weapon’s description (see “Special
+        Weapons”).</span></p><p><em><strong>Twinshot.</strong></em></span><span class="s2"> Once on
+        each of your turns when you make an attack with this weapon, you can make another attack
+        with it against a different creature that is within 5 feet of the original target and within
+        range of the weapon.</span></p><p><em><strong>Two-Handed.</strong></em></span><span
+        class="s2"> This weapon requires two hands when you attack with it.</span></p><h2>Special
+        Weapons</h2><p><span class="s2">Weapons with special properties are described
+        here.</span></p><p><em><strong>Avia-Ra Sunstaff.</strong></em></span><span class="s2"> This
+        weapon can also be used as a
+        quarterstaff.</span></p><p><em><strong>Bomb.</strong></em></span><span class="s2"> When a
+        bomb hits a target, it explodes in a 5-foot radius and is destroyed. The bomb can be thrown
+        at an unoccupied space within its range. Each creature other than the target within the
+        blast radius must succeed on a DC 11 Dexterity saving throw, taking half the damage rolled
+        on a failed save or no damage on a successful one.</span></p><p><span
+        class="s2">Additionally, as a bonus action, you can empty some of the bomb’s explosive
+        material to permanently remove the blast radius from this bomb, dealing damage only to the
+        bomb’s target.</span></p><p><em><strong>Diode Beam.</strong></em></span><span class="s2"> As
+        an action, this weapon can be fired continuously in a beam, affecting a 120-foot long,
+        5-foot wide line in a direction you choose. When a creature enters the area for the first
+        time on a turn or starts its turn there, it must make a DC 14 Dexterity saving throw or take
+        4d6 radiant damage.</span></p><p><span class="s2">At the beginning of each of your
+        subsequent turns, roll a d20. On a 5 or lower, the weapon overheats and can’t be fired until
+        the end of your next turn. If you roll higher than 5, you can use your action to continue
+        firing the beam and can change the direction the line faces from
+        you.</span></p><p><em><strong>Fusion Emitter.</strong></em></span><span class="s2"> When
+        this weapon hits a target, each creature within 5 feet of the target is pushed 5 feet away
+        from it.</span></p><p><em><strong>Light Cannon.</strong></em></span><span class="s2"> This
+        weapon deals double damage to objects and structures.</span></p><p><em><strong>Linear
+        Accelerator.</strong></em></span><span class="s2"> This weapon uses any item of 10 pounds of
+        less that can fit within a 1-foot cube as ammunition. Its damage type is bludgeoning,
+        piercing, or slashing damage, as appropriate to the ammunition
+        used.</span></p><p><em><strong>Psionic Helm.</strong></em></span><span class="s2"> You can
+        use your choice of Intelligence, Wisdom, or Charisma, instead of Dexterity, for this
+        weapon’s attack rolls.</span></p><p><em><strong>Rocket Launcher.</strong></em></span><span
+        class="s2"> This weapon deals double damage to objects and
+        structures.</span></p><p><em><strong>Singularity Emitter.</strong></em></span><span
+        class="s2"> When this weapon hits a target, each creature within 10 feet of the target is
+        pulled up to 5 feet toward it.</span></p><p><em><strong>Volcanic.</strong></em></span><span
+        class="s2"> Whenever you make an attack with this weapon, it spews flames in a 15-foot
+        radius cone. Each creature within that area must make a DC 14 Dexterity saving throw or take
+        2d6 fire damage.</span></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783115752043
+      modifiedTime: 1783115752043
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpCompleteGuns1.mhpFirearms00000'
+  - sort: 500000
+    name: Spells
+    type: text
+    _id: mhpSpells0000000
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>In any world in which magic and firearms coexist, arcana has walked in lockstep with the
+        evolution of combat, </span>adapting varyingly counter and augment the power of guns. Some
+        spells have been crafted to specifically to cripple gunmen, such as the almost necessary
+        spell, <em>jam weapon</em>. Other spells, such as <em>chromatic bullet</em>, add a tinge of
+        arcana into gunplay, bringing spells and firearms closer together.</span></p><p>This chapter
+        contains spells enjoyed by spellslingers, clerics, and wizards
+        alike.</span></p><h2>Renaissance Tag</h2><p>To better organize these spells, the following
+        spells include the Renaissance tag. This tag indicates that this spell is appropriate in
+        campaigns with prevalent firearms and other emerging
+        technologies.</span></p><table><tbody><tr><td><p><em>@UUID[Compendium.mage-hand-press-complete-gunslinger.spells14.Item.mhpAntiballisti1]{Antiballistics
+        Field}</em></p></td><td><p><em>@UUID[Compendium.mage-hand-press-complete-gunslinger.spells14.Item.mhpFingerGuns001]{Finger
+        Guns}</em></p></td></tr><tr><td><p><em>@UUID[Compendium.mage-hand-press-complete-gunslinger.spells14.Item.mhpChromaticBull]{Chromatic
+        Bullet}</em></p></td><td><p><em>@UUID[Compendium.mage-hand-press-complete-gunslinger.spells14.Item.mhpJamWeapon0001]{Jam
+        Weapon}</em></p></td></tr><tr><td><p><em>@UUID[Compendium.mage-hand-press-complete-gunslinger.spells14.Item.mhpConcealedSho1]{Concealed
+        Shot}</em></p></td><td><p><em>@UUID[Compendium.mage-hand-press-complete-gunslinger.spells14.Item.mhpJethrosInsta1]{Jethro's
+        Instant
+        Reload}</em></p></td></tr><tr><td><p><em>@UUID[Compendium.mage-hand-press-complete-gunslinger.spells14.Item.mhpConjureCanno1]{Conjure
+        Cannonball}</em></p></td><td><p><em>@UUID[Compendium.mage-hand-press-complete-gunslinger.spells14.Item.mhpPerforatingSm]{Perforating
+        Smite}</em></p></td></tr><tr><td><p><em>@UUID[Compendium.mage-hand-press-complete-gunslinger.spells14.Item.mhpConjureCover1]{Conjure
+        Cover}</em></p></td><td><p><em>@UUID[Compendium.mage-hand-press-complete-gunslinger.spells14.Item.mhpProtectionfro]{Protection
+        from Ballistics}</em></p></td></tr></tbody></table><h1><span class="s2">Spell
+        Descriptions</span></h1><p>These spells are listed in alphabetical
+        order.</span></p><h2>Antiballistics Field</span></h2><p class="p5"><em>6th-level abjuration
+        (renaissance)</em></span></p><p class="p6"><strong>Casting Time:</strong> 1
+        action</span></p><p class="p6"><strong>Range:</strong> Self (40-foot-radius
+        sphere)</span></p><p class="p6"><strong>Components:</strong> V, S, M (a pinch of wet
+        gunpowder)</span></p><p class="p6"><strong>Duration:</strong> Concentration, up to 10
+        minutes</span></p><p>An invisible 40-foot-radius field of magic extends from you, disrupting
+        bullets and causing firearms to malfunction. Within the sphere, attacks with firearms fail,
+        and firearms used to make an attack immediately jam. A jammed firearm can’t be used to make
+        an attack until a creature uses its action to clear the weapon
+        malfunction.</span></p><p>Firearms outside the sphere which are fired into it have
+        disadvantage on attack rolls, and deal only half damage on a successful
+        hit.</span></p><h2>Chromatic Bullet</span></h2><p class="p5"><em>1st-level evocation
+        (renaissance)</em></span></p><p class="p6"><strong>Casting Time:</strong> 1 bonus
+        action</span></p><p class="p6"><strong>Range:</strong> Self</span></p><p
+        class="p6"><strong>Components:</strong> V, S, M (a firearm)</span></p><p
+        class="p6"><strong>Duration:</strong> Concentration, up to 1 minute</span></p><p>The next
+        time you hit a creature with a ranged weapon attack using a firearm during the spell’s
+        duration, your bullet sparks with elemental energy. The attack deals an extra 2d4 damage to
+        the target. You choose whether this additional damage is acid, cold, fire, lightning,
+        poison, or thunder damage, and you can choose to change the firearm’s damage to one of these
+        damage types. You do not need to pick the same damage type for both.</span></p><p><span
+        class="s3"><em><strong>At Higher Levels.</strong></em></span> When you cast this spell using
+        a spell slot of 2nd level or higher, the damage increases by 2d4 for each slot level above
+        1st.</span></p><h2>Concealed Shot</span></h2><p class="p5"><em>Illusion cantrip
+        (renaissance)</em></span></p><p class="p6"><strong>Casting Time:</strong> 1
+        action</span></p><p class="p6"><strong>Range:</strong> Self</span></p><p
+        class="p6"><strong>Components:</strong> S, M (a ranged weapon)</span></p><p
+        class="p6"><strong>Duration:</strong> Instantaneous</span></p><p>As part of the action used
+        to cast this spell, you must make an attack with a ranged weapon, otherwise the spell fails.
+        The attack’s projectile is invisible while in flight, and the weapon itself is silent. If
+        the weapon is a firearm, this spell suppresses the smoke and light the weapon produces,
+        making it impossible to see or hear where the shot came from.</span></p><p>This spell only
+        conceals the first shot you make; any additional shots aren’t
+        concealed.</span></p><h2>Conjure Cannonball</span></h2><p class="p3"><em>3rd level
+        conjuration (renaissance)</em></span></p><p class="p4"><strong>Casting Time:</strong> 1
+        action</span></p><p class="p4"><strong>Range:</strong> 600 feet</span></p><p
+        class="p4"><strong>Components:</strong> V, S, M (a small replica cannon)</span></p><p
+        class="p4"><strong>Duration:</strong> Instantaneous</span></p><p>You summon a cannonball,
+        mid-flight and at full velocity, which explodes on impact. Make a spell attack roll against
+        a target you can see within range. On a hit, the target takes 4d10 bludgeoning damage, and
+        each creature within 5 feet of the target must make a Dexterity saving throw. On a failed
+        save, a creature takes half as much damage.</span></p><p><span class="s2"><em><strong>At
+        Higher Levels.</strong></em></span> When you cast this spell using a spell slot of 4th level
+        or higher, the damage increases by 1d10 for each spell slot above 3rd.</span></p><h2>Conjure
+        Cover</span></h2><p class="p3"><em>1st-level conjuration (ritual)
+        (renaissance)</em></span></p><p class="p4"><strong>Casting Time:</strong> 1 bonus
+        action</span></p><p class="p4"><strong>Range:</strong> 10 feet</span></p><p
+        class="p4"><strong>Components:</strong> V, S, M (a duck figurine)</span></p><p
+        class="p4"><strong>Duration:</strong> Concentration, up to 1 hour</span></p><p>You conjure a
+        low cobblestone wall along the ground, a perfect source of cover, at a point you can see
+        within range. The wall is 18 inches thick and is composed of three 5-foot long by 3-foot
+        high segments. Each segment must be contiguous with at least one other
+        segment.</span></p><p>A Medium creature that hunkers behind the wall has half cover from
+        ranged attacks, and a Small creature that hunkers behind it has three-quarters cover from
+        ranged attacks. A prone creature has total cover behind the wall. The wall can be leapt over
+        without using any additional movement.</span></p><p>Each segment has AC 10 and 60 hit
+        points. Reducing a segment of the wall to 0 hit points causes it to crumble, destroying it.
+        The wall disappears when all the segments are destroyed or the spell
+        ends.</span></p><h2>Finger Guns</span></h2><p class="p3"><em>Evocation cantrip
+        (renaissance)</em></span></p><p class="p4"><strong>Casting Time:</strong> 1 bonus
+        action</span></p><p class="p4"><strong>Range:</strong> Self</span></p><p
+        class="p4"><strong>Components:</strong> V, S</span></p><p
+        class="p4"><strong>Duration:</strong> 1 minute</span></p><p>You extend your forefinger and
+        thumb, a dangerous gesture mimicking a gun. For the duration, you can use your action to
+        make a ranged spell attack against one creature you can see within 60 feet of you, dealing
+        1d8 force damage on a hit.</span></p><p>Your finger gun doesn’t require ammunition, but it
+        is considered to be a firearm for spells and effects that apply to
+        firearms.</span></p><p>The spell’s damage increases by 1d8 when you reach 5th level (2d8),
+        11th level (3d8), and 17th level (4d8).</span></p><h2>Jam Weapon</span></h2><p
+        class="p3"><em>2nd-level transmutation (renaissance)</em></span></p><p
+        class="p4"><strong>Casting Time:</strong> 1 reaction, which you take when a creature you can
+        see within range attacks with a firearm</span></p><p class="p4"><strong>Range:</strong> 60
+        feet</span></p><p class="p4"><strong>Components:</strong> V, S, M (a pinch of wet
+        gunpowder)</span></p><p class="p4"><strong>Duration:</strong> Instantaneous</span></p><p>The
+        firearm you target jams upon firing. The attack fails, and the firearm is jammed. A jammed
+        firearm can’t be used to make an attack until a creature uses its action to clear the weapon
+        malfunction.</span></p><p><span class="s2"><em><strong>At Higher
+        Levels.</strong></em></span> When you cast this spell using a spell slot of 3rd level or
+        higher, you can jam one additional firearm within range for each slot level above
+        2nd.</span></p><h2>Jethro’s Instant Reload</span></h2><p class="p3"><em>2nd-level
+        conjuration (ritual) (renaissance)</em></span></p><p class="p4"><strong>Casting
+        Time:</strong> 1 action</span></p><p class="p4"><strong>Range:</strong> Touch</span></p><p
+        class="p4"><strong>Components:</strong> V, S, M (a spent bullet casing)</span></p><p
+        class="p4"><strong>Duration:</strong> 1 hour</span></p><p>One ranged weapon you touch
+        becomes enchanted to reload itself automatically. If the weapon has the Loading or Reload
+        property, you can ignore this for the duration. When the weapon’s ammunition is depleted,
+        new ammunition teleports from your person to your hand or into the weapon, as appropriate.
+        If the weapon takes an action or longer to reload, it reloads itself at the end of your
+        turn.</span></p><p>If you aren’t carrying sufficient ammunition for the weapon to reload,
+        the spell ends.</span></p><h2>Perforating Smite</span></h2><p class="p3"><em>2nd-level
+        evocation (renaissance)</em></span></p><p class="p4"><strong>Casting Time:</strong> 1 bonus
+        action</span></p><p class="p4"><strong>Range:</strong> Self</span></p><p
+        class="p4"><strong>Components:</strong> V</span></p><p class="p4"><strong>Duration:</strong>
+        Concentration, up to 1 minute</span></p><p>The next time you make an attack with a firearm
+        before this spell ends, the shot is charged with an incredible amount of power. Instead of
+        making an attack roll against a single target, the shot becomes a 5-foot wide line that
+        extends from you out to the weapon’s normal range. Each creature in that line must make a
+        Dexterity saving throw. A creature takes the weapon’s normal damage on a failed save, or
+        half as much damage on a successful one.</span></p><h2>Protection from
+        Ballistics</span></h2><p class="p3"><em>2nd-level abjuration (renaissance)</em></span></p><p
+        class="p4"><strong>Casting Time:</strong> 1 action</span></p><p
+        class="p4"><strong>Range:</strong> Touch</span></p><p
+        class="p4"><strong>Components:</strong> V, S</span></p><p
+        class="p4"><strong>Duration:</strong> Concentration, up to 1 minute</span></p><p>A
+        shimmering shield of energy surrounds one willing creature you touch. For the duration,
+        ranged attacks made by firearms have disadvantage against the target, and the target has
+        resistance to any damage dealt by firearms.</span></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783115752043
+      modifiedTime: 1783115752043
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpCompleteGuns1.mhpSpells0000000'
+folder: mhpClasses5e0000
+categories: []
+ownership:
+  default: 0
+flags:
+  core:
+    locked: false
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1783115752043
+  modifiedTime: 1783115778466
+  lastModifiedBy: magehandpress000
+  exportSource: null
+  duplicateSource: null
+sort: 0
+_key: '!journal!mhpCompleteGuns1'

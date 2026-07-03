@@ -1,7 +1,7 @@
 folder: 8b8vMvnsKu2gpfKE
 name: Reposition
 type: feat
-_id: mhpReposition001
+_id: mhpReposition000
 img: icons/skills/movement/feet-winged-boots-blue.webp
 system:
   activities:
@@ -20,7 +20,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpRisk000000001
+            target: Compendium.mage-hand-press-core.classes14.Item.mhpRisk000000000
             scaling: {}
       description:
         chatFlavor: ''
@@ -67,8 +67,8 @@ system:
     max: ''
   description:
     value: >-
-      <p><span class="s1">As a reaction when a hostile creature within 30 feet from you moves, you
-      can expend a risk die to move up to your movement speed.</span></p>
+      <p>As a reaction when a hostile creature within 30 feet from you moves, you can expend a risk
+      die to move up to your movement speed.</span></p>
     chat: ''
   identifier: reposition
   source:
@@ -108,4 +108,4 @@ _stats:
   createdTime: 1775254057363
   modifiedTime: 1775254057363
   lastModifiedBy: magehandpress000
-_key: '!items!mhpReposition001'
+_key: '!items!mhpReposition000'

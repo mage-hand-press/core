@@ -20,7 +20,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpRisk000000000
+            target: Compendium.mage-hand-press-core.classes24.Item.mhpRisk000000000
             scaling: {}
       description:
         chatFlavor: ''
@@ -74,8 +74,8 @@ system:
   advancement: {}
   description:
     value: >-
-      <p><span class="s1">As a Bonus Action, you can expend one Risk Die to gain Temporary Hit
-      Points equal to the number rolled on the die plus your Gunslinger level.</span></p>
+      <p>As a Bonus Action, you can expend one Risk Die to gain Temporary Hit Points equal to the
+      number rolled on the die plus your Gunslinger level.</span></p>
     chat: ''
   identifier: bite-the-bullet
   source:

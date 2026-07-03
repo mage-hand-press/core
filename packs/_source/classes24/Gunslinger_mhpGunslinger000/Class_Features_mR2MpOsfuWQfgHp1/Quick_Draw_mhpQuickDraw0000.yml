@@ -10,7 +10,12 @@ system:
     recovery: []
     max: ''
   description:
-    value: "<p><span class=\"s1\">You’re adept at drawing and firing before others have time to react, granting you the following benefits.</span></p><p><span class=\"s1\"><em><strong>Initiative.</strong></em> You have <strong>Advantage</strong> on Initiative rolls.</span><span class=\"Apple-converted-space\">\_</span></p><p class=\"p1\"><span class=\"s1\"><em><strong>Double Draw.</strong></em> You can draw or stow two weapons that lack the Two-Handed property when you would normally be able to draw or stow only one.</span></p>"
+    value: >-
+      <p>You’re adept at drawing and firing before others have time to react, granting you the
+      following benefits.</p><p><em><strong>Initiative.</strong></em> You have
+      <strong>Advantage</strong> on Initiative rolls.</p><p><em><strong>Double Draw.</strong></em>
+      You can draw or stow two weapons that lack the Two-Handed property when you would normally be
+      able to draw or stow only one.</p>
     chat: ''
   identifier: level-1-quick-draw
   source:

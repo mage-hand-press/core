@@ -1,7 +1,7 @@
 folder: J0D4pSoft1wE7YCY
 name: Gut Shot
 type: feat
-_id: mhpGutShot000001
+_id: mhpGutShot000000
 img: icons/skills/wounds/injury-pain-body-orange.webp
 system:
   activities: {}
@@ -11,11 +11,10 @@ system:
     max: ''
   description:
     value: >-
-      <p><span class="s1">Starting at 6th level, whenever you score a critical hit against a Large
-      or smaller creature with a firearm, the bullet lodges itself in the target. Until the creature
-      uses its action to dislodge the bullet, it moves at half speed and has
-      <strong>disadvantage</strong> on attack rolls and ability checks. Elementals, Oozes, and
-      Undead are immune to this effect.</span></p>
+      <p>Starting at 6th level, whenever you score a critical hit against a Large or smaller
+      creature with a firearm, the bullet lodges itself in the target. Until the creature uses its
+      action to dislodge the bullet, it moves at half speed and has disadvantage on attack rolls and
+      ability checks. Elementals, Oozes, and Undead are immune to this effect.</p>
     chat: ''
   identifier: gut-shot
   source:
@@ -52,4 +51,4 @@ _stats:
   createdTime: 1775254057225
   modifiedTime: 1775254057225
   lastModifiedBy: magehandpress000
-_key: '!items!mhpGutShot000001'
+_key: '!items!mhpGutShot000000'

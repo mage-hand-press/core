@@ -21,7 +21,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpRisk000000000
+            target: Compendium.mage-hand-press-core.classes24.Item.mhpRisk000000000
             scaling: {}
       description:
         chatFlavor: ''
@@ -68,9 +68,9 @@ system:
   advancement: {}
   description:
     value: >-
-      <p><span class="s1">When you fail an Intelligence, Wisdom, or Charisma ability check or saving
-      throw, you can expend one Risk Die to add it to the roll, potentially turning it into a
-      success. You can only use this maneuver once per turn.</span></p>
+      <p>When you fail an Intelligence, Wisdom, or Charisma ability check or saving throw, you can
+      expend one Risk Die to add it to the roll, potentially turning it into a success. You can only
+      use this maneuver once per turn.</span></p>
     chat: ''
   identifier: maverick-spirit
   source:

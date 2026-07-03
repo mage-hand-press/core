@@ -11,8 +11,8 @@ system:
     max: ''
   description:
     value: >-
-      <p><span class="s1">When you engage in two-weapon fighting with firearms, you don’t take a
-      penalty to the damage of the second attack.</span></p>
+      <p>When you engage in two-weapon fighting with firearms, you don’t take a penalty to the
+      damage of the second attack.</p>
     chat: ''
   identifier: akimbo
   source:

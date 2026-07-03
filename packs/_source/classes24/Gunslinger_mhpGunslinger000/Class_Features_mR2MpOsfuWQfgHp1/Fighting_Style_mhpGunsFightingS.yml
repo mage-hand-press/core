@@ -1,0 +1,54 @@
+folder: mR2MpOsfuWQfgHp1
+name: Fighting Style
+type: feat
+_id: mhpGunsFightingS
+img: icons/skills/melee/unarmed-punch-fist-yellow-red.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You gain a Fighting Style feat of your choice. If you choose a feat, such as Great Weapon
+      Fighting, that requires you to hold a Melee weapon in one or two hands, you can use that feat
+      with Ranged weapons.</p><p>Whenever you gain a Gunslinger level, you can replace the feat you
+      chose with a different Fighting Style
+      feat.</p><p>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpArchery000000]{Archery}</p><p>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpDefense000000]{Defense}</p><p>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpGreatWeaponFi]{Great
+      Weapon
+      Fighting}</p><p>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpTwoWeaponFigh]{Two-Weapon
+      Fighting}</p>
+    chat: ''
+  identifier: level-1-fighting-style
+  source:
+    revision: 1
+    rules: '2024'
+  advancement: {}
+  crewed: false
+  enchant: {}
+  prerequisites:
+    repeatable: false
+    level: 1
+    items: []
+  properties:
+    - trait
+  requirements: Gunslinger
+  type:
+    value: class
+    subtype: fightingStyle
+effects: []
+sort: 400000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254055631
+  modifiedTime: 1775254055631
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpGunsFightingS'

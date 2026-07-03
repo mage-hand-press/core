@@ -1,16 +1,16 @@
 folder: TBvohlzgfu7TjSKd
-name: Maverick Spirit
+name: Fancy Gunplay
 type: feat
-_id: mhpMaverickSpir1
-img: icons/equipment/head/hat-belted-simple-brown.webp
+_id: mhpFancyGunplay0
+img: icons/weapons/guns/gun-pistol-flintlock-metal.webp
 system:
   activities:
-    i2Ce1es3DUO4pOrj:
+    T2NkWERhw0BBlU6l:
       type: utility
-      _id: i2Ce1es3DUO4pOrj
+      _id: T2NkWERhw0BBlU6l
       sort: 0
       activation:
-        type: reaction
+        type: special
         override: false
         condition: ''
       consumption:
@@ -20,7 +20,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpRisk000000001
+            target: Compendium.mage-hand-press-core.classes14.Item.mhpRisk000000000
             scaling: {}
       description:
         chatFlavor: ''
@@ -51,7 +51,7 @@ system:
       roll:
         prompt: false
         visible: false
-        name: Maverick Spirit
+        name: Fancy Gunplay
         formula: '@scale.gunslinger.risk.die'
       name: ''
       img: ''
@@ -67,10 +67,11 @@ system:
     max: ''
   description:
     value: >-
-      <p><span class="s1">As a reaction when you make an Intelligence, Wisdom, or Charisma saving
-      throw, you can expend one risk die and add it to saving throw.</span></p>
+      <p>You can impressively twirl your weapons to impress others. Whenever you make a Charisma
+      (Performance) check or a Dexterity (Sleight of Hand) check using one of your ranged weapons,
+      you can expend a risk die and add it to the ability check.</span></p>
     chat: ''
-  identifier: maverick-spirit
+  identifier: fancy-gunplay
   source:
     revision: 1
     rules: '2014'
@@ -85,13 +86,14 @@ system:
     repeatable: false
     level: 2
     items: []
-  properties: []
+  properties:
+    - trait
   requirements: Gunslinger
   type:
     value: ''
     subtype: ''
 effects: []
-sort: 0
+sort: 100000
 ownership:
   default: 0
 flags:
@@ -105,7 +107,7 @@ _stats:
   coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.3.1
-  createdTime: 1775254058239
-  modifiedTime: 1775254058239
+  createdTime: 1775254056942
+  modifiedTime: 1775254056942
   lastModifiedBy: magehandpress000
-_key: '!items!mhpMaverickSpir1'
+_key: '!items!mhpFancyGunplay0'

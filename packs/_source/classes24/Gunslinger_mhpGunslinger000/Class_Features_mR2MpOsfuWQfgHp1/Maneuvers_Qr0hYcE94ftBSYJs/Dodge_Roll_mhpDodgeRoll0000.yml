@@ -20,7 +20,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpRisk000000000
+            target: Compendium.mage-hand-press-core.classes24.Item.mhpRisk000000000
             scaling: {}
       description:
         chatFlavor: ''
@@ -70,10 +70,9 @@ system:
   advancement: {}
   description:
     value: >-
-      <p><span class="s1">You can expend one Risk Die as a Bonus Action to move up to 15 feet and
-      reload any Ranged weapon you are holding. This movement doesn’t provoke
-      &amp;Reference[Opportunity Attacks] and is unaffected by &amp;Reference[Difficult
-      Terrain].</span></p>
+      <p>You can expend one Risk Die as a Bonus Action to move up to 15 feet and reload any Ranged
+      weapon you are holding. This movement doesn’t provoke &amp;Reference[Opportunity Attacks] and
+      is unaffected by &amp;Reference[Difficult Terrain].</span></p>
     chat: ''
   identifier: dodge-roll
   source:

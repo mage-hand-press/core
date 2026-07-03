@@ -69,10 +69,10 @@ system:
   advancement: {}
   description:
     value: >-
-      <p><span class="s1">Whenever you score a Critical Hit against a Large or smaller creature with
-      a ranged attack using a weapon, the projectile lodges itself in the target. For 1 minute or
-      until the target replaces one of its attacks with dislodging the projectile, its Speed is
-      halved and it has <strong>Disadvantage</strong> on attack rolls.</span></p>
+      <p>Whenever you score a Critical Hit against a Large or smaller creature with a ranged attack
+      using a weapon, the projectile lodges itself in the target. For 1 minute or until the target
+      replaces one of its attacks with dislodging the projectile, its Speed is halved and it has
+      <strong>Disadvantage</strong> on attack rolls.</p>
     chat: ''
   identifier: gut-shot
   source:
@@ -92,30 +92,27 @@ system:
 effects:
   - name: Gut Shot
     img: icons/skills/wounds/injury-pain-body-orange.webp
-    origin: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpGutShot000000
+    origin: Compendium.mage-hand-press-core.classes24.Item.mhpGutShot000000
     transfer: false
     _id: mhpGutShot000000
     type: base
-    system: {}
-    changes:
-      - key: system.attributes.movement.walk
-        mode: 1
-        value: '0.5'
-        priority: null
+    system:
+      changes:
+        - key: system.attributes.movement.walk
+          value: 0.5
+          priority: null
+          type: multiply
     disabled: false
     duration:
-      startTime: null
-      combat: null
-      seconds: null
-      rounds: 10
-      turns: null
-      startRound: null
-      startTurn: null
+      value: 10
+      units: rounds
+      expiry: turnStart
+      expired: false
     description: >-
-      <p><span class="s1">Whenever you score a Critical Hit against a Large or smaller creature with
-      a ranged attack using a weapon, the projectile lodges itself in the target. For 1 minute or
-      until the target replaces one of its attacks with dislodging the projectile, its Speed is
-      halved and it has Disadvantage on attack rolls.</span></p>
+      <p>Whenever you score a Critical Hit against a Large or smaller creature with a ranged attack
+      using a weapon, the projectile lodges itself in the target. For 1 minute or until the target
+      replaces one of its attacks with dislodging the projectile, its Speed is halved and it has
+      Disadvantage on attack rolls.</p>
     tint: '#ffffff'
     statuses: []
     sort: 0
@@ -127,10 +124,15 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.1
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!mhpGutShot000000.mhpGutShot000000'
 sort: 0
 ownership:
@@ -139,7 +141,7 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.1
   createdTime: 1775254055228

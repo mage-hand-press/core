@@ -87,7 +87,7 @@ system:
         targets:
           - type: itemUses
             value: '3'
-            target: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpRisk000000000
+            target: Compendium.mage-hand-press-core.classes24.Item.mhpRisk000000000
             scaling: {}
           - type: itemUses
             value: '-1'
@@ -140,12 +140,11 @@ system:
   advancement: {}
   description:
     value: >-
-      <p><span class="s1">When you score a Critical Hit against a creature using a Ranged weapon,
-      you can choose for it to be a Headshot. If the creature has less than 100 Hit Points, it dies.
-      Otherwise, it takes an extra 10d10 damage of the weapon’s type.</span></p><p class="p1"><span
-      class="s1">Once you use this feature, you can’t use it again until you finish a Short or Long
-      Rest. You can also restore your use of it by expending three Risk Dice (no action
-      required).</span></p>
+      <p>When you score a Critical Hit against a creature using a Ranged weapon, you can choose for
+      it to be a Headshot. If the creature has less than 100 Hit Points, it dies. Otherwise, it
+      takes an extra 10d10 damage of the weapon’s type.</span></p><p>Once you use this feature, you
+      can’t use it again until you finish a Short or Long Rest. You can also restore your use of it
+      by expending three Risk Dice (no action required).</p>
     chat: ''
   identifier: headshot
   source:

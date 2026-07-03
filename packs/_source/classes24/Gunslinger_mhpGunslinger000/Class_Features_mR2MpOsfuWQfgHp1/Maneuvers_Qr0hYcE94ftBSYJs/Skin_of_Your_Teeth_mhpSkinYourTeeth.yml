@@ -21,7 +21,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpRisk000000000
+            target: Compendium.mage-hand-press-core.classes24.Item.mhpRisk000000000
             scaling: {}
       description:
         chatFlavor: ''
@@ -68,9 +68,9 @@ system:
   advancement: {}
   description:
     value: >-
-      <p><span class="s1">When a creature you can see hits you with an attack roll, you can take a
-      Reaction and expend one Risk Die to dodge out of harm’s way. Roll the die and add the number
-      rolled to your AC against this attack, potentially causing it to miss.</span></p>
+      <p>When a creature you can see hits you with an attack roll, you can take a Reaction and
+      expend one Risk Die to dodge out of harm’s way. Roll the die and add the number rolled to your
+      AC against this attack, potentially causing it to miss.</span></p>
     chat: ''
   identifier: skin-of-your-teeth
   source:

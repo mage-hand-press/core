@@ -11,9 +11,9 @@ system:
     max: ''
   description:
     value: >-
-      <p><span class="s1">By the time gunslingers reach 3rd level, they embrace a way of living,
-      known as their creed, which guides their judgments and their unique brand of gunslinging. Your
-      choice grants you features at 3rd level and again at 7th, 10th, and 14th level.</span></p>
+      <p>By the time gunslingers reach 3rd level, they embrace a way of living, known as their
+      creed, which guides their judgments and their unique brand of gunslinging. Your choice grants
+      you features at 3rd level and again at 7th, 10th, and 14th level.</p>
     chat: ''
   identifier: gunslingers-creed
   source:

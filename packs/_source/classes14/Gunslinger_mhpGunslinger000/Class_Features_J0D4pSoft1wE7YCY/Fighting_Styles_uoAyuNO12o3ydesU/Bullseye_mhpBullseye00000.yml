@@ -72,9 +72,9 @@ system:
     max: ''
   description:
     value: >-
-      <p><span class="s1">You gain a +2 bonus to ranged attack rolls you make with firearms. The
-      weapon must have the Sighted property or have a normal range of 80 feet or longer to gain this
-      benefit. This benefit doesn’t stack with the Archery fighting style.</span></p>
+      <p>You gain a +2 bonus to ranged attack rolls you make with firearms. The weapon must have the
+      Sighted property or have a normal range of 80 feet or longer to gain this benefit. This
+      benefit doesn’t stack with the Archery fighting style.</p>
     chat: ''
   identifier: bullseye
   source:

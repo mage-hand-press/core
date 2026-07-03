@@ -1,10 +1,16 @@
 name: Gunslinger
 type: class
 _id: mhpGunslinger000
-img: systems/dnd5e/icons/svg/items/class.svg
+img: modules/mage-hand-press-core/assets/options/gunslinger.webp
 system:
   description:
-    value: "<table><caption>Core Gunslinger Traits</caption><tbody><tr><th><p>Primary Ability</p></th><td><p>Dexterity</p></td></tr><tr><th><p>Hit Point Die</p></th><td><p>D8 per Gunslinger level</p></td></tr><tr><th><p>Saving Throw Proficiencies</p></th><td><p>Dexterity and Charisma</p></td></tr><tr><th><p>Skill Proficiencies</p></th><td><p><em>Choose 2:</em> Acrobatics, Animal Handling, Athletics, Deception, Insight, Intimidation, Perception, Persuasion, Sleight of Hand, and Stealth</p></td></tr><tr><th><p>Weapon Proficiencies</p></th><td><p>Simple weapons and Martial Ranged weapons</p></td></tr><tr><th><p>Armor Training</p></th><td><p>Light armor</p></td></tr><tr><th><p>Starting Equipment</p></th><td><p><em>Choose A or B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbarmLeatherArm]{Leather Armor}, 2 @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Daggers}, @UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpRevolver00000]{Revolver}, 50 @UUID[Compendium.dnd5e.equipment24.Item.phbamoBulletsFir]{Bullets}, @UUID[Compendium.dnd5e.equipment24.Item.phbagExplorersPa]{Explorer’s Pack}, and 11 GP; or (B) 175 GP</p></td></tr></tbody></table><p><span class=\"s1\">Risk is in a Gunslinger’s blood. They are bold renegades, bucking tradition and forging a new path with dangerous and inelegant firearms. Gunslingers are infamous for surviving by their wits and relying on split-second timing and a considerable amount of luck to survive.</span></p><p></p><h2>Becoming a Gunslinger</h2><h3>As a Level 1 Character</h3><ul><li><p><span class=\"s1\">Gain all of the traits in the Core Gunslinger Traits table.</span><span class=\"Apple-converted-space\">\_</span></p></li><li><p><span class=\"s1\">Gain the Gunslinger’s level 1 features, which are listed in the Gunslinger Features table.</span></p></li></ul><h3><span class=\"s1\">As a Multiclass Character</span></h3><ul><li><p class=\"p2\"><span class=\"s1\">Gain the following traits from the Core Gunslinger Traits table: Hit Point Die, and proficiency with Martial Ranged weapons.</span></p></li><li><p class=\"p2\"><span class=\"s1\">Gain the Gunslinger’s level 1 features, which are listed in the Gunslinger Features table.</span></p></li></ul>"
+    value: >-
+      <blockquote><p>The Definitive Gritty, Risk-Taking Class</p></blockquote><p>Risk is in a
+      Gunslinger’s blood. They are bold renegades, bucking tradition and forging a new path with
+      dangerous and inelegant firearms. Gunslingers are infamous for surviving by their wits and
+      relying on split-second timing and a considerable amount of luck to survive.</p><p
+      class="hide-in-embed">@UUID[Compendium.mage-hand-press-core.journal.JournalEntry.mhpWarmage55e000.JournalEntryPage.mhpWarmage000000]{Continuing
+      reading…}</p>
     chat: ''
   identifier: gunslinger
   source:
@@ -350,11 +356,11 @@ system:
       _id: UZGQt1NzHp9eUnCU
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpFightingStyle
+          - uuid: Compendium.mage-hand-press-core.classes24.Item.mhpGunsFightingS
             optional: false
-          - uuid: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpQuickDraw0000
+          - uuid: Compendium.mage-hand-press-core.classes24.Item.mhpQuickDraw0000
             optional: false
-          - uuid: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpWeaponMastery
+          - uuid: Compendium.mage-hand-press-core.classes24.Item.mhpGunsWeaponMas
             optional: false
         optional: false
         spell: null
@@ -387,11 +393,11 @@ system:
       _id: Qc926Rb6mmrwGLhm
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpCriticalShot0
+          - uuid: Compendium.mage-hand-press-core.classes24.Item.mhpCriticalShot0
             optional: false
-          - uuid: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpRisk000000000
+          - uuid: Compendium.mage-hand-press-core.classes24.Item.mhpRisk000000000
             optional: false
-          - uuid: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpManeuvers0000
+          - uuid: Compendium.mage-hand-press-core.classes24.Item.mhpManeuvers0000
             optional: false
         optional: false
         spell: null
@@ -405,7 +411,7 @@ system:
       _id: 5hMZWRrKNcOPDTlU
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpGunslingerSub
+          - uuid: Compendium.mage-hand-press-core.classes24.Item.mhpGunslingerSub
             optional: false
         optional: false
         spell: null
@@ -419,7 +425,7 @@ system:
       _id: FGOypWXREjHEMNNp
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpImprovedCriti
+          - uuid: Compendium.mage-hand-press-core.classes24.Item.mhpImprovedCriti
             optional: false
         optional: false
         spell: null
@@ -433,7 +439,7 @@ system:
       _id: 3tGd8dL5uhyNhnFB
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpImprovedCrit1
+          - uuid: Compendium.mage-hand-press-core.classes24.Item.mhpImprovedCrit1
             optional: false
         optional: false
         spell: null
@@ -447,9 +453,9 @@ system:
       _id: VGraK54iAUfpFSh1
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpExtraAttack00
+          - uuid: Compendium.mage-hand-press-core.classes24.Item.mhpGunsExtraAtta
             optional: false
-          - uuid: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpGutShot000000
+          - uuid: Compendium.mage-hand-press-core.classes24.Item.mhpGutShot000000
             optional: false
         optional: false
         spell: null
@@ -463,7 +469,7 @@ system:
       _id: Wz4DrZtqIyntHaSc
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpEvasion000000
+          - uuid: Compendium.mage-hand-press-core.classes24.Item.mhpGunsEvasion00
             optional: false
         optional: false
         spell: null
@@ -477,7 +483,7 @@ system:
       _id: 1UNAgfSmwbPP8oI8
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpOverkill00000
+          - uuid: Compendium.mage-hand-press-core.classes24.Item.mhpOverkill00000
             optional: false
         optional: false
         spell: null
@@ -491,7 +497,7 @@ system:
       _id: xywOJn25qQvnOlN2
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpCheatDeath000
+          - uuid: Compendium.mage-hand-press-core.classes24.Item.mhpCheatDeath000
             optional: false
         optional: false
         spell: null
@@ -505,7 +511,7 @@ system:
       _id: Dx1cNIOWDRv7BCMh
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpDireGambit000
+          - uuid: Compendium.mage-hand-press-core.classes24.Item.mhpDireGambit000
             optional: false
         optional: false
         spell: null
@@ -791,7 +797,7 @@ system:
       _id: 8nWCQjo6s1qAVsnt
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpHeadshot00000
+          - uuid: Compendium.mage-hand-press-core.classes24.Item.mhpHeadshot00000
             optional: false
         optional: false
         spell: null
@@ -816,10 +822,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254056056
-  modifiedTime: 1775254056056
+  modifiedTime: 1783115724840
   lastModifiedBy: magehandpress000
 _key: '!items!mhpGunslinger000'

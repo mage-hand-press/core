@@ -20,7 +20,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpRisk000000001
+            target: Compendium.mage-hand-press-core.classes14.Item.mhpRisk000000000
             scaling: {}
       description:
         chatFlavor: ''
@@ -67,9 +67,8 @@ system:
     max: ''
   description:
     value: >-
-      <p><span class="s1">When you make an attack with a ranged weapon against a target within the
-      weapon’s normal range, you can expend a risk die to ignore half and three-quarters
-      cover.</span></p>
+      <p>When you make an attack with a ranged weapon against a target within the weapon’s normal
+      range, you can expend a risk die to ignore half and three-quarters cover.</span></p>
     chat: ''
   identifier: curved-trajectory
   source:

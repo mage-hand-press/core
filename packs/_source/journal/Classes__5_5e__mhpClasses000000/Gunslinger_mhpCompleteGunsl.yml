@@ -1,0 +1,1236 @@
+name: Gunslinger
+_id: mhpCompleteGunsl
+pages:
+  - sort: 100000
+    name: Mastery Properties
+    type: rule
+    _id: mhpMasteryProper
+    system:
+      tooltip: ''
+      type: rule
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Each weapon has a mastery property, which is usable only by a character who has a
+        feature, such as Weapon Mastery, that unlocks the property for the character.</span></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783115751034
+      modifiedTime: 1783115751034
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpCompleteGunsl.mhpMasteryProper'
+  - sort: 200000
+    name: Automatic
+    type: rule
+    _id: mhpAutomatic0000
+    system:
+      tooltip: >-
+        <p>When you make an attack with this weapon, you can choose to make two attacks instead.
+        These attacks are always made with Disadvantage, regardless of circumstance. You can’t
+        replace these attacks. If this weapon has the Ammunition property, these attacks use twice
+        the normal amount of ammunition.</span></p>
+      type: weaponMastery
+    title:
+      show: true
+      level: 3
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>When you make an attack with this weapon, you can choose to make two attacks instead.
+        These attacks are always made with <strong>Disadvantage</strong>, regardless of
+        circumstance. You can’t replace these attacks. If this weapon has the Ammunition property,
+        these attacks use twice the normal amount of ammunition.</span></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783115751034
+      modifiedTime: 1783115751034
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpCompleteGunsl.mhpAutomatic0000'
+  - sort: 300000
+    name: Bludgeon
+    type: rule
+    _id: mhpBludgeon00000
+    system:
+      tooltip: >-
+        <p>You can treat this weapon as a Melee weapon with the Finesse property. When you hit a
+        creature with a melee attack using this weapon, it deals Bludgeoning damage equal to 1d6
+        plus the ability modifier used for the attack roll, or 1d8 if the weapon is used with two
+        hands to make the attack.</span></p>
+      type: weaponMastery
+    title:
+      show: true
+      level: 3
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>You can treat this weapon as a Melee weapon with the Finesse property. When you hit a
+        creature with a melee attack using this weapon, it deals Bludgeoning damage equal to 1d6
+        plus the ability modifier used for the attack roll, or 1d8 if the weapon is used with two
+        hands to make the attack.</span></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783115751034
+      modifiedTime: 1783115751034
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpCompleteGunsl.mhpBludgeon00000'
+  - sort: 400000
+    name: Explode
+    type: rule
+    _id: mhpExplode000000
+    system:
+      tooltip: >-
+        <p>When you take the Attack action, you can replace one of your attacks with an explosion
+        from this weapon’s projectile. This explosion is a 5-foot-radius Sphere centered on a point
+        you choose within the weapon’s normal range. Each creature within the Sphere makes a
+        Dexterity saving throw (DC 8 plus your Strength or Dexterity modifier and your Proficiency
+        Bonus). On a failed save, a creature takes the weapon’s damage, but don’t add your ability
+        modifier to that damage unless that modifier is negative. On a successful save, a creature
+        takes half as much damage. You can create an explosion only once per turn.</span></p>
+      type: weaponMastery
+    title:
+      show: true
+      level: 3
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>When you take the Attack action, you can replace one of your attacks with an explosion
+        from this weapon’s projectile. This explosion is a 5-foot-radius Sphere centered on a point
+        you choose within the weapon’s normal range. Each creature within the Sphere makes a
+        Dexterity saving throw (DC 8 plus your Strength or Dexterity modifier and your Proficiency
+        Bonus). On a failed save, a creature takes the weapon’s damage, but don’t add your ability
+        modifier to that damage unless that modifier is negative. On a successful save, a creature
+        takes half as much damage. You can create an explosion only once per turn.</span></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783115751034
+      modifiedTime: 1783115751034
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpCompleteGunsl.mhpExplode000000'
+  - sort: 500000
+    name: Jolt
+    type: rule
+    _id: mhpJolt000000000
+    system:
+      tooltip: >-
+        <p>If you hit a creature with this weapon, the creature can’t make Opportunity Attacks until
+        the start of its next turn.</span></p>
+      type: weaponMastery
+    title:
+      show: true
+      level: 3
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>If you hit a creature with this weapon, the creature can’t make Opportunity Attacks until
+        the start of its next turn.</span></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783115751034
+      modifiedTime: 1783115751034
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpCompleteGunsl.mhpJolt000000000'
+  - sort: 600000
+    name: Mounted
+    type: rule
+    _id: mhpMounted000000
+    system:
+      tooltip: >-
+        <p>You can take a Bonus Action to mount this weapon in a fixed position until the end of
+        your turn. A damage value in parentheses appears with this property. While mounted, the
+        weapon deals that damage when used to make a ranged attack, and the weapon can’t be
+        moved.</span></p>
+      type: weaponMastery
+    title:
+      show: true
+      level: 3
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>You can take a Bonus Action to mount this weapon in a fixed position until the end of
+        your turn. A damage value in parentheses appears with this property. While mounted, the
+        weapon deals that damage when used to make a ranged attack, and the weapon can’t be
+        moved.</span></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783115751034
+      modifiedTime: 1783115751034
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpCompleteGunsl.mhpMounted000000'
+  - sort: 700000
+    name: Overheat
+    type: rule
+    _id: mhpOverheat00000
+    system:
+      tooltip: >-
+        <p>If you hit a target with this weapon, you can overcharge the weapon. If you do so, the
+        target takes extra damage of the weapon’s type equal to your Proficiency Bonus. The weapon
+        then Overheats. An Overheated weapon can’t be used again to make an attack until the end of
+        your next turn.</span></p>
+      type: weaponMastery
+    title:
+      show: true
+      level: 3
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>If you hit a target with this weapon, you can overcharge the weapon. If you do so, the
+        target takes extra damage of the weapon’s type equal to your Proficiency Bonus. The weapon
+        then Overheats. An Overheated weapon can’t be used again to make an attack until the end of
+        your next turn.</span></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783115751034
+      modifiedTime: 1783115751034
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpCompleteGunsl.mhpOverheat00000'
+  - sort: 800000
+    name: Scatter
+    type: rule
+    _id: mhpScatter000000
+    system:
+      tooltip: >-
+        <p>Being within 5 feet of an enemy doesn’t impose Disadvantage on your ranged attack rolls
+        with this weapon.</span></p>
+      type: weaponMastery
+    title:
+      show: true
+      level: 3
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Being within 5 feet of an enemy doesn’t impose Disadvantage on your ranged attack rolls
+        with this weapon.</span></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783115751034
+      modifiedTime: 1783115751034
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpCompleteGunsl.mhpScatter000000'
+  - sort: 900000
+    name: Sighted
+    type: rule
+    _id: mhpSighted000000
+    system:
+      tooltip: >-
+        <p>Attacking at long range with this weapon doesn’t impose Disadvantage on your attack
+        rolls. When you hit a creature with an attack using this weapon at long range, you can
+        reroll any of the damage dice and must use the new roll.</span></p>
+      type: weaponMastery
+    title:
+      show: true
+      level: 3
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Attacking at long range with this weapon doesn’t impose Disadvantage on your attack
+        rolls. When you hit a creature with an attack using this weapon at long range, you can
+        reroll any of the damage dice and must use the new roll.</span></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783115751034
+      modifiedTime: 1783115751034
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpCompleteGunsl.mhpSighted000000'
+  - sort: 0
+    name: Weapon Properties
+    type: rule
+    _id: mhpWeaponPropert
+    system:
+      tooltip: ''
+      type: rule
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Here are definitions of the properties in the Properties column of the Firearm
+        tables.</span></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783115751034
+      modifiedTime: 1783115751034
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpCompleteGunsl.mhpWeaponPropert'
+  - sort: 50000
+    name: Blaster
+    type: rule
+    _id: mhpBlaster000000
+    system:
+      tooltip: >-
+        <p>A weapon with the Blaster property is a Ranged weapon that requires no ammunition. This
+        property counts as the Ammunition property.</span></p>
+      type: rule
+    title:
+      show: true
+      level: 3
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>A weapon with the Blaster property is a Ranged weapon that requires no ammunition. This
+        property counts as the Ammunition property.</span></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783115751034
+      modifiedTime: 1783115751034
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpCompleteGunsl.mhpBlaster000000'
+  - sort: 75000
+    name: Cooldown
+    type: rule
+    _id: mhpCooldown00000
+    system:
+      tooltip: >-
+        <p>Because this weapon requires cooldown time between uses, you can only fire it once when
+        you use an action, Bonus Action, or Reaction to fire it, regardless of the number of attacks
+        you normally make. This property counts as the Loading property.</span></p>
+      type: rule
+    title:
+      show: true
+      level: 3
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Because this weapon requires cooldown time between uses, you can only fire it once when
+        you use an action, Bonus Action, or Reaction to fire it, regardless of the number of attacks
+        you normally make. This property counts as the Loading property.</span></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783115751034
+      modifiedTime: 1783115751034
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpCompleteGunsl.mhpCooldown00000'
+  - sort: 87500
+    name: Firearm
+    type: rule
+    _id: mhpFirearm000000
+    system:
+      tooltip: >-
+        <p>You don’t add your ability modifier to the weapon’s damage, unless otherwise stated.
+        Firearm ammunition is destroyed upon use.</span></p>
+      type: rule
+    title:
+      show: true
+      level: 3
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>You don’t add your ability modifier to the weapon’s damage, unless otherwise stated.
+        Firearm ammunition is destroyed upon use.</span></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783115751034
+      modifiedTime: 1783115751034
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpCompleteGunsl.mhpFirearm000000'
+  - sort: 87500
+    name: Recoil
+    type: rule
+    system:
+      tooltip: >-
+        <p>After you make an attack with this weapon, you can’t make ranged attacks beyond the
+        weapon’s normal range until the end of the current turn.</span></p>
+      type: rule
+    title:
+      show: true
+      level: 3
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>After you make an attack with this weapon, you can’t make ranged attacks beyond the
+        weapon’s normal range until the end of the current turn.</span></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783115751034
+      modifiedTime: 1783115751034
+      duplicateSource: null
+      exportSource: null
+    _id: mhpRecoil0000000
+    _key: '!journal.pages!mhpCompleteGunsl.mhpRecoil0000000'
+  - sort: 87500
+    name: Reload
+    type: rule
+    system:
+      tooltip: >-
+        <p>This weapon can be used to make a number of attacks before it must be reloaded. If you
+        are proficient with the weapon, reloading it takes an action or a Bonus Action; otherwise,
+        reloading it takes an action.</span></p>
+      type: rule
+    title:
+      show: true
+      level: 3
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>This weapon can be used to make a number of attacks before it must be reloaded. If you
+        are proficient with the weapon, reloading it takes an action or a Bonus Action; otherwise,
+        reloading it takes an action.</span></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783115751034
+      modifiedTime: 1783115751034
+      duplicateSource: null
+      exportSource: null
+    _id: mhpReload0000000
+    _key: '!journal.pages!mhpCompleteGunsl.mhpReload0000000'
+  - sort: -100000
+    name: Gunslinger
+    type: class
+    _id: mhpGunslinger000
+    system:
+      item: Compendium.mage-hand-press-core.classes24.Item.mhpGunslinger000
+      description:
+        value: >-
+          <p>Risk is in a Gunslinger’s blood. They are bold renegades, bucking tradition and forging
+          a new path with dangerous and inelegant firearms. Gunslingers are infamous for surviving
+          by their wits and relying on split-second timing and a considerable amount of luck to
+          survive.</span></p><h2>Guts and Gunpowder</h2><p>Black powder isn’t for the faint of
+          heart. Its thunderous applause is volatile and imprecise—a barely controlled explosion
+          directed at an enemy. Only the truly fearless seek to master it. But Gunslingers have
+          nerves of steel, hurling death from their guns in a roaring cacophony. Adapted for
+          shootouts, gunslingers are mobile and daring, knowing that life or death hangs on snap
+          decision-making and one’s own mettle.</span></p><h2>Dangerous Outsiders</h2><p>A
+          Gunslinger’s explosive lifestyle lends well to wandering and adventuring. Gunslingers
+          often shoot first and ask questions later, an attitude which earns them few friends and
+          bountiful enemies. In their travels, most gunslingers are secretive and take great lengths
+          to go unnoticed, lest they be spotted by old foes with scores to
+          settle.</span></p><h2>Becoming a Gunslinger…</h2><h3>As a Level 1
+          Character</span></h3><ul><li><p class="p4">Gain all of the traits in the Core Gunslinger
+          Traits table.</span></p></li><li><p class="p4">Gain the Gunslinger’s level 1 features,
+          which are listed in the Gunslinger Features table.</span></p></li></ul><h3>As a Multiclass
+          Character</span></h3><ul><li><p class="p4">Gain the following traits from the Core
+          Gunslinger Traits table: Hit Point Die, and proficiency with Martial Ranged
+          weapons.</span></p></li><li><p class="p4">Gain the Gunslinger’s level 1 features, which
+          are listed in the Gunslinger Features table.</span></p></li></ul>
+        additionalHitPoints: ''
+        additionalTraits: ''
+        additionalEquipment: ''
+        subclass: >-
+          <p>A Gunslinger subclass is a specialization that grants you features at certain levels,
+          as specified in the subclass.</span></p><table><thead><tr><td colspan="2"><p>Gunslinger
+          Subclasses</p></td></tr></thead><tbody><tr><td><p><strong>Name</strong></p></td><td><p><strong>Description</strong></p></td></tr><tr><td><p>@UUID[Compendium.complete-gunslinger-2024.complete-gunslinger-2024.JournalEntry.rc9aVg7EzhPONArR.JournalEntryPage.GlFM7qyXaeGxQxHc#big-game-hunter]{Big
+          Game Hunter}</p></td><td><p>Hunt colossal game with even bigger
+          guns</p></td></tr><tr><td><p>@UUID[Compendium.complete-gunslinger-2024.complete-gunslinger-2024.JournalEntry.rc9aVg7EzhPONArR.JournalEntryPage.GlFM7qyXaeGxQxHc#deadeye]{Deadeye}</p></td><td><p>A
+          precise, eagle-eyed
+          marksman</p></td></tr><tr><td><p>@UUID[Compendium.complete-gunslinger-2024.complete-gunslinger-2024.JournalEntry.rc9aVg7EzhPONArR.JournalEntryPage.GlFM7qyXaeGxQxHc#grenadier]{Grenadier}</p></td><td><p>Uses
+          explosive munitions to solve basically every
+          problem</p></td></tr><tr><td><p>@UUID[Compendium.complete-gunslinger-2024.complete-gunslinger-2024.JournalEntry.rc9aVg7EzhPONArR.JournalEntryPage.GlFM7qyXaeGxQxHc#gun-tank]{Gun
+          Tank}</p></td><td><p>Lugs around heavy mounted
+          firearms</p></td></tr><tr><td><p>@UUID[Compendium.complete-gunslinger-2024.complete-gunslinger-2024.JournalEntry.rc9aVg7EzhPONArR.JournalEntryPage.GlFM7qyXaeGxQxHc#gun-ko-master]{Gun-Ko
+          Master}</p></td><td><p>A martial artist who uses the gun as a total
+          weapon</p></td></tr><tr><td><p>@UUID[Compendium.complete-gunslinger-2024.complete-gunslinger-2024.JournalEntry.rc9aVg7EzhPONArR.JournalEntryPage.GlFM7qyXaeGxQxHc#high-roller]{High
+          Roller}</p></td><td><p>Gambles with their life and fortune; no risk is too
+          high</p></td></tr><tr><td><p>@UUID[Compendium.complete-gunslinger-2024.complete-gunslinger-2024.JournalEntry.rc9aVg7EzhPONArR.JournalEntryPage.GlFM7qyXaeGxQxHc#laserist]{Laserist}</p></td><td><p>Tinkerer
+          specializing in high-tech blaster
+          weapons</p></td></tr><tr><td><p>@UUID[Compendium.complete-gunslinger-2024.complete-gunslinger-2024.JournalEntry.rc9aVg7EzhPONArR.JournalEntryPage.GlFM7qyXaeGxQxHc#musketeer]{Musketeer}</p></td><td><p>A
+          musket-and-rapier-wielding soldier of honor and
+          courage</p></td></tr><tr><td><p>@UUID[Compendium.complete-gunslinger-2024.complete-gunslinger-2024.JournalEntry.rc9aVg7EzhPONArR.JournalEntryPage.GlFM7qyXaeGxQxHc#pistolero]{Pistolero}</p></td><td><p>Fires
+          six-shooters from the hip at incredible
+          speed</p></td></tr><tr><td><p>@UUID[Compendium.complete-gunslinger-2024.complete-gunslinger-2024.JournalEntry.rc9aVg7EzhPONArR.JournalEntryPage.GlFM7qyXaeGxQxHc#secret-agent]{Secret
+          Agent}</p></td><td><p>A covert agent with a license to
+          kill</p></td></tr><tr><td><p>@UUID[Compendium.complete-gunslinger-2024.complete-gunslinger-2024.JournalEntry.rc9aVg7EzhPONArR.JournalEntryPage.GlFM7qyXaeGxQxHc#space-cowboy]{Space
+          Cowboy}</p></td><td><p>A hot shot futuristic
+          gunslinger</p></td></tr><tr><td><p>@UUID[Compendium.complete-gunslinger-2024.complete-gunslinger-2024.JournalEntry.rc9aVg7EzhPONArR.JournalEntryPage.GlFM7qyXaeGxQxHc#spellslinger]{Spellslinger}</p></td><td><p>Fires
+          spells as well as bullets in deadly
+          bombardments</p></td></tr><tr><td><p>@UUID[Compendium.complete-gunslinger-2024.complete-gunslinger-2024.JournalEntry.rc9aVg7EzhPONArR.JournalEntryPage.GlFM7qyXaeGxQxHc#trick-shot]{Trick
+          Shot}</p></td><td><p>Ricochets bullets to hit targets from any
+          angle</p></td></tr><tr><td><p>@UUID[Compendium.complete-gunslinger-2024.complete-gunslinger-2024.JournalEntry.rc9aVg7EzhPONArR.JournalEntryPage.GlFM7qyXaeGxQxHc#white-hat]{White
+          Hat}</p></td><td><p>A law-abiding protector of the weak that never blinks in the face of
+          danger</p></td></tr></tbody></table>
+      subclassItems:
+        - Compendium.mage-hand-press-core.classes24.Item.mhpDeadeye000000
+        - Compendium.mage-hand-press-core.classes24.Item.mhpGrenadier0000
+        - Compendium.mage-hand-press-core.classes24.Item.mhpGunTank000000
+        - Compendium.mage-hand-press-core.classes24.Item.mhpHighRoller000
+        - Compendium.mage-hand-press-core.classes24.Item.mhpLaserist00000
+        - Compendium.mage-hand-press-core.classes24.Item.mhpMusketeer0000
+        - Compendium.mage-hand-press-core.classes24.Item.mhpPistolero0000
+        - Compendium.mage-hand-press-core.classes24.Item.mhpSecretAgent00
+        - Compendium.mage-hand-press-core.classes24.Item.mhpSpaceCowboy00
+        - Compendium.mage-hand-press-core.classes24.Item.mhpSpellslinger0
+        - Compendium.mage-hand-press-core.classes24.Item.mhpTrickShot0000
+        - Compendium.mage-hand-press-core.classes24.Item.mhpWhiteHat00000
+        - Compendium.mage-hand-press-core.classes24.Item.mhpBigGameHunter
+        - Compendium.mage-hand-press-core.classes24.Item.mhpGunKoMaster00
+      style: '2024'
+      subclassHeader: Gunslinger Subclasses
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783115751034
+      modifiedTime: 1783115751034
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpCompleteGunsl.mhpGunslinger000'
+  - sort: -50000
+    name: Firearms
+    type: text
+    _id: mhpFirearms00000
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Black powder represents a paradigm shift in the art of warfare, fueling everything from
+        powerful siege weapons to concealable, handheld guns. In many campaign settings, firearms
+        supplant the traditional scheme of weapons, forcing arrows, swords, and battleaxes into
+        obsolescence. They might even be commonplace, a staple tool for hunting and
+        defense.</span></p><p>Futuristic firearms, powered by arcane energy or extremely advanced
+        science, are called blasters, and fire a pulse of energy or condensed plasma instead of
+        conventional projectiles. Blasters are considered firearms as well.</span></p><h2>Firearm
+        Eras</h2><p>Firearms have evolved dramatically throughout history, and will continue to
+        evolve into the far future. Therefore, in addition to being organized into Simple and
+        Martial weapons, the following firearms are organized into eras, the periods of time in
+        which they might be encountered. Some firearms might appear in multiple eras, especially if
+        the story demands an unusual weapon, but many are best suited to campaign settings that echo
+        their level of technology.</span></p><p>The GM determines which era or eras of weapons are
+        in the campaign.</span></p><h3>Renaissance Firearms</span></h3><p>Renaissance-era firearms,
+        such as Pistols and Muskets, are weapons that have taken the first steps away from cannons
+        and into portable rifles, making them the progenitors of all modern firearms. Weapons from
+        this era use musket balls and loose black powder, and are therefore slow to reload.
+        Importantly, these weapons exist comfortably in many fantasy settings alongside bows,
+        swords, and axes, especially where pirates are at play.</span></p><h3>Industrial Age
+        Firearms</span></h3><p>Industrial Age firearms, such as Revolvers and Double-Barrel
+        Shotguns, stem from advancements in machinery and assembly lines, granting them more
+        interchangeable parts and cartridge-based bullets. These guns lack the assembly-line
+        consistency of modern firearms, but laid down the bedrock for designs that haven’t changed
+        much since: a classic six-shot Revolver is as timeless as it is effective. While the heyday
+        of Industrial Age firearms was in the Wild West, their simple and reliable construction
+        means they are still commonplace in the modern day.</span></p><h3>Modern
+        Firearms</span></h3><p>Modern firearms have embraced automatic fire, ammunition magazines,
+        and lighter caliber bullets (which can travel at much higher speeds). For these guns, form
+        begets function: weapons are designed for a specific role, such as Sniper Rifles for long
+        range and Pump Shotguns for close quarters. Moreover, weapons that enjoyed success in the
+        Wild West, such as the Double-Barrel Shotgun, can still be found in use
+        today.</span></p><h3>Futuristic Firearms</span></h3><p>Futuristic firearms—known as
+        blasters—still resemble Handguns, Pump Shotguns, and Assault Rifles, but have only tenuous
+        connections to their functionality. Blasters are powered by rechargeable arcane batteries
+        (or power cells) and produce bursts of plasma instead of bullets. While these weapons never
+        need to be reloaded, they are prone to overheating and sometimes require extended recharge
+        periods.</span></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783115751034
+      modifiedTime: 1783115751034
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpCompleteGunsl.mhpFirearms00000'
+  - sort: 1000000
+    name: Firearm Tables
+    type: text
+    _id: mhpFirearmTables
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p></p><table><thead><tr><td colspan="6"><p>Renaissance
+        Firearms</p></td></tr></thead><tbody><tr><td><p><strong>Name</strong></p></td><td><p><strong>Damage</strong></p></td><td><p><strong>Properties</strong></p></td><td><p><strong>Mastery</strong></p></td><td><p><strong>Weight</strong></p></td><td><p><strong>Cost</strong></p></td></tr><tr><td
+        colspan="6"><p><em>Martial Ranged
+        Weapons</em></p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpBlunderbuss00]{Blunderbuss}</p></td><td><p>1d12
+        Piercing</p></td><td><p>Ammunition (Range 20/60; Shot), Heavy, Loading,
+        Two-Handed</p></td><td><p>Scatter</p></td><td><p>15 lb.</p></td><td><p>750
+        GP</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.equipment24.Item.phbwepMusket0000]{Musket}</p></td><td><p>1d12
+        Piercing</p></td><td><p>Ammunition (Range 40/120; Bullet), Loading,
+        Two-Handed</p></td><td><p>Slow</p></td><td><p>10 lb.</p></td><td><p>500
+        GP</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.equipment24.Item.phbwepPistol0000]{Pistol}</p></td><td><p>1d10
+        Piercing</p></td><td><p>Ammunition (Range 30/90; Bullet),
+        Loading</p></td><td><p>Vex</p></td><td><p>3 lb.</p></td><td><p>250
+        GP</p></td></tr></tbody></table><p></p><table><thead><tr><td colspan="6"><p>Industrial Age
+        Firearms</p></td></tr></thead><tbody><tr><td><p><strong>Name</strong></p></td><td><p><strong>Damage</strong></p></td><td><p><strong>Properties</strong></p></td><td><p><strong>Mastery</strong></p></td><td><p><strong>Weight</strong></p></td><td><p><strong>Cost</strong></p></td></tr><tr><td
+        colspan="6"><p><em>Simple Ranged
+        Weapons</em></p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpDoubleBarrelS]{Double-Barrel
+        Shotgun}</p></td><td><p>2d6 Piercing</p></td><td><p>Ammunition (Range 20/60; Shell),
+        Firearm, Recoil, Reload (2), Two-Handed</p></td><td><p>Scatter</p></td><td><p>8
+        lb.</p></td><td><p>175
+        GP</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpHuntingRifle0]{Hunting
+        Rifle}</p></td><td><p>2d6 Piercing</p></td><td><p>Ammunition (Range 80/320; Bullet),
+        Firearm, Reload (4), Two-Handed</p></td><td><p>Sighted</p></td><td><p>8
+        lb.</p></td><td><p>150
+        GP</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpParlorGun0000]{Parlor
+        Gun}</p></td><td><p>2d4 Piercing</p></td><td><p>Ammunition (Range 30/120; Bullet), Firearm,
+        Light, Reload (2)</p></td><td><p>Vex</p></td><td><p>1 lb.</p></td><td><p>75
+        GP</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpRevolver00000]{Revolver}</p></td><td><p>2d6
+        Piercing</p></td><td><p>Ammunition (Range 30/120; Bullet), Firearm, Recoil, Reload
+        (6)</p></td><td><p>Slow</p></td><td><p>3 lb.</p></td><td><p>125 GP</p></td></tr><tr><td
+        colspan="6"><p><em>Martial Ranged
+        Weapons</em></p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpCannon0000000]{Cannon}</p></td><td><p>2d8
+        Fire</p></td><td><p>Ammunition (Range 100/400; Cannonball), Firearm, Heavy, Loading,
+        Two-Handed</p></td><td><p>Explode</p></td><td><p>225 lb.</p></td><td><p><span
+        class="s1">1,500
+        GP</span></p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpGatlingGun000]{Gatling
+        Gun}</p></td><td><p>2d6 Piercing</p></td><td><p>Ammunition (Range 60/240; Bullet), Firearm,
+        Heavy, Reload (40), Two-Handed</p></td><td><p>Automatic</p></td><td><p>125
+        lb.</p></td><td><p>750
+        GP</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpMagnum0000000]{Magnum}</p></td><td><p>2d8
+        Piercing</p></td><td><p>Ammunition (Range 30/120, Bullet), Firearm, Heavy, Recoil, Reload
+        (6)</p></td><td><p>Slow</p></td><td><p>6 lb.</p></td><td><p>600
+        GP</p></td></tr></tbody></table><p></p><table><thead><tr><td colspan="6"><p>Modern
+        Firearms</p></td></tr></thead><tbody><tr><td><p><strong>Name</strong></p></td><td><p><strong>Damage</strong></p></td><td><p><strong>Properties</strong></p></td><td><p><strong>Mastery</strong></p></td><td><p><strong>Weight</strong></p></td><td><p><strong>Cost</strong></p></td></tr><tr><td
+        colspan="6"><p><em>Simple Ranged
+        Weapons</em></p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpFlareGun00000]{Flare
+        Gun}</p></td><td><p>2d6 Fire</p></td><td><p>Ammunition (Range 30/120; Flare), Firearm,
+        Loading</p></td><td><p>Slow</p></td><td><p>1 lb.</p></td><td><p>100
+        GP</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpHandgun000000]{Handgun}</p></td><td><p>2d4
+        Piercing</p></td><td><p>Ammunition (Range 30/120; Bullet), Firearm, Light, Reload
+        (10)</p></td><td><p>Vex</p></td><td><p>3 lb.</p></td><td><p>125 GP</p></td></tr><tr><td
+        colspan="6"><p><em>Martial Ranged
+        Weapons</em></p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpAssaultRifle0]{Assault
+        Rifle}</p></td><td><p>2d6 Piercing</p></td><td><p>Ammunition (Range 80/320; Bullet),
+        Firearm, Reload (20), Two-Handed</p></td><td><p>Automatic</p></td><td><p>7
+        lb.</p></td><td><p>300
+        GP</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpGrenadeLaunch]{Grenade
+        Launcher}</p></td><td><p>2d8 Fire</p></td><td><p>Ammunition (40/160; Grenade), Firearm,
+        Loading, Two-Handed</p></td><td><p>Explode</p></td><td><p>10 lb.</p></td><td><p>1,000
+        GP</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpPumpShotgun00]{Pump
+        Shotgun}</p></td><td><p>2d8 Piercing</p></td><td><p>Ammunition (Range 20/60, Shell),
+        Firearm, Heavy, Recoil, Reload (8), Two-Handed</p></td><td><p>Scatter</p></td><td><p>7
+        lb.</p></td><td><p>550
+        GP</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpSniperRifle00]{Sniper
+        Rifle}</p></td><td><p>2d8 Piercing</p></td><td><p>Ammunition (Range 100/400, Bullet),
+        Firearm, Heavy, Loading, Two-Handed</p></td><td><p>Sighted</p></td><td><p>8
+        lb.</p></td><td><p>450
+        GP</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpSubmachineGun]{Submachine
+        Gun}</p></td><td><p>2d4 Piercing</p></td><td><p>Ammunition (20/60; Bullet), Firearm,
+        Light,<br>Reload (16)</p></td><td><p>Automatic</p></td><td><p>6 lb.</p></td><td><p>250
+        GP</p></td></tr></tbody></table><p></p><table><thead><tr><td colspan="6"><p>Futuristic
+        Firearms</p></td></tr></thead><tbody><tr><td><p><strong>Name</strong></p></td><td><p><strong>Damage</strong></p></td><td><p><strong>Properties</strong></p></td><td><p><strong>Mastery</strong></p></td><td><p><strong>Weight</strong></p></td><td><p><strong>Cost</strong></p></td></tr><tr><td
+        colspan="6"><p><em>Simple Ranged
+        Weapons</em></p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpAntimatterPis]{Antimatter
+        Pistol}</p></td><td><p>2d4 Necrotic</p></td><td><p>Blaster (Range 30/120), Firearm,
+        Light</p></td><td><p>Vex</p></td><td><p>2 lb.</p></td><td><p>100
+        GP</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpAviaRaSunstaf]{Avia-Ra
+        Sunstaff}</p></td><td><p>2d6 Radiant</p></td><td><p>Blaster (Range 80/320), Firearm,
+        Two-Handed</p></td><td><p>Bludgeon</p></td><td><p>6 lb.</p></td><td><p>250
+        GP</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpBoltCaster000]{Bolt
+        Caster}</p></td><td><p>2d6 Force</p></td><td><p>Blaster (Range 30/120), Cooldown,
+        Firearm</p></td><td><p>Push</p></td><td><p>5 lb.</p></td><td><p>150
+        GP</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpIonCannon0000]{Ion
+        Cannon}</p></td><td><p>2d6 Radiant</p></td><td><p>Blaster (Range 20/60), Firearm, Recoil,
+        Two-Handed</p></td><td><p>Scatter</p></td><td><p>6 lb.</p></td><td><p>275
+        GP</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpPhaser0000000]{Phaser}</p></td><td><p>2d4
+        Lightning</p></td><td><p>Blaster (Range 30/120), Firearm,
+        Light</p></td><td><p>Jolt</p></td><td><p>2 lb.</p></td><td><p>100
+        GP</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpStandardCarbi]{Standard
+        Carbine}</p></td><td><p>2d6 Radiant</span></p></td><td><p><span class="s1">Blaster (Range
+        80/320), Firearm, Two-Handed</span></p></td><td><p><span
+        class="s1">Slow</span></p></td><td><p>7 lb.</span></p></td><td><p>175
+        GP</p></td></tr><tr><td colspan="6"><p><em>Martial Ranged
+        Weapons</em></p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpAntimatterCar]{Antimatter
+        Carbine}</p></td><td><p>2d6 Necrotic</p></td><td><p>Blaster (Range 80/320), Firearm,
+        Two-Handed</p></td><td><p>Automatic</p></td><td><p>4 lb.</p></td><td><p>400
+        GP</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpBlitzCannon00]{Blitz
+        Cannon}</p></td><td><p>2d8 Radiant</p></td><td><p>Blaster (Range 20/60), Firearm, Recoil,
+        Two-Handed</p></td><td><p>Scatter</p></td><td><p>7 lb.</p></td><td><p>650
+        GP</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpConcussionRif]{Concussion
+        Rifle}</p></td><td><p>2d8 Force</p></td><td><p>Blaster (Range 90/360), Firearm, Heavy,
+        Recoil, Two-Handed</p></td><td><p>Sighted</p></td><td><p>8 lb.</p></td><td><p>550
+        GP</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpDuelingLaser0]{Dueling
+        Laser}</p></td><td><p>2d6 Radiant</p></td><td><p>Blaster (Range 30/120), Cooldown, Firearm,
+        Light</p></td><td><p>Slow</p></td><td><p>3 lb.</p></td><td><p>350
+        GP</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpMagnus0000000]{Magnus}</p></td><td><p>2d8
+        Radiant</p></td><td><p>Blaster (Range 30/120), Cooldown, Firearm,
+        Heavy</p></td><td><p>Overheat</p></td><td><p>6 lb.</p></td><td><p>700
+        GP</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpPlasmaLaunche]{Plasma
+        Launcher}</p></td><td><p>2d8 Fire</p></td><td><p>Blaster (Range 80/320), Cooldown, Firearm,
+        Two-Handed</p></td><td><p>Explode</p></td><td><p>8 lb.</p></td><td><p>750
+        GP</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpRECGun0000000]{REC
+        Gun}</p></td><td><p>2d6 Radiant</p></td><td><p>Blaster (Range 100/400), Firearm, Heavy,
+        Two-Handed</p></td><td><p>Mounted (2d8)</p></td><td><p>40 lb.</p></td><td><p>600
+        GP</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpRepeater00000]{Repeater}</p></td><td><p>2d6
+        Radiant</p></td><td><p>Blaster (Range 60/240), Firearm</p></td><td><p>Vex</p></td><td><p>3
+        lb.</p></td><td><p>300
+        GP</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpSwarmPistol00]{Swarm
+        Pistol}</p></td><td><p>2d4 Radiant</p></td><td><p>Blaster (Range 20/60), Firearm,
+        Light</p></td><td><p>Automatic</p></td><td><p>2 lb.</p></td><td><p>350
+        GP</p></td></tr></tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783115751034
+      modifiedTime: 1783115751034
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpCompleteGunsl.mhpFirearmTables'
+  - sort: 1100000
+    name: Weapon Descriptions
+    type: text
+    _id: mhpWeaponDescrip
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Many of the weapons on the Firearm tables, such as Muskets, Revolvers, and Double-Barrel
+        Shotguns, are common fixtures in action movies and the real world. Some of the less obvious
+        firearms and all of the futuristic blasters are detailed
+        below.</span></p><p><em><strong>Antimatter Carbine.</strong></em> A more lethal model of the
+        Standard Carbine, this rifle can automatically fire bolts of antimatter with surprising
+        accuracy.</span></p><p><em><strong>Antimatter Pistol.</strong></em> A compact,
+        antimatter-firing companion to the Antimatter Carbine, the Antimatter Pistol is an essential
+        close-quarters backup.</span></p><p><em><strong>Avia-Ra Sunstaff.</strong></em> This long
+        staff, forked at its end near a prominent gemstone, is a blaster in its own right. When used
+        in expert hands, the Sunstaff can bludgeon, trip, and strike foes as a Quarterstaff, only to
+        be squeezed in both hands to fire a burst of hot plasma</span></p><p><em><strong>Blitz
+        Cannon.</strong></em> With its imposing rectangular muzzle, this brutalist weapon has a
+        clear right and wrong end. Pulling its trigger unleashes a torrent of lightning bolts in a
+        wide, imprecise spray, making it extremely dangerous at point-blank
+        range.</span></p><p><em><strong>Bolt Caster.</strong></em> An early but reliable blaster
+        design that resembles a crossbow, the Bolt Caster issues single shots of plasma with a long
+        cooldown between shots.</span></p><p><em><strong>Cannon.</strong></em> Smoothbore,
+        muzzleloading Cannons are common fixtures on pirate ships and defensive fortifications,
+        capable of splintering wood and reducing stone to gravel with a thunderous boom. Larger
+        siege weapons of this type exist, and require entire teams of operators to position, load,
+        and fire.</span></p><p><em><strong>Concussion Rifle.</strong></em> A series of arcane
+        capacitors run the length of this rifle, terminating in a thick condenser that compresses
+        its blast into a precise burst. A Concussion Rifle is especially deadly at long ranges, and
+        its damage bypasses most energetically-resistant armor.</span></p><p><em><strong>Dueling
+        Laser.</strong></em> A pistol intended for honorable, one-on-one duels, the Dueling Laser
+        fires a blinding streak of </span>light and promptly overheats. Spacers favor a Dueling
+        Laser in their offhand for an infrequent but powerful retort.</span></p><p><em><strong>Ion
+        Cannon.</strong></em> The Ion Cannon fires a bright, diffuse cone, rendering it deadly up
+        close. Between shots, it makes a quiet zipping noise, as the arcane battery charges the ion
+        cell for another blast.</span></p><p><em><strong>Magnus.</strong></em> This impressive
+        handgun weighs almost twice that of a Repeater. Its infamous heft, recoil, and stopping
+        power make it a favorite of spacers that accept no
+        compromises.</span></p><p><em><strong>Parlor Gun.</strong></em> The smallest usable firearm,
+        a Parlor Gun can be tucked into a stocking or hidden down a sleeve for two barrels of
+        point-blank fire.</span></p><p><em><strong>Phaser.</strong></em> Phasers aren’t designed for
+        effectiveness so much as portability and non-lethality. These blasters are often issued to
+        peace-keepers and emissaries that require personal defense but have no intent to
+        kill.</span></p><p><em><strong>Pistol.</strong></em> The earliest type of one-handed
+        firearm, a Pistol operates as a miniature Musket, loading and firing a single heavy
+        projectile with deadly results.</span></p><p><em><strong>Plasma Launcher.</strong></em> This
+        short tube launches an orb of superheated plasma in an arc. On contact, the ball of plasma
+        pops like a balloon, exploding in a dazzling fireball of
+        sparks.</span></p><p><em><strong>REC Gun.</strong></em> The Revolving Exothermic Cannon (or
+        REC gun, for short) operates on the same principle as a conventional blaster, with an arcane
+        battery hooked up to an aperture barrel and so forth, but mounts several blasters on a
+        revolving cylinder and fires each in rapid succession. A tripod mount keeps the blaster
+        stable despite its heft and shocking
+        recoil.</span></p><p><em><strong>Repeater.</strong></em> The quintessential handheld
+        blaster, the Repeater is a staple on the Galactic Frontier. Solid, reliable, and packing
+        just enough firepower to bring down an assailant, nearly every explorer worth their salt has
+        one of these blasters strapped to their hip.</span></p><p><em><strong>Standard
+        Carbine.</strong></em> As its name might suggest, the Standard Carbine is the standard-issue
+        blaster for all Hegemony and Coalition troops, which makes it one of the most pervasive
+        weapons in the ‘Verse. Spacers of all stripes employ it for its compact size and superb
+        accuracy.</span></p><p><em><strong>Swarm Pistol.</strong></em> This handheld blaster, styled
+        much like a Repeater, has a wickedly fast automatic fire, capable of spewing dozens of rays
+        in seconds. Dexterous users might even find it possible to use one in each hand for a
+        dazzling spectacle of plasma bolts.</span></p><h2>Firearm Ammunition</h2><p>Ammunition is
+        required by a weapon that has the Ammunition property. A weapon’s description specifies the
+        type of ammunition used by the weapon. The following Ammunition table lists new types of
+        ammunition used by firearms and the amount you get when you buy them.</span></p><p>Firearm
+        ammunition is destroyed upon
+        use.</span></p><p></p><table><tbody><tr><td><p><strong>Type</strong></p></td><td><p><strong>Amount</strong></p></td><td><p><strong>Weight</strong></p></td><td><p><strong>Cost</strong></p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.equipment24.Item.phbamoBulletsFir]{Bullets}</p></td><td><p>10</p></td><td><p>1
+        ½ lb.</p></td><td><p>3
+        GP</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpCannonballs00]{Cannonballs}</p></td><td><p>5</p></td><td><p>10
+        lb.</p></td><td><p>25
+        GP</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpFlares0000000]{Flares}</p></td><td><p>5</p></td><td><p>5
+        lb.</p></td><td class="td1"><p>5
+        GP</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpGrenades00000]{Grenades}</p></td><td><p>5</p></td><td><p>3
+        lb.</p></td><td><p>25
+        GP</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpShells0000000]{Shells}</p></td><td><p>10</p></td><td><p>1
+        ½ lb.</p></td><td><p>5
+        GP</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpShot000000000]{Shot}</p></td><td><p>10</p></td><td><p>2
+        lb.</p></td><td><p>1 GP</p></td></tr></tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783115751034
+      modifiedTime: 1783115751034
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpCompleteGunsl.mhpWeaponDescrip'
+  - sort: 1200000
+    name: New Feats
+    type: text
+    _id: mhpNewFeats00000
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>This section offers a collection of new feats, which are special features not tied to a
+        character class. A feat represents a talent or an area of expertise that gives a character
+        special capabilities. It embodies training, experience, and abilities beyond what a class
+        provides.</span></p><h2>Blaster Master</span></h2><p class="p3"><em>General Feat
+        (Prerequisite: Level 4+, Dexterity 13+)</em></span></p><p>You gain the following
+        benefits:</span></p><p><em><strong>Ability Score Increase.</strong></em> Increase your
+        Dexterity score by 1, to a maximum of 20.</span></p><p><em><strong>Blaster
+        Roulette.</strong></em> If you roll the same number of two damage dice for a weapon with the
+        Firearm property, you deal bonus damage equal to that number. You can only add this bonus
+        damage once per turn.</span></p><p><em><strong>Ignore Cooldown.</strong></em> You ignore the
+        Cooldown property of weapons.</span></p><p><em><strong>Run and Gun.</strong></em> When you
+        take the Dash or Disengage action, you can make a ranged attack using a weapon as a Bonus
+        Action.</span></p><h2>Iron Hero</span></h2><p class="p3"><em>General Feat (Prerequisite:
+        Level 4+)</em></span></p><p>You gain the following
+        benefits.</span></p><p><em><strong>Ability Score Increase.</strong></em> Increase your
+        Strength or Dexterity score by 1, to a maximum of 20.</span></p><p><em><strong>Underdog’s
+        Resolve.</strong></em> When you are attacked by a creature that has a CR higher than your
+        character level, you gain a +2 bonus to your Armor Class for that
+        attack.</span></p><p><em><strong>Vengeful Strike.</strong></em> You have Advantage on attack
+        rolls against any creature that has reduced one of your allies to 0 Hit Points since the end
+        of your last turn.</span></p><p><em><strong>Heroic Intervention.</strong></em> When an enemy
+        you can see takes a Legendary Action, you can take a Reaction to intercede, preventing the
+        Legendary Action from happening. You can take this Reaction a number of times equal to your
+        Proficiency Bonus and regain all expended uses when you finish a Short or Long
+        Rest</span></p><h2>Marksman’s Luck</span></h2><p class="p3"><em>General Feat (Prerequisite:
+        Level 4+, Dexterity 13+)</em></span></p><p>You gain the following
+        benefits.</span></p><p><em><strong>Ability Score Increase.</strong></em> Increase your
+        Dexterity score by 1, to a maximum of 20.</span></p><p><em><strong>Flip Die.</strong></em>
+        Once per turn, when you roll for damage with a Ranged weapon, you can flip one of the damage
+        dice over and use the number on the bottom. You can’t use this ability on d4s. Note that for
+        a balanced die, the top and bottom numbers add up to one more than the die’s largest
+        number.</span></p><p><em><strong>Enhanced Critical.</strong></em> When you score a Critical
+        Hit with a Ranged weapon, the target’s Speed is 0 until the end of its next
+        turn.</span></p><h2>Gun-Mage Adept</span></h2><p class="p3"><em>General Feat (Prerequisites:
+        Level 4+, Spellcasting or Pact Magic Feature)</em></span></p><p>You gain the following
+        benefits.</span></p><p><em><strong>Ability Score Increase.</strong></em> Increase your
+        Dexterity by 1, to a maximum of 20.</span></p><p><em><strong>Ranged Weapon
+        Proficiency.</strong></em> You gain proficiency with Ranged Martial
+        weapons.</span></p><p><em><strong>Cantrip.</strong></em> You learn the <em>Finger Guns
+        </em>cantrip.</span></p><p><em><strong>Expanded Spell List.</strong></em> The following
+        spells are added to your spell list:
+        <em>@UUID[Compendium.mage-hand-press-complete-gunslinger.spells24.Item.mhpAntiballistic]{Antiballistics
+        Field}</em>,
+        <em>@UUID[Compendium.mage-hand-press-complete-gunslinger.spells24.Item.mhpBallisticSmit]{Ballistic
+        Smite}</em>,
+        <em>@UUID[Compendium.mage-hand-press-complete-gunslinger.spells24.Item.mhpConjureCannon]{Conjure
+        Cannonball}</em>,
+        <em>@UUID[Compendium.mage-hand-press-complete-gunslinger.spells24.Item.mhpConjureCover0]{Conjure
+        Cover}</em>,
+        <em>@UUID[Compendium.mage-hand-press-complete-gunslinger.spells24.Item.mhpJamWeapon0000]{Jam
+        Weapon}</em>,
+        <em>@UUID[Compendium.mage-hand-press-complete-gunslinger.spells24.Item.mhpJethrosInstan]{Jethro's
+        Instant Reload}</em>, and
+        <em>@UUID[Compendium.mage-hand-press-complete-gunslinger.spells24.Item.mhpPerforatingSh]{Perforating
+        Shot}</em>.</span></p><p><em><strong>Spells Prepared.</strong></em> Choose a number of
+        spells equal to your Proficiency Bonus from among those in the Expanded Spell List benefit.
+        You always have these spells prepared. Whenever you gain a new level, you can replace one of
+        these spells with a different spell from the Expanded Spell List.</span></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783115751034
+      modifiedTime: 1783115751034
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpCompleteGunsl.mhpNewFeats00000'
+  - sort: 1300000
+    name: New Spells
+    type: text
+    _id: mhpNewSpells0000
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>This section contains the descriptions of spells that are new and available to all
+        classes. The class spell lists detailed with each spell include other classes from Mage Hand
+        Press, including the Necromancer, Martyr, and Investigator.</span></p><h2>Spell
+        Descriptions</h2><p>New spells are presented in alphabetical
+        order.</span></p><h3>Antiballistics Field</span></h3><p class="p4"><em>Level 6 Abjuration
+        (Cleric, Necromancer, Wizard)</em></span></p><p class="p5"><strong>Casting Time:</strong>
+        Action</span></p><p class="p5"><strong>Range:</strong> Self</span></p><p
+        class="p5"><strong>Components:</strong> V, S, M (a pinch of wet gunpowder)</span></p><p
+        class="p5"><strong>Duration:</strong> Concentration, up to 10 minutes</span></p><p>A 40-foot
+        Emanation extends from you, disrupting projectiles and causing Ranged weapons to
+        malfunction. Within the Emanation, whenever a Ranged weapon is used for an attack, the
+        weapon immediately malfunctions and the attack is lost. A malfunctioning weapon can’t be
+        used to make an attack until a creature takes the Utilize action to fix the weapon
+        malfunction. Ranged attacks using weapons whose projectiles pass through the Emanation have
+        Disadvantage and deal only half damage on a hit.</span></p><h3>Ballistic Smite</span></h3><p
+        class="p4"><em>Level 1 Evocation (Paladin)</em></span></p><p class="p5"><strong>Casting
+        Time:</strong> Bonus Action, which you take immediately after hitting a creature with a
+        Ranged weapon</span></p><p class="p5"><strong>Range:</strong> Self</span></p><p
+        class="p5"><strong>Components:</strong> V</span></p><p class="p5"><strong>Duration:</strong>
+        Instantaneous</span></p><p>Choose Acid, Cold, Fire, Lightning, Poison, or Thunder damage.
+        The target hit by the attack takes an extra 2d6 damage of the chosen type. The triggering
+        attack can deal the chosen damage type or its normal damage type (your
+        choice).</span></p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> The damage
+        increases by 1d6 for each spell slot level above 1.</span></p><h3>Concealed
+        Shot</span></h3><p class="p4"><em>Illusion Cantrip (Bard, Druid, Necromancer, Sorcerer,
+        Warlock, Warmage, Wizard)</em></span></p><p class="p5"><strong>Casting Time:</strong>
+        Action</span></p><p class="p5"><strong>Range:</strong> Touch</span></p><p
+        class="p5"><strong>Components:</strong> S, M (a Ranged weapon)</span></p><p
+        class="p5"><strong>Duration:</strong> 1 minute</span></p><p>A Ranged weapon you touch is
+        made supernaturally subtle. For the duration, when you make a ranged attack using the
+        weapon, the weapon or ammunition you’re using becomes invisible while in flight and the
+        weapon becomes silent. If the weapon produces smoke or light, the spell suppresses these
+        effects. The weapon or projectile you’re using becomes visible again after the attack hits
+        or misses. If you are hidden and the target is 80 feet or further from you, the attack
+        doesn’t reveal your location.</span></p><h3>Conjure Cannonball</span></h3><p
+        class="p4"><em>Level 3 Conjuration (Sorcerer, Wizard)</em></span></p><p
+        class="p5"><strong>Casting Time:</strong> Action</span></p><p
+        class="p5"><strong>Range:</strong> 600 feet</span></p><p
+        class="p5"><strong>Components:</strong> V, S, M (a small replica cannon)</span></p><p
+        class="p5"><strong>Duration:</strong> Instantaneous</span></p><p>You summon a cannonball,
+        mid-flight and at full velocity, which explodes on impact. Make a ranged spell attack roll
+        </span><span class="s2">against a target you can see within range. On a hit, the target
+        </span>takes 5d10 Bludgeoning damage and an explosion extends from it in a 5-foot Emanation.
+        Each creature other than the </span><span class="s2">target within the Emanation makes a
+        Dexterity saving throw, </span>taking half as much damage as the target on a failed
+        save.</span></p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> The damage
+        increases by 1d10 for each slot level above 3.</span></p><h3>Conjure Cover</span></h3><p
+        class="p2"><em>Level 1 Conjuration (Druid, Investigator, Paladin, Sorcerer,
+        Wizard)</em></span></p><p class="p3"><strong>Casting Time:</strong> Bonus
+        Action</span></p><p class="p3"><strong>Range:</strong> 10 feet</span></p><p
+        class="p3"><strong>Components:</strong> V, S, M (a duck figurine)</span></p><p
+        class="p3"><strong>Duration:</strong> Concentration, up to 1 hour</span></p><p
+        class="p4">You conjure a low cobblestone wall along the ground at a point you can see within
+        range. The wall is 18 inches thick and is composed of three 5-foot-long, 3-foot-high
+        segments. Each segment must be contiguous with at least one other segment.</span></p><p
+        class="p4">A Medium creature that hunkers behind the wall has &amp;Reference[Half Cover],
+        and a Small creature that hunkers behind it has &amp;Reference[Three-Quarters Cover]. The
+        wall can be leapt over without spending any additional movement.</span></p><p
+        class="p4">Each segment has AC 10 and 30 hit points. Reducing a segment of the wall to 0 hit
+        points causes it to crumble, destroying it. The wall disappears when all the segments are
+        destroyed or the spell ends.</span></p><h3>Finger Guns</span></h3><p
+        class="p2"><em>Evocation Cantrip (Bard, Sorcerer, Warmage, Wizard)</em></span></p><p
+        class="p3"><strong>Casting Time:</strong> Bonus Action</span></p><p
+        class="p3"><strong>Range:</strong> Self</span></p><p class="p3"><strong>Components:</strong>
+        V, S</span></p><p class="p3"><strong>Duration:</strong> 1 minute</span></p><p class="p4">You
+        extend your forefinger and thumb, a dangerous gesture mimicking a gun. For the duration,
+        your hand counts as a Simple Ranged weapon with a range of 60/240 feet and the Slow mastery
+        property. You can use your spellcasting ability instead of Dexterity for the attack rolls of
+        this weapon. On a hit, the weapon deals 2d6 Force damage and doesn’t add your ability
+        modifier to damage.</span></p><p class="p4"><em><strong>Cantrip Upgrade.</strong></em> The
+        weapon’s normal range increases by 30 feet and its long range increases by 120 feet when you
+        reach levels 5 (90/360 feet), 11 (120/480 feet), and 17 (150/600 feet).</span></p><h3>Jam
+        Weapon</span></h3><p class="p2"><em>Level 2 Transmutation (Bard, Witch,
+        Wizard)</em></span></p><p class="p3"><strong>Casting Time:</strong> Reaction, which you take
+        when a creature you can see within range makes an attack using a Ranged weapon</span></p><p
+        class="p3"><strong>Range:</strong> 60 feet</span></p><p
+        class="p3"><strong>Components:</strong> V, S, M (a pinch of wet gunpowder)</span></p><p
+        class="p3"><strong>Duration:</strong> Instantaneous</span></p><p class="p4">The weapon you
+        target suffers a malfunction and the attack fails. A malfunctioning weapon can’t be used to
+        make an attack until a creature takes the Utilize action to fix the weapon
+        malfunction.</span></p><h3>Jethro’s Instant Reload</span></h3><p class="p2"><em>Level 2
+        Conjuration (Bard, Investigator, Ranger, Wizard)</em></span></p><p
+        class="p3"><strong>Casting Time:</strong> Action</span></p><p
+        class="p3"><strong>Range:</strong> Touch</span></p><p
+        class="p3"><strong>Components:</strong> V, S, M (a spent bullet casing)</span></p><p
+        class="p3"><strong>Duration:</strong> 8 hours</span></p><p class="p4">One Ranged weapon you
+        touch becomes enchanted to reload itself automatically. If the weapon has the
+        &amp;Reference[Cooldown],
+        @UUID[Compendium.dnd5e.content24.JournalEntry.phbEquipment0000.JournalEntryPage.7qSj8lqMAP0FBNKK#loading]{Loading},
+        or
+        @UUID[Compendium.complete-gunslinger-2024.complete-gunslinger-2024.JournalEntry.rc9aVg7EzhPONArR.JournalEntryPage.I43I2xQoXIDsu1Nh]{Reload}
+        property, you ignore the property for the duration. When the weapon’s ammunition is
+        depleted, ammunition you are carrying teleports into the weapon.</span></p><h3>Perforating
+        Shot</span></h3><p class="p2"><em>Level 1 Evocation (Martyr, Paladin,
+        Ranger)</em></span></p><p class="p3"><strong>Casting Time:</strong> Bonus Action, which you
+        take immediately after hitting or missing with a ranged attack using a weapon</span></p><p
+        class="p3"><strong>Range:</strong> Self</span></p><p class="p3"><strong>Components:</strong>
+        V</span></p><p class="p3"><strong>Duration:</strong> Instantaneous</span></p><p
+        class="p4">As your attack hits or misses the target, the weapon or ammunition transforms
+        into a 5-foot-wide Line of magical energy that extends out to the weapon’s normal range. The
+        Line includes the attack’s original target. Each creature within the Line makes a Dexterity
+        saving throw, taking Force damage equal to the weapon’s normal damage on a failed save or
+        half as much damage on a successful one.</span></p><p class="p4"><em><strong>Using a
+        Higher-Level Spell Slot.</strong></em> The weapon’s damage increases by 1d8 for each slot
+        level above 1.</span></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783115751034
+      modifiedTime: 1783115751034
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpCompleteGunsl.mhpNewSpells0000'
+folder: mhpClasses000000
+categories: []
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1783115751034
+  modifiedTime: 1783115763199
+  lastModifiedBy: magehandpress000
+  exportSource: null
+  duplicateSource: null
+sort: 0
+_key: '!journal!mhpCompleteGunsl'

@@ -1,23 +1,20 @@
 name: Gunslinger
 type: class
-_id: mhpGunslinger001
-img: modules/complete-gunslinger-2014/art/Gunslinger%20Cover%20(1).webp
+_id: mhpGunslinger000
+img: modules/mage-hand-press-core/assets/options/gunslinger.webp
 system:
   description:
     value: >-
-      <p><span class="s1">As a gunslinger, you gain the following class
-      features.</span></p><h3><span class="s1">Hit Points</span></h3><p class="p3"><strong>Hit
-      Dice:</strong><span class="s1"> 1d8 per gunslinger level<br /></span><strong>Hit Points at 1st
-      Level:</strong><span class="s1"> 8 + your Constitution modifier<br /></span><strong>Hit Points
-      at Higher Levels:</strong><span class="s1"> 1d8 (or 5) + your Constitution modifier per
-      gunslinger level after 1st</span></p><h3><span class="s1">Proficiencies</span></h3><p
-      class="p3"><strong>Armor:</strong><span class="s1"> Light armor<br
-      /></span><strong>Weapons:</strong><span class="s1"> Simple weapons, simple firearms, martial
-      firearms<br /></span><strong>Tools:</strong><span class="s1"> One type of gaming set<br
-      /></span><strong>Saving Throws:</strong><span class="s1"> Dexterity, Charisma<br
-      /></span><strong>Skills:</strong><span class="s1"> Choose two from: Acrobatics, Animal
-      Handling, Athletics, Deception, Insight, Intimidation, Perception, Persuasion, Sleight of
-      Hand, and Stealth</span></p>
+      <p>A glass falls, clattering to the floor, and the tavern grows silent. A dwarf with a deep
+      scowl, dripping with freshly spilled beer, leers at a drunken nearby orc and fingers for a
+      pair of revolvers at his waist.</p><p>High on a hillside, carefully concealed beneath foliage
+      and stones, a rifleman steadies her breathing and adjusts her scope, acquiring her target and
+      patiently awaiting the moment to strike.</p><p>Risk is in a gunslinger’s blood. They are bold
+      renegades, bucking tradition and forging a new path with dangerous and inelegant firearms.
+      Gunslingers are infamous for surviving by their wits, relying on split- second timing and a
+      considerable amount of luck to survive.</p><p
+      class="hide-in-embed">@UUID[Compendium.mage-hand-press-core.journal.JournalEntry.mhpWarmage55e000.JournalEntryPage.mhpWarmage000000]{Continuing
+      reading…}</p>
     chat: ''
   identifier: gunslinger
   source:
@@ -235,10 +232,10 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpAkimbo0000000
-          - uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpBullseye00000
-          - uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpDuelist000000
-          - uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpShotgunner000
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpAkimbo0000000
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpBullseye00000
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpDuelist000000
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpShotgunner000
         spell: null
         type: feat
         restriction:
@@ -260,9 +257,9 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpFightingStyl1
+            uuid: Compendium.mage-hand-press-core.classes14.Item.mhpGunsFightingS
           - optional: false
-            uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpQuickDraw0001
+            uuid: Compendium.mage-hand-press-core.classes14.Item.mhpQuickDraw0000
         optional: false
         spell: null
       value: {}
@@ -360,13 +357,13 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpCriticalShot1
+            uuid: Compendium.mage-hand-press-core.classes14.Item.mhpCriticalShot0
           - optional: false
-            uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpPokerFace0001
+            uuid: Compendium.mage-hand-press-core.classes14.Item.mhpPokerFace0000
           - optional: false
-            uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpRisk000000001
+            uuid: Compendium.mage-hand-press-core.classes14.Item.mhpRisk000000000
           - optional: false
-            uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpDeeds00000000
+            uuid: Compendium.mage-hand-press-core.classes14.Item.mhpDeeds00000000
         optional: false
         spell: null
       value: {}
@@ -413,7 +410,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpGunslingersCr
+            uuid: Compendium.mage-hand-press-core.classes14.Item.mhpGunslingersCr
         optional: false
         spell: null
       value: {}
@@ -543,7 +540,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpExtraAttack01
+            uuid: Compendium.mage-hand-press-core.classes14.Item.mhpGunsExtraAtta
         optional: false
         spell: null
       value: {}
@@ -557,7 +554,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpGutShot000001
+            uuid: Compendium.mage-hand-press-core.classes14.Item.mhpGutShot000000
         optional: false
         spell: null
       value: {}
@@ -571,7 +568,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpMankiller0000
+            uuid: Compendium.mage-hand-press-core.classes14.Item.mhpMankiller0000
         optional: false
         spell: null
       value: {}
@@ -585,7 +582,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpDireGambit001
+            uuid: Compendium.mage-hand-press-core.classes14.Item.mhpDireGambit000
         optional: false
         spell: null
       value: {}
@@ -599,7 +596,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpCheatDeath001
+            uuid: Compendium.mage-hand-press-core.classes14.Item.mhpCheatDeath000
         optional: false
         spell: null
       value: {}
@@ -613,7 +610,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpMaverick00000
+            uuid: Compendium.mage-hand-press-core.classes14.Item.mhpMaverick00000
         optional: false
         spell: null
       value: {}
@@ -627,7 +624,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpHeadShot00000
+            uuid: Compendium.mage-hand-press-core.classes14.Item.mhpHeadShot00000
         optional: false
         spell: null
       value: {}
@@ -641,7 +638,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpEvasion000001
+            uuid: Compendium.mage-hand-press-core.classes14.Item.mhpGunsEvasion00
         optional: false
         spell: null
       value: {}
@@ -665,10 +662,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254057106
-  modifiedTime: 1775254057106
+  modifiedTime: 1783115782930
   lastModifiedBy: magehandpress000
-_key: '!items!mhpGunslinger001'
+_key: '!items!mhpGunslinger000'

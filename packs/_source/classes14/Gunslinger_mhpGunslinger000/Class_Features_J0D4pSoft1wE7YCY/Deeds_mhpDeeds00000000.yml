@@ -19,7 +19,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpRisk000000001
+            target: Compendium.mage-hand-press-core.classes14.Item.mhpRisk000000000
             scaling: {}
       description:
         chatFlavor: >-
@@ -84,7 +84,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpRisk000000001
+            target: Compendium.mage-hand-press-core.classes14.Item.mhpRisk000000000
             scaling: {}
       description:
         chatFlavor: >-
@@ -145,7 +145,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpRisk000000001
+            target: Compendium.mage-hand-press-core.classes14.Item.mhpRisk000000000
             scaling: {}
       description:
         chatFlavor: >-
@@ -205,7 +205,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpRisk000000001
+            target: Compendium.mage-hand-press-core.classes14.Item.mhpRisk000000000
             scaling: {}
       description:
         chatFlavor: >-
@@ -272,7 +272,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpRisk000000001
+            target: Compendium.mage-hand-press-core.classes14.Item.mhpRisk000000000
             scaling: {}
       description:
         chatFlavor: >-
@@ -334,7 +334,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpRisk000000001
+            target: Compendium.mage-hand-press-core.classes14.Item.mhpRisk000000000
             scaling: {}
       description:
         chatFlavor: >-
@@ -385,31 +385,29 @@ system:
     max: ''
   description:
     value: >-
-      <p><span class="s1">The deeds are presented in alphabetical order.</span></p><h3><span
-      class="s1">Bite the Bullet</span></h3><p class="p1"><span class="s1">As a bonus action on your
-      turn, you can expend one risk die to gain temporary hit points equal the number rolled on the
-      die + your Constitution modifier.</span></p><h3><span class="s1">Covering Fire</span></h3><p
-      class="p1"><span class="s1">When you hit a creature with a ranged weapon attack, you can
-      expend one risk die as a bonus action to cow the creature. Roll the risk die and subtract it
-      from the next attack roll the creature makes before the start of your next
-      turn.</span></p><h3><span class="s1">Dodge Roll</span></h3><p class="p1"><span class="s1">You
-      can expend one risk die as a bonus action to move up to 15 feet and reload any firearm you are
-      holding. This movement doesn’t provoke opportunity attacks, ignores &amp;Reference[difficult
-      terrain], and allows you to move through a hostile creature’s space, as long as you don’t end
-      your movement there.</span></p><h3><span class="s1">Limb Shot</span></h3><p class="p1"><span
-      class="s1">When you hit a creature with a ranged weapon attack, you can expend one risk die as
-      a bonus action and aim for one of its limbs, attempting to force it to drop one item of your
-      choice that it’s holding. The target must make a [[/save con]] saving throw. On a failed save,
-      it drops the object you choose. The object lands at its feet.</span></p><h3><span
-      class="s1">Skin of Your Teeth</span></h3><p class="p1"><span class="s1">When an attacker you
-      can see makes an attack roll against you, you can expend a risk die as a reaction to dodge out
-      of harm’s way at the last second. You add the risk die to your AC against this attack,
-      potentially causing it to miss.</span></p><h3><span class="s1">Steady Aim</span></h3><p
-      class="p1"><span class="s1">On your turn, you can use a bonus action and expend one risk die
-      to double the normal and maximum range for the next ranged weapon attack you make.</span></p>
+      <p>The deeds are presented in alphabetical order.</span></p><h3><span class="s1">Bite the
+      Bullet</span></h3><p>As a bonus action on your turn, you can expend one risk die to gain
+      temporary hit points equal the number rolled on the die + your Constitution
+      modifier.</span></p><h3>Covering Fire</span></h3><p class="p1">When you hit a creature with a
+      ranged weapon attack, you can expend one risk die as a bonus action to cow the creature. Roll
+      the risk die and subtract it from the next attack roll the creature makes before the start of
+      your next turn.</span></p><h3>Dodge Roll</span></h3><p>You can expend one risk die as a bonus
+      action to move up to 15 feet and reload any firearm you are holding. This movement doesn’t
+      provoke opportunity attacks, ignores &amp;Reference[difficult terrain], and allows you to move
+      through a hostile creature’s space, as long as you don’t end your movement
+      there.</span></p><h3>Limb Shot</span></h3><p><span class="s1">When you hit a creature with a
+      ranged weapon attack, you can expend one risk die as a bonus action and aim for one of its
+      limbs, attempting to force it to drop one item of your choice that it’s holding. The target
+      must make a [[/save con]] saving throw. On a failed save, it drops the object you choose. The
+      object lands at its feet.</span></p><h3><span class="s1">Skin of Your Teeth</span></h3><p>When
+      an attacker you can see makes an attack roll against you, you can expend a risk die as a
+      reaction to dodge out of harm’s way at the last second. You add the risk die to your AC
+      against this attack, potentially causing it to miss.</span></p><h3>Steady Aim</span></h3><p
+      class="p1">On your turn, you can use a bonus action and expend one risk die to double the
+      normal and maximum range for the next ranged weapon attack you make.</span></p>
     chat: >-
-      <p><span class="s1">By 2nd level, you can perform incredible feats of daring that are fueled
-      by special dice called risk dice.</span></p>
+      <p>By 2nd level, you can perform incredible feats of daring that are fueled by special dice
+      called risk dice.</span></p>
   identifier: deeds
   source:
     revision: 1
@@ -433,25 +431,22 @@ system:
 effects:
   - name: Skin of Your Teeth
     img: icons/skills/movement/feet-winged-boots-glowing-yellow.webp
-    origin: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpDeeds00000000
+    origin: Compendium.mage-hand-press-core.classes14.Item.mhpDeeds00000000
     transfer: false
     _id: mhpSkinYourTeeth
     type: base
-    system: {}
-    changes:
-      - key: system.attributes.ac.bonus
-        mode: 2
-        value: '@scale.gunslinger.risk.die'
-        priority: null
+    system:
+      changes:
+        - key: system.attributes.ac.bonus
+          value: '@scale.gunslinger.risk.die'
+          priority: null
+          type: add
     disabled: false
     duration:
-      startTime: null
-      combat: null
-      seconds: null
-      rounds: null
-      turns: 1
-      startRound: null
-      startTurn: null
+      value: 1
+      units: turns
+      expiry: turnStart
+      expired: false
     description: ''
     tint: '#ffffff'
     statuses: []
@@ -462,13 +457,18 @@ effects:
           statuses: []
     _stats:
       compendiumSource: >-
-        Compendium.mage-hand-press-complete-gunslinger.class14.Item.4XhOzkq6hFZMes8y.ActiveEffect.mQOwh84r4xN6SVUz
+        Compendium.mage-hand-press-core.classes14.Item.4XhOzkq6hFZMes8y.ActiveEffect.mQOwh84r4xN6SVUz
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.1
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!mhpDeeds00000000.mhpSkinYourTeeth'
 sort: 0
 ownership:
@@ -477,7 +477,7 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.1
   createdTime: 1775254058381

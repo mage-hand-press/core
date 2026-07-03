@@ -11,11 +11,10 @@ system:
     max: ''
   description:
     value: >-
-      <p><span class="s1">While you are wielding a firearm in one hand and nothing in the other, if
-      you make a ranged weapon attack and exceed the target’s AC by 5 or more, you deal one extra
-      die of weapon damage. You can only use this ability once per
-      round.</span></p><p></p><p>[[/damage 1d4]] | [[/damage 1d6]] | [[/damage 1d8]] | [[/damage
-      1d10]] | [[/damage 1d12]]</p>
+      <p>While you are wielding a firearm in one hand and nothing in the other, if you make a ranged
+      weapon attack and exceed the target’s AC by 5 or more, you deal one extra die of weapon
+      damage. You can only use this ability once per round.</p><p></p><p>[[/damage 1d4]] | [[/damage
+      1d6]] | [[/damage 1d8]] | [[/damage 1d10]] | [[/damage 1d12]]</p>
     chat: ''
   identifier: duelist
   source:

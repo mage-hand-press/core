@@ -20,7 +20,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpRisk000000001
+            target: Compendium.mage-hand-press-core.classes14.Item.mhpRisk000000000
             scaling: {}
       description:
         chatFlavor: ''
@@ -121,10 +121,10 @@ system:
     max: ''
   description:
     value: >-
-      <p><span class="s1">Once per turn when you make a ranged weapon attack, you can spend a risk
-      die to hide the source of the attack. Though this does not silence the attack, it does obscure
-      other markers of the attack, such as muzzle flare, which might implicate you as the attacker.
-      Make a [[/check dec]] check and add the risk die to the roll, opposed by the highest passive
+      <p>Once per turn when you make a ranged weapon attack, you can spend a risk die to hide the
+      source of the attack. Though this does not silence the attack, it does obscure other markers
+      of the attack, such as muzzle flare, which might implicate you as the attacker. Make a
+      [[/check dec]] check and add the risk die to the roll, opposed by the highest passive
       Perception score of the spectators. On a success, no spectator to the attack can identify its
       source.</span></p>
     chat: ''

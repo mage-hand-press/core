@@ -1,7 +1,7 @@
 folder: J0D4pSoft1wE7YCY
 name: Quick Draw
 type: feat
-_id: mhpQuickDraw0001
+_id: mhpQuickDraw0000
 img: icons/skills/ranged/rifle-scoped-firing-yellow-green.webp
 system:
   activities: {}
@@ -11,10 +11,9 @@ system:
     max: ''
   description:
     value: >-
-      <p><span class="s1">Gunslingers have twitch reflexes and can pull a gun in the blink of an
-      eye. You have <strong>advantage</strong> on initiative rolls. Additionally, you can draw or
-      stow up to two weapons when you roll initiative and whenever you take an action on your
-      turn.</span></p>
+      <p>Gunslingers have twitch reflexes and can pull a gun in the blink of an eye. You have
+      advantage on initiative rolls. Additionally, you can draw or stow up to two weapons when you
+      roll initiative and whenever you take an action on your turn.</p>
     chat: ''
   identifier: quick-draw
   source:
@@ -51,4 +50,4 @@ _stats:
   createdTime: 1775254057935
   modifiedTime: 1775254057935
   lastModifiedBy: magehandpress000
-_key: '!items!mhpQuickDraw0001'
+_key: '!items!mhpQuickDraw0000'

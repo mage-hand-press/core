@@ -1,16 +1,16 @@
-folder: CnhdXrEDYgydGLkr
-name: Blindfire
+folder: J0D4pSoft1wE7YCY
+name: Dire Gambit
 type: feat
-_id: mhpBlindfire0001
-img: icons/magic/nature/stealth-hide-eyes-green.webp
+_id: mhpDireGambit000
+img: icons/skills/wounds/anatomy-organ-heart-red.webp
 system:
   activities:
-    WpwEqs4uRoCkfIKw:
+    ViAtGv9vIKW0UUYS:
       type: utility
-      _id: WpwEqs4uRoCkfIKw
+      _id: ViAtGv9vIKW0UUYS
       sort: 0
       activation:
-        type: bonus
+        type: special
         override: false
         condition: ''
       consumption:
@@ -19,8 +19,8 @@ system:
         spellSlot: true
         targets:
           - type: itemUses
-            value: '1'
-            target: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpRisk000000001
+            value: '-1'
+            target: risk
             scaling: {}
       description:
         chatFlavor: ''
@@ -67,16 +67,15 @@ system:
     max: ''
   description:
     value: >-
-      <p><span class="s1">While you are in &amp;Reference[total cover], you can expend a risk die as
-      a bonus action to make one ranged weapon attack with <strong>disadvantage</strong> against any
-      target within the weapon’s range.</span></p>
+      <p>Beginning at 13th level, whenever you score a critical hit, you regain one expended risk
+      die.</p>
     chat: ''
-  identifier: blindfire
+  identifier: dire-gambit
   source:
     revision: 1
     rules: '2014'
     book: Complete Gunslinger 2014
-    page: '5'
+    page: '3'
     custom: ''
     license: SRD 5.1
   advancement: {}
@@ -84,12 +83,13 @@ system:
   enchant: {}
   prerequisites:
     repeatable: false
-    level: 2
+    level: 13
     items: []
-  properties: []
+  properties:
+    - trait
   requirements: Gunslinger
   type:
-    value: ''
+    value: class
     subtype: ''
 effects: []
 sort: 0
@@ -106,7 +106,7 @@ _stats:
   coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.3.1
-  createdTime: 1775254057351
-  modifiedTime: 1775254057351
+  createdTime: 1775254057697
+  modifiedTime: 1775254057697
   lastModifiedBy: magehandpress000
-_key: '!items!mhpBlindfire0001'
+_key: '!items!mhpDireGambit000'

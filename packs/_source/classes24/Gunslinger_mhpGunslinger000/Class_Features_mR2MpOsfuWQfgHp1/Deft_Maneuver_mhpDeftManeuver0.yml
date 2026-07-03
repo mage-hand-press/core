@@ -68,7 +68,10 @@ system:
     max: '1'
   advancement: {}
   description:
-    value: "<p><span class=\"s1\">You gain a special additional Bonus Action that you can take once on each of your turns. You can take this special Bonus Action only to use a @UUID[Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpManeuvers0000]{maneuver}.</span><span class=\"Apple-converted-space\">\_</span></p>"
+    value: >-
+      <p>You gain a special additional Bonus Action that you can take once on each of your turns.
+      You can take this special Bonus Action only to use a
+      @UUID[Compendium.mage-hand-press-core.classes24.Item.mhpManeuvers0000]{maneuver}.</p>
     chat: ''
   identifier: deft-maneuver
   source:

@@ -1,13 +1,13 @@
-folder: J0D4pSoft1wE7YCY
-name: Cheat Death
+folder: 8b8vMvnsKu2gpfKE
+name: Grazing Shot
 type: feat
-_id: mhpCheatDeath001
-img: icons/magic/death/hand-dirt-undead-zombie.webp
+_id: mhpGrazingShot00
+img: icons/skills/wounds/injury-triple-slash-bleed.webp
 system:
   activities:
-    0Z1TpsRU4hV23FoK:
-      type: heal
-      _id: 0Z1TpsRU4hV23FoK
+    PpqCRGwd3wBPIbeR:
+      type: damage
+      _id: PpqCRGwd3wBPIbeR
       sort: 0
       activation:
         type: reaction
@@ -20,7 +20,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: risk
+            target: Compendium.mage-hand-press-core.classes14.Item.mhpRisk000000000
             scaling: {}
       description:
         chatFlavor: ''
@@ -46,21 +46,21 @@ system:
         prompt: true
       uses:
         spent: 0
-        recovery:
-          - period: sr
-            type: recoverAll
-        max: '1'
-      healing:
-        types:
-          - healing
-        custom:
-          enabled: true
-          formula: '@scale.gunslinger.risk.die'
-        scaling:
-          number: 1
-        number: null
-        denomination: null
-        bonus: ''
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: '@scale.gunslinger.risk.die'
+            number: null
+            denomination: null
+            bonus: ''
+            types: []
+            scaling:
+              number: 1
       name: ''
       img: ''
       flags: {}
@@ -75,18 +75,17 @@ system:
     max: ''
   description:
     value: >-
-      <p><span class="s1">By 15th level, you have a knack for evading the grave. When you drop to 0
-      hit points and don’t die outright, you can use your reaction and expend one risk die to remain
-      standing. You instead drop to a number of hit points equal to the number rolled on the
-      die.</span></p><p class="p1"><span class="s1">Once you use this feature, you can’t use it
-      again until you finish a short or long rest.</span></p>
+      <p>When you make a ranged attack against a target within the weapon’s normal range and miss,
+      you can spend a risk die as a reaction to deal damage to the target equal to the roll on the
+      die. This ability deals no damage if the attack roll misses the target’s AC by 10 or
+      more.</span></p>
     chat: ''
-  identifier: cheat-death
+  identifier: grazing-shot
   source:
     revision: 1
     rules: '2014'
     book: Complete Gunslinger 2014
-    page: '3'
+    page: '4'
     custom: ''
     license: SRD 5.1
   advancement: {}
@@ -94,15 +93,15 @@ system:
   enchant: {}
   prerequisites:
     repeatable: false
-    level: 15
+    level: 2
     items: []
   properties: []
   requirements: Gunslinger
   type:
-    value: class
+    value: ''
     subtype: ''
 effects: []
-sort: 0
+sort: 100000
 ownership:
   default: 0
 flags:
@@ -116,7 +115,7 @@ _stats:
   coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.3.1
-  createdTime: 1775254057024
-  modifiedTime: 1775254057024
+  createdTime: 1775254058462
+  modifiedTime: 1775254058462
   lastModifiedBy: magehandpress000
-_key: '!items!mhpCheatDeath001'
+_key: '!items!mhpGrazingShot00'

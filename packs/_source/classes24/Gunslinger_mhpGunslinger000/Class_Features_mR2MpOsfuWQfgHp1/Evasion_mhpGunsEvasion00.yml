@@ -1,0 +1,46 @@
+folder: mR2MpOsfuWQfgHp1
+name: Evasion
+type: feat
+_id: mhpGunsEvasion00
+img: icons/skills/movement/figure-running-gray.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: "<p>When you’re subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail.</p><p>You don’t benefit from this feature if you have the Incapacitated condition.</p><section class=\"secret\" id=\"secret-26D8PEweYmEJ62Lw\"><p><em><strong>*Foundry Note</strong></em></p><p>With your token selected you can either right click on the damage roll's chat card and select <span class=\"reference\"><em class=\"fas fa-user-shield\">\_</em>Apply Half Damage</span> or click the \"1/2\" button and then the <span class=\"reference\"><em class=\"fa-solid fa-reply-all\">\_</em>Apply</span> button.</p></section>"
+    chat: ''
+  identifier: evasion
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 7
+  properties:
+    - trait
+  requirements: Gunslinger
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254056778
+  modifiedTime: 1775254056778
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpGunsEvasion00'

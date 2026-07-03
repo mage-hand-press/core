@@ -71,9 +71,9 @@ system:
     max: ''
   description:
     value: >-
-      <p><span class="s1">Starting at 11th level, when you make one or more firearm attacks as part
-      of an action, you can add your ability modifier to the firearm’s damage rolls. Note that
-      firearms do not normally add your ability modifier to their damage rolls.</span></p>
+      <p>Starting at 11th level, when you make one or more firearm attacks as part of an action, you
+      can add your ability modifier to the firearm’s damage rolls. Note that firearms do not
+      normally add your ability modifier to their damage rolls.</p>
     chat: ''
   identifier: mankiller
   source:

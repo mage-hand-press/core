@@ -11,8 +11,8 @@ system:
     max: ''
   description:
     value: >-
-      <p><span class="s1">By 18th level, you have become unshakable. You have
-      <strong>advantage</strong> on Constitution checks and saving throws.</span></p>
+      <p>By 18th level, you have become unshakable. You have advantage on Constitution checks and
+      saving throws.</p>
     chat: ''
   identifier: maverick
   source:

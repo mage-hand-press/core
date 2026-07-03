@@ -11,13 +11,12 @@ system:
     max: ''
   description:
     value: >-
-      <p><span class="s1">Your attack rolls with Ranged weapons can score a Critical Hit on a roll
-      of 19 or 20 on the d20.</span></p><p class="p1"><span class="s1">At Gunslinger level 9, your
-      attack rolls with Ranged weapons score a Critical Hit on a roll of 18–20. At Gunslinger level
-      17, they score a Critical Hit on a roll of 17–20.</span></p><section class="secret"
-      id="secret-mKLP4pHQiJSfcrc5"><p><em><strong>*Foundry Note:</strong></em> This feature is not
-      automated. Each time your Critical Hit range changes you will have to update your weapons to
-      match.</p></section>
+      <p>Your attack rolls with Ranged weapons can score a Critical Hit on a roll of 19 or 20 on the
+      d20.</p><p>At Gunslinger level 9, your attack rolls with Ranged weapons score a Critical Hit
+      on a roll of 18–20. At Gunslinger level 17, they score a Critical Hit on a roll of
+      17–20.</span></p><section class="secret" id="secret-mKLP4pHQiJSfcrc5"><p><em><strong>*Foundry
+      Note:</strong></em> This feature is not automated. Each time your Critical Hit range changes
+      you will have to update your weapons to match.</p></section>
     chat: ''
   identifier: level-2-critical-shot
   source:

@@ -1,7 +1,7 @@
 folder: J0D4pSoft1wE7YCY
 name: Risk
 type: feat
-_id: mhpRisk000000001
+_id: mhpRisk000000000
 img: icons/magic/control/buff-strength-muscle-damage-orange.webp
 system:
   activities:
@@ -71,22 +71,21 @@ system:
     max: '@scale.gunslinger.risk.number'
   description:
     value: >-
-      <p><span class="s1">By 2nd level, you can perform incredible feats of daring that are fueled
-      by special dice called risk dice.</span></p><h3><span class="s1">Risk Dice</span></h3><p
-      class="p1"><span class="s1">You have four risk dice, which are d8s. You gain additional risk
-      dice, and your risk dice change as you gain levels in this class, as shown in the Risk Dice
-      column of the Gunslinger table. You regain all expended risk dice when you finish a long
-      rest.</span></p><h3><span class="s1">Using Risk Dice</span></h3><p class="p1"><span
+      <p>By 2nd level, you can perform incredible feats of daring that are fueled by special dice
+      called risk dice.</span></p><h3>Risk Dice</span></h3><p class="p1">You have four risk dice,
+      which are d8s. You gain additional risk dice, and your risk dice change as you gain levels in
+      this class, as shown in the Risk Dice column of the Gunslinger table. You regain all expended
+      risk dice when you finish a long rest.</span></p><h3>Using Risk Dice</span></h3><p><span
       class="s1">Once per turn, you can expend a risk die to perform a deed of your choice. Your
       deed options are detailed
-      @UUID[Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpDeeds00000000]{here}.</span></p><h3><span
-      class="s1">Saving Throws</span></h3><p class="p1"><span class="s1">Some of your deeds require
-      your target to make a saving throw to resist the deed’s effects. The saving throw DC is
-      calculated as follows:</span></p><p class="p3" style="text-align:center"><span
-      class="s1"><em><strong>Deed save DC</strong> = 8 + your proficiency bonus + your Dexterity
-      modifier</em></span></p><p></p><section id="secret-0vU9F8p3TBM6wnDz"
-      class="secret"><p><em><strong>*Foundry Note: </strong></em>This feature tracks the number of
-      Risk Die uses and will automatically scale by level. </p></section>
+      @UUID[Compendium.mage-hand-press-core.classes14.Item.mhpDeeds00000000]{here}.</span></p><h3><span
+      class="s1">Saving Throws</span></h3><p>Some of your deeds require your target to make a saving
+      throw to resist the deed’s effects. The saving throw DC is calculated as follows:</span></p><p
+      class="p3" style="text-align:center"><span class="s1"><em><strong>Deed save DC</strong> = 8 +
+      your proficiency bonus + your Dexterity modifier</em></span></p><p></p><section
+      id="secret-0vU9F8p3TBM6wnDz" class="secret"><p><em><strong>*Foundry Note: </strong></em>This
+      feature tracks the number of Risk Die uses and will automatically scale by level.
+      </p></section>
     chat: ''
   identifier: risk
   source:
@@ -122,4 +121,4 @@ _stats:
   createdTime: 1775254057721
   modifiedTime: 1775254057721
   lastModifiedBy: magehandpress000
-_key: '!items!mhpRisk000000001'
+_key: '!items!mhpRisk000000000'

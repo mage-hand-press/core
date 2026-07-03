@@ -21,7 +21,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpRisk000000000
+            target: Compendium.mage-hand-press-core.classes24.Item.mhpRisk000000000
             scaling: {}
       description:
         chatFlavor: ''
@@ -90,10 +90,10 @@ system:
   advancement: {}
   description:
     value: >-
-      <p><span class="s1">When you miss with a ranged attack roll using a weapon, you can expend one
-      Risk Die (no action required) to deal damage to that creature equal to a roll of the die plus
-      your Dexterity modifier (minimum of 1). This damage is the same type dealt by the weapon, and
-      the damage can be increased only by increasing the ability modifier. You can only use this
+      <p>When you miss with a ranged attack roll using a weapon, you can expend one Risk Die (no
+      action required) to deal damage to that creature equal to a roll of the die plus your
+      Dexterity modifier (minimum of 1). This damage is the same type dealt by the weapon, and the
+      damage can be increased only by increasing the ability modifier. You can only use this
       maneuver once per turn.</span></p>
     chat: ''
   identifier: grazing-shot

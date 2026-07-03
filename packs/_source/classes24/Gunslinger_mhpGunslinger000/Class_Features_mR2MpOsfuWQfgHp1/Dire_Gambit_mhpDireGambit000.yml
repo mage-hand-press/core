@@ -21,7 +21,7 @@ system:
         targets:
           - type: itemUses
             value: '-1'
-            target: Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpRisk000000000
+            target: Compendium.mage-hand-press-core.classes24.Item.mhpRisk000000000
             scaling: {}
       description:
         chatFlavor: ''
@@ -67,9 +67,7 @@ system:
     max: ''
   advancement: {}
   description:
-    value: >-
-      <p><span class="s1">Whenever you roll Initiative or score a Critical Hit, you regain one
-      expended Risk Die.</span></p>
+    value: <p>Whenever you roll Initiative or score a Critical Hit, you regain one expended Risk Die.</p>
     chat: ''
   identifier: dire-gambit
   source:

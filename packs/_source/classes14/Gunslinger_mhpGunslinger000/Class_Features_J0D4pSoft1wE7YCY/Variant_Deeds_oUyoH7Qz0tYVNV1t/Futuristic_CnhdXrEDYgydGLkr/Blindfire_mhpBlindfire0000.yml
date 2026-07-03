@@ -1,16 +1,16 @@
-folder: 8b8vMvnsKu2gpfKE
-name: Grazing Shot
+folder: CnhdXrEDYgydGLkr
+name: Blindfire
 type: feat
-_id: mhpGrazingShot01
-img: icons/skills/wounds/injury-triple-slash-bleed.webp
+_id: mhpBlindfire0000
+img: icons/magic/nature/stealth-hide-eyes-green.webp
 system:
   activities:
-    PpqCRGwd3wBPIbeR:
-      type: damage
-      _id: PpqCRGwd3wBPIbeR
+    WpwEqs4uRoCkfIKw:
+      type: utility
+      _id: WpwEqs4uRoCkfIKw
       sort: 0
       activation:
-        type: reaction
+        type: bonus
         override: false
         condition: ''
       consumption:
@@ -20,7 +20,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.mage-hand-press-complete-gunslinger.class14.Item.mhpRisk000000001
+            target: Compendium.mage-hand-press-core.classes14.Item.mhpRisk000000000
             scaling: {}
       description:
         chatFlavor: ''
@@ -48,19 +48,11 @@ system:
         spent: 0
         recovery: []
         max: ''
-      damage:
-        critical:
-          allow: false
-        parts:
-          - custom:
-              enabled: true
-              formula: '@scale.gunslinger.risk.die'
-            number: null
-            denomination: null
-            bonus: ''
-            types: []
-            scaling:
-              number: 1
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
       name: ''
       img: ''
       flags: {}
@@ -75,17 +67,16 @@ system:
     max: ''
   description:
     value: >-
-      <p><span class="s1">When you make a ranged attack against a target within the weapon’s normal
-      range and miss, you can spend a risk die as a reaction to deal damage to the target equal to
-      the roll on the die. This ability deals no damage if the attack roll misses the target’s AC by
-      10 or more.</span></p>
+      <p>While you are in &amp;Reference[total cover], you can expend a risk die as a bonus action
+      to make one ranged weapon attack with <strong>disadvantage</strong> against any target within
+      the weapon’s range.</span></p>
     chat: ''
-  identifier: grazing-shot
+  identifier: blindfire
   source:
     revision: 1
     rules: '2014'
     book: Complete Gunslinger 2014
-    page: '4'
+    page: '5'
     custom: ''
     license: SRD 5.1
   advancement: {}
@@ -101,7 +92,7 @@ system:
     value: ''
     subtype: ''
 effects: []
-sort: 100000
+sort: 0
 ownership:
   default: 0
 flags:
@@ -115,7 +106,7 @@ _stats:
   coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.3.1
-  createdTime: 1775254058462
-  modifiedTime: 1775254058462
+  createdTime: 1775254057351
+  modifiedTime: 1775254057351
   lastModifiedBy: magehandpress000
-_key: '!items!mhpGrazingShot01'
+_key: '!items!mhpBlindfire0000'

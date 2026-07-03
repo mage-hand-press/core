@@ -1,7 +1,7 @@
 folder: J0D4pSoft1wE7YCY
 name: Poker Face
 type: feat
-_id: mhpPokerFace0001
+_id: mhpPokerFace0000
 img: icons/magic/control/silhouette-hold-change-blue.webp
 system:
   activities: {}
@@ -11,9 +11,9 @@ system:
     max: ''
   description:
     value: >-
-      <p><span class="s1">Starting at 2nd level, you have <strong>advantage</strong> on ability
-      checks and saving throws made to prevent others from sensing your motives, perceiving your
-      emotions, or reading your thoughts.</span></p>
+      <p>Starting at 2nd level, you have <strong>advantage</strong> on ability checks and saving
+      throws made to prevent others from sensing your motives, perceiving your emotions, or reading
+      your thoughts.</p>
     chat: ''
   identifier: poker-face
   source:
@@ -50,4 +50,4 @@ _stats:
   createdTime: 1775254058067
   modifiedTime: 1775254058067
   lastModifiedBy: magehandpress000
-_key: '!items!mhpPokerFace0001'
+_key: '!items!mhpPokerFace0000'

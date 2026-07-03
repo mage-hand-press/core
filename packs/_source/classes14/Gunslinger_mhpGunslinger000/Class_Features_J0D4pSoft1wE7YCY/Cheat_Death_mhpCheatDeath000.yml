@@ -1,16 +1,16 @@
 folder: J0D4pSoft1wE7YCY
-name: Dire Gambit
+name: Cheat Death
 type: feat
-_id: mhpDireGambit001
-img: icons/skills/wounds/anatomy-organ-heart-red.webp
+_id: mhpCheatDeath000
+img: icons/magic/death/hand-dirt-undead-zombie.webp
 system:
   activities:
-    ViAtGv9vIKW0UUYS:
-      type: utility
-      _id: ViAtGv9vIKW0UUYS
+    0Z1TpsRU4hV23FoK:
+      type: heal
+      _id: 0Z1TpsRU4hV23FoK
       sort: 0
       activation:
-        type: special
+        type: reaction
         override: false
         condition: ''
       consumption:
@@ -19,7 +19,7 @@ system:
         spellSlot: true
         targets:
           - type: itemUses
-            value: '-1'
+            value: '1'
             target: risk
             scaling: {}
       description:
@@ -46,13 +46,21 @@ system:
         prompt: true
       uses:
         spent: 0
-        recovery: []
-        max: ''
-      roll:
-        prompt: false
-        visible: false
-        name: ''
-        formula: ''
+        recovery:
+          - period: sr
+            type: recoverAll
+        max: '1'
+      healing:
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: '@scale.gunslinger.risk.die'
+        scaling:
+          number: 1
+        number: null
+        denomination: null
+        bonus: ''
       name: ''
       img: ''
       flags: {}
@@ -67,10 +75,12 @@ system:
     max: ''
   description:
     value: >-
-      <p><span class="s1">Beginning at 13th level, whenever you score a critical hit, you regain one
-      expended risk die.</span></p>
+      <p>By 15th level, you have a knack for evading the grave. When you drop to 0 hit points and
+      don’t die outright, you can use your reaction and expend one risk die to remain standing. You
+      instead drop to a number of hit points equal to the number rolled on the die.</p><p>Once you
+      use this feature, you can’t use it again until you finish a short or long rest.</p>
     chat: ''
-  identifier: dire-gambit
+  identifier: cheat-death
   source:
     revision: 1
     rules: '2014'
@@ -83,10 +93,9 @@ system:
   enchant: {}
   prerequisites:
     repeatable: false
-    level: 13
+    level: 15
     items: []
-  properties:
-    - trait
+  properties: []
   requirements: Gunslinger
   type:
     value: class
@@ -106,7 +115,7 @@ _stats:
   coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.3.1
-  createdTime: 1775254057697
-  modifiedTime: 1775254057697
+  createdTime: 1775254057024
+  modifiedTime: 1775254057024
   lastModifiedBy: magehandpress000
-_key: '!items!mhpDireGambit001'
+_key: '!items!mhpCheatDeath000'

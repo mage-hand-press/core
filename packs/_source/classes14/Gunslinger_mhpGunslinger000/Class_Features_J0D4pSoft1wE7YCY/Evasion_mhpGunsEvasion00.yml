@@ -1,7 +1,7 @@
 folder: J0D4pSoft1wE7YCY
 name: Evasion
 type: feat
-_id: mhpEvasion000001
+_id: mhpGunsEvasion00
 img: icons/skills/movement/figure-running-gray.webp
 system:
   activities: {}
@@ -11,12 +11,12 @@ system:
     max: ''
   description:
     value: >-
-      <p><span class="s1">Beginning at 7th level, you can nimbly dodge out of the way of certain
-      area effects, such as a red dragon’s fiery breath or an
+      <p>Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such
+      as a red dragon’s fiery breath or an
       <em>@UUID[Compendium.dnd5e.spells.Item.WN2LWEljYU6QqnRH]{ice storm}</em> spell. When you are
       subjected to an effect that allows you to make a Dexterity saving throw to take only half
       damage, you instead take no damage if you succeed on the saving throw, and only half damage if
-      you fail.</span></p>
+      you fail.</p>
     chat: ''
   identifier: evasion
   source:
@@ -53,4 +53,4 @@ _stats:
   createdTime: 1775254057206
   modifiedTime: 1775254057206
   lastModifiedBy: magehandpress000
-_key: '!items!mhpEvasion000001'
+_key: '!items!mhpGunsEvasion00'

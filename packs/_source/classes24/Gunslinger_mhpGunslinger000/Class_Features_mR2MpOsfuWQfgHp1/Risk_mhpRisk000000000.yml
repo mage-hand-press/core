@@ -67,7 +67,19 @@ system:
         type: recoverAll
     max: '@scale.gunslinger2024.risk-dice'
   description:
-    value: "<p><span class=\"s1\">You can perform incredible feats of daring fueled by special dice called Risk Dice.</span><span class=\"Apple-converted-space\">\_</span></p><p><span class=\"s1\"><em><strong>Risk Dice.</strong></em> You have four Risk Dice, which are d8s. A Risk Die is expended when you use it. You regain all expended Risk Dice when you finish a Short or Long Rest. Your Risk Die changes and more Risk Dice become available as shown on the Risk Dice column of the Gunslinger Features table.</span><span class=\"Apple-converted-space\">\_</span></p><p class=\"p1\"><span class=\"s1\"><em><strong>Maneuvers.</strong></em> You can expend Risk Dice to perform maneuvers. Your maneuver options are listed @UUID[Compendium.mage-hand-press-complete-gunslinger.class24.Item.mhpManeuvers0000]{here}.</span><span class=\"Apple-converted-space\">\_</span></p><p class=\"p1\"><span class=\"s1\"><em><strong>Saving Throws.</strong></em> If a maneuver requires a saving throw, the DC equals 8 plus your Dexterity modifier and Proficiency Bonus.</span></p><section class=\"secret\" id=\"secret-8ISZgd0Z7NY4OZf1\"><p><em><strong>*Foundry Note:</strong></em> This feature tracks the number of Risk Die uses the user has and it will automatically scale by level.</p></section>"
+    value: >-
+      <p>You can perform incredible feats of daring fueled by special dice called Risk
+      Dice.</p><p><em><strong>Risk Dice.</strong></em> You have four Risk Dice, which are d8s. A
+      Risk Die is expended when you use it. You regain all expended Risk Dice when you finish a
+      Short or Long Rest. Your Risk Die changes and more Risk Dice become available as shown on the
+      Risk Dice column of the Gunslinger Features table.</p><p><em><strong>Maneuvers.</strong></em>
+      You can expend Risk Dice to perform maneuvers. Your maneuver options are listed
+      @UUID[Compendium.mage-hand-press-core.classes24.Item.mhpManeuvers0000]{here}.</p><p><em><strong>Saving
+      Throws.</strong></em> If a maneuver requires a saving throw, the DC equals 8 plus your
+      Dexterity modifier and Proficiency Bonus.</p><section class="secret"
+      id="secret-8ISZgd0Z7NY4OZf1"><p><em><strong>*Foundry Note:</strong></em> This feature tracks
+      the number of Risk Die uses the user has and it will automatically scale by
+      level.</p></section>
     chat: ''
   identifier: risk
   source:
