@@ -1,5 +1,5 @@
 name: Gunslinger
-_id: mhpCompleteGunsl
+_id: mhpGunslinger55e
 pages:
   - sort: -100000
     name: Gunslinger
@@ -60,7 +60,7 @@ pages:
       modifiedTime: 1783115751034
       duplicateSource: null
       exportSource: null
-    _key: '!journal.pages!mhpCompleteGunsl.mhpGunslinger000'
+    _key: '!journal.pages!mhpGunslinger55e.mhpGunslinger000'
   - sort: -50000
     name: Firearms
     type: text
@@ -127,7 +127,7 @@ pages:
       modifiedTime: 1783115751034
       duplicateSource: null
       exportSource: null
-    _key: '!journal.pages!mhpCompleteGunsl.mhpFirearms00000'
+    _key: '!journal.pages!mhpGunslinger55e.mhpFirearms00000'
 folder: mhpClasses000000
 categories: []
 ownership:
@@ -147,4 +147,4 @@ _stats:
   exportSource: null
   duplicateSource: null
 sort: 0
-_key: '!journal!mhpCompleteGunsl'
+_key: '!journal!mhpGunslinger55e'

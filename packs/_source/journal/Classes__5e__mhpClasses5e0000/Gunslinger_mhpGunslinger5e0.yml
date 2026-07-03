@@ -1,5 +1,5 @@
 name: Gunslinger
-_id: mhpCompleteGuns1
+_id: mhpGunslinger5e0
 pages:
   - sort: 100000
     name: Gunslinger
@@ -39,24 +39,7 @@ pages:
         additionalTraits: <p>You also gain proficiency in simple and martial firearms.</p>
         additionalEquipment: ''
         subclass: ''
-      subclassItems:
-        - Compendium.mage-hand-press-core.classes14.Item.mhpCovertOperati
-        - Compendium.mage-hand-press-core.classes14.Item.mhpGrenadier0001
-        - Compendium.mage-hand-press-core.classes14.Item.mhpGunTank000001
-        - Compendium.mage-hand-press-core.classes14.Item.mhpGunKoMaster01
-        - Compendium.mage-hand-press-core.classes14.Item.mhpGundead000000
-        - Compendium.mage-hand-press-core.classes14.Item.mhpHighRoller001
-        - Compendium.mage-hand-press-core.classes14.Item.mhpJanissary0000
-        - Compendium.mage-hand-press-core.classes14.Item.mhpLaserist00001
-        - Compendium.mage-hand-press-core.classes14.Item.mhpMusketeer0001
-        - Compendium.mage-hand-press-core.classes14.Item.mhpPistolero0001
-        - Compendium.mage-hand-press-core.classes14.Item.mhpSharpshooter0
-        - Compendium.mage-hand-press-core.classes14.Item.mhpSpaceCowboy01
-        - Compendium.mage-hand-press-core.classes14.Item.mhpStormGunner00
-        - Compendium.mage-hand-press-core.classes14.Item.mhpTrickShot0001
-        - Compendium.mage-hand-press-core.classes14.Item.mhpTwiceDamned00
-        - Compendium.mage-hand-press-core.classes14.Item.mhpWhiteHat00001
-        - Compendium.mage-hand-press-core.classes14.Item.mhpSpellslinger1
+      subclassItems: []
       style: ''
       subclassHeader: ''
     title:
@@ -82,7 +65,7 @@ pages:
       modifiedTime: 1783115929325
       duplicateSource: null
       exportSource: null
-    _key: '!journal.pages!mhpCompleteGuns1.mhpGunslinger000'
+    _key: '!journal.pages!mhpGunslinger5e0.mhpGunslinger000'
   - sort: 200000
     name: Eras
     type: text
@@ -213,7 +196,7 @@ pages:
       modifiedTime: 1783115752043
       duplicateSource: null
       exportSource: null
-    _key: '!journal.pages!mhpCompleteGuns1.mhpEras000000000'
+    _key: '!journal.pages!mhpGunslinger5e0.mhpEras000000000'
 folder: mhpClasses5e0000
 categories: []
 ownership:
@@ -233,4 +216,4 @@ _stats:
   exportSource: null
   duplicateSource: null
 sort: 0
-_key: '!journal!mhpCompleteGuns1'
+_key: '!journal!mhpGunslinger5e0'
