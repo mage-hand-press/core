@@ -422,7 +422,7 @@ ownership:
 flags:
   dnd5e:
     type: chapter
-    position: 24
+    position: 25
     title: Warmage (5e)
 _stats:
   duplicateSource: null

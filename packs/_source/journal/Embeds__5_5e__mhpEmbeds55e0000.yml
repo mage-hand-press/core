@@ -1,7 +1,7 @@
 name: Embeds (5.5e)
 _id: mhpEmbeds55e0000
 pages:
-  - sort: 175000
+  - sort: 100000
     name: Tricks with Enchantments
     type: text
     _id: mhpTrickswithEnc
@@ -33,11 +33,12 @@ pages:
     _stats:
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: magehandpress000
-      modifiedTime: 1774371971893
+      modifiedTime: 1783118128046
+      createdTime: 1783118128046
     _key: '!journal.pages!mhpEmbeds55e0000.mhpTrickswithEnc'
   - sort: 200000
     name: Blinding Light
@@ -73,6 +74,7 @@ pages:
       systemVersion: 5.2.0
       lastModifiedBy: magehandpress000
       modifiedTime: 1774371872912
+      createdTime: null
     _key: '!journal.pages!mhpEmbeds55e0000.mhpBlindingLight'
   - sort: 300000
     name: Encryptogram
@@ -107,8 +109,9 @@ pages:
       systemVersion: 5.2.0
       lastModifiedBy: magehandpress000
       modifiedTime: 1774371874854
+      createdTime: null
     _key: '!journal.pages!mhpEmbeds55e0000.mhpEncryptogram0'
-  - sort: 400000
+  - sort: 500000
     name: Infinite Variation
     type: text
     _id: mhpInfiniteVaria
@@ -138,13 +141,14 @@ pages:
     _stats:
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: magehandpress000
-      modifiedTime: 1774371880312
+      modifiedTime: 1783118128046
+      createdTime: 1783118128046
     _key: '!journal.pages!mhpEmbeds55e0000.mhpInfiniteVaria'
-  - sort: 500000
+  - sort: 600000
     name: Mage Hand Knack
     type: text
     _id: mhpMageHandKnack
@@ -181,13 +185,14 @@ pages:
     _stats:
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: magehandpress000
-      modifiedTime: 1774371882883
+      modifiedTime: 1783118128046
+      createdTime: 1783118128046
     _key: '!journal.pages!mhpEmbeds55e0000.mhpMageHandKnack'
-  - sort: 600000
+  - sort: 700000
     name: Magic Moment
     type: text
     _id: mhpMagicMoment00
@@ -219,13 +224,14 @@ pages:
     _stats:
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: magehandpress000
-      modifiedTime: 1774371885955
+      modifiedTime: 1783118128046
+      createdTime: 1783118128046
     _key: '!journal.pages!mhpEmbeds55e0000.mhpMagicMoment00'
-  - sort: 700000
+  - sort: 800000
     name: Minor Shadow Illusion
     type: text
     _id: mhpMinorShadowIl
@@ -261,13 +267,14 @@ pages:
     _stats:
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: magehandpress000
-      modifiedTime: 1774371888700
+      modifiedTime: 1783118128046
+      createdTime: 1783118128046
     _key: '!journal.pages!mhpEmbeds55e0000.mhpMinorShadowIl'
-  - sort: 800000
+  - sort: 900000
     name: Mystical Athlete (springheel)
     type: text
     system: {}
@@ -298,11 +305,11 @@ pages:
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: magehandpress000
-      modifiedTime: 1782517944877
+      modifiedTime: 1783118128046
       createdTime: 1782517944877
     _id: mhpMysticalAthSp
     _key: '!journal.pages!mhpEmbeds55e0000.mhpMysticalAthSp'
-  - sort: 850000
+  - sort: 1000000
     name: Mystical Athlete (quickstep)
     type: text
     system: {}
@@ -333,11 +340,11 @@ pages:
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: magehandpress000
-      modifiedTime: 1782517924167
+      modifiedTime: 1783118128046
       createdTime: 1782517924167
     _id: mhpMysticalAthQu
     _key: '!journal.pages!mhpEmbeds55e0000.mhpMysticalAthQu'
-  - sort: 900000
+  - sort: 1200000
     name: Phantom Hookshot
     type: text
     _id: mhpPhantomHooksh
@@ -365,13 +372,14 @@ pages:
     _stats:
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: magehandpress000
-      modifiedTime: 1774371980144
+      modifiedTime: 1783118128046
+      createdTime: 1783118128046
     _key: '!journal.pages!mhpEmbeds55e0000.mhpPhantomHooksh'
-  - sort: 1000000
+  - sort: 1300000
     name: Rapid Fortification
     type: text
     _id: mhpRapidFortific
@@ -403,13 +411,14 @@ pages:
     _stats:
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: magehandpress000
-      modifiedTime: 1774371984205
+      modifiedTime: 1783118128046
+      createdTime: 1783118128046
     _key: '!journal.pages!mhpEmbeds55e0000.mhpRapidFortific'
-  - sort: 350000
+  - sort: 400000
     name: Field Medic
     type: text
     _id: mhpFieldMedic000
@@ -438,13 +447,14 @@ pages:
     _stats:
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: magehandpress000
-      modifiedTime: 1774371877516
+      modifiedTime: 1783118128046
+      createdTime: 1783118128046
     _key: '!journal.pages!mhpEmbeds55e0000.mhpFieldMedic000'
-  - sort: 850000
+  - sort: 1100000
     name: Mystical Retort
     type: text
     _id: mhpMysticalRetor
@@ -474,13 +484,14 @@ pages:
     _stats:
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: magehandpress000
-      modifiedTime: 1774371977744
+      modifiedTime: 1783118128046
+      createdTime: 1783118128046
     _key: '!journal.pages!mhpEmbeds55e0000.mhpMysticalRetor'
-  - sort: 1100000
+  - sort: 1400000
     name: Force Aegis
     type: text
     _id: mhpForceAegis000
@@ -507,13 +518,14 @@ pages:
     _stats:
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: magehandpress000
-      modifiedTime: 1774371987010
+      modifiedTime: 1783118128046
+      createdTime: 1783118128046
     _key: '!journal.pages!mhpEmbeds55e0000.mhpForceAegis000'
-  - sort: 1200000
+  - sort: 1500000
     name: Mystical Weaponmaster
     type: text
     _id: mhpMysticalWeapo
@@ -542,27 +554,561 @@ pages:
     _stats:
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: magehandpress000
-      modifiedTime: 1774371990381
+      modifiedTime: 1783118128046
+      createdTime: 1783118128046
     _key: '!journal.pages!mhpEmbeds55e0000.mhpMysticalWeapo'
+  - sort: 1600000
+    name: Weapon Properties
+    type: text
+    category: KkIdyGvbhlVXnoGQ
+    _id: mhpWeaponPropert
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1783118046970
+      modifiedTime: 1783118128046
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpWeaponPropert'
+  - sort: 1700000
+    name: Blaster
+    type: rule
+    _id: mhpBlaster000000
+    system:
+      tooltip: ''
+      type: rule
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>A weapon with the Blaster property is a Ranged weapon that requires no ammunition. This
+        property counts as the Ammunition property.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: KkIdyGvbhlVXnoGQ
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783118060629
+      modifiedTime: 1783118237227
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpBlaster000000'
+  - sort: 1800000
+    name: Cooldown
+    type: rule
+    _id: mhpCooldown00000
+    system:
+      tooltip: ''
+      type: rule
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Because this weapon requires cooldown time between uses, you can only fire it once when
+        you use an action, Bonus Action, or Reaction to fire it, regardless of the number of attacks
+        you normally make. This property counts as the Loading property.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: KkIdyGvbhlVXnoGQ
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783118068624
+      modifiedTime: 1783118239271
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpCooldown00000'
+  - sort: 1900000
+    name: Firearm
+    type: rule
+    _id: mhpFirearm000000
+    system:
+      tooltip: ''
+      type: rule
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>You don’t add your ability modifier to the weapon’s damage, unless otherwise stated.
+        Firearm ammunition is destroyed upon use.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: KkIdyGvbhlVXnoGQ
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783118069724
+      modifiedTime: 1783118241242
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpFirearm000000'
+  - sort: 2000000
+    name: Recoil
+    type: rule
+    system:
+      tooltip: ''
+      type: rule
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>After you make an attack with this weapon, you can’t make ranged attacks beyond the
+        weapon’s normal range until the end of the current turn.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: KkIdyGvbhlVXnoGQ
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783118074126
+      modifiedTime: 1783118243895
+      duplicateSource: null
+      exportSource: null
+    _id: mhpRecoil0000000
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpRecoil0000000'
+  - sort: 2100000
+    name: Reload
+    type: rule
+    system:
+      tooltip: ''
+      type: rule
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>This weapon can be used to make a number of attacks before it must be reloaded. If you
+        are proficient with the weapon, reloading it takes an action or a Bonus Action; otherwise,
+        reloading it takes an action.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: KkIdyGvbhlVXnoGQ
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783118075480
+      modifiedTime: 1783118245666
+      duplicateSource: null
+      exportSource: null
+    _id: mhpReload0000000
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpReload0000000'
+  - sort: 2200000
+    name: Weapon Masteries
+    type: text
+    category: KkIdyGvbhlVXnoGQ
+    _id: mhpWeaponMasteri
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1783118140375
+      modifiedTime: 1783118168261
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpWeaponMasteri'
+  - sort: 2300000
+    name: Automatic
+    type: rule
+    _id: mhpAutomatic0000
+    system:
+      tooltip: ''
+      type: weaponMastery
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>When you make an attack with this weapon, you can choose to make two attacks instead.
+        These attacks are always made with Disadvantage, regardless of circumstance. You can’t
+        replace these attacks. If this weapon has the Ammunition property, these attacks use twice
+        the normal amount of ammunition.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: KkIdyGvbhlVXnoGQ
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783118170217
+      modifiedTime: 1783118197695
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpAutomatic0000'
+  - sort: 2300000
+    name: Bludgeon
+    type: rule
+    _id: mhpBludgeon00000
+    system:
+      tooltip: ''
+      type: weaponMastery
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>You can treat this weapon as a Melee weapon with the Finesse property. When you hit a
+        creature with a melee attack using this weapon, it deals Bludgeoning damage equal to 1d6
+        plus the ability modifier used for the attack roll, or 1d8 if the weapon is used with two
+        hands to make the attack.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: KkIdyGvbhlVXnoGQ
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783118171639
+      modifiedTime: 1783118203755
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpBludgeon00000'
+  - sort: 2300000
+    name: Explode
+    type: rule
+    _id: mhpExplode000000
+    system:
+      tooltip: ''
+      type: weaponMastery
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>When you take the Attack action, you can replace one of your attacks with an explosion
+        from this weapon’s projectile. This explosion is a 5-foot-radius Sphere centered on a point
+        you choose within the weapon’s normal range. Each creature within the Sphere makes a
+        Dexterity saving throw (DC 8 plus your Strength or Dexterity modifier and your Proficiency
+        Bonus). On a failed save, a creature takes the weapon’s damage, but don’t add your ability
+        modifier to that damage unless that modifier is negative. On a successful save, a creature
+        takes half as much damage. You can create an explosion only once per turn.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: KkIdyGvbhlVXnoGQ
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783118173070
+      modifiedTime: 1783118209794
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpExplode000000'
+  - sort: 2400000
+    name: Jolt
+    type: rule
+    _id: mhpJolt000000000
+    system:
+      tooltip: ''
+      type: weaponMastery
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>If you hit a creature with this weapon, the creature can’t make Opportunity Attacks until
+        the start of its next turn.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: KkIdyGvbhlVXnoGQ
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783118174031
+      modifiedTime: 1783118215083
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpJolt000000000'
+  - sort: 2500000
+    name: Mounted
+    type: rule
+    _id: mhpMounted000000
+    system:
+      tooltip: ''
+      type: weaponMastery
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>You can take a Bonus Action to mount this weapon in a fixed position until the end of
+        your turn. A damage value in parentheses appears with this property. While mounted, the
+        weapon deals that damage when used to make a ranged attack, and the weapon can’t be
+        moved.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: KkIdyGvbhlVXnoGQ
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783118174952
+      modifiedTime: 1783118234169
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpMounted000000'
+  - sort: 2600000
+    name: Overheat
+    type: rule
+    _id: mhpOverheat00000
+    system:
+      tooltip: ''
+      type: weaponMastery
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>If you hit a target with this weapon, you can overcharge the weapon. If you do so, the
+        target takes extra damage of the weapon’s type equal to your Proficiency Bonus. The weapon
+        then Overheats. An Overheated weapon can’t be used again to make an attack until the end of
+        your next turn.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: KkIdyGvbhlVXnoGQ
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783118176220
+      modifiedTime: 1783118223433
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpOverheat00000'
+  - sort: 2700000
+    name: Scatter
+    type: rule
+    _id: mhpScatter000000
+    system:
+      tooltip: ''
+      type: weaponMastery
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Being within 5 feet of an enemy doesn’t impose Disadvantage on your ranged attack rolls
+        with this weapon.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: KkIdyGvbhlVXnoGQ
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783118177107
+      modifiedTime: 1783118229202
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpScatter000000'
+  - sort: 2800000
+    name: Sighted
+    type: rule
+    _id: mhpSighted000000
+    system:
+      tooltip: ''
+      type: weaponMastery
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Attacking at long range with this weapon doesn’t impose Disadvantage on your attack
+        rolls. When you hit a creature with an attack using this weapon at long range, you can
+        reroll any of the damage dice and must use the new roll.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: KkIdyGvbhlVXnoGQ
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: magehandpress000
+      createdTime: 1783118177902
+      modifiedTime: 1783118327223
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpSighted000000'
 folder: null
 categories:
   - name: Warmage
-    sort: 1300000
+    sort: 200000
     _id: mhpWarmage000000
     flags: {}
     _stats:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.2.0
-      lastModifiedBy: null
+      lastModifiedBy: 7d8DFzzH3FH7q5Ba
+      createdTime: 1783117588313
+      modifiedTime: 1783117588313
     _key: '!journal.categories!mhpEmbeds55e0000.mhpWarmage000000'
+  - name: Gunslinger
+    sort: 100000
+    _id: KkIdyGvbhlVXnoGQ
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1783117587428
+      modifiedTime: 1783117588313
+      lastModifiedBy: 7d8DFzzH3FH7q5Ba
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.categories!mhpEmbeds55e0000.KkIdyGvbhlVXnoGQ'
 sort: 0
 ownership:
   default: 0
@@ -572,7 +1118,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 6.0.0
   createdTime: 1782430563289
-  modifiedTime: 1782430563290
+  modifiedTime: 1783117588313
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

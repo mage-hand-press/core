@@ -85,6 +85,10 @@ system:
   source:
     revision: 1
     rules: '2024'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   advancement: {}
   crewed: false
   enchant: {}
@@ -105,10 +109,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254056088
-  modifiedTime: 1775254056088
+  modifiedTime: 1783118664318
   lastModifiedBy: magehandpress000
 _key: '!items!mhpRisk000000000'

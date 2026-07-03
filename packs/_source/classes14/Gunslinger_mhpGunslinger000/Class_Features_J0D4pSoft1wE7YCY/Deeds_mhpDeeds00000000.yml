@@ -412,10 +412,10 @@ system:
   source:
     revision: 1
     rules: '2014'
-    book: Complete Gunslinger 2014
+    book: Complete Gunslinger
     page: '4'
     custom: ''
-    license: SRD 5.1
+    license: ''
   advancement: {}
   crewed: false
   enchant: {}

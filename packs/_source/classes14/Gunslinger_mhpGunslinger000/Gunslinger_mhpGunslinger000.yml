@@ -20,7 +20,7 @@ system:
   source:
     revision: 1
     rules: '2014'
-    book: ''
+    book: Complete Gunslinger
     page: ''
     custom: ''
     license: ''
@@ -666,6 +666,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1775254057106
-  modifiedTime: 1783115782930
+  modifiedTime: 1783118913535
   lastModifiedBy: magehandpress000
 _key: '!items!mhpGunslinger000'

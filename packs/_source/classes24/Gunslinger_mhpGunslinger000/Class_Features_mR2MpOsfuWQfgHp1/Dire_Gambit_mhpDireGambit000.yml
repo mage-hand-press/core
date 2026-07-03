@@ -73,6 +73,10 @@ system:
   source:
     revision: 1
     rules: '2024'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
@@ -93,10 +97,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254056609
-  modifiedTime: 1775254056609
+  modifiedTime: 1783118728933
   lastModifiedBy: magehandpress000
 _key: '!items!mhpDireGambit000'

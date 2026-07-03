@@ -555,21 +555,555 @@ pages:
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpEmbeds5e00000.mhpSignatureFocu'
+  - sort: 1800000
+    name: Weapon Properties
+    type: text
+    category: xJ6OJMRjTWNmz5Yx
+    _id: mhpWeaponPropert
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1783117666615
+      modifiedTime: 1783117668878
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds5e00000.mhpWeaponPropert'
+  - sort: 1800000
+    name: Automatic
+    type: rule
+    category: xJ6OJMRjTWNmz5Yx
+    _id: mhpAutomatic0000
+    system:
+      tooltip: ''
+      type: rule
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>When you make an attack with this weapon on your turn, you can choose to make two attacks
+        instead. These attacks are always made with disadvantage, regardless of circumstance. These
+        attacks use twice the normal amount of ammunition.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1783117676457
+      modifiedTime: 1783117684162
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds5e00000.mhpAutomatic0000'
+  - sort: 1800000
+    name: Blaster
+    type: rule
+    category: xJ6OJMRjTWNmz5Yx
+    _id: mhpBlaster000000
+    system:
+      tooltip: ''
+      type: rule
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>A weapon with the Blaster property is a ranged weapon that requires no ammunition.
+        Blasters are considered firearms for the purpose of class features and abilities. Like
+        firearms, you don’t add your ability score modifier to blasters’ damage rolls.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1783117699185
+      modifiedTime: 1783117709550
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds5e00000.mhpBlaster000000'
+  - sort: 1800000
+    name: Concealable
+    type: rule
+    category: xJ6OJMRjTWNmz5Yx
+    _id: mhpConcealable00
+    system:
+      tooltip: ''
+      type: rule
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>While stowed, you have advantage on Dexterity (Stealth) checks made to conceal this
+        weapon.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1783117721861
+      modifiedTime: 1783117725832
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds5e00000.mhpConcealable00'
+  - sort: 1800000
+    name: Dry
+    type: rule
+    category: xJ6OJMRjTWNmz5Yx
+    _id: mhpDry0000000000
+    system:
+      tooltip: ''
+      type: rule
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>If this weapon is ever submerged in water or doused with a significant quantity of water,
+        it jams. A jammed firearm can’t be used to make an attack until a creature uses its action
+        to clear the weapon malfunction.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1783117738575
+      modifiedTime: 1783117741591
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds5e00000.mhpDry0000000000'
+  - sort: 1800000
+    name: Explosive
+    type: rule
+    category: xJ6OJMRjTWNmz5Yx
+    _id: mhpExplosive0000
+    system:
+      tooltip: ''
+      type: rule
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>When this weapon’s projectile hits a target, it explodes in a 15-foot diameter sphere.
+        The projectile can target an unoccupied space within its range. Each creature other than the
+        target within the blast radius (for a Medium or smaller target, each creature within 5 feet
+        of it) must make a [[/save dex 14]] saving throw, taking half the damage rolled on a failed
+        save or no damage on a successful one.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1783117760786
+      modifiedTime: 1783117916849
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds5e00000.mhpExplosive0000'
+  - sort: 1800000
+    name: Foregrip
+    type: rule
+    category: xJ6OJMRjTWNmz5Yx
+    _id: mhpForegrip00000
+    system:
+      tooltip: ''
+      type: rule
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>This weapon can be used with one or two hands. If used in two hands, its normal range
+        increases by 50 feet and its long range increases by 200 feet.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1783117768636
+      modifiedTime: 1783117898756
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds5e00000.mhpForegrip00000'
+  - sort: 1800000
+    name: Heat
+    type: rule
+    category: xJ6OJMRjTWNmz5Yx
+    _id: mhpHeat000000000
+    system:
+      tooltip: ''
+      type: rule
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>This weapon gains a heat point whenever an attack is made with it, and loses one heat
+        point whenever you begin your turn. If the weapon gains 3 heat points, it overheats and
+        loses all heat points. An overheated weapon can’t be used to make an attack again until the
+        end of your next turn.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1783117775469
+      modifiedTime: 1783117890893
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds5e00000.mhpHeat000000000'
+  - sort: 1800000
+    name: Misfire
+    type: rule
+    category: xJ6OJMRjTWNmz5Yx
+    _id: mhpMisfire000000
+    system:
+      tooltip: ''
+      type: rule
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>When you roll a 1 on the d20 for an attack roll with this weapon, it jams. A jammed
+        weapon can’t be used to make an attack until a creature uses its action to clear the weapon
+        malfunction.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1783117786658
+      modifiedTime: 1783117883030
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds5e00000.mhpMisfire000000'
+  - sort: 1800000
+    name: Mounted
+    type: rule
+    category: xJ6OJMRjTWNmz5Yx
+    _id: mhpMounted000000
+    system:
+      tooltip: ''
+      type: rule
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>This weapon is normally used while attached to a tripod, vehicle, or other bracing mount.
+        You can mount or unmount this weapon as an action. While it is mounted, it can’t be moved.
+        It can only be used to make an attack while unmounted if held by a Medium or larger creature
+        with a Strength score of at least 15.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1783117795674
+      modifiedTime: 1783117877739
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds5e00000.mhpMounted000000'
+  - sort: 1800000
+    name: Nonlethal
+    type: rule
+    category: xJ6OJMRjTWNmz5Yx
+    _id: mhpNonlethal0000
+    system:
+      tooltip: ''
+      type: rule
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>When you reduce a creature to 0 hit points using this weapon, you can choose to knock the
+        creature out, rendering it unconscious, rather than deal a killing blow.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1783117804908
+      modifiedTime: 1783117870742
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds5e00000.mhpNonlethal0000'
+  - sort: 1800000
+    name: Overheat
+    type: rule
+    category: xJ6OJMRjTWNmz5Yx
+    _id: mhpOverheat00000
+    system:
+      tooltip: ''
+      type: rule
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Once you make an attack with this weapon, it can’t be used again to make an attack until
+        the end of your next turn.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1783117811194
+      modifiedTime: 1783117864406
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds5e00000.mhpOverheat00000'
+  - sort: 1800000
+    name: Scatter
+    type: rule
+    category: xJ6OJMRjTWNmz5Yx
+    _id: mhpScatter000000
+    system:
+      tooltip: ''
+      type: rule
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>If you make an attack against a target that is within half this weapon’s normal range,
+        you deal the damage value listed in parentheses instead of the weapon’s normal damage
+        dice.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1783117821030
+      modifiedTime: 1783117857053
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds5e00000.mhpScatter000000'
+  - sort: 1800000
+    name: Sighted
+    type: rule
+    category: xJ6OJMRjTWNmz5Yx
+    _id: mhpSighted000000
+    system:
+      tooltip: ''
+      type: rule
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: <p>This weapon has disadvantage on attack rolls made against targets within 20 feet.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1783117827149
+      modifiedTime: 1783117849959
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds5e00000.mhpSighted000000'
+  - sort: 1800000
+    name: Twinshot
+    type: rule
+    category: xJ6OJMRjTWNmz5Yx
+    _id: mhpTwinshot00000
+    system:
+      tooltip: ''
+      type: rule
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Once on each of your turns when you make an attack with this weapon, you can make another
+        attack with it against a different creature that is within 5 feet of the original target and
+        within range of the weapon.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1783117837201
+      modifiedTime: 1783117842936
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds5e00000.mhpTwinshot00000'
 folder: null
 categories:
   - name: Warmage
-    sort: 1300000
+    sort: 200000
     _id: mhpWarmage000000
     flags: {}
     _stats:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.2.0
-      lastModifiedBy: null
+      lastModifiedBy: 7d8DFzzH3FH7q5Ba
+      createdTime: 1783117581366
+      modifiedTime: 1783117581366
     _key: '!journal.categories!mhpEmbeds5e00000.mhpWarmage000000'
+  - name: Gunslinger
+    sort: 100000
+    _id: xJ6OJMRjTWNmz5Yx
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1783117577380
+      modifiedTime: 1783117581364
+      lastModifiedBy: 7d8DFzzH3FH7q5Ba
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.categories!mhpEmbeds5e00000.xJ6OJMRjTWNmz5Yx'
 sort: 0
 ownership:
   default: 0
@@ -579,7 +1113,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 6.0.0
   createdTime: 1782430563289
-  modifiedTime: 1782430563290
+  modifiedTime: 1783117581363
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

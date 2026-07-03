@@ -22,10 +22,10 @@ system:
   source:
     revision: 1
     rules: '2014'
-    book: Complete Gunslinger 2014
-    page: '3'
+    book: Complete Gunslinger
+    page: ''
     custom: ''
-    license: SRD 5.1
+    license: ''
   advancement: {}
   crewed: false
   enchant: {}
@@ -47,10 +47,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254057206
-  modifiedTime: 1775254057206
+  modifiedTime: 1783119010489
   lastModifiedBy: magehandpress000
 _key: '!items!mhpGunsEvasion00'
