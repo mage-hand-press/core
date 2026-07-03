@@ -13,6 +13,22 @@ export function initialize() {
 		requiresReload: true
 	});
 
+	// Gunslinger
+	game.settings.registerMenu("mage-hand-press-core", "gunslingerDialog", {
+		name: "MageHandPress.Setting.Gunslinger.name",
+		label: "MageHandPress.Setting.Gunslinger.label",
+		hint: "MageHandPress.Setting.Gunslinger.hint",
+		type: SettingsConfig.for("gunslinger")
+	});
+
+	game.settings.register("mage-hand-press-core", "gunslinger", {
+		name: "MageHandPress.Setting.Gunslinger.name",
+		scope: "world",
+		config: false,
+		type: SettingsData.GunslingerSettingData,
+		requiresReload: true
+	});
+
 	// Warmage
 	game.settings.registerMenu("mage-hand-press-core", "warmageDialog", {
 		name: "MageHandPress.Setting.Warmage.name",

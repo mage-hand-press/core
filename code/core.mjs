@@ -12,6 +12,7 @@ Hooks.once("init", () => {
 
 	settings.initialize();
 
+	config.Gunslinger.initialize();
 	config.Warmage.initialize();
 
 	automation.WarmageEdge.initialize();
@@ -20,6 +21,7 @@ Hooks.once("init", () => {
 });
 
 Hooks.once("i18nInit", () => {
+	foundry.helpers.Localization.localizeDataModel(data.GunslingerSettingData);
 	foundry.helpers.Localization.localizeDataModel(data.WarmageSettingData);
 });
 

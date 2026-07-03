@@ -1,9 +1,63 @@
 {
 	"MageHandPress": {
+		"Ammunition": {
+			"BlunderbussShot": "Blunderbuss Shot",
+			"BulletDragon": "Bullet, Dragon",
+			"Cannonball": "Cannonball",
+			"Flare": "Flare",
+			"Grenade": "Grenade",
+			"Harpoon": "Harpoon",
+			"MusketBall": "Musket Ball",
+			"Rocket": "Rocket",
+			"Shell": "Shell",
+			"Shot": "Shot"
+		},
+		"Gunslinger": {
+			"Deed": "Deed"
+		},
+		"Mastery": {
+			"Automatic": "Automatic",
+			"Bludgeon": "Bludgeon",
+			"Explode": "Explode",
+			"Jolt": "Jolt",
+			"Mounted": "Mounted",
+			"Overheat": "Overheat",
+			"Scatter": "Scatter",
+			"Sighted": "Sighted"
+		},
+		"Properties": {
+			"Automatic": "Automatic",
+			"Blaster": "Blaster",
+			"Concealable": "Concealable",
+			"Cooldown": "Cooldown",
+			"Dry": "Dry",
+			"Explosive": "Explosive",
+			"Foregrip": "Foregrip",
+			"Heat": "Heat",
+			"Misfire": "Misfire",
+			"Mounted": "Mounted",
+			"Nonlethal": "Nonlethal",
+			"Overheat": "Overheat",
+			"Recoil": "Recoil",
+			"Scatter": "Scatter",
+			"Sighted": "Sighted",
+			"Twinshot": "Twinshot"
+		},
 		"Setting": {
 			"FirearmModifier": {
 				"hint": "Don't apply the ability modifier to damage for any weapon that has the Firearm property.",
 				"name": "Ignore Modifier for Firearms"
+			},
+			"Gunslinger": {
+				"hint": "Configure customization & automation related to Gunslinger class",
+				"FIELDS": {
+					"customization": {
+						"hint": "Add a new class feature type, weapon properties, masteries, and base weapons depending on your rules version.",
+						"label": "Gunslinger Customization"
+					}
+				},
+				"label": "Gunslinger Settings",
+				"name": "Gunslinger"
 			},
 			"Warmage": {
 				"hint": "Configure customization & automation related to Warmage class",
@@ -22,6 +76,7 @@
 			}
 		},
 		"Source": {
+			"CompleteGunslinger": "Complete Gunslinger",
 			"CompleteWarmage": "Complete Warmage"
 		},
 		"Warmage": {
@@ -30,6 +85,11 @@
 			"Strategem": "Strategem",
 			"WarmageEdge": "Warmage Edge",
 			"WarmageTrick": "Warmage Trick"
+		},
+		"Weapon": {
+			"FirearmExotic": "Exotic Firearm",
+			"FirearmMartial": "Martial Firearm",
+			"FirearmSimple": "Simple Firearm"
 		}
 	}
 }
