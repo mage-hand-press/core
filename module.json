@@ -35,6 +35,7 @@
 			"banner": "modules/mage-hand-press-core/assets/interface/banners/journal.webp",
 			"type": "JournalEntry",
 			"ownership": {
+				"PLAYER": "OBSERVER",
 				"GAMEMASTER": "OWNER"
 			},
 			"system": "dnd5e",
