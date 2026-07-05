@@ -14,10 +14,10 @@ system:
       <p>At 2nd level, your ranged firearm attacks score a critical hit on a roll of 19 or
       20.</p><p>Starting at 9th level, your ranged firearm attacks score a critical hit on a roll of
       18–20, and at 17th level your ranged firearm attacks score a critical hit on a roll of
-      17–20.</p><p></p><section id="secret-OmPIa2rvXklyPM3S" class="secret"><p><em><strong>*Foundry
-      Note:</strong> Each of your firearms will need to be updated. To do this: go to the 'Attack'
-      activities of each firearm, click on the 'Effect' tab, and add the lowest number (i.e. 19) to
-      the 'Critical Threshold'.</em></p></section>
+      17–20.</p><section id="secret-OmPIa2rvXklyPM3S" class="secret"><p><strong>Foundry
+      Note</strong></p><p>Each of your firearms will need to be updated. To do this: go to the
+      'Attack' activities of each firearm, click on the 'Effect' tab, and add the lowest number
+      (i.e. 19) to the 'Critical Threshold'.</p></section>
     chat: ''
   identifier: critical-shot
   source:
@@ -27,7 +27,26 @@ system:
     page: ''
     custom: ''
     license: ''
-  advancement: {}
+  advancement:
+    OJ7RB75s1q2YglET:
+      type: ScaleValue
+      _id: OJ7RB75s1q2YglET
+      configuration:
+        identifier: threshold
+        type: number
+        distance:
+          units: ''
+        scale:
+          '2':
+            value: 19
+          '9':
+            value: 18
+          '17':
+            value: 17
+      flags: {}
+      value: {}
+      hint: ''
+      title: Critical Threshold
   crewed: false
   enchant: {}
   prerequisites:
@@ -52,6 +71,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1775254057733
-  modifiedTime: 1783118954826
+  modifiedTime: 1783273834699
   lastModifiedBy: magehandpress000
 _key: '!items!mhpCriticalShot0'

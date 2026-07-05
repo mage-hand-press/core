@@ -7,14 +7,15 @@ system:
   activities: {}
   uses:
     spent: 0
-    recovery: []
-    max: ''
+    recovery:
+      - period: turnStart
+        type: recoverAll
+    max: '1'
   description:
     value: >-
       <p>While you are wielding a firearm in one hand and nothing in the other, if you make a ranged
       weapon attack and exceed the target’s AC by 5 or more, you deal one extra die of weapon
-      damage. You can only use this ability once per round.</p><p></p><p>[[/damage 1d4]] | [[/damage
-      1d6]] | [[/damage 1d8]] | [[/damage 1d10]] | [[/damage 1d12]]</p>
+      damage. You can only use this ability once per round.</p>
     chat: ''
   identifier: duelist
   source:
@@ -33,7 +34,7 @@ system:
     items: []
   properties:
     - trait
-  requirements: Gunslinger Fighting Style
+  requirements: ''
   type:
     value: class
     subtype: fightingStyle
@@ -49,6 +50,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1775254057784
-  modifiedTime: 1783119140898
+  modifiedTime: 1783273195264
   lastModifiedBy: magehandpress000
 _key: '!items!mhpDuelist000000'

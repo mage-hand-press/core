@@ -4,68 +4,13 @@ type: feat
 _id: mhpRisk000000000
 img: icons/magic/control/silhouette-hold-change-blue.webp
 system:
-  activities:
-    6ic1o6hB4Jx0m52a:
-      type: utility
-      _id: 6ic1o6hB4Jx0m52a
-      sort: 0
-      activation:
-        type: special
-        override: false
-        condition: ''
-      consumption:
-        scaling:
-          allowed: false
-        spellSlot: true
-        targets:
-          - type: itemUses
-            value: '1'
-            scaling: {}
-      description:
-        chatFlavor: ''
-      duration:
-        units: inst
-        concentration: false
-        override: false
-      effects: []
-      range:
-        units: self
-        override: false
-        special: ''
-      target:
-        template:
-          contiguous: false
-          units: ft
-          type: ''
-          stationary: false
-        affects:
-          choice: false
-          type: ''
-        override: false
-        prompt: false
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      roll:
-        prompt: false
-        visible: false
-        name: ''
-        formula: ''
-      name: Risk
-      img: ''
-      flags: {}
-      visibility:
-        level: {}
-        requireAttunement: false
-        requireIdentification: false
-        requireMagic: false
+  activities: {}
   uses:
     spent: 0
     recovery:
       - period: sr
         type: recoverAll
-    max: '@scale.gunslinger2024.risk-dice'
+    max: '@scale.gunslinger.risk.number'
   description:
     value: >-
       <p>You can perform incredible feats of daring fueled by special dice called Risk
@@ -73,13 +18,11 @@ system:
       Risk Die is expended when you use it. You regain all expended Risk Dice when you finish a
       Short or Long Rest. Your Risk Die changes and more Risk Dice become available as shown on the
       Risk Dice column of the Gunslinger Features table.</p><p><em><strong>Maneuvers.</strong></em>
-      You can expend Risk Dice to perform maneuvers. Your maneuver options are listed
-      @UUID[Compendium.mage-hand-press-core.classes24.Item.mhpManeuvers0000]{here}.</p><p><em><strong>Saving
-      Throws.</strong></em> If a maneuver requires a saving throw, the DC equals 8 plus your
-      Dexterity modifier and Proficiency Bonus.</p><section class="secret"
-      id="secret-8ISZgd0Z7NY4OZf1"><p><em><strong>*Foundry Note:</strong></em> This feature tracks
-      the number of Risk Die uses the user has and it will automatically scale by
-      level.</p></section>
+      You can expend Risk Dice to perform maneuvers. Your maneuver options are detailed
+      @UUID[Compendium.mage-hand-press-core.journal.JournalEntry.mhpGunslinger55e.JournalEntryPage.mhpManeuverOptio]{later
+      in the class description}.</p><p><em><strong>Saving Throws.</strong></em> If a maneuver
+      requires a saving throw, the DC equals 8 plus your Dexterity modifier and Proficiency
+      Bonus.</p>
     chat: ''
   identifier: risk
   source:
@@ -89,7 +32,31 @@ system:
     page: ''
     custom: ''
     license: ''
-  advancement: {}
+  advancement:
+    qhtNa8cwWlc58v5F:
+      type: ItemGrant
+      title: Maneuvers
+      _id: qhtNa8cwWlc58v5F
+      configuration:
+        items:
+          - uuid: Compendium.mage-hand-press-core.classes24.Item.mhpBiteBullet000
+            optional: false
+          - uuid: Compendium.mage-hand-press-core.classes24.Item.mhpBlindfire0000
+            optional: false
+          - uuid: Compendium.mage-hand-press-core.classes24.Item.mhpDodgeRoll0000
+            optional: false
+          - uuid: Compendium.mage-hand-press-core.classes24.Item.mhpGrazingShot00
+            optional: false
+          - uuid: Compendium.mage-hand-press-core.classes24.Item.mhpMaverickSpiri
+            optional: false
+          - uuid: Compendium.mage-hand-press-core.classes24.Item.mhpSkinYourTeeth
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 2
+      hint: ''
   crewed: false
   enchant: {}
   prerequisites:
@@ -113,6 +80,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1775254056088
-  modifiedTime: 1783118664318
+  modifiedTime: 1783277536406
   lastModifiedBy: magehandpress000
 _key: '!items!mhpRisk000000000'

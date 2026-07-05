@@ -27,7 +27,52 @@ system:
     page: ''
     custom: ''
     license: ''
-  advancement: {}
+  advancement:
+    TMqHtYoNuBRYZPu0:
+      type: Trait
+      _id: TMqHtYoNuBRYZPu0
+      configuration:
+        allowReplacements: true
+        choices:
+          - count: 2
+            pool:
+              - weapon:*
+        grants: []
+        mode: mastery
+      level: 1
+      title: Weapon Mastery
+      hint: <p>Choose two Simple or Martial Ranged weapons</p>
+      flags: {}
+    TrNzzLnkPaFyTiiI:
+      type: Trait
+      configuration:
+        allowReplacements: true
+        choices:
+          - count: 2
+            pool:
+              - weapon:*
+        grants: []
+        mode: mastery
+      level: 4
+      title: Weapon Mastery
+      hint: <p>Choose two Simple or Martial Ranged weapons</p>
+      flags: {}
+      _id: TrNzzLnkPaFyTiiI
+    fC76I646MK4nv0wh:
+      type: Trait
+      configuration:
+        allowReplacements: true
+        choices:
+          - count: 2
+            pool:
+              - weapon:*
+        grants: []
+        mode: mastery
+      level: 10
+      title: Weapon Mastery
+      hint: <p>Choose two Simple or Martial Ranged weapons</p>
+      flags: {}
+      _id: fC76I646MK4nv0wh
   crewed: false
   enchant: {}
   prerequisites:
@@ -52,6 +97,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1775254056225
-  modifiedTime: 1783118659485
+  modifiedTime: 1783277718216
   lastModifiedBy: magehandpress000
 _key: '!items!mhpGunsWeaponMas'

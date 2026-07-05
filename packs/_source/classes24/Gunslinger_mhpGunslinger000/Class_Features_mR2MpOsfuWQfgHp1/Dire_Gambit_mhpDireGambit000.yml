@@ -7,13 +7,13 @@ system:
   activities:
     ATSj89CiKQvGVajL:
       type: utility
-      name: Dire Gambit
+      name: Regain Risk Die
       _id: ATSj89CiKQvGVajL
       sort: 0
       activation:
-        type: special
+        type: encounter
         override: false
-        condition: ''
+        condition: Whenever you rroll Initiative or score a Critical Hit
       consumption:
         scaling:
           allowed: false
@@ -21,7 +21,7 @@ system:
         targets:
           - type: itemUses
             value: '-1'
-            target: Compendium.mage-hand-press-core.classes24.Item.mhpRisk000000000
+            target: feat:risk
             scaling: {}
       description:
         chatFlavor: ''
@@ -42,7 +42,7 @@ system:
           stationary: false
         affects:
           choice: false
-          type: ''
+          type: self
         override: false
         prompt: false
       uses:
@@ -54,13 +54,16 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: ''
+      img: modules/mage-hand-press-core/assets/svg/restore-use.svg
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
   uses:
     spent: 0
     recovery: []
@@ -101,6 +104,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1775254056609
-  modifiedTime: 1783118728933
+  modifiedTime: 1783275188426
   lastModifiedBy: magehandpress000
 _key: '!items!mhpDireGambit000'

@@ -12,7 +12,7 @@ system:
       activation:
         type: reaction
         override: false
-        condition: ''
+        condition: When you drop to 0 hit points and don’t die outright
       consumption:
         scaling:
           allowed: false
@@ -20,7 +20,10 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: risk
+            target: feat:risk
+            scaling: {}
+          - type: itemUses
+            value: '1'
             scaling: {}
       description:
         chatFlavor: ''
@@ -41,15 +44,14 @@ system:
           stationary: false
         affects:
           choice: false
-          type: ''
+          type: self
+          special: ''
         override: false
         prompt: true
       uses:
         spent: 0
-        recovery:
-          - period: sr
-            type: recoverAll
-        max: '1'
+        recovery: []
+        max: ''
       healing:
         types:
           - healing
@@ -65,14 +67,19 @@ system:
       img: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
   uses:
     spent: 0
-    recovery: []
-    max: ''
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
   description:
     value: >-
       <p>By 15th level, you have a knack for evading the grave. When you drop to 0 hit points and
@@ -104,11 +111,7 @@ effects: []
 sort: 0
 ownership:
   default: 0
-flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
@@ -116,6 +119,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1775254057024
-  modifiedTime: 1783118950837
+  modifiedTime: 1783274790144
   lastModifiedBy: magehandpress000
 _key: '!items!mhpCheatDeath000'

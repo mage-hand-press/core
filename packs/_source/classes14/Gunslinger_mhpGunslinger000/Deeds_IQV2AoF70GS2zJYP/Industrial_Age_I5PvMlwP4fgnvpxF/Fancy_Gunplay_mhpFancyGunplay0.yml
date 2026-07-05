@@ -2,16 +2,82 @@ folder: I5PvMlwP4fgnvpxF
 name: Fancy Gunplay
 type: feat
 _id: mhpFancyGunplay0
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/weapons/guns/pistol-aimed.webp
 system:
-  activities: {}
+  activities:
+    QpjFqtIIaVWHdL8m:
+      type: check
+      _id: QpjFqtIIaVWHdL8m
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: feat:risk
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      check:
+        associated:
+          - prf
+          - slt
+        dc:
+          calculation: ''
+          formula: ''
+        ability: ''
+      name: ''
   uses:
     spent: 0
     recovery: []
     max: ''
   advancement: {}
   description:
-    value: ''
+    value: >-
+      <p>You can impressively twirl your weapons to impress others. Whenever you make a Charisma
+      (Performance) check or a Dexterity (Sleight of Hand) check using one of your ranged weapons,
+      you can expend a risk die and add it to the ability check.</p>
     chat: ''
   identifier: fancy-gunplay
   source:
@@ -42,7 +108,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1783120132334
-  modifiedTime: 1783120223011
+  modifiedTime: 1783276370046
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

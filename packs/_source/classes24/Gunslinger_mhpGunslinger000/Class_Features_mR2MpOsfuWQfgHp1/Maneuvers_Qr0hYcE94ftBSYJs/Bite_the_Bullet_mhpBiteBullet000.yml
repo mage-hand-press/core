@@ -20,7 +20,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.mage-hand-press-core.classes24.Item.mhpRisk000000000
+            target: feat:risk
             scaling: {}
       description:
         chatFlavor: ''
@@ -41,7 +41,8 @@ system:
           stationary: false
         affects:
           choice: false
-          type: ''
+          type: self
+          special: ''
         override: false
         prompt: true
       uses:
@@ -53,7 +54,7 @@ system:
           - temphp
         custom:
           enabled: true
-          formula: '@scale.gunslinger2024.risk-die + @classes.gunslinger2024.levels'
+          formula: '@scale.gunslinger.risk.die + @classes.gunslinger.levels'
         scaling:
           number: 1
         number: null
@@ -63,10 +64,13 @@ system:
       img: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
   uses:
     spent: 0
     recovery: []
@@ -108,6 +112,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1775254056382
-  modifiedTime: 1783118822198
+  modifiedTime: 1783276574763
   lastModifiedBy: magehandpress000
 _key: '!items!mhpBiteBullet000'

@@ -5,7 +5,7 @@ type: Item
 _id: she62G4IwQURbt1a
 description: ''
 sort: 0
-color: '#8f6b1f'
+color: '#1c5324'
 flags: {}
 _stats:
   duplicateSource: null
@@ -13,7 +13,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.3.0
   createdTime: 1782440292077
-  modifiedTime: 1782440710168
+  modifiedTime: 1783275357517
   lastModifiedBy: magehandpress000
   exportSource: null
 _key: '!folders!she62G4IwQURbt1a'

@@ -41,7 +41,7 @@ system:
           stationary: false
         affects:
           choice: false
-          type: ''
+          type: self
           special: ''
         override: false
         prompt: true
@@ -54,7 +54,7 @@ system:
           - healing
         custom:
           enabled: true
-          formula: 1 + @classes.gunslinger2024.levels
+          formula: 1 + @classes.gunslinger.levels
         scaling:
           number: 1
         number: null
@@ -64,10 +64,13 @@ system:
       img: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
   uses:
     spent: 0
     recovery:
@@ -113,6 +116,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1775254056466
-  modifiedTime: 1783118742700
+  modifiedTime: 1783275123898
   lastModifiedBy: magehandpress000
 _key: '!items!mhpCheatDeath000'

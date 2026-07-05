@@ -4,65 +4,7 @@ type: feat
 _id: mhpRisk000000000
 img: icons/magic/control/buff-strength-muscle-damage-orange.webp
 system:
-  activities:
-    xjmo4tEARA3TpTUx:
-      type: utility
-      name: Risk Dice
-      _id: xjmo4tEARA3TpTUx
-      sort: 0
-      activation:
-        type: special
-        override: false
-        condition: ''
-      consumption:
-        scaling:
-          allowed: false
-        spellSlot: true
-        targets:
-          - type: itemUses
-            value: '1'
-            target: ''
-            scaling: {}
-      description:
-        chatFlavor: ''
-      duration:
-        units: inst
-        concentration: false
-        override: false
-      effects: []
-      range:
-        units: self
-        override: false
-        special: ''
-      target:
-        template:
-          contiguous: false
-          units: ft
-          type: ''
-          stationary: false
-        affects:
-          choice: false
-          type: ''
-        override: false
-        prompt: true
-      uses:
-        spent: 0
-        recovery:
-          - period: lr
-            type: recoverAll
-        max: '@scale.gunslinger.risk.number'
-      roll:
-        prompt: false
-        visible: false
-        name: ''
-        formula: ''
-      img: ''
-      flags: {}
-      visibility:
-        level: {}
-        requireAttunement: false
-        requireIdentification: false
-        requireMagic: false
+  activities: {}
   uses:
     spent: 0
     recovery:
@@ -72,20 +14,17 @@ system:
   description:
     value: >-
       <p>By 2nd level, you can perform incredible feats of daring that are fueled by special dice
-      called risk dice.</span></p><h3>Risk Dice</span></h3><p class="p1">You have four risk dice,
-      which are d8s. You gain additional risk dice, and your risk dice change as you gain levels in
-      this class, as shown in the Risk Dice column of the Gunslinger table. You regain all expended
-      risk dice when you finish a long rest.</span></p><h3>Using Risk Dice</span></h3><p><span
-      class="s1">Once per turn, you can expend a risk die to perform a deed of your choice. Your
-      deed options are detailed
-      @UUID[Compendium.mage-hand-press-core.classes14.Item.mhpDeeds00000000]{here}.</span></p><h3><span
-      class="s1">Saving Throws</span></h3><p>Some of your deeds require your target to make a saving
-      throw to resist the deed’s effects. The saving throw DC is calculated as follows:</span></p><p
-      class="p3" style="text-align:center"><span class="s1"><em><strong>Deed save DC</strong> = 8 +
-      your proficiency bonus + your Dexterity modifier</em></span></p><p></p><section
-      id="secret-0vU9F8p3TBM6wnDz" class="secret"><p><em><strong>*Foundry Note: </strong></em>This
-      feature tracks the number of Risk Die uses and will automatically scale by level.
-      </p></section>
+      called risk dice.</p><h5>Risk Dice</h5><p class="p1">You have four risk dice, which are d8s.
+      You gain additional risk dice, and your risk dice change as you gain levels in this class, as
+      shown in the Risk Dice column of the Gunslinger table. You regain all expended risk dice when
+      you finish a long rest.</p><h5>Using Risk Dice</h5><p><span class="s1">Once per turn, you can
+      expend a risk die to perform a deed of your choice. Your deed options are detailed at the
+      @UUID[Compendium.mage-hand-press-core.journal.JournalEntry.mhpGunslinger5e0.JournalEntryPage.mhpDeeds00000000]{end
+      of the class description}.</span></p><h5><span class="s1">Saving Throws</span></h5><p>Some of
+      your deeds require your target to make a saving throw to resist the deed’s effects. The saving
+      throw DC is calculated as follows:</p><p style="text-align:center" class="p3"><span
+      class="s1"><strong>Deed save DC</strong> = 8 + your proficiency bonus + your Dexterity
+      modifier</span></p>
     chat: ''
   identifier: risk
   source:
@@ -95,7 +34,31 @@ system:
     page: ''
     custom: ''
     license: ''
-  advancement: {}
+  advancement:
+    5HgZEYifL3Y1yoRv:
+      type: ItemGrant
+      title: Deeds
+      _id: 5HgZEYifL3Y1yoRv
+      configuration:
+        items:
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpBiteBullet000
+            optional: false
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpCoveringFire0
+            optional: false
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpDodgeRoll0000
+            optional: false
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpLimbShot00000
+            optional: false
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpSkinYourTeeth
+            optional: false
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpSteadyAim0000
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 2
+      hint: ''
   crewed: false
   enchant: {}
   prerequisites:
@@ -119,6 +82,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1775254057721
-  modifiedTime: 1783119098391
+  modifiedTime: 1783274119136
   lastModifiedBy: magehandpress000
 _key: '!items!mhpRisk000000000'

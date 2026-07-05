@@ -2,7 +2,7 @@ folder: IQV2AoF70GS2zJYP
 name: Steady Aim
 type: feat
 _id: mhpSteadyAim0000
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/skills/targeting/crosshair-scope-sniper-green.webp
 system:
   activities:
     wDl6ulidDbNVUgSP:
@@ -19,13 +19,10 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.mage-hand-press-core.classes14.Item.mhpRisk000000000
+            target: feat:risk
             scaling: {}
       description:
-        chatFlavor: >-
-          <strong><em>Steady Aim.</em></strong> On your turn, you can use a bonus action and expend
-          one risk die to double the normal and maximum range for the next ranged weapon attack you
-          make.
+        chatFlavor: ''
       duration:
         units: inst
         concentration: false
@@ -43,7 +40,7 @@ system:
           stationary: false
         affects:
           choice: false
-          type: ''
+          type: self
         override: false
         prompt: true
       uses:
@@ -59,10 +56,13 @@ system:
       img: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
       _id: wDl6ulidDbNVUgSP
   uses:
     spent: 0
@@ -103,7 +103,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1783120058726
-  modifiedTime: 1783120382220
+  modifiedTime: 1783275880899
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

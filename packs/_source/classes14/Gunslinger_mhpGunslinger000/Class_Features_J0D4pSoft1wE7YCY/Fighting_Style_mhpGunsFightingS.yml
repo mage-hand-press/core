@@ -13,16 +13,23 @@ system:
     value: >-
       <p>You adopt a particular style of gunfighting as your specialty. Choose one of the following
       options. You can’t take a Fighting Style option more than once, even if you later get to
-      choose again.</p><h3>Akimbo</h3><p>When you engage in two-weapon fighting with firearms, you
-      don’t take a penalty to the damage of the second attack.</p><h3>Bullseye</h3><p>You gain a +2
-      bonus to ranged attack rolls you make with firearms. The weapon must have the Sighted property
-      or have a normal range of 80 feet or longer to gain this benefit. This benefit doesn’t stack
-      with the Archery fighting style.</p><h3>Duelist</h3><p>While you are wielding a firearm in one
-      hand and nothing in the other, if you make a ranged weapon attack and exceed the target’s AC
-      by 5 or more, you deal one extra die of weapon damage. You can only use this ability once per
-      round.</p><h3>Shotgunner</h3><p>When you hit with a ranged weapon attack using a firearm that
-      has the Scatter property, you can reroll the lowest damage die, and you must use the new roll,
-      even if the new roll is worse than the original.</p>
+      choose again.</p>
+
+      <h5>Akimbo</h5>
+
+      <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpAkimbo0000000 inline]</p>
+
+      <h5>Bullseye</h5>
+
+      <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpBullseye00000 inline]</p>
+
+      <h5>Duelist</h5>
+
+      <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpDuelist000000 inline]</p>
+
+      <h5>Shotgunner</h5>
+
+      <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpShotgunner000 inline]</p>
     chat: ''
   identifier: fighting-style
   source:
@@ -32,7 +39,36 @@ system:
     page: ''
     custom: ''
     license: ''
-  advancement: {}
+  advancement:
+    Lkb05AAzIo0sgVDd:
+      type: ItemChoice
+      _id: Lkb05AAzIo0sgVDd
+      configuration:
+        allowDrops: false
+        choices:
+          '1':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpAkimbo0000000
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpBullseye00000
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpDuelist000000
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpShotgunner000
+        spell: null
+        type: feat
+        restriction:
+          type: class
+          list: []
+          subtype: fightingStyle
+      value:
+        added: {}
+        replaced: {}
+      title: Fighting Style
+      hint: >-
+        <p>You adopt a particular style of gunfighting as your specialty. Choose one of the
+        following options. You can’t take a Fighting Style option more than once, even if you later
+        get to choose again.</p>
+      flags: {}
   crewed: false
   enchant: {}
   prerequisites:
@@ -56,6 +92,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1775254057455
-  modifiedTime: 1783119031949
+  modifiedTime: 1783273873085
   lastModifiedBy: magehandpress000
 _key: '!items!mhpGunsFightingS'

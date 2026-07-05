@@ -10,9 +10,9 @@ system:
       _id: ViAtGv9vIKW0UUYS
       sort: 0
       activation:
-        type: special
+        type: ''
         override: false
-        condition: ''
+        condition: Whenever you score a critical hit
       consumption:
         scaling:
           allowed: false
@@ -20,7 +20,7 @@ system:
         targets:
           - type: itemUses
             value: '-1'
-            target: risk
+            target: feat:risk
             scaling: {}
       description:
         chatFlavor: ''
@@ -41,7 +41,7 @@ system:
           stationary: false
         affects:
           choice: false
-          type: ''
+          type: self
         override: false
         prompt: true
       uses:
@@ -53,14 +53,17 @@ system:
         visible: false
         name: ''
         formula: ''
-      name: ''
-      img: ''
+      name: Regain Risk Die
+      img: modules/mage-hand-press-core/assets/svg/restore-use.svg
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
   uses:
     spent: 0
     recovery: []
@@ -95,11 +98,7 @@ effects: []
 sort: 0
 ownership:
   default: 0
-flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
@@ -107,6 +106,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1775254057697
-  modifiedTime: 1783119003746
+  modifiedTime: 1783274709993
   lastModifiedBy: magehandpress000
 _key: '!items!mhpDireGambit000'

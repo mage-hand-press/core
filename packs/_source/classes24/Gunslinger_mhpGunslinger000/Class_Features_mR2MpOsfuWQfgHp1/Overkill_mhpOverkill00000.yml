@@ -15,13 +15,7 @@ system:
       <p>When you deal damage with a Ranged weapon that doesn’t add your ability modifier to the
       roll, you add your ability modifier nonetheless. If you already add your modifier to the
       damage roll, the target takes an extra 1d8 damage of the weapon’s type.</p><p>Note that
-      weapons that have the Firearm property don’t add your ability modifier to damage
-      rolls.</p><section id="secret-2TDbHbYCiJSnCsi8" class="secret"><p><em><strong>*Foundry
-      Note:</strong></em> This feature is not automated. When you gain this feature each of your
-      firearms will need the '-@abilities.dex.mod' removed from the damage formula. Then the weapon
-      will automatically add your ability modifier to your damage rolls. <br /><br />If you already
-      add your ability modifier to damage rolls, you will have to add the additional 1d8 to the
-      damage formula section of each of your Ranged weapons.</p></section>
+      weapons that have the Firearm property don’t add your ability modifier to damage rolls.</p>
     chat: ''
   identifier: overkill
   source:
@@ -55,6 +49,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1775254056270
-  modifiedTime: 1783118673270
+  modifiedTime: 1783277911971
   lastModifiedBy: magehandpress000
 _key: '!items!mhpOverkill00000'

@@ -12,10 +12,10 @@ system:
   description:
     value: >-
       <p>You’re adept at drawing and firing before others have time to react, granting you the
-      following benefits.</p><p><em><strong>Initiative.</strong></em> You have
-      <strong>Advantage</strong> on Initiative rolls.</p><p><em><strong>Double Draw.</strong></em>
-      You can draw or stow two weapons that lack the Two-Handed property when you would normally be
-      able to draw or stow only one.</p>
+      following benefits.</p><p><em><strong>Initiative.</strong></em> You have Advantage on
+      Initiative rolls.</p><p><em><strong>Double Draw.</strong></em> You can draw or stow two
+      weapons that lack the Two-Handed property when you would normally be able to draw or stow only
+      one.</p>
     chat: ''
   identifier: quick-draw
   source:
@@ -38,7 +38,48 @@ system:
   type:
     value: class
     subtype: ''
-effects: []
+effects:
+  - name: Quick Draw
+    img: icons/magic/control/silhouette-aura-energy.webp
+    origin: Compendium.mage-hand-press-core.classes24.Item.mhpQuickDraw0000
+    type: base
+    _id: pUU21ncHEYhHtNEK
+    system:
+      changes:
+        - key: system.attributes.init.roll.mode
+          type: add
+          value: 1
+          phase: initial
+          priority: null
+    disabled: false
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1783275307595
+      modifiedTime: 1783275315695
+      lastModifiedBy: magehandpress000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!mhpQuickDraw0000.pUU21ncHEYhHtNEK'
 sort: 100000
 ownership:
   default: 0
@@ -50,6 +91,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1775254055269
-  modifiedTime: 1783118866282
+  modifiedTime: 1783275303328
   lastModifiedBy: magehandpress000
 _key: '!items!mhpQuickDraw0000'

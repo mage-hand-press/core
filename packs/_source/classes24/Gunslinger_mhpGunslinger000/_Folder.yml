@@ -1,7 +1,7 @@
 type: Item
 folder: null
 name: Gunslinger
-color: null
+color: '#578d5b'
 sorting: a
 _id: mhpGunslinger000
 description: ''
@@ -12,7 +12,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1782442214354
-  modifiedTime: 1782442214354
+  modifiedTime: 1783275336313
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

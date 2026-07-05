@@ -2,7 +2,7 @@ folder: IQV2AoF70GS2zJYP
 name: Bite the Bullet
 type: feat
 _id: mhpBiteBullet000
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/life/heart-shadow-red.webp
 system:
   activities:
     zk6V19iOc0NV0ssE:
@@ -19,13 +19,10 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.mage-hand-press-core.classes14.Item.mhpRisk000000000
+            target: feat:risk
             scaling: {}
       description:
-        chatFlavor: >-
-          <strong><em>Bite the Bullet.</em></strong> As a bonus action on your turn, you can expend
-          one risk die to gain temporary hit points equal the number rolled on the die + your
-          Constitution modifier.
+        chatFlavor: ''
       duration:
         units: inst
         concentration: false
@@ -43,7 +40,7 @@ system:
           stationary: false
         affects:
           choice: false
-          type: ''
+          type: self
         override: false
         prompt: true
       uses:
@@ -65,10 +62,13 @@ system:
       img: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
       _id: zk6V19iOc0NV0ssE
   uses:
     spent: 0
@@ -109,7 +109,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1783120033100
-  modifiedTime: 1783120331004
+  modifiedTime: 1783275512749
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

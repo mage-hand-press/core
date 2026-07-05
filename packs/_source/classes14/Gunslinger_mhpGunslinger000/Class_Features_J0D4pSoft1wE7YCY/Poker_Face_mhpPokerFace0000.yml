@@ -11,9 +11,9 @@ system:
     max: ''
   description:
     value: >-
-      <p>Starting at 2nd level, you have <strong>advantage</strong> on ability checks and saving
-      throws made to prevent others from sensing your motives, perceiving your emotions, or reading
-      your thoughts.</p>
+      <p>Starting at 2nd level, you have advantage on ability checks and saving throws made to
+      prevent others from sensing your motives, perceiving your emotions, or reading your
+      thoughts.</p>
     chat: ''
   identifier: poker-face
   source:
@@ -48,6 +48,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1775254058067
-  modifiedTime: 1783119089405
+  modifiedTime: 1783273853437
   lastModifiedBy: magehandpress000
 _key: '!items!mhpPokerFace0000'

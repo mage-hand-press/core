@@ -61,7 +61,7 @@ pages:
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpGunslinger55e.mhpGunslinger000'
-  - sort: -50000
+  - sort: 150000
     name: Firearms
     type: text
     _id: mhpFirearms00000
@@ -124,10 +124,53 @@ pages:
       systemVersion: 5.3.3
       lastModifiedBy: magehandpress000
       createdTime: 1783115751034
-      modifiedTime: 1783115751034
+      modifiedTime: 1783277474600
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpGunslinger55e.mhpFirearms00000'
+  - sort: 50000
+    name: Maneuver Options
+    type: text
+    _id: mhpManeuverOptio
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>The maneuvers are presented in alphabetical
+        order.</p><h3>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpBiteBullet000]{Bite
+        the Bullet}</h3><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpBiteBullet000
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpBlindfire0000]{Blindfire}</h3><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpBlindfire0000
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpDodgeRoll0000]{Dodge
+        Roll}</h3><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpDodgeRoll0000
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpGrazingShot00]{Grazing
+        Shot}</h3><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpGrazingShot00
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpMaverickSpiri]{Maverick
+        Spirit}</h3><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpMaverickSpiri
+        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpSkinYourTeeth]{Skin
+        of Your Teeth}</h3><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpSkinYourTeeth
+        inline]</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1783277471707
+      modifiedTime: 1783277664073
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpGunslinger55e.mhpManeuverOptio'
 folder: mhpClasses000000
 categories: []
 ownership:

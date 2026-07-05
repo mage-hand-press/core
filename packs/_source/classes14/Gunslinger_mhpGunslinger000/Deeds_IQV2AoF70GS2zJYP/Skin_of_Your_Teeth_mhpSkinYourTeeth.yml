@@ -2,7 +2,7 @@ folder: IQV2AoF70GS2zJYP
 name: Skin of Your Teeth
 type: feat
 _id: mhpSkinYourTeeth
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/skills/movement/feet-winged-boots-glowing-yellow.webp
 system:
   activities:
     KoMniwvi88c84Sy8:
@@ -11,7 +11,7 @@ system:
       activation:
         type: reaction
         override: false
-        condition: ''
+        condition: When an attacker you can see makes an attack roll against you
       consumption:
         scaling:
           allowed: false
@@ -19,21 +19,19 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.mage-hand-press-core.classes14.Item.mhpRisk000000000
+            target: feat:risk
             scaling: {}
       description:
-        chatFlavor: >-
-          <strong><em>Skin of Your Teeth.</em></strong> When an attacker you can see makes an attack
-          roll against you, you can expend a risk die as a reaction to dodge out of harm’s way at
-          the last second. You add the risk die to your AC against this attack, potentially causing
-          it to miss.
+        chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
       effects:
         - _id: 1LQTrHRLAIfhH1vR
-          level: {}
+          level:
+            min: null
+            max: null
       range:
         units: self
         override: false
@@ -46,7 +44,8 @@ system:
           stationary: false
         affects:
           choice: false
-          type: ''
+          type: self
+          special: ''
         override: false
         prompt: true
       uses:
@@ -56,8 +55,8 @@ system:
       roll:
         prompt: false
         visible: false
-        formula: ''
-        name: ''
+        formula: '@scale.gunslinger.risk.die'
+        name: AC Increase
       name: Skin of Your Teeth
       img: ''
       flags: {}
@@ -152,7 +151,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1783120053419
-  modifiedTime: 1783120392561
+  modifiedTime: 1783275848442
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

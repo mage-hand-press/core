@@ -20,7 +20,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.mage-hand-press-core.classes24.Item.mhpRisk000000000
+            target: feat:risk
             scaling: {}
       description:
         chatFlavor: ''
@@ -30,7 +30,7 @@ system:
         override: false
         value: '1'
       effects:
-        - _id: oH7Abfigw5Bd6jxt
+        - _id: jWcETVj762ffsSfX
           level: {}
       range:
         units: self
@@ -44,7 +44,7 @@ system:
           stationary: false
         affects:
           choice: false
-          type: ''
+          type: self
         override: false
         prompt: true
       uses:
@@ -60,10 +60,13 @@ system:
       img: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
   uses:
     spent: 0
     recovery: []
@@ -134,6 +137,47 @@ effects:
     showIcon: 1
     folder: null
     _key: '!items.effects!mhpBlindfire0000.mhpBlindfire0000'
+  - name: Blindsight
+    img: icons/magic/perception/eye-ringed-glow-angry-large-red.webp
+    origin: Compendium.mage-hand-press-core.classes24.Item.mhpBlindfire0000
+    transfer: false
+    _id: jWcETVj762ffsSfX
+    type: base
+    system:
+      changes:
+        - key: system.attributes.senses.ranges.blindsight
+          type: upgrade
+          value: 30
+          phase: initial
+          priority: null
+    disabled: false
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: turnEnd
+      expired: false
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1783276623734
+      modifiedTime: 1783276658977
+      lastModifiedBy: magehandpress000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!mhpBlindfire0000.jWcETVj762ffsSfX'
 sort: 0
 ownership:
   default: 0
@@ -145,6 +189,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1775254055313
-  modifiedTime: 1783118836424
+  modifiedTime: 1783276623757
   lastModifiedBy: magehandpress000
 _key: '!items!mhpBlindfire0000'

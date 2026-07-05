@@ -1,7 +1,7 @@
 type: Item
 folder: mhpGunslinger000
 name: Class Features
-color: null
+color: '#3a6f3f'
 sorting: a
 _id: mR2MpOsfuWQfgHp1
 description: ''
@@ -10,10 +10,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.0.4
   createdTime: 1762365830942
-  modifiedTime: 1774634809577
+  modifiedTime: 1783275347727
   lastModifiedBy: magehandpress000
 _key: '!folders!mR2MpOsfuWQfgHp1'

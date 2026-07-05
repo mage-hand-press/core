@@ -2,16 +2,84 @@ folder: cmqr9h2mrpHVbqDj
 name: Disguised Shot
 type: feat
 _id: mhpDisguisedShot
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/environment/wilderness/wall-ruins.webp
 system:
-  activities: {}
+  activities:
+    qmzJvfl6MuVT7Oeh:
+      type: check
+      name: Disguise
+      _id: qmzJvfl6MuVT7Oeh
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: When you make a ranged weapon attack
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: feat:risk
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      check:
+        associated:
+          - dec
+        dc:
+          calculation: ''
+          formula: ''
+        ability: ''
   uses:
     spent: 0
     recovery: []
     max: ''
   advancement: {}
   description:
-    value: ''
+    value: >-
+      <p>Once per turn when you make a ranged weapon attack, you can spend a risk die to hide the
+      source of the attack. Though this does not silence the attack, it does obscure other markers
+      of the attack, such as muzzle flare, which might implicate you as the attacker. Make a
+      Charisma (Deception) check and add the risk die to the roll, opposed by the highest passive
+      Perception score of the spectators. On a success, no spectator to the attack can identify its
+      source.</p>
     chat: ''
   identifier: disguised-shot
   source:
@@ -42,7 +110,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1783120167243
-  modifiedTime: 1783120179217
+  modifiedTime: 1783276948603
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

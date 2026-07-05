@@ -2,7 +2,7 @@ folder: IQV2AoF70GS2zJYP
 name: Covering Fire
 type: feat
 _id: mhpCoveringFire0
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/skills/ranged/tracers-triple-orange.webp
 system:
   activities:
     P6z8UXdJJziRn0Rh:
@@ -11,7 +11,7 @@ system:
       activation:
         type: bonus
         override: false
-        condition: ''
+        condition: When you hit a creature with a ranged weapon attack
       consumption:
         scaling:
           allowed: false
@@ -19,7 +19,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.mage-hand-press-core.classes14.Item.mhpRisk000000000
+            target: feat:risk
             scaling: {}
       description:
         chatFlavor: >-
@@ -28,13 +28,13 @@ system:
           die and subtract it from the next attack roll the creature makes before the start of your
           next turn.
       duration:
-        units: round
+        units: inst
         concentration: false
         override: false
         value: '1'
       effects: []
       range:
-        units: self
+        units: any
         override: false
         special: ''
       target:
@@ -45,7 +45,9 @@ system:
           stationary: false
         affects:
           choice: false
-          type: ''
+          type: creature
+          count: '1'
+          special: ''
         override: false
         prompt: true
       uses:
@@ -54,17 +56,20 @@ system:
         max: ''
       roll:
         prompt: false
-        visible: false
+        visible: true
         formula: '@scale.gunslinger.risk.die'
         name: Covering Fire
       name: Covering Fire
       img: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
       _id: P6z8UXdJJziRn0Rh
   uses:
     spent: 0
@@ -106,7 +111,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1783120038328
-  modifiedTime: 1783120342179
+  modifiedTime: 1783275625411
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

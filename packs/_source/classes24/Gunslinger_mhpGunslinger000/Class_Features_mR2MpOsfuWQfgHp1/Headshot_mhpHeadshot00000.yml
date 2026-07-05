@@ -13,7 +13,7 @@ system:
       activation:
         type: special
         override: false
-        condition: ''
+        condition: When you score a Critical Hit using a Ranged weapon
       consumption:
         scaling:
           allowed: false
@@ -61,16 +61,32 @@ system:
             number: 10
             denomination: 10
             bonus: ''
-            types: []
+            types:
+              - bludgeoning
+              - piercing
+              - slashing
+              - acid
+              - cold
+              - fire
+              - force
+              - lightning
+              - necrotic
+              - poison
+              - psychic
+              - radiant
+              - thunder
             scaling:
               number: 1
       img: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
     tp61Q8bOEjgcobLz:
       type: utility
       name: Restore Use
@@ -87,7 +103,7 @@ system:
         targets:
           - type: itemUses
             value: '3'
-            target: Compendium.mage-hand-press-core.classes24.Item.mhpRisk000000000
+            target: feat:risk
             scaling: {}
           - type: itemUses
             value: '-1'
@@ -112,7 +128,7 @@ system:
           stationary: false
         affects:
           choice: false
-          type: ''
+          type: self
         override: false
         prompt: false
       uses:
@@ -124,13 +140,16 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: ''
+      img: modules/mage-hand-press-core/assets/svg/restore-use.svg
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
   uses:
     spent: 0
     recovery:
@@ -178,6 +197,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1775254055642
-  modifiedTime: 1783118677226
+  modifiedTime: 1783275061619
   lastModifiedBy: magehandpress000
 _key: '!items!mhpHeadshot00000'

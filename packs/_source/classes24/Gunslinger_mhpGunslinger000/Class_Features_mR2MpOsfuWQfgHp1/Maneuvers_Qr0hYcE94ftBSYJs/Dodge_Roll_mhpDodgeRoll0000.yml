@@ -2,7 +2,7 @@ folder: Qr0hYcE94ftBSYJs
 name: Dodge Roll
 type: feat
 _id: mhpDodgeRoll0000
-img: icons/skills/movement/figure-running-gray.webp
+img: icons/skills/movement/ball-spinning-blue.webp
 system:
   activities:
     iyfjESWhLll4lFA8:
@@ -20,7 +20,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.mage-hand-press-core.classes24.Item.mhpRisk000000000
+            target: feat:risk
             scaling: {}
       description:
         chatFlavor: ''
@@ -30,10 +30,10 @@ system:
         override: false
       effects: []
       range:
-        units: ft
+        units: self
         override: false
         special: ''
-        value: '15'
+        value: ''
       target:
         template:
           contiguous: false
@@ -56,13 +56,16 @@ system:
         name: ''
         formula: ''
       _id: iyfjESWhLll4lFA8
-      img: null
+      img: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
   uses:
     spent: 0
     recovery: []
@@ -105,6 +108,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1775254055179
-  modifiedTime: 1783118834250
+  modifiedTime: 1783275676705
   lastModifiedBy: magehandpress000
 _key: '!items!mhpDodgeRoll0000'

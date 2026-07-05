@@ -1,7 +1,7 @@
 type: Item
 folder: null
 name: Warmage
-color: '#ae8941'
+color: '#578d5b'
 sorting: a
 _id: mhpWarmage000000
 description: ''
@@ -12,7 +12,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1782439867694
-  modifiedTime: 1782440679815
+  modifiedTime: 1783275338441
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

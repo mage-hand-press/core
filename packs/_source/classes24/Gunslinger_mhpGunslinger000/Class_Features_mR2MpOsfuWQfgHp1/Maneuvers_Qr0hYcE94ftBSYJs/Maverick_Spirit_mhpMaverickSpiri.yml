@@ -7,13 +7,13 @@ system:
   activities:
     U0sDiGA4kRHJZ8jv:
       type: utility
-      name: Maverick Spirit
+      name: Boost
       _id: U0sDiGA4kRHJZ8jv
       sort: 0
       activation:
         type: special
         override: false
-        condition: ''
+        condition: When you make an Intelligence, Wisdom, or Charisma saving throw
       consumption:
         scaling:
           allowed: false
@@ -21,7 +21,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.mage-hand-press-core.classes24.Item.mhpRisk000000000
+            target: feat:risk
             scaling: {}
       description:
         chatFlavor: ''
@@ -42,7 +42,8 @@ system:
           stationary: false
         affects:
           choice: false
-          type: ''
+          type: self
+          special: ''
         override: false
         prompt: false
       uses:
@@ -52,15 +53,18 @@ system:
       roll:
         prompt: false
         visible: false
-        name: Maverick Spirit
-        formula: '@scale.gunslinger2024.risk-dice'
+        name: Save Bonus
+        formula: '@scale.gunslinger.risk.die'
       img: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
   uses:
     spent: 0
     recovery: []
@@ -103,6 +107,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1775254055559
-  modifiedTime: 1783118830141
+  modifiedTime: 1783276547699
   lastModifiedBy: magehandpress000
 _key: '!items!mhpMaverickSpiri'

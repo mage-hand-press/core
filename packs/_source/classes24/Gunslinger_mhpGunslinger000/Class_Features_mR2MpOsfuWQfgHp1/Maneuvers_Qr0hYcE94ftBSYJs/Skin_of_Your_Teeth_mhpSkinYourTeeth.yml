@@ -13,7 +13,7 @@ system:
       activation:
         type: reaction
         override: false
-        condition: ''
+        condition: When a creature you can see hits you with an attack roll
       consumption:
         scaling:
           allowed: false
@@ -21,7 +21,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.mage-hand-press-core.classes24.Item.mhpRisk000000000
+            target: feat:risk
             scaling: {}
       description:
         chatFlavor: ''
@@ -42,7 +42,8 @@ system:
           stationary: false
         affects:
           choice: false
-          type: ''
+          type: self
+          special: ''
         override: false
         prompt: false
       uses:
@@ -52,15 +53,18 @@ system:
       roll:
         prompt: false
         visible: false
-        name: Temporary AC
-        formula: '@attributes.ac.value + @scale.gunslinger2024.risk-die'
+        name: AC Increase
+        formula: '@scale.gunslinger.risk.die'
       img: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
   uses:
     spent: 0
     recovery: []
@@ -103,6 +107,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1775254056425
-  modifiedTime: 1783118826902
+  modifiedTime: 1783275849032
   lastModifiedBy: magehandpress000
 _key: '!items!mhpSkinYourTeeth'

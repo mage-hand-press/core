@@ -222,35 +222,6 @@ system:
       value: {}
       flags: {}
       hint: ''
-    Lkb05AAzIo0sgVDd:
-      type: ItemChoice
-      _id: Lkb05AAzIo0sgVDd
-      configuration:
-        allowDrops: false
-        choices:
-          '1':
-            count: 1
-            replacement: false
-        pool:
-          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpAkimbo0000000
-          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpBullseye00000
-          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpDuelist000000
-          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpShotgunner000
-        spell: null
-        type: feat
-        restriction:
-          type: class
-          list: []
-          subtype: fightingStyle
-      value:
-        added: {}
-        replaced: {}
-      title: Fighting Style
-      hint: >-
-        <p>You adopt a particular style of gunfighting as your specialty. Choose one of the
-        following options. You can’t take a Fighting Style option more than once, even if you later
-        get to choose again.</p>
-      flags: {}
     AdcVITNsEZCeDKET:
       type: ItemGrant
       _id: AdcVITNsEZCeDKET
@@ -281,6 +252,7 @@ system:
       hint: ''
       value: {}
       flags: {}
+      classRestriction: ''
     FfaxDGaOtI8KxZzI:
       type: Trait
       _id: FfaxDGaOtI8KxZzI
@@ -295,6 +267,7 @@ system:
       hint: ''
       value: {}
       flags: {}
+      classRestriction: ''
     YoiFwd6QEEGbwzkc:
       type: Trait
       _id: YoiFwd6QEEGbwzkc
@@ -311,6 +284,7 @@ system:
       hint: ''
       value: {}
       flags: {}
+      classRestriction: primary
     uLI0bg8dYrxZwtlB:
       type: Trait
       _id: uLI0bg8dYrxZwtlB
@@ -326,6 +300,7 @@ system:
       hint: ''
       value: {}
       flags: {}
+      classRestriction: primary
     YZguQ6BEhPj8Wpk0:
       type: Trait
       _id: YZguQ6BEhPj8Wpk0
@@ -351,6 +326,7 @@ system:
       hint: ''
       value: {}
       flags: {}
+      classRestriction: primary
     WyTc60Vk6EFu8Sal:
       type: ItemGrant
       _id: WyTc60Vk6EFu8Sal
@@ -426,9 +402,13 @@ system:
         document: null
         uuid: null
       level: 3
-      title: ''
-      hint: ''
+      title: Gunslinger’s Creed
+      hint: >-
+        <p>By the time gunslingers reach 3rd level, they embrace a way of living, known as their
+        creed, which guides their judgments and their unique brand of gunslinging. Your choice
+        grants you features at 3rd level and again at 7th, 10th, and 14th level.</p>
       flags: {}
+      classRestriction: ''
     cbtehQ959F20x80Z:
       type: AbilityScoreImprovement
       _id: cbtehQ959F20x80Z
@@ -666,6 +646,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1775254057106
-  modifiedTime: 1783118913535
+  modifiedTime: 1783274153693
   lastModifiedBy: magehandpress000
 _key: '!items!mhpGunslinger000'

@@ -18,8 +18,9 @@ system:
           allowed: false
         spellSlot: true
         targets:
-          - type: activityUses
+          - type: itemUses
             value: '1'
+            target: ''
             scaling: {}
       description:
         chatFlavor: ''
@@ -29,7 +30,7 @@ system:
         override: false
       effects: []
       range:
-        units: self
+        units: any
         override: false
         special: ''
       target:
@@ -42,18 +43,17 @@ system:
           choice: false
           type: creature
           count: '1'
-          special: ''
+          special: Not Elemental, Ooze, Undead, or a creature that lacks a nervous system or vital organs
         override: false
         prompt: true
       uses:
         spent: 0
-        recovery:
-          - period: sr
-            type: recoverAll
-        max: '1'
+        recovery: []
+        max: ''
       damage:
         critical:
           allow: false
+          bonus: ''
         parts:
           - custom:
               enabled: false
@@ -61,21 +61,39 @@ system:
             number: 10
             denomination: 10
             bonus: ''
-            types: []
+            types:
+              - bludgeoning
+              - piercing
+              - slashing
+              - acid
+              - cold
+              - fire
+              - force
+              - lightning
+              - necrotic
+              - poison
+              - psychic
+              - radiant
+              - thunder
             scaling:
               number: 1
       name: ''
       img: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
   uses:
     spent: 0
-    recovery: []
-    max: ''
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
   description:
     value: >-
       <p>At 20th level, when you score a critical hit against a creature with a firearm, you can
@@ -109,11 +127,7 @@ effects: []
 sort: 0
 ownership:
   default: 0
-flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
@@ -121,6 +135,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1775254057564
-  modifiedTime: 1783119074706
+  modifiedTime: 1783274964269
   lastModifiedBy: magehandpress000
 _key: '!items!mhpHeadShot00000'

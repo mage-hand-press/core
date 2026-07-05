@@ -2,16 +2,79 @@ folder: PSxNbkLRuKXh8iNG
 name: Curved Trajectory
 type: feat
 _id: mhpCurvedTraject
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/movement/trail-streak-pink.webp
 system:
-  activities: {}
+  activities:
+    NAzqhohi48LLL5h6:
+      type: utility
+      name: Curve
+      _id: NAzqhohi48LLL5h6
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: >-
+          When you make an attack roll with a ranged weapon against a target within the weapon’s
+          normal range
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: feat:risk
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
   uses:
     spent: 0
     recovery: []
     max: ''
   advancement: {}
   description:
-    value: ''
+    value: >-
+      <p>When you make an attack with a ranged weapon against a target within the weapon’s normal
+      range, you can expend a risk die to ignore half and three-quarters cover.</p>
     chat: ''
   identifier: curved-trajectory
   source:
@@ -42,7 +105,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1783120149115
-  modifiedTime: 1783120205080
+  modifiedTime: 1783276775747
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

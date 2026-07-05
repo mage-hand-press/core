@@ -2,7 +2,7 @@ folder: IQV2AoF70GS2zJYP
 name: Dodge Roll
 type: feat
 _id: mhpDodgeRoll0000
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/skills/movement/ball-spinning-blue.webp
 system:
   activities:
     WbdPNWWapCE9grmu:
@@ -19,14 +19,10 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.mage-hand-press-core.classes14.Item.mhpRisk000000000
+            target: feat:risk
             scaling: {}
       description:
-        chatFlavor: >-
-          <strong><em>Dodge Roll.</em></strong> You can expend one risk die as a bonus action to
-          move up to 15 feet and reload any firearm you are holding. This movement doesn’t provoke
-          opportunity attacks, ignores difficult terrain, and allows you to move through a hostile
-          creature’s space, as long as you don’t end your movement there.
+        chatFlavor: ''
       duration:
         units: inst
         concentration: false
@@ -44,7 +40,7 @@ system:
           stationary: false
         affects:
           choice: false
-          type: ''
+          type: self
         override: false
         prompt: true
       uses:
@@ -60,10 +56,13 @@ system:
       img: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
       _id: WbdPNWWapCE9grmu
   uses:
     spent: 0
@@ -106,7 +105,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1783120042661
-  modifiedTime: 1783120353446
+  modifiedTime: 1783275666291
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

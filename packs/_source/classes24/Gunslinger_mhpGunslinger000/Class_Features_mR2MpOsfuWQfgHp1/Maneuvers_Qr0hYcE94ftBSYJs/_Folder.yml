@@ -1,7 +1,7 @@
 type: Item
 folder: mR2MpOsfuWQfgHp1
 name: Maneuvers
-color: null
+color: '#1c5324'
 sorting: a
 _id: Qr0hYcE94ftBSYJs
 description: ''
@@ -10,8 +10,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.350'
+  coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.1.10
-  lastModifiedBy: null
+  lastModifiedBy: magehandpress000
+  createdTime: 1783275352914
+  modifiedTime: 1783275352914
 _key: '!folders!Qr0hYcE94ftBSYJs'

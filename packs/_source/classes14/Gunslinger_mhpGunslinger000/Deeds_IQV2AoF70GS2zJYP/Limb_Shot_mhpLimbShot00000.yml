@@ -2,7 +2,7 @@ folder: IQV2AoF70GS2zJYP
 name: Limb Shot
 type: feat
 _id: mhpLimbShot00000
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/skills/wounds/bone-broken-knee-beam.webp
 system:
   activities:
     k0QC07Vm9sz9Sqbj:
@@ -11,7 +11,7 @@ system:
       activation:
         type: bonus
         override: false
-        condition: ''
+        condition: When you hit a creature with a ranged weapon attack
       consumption:
         scaling:
           allowed: false
@@ -19,22 +19,17 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.mage-hand-press-core.classes14.Item.mhpRisk000000000
+            target: feat:risk
             scaling: {}
       description:
-        chatFlavor: >-
-          <strong><em>Limb Shot.</em></strong> When you hit a creature with a ranged weapon attack,
-          you can expend one risk die as a bonus action and aim for one of its limbs, attempting to
-          force it to drop one item of your choice that it’s holding. The target must make a
-          Constitution saving throw. On a failed save, it drops the object you choose. The object
-          lands at its feet.
+        chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
       effects: []
       range:
-        units: self
+        units: any
         override: false
         special: ''
       target:
@@ -67,10 +62,13 @@ system:
       img: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
       _id: k0QC07Vm9sz9Sqbj
   uses:
     spent: 0
@@ -81,7 +79,7 @@ system:
     value: >-
       <p>When you hit a creature with a ranged weapon attack, you can expend one risk die as a bonus
       action and aim for one of its limbs, attempting to force it to drop one item of your choice
-      that it’s holding. The target must make a [[/save con]] saving throw. On a failed save, it
+      that it’s holding. The target must make a Constitution saving throw. On a failed save, it
       drops the object you choose. The object lands at its feet.</p>
     chat: ''
   identifier: limb-shot
@@ -113,7 +111,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1783120047576
-  modifiedTime: 1783120362964
+  modifiedTime: 1783275742618
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

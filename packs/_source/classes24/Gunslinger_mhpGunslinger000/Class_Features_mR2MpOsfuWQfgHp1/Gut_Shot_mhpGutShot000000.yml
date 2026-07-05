@@ -11,9 +11,9 @@ system:
       _id: 3xRSYJ5dd2iJzNf3
       sort: 0
       activation:
-        type: special
+        type: ''
         override: false
-        condition: ''
+        condition: Whenever you score a Critical Hit against a creature with a ranged attack using a weapon
       consumption:
         scaling:
           allowed: false
@@ -27,10 +27,10 @@ system:
         override: false
         value: '1'
       effects:
-        - _id: seOhSt5tiTZvW00x
+        - _id: GdsJFIVpy9TbGBRd
           level: {}
       range:
-        units: spec
+        units: any
         override: false
         special: ''
       target:
@@ -43,7 +43,7 @@ system:
           choice: false
           type: creature
           count: '1'
-          special: ''
+          special: Large or smallerr
         override: false
         prompt: false
       uses:
@@ -58,10 +58,13 @@ system:
       img: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
   uses:
     spent: 0
     recovery: []
@@ -72,7 +75,7 @@ system:
       <p>Whenever you score a Critical Hit against a Large or smaller creature with a ranged attack
       using a weapon, the projectile lodges itself in the target. For 1 minute or until the target
       replaces one of its attacks with dislodging the projectile, its Speed is halved and it has
-      <strong>Disadvantage</strong> on attack rolls.</p>
+      Disadvantage on attack rolls.</p>
     chat: ''
   identifier: gut-shot
   source:
@@ -98,46 +101,63 @@ effects:
     img: icons/skills/wounds/injury-pain-body-orange.webp
     origin: Compendium.mage-hand-press-core.classes24.Item.mhpGutShot000000
     transfer: false
-    _id: mhpGutShot000000
+    _id: GdsJFIVpy9TbGBRd
     type: base
     system:
       changes:
         - key: system.attributes.movement.walk
-          value: 0.5
-          priority: null
           type: multiply
+          value: 0.5
+          phase: initial
+          priority: null
+        - key: system.attributes.movement.burrrow
+          type: multiply
+          value: 0.5
+          phase: initial
+          priority: null
+        - key: system.attributes.movement.climb
+          type: multiply
+          value: 0.5
+          phase: initial
+          priority: null
+        - key: system.attributes.movement.fly
+          type: multiply
+          value: 0.5
+          phase: initial
+          priority: null
+        - key: system.attributes.movement.swim
+          type: multiply
+          value: 0.5
+          phase: initial
+          priority: null
     disabled: false
+    start: null
     duration:
-      value: 10
-      units: rounds
-      expiry: turnStart
+      value: 1
+      units: minutes
+      expiry: null
       expired: false
-    description: >-
-      <p>Whenever you score a Critical Hit against a Large or smaller creature with a ranged attack
-      using a weapon, the projectile lodges itself in the target. For 1 minute or until the target
-      replaces one of its attacks with dislodging the projectile, its Speed is halved and it has
-      Disadvantage on attack rolls.</p>
+    description: ''
     tint: '#ffffff'
     statuses: []
+    showIcon: 1
+    folder: null
     sort: 0
     flags:
       dnd5e:
         riders:
           statuses: []
     _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1783274415956
+      modifiedTime: 1783277786239
+      lastModifiedBy: magehandpress000
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '14.364'
-      systemId: dnd5e
-      systemVersion: 5.3.1
-      lastModifiedBy: null
-      createdTime: null
-      modifiedTime: null
-    start: null
-    showIcon: 1
-    folder: null
-    _key: '!items.effects!mhpGutShot000000.mhpGutShot000000'
+    _key: '!items.effects!mhpGutShot000000.GdsJFIVpy9TbGBRd'
 sort: 0
 ownership:
   default: 0
@@ -149,6 +169,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1775254055228
-  modifiedTime: 1783118682442
+  modifiedTime: 1783274415980
   lastModifiedBy: magehandpress000
 _key: '!items!mhpGutShot000000'
