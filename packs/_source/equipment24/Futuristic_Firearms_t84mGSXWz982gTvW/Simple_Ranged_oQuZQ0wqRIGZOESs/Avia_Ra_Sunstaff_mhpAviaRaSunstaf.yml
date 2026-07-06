@@ -1,0 +1,296 @@
+folder: oQuZQ0wqRIGZOESs
+name: Avia-Ra Sunstaff
+type: weapon
+_id: mhpAviaRaSunstaf
+img: icons/weapons/staves/staff-orante-gold.webp
+system:
+  activities:
+    PbPcQ01VcVwEd7S5:
+      _id: PbPcQ01VcVwEd7S5
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ''
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      name: ''
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    bm8erQf12647dhfd:
+      type: attack
+      name: Bludgeon (1d6)
+      _id: bm8erQf12647dhfd
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: ft
+        override: true
+        special: ''
+        value: '5'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: '@mod'
+            types:
+              - bludgeoning
+            scaling:
+              number: 1
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    T4r9gsJq9alqu13m:
+      type: attack
+      name: Bludgeon (1d8)
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: ft
+        override: true
+        value: '5'
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 8
+            bonus: '@mod'
+            types:
+              - bludgeoning
+            scaling:
+              number: 1
+      _id: T4r9gsJq9alqu13m
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p><span class="s1">This long staff, forked at its end near a prominent gemstone, is a blaster
+      in its own right. When used in expert hands, the Sunstaff can bludgeon, trip, and strike foes
+      as a Quarterstaff, only to be squeezed in both hands to fire a burst of hot plasma.</span></p>
+    chat: ''
+  identifier: avia-ra-sunstaff
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 6
+    units: lb
+  price:
+    value: 250
+    denomination: gp
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  ammunition: {}
+  armor: {}
+  damage:
+    base:
+      types:
+        - radiant
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: 2
+      denomination: 6
+      bonus: '-@abilities.dex.mod'
+    versatile:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+  properties:
+    - blaster
+    - fir
+    - two
+  proficient: null
+  range:
+    reach: null
+    units: ft
+    value: 80
+    long: 320
+  type:
+    value: simpleR
+    baseItem: aviaRaSunstaff
+  mastery: bludgeon
+  crew:
+    value: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254059370
+  modifiedTime: 1775256970066
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpAviaRaSunstaf'

@@ -1,0 +1,149 @@
+folder: FwstaPVCJemDYJrL
+name: Magnus
+type: weapon
+_id: mhpMagnus0000000
+img: icons/magic/light/explosion-star-small-orange.webp
+system:
+  activities:
+    ibmNLTvUabqSxnbo:
+      _id: ibmNLTvUabqSxnbo
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ''
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      name: ''
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p><span class="s1">This impressive handgun weighs almost twice that of a Repeater. Its
+      infamous heft, recoil, and stopping power make it a favorite of spacers that accept no
+      compromises.</span></p>
+    chat: ''
+  identifier: magnus
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 6
+    units: lb
+  price:
+    value: 700
+    denomination: gp
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  ammunition: {}
+  armor: {}
+  damage:
+    base:
+      types:
+        - radiant
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: 2
+      denomination: 8
+      bonus: '-@abilities.dex.mod'
+    versatile:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+  properties:
+    - blaster
+    - cooldown
+    - fir
+    - hvy
+  proficient: null
+  range:
+    reach: null
+    units: ft
+    value: 30
+    long: 120
+  type:
+    value: martialR
+    baseItem: magnus
+  mastery: overheat
+  crew:
+    value: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254059428
+  modifiedTime: 1775256950314
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpMagnus0000000'

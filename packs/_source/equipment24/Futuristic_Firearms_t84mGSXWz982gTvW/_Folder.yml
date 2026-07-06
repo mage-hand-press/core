@@ -1,0 +1,18 @@
+type: Item
+folder: null
+name: Futuristic Firearms
+color: null
+sorting: m
+_id: t84mGSXWz982gTvW
+description: ''
+sort: 300000
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.1.10
+  lastModifiedBy: magehandpress000
+  modifiedTime: 1775256987023
+_key: '!folders!t84mGSXWz982gTvW'

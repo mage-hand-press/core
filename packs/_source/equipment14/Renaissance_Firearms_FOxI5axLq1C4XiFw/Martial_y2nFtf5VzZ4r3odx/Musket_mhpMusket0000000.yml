@@ -1,0 +1,152 @@
+folder: y2nFtf5VzZ4r3odx
+name: Musket
+type: weapon
+_id: mhpMusket0000000
+img: icons/weapons/guns/gun-purple.webp
+system:
+  activities:
+    T5mXRNvWZfi5Tbsv:
+      _id: T5mXRNvWZfi5Tbsv
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ''
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      name: ''
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: ''
+    chat: ''
+  identifier: musket
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 10
+    units: lb
+  price:
+    value: 175
+    denomination: gp
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  ammunition:
+    type: musketBall
+  armor: {}
+  damage:
+    base:
+      types:
+        - piercing
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: 2
+      denomination: 8
+      bonus: ''
+    versatile:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+  properties:
+    - amm
+    - dry
+    - lod
+    - misfire
+    - two
+  proficient: null
+  range:
+    reach: null
+    units: ft
+    value: 80
+    long: 320
+  type:
+    value: martialFirearm
+    baseItem: musket
+  mastery: ''
+  crew:
+    value: []
+effects: []
+sort: 100000
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254060472
+  modifiedTime: 1775257341202
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpMusket0000000'

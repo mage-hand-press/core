@@ -1,0 +1,145 @@
+folder: FwstaPVCJemDYJrL
+name: Swarm Pistol
+type: weapon
+_id: mhpSwarmPistol00
+img: icons/magic/light/projectile-needles-salvo-white.webp
+system:
+  activities:
+    3HufTVaBEeUKVCuE:
+      _id: 3HufTVaBEeUKVCuE
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ''
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      name: ''
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: "<p><span class=\"s1\">This handheld blaster, styled much like a Repeater, has a wickedly fast automatic fire, capable of spewing dozens of rays in seconds. Dexterous users might even find it possible to use one in each hand for a dazzling spectacle of plasma bolts.</span><span class=\"Apple-converted-space\">\_</span></p>"
+    chat: ''
+  identifier: swarm-pistol
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  ammunition: {}
+  armor: {}
+  damage:
+    base:
+      types:
+        - radiant
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: 2
+      denomination: 4
+      bonus: '-@abilities.dex.mod'
+    versatile:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+  properties:
+    - blaster
+    - fir
+    - lgt
+  proficient: null
+  range:
+    reach: null
+    units: ft
+    value: 20
+    long: 60
+  type:
+    value: martialR
+    baseItem: swarmPistol
+  mastery: automatic
+  crew:
+    value: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254059321
+  modifiedTime: 1775256964579
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpSwarmPistol00'

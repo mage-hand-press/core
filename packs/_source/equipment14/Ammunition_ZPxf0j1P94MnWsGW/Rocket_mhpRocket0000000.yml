@@ -1,0 +1,64 @@
+folder: ZPxf0j1P94MnWsGW
+name: Rocket
+type: consumable
+_id: mhpRocket0000000
+img: icons/weapons/thrown/rocket.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: true
+    max: '1'
+  description:
+    value: ''
+    chat: ''
+  identifier: rocket
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 6
+    units: lb
+  price:
+    value: 20
+    denomination: gp
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: null
+      denomination: null
+      bonus: ''
+    replace: false
+  properties: []
+  type:
+    value: ammo
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254059821
+  modifiedTime: 1775254059821
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpRocket0000000'

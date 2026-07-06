@@ -1,0 +1,64 @@
+folder: vbdFboUjIADOGUIU
+name: Flares
+type: consumable
+_id: mhpFlares0000000
+img: icons/magic/fire/projectile-fireball-orange-yellow.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: true
+    max: ''
+  description:
+    value: ''
+    chat: ''
+  identifier: flares
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 5
+  weight:
+    value: 1
+    units: lb
+  price:
+    value: 5
+    denomination: gp
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: null
+      denomination: null
+      bonus: ''
+    replace: false
+  properties: []
+  type:
+    value: ammo
+    subtype: flare
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254059507
+  modifiedTime: 1775254059507
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpFlares0000000'

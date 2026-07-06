@@ -1,0 +1,18 @@
+type: Item
+folder: UP5WdLkzqM199YhH
+name: Simple Ranged
+color: null
+sorting: a
+_id: zCpIUioTVLlRshdU
+description: ''
+sort: -100000
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.1.10
+  lastModifiedBy: magehandpress000
+  modifiedTime: 1775256993295
+_key: '!folders!zCpIUioTVLlRshdU'

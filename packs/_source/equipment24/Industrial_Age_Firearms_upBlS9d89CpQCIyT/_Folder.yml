@@ -1,0 +1,18 @@
+type: Item
+folder: null
+name: Industrial Age Firearms
+color: null
+sorting: m
+_id: upBlS9d89CpQCIyT
+description: ''
+sort: 75000
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.1.10
+  lastModifiedBy: magehandpress000
+  modifiedTime: 1775256844078
+_key: '!folders!upBlS9d89CpQCIyT'

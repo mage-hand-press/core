@@ -1,0 +1,18 @@
+type: Item
+folder: LUIVJW5lOOkEytt8
+name: Simple
+color: null
+sorting: a
+_id: 4joufYSddVjaX0RG
+description: ''
+sort: -100000
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  lastModifiedBy: magehandpress000
+  modifiedTime: 1775254690185
+_key: '!folders!4joufYSddVjaX0RG'

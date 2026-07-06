@@ -1,0 +1,149 @@
+folder: ZpAovuw3kjMyqRfc
+name: Harpoon Gun
+type: weapon
+_id: mhpHarpoonGun000
+img: icons/weapons/polearms/spear-hooked-brown.webp
+system:
+  activities:
+    ZiIzEJTpoIXbFXiE:
+      _id: ZiIzEJTpoIXbFXiE
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ''
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      name: ''
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: ''
+    chat: ''
+  identifier: harpoon-gun
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 10
+    units: lb
+  price:
+    value: 250
+    denomination: gp
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  ammunition:
+    type: harpoon
+  armor: {}
+  damage:
+    base:
+      types:
+        - piercing
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: 2
+      denomination: 8
+      bonus: ''
+    versatile:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+  properties:
+    - amm
+    - lod
+  proficient: null
+  range:
+    reach: null
+    units: ft
+    value: 30
+    long: 120
+  type:
+    value: martialFirearm
+    baseItem: harpoonGun
+  mastery: ''
+  crew:
+    value: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254060350
+  modifiedTime: 1775257356293
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpHarpoonGun000'

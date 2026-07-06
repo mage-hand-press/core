@@ -1,0 +1,218 @@
+folder: FwstaPVCJemDYJrL
+name: REC Gun
+type: weapon
+_id: mhpRECGun0000000
+img: icons/magic/light/projectile-bolts-salvo-yellow.webp
+system:
+  activities:
+    YFNzZASaxTWZdQty:
+      _id: YFNzZASaxTWZdQty
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ''
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      name: ''
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    sMHQsLl7htHRolHM:
+      type: attack
+      name: Mounted
+      _id: sMHQsLl7htHRolHM
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ''
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 8
+            bonus: '-@abilities.dex.mod'
+            types:
+              - radiant
+            scaling:
+              number: 1
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: "<p><span class=\"s1\">The Revolving Exothermic Cannon (or REC gun, for short) operates on the same principle as a conventional blaster, with an arcane battery hooked up to an aperture barrel and so forth, but mounts several blasters on a revolving cylinder and fires each in rapid succession. A tripod mount keeps the blaster stable despite its heft and shocking recoil.</span><span class=\"Apple-converted-space\">\_</span></p>"
+    chat: ''
+  identifier: rec-gun
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 40
+    units: lb
+  price:
+    value: 600
+    denomination: gp
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  ammunition: {}
+  armor: {}
+  damage:
+    base:
+      types:
+        - radiant
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: 2
+      denomination: 6
+      bonus: '-@abilities.dex.mod'
+    versatile:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+  properties:
+    - blaster
+    - fir
+    - hvy
+    - two
+  proficient: null
+  range:
+    reach: null
+    units: ft
+    value: 100
+    long: 400
+  type:
+    value: martialR
+    baseItem: recGun
+  mastery: mounted
+  crew:
+    value: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254059275
+  modifiedTime: 1775256957224
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpRECGun0000000'

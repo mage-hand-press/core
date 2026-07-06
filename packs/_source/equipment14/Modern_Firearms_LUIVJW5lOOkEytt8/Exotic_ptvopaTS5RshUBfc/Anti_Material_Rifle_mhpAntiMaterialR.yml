@@ -1,0 +1,152 @@
+folder: ptvopaTS5RshUBfc
+name: Anti-Material Rifle
+type: weapon
+_id: mhpAntiMaterialR
+img: icons/commodities/tech/smoke-spout-blue.webp
+system:
+  activities:
+    14d6bCFlB6QYF3Pd:
+      _id: 14d6bCFlB6QYF3Pd
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ''
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      name: ''
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: <h2></h2>
+    chat: ''
+  identifier: anti-material-rifle
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 30
+    units: lb
+  price:
+    value: 650
+    denomination: gp
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  ammunition:
+    type: firearmBullet
+  armor: {}
+  damage:
+    base:
+      types:
+        - piercing
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: 2
+      denomination: 10
+      bonus: ''
+    versatile:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+  properties:
+    - amm
+    - hvy
+    - lod
+    - sighted
+    - two
+  proficient: null
+  range:
+    reach: null
+    units: ft
+    value: 150
+    long: 450
+  type:
+    value: exoticFirearm
+    baseItem: antiMaterialRifle
+  mastery: ''
+  crew:
+    value: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254060340
+  modifiedTime: 1775255940336
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpAntiMaterialR'

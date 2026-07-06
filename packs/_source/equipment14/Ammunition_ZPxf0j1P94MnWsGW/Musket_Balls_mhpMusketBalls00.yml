@@ -1,0 +1,64 @@
+folder: ZPxf0j1P94MnWsGW
+name: Musket Balls
+type: consumable
+_id: mhpMusketBalls00
+img: icons/weapons/ammunition/shot-round-brown.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: true
+    max: '1'
+  description:
+    value: ''
+    chat: ''
+  identifier: musket-balls
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 10
+  weight:
+    value: 0.2
+    units: lb
+  price:
+    value: 1
+    denomination: sp
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: null
+      denomination: null
+      bonus: ''
+    replace: false
+  properties: []
+  type:
+    value: ammo
+    subtype: firearmBullet
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254060407
+  modifiedTime: 1775254060407
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpMusketBalls00'

@@ -1,0 +1,64 @@
+folder: vbdFboUjIADOGUIU
+name: Grenades
+type: consumable
+_id: mhpGrenades00000
+img: icons/magic/fire/flame-burning-earth-yellow.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: true
+    max: ''
+  description:
+    value: ''
+    chat: ''
+  identifier: grenades
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 5
+  weight:
+    value: 0.6
+    units: lb
+  price:
+    value: 25
+    denomination: gp
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: null
+      denomination: null
+      bonus: ''
+    replace: false
+  properties: []
+  type:
+    value: ammo
+    subtype: grenade
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254059338
+  modifiedTime: 1775254059338
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpGrenades00000'

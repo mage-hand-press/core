@@ -86,6 +86,44 @@
 			}
 		},
 		{
+			"name": "equipment24",
+			"label": "Equipment (5.5e)",
+			"path": "packs/equipment24",
+			"type": "Item",
+			"ownership": {
+				"PLAYER": "LIMITED"
+			},
+			"system": "dnd5e",
+			"flags": {
+				"dnd5e": {
+					"sorting": "m",
+					"types": ["consumable", "weapon"]
+				},
+				"mage-hand-press-core": {
+					"rulesVersion": "modern"
+				}
+			}
+		},
+		{
+			"name": "equipment14",
+			"label": "Equipment (5e)",
+			"path": "packs/equipment14",
+			"type": "Item",
+			"ownership": {
+				"PLAYER": "LIMITED"
+			},
+			"system": "dnd5e",
+			"flags": {
+				"dnd5e": {
+					"sorting": "m",
+					"types": ["consumable", "weapon"]
+				},
+				"mage-hand-press-core": {
+					"rulesVersion": "legacy"
+				}
+			}
+		},
+		{
 			"name": "tables",
 			"label": "Roll Tables",
 			"path": "packs/tables",
@@ -106,6 +144,8 @@
 				"journal",
 				"classes24",
 				"classes14",
+				"equipment24",
+				"equipment14",
 				"tables"
 			],
 			"folders": []

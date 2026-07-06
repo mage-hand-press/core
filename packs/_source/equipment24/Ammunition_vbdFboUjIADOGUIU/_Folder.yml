@@ -1,0 +1,18 @@
+type: Item
+folder: null
+name: Ammunition
+color: null
+sorting: a
+_id: vbdFboUjIADOGUIU
+description: ''
+sort: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.1.10
+  lastModifiedBy: magehandpress000
+  modifiedTime: 1775256614979
+_key: '!folders!vbdFboUjIADOGUIU'

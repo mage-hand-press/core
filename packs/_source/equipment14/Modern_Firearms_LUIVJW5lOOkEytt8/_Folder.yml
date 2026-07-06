@@ -1,0 +1,18 @@
+type: Item
+folder: null
+name: Modern Firearms
+color: null
+sorting: m
+_id: LUIVJW5lOOkEytt8
+description: ''
+sort: 400000
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  lastModifiedBy: magehandpress000
+  modifiedTime: 1775255435735
+_key: '!folders!LUIVJW5lOOkEytt8'

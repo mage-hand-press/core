@@ -1,0 +1,64 @@
+folder: ZPxf0j1P94MnWsGW
+name: Dragon Bullet
+type: consumable
+_id: mhpDragonBullet0
+img: icons/skills/ranged/bullets-triple-ball-orange.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: true
+    max: '1'
+  description:
+    value: ''
+    chat: ''
+  identifier: dragon-bullet
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 1
+    denomination: gp
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: null
+      denomination: null
+      bonus: ''
+    replace: false
+  properties: []
+  type:
+    value: ammo
+    subtype: firearmBullet
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254060102
+  modifiedTime: 1775254060102
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpDragonBullet0'

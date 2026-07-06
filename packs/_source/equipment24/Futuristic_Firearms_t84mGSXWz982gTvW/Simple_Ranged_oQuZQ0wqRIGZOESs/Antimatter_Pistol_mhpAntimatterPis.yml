@@ -1,0 +1,148 @@
+folder: oQuZQ0wqRIGZOESs
+name: Antimatter Pistol
+type: weapon
+_id: mhpAntimatterPis
+img: icons/weapons/guns/gun-purple.webp
+system:
+  activities:
+    1De8BHWpWI5NRX3H:
+      _id: 1De8BHWpWI5NRX3H
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ''
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      name: ''
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p><span class="s1">A compact, antimatter-firing companion to the
+      @UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpAntimatterCar]{Antimatter
+      Carbine}, the Antimatter Pistol is an essential close-quarters backup.</span></p>
+    chat: ''
+  identifier: antimatter-pistol
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 2
+    units: lb
+  price:
+    value: 100
+    denomination: gp
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  ammunition: {}
+  armor: {}
+  damage:
+    base:
+      types:
+        - necrotic
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: 2
+      denomination: 4
+      bonus: '-@abilities.dex.mod'
+    versatile:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+  properties:
+    - blaster
+    - fir
+    - lgt
+  proficient: null
+  range:
+    reach: null
+    units: ft
+    value: 30
+    long: 120
+  type:
+    value: simpleR
+    baseItem: antimatterPistol
+  mastery: vex
+  crew:
+    value: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254059265
+  modifiedTime: 1775256967137
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpAntimatterPis'

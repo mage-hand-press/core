@@ -1,0 +1,18 @@
+type: Item
+folder: null
+name: Renaissance Firearms
+color: null
+sorting: a
+_id: 6umWlfCMBTUAm6Vr
+description: ''
+sort: 50000
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.1.10
+  lastModifiedBy: magehandpress000
+  modifiedTime: 1775256617818
+_key: '!folders!6umWlfCMBTUAm6Vr'

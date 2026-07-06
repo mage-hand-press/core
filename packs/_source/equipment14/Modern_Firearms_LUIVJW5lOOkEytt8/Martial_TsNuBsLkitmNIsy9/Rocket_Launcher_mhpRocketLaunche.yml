@@ -1,0 +1,152 @@
+folder: TsNuBsLkitmNIsy9
+name: Rocket Launcher
+type: weapon
+_id: mhpRocketLaunche
+img: icons/weapons/thrown/rocket.webp
+system:
+  activities:
+    J40P3GS9xHH9dN1j:
+      _id: J40P3GS9xHH9dN1j
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ''
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      name: ''
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: <h2></h2>
+    chat: ''
+  identifier: rocket-launcher
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 20
+    units: lb
+  price:
+    value: 1250
+    denomination: gp
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  ammunition:
+    type: rocket
+  armor: {}
+  damage:
+    base:
+      types:
+        - fire
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: 2
+      denomination: 10
+      bonus: ''
+    versatile:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+  properties:
+    - amm
+    - hvy
+    - rel
+    - spc
+    - two
+  proficient: null
+  range:
+    reach: null
+    units: ft
+    value: 80
+    long: 320
+  type:
+    value: martialFirearm
+    baseItem: rocketLauncher
+  mastery: ''
+  crew:
+    value: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254059956
+  modifiedTime: 1775257273590
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpRocketLaunche'

@@ -29,14 +29,7 @@ system:
       requiresProficiency: false
       _id: wfwiRPElInqfUken
       group: ''
-      sort: 0
-    - type: linked
-      count: null
-      key: Compendium.dnd5e.items.Item.0E565kQUBmndJ1a2
-      requiresProficiency: false
-      _id: nVV2joIwZgpu6AJp
-      group: wfwiRPElInqfUken
-      sort: 256250
+      sort: -200000
     - type: linked
       count: null
       key: Compendium.dnd5e.items.Item.WwdpHLXGX5r8uZu5
@@ -44,11 +37,23 @@ system:
       _id: HFN7vrxyOLtgr5ZQ
       group: wfwiRPElInqfUken
       sort: 212500
+    - type: AND
+      requiresProficiency: false
+      _id: To681vCmosyp2Pba
+      group: ''
+      sort: -100000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.0E565kQUBmndJ1a2
+      requiresProficiency: false
+      _id: nVV2joIwZgpu6AJp
+      group: To681vCmosyp2Pba
+      sort: 223438
     - type: OR
       requiresProficiency: false
       _id: 7QzQBDiiXJQQ57Zc
-      group: ''
-      sort: 300000
+      group: To681vCmosyp2Pba
+      sort: 234375
     - type: AND
       requiresProficiency: false
       _id: DHvRIRLUOvy42xDQ
@@ -56,14 +61,14 @@ system:
       sort: 400000
     - type: linked
       count: null
-      key: Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpHandgun000001
+      key: Compendium.mage-hand-press-core.equipment14.Item.mhpHandgun000001
       requiresProficiency: false
       _id: dWGGSob5XNrVuTCO
       group: DHvRIRLUOvy42xDQ
       sort: 500000
     - type: linked
-      count: 10
-      key: Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpBullets000000
+      count: 20
+      key: Compendium.mage-hand-press-core.equipment14.Item.mhpBullets000000
       requiresProficiency: false
       _id: vtYhhni9kNNOW0sC
       group: DHvRIRLUOvy42xDQ
@@ -75,14 +80,14 @@ system:
       sort: 700000
     - type: linked
       count: null
-      key: Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpRevolver00001
+      key: Compendium.mage-hand-press-core.equipment14.Item.mhpRevolver00001
       requiresProficiency: false
       _id: HRVgl0t7V58CwDU6
       group: Wvc5f0hyXHPt4tZb
       sort: 800000
     - type: linked
       count: 10
-      key: Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpBullets000000
+      key: Compendium.mage-hand-press-core.equipment14.Item.mhpBullets000000
       requiresProficiency: false
       _id: LETS2Vleyu9M2ygM
       group: Wvc5f0hyXHPt4tZb
@@ -94,98 +99,98 @@ system:
       sort: 2450000
     - type: OR
       requiresProficiency: false
-      _id: 7STfgXQ2K7mljfsD
-      group: AMzEc8oAG6YFffMb
-      sort: 950000
-    - type: linked
-      count: 3
-      key: Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpBullets000000
-      requiresProficiency: false
-      _id: j6RrU9zHKueTFP02
-      group: 7STfgXQ2K7mljfsD
-      sort: 2200000
-    - type: linked
-      count: 3
-      key: Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpShell00000000
-      requiresProficiency: false
-      _id: 4y3QzvLHmnKEXtrP
-      group: 7STfgXQ2K7mljfsD
-      sort: 2300000
-    - type: OR
-      requiresProficiency: false
       _id: M8oEymTYQv5TbrL5
       group: AMzEc8oAG6YFffMb
-      sort: 1000000
+      sort: 925000
     - type: linked
       count: null
-      key: Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpMusket0000000
+      key: Compendium.mage-hand-press-core.equipment14.Item.mhpMusket0000000
       requiresProficiency: false
       _id: G8AqWlHgAcSjYL0t
       group: M8oEymTYQv5TbrL5
       sort: 1100000
     - type: linked
       count: null
-      key: Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpDoubleBarrel1
+      key: Compendium.mage-hand-press-core.equipment14.Item.mhpDoubleBarrel1
       requiresProficiency: false
       _id: oXlVJ1lu5pKVwjmO
       group: M8oEymTYQv5TbrL5
       sort: 1200000
     - type: linked
       count: null
-      key: Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpHuntingRifle1
+      key: Compendium.mage-hand-press-core.equipment14.Item.mhpHuntingRifle1
       requiresProficiency: false
       _id: GrPE9UaC1ob1BiRp
       group: M8oEymTYQv5TbrL5
       sort: 1300000
     - type: linked
       count: null
-      key: Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpAssaultRifle1
+      key: Compendium.mage-hand-press-core.equipment14.Item.mhpAssaultRifle1
       requiresProficiency: false
       _id: kDSlFReuSFNwEE9E
       group: M8oEymTYQv5TbrL5
       sort: 1400000
     - type: linked
       count: null
-      key: Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpGrenadeLaunc1
+      key: Compendium.mage-hand-press-core.equipment14.Item.mhpGrenadeLaunc1
       requiresProficiency: false
       _id: y3MAfnHTc73usvXg
       group: M8oEymTYQv5TbrL5
       sort: 1500000
     - type: linked
       count: null
-      key: Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpAviaRaSunsta1
+      key: Compendium.mage-hand-press-core.equipment14.Item.mhpAviaRaSunsta1
       requiresProficiency: false
       _id: DLm1ndrrK9lV6UgA
       group: M8oEymTYQv5TbrL5
       sort: 1600000
     - type: linked
       count: null
-      key: Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpIonCannon0001
+      key: Compendium.mage-hand-press-core.equipment14.Item.mhpIonCannon0001
       requiresProficiency: false
       _id: DXl9IJpuPrnyuT29
       group: M8oEymTYQv5TbrL5
       sort: 1700000
     - type: linked
       count: null
-      key: Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpStandardCarb1
+      key: Compendium.mage-hand-press-core.equipment14.Item.mhpStandardCarb1
       requiresProficiency: false
       _id: h4oWqHl2I70quuXl
       group: M8oEymTYQv5TbrL5
       sort: 1800000
     - type: linked
       count: null
-      key: Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpConcussionRi1
+      key: Compendium.mage-hand-press-core.equipment14.Item.mhpConcussionRi1
       requiresProficiency: false
       _id: 0epp5K8NPdNIBXG6
       group: M8oEymTYQv5TbrL5
       sort: 1900000
     - type: linked
       count: null
-      key: Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpExperimentalC
+      key: Compendium.mage-hand-press-core.equipment14.Item.mhpExperimentalC
       requiresProficiency: false
       _id: buM06SVM8DExnmUs
       group: M8oEymTYQv5TbrL5
       sort: 2000000
+    - type: OR
+      requiresProficiency: false
+      _id: 7STfgXQ2K7mljfsD
+      group: AMzEc8oAG6YFffMb
+      sort: 950000
+    - type: linked
+      count: 30
+      key: Compendium.mage-hand-press-core.equipment14.Item.mhpBullets000000
+      requiresProficiency: false
+      _id: j6RrU9zHKueTFP02
+      group: 7STfgXQ2K7mljfsD
+      sort: 2200000
+    - type: linked
+      count: 30
+      key: Compendium.mage-hand-press-core.equipment14.Item.mhpShell00000000
+      requiresProficiency: false
+      _id: 4y3QzvLHmnKEXtrP
+      group: 7STfgXQ2K7mljfsD
+      sort: 2300000
     - type: OR
       requiresProficiency: false
       _id: TWLrFEeISZoVUzyW
@@ -646,6 +651,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1775254057106
-  modifiedTime: 1783274153693
+  modifiedTime: 1783381065992
   lastModifiedBy: magehandpress000
 _key: '!items!mhpGunslinger000'

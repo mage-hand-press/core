@@ -1,0 +1,64 @@
+folder: vbdFboUjIADOGUIU
+name: Shells
+type: consumable
+_id: mhpShells0000000
+img: icons/weapons/ammunition/bullets-cartridge-shell-gray.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: true
+    max: ''
+  description:
+    value: ''
+    chat: ''
+  identifier: shells
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 10
+  weight:
+    value: 0.15
+    units: lb
+  price:
+    value: 5
+    denomination: gp
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: null
+      denomination: null
+      bonus: ''
+    replace: false
+  properties: []
+  type:
+    value: ammo
+    subtype: shell
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1775254059112
+  modifiedTime: 1775254059112
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpShells0000000'

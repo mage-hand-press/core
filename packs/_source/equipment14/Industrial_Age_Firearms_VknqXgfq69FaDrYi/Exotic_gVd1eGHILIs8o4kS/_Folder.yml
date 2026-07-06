@@ -1,0 +1,17 @@
+type: Item
+folder: VknqXgfq69FaDrYi
+name: Exotic
+color: null
+sorting: a
+_id: gVd1eGHILIs8o4kS
+description: ''
+sort: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  lastModifiedBy: null
+_key: '!folders!gVd1eGHILIs8o4kS'

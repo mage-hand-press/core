@@ -87,6 +87,7 @@
 			"WarmageTrick": "Warmage Trick"
 		},
 		"Weapon": {
+			"ExoticProficiency": "Exotic",
 			"FirearmExotic": "Exotic Firearm",
 			"FirearmMartial": "Martial Firearm",
 			"FirearmSimple": "Simple Firearm"

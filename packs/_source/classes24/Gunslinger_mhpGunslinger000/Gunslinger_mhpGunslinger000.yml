@@ -42,7 +42,7 @@ system:
       sort: 0
     - type: linked
       count: null
-      key: Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpRevolver00000
+      key: Compendium.mage-hand-press-core.equipment24.Item.mhpRevolver00000
       requiresProficiency: false
       _id: J7EwJVu0M5u8LoS7
       group: gxoUYR7ziDTWXo1J
