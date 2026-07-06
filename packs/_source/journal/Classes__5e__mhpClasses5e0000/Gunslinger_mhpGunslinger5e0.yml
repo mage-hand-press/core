@@ -83,7 +83,7 @@ pages:
         earliest gunslingers used muskets and black powder, space-faring gunslingers fire high-tech
         blasters that never run low on ammunition. Both are gunslingers; equally brash and
         singularly dangerous.</p><p>In general terms, gunslingers can be organized into the
-        following eras:</p><h2>Renaissance</h2><p>Renaissance-era firearms are the gun’s first steps
+        following eras:</p><h3>Renaissance</h3><p>Renaissance-era firearms are the gun’s first steps
         away from heavy cannons and into portable rifles. Weapons from this era use musket balls and
         loose black powder, and therefore are slow to reload and prone to malfunction. Consequently,
         Renaissance-era gunslingers will be skilled in swords and cannons in addition to guns,
@@ -93,88 +93,62 @@ pages:
         fellows and exchange musket fire.</p><p><span class="s2"><em><strong>Variant
         Deeds.</strong></em></span> With the GM’s permission, you can pick the following two Deeds
         in place of two of your normal Deeds, if you are in a setting that primarily uses
-        Renaissance firearms.</p><h3>Grazing Shot</h3><p>When you make a ranged attack against a
-        target within the weapon’s normal range and miss, you can spend a risk die as a reaction to
-        deal damage to the target equal to the roll on the die. This ability deals no damage if the
-        attack roll misses the target’s AC by 10 or more.</p><h3>Reposition</h3><p>As a reaction
-        when a hostile creature within 30 feet from you moves, you can expend a risk die to move up
-        to your movement speed.</p><h2>Industrial Age</h2><p class="p2">In the Industrial Age
-        (concurrent with the Wild West of cowboys and locomotive travel), cartridged bullets and
-        lever-action firearms accelerated the tempo of combat, even introducing the first automatic
-        weapons. These guns lacked the clean assembly-line consistency of modern firearms, but laid
-        down the bedrock for designs that have not changed much since: a classic six-shot revolver
-        is as timeless as it is effective.</p><p class="p2">Gunslingers in the Industrial Age fought
-        in legendarily bloody wars, trailblazed the frontier, formed gangs to rob trains by
-        horseback, and had shootouts in saloons.</p><p class="p2"><span
+        Renaissance firearms.</p><h4>Grazing
+        Shot</h4><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpGrazingShot00
+        inline]</p><h4>Reposition</h4><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpReposition000
+        inline]</p><h3>Industrial Age</h3><p class="p2">In the Industrial Age (concurrent with the
+        Wild West of cowboys and locomotive travel), cartridged bullets and lever-action firearms
+        accelerated the tempo of combat, even introducing the first automatic weapons. These guns
+        lacked the clean assembly-line consistency of modern firearms, but laid down the bedrock for
+        designs that have not changed much since: a classic six-shot revolver is as timeless as it
+        is effective.</p><p class="p2">Gunslingers in the Industrial Age fought in legendarily
+        bloody wars, trailblazed the frontier, formed gangs to rob trains by horseback, and had
+        shootouts in saloons.</p><p class="p2"><span class="s2"><em><strong>Variant
+        Deeds.</strong></em></span> With the GM’s permission, you can pick the following two Deeds
+        in place of two of your normal Deeds, if you are in a setting that primarily uses Industrial
+        Age firearms.</p><h4>Fancy Gunplay</h4><p
+        class="p2">@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpFancyGunplay0
+        inline]</p><h4>Maverick Spirit</h4><p
+        class="p2">@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpMaverickSpiri
+        inline]</p><h3>Modern</h3><p class="p2">Modern firearms have embraced automatic fire,
+        ammunition magazines, and lighter caliber bullets (which travel at much higher speeds). For
+        these guns, form begets function: weapons are designed for a specific role, such as sniper
+        rifles for long range and shotguns for close quarters, and every aspect of their design
+        supports this role. Moreover, weapons that enjoyed success in the West, such as the
+        double-barrel shotgun, can still be found in use today.</p><p class="p2">Modern gunslingers
+        can be gangsters wielding twin machine pistols, modern soldiers with assault rifles,
+        assassins that prefer to snipe their targets from a safe distance, or covert spies,
+        infiltrating a building with a pistol hidden in a phone.</p><p class="p2"><span
         class="s2"><em><strong>Variant Deeds.</strong></em></span> With the GM’s permission, you can
         pick the following two Deeds in place of two of your normal Deeds, if you are in a setting
-        that primarily uses Industrial Age firearms.</p><h3>Fancy Gunplay</h3><p class="p2">You can
-        impressively twirl your weapons to impress others. Whenever you make a Charisma
-        (Performance) check or a Dexterity (Sleight of Hand) check using one of your ranged weapons,
-        you can expend a risk die and add it to the ability check.</p><h3>Maverick Spirit</h3><p
-        class="p2">As a reaction when you make an Intelligence, Wisdom, or Charisma saving throw,
-        you can expend one risk die and add it to saving throw.</p><h2>Modern</h2><p
-        class="p2">Modern firearms have embraced automatic fire, ammunition magazines, and lighter
-        caliber bullets (which travel at much higher speeds). For these guns, form begets function:
-        weapons are designed for a specific role, such as sniper rifles for long range and shotguns
-        for close quarters, and every aspect of their design supports this role. Moreover, weapons
-        that enjoyed success in the West, such as the double-barrel shotgun, can still be found in
-        use today.</p><p class="p2">Modern gunslingers can be gangsters wielding twin machine
-        pistols, modern soldiers with assault rifles, assassins that prefer to snipe their targets
-        from a safe distance, or covert spies, infiltrating a building with a pistol hidden in a
-        phone.</p><p class="p2"><span class="s2"><em><strong>Variant Deeds.</strong></em></span>
-        With the GM’s permission, you can pick the following two Deeds in place of two of your
-        normal Deeds, if you are in a setting that primarily uses Modern firearms.</p><h3>Curved
-        Trajectory</h3><p class="p2">When you make an attack with a ranged weapon against a target
-        within the weapon’s normal range, you can expend a risk die to ignore half and
-        three-quarters cover.</p><h3>Take the Bullet</h3><p class="p2">As a reaction when a creature
-        within 15 feet of you is targeted by a ranged attack, you can spend a risk die to dive in
-        the way of the bullet. You move next to the creature and become the target of the attack. If
-        you are hit, you can subtract the risk die from the damage taken.</p><h2>Futuristic</h2><p
-        class="p2">Firearms of the future have only tenuous connections to the weapons of the past.
-        Though they still retain the profile of handguns, shotguns, and assault rifles, futuristic
-        firearms are powered by rechargeable arcane batteries (or power cells) and produce bursts of
-        pure energy instead of bullets. Generally, these weapons are referred to as blasters and,
-        though they never need to be reloaded, tend to be more expensive and more finicky than
-        modern firearms. Blasters, for example, can overheat, and require a cooldown period before
-        being used again.</p><p class="p2">Future gunslingers jet across the galaxy, with a blaster
-        in hand and a song in their hearts. Others, however, see the potential of blasters as
-        cutting-edge technology and attempt to optimize them to their limits.</p><p class="p2"><span
-        class="s2"><em><strong>Variant Deeds.</strong></em></span> With the GM’s permission, you can
-        pick the following two Deeds in place of two of your normal Deeds, if you are in a setting
-        that primarily uses Futuristic firearms.</p><h3>Blindfire</h3><p class="p2">While you are in
-        total cover, you can expend a risk die as a bonus action to make one ranged weapon attack
-        with <strong>disadvantage</strong> against any target within the weapon’s
-        range.</p><h3>Disguised Shot</h3><p class="p2">Once per turn when you make a ranged weapon
-        attack, you can spend a risk die to hide the source of the attack. Though this does not
-        silence the attack, it does obscure other markers of the attack, such as muzzle flare, which
-        might implicate you as the attacker. Make a [[/check dec]] check and add the risk die to the
-        roll, opposed by the highest passive Perception score of the spectators. On a success, no
-        spectator to the attack can identify its source.</p><h2>Suggested Era</h2><p
-        class="p2">Though some weapons can exist in any era (especially if the story demands an
-        exotic firearm enter the fray), many are best suited to their own era. Gunslingers, too,
-        will seem out of place if in the wrong era; a musketeer will probably not spend their
-        holidays on their spaceship going to Mars, for example. The following table provides a
-        suggested list of firearms and gunslingers for different eras and recommends different names
-        for firearms that would otherwise seem out of place.</p><p></p><table><tbody><tr><td
-        colspan="3"><h4>Eras</h4></td></tr><tr><td><p></p></td><td><p><strong>Creeds</strong></p></td><td><p><strong>Firearms</strong></p></td></tr><tr><td><p><strong>Renaissance</strong></p></td><td><p>Janissary,
-        Musketeer, Sharpshooter</p></td><td><p>Blunderbuss, Flintlock, Harpoon Gun,
-        Musket</p></td></tr><tr><td><p><strong>Industrial Age</strong></p></td><td><p>Gundead, Gun
-        Tank, Gun-Ko Master, High Roller, Pistolero, Sharpshooter, Spellslinger, Trick Shot,
-        Twice-Damned, White Hat</p></td><td><p>Double Barrel Shotgun, Gatling Gun, Handgun (Light
-        Revolver), Hunting Rifle, Light Cannon, Magnum, Parlor Gun, Pump Shotgun (Lever-Action
-        Shotgun) Revolver, Sawed-Off Shotgun, Sniper Rifle (Infantry
-        Rifle)</p></td></tr><tr><td><p><strong>Modern</strong></p></td><td><p>Covert Operative,
-        Grenadier, Gun Tank, Gun-Ko Master, High Roller, Pistolero, Sharpshooter, Spellslinger,
-        Storm Gunner, Trick Shot, Twice-Damned</p></td><td><p>Assault Rifle, Double-Barrel Shotgun,
-        Handgun, Hunting Rifle, Gatling Gun (Minigun), Grenade Launcher, Light Machine Gun, Machine
-        Pistol, Magnum, Parlor Gun (Pocket Pistol), Pump Shotgun, Revolver, Rocket Launcher,
-        Sawed-Off Shotgun, Sniper Rifle, Submachine
-        Gun</p></td></tr><tr><td><p><strong>Futuristic</strong></p></td><td><p>Covert Operative, Gun
-        Tank, Laserist, Sharpshooter, Space Cowboy, Spellslinger</p></td><td><p>Blitz Cannon,
-        Concussion Rifle, Diode Beam, Impactor Cannon, Ion Cannon, Magnus, Phaser, REC Gun,
-        Repeater, Rocket Launcher (Devastator Missile), Standard Carbine, Singularity Emitter, Swarm
-        Pistol</p></td></tr></tbody></table>
+        that primarily uses Modern firearms.</p><h4>Curved Trajectory</h4><p
+        class="p2">@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpCurvedTraject
+        inline]</p><h4>Take the Bullet</h4><p
+        class="p2">@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpTakeBullet000
+        inline]</p><h3>Futuristic</h3><p class="p2">Firearms of the future have only tenuous
+        connections to the weapons of the past. Though they still retain the profile of handguns,
+        shotguns, and assault rifles, futuristic firearms are powered by rechargeable arcane
+        batteries (or power cells) and produce bursts of pure energy instead of bullets. Generally,
+        these weapons are referred to as blasters and, though they never need to be reloaded, tend
+        to be more expensive and more finicky than modern firearms. Blasters, for example, can
+        overheat, and require a cooldown period before being used again.</p><p class="p2">Future
+        gunslingers jet across the galaxy, with a blaster in hand and a song in their hearts.
+        Others, however, see the potential of blasters as cutting-edge technology and attempt to
+        optimize them to their limits.</p><p class="p2"><span class="s2"><em><strong>Variant
+        Deeds.</strong></em></span> With the GM’s permission, you can pick the following two Deeds
+        in place of two of your normal Deeds, if you are in a setting that primarily uses Futuristic
+        firearms.</p><h4>Blindfire</h4><p
+        class="p2">@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpBlindfire0000
+        inline]</p><h4>Disguised Shot</h4><p
+        class="p2">@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpDisguisedShot
+        inline]</p><h3>Suggested Era</h3><p class="p2">Though some weapons can exist in any era
+        (especially if the story demands an exotic firearm enter the fray), many are best suited to
+        their own era. Gunslingers, too, will seem out of place if in the wrong era; a musketeer
+        will probably not spend their holidays on their spaceship going to Mars, for example. The
+        following table provides a suggested list of firearms and gunslingers for different eras and
+        recommends different names for firearms that would otherwise seem out of
+        place.</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpEras000000000
+        inline]</p>
     video:
       controls: true
       volume: 0.5
@@ -189,7 +163,7 @@ pages:
       systemVersion: 5.3.3
       lastModifiedBy: magehandpress000
       createdTime: 1783115752043
-      modifiedTime: 1783273947052
+      modifiedTime: 1783378652569
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpGunslinger5e0.mhpEras000000000'

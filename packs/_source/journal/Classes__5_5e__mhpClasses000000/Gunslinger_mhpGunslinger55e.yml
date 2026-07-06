@@ -68,7 +68,7 @@ pages:
     system: {}
     title:
       show: true
-      level: 1
+      level: 2
     image: {}
     text:
       format: 1
@@ -77,39 +77,37 @@ pages:
         powerful siege weapons to concealable, handheld guns. In many campaign settings, firearms
         supplant the traditional scheme of weapons, forcing arrows, swords, and battleaxes into
         obsolescence. They might even be commonplace, a staple tool for hunting and
-        defense.</span></p><p>Futuristic firearms, powered by arcane energy or extremely advanced
-        science, are called blasters, and fire a pulse of energy or condensed plasma instead of
-        conventional projectiles. Blasters are considered firearms as well.</span></p><h2>Firearm
-        Eras</h2><p>Firearms have evolved dramatically throughout history, and will continue to
-        evolve into the far future. Therefore, in addition to being organized into Simple and
-        Martial weapons, the following firearms are organized into eras, the periods of time in
-        which they might be encountered. Some firearms might appear in multiple eras, especially if
-        the story demands an unusual weapon, but many are best suited to campaign settings that echo
-        their level of technology.</span></p><p>The GM determines which era or eras of weapons are
-        in the campaign.</span></p><h3>Renaissance Firearms</span></h3><p>Renaissance-era firearms,
-        such as Pistols and Muskets, are weapons that have taken the first steps away from cannons
-        and into portable rifles, making them the progenitors of all modern firearms. Weapons from
-        this era use musket balls and loose black powder, and are therefore slow to reload.
-        Importantly, these weapons exist comfortably in many fantasy settings alongside bows,
-        swords, and axes, especially where pirates are at play.</span></p><h3>Industrial Age
-        Firearms</span></h3><p>Industrial Age firearms, such as Revolvers and Double-Barrel
-        Shotguns, stem from advancements in machinery and assembly lines, granting them more
-        interchangeable parts and cartridge-based bullets. These guns lack the assembly-line
-        consistency of modern firearms, but laid down the bedrock for designs that haven’t changed
-        much since: a classic six-shot Revolver is as timeless as it is effective. While the heyday
-        of Industrial Age firearms was in the Wild West, their simple and reliable construction
-        means they are still commonplace in the modern day.</span></p><h3>Modern
-        Firearms</span></h3><p>Modern firearms have embraced automatic fire, ammunition magazines,
-        and lighter caliber bullets (which can travel at much higher speeds). For these guns, form
+        defense.</p><p>Futuristic firearms, powered by arcane energy or extremely advanced science,
+        are called blasters, and fire a pulse of energy or condensed plasma instead of conventional
+        projectiles. Blasters are considered firearms as well.</p><h3>Firearm Eras</h3><p>Firearms
+        have evolved dramatically throughout history, and will continue to evolve into the far
+        future. Therefore, in addition to being organized into Simple and Martial weapons, the
+        following firearms are organized into eras, the periods of time in which they might be
+        encountered. Some firearms might appear in multiple eras, especially if the story demands an
+        unusual weapon, but many are best suited to campaign settings that echo their level of
+        technology.</p><p>The GM determines which era or eras of weapons are in the
+        campaign.</p><h4>Renaissance Firearms</h4><p>Renaissance-era firearms, such as Pistols and
+        Muskets, are weapons that have taken the first steps away from cannons and into portable
+        rifles, making them the progenitors of all modern firearms. Weapons from this era use musket
+        balls and loose black powder, and are therefore slow to reload. Importantly, these weapons
+        exist comfortably in many fantasy settings alongside bows, swords, and axes, especially
+        where pirates are at play.</p><h4>Industrial Age Firearms</h4><p>Industrial Age firearms,
+        such as Revolvers and Double-Barrel Shotguns, stem from advancements in machinery and
+        assembly lines, granting them more interchangeable parts and cartridge-based bullets. These
+        guns lack the assembly-line consistency of modern firearms, but laid down the bedrock for
+        designs that haven’t changed much since: a classic six-shot Revolver is as timeless as it is
+        effective. While the heyday of Industrial Age firearms was in the Wild West, their simple
+        and reliable construction means they are still commonplace in the modern day.</p><h4>Modern
+        Firearms</h4><p>Modern firearms have embraced automatic fire, ammunition magazines, and
+        lighter caliber bullets (which can travel at much higher speeds). For these guns, form
         begets function: weapons are designed for a specific role, such as Sniper Rifles for long
         range and Pump Shotguns for close quarters. Moreover, weapons that enjoyed success in the
         Wild West, such as the Double-Barrel Shotgun, can still be found in use
-        today.</span></p><h3>Futuristic Firearms</span></h3><p>Futuristic firearms—known as
-        blasters—still resemble Handguns, Pump Shotguns, and Assault Rifles, but have only tenuous
-        connections to their functionality. Blasters are powered by rechargeable arcane batteries
-        (or power cells) and produce bursts of plasma instead of bullets. While these weapons never
-        need to be reloaded, they are prone to overheating and sometimes require extended recharge
-        periods.</span></p>
+        today.</p><h4>Futuristic Firearms</h4><p>Futuristic firearms—known as blasters—still
+        resemble Handguns, Pump Shotguns, and Assault Rifles, but have only tenuous connections to
+        their functionality. Blasters are powered by rechargeable arcane batteries (or power cells)
+        and produce bursts of plasma instead of bullets. While these weapons never need to be
+        reloaded, they are prone to overheating and sometimes require extended recharge periods.</p>
     video:
       controls: true
       volume: 0.5
@@ -124,7 +122,7 @@ pages:
       systemVersion: 5.3.3
       lastModifiedBy: magehandpress000
       createdTime: 1783115751034
-      modifiedTime: 1783277474600
+      modifiedTime: 1783379135117
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpGunslinger55e.mhpFirearms00000'

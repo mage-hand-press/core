@@ -12,12 +12,12 @@ system:
   description:
     value: >-
       <p>Your training with weapons allows you to use the
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbEquipment0000]{mastery properties} of two
-      kinds of Simple or Martial Ranged weapons of your choice. Whenever you finish a Long Rest, you
-      can practice weapon drills and change one of those weapon choices.</span></p><p
-      class="p1">When you reach certain Gunslinger levels, you gain the ability to use the mastery
-      properties of more kinds of weapons, as shown in the Weapon Mastery column of the Gunslinger
-      Features table.</p>
+      @UUID[Compendium.dnd5e.content24.JournalEntry.phbEquipment0000.JournalEntryPage.EOW6yQHLKlXre3jn]{mastery
+      properties} of two kinds of Simple or Martial Ranged weapons of your choice. Whenever you
+      finish a Long Rest, you can practice weapon drills and change one of those weapon
+      choices.</p><p class="p1">When you reach certain Gunslinger levels, you gain the ability to
+      use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of
+      the Gunslinger Features table.</p>
     chat: ''
   identifier: weapon-mastery
   source:
@@ -97,6 +97,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1775254056225
-  modifiedTime: 1783277718216
+  modifiedTime: 1783379024090
   lastModifiedBy: magehandpress000
 _key: '!items!mhpGunsWeaponMas'

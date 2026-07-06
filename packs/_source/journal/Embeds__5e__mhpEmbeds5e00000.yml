@@ -1072,6 +1072,53 @@ pages:
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpEmbeds5e00000.mhpTwinshot00000'
+  - sort: 1800000
+    name: Eras
+    type: text
+    category: xJ6OJMRjTWNmz5Yx
+    _id: mhpEras000000000
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <table><caption><p>Eras</p></caption><thead><tr><td><p></p></td><th><p>Creeds</p></th><th><p>Firearms</p></th></tr></thead><tbody><tr><th><p>Renaissance</p></th><td><p>Janissary,
+        Musketeer, Sharpshooter</p></td><td><p>Blunderbuss, Flintlock, Harpoon Gun,
+        Musket</p></td></tr><tr><th><p>Industrial Age</p></th><td><p>Gundead, Gun Tank, Gun-Ko
+        Master, High Roller, Pistolero, Sharpshooter, Spellslinger, Trick Shot, Twice-Damned, White
+        Hat</p></td><td><p>Double Barrel Shotgun, Gatling Gun, Handgun (Light Revolver), Hunting
+        Rifle, Light Cannon, Magnum, Parlor Gun, Pump Shotgun (Lever-Action Shotgun) Revolver,
+        Sawed-Off Shotgun, Sniper Rifle (Infantry
+        Rifle)</p></td></tr><tr><th><p>Modern</p></th><td><p>Covert Operative, Grenadier, Gun Tank,
+        Gun-Ko Master, High Roller, Pistolero, Sharpshooter, Spellslinger, Storm Gunner, Trick Shot,
+        Twice-Damned</p></td><td><p>Assault Rifle, Double-Barrel Shotgun, Handgun, Hunting Rifle,
+        Gatling Gun (Minigun), Grenade Launcher, Light Machine Gun, Machine Pistol, Magnum, Parlor
+        Gun (Pocket Pistol), Pump Shotgun, Revolver, Rocket Launcher, Sawed-Off Shotgun, Sniper
+        Rifle, Submachine Gun</p></td></tr><tr><th><p>Futuristic</p></th><td><p>Covert Operative,
+        Gun Tank, Laserist, Sharpshooter, Space Cowboy, Spellslinger</p></td><td><p>Blitz Cannon,
+        Concussion Rifle, Diode Beam, Impactor Cannon, Ion Cannon, Magnus, Phaser, REC Gun,
+        Repeater, Rocket Launcher (Devastator Missile), Standard Carbine, Singularity Emitter, Swarm
+        Pistol</p></td></tr></tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1783378617018
+      modifiedTime: 1783378726592
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds5e00000.mhpEras000000000'
 folder: null
 categories:
   - name: Warmage
