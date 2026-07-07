@@ -1,6 +1,8 @@
 const { Die, NumericTerm, OperatorTerm } = foundry.dice.terms;
 
 export function initialize() {
+	if ( !game.settings.get("mage-hand-press-core", "warmage").warmageEdge ) return;
+
 	Hooks.on("dnd5e.preRollDamage", preRollDamage);
 	Hooks.on("renderDamageRollConfigurationDialog", renderDamageRollConfigurationDialog);
 	Hooks.on("dnd5e.buildDamageRollConfig", buildDamageRollConfig);
@@ -95,6 +97,7 @@ export function postDamageRollConfiguration(rolls, process, dialog, message) {
  */
 function canUseWarmageEdge(actor, spell) {
 	// Actor must have Warmage's Edge feature and it must have uses
+	// TODO: In DnD5e 6.0, instead of just checking for presence of feature, check `canUse`
 	const edgeFeature = actor.identifiedItems?.get("feat:warmage-edge")?.first();
 	if ( !edgeFeature?.system.uses.value || (spell.type !== "spell") ) return false;
 
