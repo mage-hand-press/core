@@ -12,7 +12,8 @@ export default class GunslingerSettingData extends BaseSettingData {
 	/** @override */
 	static defineSchema() {
 		return {
-			customization: new BooleanField({ initial: true })
+			customization: new BooleanField({ initial: true }),
+			mankillerOverkill: new BooleanField({ initial: true })
 			// TODO: Era selection, include only base weapons & creeds from selected era
 		}
 	}

@@ -15,8 +15,10 @@ Hooks.once("init", () => {
 	config.Gunslinger.initialize();
 	config.Warmage.initialize();
 
-	automation.WarmageEdge.initialize();
 	customization.Firearms.initialize();
+
+	automation.MankillerOverkill.initialize();
+	automation.WarmageEdge.initialize();
 	spellcasting.WarmageSpellcasting.initialize();
 });
 

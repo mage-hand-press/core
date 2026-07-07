@@ -54,6 +54,10 @@
 					"customization": {
 						"hint": "Add a new class feature type, weapon properties, masteries, and base weapons depending on your rules version.",
 						"label": "Gunslinger Customization"
+					},
+					"mankillerOverkill": {
+						"hint": "Automatically adjust damage to include modifier if not included (for both features) or add extra damage (for Overkill).",
+						"label": "Mankiller (5e) / Overkill (5.5e)"
 					}
 				},
 				"label": "Gunslinger Settings",
