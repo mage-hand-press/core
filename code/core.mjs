@@ -17,6 +17,7 @@ Hooks.once("init", () => {
 
 	customization.Firearms.initialize();
 	customization.GunslingerDeeds.initialize();
+	customization.SpellEmbeds.initialize();
 
 	automation.MankillerOverkill.initialize();
 	automation.WarmageEdge.initialize();

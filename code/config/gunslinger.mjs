@@ -12,6 +12,7 @@ export function initialize() {
 	} else {
 		Object.assign(CONFIG.DND5E.consumableTypes.ammo.subtypes, consumableTypesLegacy.ammo);
 		Object.assign(CONFIG.DND5E.itemProperties, itemPropertiesLegacy);
+		validPropertiesLegacy.spell.forEach(p => CONFIG.DND5E.validProperties.spell.add(p));
 		validPropertiesLegacy.weapon.forEach(p => CONFIG.DND5E.validProperties.weapon.add(p));
 		Object.assign(CONFIG.DND5E.weaponProficiencies, weaponProficiencies);
 		Object.assign(CONFIG.DND5E.weaponProficienciesMap, weaponProficienciesMap);
@@ -176,6 +177,11 @@ const itemPropertiesLegacy = {
 		label: "MageHandPress.Properties.Overheat",
 		reference: "Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpOverheat00000"
 	},
+	renaissance: {
+		label: "MageHandPress.Properties.Renaissance",
+		abbreviation: "MageHandPress.Properties.RenaissanceAbbr",
+		isTag: true
+	},
 	scatter: {
 		label: "MageHandPress.Properties.Scatter",
 		reference: "Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpScatter000000"
@@ -194,6 +200,7 @@ const itemPropertiesLegacy = {
 
 /** @inheritDoc */
 const validPropertiesLegacy = {
+	spell: ["renaissance"],
 	weapon: [
 		"automatic", "blaster", "concealable", "dry", "explosive", "foregrip", "heat",
 		"misfire", "mounted", "nonlethal", "overheat", "scatter", "sighted", "twinshot"

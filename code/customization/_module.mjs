@@ -1,2 +1,3 @@
 export * as Firearms from "./firearms.mjs";
 export * as GunslingerDeeds from "./gunslinger-deeds.mjs";
+export * as SpellEmbeds from "./spell-embeds.mjs";
