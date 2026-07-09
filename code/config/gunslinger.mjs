@@ -38,7 +38,6 @@ export function initialize() {
  * @type {Record<string, { deeds: Array<string>, label: string, weapons: Set<string> }>}
  */
 export const firearmEras = {
-	// TODO: Also add subclass filter
 	renaissance: {
 		deeds: [
 			"Compendium.mage-hand-press-core.classes14.Item.mhpGrazingShot00",

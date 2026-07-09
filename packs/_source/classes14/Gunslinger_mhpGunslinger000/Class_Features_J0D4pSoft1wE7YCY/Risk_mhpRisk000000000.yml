@@ -35,30 +35,34 @@ system:
     custom: ''
     license: ''
   advancement:
-    5HgZEYifL3Y1yoRv:
-      type: ItemGrant
-      title: Deeds
-      _id: 5HgZEYifL3Y1yoRv
+    umOud8Wxo42n0EhA:
+      type: ItemChoice
+      _id: umOud8Wxo42n0EhA
       configuration:
-        items:
+        allowDrops: false
+        choices:
+          '2':
+            count: 5
+            replacement: false
+        pool:
           - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpBiteBullet000
-            optional: false
           - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpCoveringFire0
-            optional: false
           - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpDodgeRoll0000
-            optional: false
           - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpLimbShot00000
-            optional: false
           - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpSkinYourTeeth
-            optional: false
           - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpSteadyAim0000
-            optional: false
-        optional: false
+        restriction:
+          list: []
+          type: class
+          subtype: gunslingerDeed
         spell: null
+        type: feat
       flags: {}
-      value: {}
-      level: 2
+      value:
+        added: {}
+        replaced: {}
       hint: ''
+      title: Deeds
   crewed: false
   enchant: {}
   prerequisites:
@@ -82,6 +86,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1775254057721
-  modifiedTime: 1783274119136
+  modifiedTime: 1783555418056
   lastModifiedBy: magehandpress000
 _key: '!items!mhpRisk000000000'
