@@ -3,29 +3,99 @@ export function initialize() {
 	Object.assign(CONFIG.DND5E.featureTypes.class.subtypes, featureTypes.class);
 	Object.assign(CONFIG.DND5E.weaponMasteries, weaponMasteries);
 
+	let weaponIds;
 	if ( game.settings.get("dnd5e", "rulesVersion") === "modern" ) {
 		Object.assign(CONFIG.DND5E.consumableTypes.ammo.subtypes, consumableTypesModern.ammo);
 		Object.assign(CONFIG.DND5E.itemProperties, itemPropertiesModern);
 		validPropertiesModern.weapon.forEach(p => CONFIG.DND5E.validProperties.weapon.add(p));
-		Object.assign(CONFIG.DND5E.weaponIds, weaponIdsModern);
+		weaponIds = weaponIdsModern;
 	} else {
 		Object.assign(CONFIG.DND5E.consumableTypes.ammo.subtypes, consumableTypesLegacy.ammo);
 		Object.assign(CONFIG.DND5E.itemProperties, itemPropertiesLegacy);
 		validPropertiesLegacy.weapon.forEach(p => CONFIG.DND5E.validProperties.weapon.add(p));
-		Object.assign(CONFIG.DND5E.weaponIds, weaponIdsLegacy);
 		Object.assign(CONFIG.DND5E.weaponProficiencies, weaponProficiencies);
 		Object.assign(CONFIG.DND5E.weaponProficienciesMap, weaponProficienciesMap);
 		Object.assign(CONFIG.DND5E.weaponTypeMap, weaponTypeMap);
 		Object.assign(CONFIG.DND5E.weaponTypes, weaponTypes); // TODO: Insert into order after ranged
+		weaponIds = weaponIdsLegacy;
+	}
+
+	let validWeaponIds = new Set();
+	for ( const era of game.settings.get("mage-hand-press-core", "gunslinger").eras ) {
+		validWeaponIds = validWeaponIds.union(firearmEras[era]?.weapons ?? new Set());
+	}
+	for ( const [id, uuid] of Object.entries(weaponIds) ) {
+		if ( validWeaponIds.has(id) ) CONFIG.DND5E.weaponIds[id] = uuid;
 	}
 }
+
+/* -------------------------------------------- */
+/*  Gunslinger Config                           */
+/* -------------------------------------------- */
+
+/**
+ * Possible firearm eras with the deeds and weapons available in that era.
+ * @type {Record<string, { deeds: Array<string>, label: string, weapons: Set<string> }>}
+ */
+export const firearmEras = {
+	// TODO: Also add subclass filter
+	renaissance: {
+		deeds: [
+			"Compendium.mage-hand-press-core.classes14.Item.mhpGrazingShot00",
+			"Compendium.mage-hand-press-core.classes14.Item.mhpReposition000"
+		],
+		label: "MageHandPress.Gunslinger.Era.Renaissance",
+		weapons: new Set([
+			"blunderbuss", "ducksFoot", "flintlock", "harpoonGun", "musket", "pistol", "volleyGun"
+		])
+	},
+	industrialAge: {
+		deeds: [
+			"Compendium.mage-hand-press-core.classes14.Item.mhpFancyGunplay0",
+			"Compendium.mage-hand-press-core.classes14.Item.mhpMaverickSpiri"
+		],
+		label: "MageHandPress.Gunslinger.Era.IndustrialAge",
+		weapons: new Set([
+			"cannon", "doubleBarrelShotgun", "doubleHandgun", "dragonRifle", "gatlingGun",
+			"handgun", "harpoonGun", "huntingRifle", "lightCannon", "magnum", "parlorGun",
+			"pumpShotgun", "quadrupleBarrelShotgun", "revolver", "sawedOffShotgun", "sniperRifle"
+		])
+	},
+	modern: {
+		deeds: [
+			"Compendium.mage-hand-press-core.classes14.Item.mhpCurvedTraject",
+			"Compendium.mage-hand-press-core.classes14.Item.mhpTakeBullet000"
+		],
+		label: "MageHandPress.Gunslinger.Era.Modern",
+		weapons: new Set([
+			"antiMaterialRifle", "assaultRifle", "assaultShotgun", "briefcaseGun", "doubleBarrelShotgun",
+			"explosiveMagnum", "flareGun", "handgun" ,"huntingRifle", "gatlingGun", "grenadeLauncher",
+			"lightMachineGun", "machinePistol", "magnum", "multiRocketLauncher", "parlorGun", "pumpShotgun",
+			"revolver", "revolvingGrenadeLauncher", "rocketLauncher", "sawedOffShotgun", "sniperRifle", "submachineGun"
+		])
+	},
+	futuristic: {
+		deeds: [
+			"Compendium.mage-hand-press-core.classes14.Item.mhpBlindfire0000",
+			"Compendium.mage-hand-press-core.classes14.Item.mhpDisguisedShot"
+		],
+		label: "MageHandPress.Gunslinger.Era.Futuristic",
+		weapons: new Set([
+			"antimatterCarbine", "antimatterPistol", "aviaRaSunstaff", "binaryGun", "blitzCannon",
+			"boltCaster", "concussionRifle", "diodeBeam", "duelingLaser", "experimentalCarbine",
+			"fusionEmitter", "hardlightBallista", "hyperBlitzCannon", "impactorCannon", "ionCannon",
+			"linearAccelerator", "magnus", "phaser", "plasmaLauncher", "psionicHelm", "recGun", "repeater",
+			"rocketLauncher", "standardCarbine", "singularityEmitter", "swarmPistol", "volcanic"
+		])
+	}
+};
 
 /* -------------------------------------------- */
 /*  System Config Changes                       */
 /* -------------------------------------------- */
 
 /** @inheritDoc */
-export const consumableTypesLegacy = {
+const consumableTypesLegacy = {
 	ammo: {
 		blunderbussShot: "MageHandPress.Ammunition.BlunderbussShot",
 		dragonBullet: "MageHandPress.Ammunition.BulletDragon",
@@ -40,7 +110,7 @@ export const consumableTypesLegacy = {
 /* -------------------------------------------- */
 
 /** @inheritDoc */
-export const consumableTypesModern = {
+const consumableTypesModern = {
 	ammo: {
 		cannonball: "MageHandPress.Ammunition.Cannonball",
 		flare: "MageHandPress.Ammunition.Flare",
@@ -53,7 +123,7 @@ export const consumableTypesModern = {
 /* -------------------------------------------- */
 
 /** @inheritDoc */
-export const featureTypes = {
+const featureTypes = {
 	class: {
 		gunslingerDeed: "MageHandPress.Gunslinger.Deed"
 	}
@@ -62,7 +132,7 @@ export const featureTypes = {
 /* -------------------------------------------- */
 
 /** @inheritDoc */
-export const itemPropertiesLegacy = {
+const itemPropertiesLegacy = {
 	automatic: {
 		label: "MageHandPress.Properties.Automatic",
 		reference: "Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpAutomatic0000"
@@ -124,7 +194,7 @@ export const itemPropertiesLegacy = {
 /* -------------------------------------------- */
 
 /** @inheritDoc */
-export const validPropertiesLegacy = {
+const validPropertiesLegacy = {
 	weapon: [
 		"automatic", "blaster", "concealable", "dry", "explosive", "foregrip", "heat",
 		"misfire", "mounted", "nonlethal", "overheat", "scatter", "sighted", "twinshot"
@@ -134,7 +204,7 @@ export const validPropertiesLegacy = {
 /* -------------------------------------------- */
 
 /** @inheritDoc */
-export const itemPropertiesModern = {
+const itemPropertiesModern = {
 	blaster: {
 		label: "MageHandPress.Properties.Blaster",
 		reference: "Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpBlaster000000"
@@ -152,14 +222,14 @@ export const itemPropertiesModern = {
 /* -------------------------------------------- */
 
 /** @inheritDoc */
-export const validPropertiesModern = {
+const validPropertiesModern = {
 	weapon: ["blaster", "cooldown", "recoil"]
 };
 
 /* -------------------------------------------- */
 
 /** @inheritDoc */
-export const weaponIdsLegacy = {
+const weaponIdsLegacy = {
 	antiMaterialRifle: "Compendium.mage-hand-press-core.equipment14.Item.mhpAntiMaterialR",
 	antimatterCarbine: "Compendium.mage-hand-press-core.equipment14.Item.mhpAntimatterCa1",
 	assaultRifle: "Compendium.mage-hand-press-core.equipment14.Item.mhpAssaultRifle1",
@@ -216,7 +286,7 @@ export const weaponIdsLegacy = {
 /* -------------------------------------------- */
 
 /** @inheritDoc */
-export const weaponIdsModern = {
+const weaponIdsModern = {
 	antimatterCarbine: "Compendium.mage-hand-press-core.equipment24.Item.mhpAntimatterCar",
 	antimatterPistol: "Compendium.mage-hand-press-core.equipment24.Item.mhpAntimatterPis",
 	assaultRifle: "Compendium.mage-hand-press-core.equipment24.Item.mhpAssaultRifle0",
@@ -252,7 +322,7 @@ export const weaponIdsModern = {
 /* -------------------------------------------- */
 
 /** @inheritDoc */
-export const weaponMasteries = {
+const weaponMasteries = {
 	automatic: {
 		label: "MageHandPress.Mastery.Automatic",
 		reference: "Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpAutomatic0000"
@@ -290,14 +360,14 @@ export const weaponMasteries = {
 /* -------------------------------------------- */
 
 /** @inheritDoc */
-export const weaponProficiencies = {
+const weaponProficiencies = {
 	exo: "MageHandPress.Weapon.ExoticProficiency"
 };
 
 /* -------------------------------------------- */
 
 /** @inheritDoc */
-export const weaponProficienciesMap = {
+const weaponProficienciesMap = {
 	simpleFirearm: "sim",
 	martialFirearm: "mar",
 	exoticFirearm: "exo"
@@ -306,7 +376,7 @@ export const weaponProficienciesMap = {
 /* -------------------------------------------- */
 
 /** @inheritDoc */
-export const weaponTypeMap = {
+const weaponTypeMap = {
 	simpleFirearm: "ranged",
 	martialFirearm: "ranged",
 	exoticFirearm: "ranged"
@@ -315,7 +385,7 @@ export const weaponTypeMap = {
 /* -------------------------------------------- */
 
 /** @inheritDoc */
-export const weaponTypes = {
+const weaponTypes = {
 	simpleFirearm: "MageHandPress.Weapon.FirearmSimple",
 	martialFirearm: "MageHandPress.Weapon.FirearmMartial",
 	exoticFirearm: "MageHandPress.Weapon.FirearmExotic"

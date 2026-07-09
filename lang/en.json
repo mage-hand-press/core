@@ -13,7 +13,13 @@
 			"Shot": "Shot"
 		},
 		"Gunslinger": {
-			"Deed": "Deed"
+			"Deed": "Deed",
+			"Era": {
+				"Futuristic": "Futuristic",
+				"IndustrialAge": "Industrial Age",
+				"Modern": "Modern",
+				"Renaissance": "Renaissance"
+			}
 		},
 		"Mastery": {
 			"Automatic": "Automatic",
@@ -54,6 +60,10 @@
 					"customization": {
 						"hint": "Add a new class feature type, weapon properties, masteries, and base weapons depending on your rules version.",
 						"label": "Gunslinger Customization"
+					},
+					"eras": {
+						"hint": "Eras from which players can choose their firearm proficiencies and, in the 5e version of the class, their Deeds.",
+						"label": "Firearm Eras"
 					},
 					"mankillerOverkill": {
 						"hint": "Automatically adjust damage to include modifier if not included (for both features) or add extra damage (for Overkill).",

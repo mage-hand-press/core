@@ -9,7 +9,7 @@ export function initialize() {
 let super_processDamagePart;
 
 function _processDamagePart(damage, rollConfig, rollData, index=0, options={}) {
-	const roll = super_processDamagePart.bind(this)(damage, rollConfig, rollData, index, options);
+	const roll = super_processDamagePart.call(this, damage, rollConfig, rollData, index, options);
 	if ( !roll?.base ) return;
 
 	// Mankiller feature applies only to firearms

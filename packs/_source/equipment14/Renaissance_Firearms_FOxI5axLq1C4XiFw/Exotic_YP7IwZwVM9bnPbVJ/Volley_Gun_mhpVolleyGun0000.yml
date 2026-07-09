@@ -128,7 +128,7 @@ system:
     value: 100
     long: 400
   type:
-    value: martialR
+    value: exoticFirearm
     baseItem: volleyGun
   mastery: ''
   crew:
@@ -145,10 +145,10 @@ flags:
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254060065
-  modifiedTime: 1775255389706
+  modifiedTime: 1783554905718
   lastModifiedBy: magehandpress000
 _key: '!items!mhpVolleyGun0000'

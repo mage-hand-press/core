@@ -14,7 +14,7 @@ export function initialize() {
 /* -------------------------------------------- */
 
 /** @inheritDoc */
-export const featureTypes = {
+const featureTypes = {
 	class: {
 		arcaneInitiation: "MageHandPress.Warmage.ArcaneInitiation",
 		strategem: "MageHandPress.Warmage.Strategem",
