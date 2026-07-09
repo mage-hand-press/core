@@ -10,7 +10,7 @@ let super_processDamagePart;
 
 function _processDamagePart(damage, rollConfig, rollData, index=0, options={}) {
 	const roll = super_processDamagePart.call(this, damage, rollConfig, rollData, index, options);
-	if ( !roll?.base ) return;
+	if ( !roll?.base ) return roll;
 
 	// Mankiller feature applies only to firearms
 	// TODO: In DnD5e 6.0, instead of just checking for presence of feature, check `canUse`
