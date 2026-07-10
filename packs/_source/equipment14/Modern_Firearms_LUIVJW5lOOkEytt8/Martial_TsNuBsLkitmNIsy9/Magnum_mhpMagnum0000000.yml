@@ -1,12 +1,12 @@
 folder: TsNuBsLkitmNIsy9
-name: Grenade Launcher
+name: Magnum
 type: weapon
-_id: mhpGrenadeLaunc1
-img: icons/weapons/guns/gun-green.webp
+_id: mhpMagnum0000000
+img: icons/weapons/guns/pistol-handgun-medium.webp
 system:
   activities:
-    RsN1hznwWjh1cUSB:
-      _id: RsN1hznwWjh1cUSB
+    hEsg1UeBWXM77Sce:
+      _id: hEsg1UeBWXM77Sce
       type: attack
       sort: 0
       activation:
@@ -33,8 +33,6 @@ system:
           contiguous: false
           units: ft
           type: ''
-          size: ''
-          count: ''
           stationary: false
         affects:
           choice: false
@@ -69,98 +67,43 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-    cdLVyxLFpkBC91Sy:
-      type: save
-      _id: cdLVyxLFpkBC91Sy
-      sort: 0
-      activation:
-        type: special
-        override: false
-        condition: ''
-      consumption:
-        scaling:
-          allowed: false
-        spellSlot: true
-        targets: []
-      description:
-        chatFlavor: ''
-      duration:
-        units: inst
-        concentration: false
-        override: false
-      effects: []
-      range:
-        units: self
-        override: false
-      target:
-        template:
-          contiguous: false
-          units: ft
-          type: sphere
-          size: '7.5'
-          count: ''
-          stationary: false
-        affects:
-          choice: false
-          type: creature
-          count: ''
-          special: ''
-        override: false
-        prompt: true
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      damage:
-        parts: []
-        onSave: none
-      save:
-        ability:
-          - dex
-        dc:
-          calculation: ''
-          formula: '14'
-      name: Explosive
-      img: ''
-      flags: {}
-      visibility:
-        level: {}
-        requireAttunement: false
-        requireIdentification: false
-        requireMagic: false
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: <h2></h2>
     chat: ''
-  identifier: grenade-launcher
+  identifier: magnum
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
   container: null
   quantity: 1
   weight:
-    value: 10
+    value: 6
     units: lb
   price:
-    value: 850
+    value: 500
     denomination: gp
   rarity: ''
   attunement: ''
   attuned: false
   equipped: false
   ammunition:
-    type: grenade
+    type: firearmBullet
   armor: {}
   damage:
     base:
       types:
-        - fire
+        - piercing
       custom:
         enabled: false
       scaling:
@@ -176,18 +119,17 @@ system:
         number: 1
   properties:
     - amm
-    - explosive
-    - lod
-    - two
+    - hvy
+    - rel
   proficient: null
   range:
     reach: null
     units: ft
-    value: 80
-    long: 320
+    value: 50
+    long: 200
   type:
     value: martialFirearm
-    baseItem: grenadeLauncher
+    baseItem: magnum
   mastery: ''
   crew:
     value: []
@@ -203,10 +145,10 @@ flags:
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
-  createdTime: 1775254059842
-  modifiedTime: 1775256050579
+  systemVersion: 5.3.3
+  createdTime: 1775254060176
+  modifiedTime: 1783627905993
   lastModifiedBy: magehandpress000
-_key: '!items!mhpGrenadeLaunc1'
+_key: '!items!mhpMagnum0000000'

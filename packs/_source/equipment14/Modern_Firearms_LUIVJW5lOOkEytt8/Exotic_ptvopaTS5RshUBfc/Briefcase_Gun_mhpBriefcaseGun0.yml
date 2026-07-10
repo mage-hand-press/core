@@ -2,7 +2,7 @@ folder: ptvopaTS5RshUBfc
 name: Briefcase Gun
 type: weapon
 _id: mhpBriefcaseGun0
-img: icons/weapons/guns/gun-brown.webp
+img: icons/weapons/guns/rifle-sniper-heavy-short.webp
 system:
   activities:
     6pXJfdaaZzYEnBJv:
@@ -77,7 +77,8 @@ system:
   identifier: briefcase-gun
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
   identified: true
   unidentified:
     description: ''
@@ -141,10 +142,10 @@ flags:
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254059688
-  modifiedTime: 1775255968721
+  modifiedTime: 1783724548865
   lastModifiedBy: magehandpress000
 _key: '!items!mhpBriefcaseGun0'

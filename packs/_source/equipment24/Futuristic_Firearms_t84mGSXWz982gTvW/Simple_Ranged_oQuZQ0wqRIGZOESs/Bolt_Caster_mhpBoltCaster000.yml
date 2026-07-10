@@ -2,7 +2,7 @@ folder: oQuZQ0wqRIGZOESs
 name: Bolt Caster
 type: weapon
 _id: mhpBoltCaster000
-img: icons/magic/lightning/bolt-strike-beam-yellow.webp
+img: icons/weapons/crossbows/crossbow-ornamental-black.webp
 system:
   activities:
     2womtZkz0KB4oIod:
@@ -73,13 +73,14 @@ system:
     max: ''
   description:
     value: >-
-      <p><span class="s1">An early but reliable blaster design that resembles a crossbow, the Bolt
-      Caster issues single shots of plasma with a long cooldown between shots.</span></p>
+      <p>An early but reliable blaster design that resembles a crossbow, the Bolt Caster issues
+      single shots of plasma with a long cooldown between shots.</p>
     chat: ''
   identifier: bolt-caster
   source:
     revision: 1
     rules: '2024'
+    book: Complete Gunslinger
   identified: true
   unidentified:
     description: ''
@@ -107,7 +108,7 @@ system:
         number: 1
       number: 2
       denomination: 6
-      bonus: '-@abilities.dex.mod'
+      bonus: ''
     versatile:
       types: []
       custom:
@@ -138,10 +139,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254059200
-  modifiedTime: 1775256972661
+  modifiedTime: 1783724591361
   lastModifiedBy: magehandpress000
 _key: '!items!mhpBoltCaster000'

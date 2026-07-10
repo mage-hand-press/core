@@ -2,7 +2,7 @@ folder: 4Fs4hv6HRst7R3Uy
 name: Diode Beam
 type: weapon
 _id: mhpDiodeBeam0000
-img: icons/magic/light/beams-rays-orange-purple.webp
+img: icons/commodities/tech/metal-blue.webp
 system:
   activities:
     9TQjUnkjw2L8EvQU:
@@ -143,12 +143,23 @@ system:
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>As an action, this weapon can be fired continuously in a beam, affecting a 120-foot long,
+      5-foot wide line in a direction you choose. When a creature enters the area for the first time
+      on a turn or starts its turn there, it must make a DC 14 Dexterity saving throw or take 4d6
+      radiant damage.</p><p>At the beginning of each of your subsequent turns, roll a d20. On a 5 or
+      lower, the weapon overheats and can’t be fired until the end of your next turn. If you roll
+      higher than 5, you can use your action to continue firing the beam and can change the
+      direction the line faces from you.</p>
     chat: ''
   identifier: diode-beam
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
@@ -213,10 +224,10 @@ flags:
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254059905
-  modifiedTime: 1775256269487
+  modifiedTime: 1783624731036
   lastModifiedBy: magehandpress000
 _key: '!items!mhpDiodeBeam0000'

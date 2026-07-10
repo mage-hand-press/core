@@ -2,7 +2,7 @@ folder: lwklT3hcvpxZURCt
 name: Hardlight Ballista
 type: weapon
 _id: mhpHardlightBall
-img: icons/magic/sonic/explosion-shock-wave-teal.webp
+img: icons/weapons/guns/machine-pistol-silver-orange.webp
 system:
   activities:
     U6dyFIuLIZoeTucH:
@@ -77,7 +77,11 @@ system:
   identifier: hardlight-ballista
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
@@ -142,10 +146,10 @@ flags:
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254060287
-  modifiedTime: 1775256400556
+  modifiedTime: 1783628334561
   lastModifiedBy: magehandpress000
 _key: '!items!mhpHardlightBall'

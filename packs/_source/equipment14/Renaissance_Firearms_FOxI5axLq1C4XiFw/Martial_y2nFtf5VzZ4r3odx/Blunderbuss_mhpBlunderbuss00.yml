@@ -1,12 +1,12 @@
-folder: dC16aqIv2dAsM46h
-name: Swarm Pistol
+folder: y2nFtf5VzZ4r3odx
+name: Blunderbuss
 type: weapon
-_id: mhpSwarmPistol01
-img: icons/magic/light/projectile-needles-salvo-yellow.webp
+_id: mhpBlunderbuss00
+img: icons/weapons/guns/gun-blunderbuss-gold.webp
 system:
   activities:
-    8URJrYkFisQpUfmo:
-      _id: 8URJrYkFisQpUfmo
+    0zEj4a0ccWbJUs9D:
+      _id: 0zEj4a0ccWbJUs9D
       type: attack
       sort: 0
       activation:
@@ -67,108 +67,53 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-    ZsSMEccSqB5ytG0p:
-      type: attack
-      name: Foregrip
-      _id: ZsSMEccSqB5ytG0p
-      sort: 0
-      activation:
-        type: action
-        override: false
-        condition: ''
-      consumption:
-        scaling:
-          allowed: false
-        spellSlot: true
-        targets: []
-      description:
-        chatFlavor: ''
-      duration:
-        units: inst
-        concentration: false
-        override: false
-      effects: []
-      range:
-        units: ft
-        override: true
-        special: ''
-        value: '80'
-      target:
-        template:
-          contiguous: false
-          units: ft
-          type: ''
-          stationary: false
-        affects:
-          choice: false
-          type: creature
-          count: '1'
-          special: ''
-        override: false
-        prompt: true
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      attack:
-        critical:
-          threshold: null
-        flat: false
-        type:
-          value: ''
-          classification: ''
-        ability: ''
-        bonus: ''
-      damage:
-        critical:
-          bonus: ''
-        includeBase: true
-        parts: []
-      img: ''
-      flags: {}
-      visibility:
-        level: {}
-        requireAttunement: false
-        requireIdentification: false
-        requireMagic: false
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <section id="secret-WTDbrWMy72gzy5EP" class="secret"><p><strong>Foundry
+      Note</strong></p><p>For the Scatter property, use the "Two-Handed" attack mode for attacks
+      within half this weapon’s normal range and "One-Handed" attack mode for attacks beyond that
+      range.</p></section>
     chat: ''
-  identifier: swarm-pistol
+  identifier: blunderbuss
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
   container: null
   quantity: 1
   weight:
-    value: 2
+    value: 8
     units: lb
   price:
-    value: 100
+    value: 180
     denomination: gp
   rarity: ''
   attunement: ''
   attuned: false
   equipped: false
-  ammunition: {}
+  ammunition:
+    type: blunderbussShot
   armor: {}
   damage:
     base:
       types:
-        - radiant
+        - piercing
       custom:
         enabled: false
       scaling:
         number: 1
       number: 2
-      denomination: 4
+      denomination: 8
       bonus: ''
     versatile:
       types: []
@@ -176,19 +121,26 @@ system:
         enabled: false
       scaling:
         number: 1
+      number: null
+      denomination: null
+      bonus: ''
   properties:
-    - automatic
-    - foregrip
-    - lgt
+    - amm
+    - dry
+    - hvy
+    - lod
+    - misfire
+    - scatter
+    - two
   proficient: null
   range:
     reach: null
     units: ft
     value: 30
-    long: 120
+    long: 90
   type:
-    value: simpleFirearm
-    baseItem: swarmPistol
+    value: martialFirearm
+    baseItem: blunderbuss
   mastery: ''
   crew:
     value: []
@@ -196,18 +148,14 @@ effects: []
 sort: 0
 ownership:
   default: 0
-flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
-  createdTime: 1775254060217
-  modifiedTime: 1775256217572
+  systemVersion: 5.3.3
+  createdTime: 1775254060186
+  modifiedTime: 1783720941185
   lastModifiedBy: magehandpress000
-_key: '!items!mhpSwarmPistol01'
+_key: '!items!mhpBlunderbuss00'

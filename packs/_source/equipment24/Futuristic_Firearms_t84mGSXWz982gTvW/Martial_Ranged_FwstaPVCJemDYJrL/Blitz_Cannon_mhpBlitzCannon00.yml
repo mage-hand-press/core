@@ -2,7 +2,7 @@ folder: FwstaPVCJemDYJrL
 name: Blitz Cannon
 type: weapon
 _id: mhpBlitzCannon00
-img: icons/magic/lightning/bolt-strike-embers-teal.webp
+img: icons/weapons/guns/shotgun-short-steel.webp
 system:
   activities:
     0bPBrpQpnWR7omau:
@@ -73,14 +73,15 @@ system:
     max: ''
   description:
     value: >-
-      <p><span class="s1">With its imposing rectangular muzzle, this brutalist weapon has a clear
-      right and wrong end. Pulling its trigger unleashes a torrent of lightning bolts in a wide,
-      imprecise spray, making it extremely dangerous at point-blank range.</span></p>
+      <p>With its imposing rectangular muzzle, this brutalist weapon has a clear right and wrong
+      end. Pulling its trigger unleashes a torrent of lightning bolts in a wide, imprecise spray,
+      making it extremely dangerous at point-blank range.</p>
     chat: ''
   identifier: blitz-cannon
   source:
     revision: 1
     rules: '2024'
+    book: Complete Gunslinger
   identified: true
   unidentified:
     description: ''
@@ -108,7 +109,7 @@ system:
         number: 1
       number: 2
       denomination: 8
-      bonus: '-@abilities.dex.mod'
+      bonus: ''
     versatile:
       types: []
       custom:
@@ -140,10 +141,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254059209
-  modifiedTime: 1775256941315
+  modifiedTime: 1783724591360
   lastModifiedBy: magehandpress000
 _key: '!items!mhpBlitzCannon00'

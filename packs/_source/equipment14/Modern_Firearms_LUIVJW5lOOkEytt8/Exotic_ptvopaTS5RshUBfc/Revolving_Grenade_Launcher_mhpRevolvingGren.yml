@@ -2,7 +2,7 @@ folder: ptvopaTS5RshUBfc
 name: Revolving Grenade Launcher
 type: weapon
 _id: mhpRevolvingGren
-img: icons/skills/ranged/cannon-barrel-firing-white-yellow.webp
+img: icons/weapons/guns/gun-chain-gatling-heavy.webp
 system:
   activities:
     Eq1vxI4XF7DplDAk:
@@ -118,14 +118,17 @@ system:
         dc:
           calculation: ''
           formula: '14'
-      name: Explosive
+      name: Explode
       img: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
   uses:
     spent: 0
     recovery: []
@@ -136,7 +139,8 @@ system:
   identifier: revolving-grenade-launcher
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
   identified: true
   unidentified:
     description: ''
@@ -194,18 +198,14 @@ effects: []
 sort: 0
 ownership:
   default: 0
-flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254060144
-  modifiedTime: 1775256016542
+  modifiedTime: 1783724548868
   lastModifiedBy: magehandpress000
 _key: '!items!mhpRevolvingGren'

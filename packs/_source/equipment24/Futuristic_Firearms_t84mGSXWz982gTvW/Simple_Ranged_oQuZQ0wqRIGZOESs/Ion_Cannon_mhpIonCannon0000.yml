@@ -2,7 +2,7 @@ folder: oQuZQ0wqRIGZOESs
 name: Ion Cannon
 type: weapon
 _id: mhpIonCannon0000
-img: icons/magic/light/explosion-star-blue.webp
+img: icons/weapons/guns/pistol-energy-blast.webp
 system:
   activities:
     rYEWm6LTs3cWKNPc:
@@ -73,14 +73,15 @@ system:
     max: ''
   description:
     value: >-
-      <p><span class="s1">The Ion Cannon fires a bright, diffuse cone, rendering it deadly up close.
-      Between shots, it makes a quiet zipping noise, as the arcane battery charges the ion cell for
-      another blast.</span></p>
+      <p>The Ion Cannon fires a bright, diffuse cone, rendering it deadly up close. Between shots,
+      it makes a quiet zipping noise, as the arcane battery charges the ion cell for another
+      blast.</p>
     chat: ''
   identifier: ion-cannon
   source:
     revision: 1
     rules: '2024'
+    book: Complete Gunslinger
   identified: true
   unidentified:
     description: ''
@@ -108,7 +109,7 @@ system:
         number: 1
       number: 2
       denomination: 6
-      bonus: '-@abilities.dex.mod'
+      bonus: ''
     versatile:
       types: []
       custom:
@@ -140,10 +141,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254059088
-  modifiedTime: 1775256975228
+  modifiedTime: 1783724591364
   lastModifiedBy: magehandpress000
 _key: '!items!mhpIonCannon0000'

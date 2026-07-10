@@ -1,12 +1,12 @@
-folder: TsNuBsLkitmNIsy9
-name: Assault Rifle
+folder: dC16aqIv2dAsM46h
+name: Swarm Pistol
 type: weapon
-_id: mhpAssaultRifle1
-img: icons/weapons/guns/rifle-white.webp
+_id: mhpSwarmPistol00
+img: icons/weapons/guns/pistol-auto-grunge-steel.webp
 system:
   activities:
-    CGvJkqkChskampe4:
-      _id: CGvJkqkChskampe4
+    8URJrYkFisQpUfmo:
+      _id: 8URJrYkFisQpUfmo
       type: attack
       sort: 0
       activation:
@@ -72,40 +72,43 @@ system:
     recovery: []
     max: ''
   description:
-    value: <h2></h2>
+    value: ''
     chat: ''
-  identifier: assault-rifle
+  identifier: swarm-pistol
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
   container: null
   quantity: 1
   weight:
-    value: 7
+    value: 2
     units: lb
   price:
-    value: 350
+    value: 100
     denomination: gp
   rarity: ''
   attunement: ''
   attuned: false
   equipped: false
-  ammunition:
-    type: firearmBullet
+  ammunition: {}
   armor: {}
   damage:
     base:
       types:
-        - piercing
+        - radiant
       custom:
         enabled: false
       scaling:
         number: 1
       number: 2
-      denomination: 6
+      denomination: 4
       bonus: ''
     versatile:
       types: []
@@ -114,19 +117,18 @@ system:
       scaling:
         number: 1
   properties:
-    - amm
     - automatic
-    - rel
-    - two
+    - foregrip
+    - lgt
   proficient: null
   range:
     reach: null
     units: ft
-    value: 80
-    long: 320
+    value: 30
+    long: 120
   type:
-    value: martialFirearm
-    baseItem: assaultRifle
+    value: simpleFirearm
+    baseItem: swarmPistol
   mastery: ''
   crew:
     value: []
@@ -134,18 +136,14 @@ effects: []
 sort: 0
 ownership:
   default: 0
-flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
-  createdTime: 1775254059757
-  modifiedTime: 1775256089337
+  systemVersion: 5.3.3
+  createdTime: 1775254060217
+  modifiedTime: 1783624878843
   lastModifiedBy: magehandpress000
-_key: '!items!mhpAssaultRifle1'
+_key: '!items!mhpSwarmPistol00'

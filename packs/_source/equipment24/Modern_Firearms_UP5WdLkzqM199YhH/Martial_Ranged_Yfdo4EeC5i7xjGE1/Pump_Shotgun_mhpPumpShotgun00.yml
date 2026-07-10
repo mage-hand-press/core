@@ -2,7 +2,7 @@ folder: Yfdo4EeC5i7xjGE1
 name: Pump Shotgun
 type: weapon
 _id: mhpPumpShotgun00
-img: icons/weapons/guns/gun-green.webp
+img: icons/weapons/guns/shotgun-pump.webp
 system:
   activities:
     DZOWxR5xArEusuX7:
@@ -78,6 +78,10 @@ system:
   source:
     revision: 1
     rules: '2024'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
@@ -106,7 +110,7 @@ system:
         number: 1
       number: 2
       denomination: 8
-      bonus: '-@abilities.dex.mod'
+      bonus: ''
     versatile:
       types: []
       custom:
@@ -140,10 +144,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254059175
-  modifiedTime: 1775256915527
+  modifiedTime: 1783629058049
   lastModifiedBy: magehandpress000
 _key: '!items!mhpPumpShotgun00'

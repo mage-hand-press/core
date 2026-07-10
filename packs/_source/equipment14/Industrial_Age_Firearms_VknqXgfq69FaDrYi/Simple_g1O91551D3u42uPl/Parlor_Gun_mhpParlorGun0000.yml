@@ -1,12 +1,12 @@
-folder: dC16aqIv2dAsM46h
-name: Ion Cannon
+folder: g1O91551D3u42uPl
+name: Parlor Gun
 type: weapon
-_id: mhpIonCannon0001
-img: icons/magic/light/beam-impact-deflect-teal.webp
+_id: mhpParlorGun0000
+img: icons/weapons/guns/gun-pistol-brown.webp
 system:
   activities:
-    boAP2kfl2M7u4BN5:
-      _id: boAP2kfl2M7u4BN5
+    CeY9B41CzxJvHPZ0:
+      _id: CeY9B41CzxJvHPZ0
       type: attack
       sort: 0
       activation:
@@ -67,80 +67,6 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-    0hLQW7adKnZC7DxE:
-      type: attack
-      name: Scatter
-      _id: 0hLQW7adKnZC7DxE
-      sort: 0
-      activation:
-        type: action
-        override: false
-        condition: ''
-      consumption:
-        scaling:
-          allowed: false
-        spellSlot: true
-        targets: []
-      description:
-        chatFlavor: ''
-      duration:
-        units: inst
-        concentration: false
-        override: false
-      effects: []
-      range:
-        units: ft
-        override: true
-        special: ''
-        value: '15'
-      target:
-        template:
-          contiguous: false
-          units: ft
-          type: ''
-          stationary: false
-        affects:
-          choice: false
-          type: creature
-          count: '1'
-          special: ''
-        override: false
-        prompt: true
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      attack:
-        critical:
-          threshold: null
-        flat: false
-        type:
-          value: ''
-          classification: ''
-        ability: ''
-        bonus: ''
-      damage:
-        critical:
-          bonus: ''
-        includeBase: false
-        parts:
-          - custom:
-              enabled: false
-              formula: ''
-            number: 2
-            denomination: 8
-            bonus: '-@abilities.dex.mod'
-            types:
-              - radiant
-            scaling:
-              number: 1
-      img: ''
-      flags: {}
-      visibility:
-        level: {}
-        requireAttunement: false
-        requireIdentification: false
-        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -148,37 +74,42 @@ system:
   description:
     value: ''
     chat: ''
-  identifier: ion-cannon
+  identifier: parlor-gun
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
   container: null
   quantity: 1
   weight:
-    value: 6
+    value: 2
     units: lb
   price:
-    value: 250
+    value: 75
     denomination: gp
   rarity: ''
   attunement: ''
   attuned: false
   equipped: false
-  ammunition: {}
+  ammunition:
+    type: firearmBullet
   armor: {}
   damage:
     base:
       types:
-        - radiant
+        - piercing
       custom:
         enabled: false
       scaling:
         number: 1
       number: 2
-      denomination: 6
+      denomination: 4
       bonus: ''
     versatile:
       types: []
@@ -187,18 +118,19 @@ system:
       scaling:
         number: 1
   properties:
-    - blaster
-    - scatter
-    - two
+    - amm
+    - concealable
+    - lgt
+    - rel
   proficient: null
   range:
     reach: null
     units: ft
     value: 30
-    long: 90
+    long: 120
   type:
     value: simpleFirearm
-    baseItem: ionCannon
+    baseItem: parlorGun
   mastery: ''
   crew:
     value: []
@@ -214,10 +146,10 @@ flags:
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
-  createdTime: 1775254059669
-  modifiedTime: 1775256153322
+  systemVersion: 5.3.3
+  createdTime: 1775254060134
+  modifiedTime: 1783624917844
   lastModifiedBy: magehandpress000
-_key: '!items!mhpIonCannon0001'
+_key: '!items!mhpParlorGun0000'

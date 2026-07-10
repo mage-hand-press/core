@@ -1,12 +1,12 @@
-folder: 4Fs4hv6HRst7R3Uy
-name: Concussion Rifle
+folder: 4joufYSddVjaX0RG
+name: Submachine Gun
 type: weapon
-_id: mhpConcussionRi1
-img: icons/skills/ranged/rifle-scoped-gray-green.webp
+_id: mhpSubmachineGun
+img: icons/weapons/guns/machine-gun-sub-pistol.webp
 system:
   activities:
-    FPvkesMPnNivaOgA:
-      _id: FPvkesMPnNivaOgA
+    ST6hu12njquCEtgL:
+      _id: ST6hu12njquCEtgL
       type: attack
       sort: 0
       activation:
@@ -74,37 +74,42 @@ system:
   description:
     value: ''
     chat: ''
-  identifier: concussion-rifle
+  identifier: submachine-gun
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
   container: null
   quantity: 1
   weight:
-    value: 8
+    value: 6
     units: lb
   price:
-    value: 800
+    value: 200
     denomination: gp
   rarity: ''
   attunement: ''
   attuned: false
   equipped: false
-  ammunition: {}
+  ammunition:
+    type: firearmBullet
   armor: {}
   damage:
     base:
       types:
-        - thunder
+        - piercing
       custom:
         enabled: false
       scaling:
         number: 1
       number: 2
-      denomination: 8
+      denomination: 4
       bonus: ''
     versatile:
       types: []
@@ -113,18 +118,20 @@ system:
       scaling:
         number: 1
   properties:
-    - blaster
-    - sighted
-    - two
+    - amm
+    - automatic
+    - foregrip
+    - lgt
+    - rel
   proficient: null
   range:
     reach: null
     units: ft
-    value: 150
-    long: 600
+    value: 10
+    long: 40
   type:
-    value: martialFirearm
-    baseItem: concussionRifle
+    value: simpleFirearm
+    baseItem: submachineGun
   mastery: ''
   crew:
     value: []
@@ -132,18 +139,14 @@ effects: []
 sort: 0
 ownership:
   default: 0
-flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
-  createdTime: 1775254059744
-  modifiedTime: 1775256258292
+  systemVersion: 5.3.3
+  createdTime: 1775254059787
+  modifiedTime: 1783624904370
   lastModifiedBy: magehandpress000
-_key: '!items!mhpConcussionRi1'
+_key: '!items!mhpSubmachineGun'

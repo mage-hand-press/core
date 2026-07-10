@@ -1,12 +1,12 @@
-folder: TsNuBsLkitmNIsy9
-name: Sniper Rifle
+folder: 4Fs4hv6HRst7R3Uy
+name: Blitz Cannon
 type: weapon
-_id: mhpSniperRifle01
-img: icons/skills/targeting/crosshair-scope-sniper-green.webp
+_id: mhpBlitzCannon00
+img: icons/weapons/guns/shotgun-short-steel.webp
 system:
   activities:
-    XZaOVqgqQfhyQz3Q:
-      _id: XZaOVqgqQfhyQz3Q
+    1uEluKOZU0OTKCAn:
+      _id: 1uEluKOZU0OTKCAn
       type: attack
       sort: 0
       activation:
@@ -72,34 +72,37 @@ system:
     recovery: []
     max: ''
   description:
-    value: <h2></h2>
+    value: ''
     chat: ''
-  identifier: sniper-rifle
+  identifier: blitz-cannon
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
   container: null
   quantity: 1
   weight:
-    value: 8
+    value: 7
     units: lb
   price:
-    value: 500
+    value: 800
     denomination: gp
   rarity: ''
   attunement: ''
   attuned: false
   equipped: false
-  ammunition:
-    type: firearmBullet
+  ammunition: {}
   armor: {}
   damage:
     base:
       types:
-        - piercing
+        - lightning
       custom:
         enabled: false
       scaling:
@@ -113,21 +116,23 @@ system:
         enabled: false
       scaling:
         number: 1
+      number: null
+      denomination: null
+      bonus: ''
   properties:
-    - amm
+    - blaster
     - hvy
-    - rel
-    - sighted
+    - scatter
     - two
   proficient: null
   range:
     reach: null
     units: ft
-    value: 150
-    long: 560
+    value: 10
+    long: 30
   type:
     value: martialFirearm
-    baseItem: sniperRifle
+    baseItem: blitzCannon
   mastery: ''
   crew:
     value: []
@@ -135,18 +140,14 @@ effects: []
 sort: 0
 ownership:
   default: 0
-flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
-  createdTime: 1775254059891
-  modifiedTime: 1775255927789
+  systemVersion: 5.3.3
+  createdTime: 1775254060231
+  modifiedTime: 1783720976774
   lastModifiedBy: magehandpress000
-_key: '!items!mhpSniperRifle01'
+_key: '!items!mhpBlitzCannon00'

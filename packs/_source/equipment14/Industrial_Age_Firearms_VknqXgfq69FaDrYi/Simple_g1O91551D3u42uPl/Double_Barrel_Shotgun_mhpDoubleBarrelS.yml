@@ -1,12 +1,12 @@
-folder: 4joufYSddVjaX0RG
-name: Submachine Gun
+folder: g1O91551D3u42uPl
+name: Double-Barrel Shotgun
 type: weapon
-_id: mhpSubmachineGu1
-img: systems/dnd5e/icons/svg/items/weapon.svg
+_id: mhpDoubleBarrelS
+img: icons/weapons/guns/gun-double-barrel.webp
 system:
   activities:
-    ST6hu12njquCEtgL:
-      _id: ST6hu12njquCEtgL
+    LpEmuFoZvMv8sRIt:
+      _id: LpEmuFoZvMv8sRIt
       type: attack
       sort: 0
       activation:
@@ -67,70 +67,6 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-    I2MYuU9o1qodQoaU:
-      type: attack
-      sort: 0
-      activation:
-        type: action
-        override: false
-        condition: ''
-      consumption:
-        scaling:
-          allowed: false
-        spellSlot: true
-        targets: []
-      description:
-        chatFlavor: ''
-      duration:
-        units: inst
-        concentration: false
-        override: false
-      effects: []
-      range:
-        units: ft
-        override: true
-        special: ''
-        value: '60'
-      target:
-        template:
-          contiguous: false
-          units: ft
-          type: ''
-          stationary: false
-        affects:
-          choice: false
-          count: '1'
-          type: creature
-          special: ''
-        override: false
-        prompt: true
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      attack:
-        critical:
-          threshold: null
-        flat: false
-        type:
-          value: ''
-          classification: ''
-        ability: ''
-        bonus: ''
-      damage:
-        critical:
-          bonus: ''
-        includeBase: true
-        parts: []
-      name: Foregrip
-      _id: I2MYuU9o1qodQoaU
-      img: ''
-      flags: {}
-      visibility:
-        level: {}
-        requireAttunement: false
-        requireIdentification: false
-        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -138,17 +74,21 @@ system:
   description:
     value: ''
     chat: ''
-  identifier: submachine-gun
+  identifier: double-barrel-shotgun
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
   container: null
   quantity: 1
   weight:
-    value: 6
+    value: 8
     units: lb
   price:
     value: 200
@@ -169,7 +109,7 @@ system:
       scaling:
         number: 1
       number: 2
-      denomination: 4
+      denomination: 6
       bonus: ''
     versatile:
       types: []
@@ -177,39 +117,38 @@ system:
         enabled: false
       scaling:
         number: 1
+      number: null
+      denomination: null
+      bonus: ''
   properties:
     - amm
-    - foregrip
-    - lgt
     - rel
+    - scatter
+    - two
   proficient: null
   range:
     reach: null
     units: ft
     value: 10
-    long: 40
+    long: 30
   type:
     value: simpleFirearm
-    baseItem: submachineGun
+    baseItem: doubleBarrelShotgun
   mastery: ''
   crew:
     value: []
 effects: []
-sort: 0
+sort: 100000
 ownership:
   default: 0
-flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
-  createdTime: 1775254059787
-  modifiedTime: 1775255848739
+  systemVersion: 5.3.3
+  createdTime: 1775254059829
+  modifiedTime: 1783721002248
   lastModifiedBy: magehandpress000
-_key: '!items!mhpSubmachineGu1'
+_key: '!items!mhpDoubleBarrelS'

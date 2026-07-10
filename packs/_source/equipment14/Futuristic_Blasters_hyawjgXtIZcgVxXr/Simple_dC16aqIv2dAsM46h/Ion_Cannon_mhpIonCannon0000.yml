@@ -1,12 +1,12 @@
-folder: g1O91551D3u42uPl
-name: Parlor Gun
+folder: dC16aqIv2dAsM46h
+name: Ion Cannon
 type: weapon
-_id: mhpParlorGun0001
-img: icons/weapons/guns/gun-pistol-brown.webp
+_id: mhpIonCannon0000
+img: icons/weapons/guns/pistol-energy-blast.webp
 system:
   activities:
-    CeY9B41CzxJvHPZ0:
-      _id: CeY9B41CzxJvHPZ0
+    boAP2kfl2M7u4BN5:
+      _id: boAP2kfl2M7u4BN5
       type: attack
       sort: 0
       activation:
@@ -74,38 +74,41 @@ system:
   description:
     value: ''
     chat: ''
-  identifier: parlor-gun
+  identifier: ion-cannon
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
   container: null
   quantity: 1
   weight:
-    value: 2
+    value: 6
     units: lb
   price:
-    value: 75
+    value: 250
     denomination: gp
   rarity: ''
   attunement: ''
   attuned: false
   equipped: false
-  ammunition:
-    type: firearmBullet
+  ammunition: {}
   armor: {}
   damage:
     base:
       types:
-        - piercing
+        - radiant
       custom:
         enabled: false
       scaling:
         number: 1
       number: 2
-      denomination: 4
+      denomination: 6
       bonus: ''
     versatile:
       types: []
@@ -113,20 +116,22 @@ system:
         enabled: false
       scaling:
         number: 1
+      number: null
+      denomination: null
+      bonus: ''
   properties:
-    - amm
-    - concealable
-    - lgt
-    - rel
+    - blaster
+    - scatter
+    - two
   proficient: null
   range:
     reach: null
     units: ft
     value: 30
-    long: 120
+    long: 90
   type:
     value: simpleFirearm
-    baseItem: parlorGun
+    baseItem: ionCannon
   mastery: ''
   crew:
     value: []
@@ -134,18 +139,14 @@ effects: []
 sort: 0
 ownership:
   default: 0
-flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
-  createdTime: 1775254060134
-  modifiedTime: 1775255776094
+  systemVersion: 5.3.3
+  createdTime: 1775254059669
+  modifiedTime: 1783723676079
   lastModifiedBy: magehandpress000
-_key: '!items!mhpParlorGun0001'
+_key: '!items!mhpIonCannon0000'

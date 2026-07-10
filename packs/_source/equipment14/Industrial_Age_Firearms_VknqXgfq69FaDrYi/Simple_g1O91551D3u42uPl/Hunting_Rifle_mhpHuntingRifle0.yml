@@ -1,7 +1,7 @@
 folder: g1O91551D3u42uPl
 name: Hunting Rifle
 type: weapon
-_id: mhpHuntingRifle1
+_id: mhpHuntingRifle0
 img: icons/weapons/guns/rifle-brown.webp
 system:
   activities:
@@ -77,7 +77,11 @@ system:
   identifier: hunting-rifle
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
@@ -141,10 +145,10 @@ flags:
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254060116
-  modifiedTime: 1775255773668
+  modifiedTime: 1783624921845
   lastModifiedBy: magehandpress000
-_key: '!items!mhpHuntingRifle1'
+_key: '!items!mhpHuntingRifle0'

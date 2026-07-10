@@ -77,7 +77,8 @@ system:
   identifier: volley-gun
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
   identified: true
   unidentified:
     description: ''
@@ -116,7 +117,6 @@ system:
   properties:
     - amm
     - dry
-    - fir
     - hvy
     - misfire
     - rel
@@ -149,6 +149,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1775254060065
-  modifiedTime: 1783554905718
+  modifiedTime: 1783724548868
   lastModifiedBy: magehandpress000
 _key: '!items!mhpVolleyGun0000'

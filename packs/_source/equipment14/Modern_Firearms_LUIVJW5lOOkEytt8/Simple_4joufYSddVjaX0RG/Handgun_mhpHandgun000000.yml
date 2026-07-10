@@ -1,12 +1,11 @@
-folder: dC16aqIv2dAsM46h
-name: Repeater
+name: Handgun
 type: weapon
-_id: mhpRepeater00001
-img: icons/magic/light/explosion-star-glow-yellow.webp
+_id: mhpHandgun000000
+img: icons/weapons/guns/pistol-handgun-large.webp
 system:
   activities:
-    8SEseXJ23eMgqKLY:
-      _id: 8SEseXJ23eMgqKLY
+    Nnab2cJ07SU5iW9b:
+      _id: Nnab2cJ07SU5iW9b
       type: attack
       sort: 0
       activation:
@@ -72,12 +71,16 @@ system:
     recovery: []
     max: ''
   description:
-    value: ''
+    value: <h2></h2>
     chat: ''
-  identifier: repeater
+  identifier: handgun
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
@@ -93,12 +96,13 @@ system:
   attunement: ''
   attuned: false
   equipped: false
-  ammunition: {}
+  ammunition:
+    type: firearmBullet
   armor: {}
   damage:
     base:
       types:
-        - radiant
+        - piercing
       custom:
         enabled: false
       scaling:
@@ -113,7 +117,8 @@ system:
       scaling:
         number: 1
   properties:
-    - blaster
+    - amm
+    - rel
   proficient: null
   range:
     reach: null
@@ -122,12 +127,13 @@ system:
     long: 240
   type:
     value: simpleFirearm
-    baseItem: repeater
+    baseItem: handgun
   mastery: ''
   crew:
     value: []
 effects: []
-sort: 0
+folder: 4joufYSddVjaX0RG
+sort: 100000
 ownership:
   default: 0
 flags:
@@ -138,10 +144,10 @@ flags:
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
-  createdTime: 1775254060378
-  modifiedTime: 1775256174141
+  systemVersion: 5.3.3
+  createdTime: 1775254060460
+  modifiedTime: 1783624909069
   lastModifiedBy: magehandpress000
-_key: '!items!mhpRepeater00001'
+_key: '!items!mhpHandgun000000'

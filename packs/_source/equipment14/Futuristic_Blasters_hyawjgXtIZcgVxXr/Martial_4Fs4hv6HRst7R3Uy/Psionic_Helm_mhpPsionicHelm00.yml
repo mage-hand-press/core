@@ -2,7 +2,7 @@ folder: 4Fs4hv6HRst7R3Uy
 name: Psionic Helm
 type: weapon
 _id: mhpPsionicHelm00
-img: icons/magic/control/debuff-energy-hold-levitate-yellow.webp
+img: icons/equipment/head/tech-steel-helm-heavy.webp
 system:
   activities:
     pD7EiCMtrVCNIr89:
@@ -280,12 +280,18 @@ system:
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You can use your choice of Intelligence, Wisdom, or Charisma, instead of Dexterity, for
+      this weapon’s attack rolls.</p>
     chat: ''
   identifier: psionic-helm
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
@@ -347,10 +353,10 @@ flags:
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254059973
-  modifiedTime: 1775256301860
+  modifiedTime: 1783624750589
   lastModifiedBy: magehandpress000
 _key: '!items!mhpPsionicHelm00'

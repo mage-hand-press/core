@@ -2,7 +2,7 @@ folder: FwstaPVCJemDYJrL
 name: Concussion Rifle
 type: weapon
 _id: mhpConcussionRif
-img: icons/skills/ranged/rifle-scoped-gray-green.webp
+img: modules/mage-hand-press-dark-matter/assets/equipment/concussion-rifle.webp
 system:
   activities:
     X26INlYWRtJtXAtQ:
@@ -73,15 +73,18 @@ system:
     max: ''
   description:
     value: >-
-      <p><span class="s1">A series of arcane capacitors run the length of this rifle, terminating in
-      a thick condenser that compresses its blast into a precise burst. A Concussion Rifle is
-      especially deadly at long ranges, and its damage bypasses most energetically-resistant
-      armor.</span></p>
+      <p>A series of arcane capacitors run the length of this rifle, terminating in a thick
+      condenser that compresses its blast into a precise burst. A Concussion Rifle is especially
+      deadly at long ranges, and its damage bypasses most energetically-resistant armor.</p>
     chat: ''
   identifier: concussion-rifle
   source:
     revision: 1
     rules: '2024'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
@@ -109,7 +112,7 @@ system:
         number: 1
       number: 2
       denomination: 8
-      bonus: '-@abilities.dex.mod'
+      bonus: ''
     versatile:
       types: []
       custom:
@@ -142,10 +145,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254059149
-  modifiedTime: 1775256943804
+  modifiedTime: 1783629399826
   lastModifiedBy: magehandpress000
 _key: '!items!mhpConcussionRif'

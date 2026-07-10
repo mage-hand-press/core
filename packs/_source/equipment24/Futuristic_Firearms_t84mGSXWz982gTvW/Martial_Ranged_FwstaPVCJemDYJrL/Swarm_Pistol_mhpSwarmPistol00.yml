@@ -2,7 +2,7 @@ folder: FwstaPVCJemDYJrL
 name: Swarm Pistol
 type: weapon
 _id: mhpSwarmPistol00
-img: icons/magic/light/projectile-needles-salvo-white.webp
+img: icons/weapons/guns/pistol-auto-grunge-steel.webp
 system:
   activities:
     3HufTVaBEeUKVCuE:
@@ -72,12 +72,19 @@ system:
     recovery: []
     max: ''
   description:
-    value: "<p><span class=\"s1\">This handheld blaster, styled much like a Repeater, has a wickedly fast automatic fire, capable of spewing dozens of rays in seconds. Dexterous users might even find it possible to use one in each hand for a dazzling spectacle of plasma bolts.</span><span class=\"Apple-converted-space\">\_</span></p>"
+    value: >-
+      <p>This handheld blaster, styled much like a Repeater, has a wickedly fast automatic fire,
+      capable of spewing dozens of rays in seconds. Dexterous users might even find it possible to
+      use one in each hand for a dazzling spectacle of plasma bolts.</p>
     chat: ''
   identifier: swarm-pistol
   source:
     revision: 1
     rules: '2024'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
@@ -105,7 +112,7 @@ system:
         number: 1
       number: 2
       denomination: 4
-      bonus: '-@abilities.dex.mod'
+      bonus: ''
     versatile:
       types: []
       custom:
@@ -136,10 +143,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254059321
-  modifiedTime: 1775256964579
+  modifiedTime: 1783629473550
   lastModifiedBy: magehandpress000
 _key: '!items!mhpSwarmPistol00'

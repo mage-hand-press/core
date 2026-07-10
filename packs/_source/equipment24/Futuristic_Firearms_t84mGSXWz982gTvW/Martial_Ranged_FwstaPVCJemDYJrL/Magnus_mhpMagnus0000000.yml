@@ -2,7 +2,7 @@ folder: FwstaPVCJemDYJrL
 name: Magnus
 type: weapon
 _id: mhpMagnus0000000
-img: icons/magic/light/explosion-star-small-orange.webp
+img: icons/weapons/guns/pistol-sci-fi.webp
 system:
   activities:
     ibmNLTvUabqSxnbo:
@@ -73,14 +73,17 @@ system:
     max: ''
   description:
     value: >-
-      <p><span class="s1">This impressive handgun weighs almost twice that of a Repeater. Its
-      infamous heft, recoil, and stopping power make it a favorite of spacers that accept no
-      compromises.</span></p>
+      <p>This impressive handgun weighs almost twice that of a Repeater. Its infamous heft, recoil,
+      and stopping power make it a favorite of spacers that accept no compromises.</p>
     chat: ''
   identifier: magnus
   source:
     revision: 1
     rules: '2024'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
@@ -108,7 +111,7 @@ system:
         number: 1
       number: 2
       denomination: 8
-      bonus: '-@abilities.dex.mod'
+      bonus: ''
     versatile:
       types: []
       custom:
@@ -140,10 +143,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254059428
-  modifiedTime: 1775256950314
+  modifiedTime: 1783629424962
   lastModifiedBy: magehandpress000
 _key: '!items!mhpMagnus0000000'

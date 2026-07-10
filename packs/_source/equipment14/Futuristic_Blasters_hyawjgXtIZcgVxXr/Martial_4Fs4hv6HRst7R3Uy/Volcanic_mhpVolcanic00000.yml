@@ -2,75 +2,9 @@ folder: 4Fs4hv6HRst7R3Uy
 name: Volcanic
 type: weapon
 _id: mhpVolcanic00000
-img: icons/magic/fire/blast-jet-stream-embers-orange.webp
+img: icons/weapons/guns/pistol-smoking-orange.webp
 system:
   activities:
-    yzWG70ee926mITTc:
-      _id: yzWG70ee926mITTc
-      type: attack
-      sort: 0
-      activation:
-        type: action
-        override: false
-        condition: ''
-      consumption:
-        scaling:
-          allowed: false
-        spellSlot: true
-        targets:
-          - type: itemUses
-            value: '1'
-            target: ''
-            scaling: {}
-      description:
-        chatFlavor: ''
-      duration:
-        units: inst
-        concentration: false
-        override: false
-      effects: []
-      range:
-        units: self
-        override: false
-      target:
-        template:
-          contiguous: false
-          units: ft
-          type: cone
-          size: '15'
-          count: ''
-          stationary: false
-        affects:
-          choice: false
-          type: creature
-        override: false
-        prompt: true
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      attack:
-        critical:
-          threshold: null
-        flat: false
-        type:
-          value: ''
-          classification: ''
-        ability: ''
-        bonus: ''
-      damage:
-        critical:
-          bonus: ''
-        includeBase: true
-        parts: []
-      name: ''
-      img: ''
-      flags: {}
-      visibility:
-        level: {}
-        requireAttunement: false
-        requireIdentification: false
-        requireMagic: false
     MRaTqm92DH39B6Wl:
       type: save
       _id: MRaTqm92DH39B6Wl
@@ -97,7 +31,7 @@ system:
       effects: []
       range:
         units: self
-        override: false
+        override: true
       target:
         template:
           contiguous: false
@@ -118,7 +52,17 @@ system:
         recovery: []
         max: ''
       damage:
-        parts: []
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 6
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              number: 1
         onSave: none
       save:
         ability:
@@ -130,26 +74,31 @@ system:
       img: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
   uses:
     spent: 0
-    recovery:
-      - period: turnStart
-        type: formula
-        formula: '1'
-      - period: initiative
-        type: recoverAll
-    max: '3'
+    recovery: []
+    max: ''
   description:
-    value: ''
+    value: >-
+      <p>Whenever you make an attack with this weapon, it spews flames in a 15-foot radius cone.
+      Each creature within that area must make a DC 14 Dexterity saving throw or take 2d6 fire
+      damage.</p>
     chat: ''
   identifier: volcanic
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
@@ -206,18 +155,14 @@ effects: []
 sort: 0
 ownership:
   default: 0
-flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254059700
-  modifiedTime: 1775256336141
+  modifiedTime: 1783624708810
   lastModifiedBy: magehandpress000
 _key: '!items!mhpVolcanic00000'

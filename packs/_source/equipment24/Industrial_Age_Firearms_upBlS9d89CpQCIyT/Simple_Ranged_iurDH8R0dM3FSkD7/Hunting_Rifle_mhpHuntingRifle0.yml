@@ -78,6 +78,7 @@ system:
   source:
     revision: 1
     rules: '2024'
+    book: Complete Gunslinger
   identified: true
   unidentified:
     description: ''
@@ -106,7 +107,7 @@ system:
         number: 1
       number: 2
       denomination: 6
-      bonus: '-@abilities.dex.mod'
+      bonus: ''
     versatile:
       types: []
       custom:
@@ -138,10 +139,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254059296
-  modifiedTime: 1775256862121
+  modifiedTime: 1783724591363
   lastModifiedBy: magehandpress000
 _key: '!items!mhpHuntingRifle0'

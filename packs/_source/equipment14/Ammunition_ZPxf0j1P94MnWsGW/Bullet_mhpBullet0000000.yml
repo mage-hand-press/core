@@ -1,21 +1,25 @@
-name: Bullets
+name: Bullet
 type: consumable
-_id: mhpBullets000000
-img: icons/skills/ranged/bullets-triple-ball-ice-blue.webp
+_id: mhpBullet0000000
+img: icons/weapons/ammunition/ammunition-bullets-round.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
-    autoDestroy: true
-    max: '1'
+    autoDestroy: false
+    max: ''
   description:
     value: ''
     chat: ''
-  identifier: bullets
+  identifier: bullet
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
@@ -55,10 +59,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254059622
-  modifiedTime: 1775254059622
+  modifiedTime: 1783629657529
   lastModifiedBy: magehandpress000
-_key: '!items!mhpBullets000000'
+_key: '!items!mhpBullet0000000'

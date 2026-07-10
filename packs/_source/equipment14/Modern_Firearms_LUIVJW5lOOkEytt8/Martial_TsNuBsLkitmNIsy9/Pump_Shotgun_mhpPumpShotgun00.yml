@@ -1,12 +1,12 @@
-folder: dC16aqIv2dAsM46h
-name: Standard Carbine
+folder: TsNuBsLkitmNIsy9
+name: Pump Shotgun
 type: weapon
-_id: mhpStandardCarb1
-img: icons/magic/light/beam-rays-orange-small.webp
+_id: mhpPumpShotgun00
+img: icons/weapons/guns/shotgun-pump.webp
 system:
   activities:
-    BJTCRod5OzwWVDds:
-      _id: BJTCRod5OzwWVDds
+    42VNA3P2ZXivAypL:
+      _id: 42VNA3P2ZXivAypL
       type: attack
       sort: 0
       activation:
@@ -74,31 +74,36 @@ system:
   description:
     value: ''
     chat: ''
-  identifier: standard-carbine
+  identifier: pump-shotgun
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
   container: null
   quantity: 1
   weight:
-    value: 7
+    value: 0
     units: lb
   price:
-    value: 250
+    value: 0
     denomination: gp
   rarity: ''
   attunement: ''
   attuned: false
   equipped: false
-  ammunition: {}
+  ammunition:
+    type: firearmBullet
   armor: {}
   damage:
     base:
       types:
-        - radiant
+        - piercing
       custom:
         enabled: false
       scaling:
@@ -112,19 +117,24 @@ system:
         enabled: false
       scaling:
         number: 1
+      number: null
+      denomination: null
+      bonus: ''
   properties:
-    - automatic
-    - blaster
+    - amm
+    - hvy
+    - rel
+    - scatter
     - two
   proficient: null
   range:
     reach: null
     units: ft
-    value: 80
-    long: 320
+    value: 30
+    long: 90
   type:
-    value: simpleFirearm
-    baseItem: standardCarbine
+    value: martialFirearm
+    baseItem: pumpShotgun
   mastery: ''
   crew:
     value: []
@@ -132,18 +142,14 @@ effects: []
 sort: 0
 ownership:
   default: 0
-flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
-  createdTime: 1775254060242
-  modifiedTime: 1775256189588
+  systemVersion: 5.3.3
+  createdTime: 1775254060429
+  modifiedTime: 1783720998711
   lastModifiedBy: magehandpress000
-_key: '!items!mhpStandardCarb1'
+_key: '!items!mhpPumpShotgun00'

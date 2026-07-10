@@ -1,12 +1,12 @@
-folder: 4Fs4hv6HRst7R3Uy
-name: REC Gun
+folder: TsNuBsLkitmNIsy9
+name: Sniper Rifle
 type: weapon
-_id: mhpRECGun0000001
-img: icons/magic/light/beam-explosion-orange.webp
+_id: mhpSniperRifle00
+img: icons/weapons/guns/rifle-sniper-long.webp
 system:
   activities:
-    C5R67vlroGCOBkEy:
-      _id: C5R67vlroGCOBkEy
+    XZaOVqgqQfhyQz3Q:
+      _id: XZaOVqgqQfhyQz3Q
       type: attack
       sort: 0
       activation:
@@ -72,33 +72,38 @@ system:
     recovery: []
     max: ''
   description:
-    value: ''
+    value: <h2></h2>
     chat: ''
-  identifier: rec-gun
+  identifier: sniper-rifle
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
   container: null
   quantity: 1
   weight:
-    value: 120
+    value: 8
     units: lb
   price:
-    value: 1500
+    value: 500
     denomination: gp
   rarity: ''
   attunement: ''
   attuned: false
   equipped: false
-  ammunition: {}
+  ammunition:
+    type: firearmBullet
   armor: {}
   damage:
     base:
       types:
-        - radiant
+        - piercing
       custom:
         enabled: false
       scaling:
@@ -113,20 +118,20 @@ system:
       scaling:
         number: 1
   properties:
-    - automatic
-    - blaster
+    - amm
     - hvy
-    - mounted
+    - rel
+    - sighted
     - two
   proficient: null
   range:
     reach: null
     units: ft
-    value: 100
-    long: 400
+    value: 150
+    long: 560
   type:
     value: martialFirearm
-    baseItem: recGun
+    baseItem: sniperRifle
   mastery: ''
   crew:
     value: []
@@ -142,10 +147,10 @@ flags:
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
-  createdTime: 1775254060299
-  modifiedTime: 1775256311647
+  systemVersion: 5.3.3
+  createdTime: 1775254059891
+  modifiedTime: 1783627848921
   lastModifiedBy: magehandpress000
-_key: '!items!mhpRECGun0000001'
+_key: '!items!mhpSniperRifle00'

@@ -2,7 +2,7 @@ folder: vbdFboUjIADOGUIU
 name: Shot
 type: consumable
 _id: mhpShot000000000
-img: icons/weapons/ammunition/bullets-cartridge-shell-gray.webp
+img: icons/weapons/ammunition/shot-round-blue.webp
 system:
   activities: {}
   uses:
@@ -17,6 +17,10 @@ system:
   source:
     revision: 1
     rules: '2024'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
@@ -55,10 +59,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254059469
-  modifiedTime: 1775254059469
+  modifiedTime: 1783629562005
   lastModifiedBy: magehandpress000
 _key: '!items!mhpShot000000000'

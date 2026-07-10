@@ -2,7 +2,7 @@ folder: lwklT3hcvpxZURCt
 name: Linear Accelerator
 type: weapon
 _id: mhpLinearAcceler
-img: icons/magic/lightning/barrier-shield-crackling-orb-pink.webp
+img: icons/weapons/guns/rifle-tech-green.webp
 system:
   activities:
     miqqJiXszViJTDGy:
@@ -72,12 +72,16 @@ system:
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>This weapon uses any item of 10 pounds of less that can fit within a 1-foot cube as
+      ammunition. Its damage type is bludgeoning, piercing, or slashing damage, as appropriate to
+      the ammunition used.</p>
     chat: ''
   identifier: linear-accelerator
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
   identified: true
   unidentified:
     description: ''
@@ -145,10 +149,10 @@ flags:
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254059734
-  modifiedTime: 1775256430439
+  modifiedTime: 1783628398226
   lastModifiedBy: magehandpress000
 _key: '!items!mhpLinearAcceler'

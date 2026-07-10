@@ -1,12 +1,12 @@
-folder: y2nFtf5VzZ4r3odx
-name: Blunderbuss
+folder: TsNuBsLkitmNIsy9
+name: Assault Rifle
 type: weapon
-_id: mhpBlunderbuss01
-img: icons/weapons/guns/gun-blunderbuss-gold.webp
+_id: mhpAssaultRifle0
+img: icons/weapons/guns/rifle-sniper-heavy-short.webp
 system:
   activities:
-    0zEj4a0ccWbJUs9D:
-      _id: 0zEj4a0ccWbJUs9D
+    CGvJkqkChskampe4:
+      _id: CGvJkqkChskampe4
       type: attack
       sort: 0
       activation:
@@ -67,108 +67,38 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-    Vz5tp9qWNPdIhFFN:
-      type: attack
-      sort: 0
-      activation:
-        type: action
-        override: false
-        condition: ''
-      consumption:
-        scaling:
-          allowed: false
-        spellSlot: true
-        targets: []
-      description:
-        chatFlavor: ''
-      duration:
-        units: inst
-        concentration: false
-        override: false
-      effects: []
-      range:
-        units: ft
-        override: true
-        special: ''
-        value: '15'
-      target:
-        template:
-          contiguous: false
-          units: ft
-          type: ''
-          stationary: false
-        affects:
-          choice: false
-          count: '1'
-          type: creature
-          special: ''
-        override: false
-        prompt: true
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      attack:
-        critical:
-          threshold: null
-        flat: false
-        type:
-          value: ''
-          classification: ''
-        ability: ''
-        bonus: ''
-      damage:
-        critical:
-          bonus: ''
-        includeBase: false
-        parts:
-          - custom:
-              enabled: false
-              formula: ''
-            number: 2
-            denomination: 10
-            bonus: '-@abilities.dex.mod'
-            types:
-              - piercing
-            scaling:
-              number: 1
-      name: Scatter
-      _id: Vz5tp9qWNPdIhFFN
-      img: ''
-      flags: {}
-      visibility:
-        level: {}
-        requireAttunement: false
-        requireIdentification: false
-        requireMagic: false
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: <h2></h2>
     chat: ''
-  identifier: blunderbuss
+  identifier: assault-rifle
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
   container: null
   quantity: 1
   weight:
-    value: 8
+    value: 7
     units: lb
   price:
-    value: 180
+    value: 350
     denomination: gp
   rarity: ''
   attunement: ''
   attuned: false
   equipped: false
   ammunition:
-    type: blunderbussShot
+    type: firearmBullet
   armor: {}
   damage:
     base:
@@ -179,7 +109,7 @@ system:
       scaling:
         number: 1
       number: 2
-      denomination: 8
+      denomination: 6
       bonus: ''
     versatile:
       types: []
@@ -189,21 +119,18 @@ system:
         number: 1
   properties:
     - amm
-    - dry
-    - hvy
-    - lod
-    - misfire
-    - scatter
+    - automatic
+    - rel
     - two
   proficient: null
   range:
     reach: null
     units: ft
-    value: 30
-    long: 90
+    value: 80
+    long: 320
   type:
     value: martialFirearm
-    baseItem: blunderbuss
+    baseItem: assaultRifle
   mastery: ''
   crew:
     value: []
@@ -219,10 +146,10 @@ flags:
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
-  createdTime: 1775254060186
-  modifiedTime: 1775257334956
+  systemVersion: 5.3.3
+  createdTime: 1775254059757
+  modifiedTime: 1783627862550
   lastModifiedBy: magehandpress000
-_key: '!items!mhpBlunderbuss01'
+_key: '!items!mhpAssaultRifle0'

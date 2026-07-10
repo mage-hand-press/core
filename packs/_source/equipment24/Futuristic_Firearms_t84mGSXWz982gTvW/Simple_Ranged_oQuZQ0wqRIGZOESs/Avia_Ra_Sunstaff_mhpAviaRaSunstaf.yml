@@ -221,14 +221,15 @@ system:
     max: ''
   description:
     value: >-
-      <p><span class="s1">This long staff, forked at its end near a prominent gemstone, is a blaster
-      in its own right. When used in expert hands, the Sunstaff can bludgeon, trip, and strike foes
-      as a Quarterstaff, only to be squeezed in both hands to fire a burst of hot plasma.</span></p>
+      <p>This long staff, forked at its end near a prominent gemstone, is a blaster in its own
+      right. When used in expert hands, the Sunstaff can bludgeon, trip, and strike foes as a
+      Quarterstaff, only to be squeezed in both hands to fire a burst of hot plasma.</p>
     chat: ''
   identifier: avia-ra-sunstaff
   source:
     revision: 1
     rules: '2024'
+    book: Complete Gunslinger
   identified: true
   unidentified:
     description: ''
@@ -256,7 +257,7 @@ system:
         number: 1
       number: 2
       denomination: 6
-      bonus: '-@abilities.dex.mod'
+      bonus: ''
     versatile:
       types: []
       custom:
@@ -287,10 +288,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254059370
-  modifiedTime: 1775256970066
+  modifiedTime: 1783724591360
   lastModifiedBy: magehandpress000
 _key: '!items!mhpAviaRaSunstaf'

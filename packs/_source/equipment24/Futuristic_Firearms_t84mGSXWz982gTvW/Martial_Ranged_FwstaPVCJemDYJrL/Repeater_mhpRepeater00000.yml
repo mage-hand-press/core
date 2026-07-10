@@ -2,7 +2,7 @@ folder: FwstaPVCJemDYJrL
 name: Repeater
 type: weapon
 _id: mhpRepeater00000
-img: icons/magic/light/projectiles-salvo-blue.webp
+img: icons/weapons/guns/pistol-auto-tech-teal.webp
 system:
   activities:
     qBWDdV15N8xDSpO2:
@@ -73,15 +73,18 @@ system:
     max: ''
   description:
     value: >-
-      <p><span class="s1">The quintessential handheld blaster, the Repeater is a staple on the
-      Galactic Frontier. Solid, reliable, and packing just enough firepower to bring down an
-      assailant, nearly every explorer worth their salt has one of these blasters strapped to their
-      hip.</span></p>
+      <p>The quintessential handheld blaster, the Repeater is a staple on the Galactic Frontier.
+      Solid, reliable, and packing just enough firepower to bring down an assailant, nearly every
+      explorer worth their salt has one of these blasters strapped to their hip.</p>
     chat: ''
   identifier: repeater
   source:
     revision: 1
     rules: '2024'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
@@ -109,7 +112,7 @@ system:
         number: 1
       number: 2
       denomination: 6
-      bonus: '-@abilities.dex.mod'
+      bonus: ''
     versatile:
       types: []
       custom:
@@ -139,10 +142,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254059348
-  modifiedTime: 1775256960543
+  modifiedTime: 1783629461161
   lastModifiedBy: magehandpress000
 _key: '!items!mhpRepeater00000'

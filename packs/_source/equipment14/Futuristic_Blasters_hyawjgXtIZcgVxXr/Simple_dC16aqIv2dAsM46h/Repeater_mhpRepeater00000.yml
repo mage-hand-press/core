@@ -1,12 +1,12 @@
 folder: dC16aqIv2dAsM46h
-name: Phaser
+name: Repeater
 type: weapon
-_id: mhpPhaser0000001
-img: icons/magic/light/projectile-smoke-blue.webp
+_id: mhpRepeater00000
+img: icons/weapons/guns/pistol-auto-tech-teal.webp
 system:
   activities:
-    QNgkbMFUxoAu59hA:
-      _id: QNgkbMFUxoAu59hA
+    8SEseXJ23eMgqKLY:
+      _id: 8SEseXJ23eMgqKLY
       type: attack
       sort: 0
       activation:
@@ -74,20 +74,24 @@ system:
   description:
     value: ''
     chat: ''
-  identifier: phaser
+  identifier: repeater
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
   container: null
   quantity: 1
   weight:
-    value: 2
+    value: 3
     units: lb
   price:
-    value: 75
+    value: 100
     denomination: gp
   rarity: ''
   attunement: ''
@@ -104,7 +108,7 @@ system:
       scaling:
         number: 1
       number: 2
-      denomination: 4
+      denomination: 6
       bonus: ''
     versatile:
       types: []
@@ -114,17 +118,15 @@ system:
         number: 1
   properties:
     - blaster
-    - lgt
-    - nonlethal
   proficient: null
   range:
     reach: null
     units: ft
-    value: 50
-    long: 200
+    value: 60
+    long: 240
   type:
     value: simpleFirearm
-    baseItem: phaser
+    baseItem: repeater
   mastery: ''
   crew:
     value: []
@@ -140,10 +142,10 @@ flags:
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
-  createdTime: 1775254059916
-  modifiedTime: 1775256164797
+  systemVersion: 5.3.3
+  createdTime: 1775254060378
+  modifiedTime: 1783624886324
   lastModifiedBy: magehandpress000
-_key: '!items!mhpPhaser0000001'
+_key: '!items!mhpRepeater00000'

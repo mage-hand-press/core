@@ -2,7 +2,7 @@ folder: lwklT3hcvpxZURCt
 name: Fusion Emitter
 type: weapon
 _id: mhpFusionEmitter
-img: icons/magic/light/beam-rays-yellow-blue-large.webp
+img: icons/weapons/guns/shotgun-short-tan.webp
 system:
   activities:
     YrJjcCtDRhJvizZO:
@@ -81,12 +81,18 @@ system:
         type: recoverAll
     max: '3'
   description:
-    value: ''
+    value: >-
+      <p>When this weapon hits a target, each creature within 5 feet of the target is pushed 5 feet
+      away from it.</p>
     chat: ''
   identifier: fusion-emitter
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
@@ -151,10 +157,10 @@ flags:
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254060397
-  modifiedTime: 1775256390767
+  modifiedTime: 1783628482394
   lastModifiedBy: magehandpress000
 _key: '!items!mhpFusionEmitter'

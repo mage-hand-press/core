@@ -1,11 +1,12 @@
-name: Handgun
+folder: 4Fs4hv6HRst7R3Uy
+name: Magnus
 type: weapon
-_id: mhpHandgun000001
-img: icons/weapons/guns/gun-pistol-brown.webp
+_id: mhpMagnus0000000
+img: icons/weapons/guns/pistol-sci-fi.webp
 system:
   activities:
-    Nnab2cJ07SU5iW9b:
-      _id: Nnab2cJ07SU5iW9b
+    soEyJ4oXoWBo7f4K:
+      _id: soEyJ4oXoWBo7f4K
       type: attack
       sort: 0
       activation:
@@ -16,7 +17,11 @@ system:
         scaling:
           allowed: false
         spellSlot: true
-        targets: []
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -68,43 +73,48 @@ system:
         requireMagic: false
   uses:
     spent: 0
-    recovery: []
-    max: ''
+    recovery:
+      - period: turnEnd
+        type: recoverAll
+    max: '1'
   description:
-    value: <h2></h2>
+    value: ''
     chat: ''
-  identifier: handgun
+  identifier: magnus
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
   container: null
   quantity: 1
   weight:
-    value: 3
+    value: 6
     units: lb
   price:
-    value: 100
+    value: 800
     denomination: gp
   rarity: ''
   attunement: ''
   attuned: false
   equipped: false
-  ammunition:
-    type: firearmBullet
+  ammunition: {}
   armor: {}
   damage:
     base:
       types:
-        - piercing
+        - radiant
       custom:
         enabled: false
       scaling:
         number: 1
       number: 2
-      denomination: 6
+      denomination: 8
       bonus: ''
     versatile:
       types: []
@@ -113,23 +123,23 @@ system:
       scaling:
         number: 1
   properties:
-    - amm
-    - rel
+    - blaster
+    - hvy
+    - overheat
   proficient: null
   range:
     reach: null
     units: ft
-    value: 60
-    long: 240
+    value: 70
+    long: 280
   type:
-    value: simpleFirearm
-    baseItem: handgun
+    value: martialFirearm
+    baseItem: magnus
   mastery: ''
   crew:
     value: []
 effects: []
-folder: 4joufYSddVjaX0RG
-sort: 100000
+sort: 0
 ownership:
   default: 0
 flags:
@@ -140,10 +150,10 @@ flags:
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
-  createdTime: 1775254060460
-  modifiedTime: 1775255850207
+  systemVersion: 5.3.3
+  createdTime: 1775254059776
+  modifiedTime: 1783624736764
   lastModifiedBy: magehandpress000
-_key: '!items!mhpHandgun000001'
+_key: '!items!mhpMagnus0000000'

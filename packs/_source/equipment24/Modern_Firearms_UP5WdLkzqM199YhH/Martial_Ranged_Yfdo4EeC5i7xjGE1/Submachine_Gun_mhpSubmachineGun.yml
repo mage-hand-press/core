@@ -2,7 +2,7 @@ folder: Yfdo4EeC5i7xjGE1
 name: Submachine Gun
 type: weapon
 _id: mhpSubmachineGun
-img: icons/weapons/guns/gun-worn-gold.webp
+img: icons/weapons/guns/machine-gun-sub-pistol.webp
 system:
   activities:
     qrr1bRGWrHYDMqSi:
@@ -78,6 +78,7 @@ system:
   source:
     revision: 1
     rules: '2024'
+    book: Complete Gunslinger
   identified: true
   unidentified:
     description: ''
@@ -106,7 +107,7 @@ system:
         number: 1
       number: 2
       denomination: 4
-      bonus: '-@abilities.dex.mod'
+      bonus: ''
     versatile:
       types: []
       custom:
@@ -138,10 +139,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254059489
-  modifiedTime: 1775256921929
+  modifiedTime: 1783724591366
   lastModifiedBy: magehandpress000
 _key: '!items!mhpSubmachineGun'

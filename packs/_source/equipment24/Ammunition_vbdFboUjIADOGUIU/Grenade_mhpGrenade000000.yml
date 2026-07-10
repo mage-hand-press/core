@@ -1,33 +1,37 @@
-folder: ZPxf0j1P94MnWsGW
-name: Musket Balls
+folder: vbdFboUjIADOGUIU
+name: Grenade
 type: consumable
-_id: mhpMusketBalls00
-img: icons/weapons/ammunition/shot-round-brown.webp
+_id: mhpGrenade000000
+img: icons/weapons/thrown/grenade-round.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
-    autoDestroy: true
-    max: '1'
+    autoDestroy: false
+    max: ''
   description:
     value: ''
     chat: ''
-  identifier: musket-balls
+  identifier: grenade
   source:
     revision: 1
     rules: '2024'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
   container: null
-  quantity: 10
+  quantity: 5
   weight:
-    value: 0.2
+    value: 0.6
     units: lb
   price:
-    value: 1
-    denomination: sp
+    value: 25
+    denomination: gp
   rarity: ''
   attunement: ''
   attuned: false
@@ -46,7 +50,7 @@ system:
   properties: []
   type:
     value: ammo
-    subtype: firearmBullet
+    subtype: grenade
 effects: []
 sort: 0
 ownership:
@@ -55,10 +59,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
-  createdTime: 1775254060407
-  modifiedTime: 1775254060407
+  systemVersion: 5.3.3
+  createdTime: 1775254059338
+  modifiedTime: 1783629537352
   lastModifiedBy: magehandpress000
-_key: '!items!mhpMusketBalls00'
+_key: '!items!mhpGrenade000000'

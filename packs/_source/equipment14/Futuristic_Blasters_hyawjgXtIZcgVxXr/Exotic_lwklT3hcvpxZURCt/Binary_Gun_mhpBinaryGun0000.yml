@@ -2,7 +2,7 @@ folder: lwklT3hcvpxZURCt
 name: Binary Gun
 type: weapon
 _id: mhpBinaryGun0000
-img: icons/magic/light/projectiles-trio-pink.webp
+img: icons/weapons/guns/pistol-sprayer-chemical-steel.webp
 system:
   activities:
     0u2SQdz6NGD87bmI:
@@ -77,7 +77,8 @@ system:
   identifier: binary-gun
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
   identified: true
   unidentified:
     description: ''
@@ -141,10 +142,10 @@ flags:
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.1
   createdTime: 1775254059801
-  modifiedTime: 1775256513606
+  modifiedTime: 1783628250541
   lastModifiedBy: magehandpress000
 _key: '!items!mhpBinaryGun0000'

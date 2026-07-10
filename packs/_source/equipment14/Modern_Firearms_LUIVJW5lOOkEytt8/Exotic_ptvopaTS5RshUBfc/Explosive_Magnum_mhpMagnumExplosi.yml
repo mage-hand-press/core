@@ -2,7 +2,7 @@ folder: ptvopaTS5RshUBfc
 name: Explosive Magnum
 type: weapon
 _id: mhpMagnumExplosi
-img: icons/skills/ranged/bullets-triple-ball-yellow.webp
+img: icons/weapons/guns/pistol-silenced-scope.webp
 system:
   activities:
     MHG2PxBKeEIqlXl6:
@@ -111,17 +111,7 @@ system:
         recovery: []
         max: ''
       damage:
-        parts:
-          - custom:
-              enabled: false
-              formula: ''
-            number: 2
-            denomination: 8
-            bonus: '-@abilities.dex.mod'
-            types:
-              - fire
-            scaling:
-              number: 1
+        parts: []
         onSave: none
       save:
         ability:
@@ -129,14 +119,17 @@ system:
         dc:
           calculation: ''
           formula: '14'
-      name: ''
+      name: Explode
       img: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
   uses:
     spent: 0
     recovery: []
@@ -144,10 +137,14 @@ system:
   description:
     value: <h2></h2>
     chat: ''
-  identifier: magnum-explosive
+  identifier: explosive-magnum
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
@@ -204,18 +201,14 @@ effects: []
 sort: 0
 ownership:
   default: 0
-flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254060321
-  modifiedTime: 1775255981744
+  modifiedTime: 1783628057551
   lastModifiedBy: magehandpress000
 _key: '!items!mhpMagnumExplosi'

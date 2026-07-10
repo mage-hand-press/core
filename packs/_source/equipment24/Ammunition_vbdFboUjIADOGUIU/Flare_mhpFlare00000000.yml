@@ -1,32 +1,36 @@
 folder: vbdFboUjIADOGUIU
-name: Grenades
+name: Flare
 type: consumable
-_id: mhpGrenades00000
-img: icons/magic/fire/flame-burning-earth-yellow.webp
+_id: mhpFlare00000000
+img: icons/magic/fire/projectile-fireball-orange-yellow.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
-    autoDestroy: true
+    autoDestroy: false
     max: ''
   description:
     value: ''
     chat: ''
-  identifier: grenades
+  identifier: flare
   source:
     revision: 1
     rules: '2024'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
   container: null
   quantity: 5
   weight:
-    value: 0.6
+    value: 1
     units: lb
   price:
-    value: 25
+    value: 5
     denomination: gp
   rarity: ''
   attunement: ''
@@ -46,7 +50,7 @@ system:
   properties: []
   type:
     value: ammo
-    subtype: grenade
+    subtype: flare
 effects: []
 sort: 0
 ownership:
@@ -55,10 +59,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
-  createdTime: 1775254059338
-  modifiedTime: 1775254059338
+  systemVersion: 5.3.3
+  createdTime: 1775254059507
+  modifiedTime: 1783629541961
   lastModifiedBy: magehandpress000
-_key: '!items!mhpGrenades00000'
+_key: '!items!mhpFlare00000000'

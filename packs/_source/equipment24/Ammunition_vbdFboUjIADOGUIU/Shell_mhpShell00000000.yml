@@ -1,32 +1,36 @@
 folder: vbdFboUjIADOGUIU
-name: Cannonballs
+name: Shell
 type: consumable
-_id: mhpCannonballs00
-img: icons/weapons/ammunition/shot-round-lead.webp
+_id: mhpShell00000000
+img: icons/weapons/ammunition/ammunition-shotgun-shells-red.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
-    autoDestroy: true
+    autoDestroy: false
     max: ''
   description:
     value: ''
     chat: ''
-  identifier: cannonballs
+  identifier: shell
   source:
     revision: 1
     rules: '2024'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
   container: null
-  quantity: 5
+  quantity: 10
   weight:
-    value: 2
+    value: 0.15
     units: lb
   price:
-    value: 25
+    value: 5
     denomination: gp
   rarity: ''
   attunement: ''
@@ -46,7 +50,7 @@ system:
   properties: []
   type:
     value: ammo
-    subtype: cannonball
+    subtype: shell
 effects: []
 sort: 0
 ownership:
@@ -55,10 +59,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
-  createdTime: 1775254059356
-  modifiedTime: 1775254059356
+  systemVersion: 5.3.3
+  createdTime: 1775254059112
+  modifiedTime: 1783629569862
   lastModifiedBy: magehandpress000
-_key: '!items!mhpCannonballs00'
+_key: '!items!mhpShell00000000'

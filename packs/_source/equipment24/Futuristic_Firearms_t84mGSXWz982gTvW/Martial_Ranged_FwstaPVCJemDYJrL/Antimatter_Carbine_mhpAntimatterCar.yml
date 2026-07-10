@@ -2,7 +2,7 @@ folder: FwstaPVCJemDYJrL
 name: Antimatter Carbine
 type: weapon
 _id: mhpAntimatterCar
-img: icons/magic/unholy/orb-swirling-teal.webp
+img: icons/weapons/guns/pistol-tech-energy-red-brass.webp
 system:
   activities:
     zVNaaHKRi4RhnIT7:
@@ -73,13 +73,14 @@ system:
     max: ''
   description:
     value: >-
-      <p><span class="s1">A more lethal model of the Standard Carbine, this rifle can automatically
-      fire bolts of antimatter with surprising accuracy.</span></p>
+      <p>A more lethal model of the Standard Carbine, this rifle can automatically fire bolts of
+      antimatter with surprising accuracy.</p>
     chat: ''
   identifier: antimatter-carbine
   source:
     revision: 1
     rules: '2024'
+    book: Complete Gunslinger
   identified: true
   unidentified:
     description: ''
@@ -107,7 +108,7 @@ system:
         number: 1
       number: 2
       denomination: 6
-      bonus: '-@abilities.dex.mod'
+      bonus: ''
     versatile:
       types: []
       custom:
@@ -138,10 +139,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254059461
-  modifiedTime: 1775256938244
+  modifiedTime: 1783724591358
   lastModifiedBy: magehandpress000
 _key: '!items!mhpAntimatterCar'

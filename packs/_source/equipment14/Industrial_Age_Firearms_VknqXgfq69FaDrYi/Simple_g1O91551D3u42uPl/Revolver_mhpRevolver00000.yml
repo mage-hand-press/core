@@ -1,12 +1,11 @@
-folder: 4Fs4hv6HRst7R3Uy
-name: Magnus
+name: Revolver
 type: weapon
-_id: mhpMagnus0000001
-img: icons/magic/light/beam-rays-blue.webp
+_id: mhpRevolver00000
+img: icons/weapons/guns/gun-brown.webp
 system:
   activities:
-    soEyJ4oXoWBo7f4K:
-      _id: soEyJ4oXoWBo7f4K
+    9l9Y6bJinEBGYvrV:
+      _id: 9l9Y6bJinEBGYvrV
       type: attack
       sort: 0
       activation:
@@ -17,11 +16,7 @@ system:
         scaling:
           allowed: false
         spellSlot: true
-        targets:
-          - type: itemUses
-            value: '1'
-            target: ''
-            scaling: {}
+        targets: []
       description:
         chatFlavor: ''
       duration:
@@ -73,44 +68,47 @@ system:
         requireMagic: false
   uses:
     spent: 0
-    recovery:
-      - period: turnEnd
-        type: recoverAll
-    max: '1'
+    recovery: []
+    max: ''
   description:
     value: ''
     chat: ''
-  identifier: magnus
+  identifier: revolver
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
   container: null
   quantity: 1
   weight:
-    value: 6
+    value: 3
     units: lb
   price:
-    value: 800
+    value: 100
     denomination: gp
   rarity: ''
   attunement: ''
   attuned: false
   equipped: false
-  ammunition: {}
+  ammunition:
+    type: firearmBullet
   armor: {}
   damage:
     base:
       types:
-        - radiant
+        - piercing
       custom:
         enabled: false
       scaling:
         number: 1
       number: 2
-      denomination: 8
+      denomination: 6
       bonus: ''
     versatile:
       types: []
@@ -119,23 +117,23 @@ system:
       scaling:
         number: 1
   properties:
-    - blaster
-    - hvy
-    - overheat
+    - amm
+    - rel
   proficient: null
   range:
     reach: null
     units: ft
-    value: 70
-    long: 280
+    value: 60
+    long: 240
   type:
-    value: martialFirearm
-    baseItem: magnus
+    value: simpleFirearm
+    baseItem: revolver
   mastery: ''
   crew:
     value: []
 effects: []
-sort: 0
+folder: g1O91551D3u42uPl
+sort: 200000
 ownership:
   default: 0
 flags:
@@ -146,10 +144,10 @@ flags:
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
-  createdTime: 1775254059776
-  modifiedTime: 1775256282764
+  systemVersion: 5.3.3
+  createdTime: 1775254060161
+  modifiedTime: 1783624912976
   lastModifiedBy: magehandpress000
-_key: '!items!mhpMagnus0000001'
+_key: '!items!mhpRevolver00000'

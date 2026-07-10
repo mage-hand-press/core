@@ -1,11 +1,12 @@
-name: Revolver
+folder: TsNuBsLkitmNIsy9
+name: Grenade Launcher
 type: weapon
-_id: mhpRevolver00001
-img: icons/weapons/guns/gun-brown.webp
+_id: mhpGrenadeLaunch
+img: icons/weapons/guns/machine-gun-drum.webp
 system:
   activities:
-    9l9Y6bJinEBGYvrV:
-      _id: 9l9Y6bJinEBGYvrV
+    RsN1hznwWjh1cUSB:
+      _id: RsN1hznwWjh1cUSB
       type: attack
       sort: 0
       activation:
@@ -32,6 +33,8 @@ system:
           contiguous: false
           units: ft
           type: ''
+          size: ''
+          count: ''
           stationary: false
         affects:
           choice: false
@@ -66,6 +69,68 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+    cdLVyxLFpkBC91Sy:
+      type: save
+      _id: cdLVyxLFpkBC91Sy
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '5'
+          count: ''
+          stationary: false
+        affects:
+          choice: false
+          type: creature
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: none
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: ''
+          formula: '14'
+      name: Explode
+      img: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
   uses:
     spent: 0
     recovery: []
@@ -73,38 +138,42 @@ system:
   description:
     value: ''
     chat: ''
-  identifier: revolver
+  identifier: grenade-launcher
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
   container: null
   quantity: 1
   weight:
-    value: 3
+    value: 10
     units: lb
   price:
-    value: 100
+    value: 850
     denomination: gp
   rarity: ''
   attunement: ''
   attuned: false
   equipped: false
   ammunition:
-    type: firearmBullet
+    type: grenade
   armor: {}
   damage:
     base:
       types:
-        - piercing
+        - fire
       custom:
         enabled: false
       scaling:
         number: 1
       number: 2
-      denomination: 6
+      denomination: 8
       bonus: ''
     versatile:
       types: []
@@ -114,36 +183,33 @@ system:
         number: 1
   properties:
     - amm
-    - rel
+    - explosive
+    - lod
+    - two
   proficient: null
   range:
     reach: null
     units: ft
-    value: 60
-    long: 240
+    value: 80
+    long: 320
   type:
-    value: simpleFirearm
-    baseItem: revolver
+    value: martialFirearm
+    baseItem: grenadeLauncher
   mastery: ''
   crew:
     value: []
 effects: []
-folder: g1O91551D3u42uPl
-sort: 200000
+sort: 0
 ownership:
   default: 0
-flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
-  createdTime: 1775254060161
-  modifiedTime: 1775255778680
+  systemVersion: 5.3.3
+  createdTime: 1775254059842
+  modifiedTime: 1783628028507
   lastModifiedBy: magehandpress000
-_key: '!items!mhpRevolver00001'
+_key: '!items!mhpGrenadeLaunch'

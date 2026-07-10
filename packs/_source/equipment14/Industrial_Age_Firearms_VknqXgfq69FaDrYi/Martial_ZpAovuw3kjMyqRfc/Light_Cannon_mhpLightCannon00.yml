@@ -72,12 +72,16 @@ system:
     recovery: []
     max: ''
   description:
-    value: ''
+    value: <p>This weapon deals double damage to objects and structures.</p>
     chat: ''
   identifier: light-cannon
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
@@ -144,10 +148,10 @@ flags:
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254060262
-  modifiedTime: 1775257366267
+  modifiedTime: 1783628469396
   lastModifiedBy: magehandpress000
 _key: '!items!mhpLightCannon00'

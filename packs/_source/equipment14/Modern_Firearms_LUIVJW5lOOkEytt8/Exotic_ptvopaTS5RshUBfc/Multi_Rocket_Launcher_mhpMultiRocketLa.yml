@@ -2,7 +2,7 @@ folder: ptvopaTS5RshUBfc
 name: Multi-Rocket Launcher
 type: weapon
 _id: mhpMultiRocketLa
-img: icons/skills/ranged/rocket-skull-fire-blue.webp
+img: icons/weapons/guns/pistol-silenced-heavy.webp
 system:
   activities:
     8krAUbvxJQ1SJXz0:
@@ -67,80 +67,6 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-    KTH8LuTXducfycqn:
-      type: attack
-      sort: 0
-      activation:
-        type: action
-        override: false
-        condition: ''
-      consumption:
-        scaling:
-          allowed: false
-        spellSlot: true
-        targets: []
-      description:
-        chatFlavor: ''
-      duration:
-        units: inst
-        concentration: false
-        override: false
-      effects: []
-      range:
-        units: ft
-        override: true
-        special: ''
-        value: '15'
-      target:
-        template:
-          contiguous: false
-          units: ft
-          type: ''
-          stationary: false
-        affects:
-          choice: false
-          count: '1'
-          type: creature
-          special: ''
-        override: false
-        prompt: true
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      attack:
-        critical:
-          threshold: null
-        flat: false
-        type:
-          value: ''
-          classification: ''
-        ability: ''
-        bonus: ''
-      damage:
-        critical:
-          bonus: ''
-        includeBase: false
-        parts:
-          - custom:
-              enabled: false
-              formula: ''
-            number: 2
-            denomination: 10
-            bonus: '-@abilities.dex.mod'
-            types:
-              - fire
-            scaling:
-              number: 1
-      name: Scatter
-      _id: KTH8LuTXducfycqn
-      img: ''
-      flags: {}
-      visibility:
-        level: {}
-        requireAttunement: false
-        requireIdentification: false
-        requireMagic: false
     zem8o4AIwyZXJH8R:
       type: save
       _id: zem8o4AIwyZXJH8R
@@ -192,25 +118,29 @@ system:
         dc:
           calculation: ''
           formula: '14'
-      name: Explosive
+      name: Explode
       img: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: <h2></h2>
+    value: ''
     chat: ''
   identifier: multi-rocket-launcher
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
   identified: true
   unidentified:
     description: ''
@@ -246,6 +176,9 @@ system:
         enabled: false
       scaling:
         number: 1
+      number: null
+      denomination: null
+      bonus: ''
   properties:
     - amm
     - explosive
@@ -269,18 +202,14 @@ effects: []
 sort: 0
 ownership:
   default: 0
-flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254060008
-  modifiedTime: 1775257268895
+  modifiedTime: 1783724548867
   lastModifiedBy: magehandpress000
 _key: '!items!mhpMultiRocketLa'

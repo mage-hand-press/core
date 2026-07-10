@@ -2,7 +2,7 @@ folder: oQuZQ0wqRIGZOESs
 name: Antimatter Pistol
 type: weapon
 _id: mhpAntimatterPis
-img: icons/weapons/guns/gun-purple.webp
+img: icons/weapons/guns/pistol-auto-gold-black.webp
 system:
   activities:
     1De8BHWpWI5NRX3H:
@@ -73,14 +73,15 @@ system:
     max: ''
   description:
     value: >-
-      <p><span class="s1">A compact, antimatter-firing companion to the
+      <p>A compact, antimatter-firing companion to the
       @UUID[Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpAntimatterCar]{Antimatter
-      Carbine}, the Antimatter Pistol is an essential close-quarters backup.</span></p>
+      Carbine}, the Antimatter Pistol is an essential close-quarters backup.</p>
     chat: ''
   identifier: antimatter-pistol
   source:
     revision: 1
     rules: '2024'
+    book: Complete Gunslinger
   identified: true
   unidentified:
     description: ''
@@ -108,7 +109,7 @@ system:
         number: 1
       number: 2
       denomination: 4
-      bonus: '-@abilities.dex.mod'
+      bonus: ''
     versatile:
       types: []
       custom:
@@ -139,10 +140,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254059265
-  modifiedTime: 1775256967137
+  modifiedTime: 1783724591359
   lastModifiedBy: magehandpress000
 _key: '!items!mhpAntimatterPis'

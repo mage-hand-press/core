@@ -1,12 +1,12 @@
-folder: 4Fs4hv6HRst7R3Uy
-name: Plasma Launcher
+folder: dC16aqIv2dAsM46h
+name: Avia-Ra Sunstaff
 type: weapon
-_id: mhpPlasmaLaunch1
-img: icons/magic/fire/beam-jet-stream-embers.webp
+_id: mhpAviaRaSunstaf
+img: icons/weapons/staves/staff-orante-gold.webp
 system:
   activities:
-    f7D0MnNjgpwLkwlY:
-      _id: f7D0MnNjgpwLkwlY
+    BXVUVKxHOnoPGr4K:
+      _id: BXVUVKxHOnoPGr4K
       type: attack
       sort: 0
       activation:
@@ -67,8 +67,10 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-    Ph9ABvjWJHLDJi0g:
+    FmQxyVVwAuwlUMqU:
       type: attack
+      name: Quarterstaff (1d6)
+      _id: FmQxyVVwAuwlUMqU
       sort: 0
       activation:
         type: action
@@ -90,7 +92,80 @@ system:
         units: ft
         override: true
         special: ''
-        value: '100'
+        value: '5'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - bludgeoning
+            scaling:
+              number: 1
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    HRLTPlK4389taW6Y:
+      type: attack
+      name: Quarterstaff (1d8)
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: ft
+        override: true
+        value: '5'
+        special: ''
       target:
         template:
           contiguous: false
@@ -113,86 +188,26 @@ system:
           threshold: null
         flat: false
         type:
-          value: ''
+          value: melee
           classification: ''
         ability: ''
         bonus: ''
       damage:
         critical:
           bonus: ''
-        includeBase: true
-        parts: []
-      name: Foregrip
-      _id: Ph9ABvjWJHLDJi0g
-      img: ''
-      flags: {}
-      visibility:
-        level: {}
-        requireAttunement: false
-        requireIdentification: false
-        requireMagic: false
-    j0UMW77rHG2F7x0G:
-      type: save
-      name: Explosive
-      _id: j0UMW77rHG2F7x0G
-      sort: 0
-      activation:
-        type: special
-        override: false
-        condition: ''
-      consumption:
-        scaling:
-          allowed: false
-        spellSlot: true
-        targets: []
-      description:
-        chatFlavor: ''
-      duration:
-        units: inst
-        concentration: false
-        override: false
-      effects: []
-      range:
-        units: self
-        override: false
-      target:
-        template:
-          contiguous: false
-          units: ft
-          type: sphere
-          size: '7.5'
-          count: ''
-          stationary: false
-        affects:
-          choice: false
-          type: creature
-          count: ''
-          special: ''
-        override: false
-        prompt: true
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      damage:
+        includeBase: false
         parts:
           - custom:
               enabled: false
               formula: ''
-            number: 2
-            denomination: 6
-            bonus: '-@abilities.dex.mod'
+            number: 1
+            denomination: 8
+            bonus: ''
             types:
-              - fire
+              - bludgeoning
             scaling:
               number: 1
-        onSave: none
-      save:
-        ability:
-          - dex
-        dc:
-          calculation: ''
-          formula: '14'
+      _id: HRLTPlK4389taW6Y
       img: ''
       flags: {}
       visibility:
@@ -205,22 +220,26 @@ system:
     recovery: []
     max: ''
   description:
-    value: ''
+    value: <p>This weapon can also be used as a quarterstaff.</p>
     chat: ''
-  identifier: plasma-launcher
+  identifier: avia-ra-sunstaff
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
   container: null
   quantity: 1
   weight:
-    value: 8
+    value: 6
     units: lb
   price:
-    value: 1000
+    value: 150
     denomination: gp
   rarity: ''
   attunement: ''
@@ -231,7 +250,7 @@ system:
   damage:
     base:
       types:
-        - fire
+        - radiant
       custom:
         enabled: false
       scaling:
@@ -247,17 +266,17 @@ system:
         number: 1
   properties:
     - blaster
-    - explosive
-    - foregrip
+    - spc
+    - two
   proficient: null
   range:
     reach: null
     units: ft
-    value: 50
-    long: 200
+    value: 100
+    long: 400
   type:
-    value: martialFirearm
-    baseItem: plasmaLauncher
+    value: simpleFirearm
+    baseItem: aviaRaSunstaff
   mastery: ''
   crew:
     value: []
@@ -273,10 +292,10 @@ flags:
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
-  createdTime: 1775254059937
-  modifiedTime: 1775256293206
+  systemVersion: 5.3.3
+  createdTime: 1775254060360
+  modifiedTime: 1783624899944
   lastModifiedBy: magehandpress000
-_key: '!items!mhpPlasmaLaunch1'
+_key: '!items!mhpAviaRaSunstaf'

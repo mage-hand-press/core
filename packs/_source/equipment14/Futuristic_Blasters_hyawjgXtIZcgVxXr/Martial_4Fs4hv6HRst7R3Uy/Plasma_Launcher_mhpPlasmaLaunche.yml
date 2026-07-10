@@ -1,12 +1,12 @@
-folder: dC16aqIv2dAsM46h
-name: Avia-Ra Sunstaff
+folder: 4Fs4hv6HRst7R3Uy
+name: Plasma Launcher
 type: weapon
-_id: mhpAviaRaSunsta1
-img: icons/magic/light/torch-fire-orange.webp
+_id: mhpPlasmaLaunche
+img: icons/magic/fire/beam-jet-stream-embers.webp
 system:
   activities:
-    BXVUVKxHOnoPGr4K:
-      _id: BXVUVKxHOnoPGr4K
+    f7D0MnNjgpwLkwlY:
+      _id: f7D0MnNjgpwLkwlY
       type: attack
       sort: 0
       activation:
@@ -67,13 +67,13 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-    FmQxyVVwAuwlUMqU:
-      type: attack
-      name: Quarterstaff (1d6)
-      _id: FmQxyVVwAuwlUMqU
+    j0UMW77rHG2F7x0G:
+      type: save
+      name: Explosive
+      _id: j0UMW77rHG2F7x0G
       sort: 0
       activation:
-        type: action
+        type: special
         override: false
         condition: ''
       consumption:
@@ -89,20 +89,20 @@ system:
         override: false
       effects: []
       range:
-        units: ft
-        override: true
-        special: ''
-        value: '5'
+        units: self
+        override: false
       target:
         template:
           contiguous: false
           units: ft
-          type: ''
+          type: sphere
+          size: '7.5'
+          count: ''
           stationary: false
         affects:
           choice: false
           type: creature
-          count: '1'
+          count: ''
           special: ''
         override: false
         prompt: true
@@ -110,132 +110,50 @@ system:
         spent: 0
         recovery: []
         max: ''
-      attack:
-        critical:
-          threshold: null
-        flat: false
-        type:
-          value: melee
-          classification: ''
-        ability: ''
-        bonus: ''
       damage:
-        critical:
-          bonus: ''
-        includeBase: false
-        parts:
-          - custom:
-              enabled: false
-              formula: ''
-            number: 1
-            denomination: 6
-            bonus: ''
-            types:
-              - bludgeoning
-            scaling:
-              number: 1
+        parts: []
+        onSave: none
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: ''
+          formula: '14'
       img: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-    HRLTPlK4389taW6Y:
-      type: attack
-      name: Quarterstaff (1d8)
-      sort: 0
-      activation:
-        type: action
-        override: false
-        condition: ''
-      consumption:
-        scaling:
-          allowed: false
-        spellSlot: true
-        targets: []
-      description:
-        chatFlavor: ''
-      duration:
-        units: inst
-        concentration: false
-        override: false
-      effects: []
-      range:
-        units: ft
-        override: true
-        value: '5'
-        special: ''
-      target:
-        template:
-          contiguous: false
-          units: ft
-          type: ''
-          stationary: false
-        affects:
-          choice: false
-          count: '1'
-          type: creature
-          special: ''
-        override: false
-        prompt: true
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      attack:
-        critical:
-          threshold: null
-        flat: false
-        type:
-          value: melee
-          classification: ''
-        ability: ''
-        bonus: ''
-      damage:
-        critical:
-          bonus: ''
-        includeBase: false
-        parts:
-          - custom:
-              enabled: false
-              formula: ''
-            number: 1
-            denomination: 8
-            bonus: ''
-            types:
-              - bludgeoning
-            scaling:
-              number: 1
-      _id: HRLTPlK4389taW6Y
-      img: ''
-      flags: {}
-      visibility:
-        level: {}
-        requireAttunement: false
-        requireIdentification: false
-        requireMagic: false
+        identifier: ''
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: <h2></h2>
+    value: ''
     chat: ''
-  identifier: avia-ra-sunstaff
+  identifier: plasma-launcher
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
   container: null
   quantity: 1
   weight:
-    value: 6
+    value: 8
     units: lb
   price:
-    value: 150
+    value: 1000
     denomination: gp
   rarity: ''
   attunement: ''
@@ -246,7 +164,7 @@ system:
   damage:
     base:
       types:
-        - radiant
+        - fire
       custom:
         enabled: false
       scaling:
@@ -262,17 +180,17 @@ system:
         number: 1
   properties:
     - blaster
-    - spc
-    - two
+    - explosive
+    - foregrip
   proficient: null
   range:
     reach: null
     units: ft
-    value: 100
-    long: 400
+    value: 50
+    long: 200
   type:
-    value: simpleFirearm
-    baseItem: aviaRaSunstaff
+    value: martialFirearm
+    baseItem: plasmaLauncher
   mastery: ''
   crew:
     value: []
@@ -280,18 +198,14 @@ effects: []
 sort: 0
 ownership:
   default: 0
-flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
-  createdTime: 1775254060360
-  modifiedTime: 1775256138445
+  systemVersion: 5.3.3
+  createdTime: 1775254059937
+  modifiedTime: 1783624744696
   lastModifiedBy: magehandpress000
-_key: '!items!mhpAviaRaSunsta1'
+_key: '!items!mhpPlasmaLaunche'

@@ -2,7 +2,7 @@ folder: oQuZQ0wqRIGZOESs
 name: Standard Carbine
 type: weapon
 _id: mhpStandardCarbi
-img: icons/magic/light/explosion-star-small-teal.webp
+img: icons/weapons/guns/pistol-energy-blaster.webp
 system:
   activities:
     T2jmMbYvuXmUh5ks:
@@ -73,15 +73,18 @@ system:
     max: ''
   description:
     value: >-
-      <p><span class="s1">As its name might suggest, the Standard Carbine is the standard-issue
-      blaster for all Hegemony and Coalition troops, which makes it one of the most pervasive
-      weapons in the ‘Verse. Spacers of all stripes employ it for its compact size and superb
-      accuracy.</span></p>
+      <p>As its name might suggest, the Standard Carbine is the standard-issue blaster for all
+      Hegemony and Coalition troops, which makes it one of the most pervasive weapons in the ‘Verse.
+      Spacers of all stripes employ it for its compact size and superb accuracy.</p>
     chat: ''
   identifier: standard-carbine
   source:
     revision: 1
     rules: '2024'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
@@ -109,7 +112,7 @@ system:
         number: 1
       number: 2
       denomination: 6
-      bonus: '-@abilities.dex.mod'
+      bonus: ''
     versatile:
       types: []
       custom:
@@ -140,10 +143,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254059419
-  modifiedTime: 1775256981251
+  modifiedTime: 1783629353048
   lastModifiedBy: magehandpress000
 _key: '!items!mhpStandardCarbi'

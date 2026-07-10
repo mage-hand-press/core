@@ -1,33 +1,37 @@
-folder: vbdFboUjIADOGUIU
-name: Flares
+folder: ZPxf0j1P94MnWsGW
+name: Musket Ball
 type: consumable
-_id: mhpFlares0000000
-img: icons/magic/fire/projectile-fireball-orange-yellow.webp
+_id: mhpMusketBall000
+img: icons/weapons/ammunition/shot-round-brown.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
-    autoDestroy: true
+    autoDestroy: false
     max: ''
   description:
     value: ''
     chat: ''
-  identifier: flares
+  identifier: musket-ball
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
   container: null
-  quantity: 5
+  quantity: 10
   weight:
-    value: 1
+    value: 0.2
     units: lb
   price:
-    value: 5
-    denomination: gp
+    value: 1
+    denomination: sp
   rarity: ''
   attunement: ''
   attuned: false
@@ -46,7 +50,7 @@ system:
   properties: []
   type:
     value: ammo
-    subtype: flare
+    subtype: musketBall
 effects: []
 sort: 0
 ownership:
@@ -55,10 +59,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
-  createdTime: 1775254059507
-  modifiedTime: 1775254059507
+  systemVersion: 5.3.3
+  createdTime: 1775254060407
+  modifiedTime: 1783629723844
   lastModifiedBy: magehandpress000
-_key: '!items!mhpFlares0000000'
+_key: '!items!mhpMusketBall000'

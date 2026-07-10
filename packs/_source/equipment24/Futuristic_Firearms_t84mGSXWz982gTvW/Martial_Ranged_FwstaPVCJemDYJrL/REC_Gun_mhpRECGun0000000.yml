@@ -2,7 +2,7 @@ folder: FwstaPVCJemDYJrL
 name: REC Gun
 type: weapon
 _id: mhpRECGun0000000
-img: icons/magic/light/projectile-bolts-salvo-yellow.webp
+img: modules/mage-hand-press-dark-matter/assets/equipment/blaster-b.webp
 system:
   activities:
     YFNzZASaxTWZdQty:
@@ -144,12 +144,20 @@ system:
     recovery: []
     max: ''
   description:
-    value: "<p><span class=\"s1\">The Revolving Exothermic Cannon (or REC gun, for short) operates on the same principle as a conventional blaster, with an arcane battery hooked up to an aperture barrel and so forth, but mounts several blasters on a revolving cylinder and fires each in rapid succession. A tripod mount keeps the blaster stable despite its heft and shocking recoil.</span><span class=\"Apple-converted-space\">\_</span></p>"
+    value: >-
+      <p>The Revolving Exothermic Cannon (or REC gun, for short) operates on the same principle as a
+      conventional blaster, with an arcane battery hooked up to an aperture barrel and so forth, but
+      mounts several blasters on a revolving cylinder and fires each in rapid succession. A tripod
+      mount keeps the blaster stable despite its heft and shocking recoil.</p>
     chat: ''
   identifier: rec-gun
   source:
     revision: 1
     rules: '2024'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
@@ -177,7 +185,7 @@ system:
         number: 1
       number: 2
       denomination: 6
-      bonus: '-@abilities.dex.mod'
+      bonus: ''
     versatile:
       types: []
       custom:
@@ -209,10 +217,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254059275
-  modifiedTime: 1775256957224
+  modifiedTime: 1783629449427
   lastModifiedBy: magehandpress000
 _key: '!items!mhpRECGun0000000'

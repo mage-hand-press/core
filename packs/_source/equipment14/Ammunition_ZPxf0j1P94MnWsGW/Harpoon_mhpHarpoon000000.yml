@@ -8,15 +8,19 @@ system:
   uses:
     spent: 0
     recovery: []
-    autoDestroy: true
-    max: '1'
+    autoDestroy: false
+    max: ''
   description:
     value: ''
     chat: ''
   identifier: harpoon
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
@@ -46,7 +50,7 @@ system:
   properties: []
   type:
     value: ammo
-    subtype: ''
+    subtype: harpoon
 effects: []
 sort: 0
 ownership:
@@ -55,10 +59,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254059710
-  modifiedTime: 1775254059710
+  modifiedTime: 1783629713122
   lastModifiedBy: magehandpress000
 _key: '!items!mhpHarpoon000000'

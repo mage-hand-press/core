@@ -1,12 +1,12 @@
-folder: ZpAovuw3kjMyqRfc
-name: Gatling Gun
+folder: 4Fs4hv6HRst7R3Uy
+name: REC Gun
 type: weapon
-_id: mhpGatlingGun001
-img: icons/weapons/guns/gun-worn-steel.webp
+_id: mhpRECGun0000000
+img: modules/mage-hand-press-core/assets/equipment/blaster-b.webp
 system:
   activities:
-    tCiV2Pf3jVNTFEk4:
-      _id: tCiV2Pf3jVNTFEk4
+    C5R67vlroGCOBkEy:
+      _id: C5R67vlroGCOBkEy
       type: attack
       sort: 0
       activation:
@@ -74,32 +74,35 @@ system:
   description:
     value: ''
     chat: ''
-  identifier: gatling-gun
+  identifier: rec-gun
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
   container: null
   quantity: 1
   weight:
-    value: 125
+    value: 120
     units: lb
   price:
-    value: 3000
+    value: 1500
     denomination: gp
   rarity: ''
   attunement: ''
   attuned: false
   equipped: false
-  ammunition:
-    type: firearmBullet
+  ammunition: {}
   armor: {}
   damage:
     base:
       types:
-        - piercing
+        - radiant
       custom:
         enabled: false
       scaling:
@@ -114,21 +117,20 @@ system:
       scaling:
         number: 1
   properties:
-    - amm
     - automatic
+    - blaster
     - hvy
     - mounted
-    - rel
     - two
   proficient: null
   range:
     reach: null
     units: ft
-    value: 80
-    long: 320
+    value: 100
+    long: 400
   type:
     value: martialFirearm
-    baseItem: gatlingGun
+    baseItem: recGun
   mastery: ''
   crew:
     value: []
@@ -144,10 +146,10 @@ flags:
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
-  createdTime: 1775254059876
-  modifiedTime: 1775255751232
+  systemVersion: 5.3.3
+  createdTime: 1775254060299
+  modifiedTime: 1783624755207
   lastModifiedBy: magehandpress000
-_key: '!items!mhpGatlingGun001'
+_key: '!items!mhpRECGun0000000'

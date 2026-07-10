@@ -2,7 +2,7 @@ folder: oQuZQ0wqRIGZOESs
 name: Phaser
 type: weapon
 _id: mhpPhaser0000000
-img: icons/magic/lightning/bolt-strike-beam-yellow.webp
+img: icons/weapons/guns/pistol-tech-short-double.webp
 system:
   activities:
     Wu9jEuLeMureLYnV:
@@ -73,14 +73,15 @@ system:
     max: ''
   description:
     value: >-
-      <p><span class="s1">Phasers aren’t designed for effectiveness so much as portability and
-      non-lethality. These blasters are often issued to peace-keepers and emissaries that require
-      personal defense but have no intent to kill.</span></p>
+      <p>Phasers aren’t designed for effectiveness so much as portability and non-lethality. These
+      blasters are often issued to peace-keepers and emissaries that require personal defense but
+      have no intent to kill.</p>
     chat: ''
   identifier: phaser
   source:
     revision: 1
     rules: '2024'
+    book: Complete Gunslinger
   identified: true
   unidentified:
     description: ''
@@ -108,7 +109,7 @@ system:
         number: 1
       number: 2
       denomination: 4
-      bonus: '-@abilities.dex.mod'
+      bonus: ''
     versatile:
       types: []
       custom:
@@ -139,10 +140,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254059252
-  modifiedTime: 1775256978283
+  modifiedTime: 1783724591364
   lastModifiedBy: magehandpress000
 _key: '!items!mhpPhaser0000000'

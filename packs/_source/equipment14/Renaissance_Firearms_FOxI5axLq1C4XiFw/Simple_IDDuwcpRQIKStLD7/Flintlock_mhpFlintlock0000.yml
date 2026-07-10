@@ -77,7 +77,11 @@ system:
   identifier: flintlock
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
   identified: true
   unidentified:
     description: ''
@@ -143,10 +147,10 @@ flags:
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.3
   createdTime: 1775254059811
-  modifiedTime: 1775255299519
+  modifiedTime: 1783624930963
   lastModifiedBy: magehandpress000
 _key: '!items!mhpFlintlock0000'
