@@ -19,6 +19,13 @@
 				"IndustrialAge": "Industrial Age",
 				"Modern": "Modern",
 				"Renaissance": "Renaissance"
+			},
+			"Scatter": {
+				"CloseRange": "Close Range",
+				"HintScatter": "Scatter property cannot be used with Versatile.",
+				"HintVersatile": "Versatile property cannot be used with Scatter.",
+				"NormalRange": "Normal Range",
+				"Section": "Scatter"
 			}
 		},
 		"Mastery": {
