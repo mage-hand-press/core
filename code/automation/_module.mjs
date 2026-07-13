@@ -1,8 +1,7 @@
 /* Gunslinger */
 export * as MankillerOverkill from "./mankiller-overkill.mjs";
 
-// TODO: Handle Scatter property, replacing "One-Handed" & "Two-Handed" attack modes with "Long" & "Short" range
-
+// TODO: Add automation for Musketeer's "Heavy Shot" ability
 
 /* Warmage */
 export * as WarmageEdge from "./warmage-edge.mjs";

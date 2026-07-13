@@ -1,0 +1,261 @@
+folder: 740b9jHtVahmHcuB
+name: Bayonet
+type: weapon
+img: icons/weapons/swords/sword-guard-red.webp
+system:
+  activities:
+    bIfRDWRD9617uUrl:
+      _id: bIfRDWRD9617uUrl
+      type: attack
+      sort: 100000
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ''
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      name: ''
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    iBks9t0Oye3QYGxB:
+      type: enchant
+      name: Mount
+      _id: iBks9t0Oye3QYGxB
+      img: ''
+      sort: 200000
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: BzWKOIAvrSqSgF7v
+          level:
+            min: null
+            max: null
+          riders:
+            activity: []
+            effect: []
+            item: []
+      flags: {}
+      range:
+        units: touch
+        override: true
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: object
+          count: ''
+          special: any two-handed weapon
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      enchant:
+        self: true
+      restrictions:
+        allowMagical: true
+        categories: []
+        properties: []
+        type: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>As an action, a bayonet can be mounted to any two-handed ranged weapon or removed from it.
+      While mounted, you can use the bayonet to make a two-handed melee weapon attack, which deals
+      1d8 piercing damage on a hit.</p>
+    chat: ''
+  identifier: bayonet
+  source:
+    revision: 1
+    rules: '2014'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 1
+    units: lb
+  price:
+    value: 2
+    denomination: gp
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  ammunition: {}
+  armor: {}
+  damage:
+    base:
+      types:
+        - piercing
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: 1
+      denomination: 4
+      bonus: ''
+    versatile:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+  properties:
+    - fin
+    - lgt
+    - spc
+  proficient: null
+  range:
+    reach: null
+    units: ft
+    value: null
+    long: null
+  type:
+    value: simpleM
+    baseItem: ''
+  mastery: ''
+  crew:
+    value: []
+effects:
+  - type: enchantment
+    name: Mounted
+    img: icons/weapons/swords/sword-guard-red.webp
+    disabled: true
+    _id: BzWKOIAvrSqSgF7v
+    system:
+      changes:
+        - key: system.activities.iBks9t0Oye3QYGxB.name
+          type: override
+          value: Unmount
+          phase: initial
+          priority: null
+        - key: system.damage.base.denomination
+          type: override
+          value: 8
+          phase: initial
+          priority: null
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1783975047803
+      modifiedTime: 1783975081023
+      lastModifiedBy: magehandpress000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!mhpBayonet000000.BzWKOIAvrSqSgF7v'
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1783974861501
+  modifiedTime: 1783975086035
+  lastModifiedBy: magehandpress000
+  exportSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+_id: mhpBayonet000000
+sort: 100000
+_key: '!items!mhpBayonet000000'

@@ -46,7 +46,7 @@ export const firearmEras = {
 		],
 		label: "MageHandPress.Gunslinger.Era.Renaissance",
 		weapons: new Set([
-			"blunderbuss", "ducksFoot", "flintlock", "harpoonGun", "musket", "pistol", "volleyGun"
+			"bayonet", "blunderbuss", "ducksFoot", "flintlock", "harpoonGun", "musket", "pistol", "volleyGun"
 		])
 	},
 	industrialAge: {
@@ -56,7 +56,7 @@ export const firearmEras = {
 		],
 		label: "MageHandPress.Gunslinger.Era.IndustrialAge",
 		weapons: new Set([
-			"cannon", "doubleBarrelShotgun", "doubleHandgun", "dragonRifle", "gatlingGun",
+			"bayonet", "cannon", "doubleBarrelShotgun", "doubleHandgun", "dragonRifle", "gatlingGun",
 			"handgun", "harpoonGun", "huntingRifle", "lightCannon", "magnum", "parlorGun",
 			"pumpShotgun", "quadrupleBarrelShotgun", "revolver", "sawedOffShotgun", "sniperRifle"
 		])
@@ -68,7 +68,7 @@ export const firearmEras = {
 		],
 		label: "MageHandPress.Gunslinger.Era.Modern",
 		weapons: new Set([
-			"antiMaterialRifle", "assaultRifle", "assaultShotgun", "briefcaseGun", "doubleBarrelShotgun",
+			"antiMaterialRifle", "assaultRifle", "assaultShotgun", "bayonet", "briefcaseGun", "doubleBarrelShotgun",
 			"explosiveMagnum", "flareGun", "handgun" ,"huntingRifle", "gatlingGun", "grenadeLauncher",
 			"lightMachineGun", "machinePistol", "magnum", "multiRocketLauncher", "parlorGun", "pumpShotgun",
 			"revolver", "revolvingGrenadeLauncher", "rocketLauncher", "sawedOffShotgun", "sniperRifle", "submachineGun"
@@ -81,7 +81,7 @@ export const firearmEras = {
 		],
 		label: "MageHandPress.Gunslinger.Era.Futuristic",
 		weapons: new Set([
-			"antimatterCarbine", "antimatterPistol", "aviaRaSunstaff", "binaryGun", "blitzCannon",
+			"antimatterCarbine", "antimatterPistol", "aviaRaSunstaff", "bayonet", "binaryGun", "blitzCannon",
 			"boltCaster", "concussionRifle", "diodeBeam", "duelingLaser", "experimentalCarbine",
 			"fusionEmitter", "hardlightBallista", "hyperBlitzCannon", "impactorCannon", "ionCannon",
 			"linearAccelerator", "magnus", "phaser", "plasmaLauncher", "psionicHelm", "recGun", "repeater",
@@ -234,20 +234,23 @@ const validPropertiesModern = {
 
 /* -------------------------------------------- */
 
+// TODO: Point these to the Complete Gunslinger module, use redirects to point back here if module isn't active
+
 /** @inheritDoc */
 const weaponIdsLegacy = {
 	antiMaterialRifle: "Compendium.mage-hand-press-core.equipment14.Item.mhpAntiMaterialR",
-	antimatterCarbine: "Compendium.mage-hand-press-core.equipment14.Item.mhpAntimatterCa1",
+	antimatterCarbine: "Compendium.mage-hand-press-core.equipment14.Item.mhpAntimatterCar",
 	assaultRifle: "Compendium.mage-hand-press-core.equipment14.Item.mhpAssaultRifle1",
 	assaultShotgun: "Compendium.mage-hand-press-core.equipment14.Item.mhpAssaultShotgu",
-	aviaRaSunstaff: "Compendium.mage-hand-press-core.equipment14.Item.mhpAviaRaSunsta1",
+	aviaRaSunstaff: "Compendium.mage-hand-press-core.equipment14.Item.mhpAviaRaSunstaf",
+	bayonet: "Compendium.mage-hand-press-core.equipment14.Item.mhpBayonet000000",
 	binaryGun: "Compendium.mage-hand-press-core.equipment14.Item.mhpBinaryGun0000",
-	blitzCannon: "Compendium.mage-hand-press-core.equipment14.Item.mhpBlitzCannon01",
-	blunderbuss: "Compendium.mage-hand-press-core.equipment14.Item.mhpBlunderbuss01",
+	blitzCannon: "Compendium.mage-hand-press-core.equipment14.Item.mhpBlitzCannon00",
+	blunderbuss: "Compendium.mage-hand-press-core.equipment14.Item.mhpBlunderbuss00",
 	briefcaseGun: "Compendium.mage-hand-press-core.equipment14.Item.mhpBriefcaseGun0",
-	concussionRifle: "Compendium.mage-hand-press-core.equipment14.Item.mhpConcussionRi1",
+	concussionRifle: "Compendium.mage-hand-press-core.equipment14.Item.mhpConcussionRif",
 	diodeBeam: "Compendium.mage-hand-press-core.equipment14.Item.mhpDiodeBeam0000",
-	doubleBarrelShotgun: "Compendium.mage-hand-press-core.equipment14.Item.mhpDoubleBarrel1",
+	doubleBarrelShotgun: "Compendium.mage-hand-press-core.equipment14.Item.mhpDoubleBarrelS",
 	doubleHandgun: "Compendium.mage-hand-press-core.equipment14.Item.mhpDoubleHandgun",
 	dragonRifle: "Compendium.mage-hand-press-core.equipment14.Item.mhpDragonRifle00",
 	ducksFoot: "Compendium.mage-hand-press-core.equipment14.Item.mhpDucksFoot0000",
@@ -255,36 +258,36 @@ const weaponIdsLegacy = {
 	explosiveMagnum: "Compendium.mage-hand-press-core.equipment14.Item.mhpMagnumExplosi",
 	flintlock: "Compendium.mage-hand-press-core.equipment14.Item.mhpFlintlock0000",
 	fusionEmitter: "Compendium.mage-hand-press-core.equipment14.Item.mhpFusionEmitter",
-	gatlingGun: "Compendium.mage-hand-press-core.equipment14.Item.mhpGatlingGun001",
-	grenadeLauncher: "Compendium.mage-hand-press-core.equipment14.Item.mhpGrenadeLaunc1",
-	handgun: "Compendium.mage-hand-press-core.equipment14.Item.mhpHandgun000001",
+	gatlingGun: "Compendium.mage-hand-press-core.equipment14.Item.mhpGatlingGun000",
+	grenadeLauncher: "Compendium.mage-hand-press-core.equipment14.Item.mhpGrenadeLaunch",
+	handgun: "Compendium.mage-hand-press-core.equipment14.Item.mhpHandgun000000",
 	hardlightBallista: "Compendium.mage-hand-press-core.equipment14.Item.mhpHardlightBall",
 	harpoonGun: "Compendium.mage-hand-press-core.equipment14.Item.mhpHarpoonGun000",
-	huntingRifle: "Compendium.mage-hand-press-core.equipment14.Item.mhpHuntingRifle1",
+	huntingRifle: "Compendium.mage-hand-press-core.equipment14.Item.mhpHuntingRifle0",
 	hyperBlitzCannon: "Compendium.mage-hand-press-core.equipment14.Item.mhpHyperBlitzCan",
-	ionCannon: "Compendium.mage-hand-press-core.equipment14.Item.mhpIonCannon0001",
+	ionCannon: "Compendium.mage-hand-press-core.equipment14.Item.mhpIonCannon0000",
 	lightCannon: "Compendium.mage-hand-press-core.equipment14.Item.mhpLightCannon00",
 	linearAccelerator: "Compendium.mage-hand-press-core.equipment14.Item.mhpLinearAcceler",
-	magnum: "Compendium.mage-hand-press-core.equipment14.Item.mhpMagnum0000001",
-	magnus: "Compendium.mage-hand-press-core.equipment14.Item.mhpMagnus0000001",
+	magnum: "Compendium.mage-hand-press-core.equipment14.Item.mhpMagnum0000000",
+	magnus: "Compendium.mage-hand-press-core.equipment14.Item.mhpMagnus0000000",
 	multiRocketLauncher: "Compendium.mage-hand-press-core.equipment14.Item.mhpMultiRocketLa",
 	musket: "Compendium.mage-hand-press-core.equipment14.Item.mhpMusket0000000",
-	parlorGun: "Compendium.mage-hand-press-core.equipment14.Item.mhpParlorGun0001",
-	phaser: "Compendium.mage-hand-press-core.equipment14.Item.mhpPhaser0000001",
-	plasmaLauncher: "Compendium.mage-hand-press-core.equipment14.Item.mhpPlasmaLaunch1",
+	parlorGun: "Compendium.mage-hand-press-core.equipment14.Item.mhpParlorGun0000",
+	phaser: "Compendium.mage-hand-press-core.equipment14.Item.mhpPhaser0000000",
+	plasmaLauncher: "Compendium.mage-hand-press-core.equipment14.Item.mhpPlasmaLaunche",
 	psionicHelm: "Compendium.mage-hand-press-core.equipment14.Item.mhpPsionicHelm00",
-	pumpShotgun: "Compendium.mage-hand-press-core.equipment14.Item.mhpPumpShotgun01",
+	pumpShotgun: "Compendium.mage-hand-press-core.equipment14.Item.mhpPumpShotgun00",
 	quadrupleBarrelShotgun: "Compendium.mage-hand-press-core.equipment14.Item.mhpQuadrupleBarr",
-	recGun: "Compendium.mage-hand-press-core.equipment14.Item.mhpRECGun0000001",
-	repeater: "Compendium.mage-hand-press-core.equipment14.Item.mhpRepeater00001",
-	revolver: "Compendium.mage-hand-press-core.equipment14.Item.mhpRevolver00001",
+	recGun: "Compendium.mage-hand-press-core.equipment14.Item.mhpRECGun0000000",
+	repeater: "Compendium.mage-hand-press-core.equipment14.Item.mhpRepeater00000",
+	revolver: "Compendium.mage-hand-press-core.equipment14.Item.mhpRevolver00000",
 	revolvingGrenadeLauncher: "Compendium.mage-hand-press-core.equipment14.Item.mhpRevolvingGren",
 	rocketLauncher: "Compendium.mage-hand-press-core.equipment14.Item.mhpRocketLaunche",
 	singularityEmitter: "Compendium.mage-hand-press-core.equipment14.Item.mhpSingularityEm",
-	sniperRifle: "Compendium.mage-hand-press-core.equipment14.Item.mhpSniperRifle01",
+	sniperRifle: "Compendium.mage-hand-press-core.equipment14.Item.mhpSniperRifle00",
 	standardCarbine: "Compendium.mage-hand-press-core.equipment14.Item.mhpStandardCarb1",
-	submachineGun: "Compendium.mage-hand-press-core.equipment14.Item.mhpSubmachineGu1",
-	swarmPistol: "Compendium.mage-hand-press-core.equipment14.Item.mhpSwarmPistol01",
+	submachineGun: "Compendium.mage-hand-press-core.equipment14.Item.mhpSubmachineGun",
+	swarmPistol: "Compendium.mage-hand-press-core.equipment14.Item.mhpSwarmPistol00",
 	volcanic: "Compendium.mage-hand-press-core.equipment14.Item.mhpVolcanic00000",
 	volleyGun: "Compendium.mage-hand-press-core.equipment14.Item.mhpVolleyGun0000"
 };

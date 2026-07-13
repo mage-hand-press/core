@@ -1,0 +1,19 @@
+type: Item
+folder: null
+name: Other Weapons
+color: null
+sorting: a
+_id: 740b9jHtVahmHcuB
+description: ''
+sort: 600000
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1783974857698
+  modifiedTime: 1783974859446
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!740b9jHtVahmHcuB'
