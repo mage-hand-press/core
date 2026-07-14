@@ -1,4 +1,4 @@
-folder: 740b9jHtVahmHcuB
+folder: 2A7k1SC656RBBiX2
 name: Bayonet
 type: weapon
 img: icons/weapons/swords/sword-guard-red.webp
@@ -154,9 +154,9 @@ system:
         properties:
           - two
         type: weapon
-    zdlC8rAAqzNsm3Bo:
+    sxpQIHlQfXiu8ylJ:
       type: attack
-      _id: zdlC8rAAqzNsm3Bo
+      _id: sxpQIHlQfXiu8ylJ
       img: null
       sort: 150000
       activation:
@@ -262,7 +262,7 @@ system:
     long: null
   type:
     value: simpleM
-    baseItem: ''
+    baseItem: dagger
   mastery: ''
   crew:
     value: []
@@ -296,8 +296,8 @@ effects:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1783975047803
-      modifiedTime: 1783984726538
+      createdTime: 1783984778728
+      modifiedTime: 1783984778728
       lastModifiedBy: magehandpress000
       compendiumSource: null
       duplicateSource: null
@@ -312,8 +312,8 @@ _stats:
   coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.3
-  createdTime: 1783974861501
-  modifiedTime: 1783984828775
+  createdTime: 1783984778728
+  modifiedTime: 1783984816524
   lastModifiedBy: magehandpress000
   exportSource: null
   duplicateSource: null

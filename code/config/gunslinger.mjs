@@ -300,6 +300,7 @@ const weaponIdsModern = {
 	antimatterPistol: "Compendium.mage-hand-press-core.equipment24.Item.mhpAntimatterPis",
 	assaultRifle: "Compendium.mage-hand-press-core.equipment24.Item.mhpAssaultRifle0",
 	aviaRaSunstaff: "Compendium.mage-hand-press-core.equipment24.Item.mhpAviaRaSunstaf",
+	bayonet: "Compendium.mage-hand-press-core.equipment24.Item.mhpBayonet000000",
 	blitzCannon: "Compendium.mage-hand-press-core.equipment24.Item.mhpBlitzCannon00",
 	blunderbuss: "Compendium.mage-hand-press-core.equipment24.Item.mhpBlunderbuss00",
 	boltCaster: "Compendium.mage-hand-press-core.equipment24.Item.mhpBoltCaster000",
