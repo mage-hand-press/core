@@ -1,0 +1,89 @@
+name: Changelog
+_id: mhpChangelog0000
+pages:
+  - sort: 300000
+    name: Version 1.0.0
+    type: text
+    _id: mhpVersion100000
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: <h3 data-no-toc>Version 1.0.0</h3><ul><li><p>Initial release of Core Classes</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.365'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1784232057425
+      modifiedTime: 1784232188515
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpChangelog0000.mhpVersion100000'
+  - sort: 200000
+    name: Version 1.0.1
+    type: text
+    _id: mhpVersion101000
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h3 data-no-toc>Version 1.0.1</h3><ul><li><p>Fix permissions issue with journal
+        compendium</p></li><li><p>[<a
+        href="https://github.com/mage-hand-press/premium-content/issues/31" title="Warmage Edge not
+        properly gated behind setting">#31</a>] Properly gate Warmage Edge behind
+        setting</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.365'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1784232090831
+      modifiedTime: 1784232186971
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpChangelog0000.mhpVersion101000'
+folder: null
+categories: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  core:
+    viewMode: 2
+  dnd5e:
+    type: special
+    showPages: false
+_stats:
+  coreVersion: '14.365'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1784232047841
+  modifiedTime: 1784232047843
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!mhpChangelog0000'
