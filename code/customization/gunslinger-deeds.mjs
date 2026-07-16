@@ -15,8 +15,8 @@ export function initialize() {
  * @param {object} options
  */
 function setGunslingerDeeds(item, data, options) {
-	if ( (data.type !== "feat") || (data.system?.identifier !== "risk")
-		|| (data.system?.source?.rules !== "2014") ) return;
+	if ( (data.type !== "feat") || !data.system?.advancement || (data.system.identifier !== "risk")
+		|| (data.system.source?.rules !== "2014") ) return;
 
 	const advancementData = foundry.utils.getType(data.system.advancement) === "Array"
 		? data.system.advancement : Object.values(data.system.advancement);
