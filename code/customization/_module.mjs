@@ -1,3 +1,4 @@
+export * as AuxiliaryLevels from "./auxiliary-levels.mjs";
 export * as Firearms from "./firearms.mjs";
 export * as GunslingerDeeds from "./gunslinger-deeds.mjs";
 export * as ScatterProperty from "./scatter-property.mjs";

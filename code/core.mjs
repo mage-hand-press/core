@@ -17,6 +17,7 @@ Hooks.once("init", () => {
 	config.Gunslinger.initialize();
 	config.Warmage.initialize();
 
+	customization.AuxiliaryLevels.initialize();
 	customization.Firearms.initialize();
 	customization.GunslingerDeeds.initialize();
 	customization.ScatterProperty.initialize();

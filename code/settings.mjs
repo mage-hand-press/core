@@ -3,6 +3,16 @@ import * as SettingsData from "./data/_module.mjs";
 
 export function initialize() {
 	// General
+	game.settings.register("mage-hand-press-core", "auxiliaryLevels", {
+		name: "MageHandPress.Setting.AuxiliaryLevels.name",
+		hint: "MageHandPress.Setting.AuxiliaryLevels.hint",
+		scope: "world",
+		config: true,
+		default: true,
+		type: Boolean,
+		requiresReload: true
+	});
+
 	game.settings.register("mage-hand-press-core", "firearmModifier", {
 		name: "MageHandPress.Setting.FirearmModifier.name",
 		hint: "MageHandPress.Setting.FirearmModifier.hint",

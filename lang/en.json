@@ -12,6 +12,9 @@
 			"Shell": "Shell",
 			"Shot": "Shot"
 		},
+		"AuxiliaryLevel": {
+			"Label": "Auxiliary Level"
+		},
 		"Gunslinger": {
 			"Deed": "Deed",
 			"Era": {
@@ -58,6 +61,10 @@
 			"Twinshot": "Twinshot"
 		},
 		"Setting": {
+			"AuxiliaryLevels": {
+				"hint": "Enable support for special, one-level classes.",
+				"name": "Auxiliary Levels"
+			},
 			"FirearmModifier": {
 				"hint": "Don't apply the ability modifier to damage for any weapon that has the Firearm property.",
 				"name": "Ignore Modifier for Firearms"
