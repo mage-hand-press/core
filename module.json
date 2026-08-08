@@ -176,5 +176,6 @@
 	"protected": false,
 	"bugs": "https://github.com/mage-hand-press/premium-content/issues",
 	"manifest": "https://raw.githubusercontent.com/mage-hand-press/core/system.json",
+  "download": "",
 	"url": "https://foundryvtt.com/packages/mage-hand-press-core"
 }

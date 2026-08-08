@@ -76,6 +76,15 @@ jobs:
         protected: true
 
 
+    - name: Set download URL for non-premium modules
+      if: ${{ ! steps.premium.outputs.value }}
+      uses: microsoft/variable-substitution@v1
+      with:
+        files: "${{ steps.type.outputs.value }}.json"
+      env:
+        download: ${{ env.RELEASE_DOWNLOAD_URL }}
+
+
     - name: Use Node.js
       uses: actions/setup-node@v3
       with:
