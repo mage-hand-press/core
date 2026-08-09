@@ -66,6 +66,69 @@ pages:
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpChangelog0000.mhpVersion101000'
+  - sort: 100000
+    name: Version 1.1.0
+    type: text
+    _id: mhpVersion110000
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h3 data-no-toc>Version 1.1.0</h3><ul><li><p>[<a
+        href="https://github.com/mage-hand-press/premium-content/issues/32" title="Implement
+        Gunslinger base class">#32</a>] Implement Gunslinger base class</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.365'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1784233659109
+      modifiedTime: 1784233707077
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpChangelog0000.mhpVersion110000'
+  - sort: 0
+    name: Version 1.1.1
+    type: text
+    _id: IIJDfQAQ0fQYR7W1
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: <h3 data-no-toc>Version 1.1.1</h3><ul><li><p>Fix manifest link in module.json</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.365'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786312463242
+      modifiedTime: 1786312492287
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpChangelog0000.IIJDfQAQ0fQYR7W1'
 folder: null
 categories: []
 sort: 0
@@ -74,6 +137,7 @@ ownership:
 flags:
   core:
     viewMode: 2
+    locked: false
   dnd5e:
     type: special
     showPages: false
@@ -82,7 +146,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1784232047841
-  modifiedTime: 1784232047843
+  modifiedTime: 1784233720576
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
