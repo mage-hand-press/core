@@ -1,12 +1,12 @@
 {
-  "id": "mage-hand-press-core",
-  "title": "Mage Hand Press - Core Classes",
+	"id": "mage-hand-press-core",
+	"title": "Mage Hand Press - Core Classes",
 	"description": "<p>Complete implementation of 13 free classes from Mage Hand Press, including various small automation features to make playing the classes easier.</p>",
-  "version": "1.1.1",
-  "compatibility": {
-    "minimum": "14",
-    "verified": "14"
-  },
+	"version": "1.1.1",
+	"compatibility": {
+		"minimum": "14",
+		"verified": "14"
+	},
 	"authors": [
 		{
 			"name": "Mage Hand Press",
@@ -14,20 +14,20 @@
 			"flags": {}
 		}
 	],
-  "relationships": {
-    "systems": [
-      {
-        "id": "dnd5e",
-        "type": "system",
-        "compatibility": {
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"compatibility": {
 					"minimum": "5.3.0"
 				}
-      }
-    ]
-  },
+			}
+		]
+	},
 	"esmodules": ["./code/core.mjs"],
 	"styles": ["./styles/core.css"],
-  "packs": [
+	"packs": [
 		{
 			"name": "journal",
 			"label": "Core Classes",
@@ -175,7 +175,7 @@
 	},
 	"protected": false,
 	"bugs": "https://github.com/mage-hand-press/premium-content/issues",
-	"manifest": "https://raw.githubusercontent.com/mage-hand-press/core/system.json",
-  "download": "",
+	"manifest": "https://raw.githubusercontent.com/mage-hand-press/core/main/module.json",
+	"download": "",
 	"url": "https://foundryvtt.com/packages/mage-hand-press-core"
 }
