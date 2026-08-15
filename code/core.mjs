@@ -26,6 +26,7 @@ Hooks.once("init", () => {
 	customization.Firearms.initialize();
 	customization.GunslingerDeeds.initialize();
 	customization.ScatterProperty.initialize();
+	customization.SpellTags.initialize();
 
 	automation.MankillerOverkill.initialize();
 	automation.MonstrousGrafts.initialize();

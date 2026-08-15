@@ -2,11 +2,17 @@ export function initialize() {
 	Hooks.on("dnd5e.renderEmbeddedSpell", renderEmbeddedSpell);
 }
 
+// TODO: Allow custom spell tags to be registered
+// TODO: Allow adding spell tags to existing spells using spell lists
+// TODO: Remove code from Dark Matter
+
+// TODO: When displaying a legacy embed, include extra tags in parentheses with ritual tag
+
 /* -------------------------------------------- */
 /*  Rendering                                   */
 /* -------------------------------------------- */
 
-const VALID_PROPERTIES = new Set(["renaissance"]);
+const VALID_PROPERTIES = new Set(["chronomancy", "renaissance"]);
 
 /**
  * Add additional properties after spell tag when embedded.
