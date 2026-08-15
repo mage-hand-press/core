@@ -14,6 +14,11 @@ Hooks.once("init", () => {
 	redirects.initialize();
 	settings.initialize();
 
+	CONFIG.MAGEHANDPRESS ??= {};
+	Object.assign(CONFIG.MAGEHANDPRESS, {
+		graftBodySlots: config.General.graftBodySlots
+	});
+	config.General.initialize();
 	config.Gunslinger.initialize();
 	config.Warmage.initialize();
 
@@ -21,9 +26,9 @@ Hooks.once("init", () => {
 	customization.Firearms.initialize();
 	customization.GunslingerDeeds.initialize();
 	customization.ScatterProperty.initialize();
-	customization.SpellEmbeds.initialize();
 
 	automation.MankillerOverkill.initialize();
+	automation.MonstrousGrafts.initialize();
 	automation.WarmageEdge.initialize();
 
 	spellcasting.WarmageSpellcasting.initialize();

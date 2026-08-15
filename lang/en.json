@@ -41,9 +41,43 @@
 			"Scatter": "Scatter",
 			"Sighted": "Sighted"
 		},
+		"MonstrousGraft": {
+			"Details": "Graft Details",
+			"FIELDS": {
+				"current": {
+					"label": "Installed Slot"
+				},
+				"free": {
+					"hint": "Prevent this graft from taking up a slot.",
+					"label": "Free Graft"
+				},
+				"valid": {
+					"label": "Graft Slot"
+				}
+			},
+			"Grafts": "Grafts",
+			"GroupSlot": "Group by Slot",
+			"Label": "Monstrous Graft",
+			"Search": "Search Grafts",
+			"Slot": {
+				"Any": "Any Slot",
+				"Arms": "Arms Slot",
+				"External": "External Slot",
+				"Head": "Head Slot",
+				"Internal": "Internal Slot",
+				"Legs": "Legs Slot"
+			},
+			"SlotCount": "Graft Slot Counts",
+			"Tab": "Grafts",
+			"Warning": {
+				"SlotFull": "Too many grafts installed in {slot}."
+			}
+		},
 		"Properties": {
 			"Automatic": "Automatic",
 			"Blaster": "Blaster",
+			"Chronomancy": "Chronomancy",
+			"ChronomancyAbbr": "Cr",
 			"Concealable": "Concealable",
 			"Cooldown": "Cooldown",
 			"Dry": "Dry",
@@ -87,6 +121,10 @@
 				},
 				"label": "Gunslinger Settings",
 				"name": "Gunslinger"
+			},
+			"MonstrousGrafts": {
+				"hint": "Enable the Monsterous Graft equipment type and the Grafts tab on actor sheets.",
+				"name": "Monstrous Grafts"
 			},
 			"Warmage": {
 				"hint": "Configure customization & automation related to Warmage class",

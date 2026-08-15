@@ -23,6 +23,16 @@ export function initialize() {
 		requiresReload: true
 	});
 
+	game.settings.register("mage-hand-press-core", "monstrousGrafts", {
+		name: "MageHandPress.Setting.MonstrousGrafts.name",
+		hint: "MageHandPress.Setting.MonstrousGrafts.hint",
+		scope: "world",
+		config: true,
+		default: true,
+		type: Boolean,
+		requiresReload: true
+	});
+
 	// Gunslinger
 	game.settings.registerMenu("mage-hand-press-core", "gunslingerDialog", {
 		name: "MageHandPress.Setting.Gunslinger.name",

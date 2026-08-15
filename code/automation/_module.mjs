@@ -1,3 +1,6 @@
+/* General */
+export * as MonstrousGrafts from "./monstrous-grafts.mjs";
+
 /* Gunslinger */
 export * as MankillerOverkill from "./mankiller-overkill.mjs";
 
