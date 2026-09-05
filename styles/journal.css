@@ -1,0 +1,395 @@
+@scope (.theme-light) to (.themed) {
+	.mage-hand-press-journal, &.mage-hand-press-journal {
+
+	}
+
+	@scope (.mage-hand-press-journal, &.mage-hand-press-journal) to (.statblock, .toc) {
+		table {
+			--dnd5e-color-table-row-even: none;
+			--dnd5e-color-table-row-odd: var(--mhp-swatch-table);
+
+			thead {
+				color: var(--mhp-swatch-black);
+			}
+
+			&.accent-table {
+				--dnd5e-color-table-row-even: var(--mhp-swatch-table);
+				--dnd5e-color-table-row-odd: var(--mhp-swatch-page);
+			}
+		}
+
+		.notable {
+			--mhp-notable-background: var(--mhp-swatch-table);
+		}
+	}
+}
+
+@scope (.theme-dark) to (.themed) {
+	.mage-hand-press-journal, &.mage-hand-press-journal {
+
+	}
+
+	@scope (.mage-hand-press-journal, &.mage-hand-press-journal) to (.statblock, .toc) {
+		table {
+			--dnd5e-color-table-row-even: none;
+			--dnd5e-color-table-row-odd: var(--mhp-swatch-table);
+
+			thead {
+				color: var(--mhp-swatch-page);
+			}
+
+			&.accent-table {
+				--dnd5e-color-table-row-even: var(--mhp-swatch-table);
+				--dnd5e-color-table-row-odd: var(--mhp-swatch-page);
+			}
+		}
+
+		.notable {
+			--mhp-notable-background: var(--mhp-swatch-table);
+		}
+	}
+}
+
+
+.mage-hand-press-journal.journal-sheet {
+	.toc, .scrollable {
+		scrollbar-color: var(--mhp-journal-accent) transparent;
+	}
+	.toc {
+		li.page.active:first-of-type,
+		li.page:not(.active) + .active,
+		li.page.active + :not(.active) {
+			border-top-color: var(--mhp-journal-accent);
+		}
+		li.page.active:last-of-type {
+			border-bottom-color: var(--mhp-journal-accent);
+		}
+	}
+}
+
+.mage-hand-press-journal .journal-entry-content {
+	/* .blurb-block {
+		margin-block-end: 8px;
+		padding-block: 12px;
+		padding-inline: 16px;
+
+		background: var(--dark-matter-journal-gradient);
+		color: white;
+
+		--_s: 20px;
+		clip-path: polygon(
+			var(--_s) 0,
+			100% 0,
+			100% calc(100% - var(--_s)),
+			calc(100% - var(--_s)) 100%,
+			0 100%,
+			0% var(--_s)
+		);
+	} */
+}
+
+@scope (.mage-hand-press-journal) to (.statblock, .toc) {
+	h1:not(.window-title) {
+		border-block-end: 3px solid currentcolor;
+		font-family: var(--mhp-font-futura);
+		font-size: var(--font-size-46);
+		text-transform: uppercase;
+		margin-block-end: 20px;
+	}
+
+	h2, .journal-entry-page.class h4 {
+		border-block-end: 1px solid currentcolor;
+		color: var(--mhp-journal-accent);
+		font-family: var(--mhp-font-boucherie);
+		font-size: var(--font-size-24);
+		font-weight: normal;
+
+		a { text-decoration: none; }
+	}
+
+	h3, .journal-entry-page:is(.class, .subclass) h5 {
+		color: var(--mhp-journal-accent);
+		font-family: var(--mhp-font-boucherie);
+		font-size: var(--font-size-18);
+		margin-block-start: 1em;
+		margin-block-end: 0;
+		text-transform: uppercase;
+	}
+
+	h4 {
+		font-family: var(--mhp-font-shrimp);
+	}
+
+	:is(h1:not(.window-title), h2, h3, h4) a:is(.content-link, .inline-roll) {
+		&, & > i { color: inherit; }
+	}
+
+	/* :where(table, thead, tbody, tr, td, th) {
+		all: revert;
+	} */
+
+	table {
+		--table-background-color: none;
+
+		caption {
+			background: var(--table-background-color);
+			font-family: var(--mhp-font-axis);
+			font-size: var(--font-size-18);
+			font-weight: 900;
+			margin-block-end: 0;
+			padding-block-start: 6px;
+			padding-inline: 6px;
+			text-align: start;
+			text-transform: uppercase;
+		}
+
+		thead {
+			background: none;
+			border: none;
+
+			th {
+				padding: 6px;
+				text-align: start;
+			}
+		}
+
+		&.accent-table {
+			--table-background-color: var(--mhp-journal-accent);
+
+			caption, thead {
+				color: var(--mhp-swatch-page);
+				font-family: var(--mhp-font-shrimp);
+				text-transform: uppercase;
+			}
+		}
+
+		&.equipment-table {
+
+		}
+
+		&.level-list-table {
+			tr > :is(th, td):first-child {
+				text-align: center;
+				width: min-content;
+			}
+		}
+
+		&.switch-weapons-table {
+			thead th {
+				vertical-align: bottom;
+			}
+			tbody td {
+				vertical-align: baseline;
+
+				&:nth-child(3), &:nth-child(5) {
+					border-inline-start: 2px dashed rgb(0 0 0 / 0.25);
+				}
+			}
+		}
+
+		&.subclasses-table {
+
+		}
+	}
+
+	strong, .item-entry-specifics dt, span.embed-name {
+		font-family: var(--mhp-font-calibre);
+		font-style: normal;
+		font-variant: small-caps;
+	}
+
+	figure img {
+		border: none;
+		box-shadow: none;
+	}
+
+	.item-entry-details {
+		.item-entry-tag {
+			margin-block-start: 0;
+		}
+	}
+
+
+	:where(.notable, .notable::before, .notable::after) { all: revert; }
+	.notable {
+		background: var(--mhp-notable-background);
+		box-shadow: 6px 6px 6px var(--dnd5e-shadow-15);
+		margin: 6px;
+		padding: 6px;
+
+		h4 {
+			background: var(--mhp-journal-accent);
+			color: var(--mhp-swatch-page);
+			font-family: var(--mhp-font-shrimp);
+			font-size: var(--font-size-18);
+			margin: -6px;
+			margin-block-end: 6px;
+			padding: 6px;
+			padding-block-start: 9px;
+			text-transform: uppercase;
+		}
+	}
+
+	.random-magic-items {
+		.embed-caption {
+			font-style: normal;
+			text-align: start;
+		}
+		tbody td:last-child {
+			p { display: contents; }
+			br { display: none; }
+		}
+	}
+
+	.signature-line {
+		font-family: var(--mhp-font-edwardian);
+		font-size: var(--font-size-36);
+		text-align: end;
+	}
+
+	.navigation-container {
+		container-type: inline-size;
+	}
+	.navigation-split {
+		display: grid;
+		gap: 16px;
+
+		@container (width > 600px) {
+			grid-template-columns: 1fr 1fr;
+
+			.reverse-navigation {
+				margin-block-start: 30px;
+
+				.navigation-entry {
+					/* &::before { background: var(--dark-matter-journal-gradient); }
+					&::after { background: var(--dark-matter-gradient-grey-left); }
+					&::before, &::after, img {
+						clip-path: polygon(
+							0 0,
+							100% 0,
+							100% 100%,
+							var(--_s) 100%,
+							0 calc(100% - var(--_s))
+						);
+					} */
+				}
+			}
+		}
+	}
+
+	.navigation-entry {
+		position: relative;
+
+		&::before {
+			content: "";
+			position: absolute;
+			z-index: -2;
+			background: var(--dark-matter-journal-gradient-reverse);
+		}
+		&::after {
+			content: "";
+			position: absolute;
+			inset: 0;
+			z-index: -1;
+			background: var(--dark-matter-gradient-grey-right);
+		}
+
+		/* &::before, &::after, img {
+			--_s: 30px;
+			clip-path: polygon(
+				0 0,
+				100% 0,
+				100% calc(100% - var(--_s)),
+				calc(100% - var(--_s)) 100%,
+				0 100%
+			);
+		} */
+
+		img {
+			inline-size: 100%;
+			object-fit: cover;
+			object-position: center;
+		}
+		figcaption { display: contents; }
+		figcaption a {
+			position: absolute;
+			inset: 0;
+
+			color: white;
+			font-family: var(--mhp-font-shrimp);
+			font-style: normal;
+			font-weight: normal;
+			text-decoration: none;
+			text-transform: uppercase;
+			text-wrap-mode: wrap;
+			text-wrap-style: balance;
+			word-break: break-word;
+
+			> i { display: none; }
+		}
+	}
+	.chapter-navigation, .section-navigation {
+		isolation: isolate;
+		gap: 8px;
+	}
+	.chapter-navigation {
+		.navigation-entry {
+			height: 600px;
+
+			&::before, &::after, img { --_s: 10px; }
+			&::before {
+				inset: 0;
+				background: var(--dark-matter-journal-gradient);
+			}
+			&::after { inset-block-end: 50px; }
+			img {
+				block-size: calc(100% - 50px);
+				clip-path: none;
+			}
+			figcaption a {
+				padding-block-end: 16px;
+				align-content: end;
+				font-size: var(--font-size-14);
+			}
+		}
+	}
+	.section-navigation {
+		.navigation-entry {
+			margin: 4px;
+			&::before { inset: -4px; }
+
+			img, figcaption {
+				position: absolute;
+				inset: 0;
+			}
+			img { block-size: 100%; }
+			figcaption a {
+				padding-inline: 8px;
+				align-content: center;
+				font-size: var(--font-size-24);
+				text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
+			}
+		}
+		&.large-navigation .navigation-entry { flex: 0 0 150px; }
+		&.medium-navigation .navigation-entry { flex: 0 0 90px; }
+		&.small-navigation .navigation-entry { flex: 0 0 75px; }
+	}
+}
+
+.table-of-contents:is([data-compendium-id^="mage-hand-press-core"],
+											[data-compendium-id^="mage-hand-press-complete-"],
+											[data-compendium-id^="mage-hand-press-expanded-"],
+											[data-compendium-id^="mage-hand-press-valdas-spire-of-secrets"]) {
+	article .contents section {
+		column-count: 2;
+	}
+	.chapter {
+		break-inside: auto;
+	}
+}
+
+.table-of-contents[data-compendium-id^="mage-hand-press-core"] {
+	&:not(.minimized, .minimizing, .maximizing) {
+		min-block-size: 240px;
+	}
+}

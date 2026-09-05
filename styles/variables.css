@@ -1,0 +1,40 @@
+:root {
+	/* Swatches */
+	--mhp-swatch-black: rgb(0, 0, 0);
+	--mhp-swatch-page: rgb(249, 245, 238);
+	--mhp-swatch-page-accent: rgb(232, 228, 218);
+	--mhp-swatch-table: rgb(232, 235, 239);
+	--mhp-swatch-theme-blue: rgb(57, 91, 112);
+	--mhp-swatch-theme-green: rgb(104, 113, 84);
+	--mhp-swatch-theme-purple: rgb(81, 62, 81);
+	--mhp-swatch-theme-yellow: rgb(128, 105, 71);
+
+	/* Gradients */
+
+	/* Fonts */
+	--mhp-font-axis: Axis, sans-serif;
+	--mhp-font-boucherie: Boucherie Flared, sans-serif;
+	--mhp-font-calibre: Calibri, Carlito, sans-serif;
+	--mhp-font-edwardian: Edwardian Script ITC, cursive;
+	--mhp-font-futura: Futura LT, Futura, sans-serif;
+	--mhp-font-shrimp: Shrimp, sans-serif;
+}
+
+.mage-hand-press-journal,
+[data-compendium-id^="mage-hand-press-core"],
+[data-compendium-id^="mage-hand-press-complete-"],
+[data-compendium-id^="mage-hand-press-expanded-"],
+[data-compendium-id^="mage-hand-press-valdas-spire-of-secrets"] {
+
+	--mhp-journal-accent: var(--mhp-swatch-theme-purple);
+
+	&.accent-blue {
+		--mhp-journal-accent: var(--mhp-swatch-theme-blue);
+	}
+	&.accent-green {
+		--mhp-journal-accent: var(--mhp-swatch-theme-green);
+	}
+	&.accent-yellow {
+		--mhp-journal-accent: var(--mhp-swatch-theme-yellow);
+	}
+}

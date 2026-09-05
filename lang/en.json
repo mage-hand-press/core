@@ -142,6 +142,9 @@
 				"name": "Warmage"
 			}
 		},
+		"Sheet": {
+			"JournalEntry": "Mage Hand Press Journal Sheet"
+		},
 		"Source": {
 			"CompleteGunslinger": "Complete Gunslinger",
 			"CompleteWarmage": "Complete Warmage"

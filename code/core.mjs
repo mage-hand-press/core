@@ -33,6 +33,11 @@ Hooks.once("init", () => {
 	automation.WarmageEdge.initialize();
 
 	spellcasting.WarmageSpellcasting.initialize();
+
+	foundry.applications.apps.DocumentSheetConfig.registerSheet(
+		JournalEntry, "mage-hand-press-core", applications.MageHandPressJournalEntrySheet,
+		{ label: "MageHandPress.Sheet.JournalEntry" }
+	);
 });
 
 Hooks.once("i18nInit", () => {
