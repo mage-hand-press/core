@@ -1,51 +1,55 @@
 @scope (.theme-light) to (.themed) {
 	.mage-hand-press-journal, &.mage-hand-press-journal {
-
+		.journal-entry-content {
+			background: var(--mhp-texture-page-light) no-repeat center / cover;
+		}
 	}
 
 	@scope (.mage-hand-press-journal, &.mage-hand-press-journal) to (.statblock, .toc) {
 		table {
-			--dnd5e-color-table-row-even: none;
-			--dnd5e-color-table-row-odd: var(--mhp-swatch-table);
+			--mhp-table-row-even-background: none;
+			--mhp-table-row-odd-background: var(--mhp-swatch-table);
 
 			thead {
 				color: var(--mhp-swatch-black);
 			}
-
-			&.accent-table {
-				--dnd5e-color-table-row-even: var(--mhp-swatch-table);
-				--dnd5e-color-table-row-odd: var(--mhp-swatch-page);
-			}
+		}
+		table.accent-table, .journal-entry-page.class .features-table {
+			--mhp-table-background: var(--mhp-texture-blue-light);
+			--mhp-table-row-even-background: none;
+			--mhp-table-row-odd-background: var(--mhp-swatch-page);
 		}
 
 		.notable {
-			--mhp-notable-background: var(--mhp-swatch-table);
+			--mhp-notable-background: var(--mhp-texture-blue-light);
 		}
 	}
 }
 
 @scope (.theme-dark) to (.themed) {
 	.mage-hand-press-journal, &.mage-hand-press-journal {
-
+		.journal-entry-content {
+			background: var(--mhp-texture-page-dark) no-repeat center / cover;
+		}
 	}
 
 	@scope (.mage-hand-press-journal, &.mage-hand-press-journal) to (.statblock, .toc) {
 		table {
-			--dnd5e-color-table-row-even: none;
-			--dnd5e-color-table-row-odd: var(--mhp-swatch-table);
+			--mhp-table-row-even-background: none;
+			--mhp-table-row-odd-background: var(--mhp-swatch-black);
 
 			thead {
 				color: var(--mhp-swatch-page);
 			}
-
-			&.accent-table {
-				--dnd5e-color-table-row-even: var(--mhp-swatch-table);
-				--dnd5e-color-table-row-odd: var(--mhp-swatch-page);
-			}
+		}
+		table.accent-table, .journal-entry-page.class .features-table {
+			--mhp-table-background: var(--mhp-texture-blue-dark);
+			--mhp-table-row-even-background: none;
+			--mhp-table-row-odd-background: var(--mhp-swatch-black);
 		}
 
 		.notable {
-			--mhp-notable-background: var(--mhp-swatch-table);
+			--mhp-notable-background: var(--mhp-texture-blue-dark);
 		}
 	}
 }
@@ -89,17 +93,21 @@
 }
 
 @scope (.mage-hand-press-journal) to (.statblock, .toc) {
+	.notable, .notable::before, .notable::after { all: revert; }
+
 	h1:not(.window-title) {
 		border-block-end: 3px solid currentcolor;
 		font-family: var(--mhp-font-futura);
 		font-size: var(--font-size-46);
 		text-transform: uppercase;
 		margin-block-end: 20px;
+
+		a { text-decoration: none; }
 	}
 
 	h2, .journal-entry-page.class h4 {
 		border-block-end: 1px solid currentcolor;
-		color: var(--mhp-journal-accent);
+		color: var(--mhp-journal-accent-text);
 		font-family: var(--mhp-font-boucherie);
 		font-size: var(--font-size-24);
 		font-weight: normal;
@@ -108,7 +116,7 @@
 	}
 
 	h3, .journal-entry-page:is(.class, .subclass) h5 {
-		color: var(--mhp-journal-accent);
+		color: var(--mhp-journal-accent-text);
 		font-family: var(--mhp-font-boucherie);
 		font-size: var(--font-size-18);
 		margin-block-start: 1em;
@@ -128,11 +136,25 @@
 		all: revert;
 	} */
 
+	.notable, table {
+		position: relative;
+
+		&::after {
+			block-size: calc(100% + var(--corner-details-offset-vertical, var(--corner-details-offset, 0px)) * 2);
+			inline-size: calc(100% + var(--corner-details-offset-horizontal, var(--corner-details-offset, 0px)) * 2);
+			inset-block: calc(var(--corner-details-offset-vertical, var(--corner-details-offset, 0px)) * -1);
+			inset-inline: calc(var(--corner-details-offset-horizontal, var(--corner-details-offset, 0px)) * -1);
+			pointer-events: none;
+			position: absolute;
+			z-index: 1;
+		}
+	}
+
 	table {
-		--table-background-color: none;
+		background: var(--mhp-table-background);
 
 		caption {
-			background: var(--table-background-color);
+			background: var(--mhp-table-caption-background);
 			font-family: var(--mhp-font-axis);
 			font-size: var(--font-size-18);
 			font-weight: 900;
@@ -144,7 +166,7 @@
 		}
 
 		thead {
-			background: none;
+			background: var(--mhp-table-header-background);
 			border: none;
 
 			th {
@@ -152,15 +174,9 @@
 				text-align: start;
 			}
 		}
-
-		&.accent-table {
-			--table-background-color: var(--mhp-journal-accent);
-
-			caption, thead {
-				color: var(--mhp-swatch-page);
-				font-family: var(--mhp-font-shrimp);
-				text-transform: uppercase;
-			}
+		tbody {
+			tr:nth-of-type(even) { background: var(--mhp-table-row-even-background); }
+			tr:nth-of-type(odd) { background: var(--mhp-table-row-odd-background); }
 		}
 
 		&.equipment-table {
@@ -188,7 +204,30 @@
 		}
 
 		&.subclasses-table {
+			--corner-details-offset-horizontal: 10px;
+			--corner-details-offset-vertical: 8px;
+			margin-inline-start: 4px;
 
+			&::after {
+				background-image: var(--mhp-table-top-right), var(--mhp-table-bottom-left);
+				background-position: top right, bottom left;
+				background-repeat: no-repeat, no-repeat;
+				background-size: calc(345px / 3.5), calc(321px / 3.5);
+				content: "";
+			}
+		}
+	}
+
+	table.accent-table, .journal-entry-page.class .features-table {
+		--mhp-table-caption-background: var(--mhp-journal-accent);
+		--mhp-table-header-background: var(--mhp-journal-accent);
+		box-shadow: 6px 6px 6px var(--dnd5e-shadow-15);
+		margin-block: 10px;
+
+		caption, thead {
+			color: var(--mhp-swatch-page);
+			font-family: var(--mhp-font-shrimp);
+			text-transform: uppercase;
 		}
 	}
 
@@ -209,13 +248,21 @@
 		}
 	}
 
-
-	:where(.notable, .notable::before, .notable::after) { all: revert; }
 	.notable {
+		--corner-details-offset: 2px;
 		background: var(--mhp-notable-background);
 		box-shadow: 6px 6px 6px var(--dnd5e-shadow-15);
 		margin: 6px;
 		padding: 6px;
+		position: relative;
+
+		&::after {
+			background-image: var(--mhp-note-top-right);
+			background-position: top right;
+			background-repeat: no-repeat;
+			background-size: auto 50px;
+			content: "";
+		}
 
 		h4 {
 			background: var(--mhp-journal-accent);
@@ -373,6 +420,7 @@
 		&.large-navigation .navigation-entry { flex: 0 0 150px; }
 		&.medium-navigation .navigation-entry { flex: 0 0 90px; }
 		&.small-navigation .navigation-entry { flex: 0 0 75px; }
+		&.tiny-navigation .navigation-entry { flex: 0 0 60px; }
 	}
 }
 
