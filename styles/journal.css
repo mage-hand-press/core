@@ -1,8 +1,7 @@
 @scope (.theme-light) to (.themed) {
 	.mage-hand-press-journal, &.mage-hand-press-journal {
-		.journal-entry-content {
-			background: var(--mhp-texture-page-light) no-repeat center / cover;
-		}
+		--mhp-journal-accent-text: var(--mhp-journal-accent);
+		.journal-entry-content { background: var(--mhp-texture-page-light) no-repeat center / cover; }
 	}
 
 	@scope (.mage-hand-press-journal, &.mage-hand-press-journal) to (.statblock, .toc) {
@@ -28,9 +27,8 @@
 
 @scope (.theme-dark) to (.themed) {
 	.mage-hand-press-journal, &.mage-hand-press-journal {
-		.journal-entry-content {
-			background: var(--mhp-texture-page-dark) no-repeat center / cover;
-		}
+		--mhp-journal-accent-text: var(--mhp-journal-accent-light);
+		.journal-entry-content { background: var(--mhp-texture-page-dark) no-repeat center / cover; }
 	}
 
 	@scope (.mage-hand-press-journal, &.mage-hand-press-journal) to (.statblock, .toc) {
@@ -99,10 +97,23 @@
 		border-block-end: 3px solid currentcolor;
 		font-family: var(--mhp-font-futura);
 		font-size: var(--font-size-46);
+		font-variant: none;
+		font-weight: bold;
 		text-transform: uppercase;
 		margin-block-end: 20px;
 
 		a { text-decoration: none; }
+	}
+
+	h1.subchapter, h2.class-features {
+		border: none;
+		color: var(--mhp-journal-accent-text);
+		font-family: var(--mhp-font-boucherie);
+		font-size: var(--font-size-36);
+		font-variant: none;
+		font-weight: normal;
+		margin-block-end: 0;
+		text-transform: uppercase;
 	}
 
 	h2, .journal-entry-page.class h4 {
@@ -110,7 +121,9 @@
 		color: var(--mhp-journal-accent-text);
 		font-family: var(--mhp-font-boucherie);
 		font-size: var(--font-size-24);
+		font-variant: none;
 		font-weight: normal;
+		text-transform: none;
 
 		a { text-decoration: none; }
 	}
@@ -119,6 +132,8 @@
 		color: var(--mhp-journal-accent-text);
 		font-family: var(--mhp-font-boucherie);
 		font-size: var(--font-size-18);
+		font-variant: none;
+		font-weight: bold;
 		margin-block-start: 1em;
 		margin-block-end: 0;
 		text-transform: uppercase;
@@ -131,10 +146,6 @@
 	:is(h1:not(.window-title), h2, h3, h4) a:is(.content-link, .inline-roll) {
 		&, & > i { color: inherit; }
 	}
-
-	/* :where(table, thead, tbody, tr, td, th) {
-		all: revert;
-	} */
 
 	.notable, table {
 		position: relative;
@@ -177,10 +188,6 @@
 		tbody {
 			tr:nth-of-type(even) { background: var(--mhp-table-row-even-background); }
 			tr:nth-of-type(odd) { background: var(--mhp-table-row-odd-background); }
-		}
-
-		&.equipment-table {
-
 		}
 
 		&.level-list-table {
@@ -253,6 +260,7 @@
 		background: var(--mhp-notable-background);
 		box-shadow: 6px 6px 6px var(--dnd5e-shadow-15);
 		margin: 6px;
+		margin-block: 10px;
 		padding: 6px;
 		position: relative;
 
@@ -264,7 +272,7 @@
 			content: "";
 		}
 
-		h4 {
+		> h4, > document-embed > .content-embed > h4 {
 			background: var(--mhp-journal-accent);
 			color: var(--mhp-swatch-page);
 			font-family: var(--mhp-font-shrimp);
@@ -278,6 +286,7 @@
 	}
 
 	.random-magic-items {
+		&, > .content-embed { display: contents; }
 		.embed-caption {
 			font-style: normal;
 			text-align: start;
@@ -285,6 +294,19 @@
 		tbody td:last-child {
 			p { display: contents; }
 			br { display: none; }
+		}
+	}
+
+	.roll-table-embed {
+		thead th > button {
+			margin: auto;
+		}
+		tbody h4:not(& + p) {
+			color: inherit;
+			font-family: inherit;
+			font-size: inherit;
+			font-weight: normal;
+			margin-block-end: 0;
 		}
 	}
 

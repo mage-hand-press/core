@@ -38,18 +38,18 @@
 [data-compendium-id^="mage-hand-press-valdas-spire-of-secrets"] {
 
 	--mhp-journal-accent: var(--mhp-swatch-theme-purple);
-	--mhp-journal-accent-text: oklch(from var(--mhp-swatch-theme-purple) .8 c h);
+	--mhp-journal-accent-light: oklch(from var(--mhp-swatch-theme-purple) .8 c h);
 
 	&.accent-blue {
 		--mhp-journal-accent: var(--mhp-swatch-theme-blue);
-		--mhp-journal-accent-text: oklch(from var(--mhp-swatch-theme-blue) .8 c h);
+		--mhp-journal-accent-light: oklch(from var(--mhp-swatch-theme-blue) .8 c h);
 	}
 	&.accent-green {
 		--mhp-journal-accent: var(--mhp-swatch-theme-green);
-		--mhp-journal-accent-text: oklch(from var(--mhp-swatch-theme-green) .8 c h);
+		--mhp-journal-accent-light: oklch(from var(--mhp-swatch-theme-green) .8 c h);
 	}
 	&.accent-yellow {
 		--mhp-journal-accent: var(--mhp-swatch-theme-yellow);
-		--mhp-journal-accent-text: oklch(from var(--mhp-swatch-theme-yellow) .8 c h);
+		--mhp-journal-accent-light: oklch(from var(--mhp-swatch-theme-yellow) .8 c h);
 	}
 }
