@@ -6,29 +6,27 @@ system:
   description:
     value: >-
       <p>Choose where you first learned the basics of
-      magic.</p><p><em><strong>Adventurer</strong>.</em>
-      @Embed[Compendium.mage-hand-press-core.classes24.Item.mhpAdventurer000
-      inline]</p><p><em><strong>Arcane Event.</strong></em>
-      @Embed[Compendium.mage-hand-press-core.classes24.Item.mhpArcaneEvent00
-      inline]</p><p><em><strong>Circus Performer.</strong></em>
-      @Embed[Compendium.mage-hand-press-core.classes24.Item.mhpCircusPerform
-      inline]</p><p><em><strong>Mercenary.</strong></em>
-      @Embed[Compendium.mage-hand-press-core.classes24.Item.mhpMercenary0000
-      inline]</p><p><em><strong>Temple Initiate.</strong></em>
-      @Embed[Compendium.mage-hand-press-core.classes24.Item.mhpTempleInitiat
-      inline]</p><p><em><strong>Tower Apprentice.</strong></em>
-      @Embed[Compendium.mage-hand-press-core.classes24.Item.mhpTowerApprenti
-      inline]</p><p><em><strong>Self-Taught.</strong></em>
-      @Embed[Compendium.mage-hand-press-core.classes24.Item.mhpSelfTaught000
-      inline]</p><p><em><strong>Survivalist.</strong></em>
-      @Embed[Compendium.mage-hand-press-core.classes24.Item.mhpSurvival00000 inline]</p><section
-      class="fvtt advice hide-in-embed"><figure class="icon"><img
-      src="icons/sundries/books/book-open-brown.webp" class="round"></figure><article><h3>Making
-      Your Own Initiation</h3><p>You can work with your GM to create an Arcane Initiation to suit
-      your character’s background. Choose two cantrips of your choice from any class’s spell list;
-      one cantrip should be suitable for combat, and the other for utility. Avoid choosing cantrips
-      that are otherwise exclusive to another spellcaster. Also choose one
-      skill.</p></article></section>
+      magic.</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpAdventurer000
+      caption=false cite=false
+      nameStyle=inline]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpArcaneEvent00
+      caption=false cite=false
+      nameStyle=inline]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpCircusPerform
+      caption=false cite=false
+      nameStyle=inline]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpMercenary0000
+      caption=false cite=false
+      nameStyle=inline]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpTempleInitiat
+      caption=false cite=false
+      nameStyle=inline]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpTowerApprenti
+      caption=false cite=false
+      nameStyle=inline]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpSelfTaught000
+      caption=false cite=false
+      nameStyle=inline]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpSurvival00000
+      caption=false cite=false nameStyle=inline]</p><section class="notable
+      hide-in-embed"><h4>Making Your Own Initiation</h4><p>You can work with your GM to create an
+      Arcane Initiation to suit your character’s background. Choose two cantrips of your choice from
+      any class’s spell list; one cantrip should be suitable for combat, and the other for utility.
+      Avoid choosing cantrips that are otherwise exclusive to another spellcaster. Also choose one
+      skill.</p></section>
     chat: ''
   source:
     custom: ''
@@ -61,11 +59,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.367'
   systemId: dnd5e
   systemVersion: 6.0.0
   createdTime: 1774369902892
-  modifiedTime: 1782754410570
+  modifiedTime: 1788994274417
   lastModifiedBy: magehandpress000
 _id: mhpArcaneInitiat
 sort: 200000

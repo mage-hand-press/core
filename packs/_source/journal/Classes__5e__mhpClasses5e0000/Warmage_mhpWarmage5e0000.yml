@@ -90,87 +90,90 @@ pages:
     _id: mhpWarmageTricks
     system: {}
     title:
-      show: true
+      show: false
       level: 1
     image: {}
     text:
       format: 1
       content: >-
-        <p>The following tricks are presented in alphabetical order. If a warmage trick has
-        prerequisites, you must meet them to choose it. You can choose the trick at the same time
-        that you meet its prerequisites. A level prerequisite refers to your level in this
-        class.</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpBishopsManeuv]{Bishop’s
-        Maneuver}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpBishopsManeuv
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpBlastingCantr]{Blasting
-        Cantrip}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpBlastingCantr
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpBlindingLight]{Blinding
-        Light}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpBlindingLight
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpCastle0000000]{Castle}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpCastle0000000
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpChivalrousPre]{Chivalrous
-        Presence}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpChivalrousPre
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpCloakFeathers]{Cloak
-        of Feathers}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpCloakFeathers
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpCommandersSte]{Commander’s
-        Steed}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpCommandersSte
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpCorrosiveCant]{Corrosive
-        Cantrip}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpCorrosiveCant
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpDirectedMomen]{Directed
-        Momentum}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpDirectedMomen
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpDrainingCantr]{Draining
-        Cantrip}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpDrainingCantr
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpEncryptogram0]{Encryptogram}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpEncryptogram0
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpExplosiveCant]{Explosive
-        Cantrip}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpExplosiveCant
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpExtendedRange]{Extended
-        Range}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpExtendedRange
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpFieldMedic000]{Field
-        Medic}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpFieldMedic000
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpFlexibleRange]{Flexible
-        Range}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpFlexibleRange
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpFold000000000]{Fold}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpFold000000000
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpGamble0000000]{Gamble}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpGamble0000000
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpInfiniteVaria]{Infinite
-        Variation}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpInfiniteVaria
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpIcyCantrip000]{Icy
-        Cantrip}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpIcyCantrip000
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpKnightsAegis0]{Knight’s
-        Aegis}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpKnightsAegis0
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpLeadingEdgeTa]{Leading
-        Edge Tactics}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpLeadingEdgeTa
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpLieutenantsDe]{Lieutenant’s
-        Demand}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpLieutenantsDe
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpMageHandKnack]{Mage
-        Hand Knack}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpMageHandKnack
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpMinorShadowIl]{Minor
-        Shadow
-        Illusion}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpMinorShadowIl
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpMysticalArmor]{Mystical
-        Armor}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpMysticalArmor
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpMysticalAthle]{Mystical
-        Athlete}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpMysticalAthle
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpMysticalWeapo]{Mystical
-        Weaponmaster}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpMysticalWeapo
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpMysticalVisio]{Mystical
-        Vision}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpMysticalVisio
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpPhantomHooksh]{Phantom
-        Hookshot}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpPhantomHooksh
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpRapidFortific]{Rapid
-        Fortification}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpRapidFortific
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpSnakeEyes0000]{Snake
-        Eyes}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpSnakeEyes0000
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpSevereCantrip]{Severe
-        Cantrip}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpSevereCantrip
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpSignatureFocu]{Signature
-        Focus}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpSignatureFocu
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpSilentCantrip]{Silent
-        Cantrip}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpSilentCantrip
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpSplitFire0000]{Split
-        Fire}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpSplitFire0000
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpStaticCantrip]{Static
-        Cantrip}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpStaticCantrip
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpUnerringStrik]{Unerring
-        Strike}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpUnerringStrik
-        inline]</p>
+        <h1 data-no-toc class="subchapter">Warmage Tricks</h1><p>The following tricks are presented
+        in alphabetical order. If a warmage trick has prerequisites, you must meet them to choose
+        it. You can choose the trick at the same time that you meet its prerequisites. A level
+        prerequisite refers to your level in this
+        class.</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpBishopsManeuv
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpBlastingCantr
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpBlindingLight
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpCastle0000000
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpChivalrousPre
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpCloakFeathers
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpCommandersSte
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpCorrosiveCant
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpDirectedMomen
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpDrainingCantr
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpEncryptogram0
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpExplosiveCant
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpExtendedRange
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpFieldMedic000
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpFlexibleRange
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpFold000000000
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpGamble0000000
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpInfiniteVaria
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpIcyCantrip000
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpKnightsAegis0
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpLeadingEdgeTa
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpLieutenantsDe
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpMageHandKnack
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpMinorShadowIl
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpMysticalArmor
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpMysticalAthle
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpMysticalWeapo
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpMysticalVisio
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpPhantomHooksh
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpRapidFortific
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpSnakeEyes0000
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpSevereCantrip
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpSignatureFocu
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpSilentCantrip
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpSplitFire0000
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpStaticCantrip
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpUnerringStrik
+        caption=false nameStyle=h3]</p>
     video:
       controls: true
       volume: 0.5
@@ -182,12 +185,12 @@ pages:
     _stats:
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: magehandpress000
-      modifiedTime: 1774471666491
-      createdTime: null
+      modifiedTime: 1788994626413
+      createdTime: 1788994624746
     _key: '!journal.pages!mhpWarmage5e0000.mhpWarmageTricks'
   - sort: 1500000
     name: Warmage Spell List
@@ -391,7 +394,7 @@ pages:
       identifier: warmage
     title:
       show: true
-      level: 1
+      level: 2
     image: {}
     text:
       format: 1
@@ -406,11 +409,11 @@ pages:
     _stats:
       duplicateSource: null
       exportSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 6.0.0
       lastModifiedBy: magehandpress000
-      modifiedTime: 1782754808276
+      modifiedTime: 1788994634946
       createdTime: 1782754800632
     _id: mhpWarmageSpellL
     _key: '!journal.pages!mhpWarmage5e0000.mhpWarmageSpellL'
@@ -424,13 +427,18 @@ flags:
     type: chapter
     position: 25
     title: Warmage (5e)
+  core:
+    sheetClass: mage-hand-press-core.MageHandPressJournalEntrySheet
+  mage-hand-press-core:
+    casClasses:
+      - accent-yellow
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.367'
   systemId: dnd5e
   systemVersion: 6.0.0
   createdTime: 1763856630412
-  modifiedTime: 1783016255128
+  modifiedTime: 1788993780582
   lastModifiedBy: magehandpress000
 _key: '!journal!mhpWarmage5e0000'

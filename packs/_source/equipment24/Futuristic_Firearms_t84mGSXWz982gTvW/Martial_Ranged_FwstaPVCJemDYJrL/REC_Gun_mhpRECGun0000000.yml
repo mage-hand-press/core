@@ -127,7 +127,7 @@ system:
               formula: ''
             number: 2
             denomination: 8
-            bonus: '-@abilities.dex.mod'
+            bonus: -@abilities.dex.mod
             types:
               - radiant
             scaling:

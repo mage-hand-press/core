@@ -121,7 +121,7 @@ system:
               formula: ''
             number: 2
             denomination: 6
-            bonus: '-@abilities.int.mod'
+            bonus: -@abilities.int.mod
             types:
               - psychic
             scaling:
@@ -191,7 +191,7 @@ system:
               formula: ''
             number: 2
             denomination: 6
-            bonus: '-@abilities.wis.mod'
+            bonus: -@abilities.wis.mod
             types:
               - psychic
             scaling:
@@ -261,7 +261,7 @@ system:
               formula: ''
             number: 2
             denomination: 6
-            bonus: '-@abilities.cha.mod'
+            bonus: -@abilities.cha.mod
             types:
               - psychic
             scaling:

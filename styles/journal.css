@@ -116,7 +116,7 @@
 		text-transform: uppercase;
 	}
 
-	h2, .journal-entry-page.class h4 {
+	h2, h4.class-feature-name {
 		border-block-end: 1px solid currentcolor;
 		color: var(--mhp-journal-accent-text);
 		font-family: var(--mhp-font-boucherie);

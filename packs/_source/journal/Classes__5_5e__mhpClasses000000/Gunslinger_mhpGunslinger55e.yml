@@ -12,24 +12,23 @@ pages:
           <p>Risk is in a Gunslinger’s blood. They are bold renegades, bucking tradition and forging
           a new path with dangerous and inelegant firearms. Gunslingers are infamous for surviving
           by their wits and relying on split-second timing and a considerable amount of luck to
-          survive.</span></p><h2>Guts and Gunpowder</h2><p>Black powder isn’t for the faint of
-          heart. Its thunderous applause is volatile and imprecise—a barely controlled explosion
-          directed at an enemy. Only the truly fearless seek to master it. But Gunslingers have
-          nerves of steel, hurling death from their guns in a roaring cacophony. Adapted for
-          shootouts, gunslingers are mobile and daring, knowing that life or death hangs on snap
-          decision-making and one’s own mettle.</span></p><h2>Dangerous Outsiders</h2><p>A
-          Gunslinger’s explosive lifestyle lends well to wandering and adventuring. Gunslingers
-          often shoot first and ask questions later, an attitude which earns them few friends and
-          bountiful enemies. In their travels, most gunslingers are secretive and take great lengths
-          to go unnoticed, lest they be spotted by old foes with scores to
-          settle.</span></p><h2>Becoming a Gunslinger…</h2><h3>As a Level 1
-          Character</span></h3><ul><li><p class="p4">Gain all of the traits in the Core Gunslinger
-          Traits table.</span></p></li><li><p class="p4">Gain the Gunslinger’s level 1 features,
-          which are listed in the Gunslinger Features table.</span></p></li></ul><h3>As a Multiclass
-          Character</span></h3><ul><li><p class="p4">Gain the following traits from the Core
-          Gunslinger Traits table: Hit Point Die, and proficiency with Martial Ranged
-          weapons.</span></p></li><li><p class="p4">Gain the Gunslinger’s level 1 features, which
-          are listed in the Gunslinger Features table.</span></p></li></ul>
+          survive.</p><h2>Guts and Gunpowder</h2><p>Black powder isn’t for the faint of heart. Its
+          thunderous applause is volatile and imprecise—a barely controlled explosion directed at an
+          enemy. Only the truly fearless seek to master it. But Gunslingers have nerves of steel,
+          hurling death from their guns in a roaring cacophony. Adapted for shootouts, gunslingers
+          are mobile and daring, knowing that life or death hangs on snap decision-making and one’s
+          own mettle.</p><h2>Dangerous Outsiders</h2><p>A Gunslinger’s explosive lifestyle lends
+          well to wandering and adventuring. Gunslingers often shoot first and ask questions later,
+          an attitude which earns them few friends and bountiful enemies. In their travels, most
+          gunslingers are secretive and take great lengths to go unnoticed, lest they be spotted by
+          old foes with scores to settle.</p><h2>Becoming a Gunslinger…</h2><h3>As a Level 1
+          Character</h3><ul><li><p class="p4">Gain all of the traits in the Core Gunslinger Traits
+          table.</p></li><li><p class="p4">Gain the Gunslinger’s level 1 features, which are listed
+          in the Gunslinger Features table.</p></li></ul><h3>As a Multiclass
+          Character</h3><ul><li><p class="p4">Gain the following traits from the Core Gunslinger
+          Traits table: Hit Point Die, and proficiency with Martial Ranged weapons.</p></li><li><p
+          class="p4">Gain the Gunslinger’s level 1 features, which are listed in the Gunslinger
+          Features table.</p></li></ul>
         additionalHitPoints: ''
         additionalTraits: ''
         additionalEquipment: ''
@@ -52,12 +51,12 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.3.3
+      systemVersion: 6.0.0
       lastModifiedBy: magehandpress000
       createdTime: 1783115751034
-      modifiedTime: 1783115751034
+      modifiedTime: 1788993933268
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpGunslinger55e.mhpGunslinger000'
@@ -139,18 +138,18 @@ pages:
       format: 1
       content: >-
         <p>The maneuvers are presented in alphabetical
-        order.</p><h3>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpBiteBullet000]{Bite
-        the Bullet}</h3><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpBiteBullet000
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpBlindfire0000]{Blindfire}</h3><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpBlindfire0000
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpDodgeRoll0000]{Dodge
-        Roll}</h3><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpDodgeRoll0000
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpGrazingShot00]{Grazing
-        Shot}</h3><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpGrazingShot00
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpMaverickSpiri]{Maverick
-        Spirit}</h3><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpMaverickSpiri
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpSkinYourTeeth]{Skin
-        of Your Teeth}</h3><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpSkinYourTeeth
-        inline]</p>
+        order.</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpBiteBullet000
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpBlindfire0000
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpDodgeRoll0000
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpGrazingShot00
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpMaverickSpiri
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpSkinYourTeeth
+        caption=false nameStyle=h3]</p>
     video:
       controls: true
       volume: 0.5
@@ -160,11 +159,11 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1783277471707
-      modifiedTime: 1783277664073
+      modifiedTime: 1788994118613
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null
@@ -178,12 +177,17 @@ flags:
     type: chapter
     position: 6
     title: Gunslinger (5.5e)
+  core:
+    sheetClass: mage-hand-press-core.MageHandPressJournalEntrySheet
+  mage-hand-press-core:
+    casClasses:
+      - accent-purple
 _stats:
-  coreVersion: '14.364'
+  coreVersion: '14.367'
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1783115751034
-  modifiedTime: 1783115763199
+  modifiedTime: 1788993806113
   lastModifiedBy: magehandpress000
   exportSource: null
   duplicateSource: null

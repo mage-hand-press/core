@@ -9,28 +9,28 @@ pages:
       item: Compendium.mage-hand-press-core.classes14.Item.mhpGunslinger000
       description:
         value: >-
-          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpGunslinger000
-          caption=false]</p><h3>Guts and Gunpowder</h3><p>Black powder is not for the faint of
-          heart. Its thunderous applause is volatile and imprecise—a barely controlled explosion
-          directed at an enemy. Only the truly fearless seek to master it, for one must be mad or
-          have nerves of steel to weather the risk of its use. But those who call themselves
-          gunslingers are fearless combatants, hurling death from their guns in a roaring cacophony.
-          Adapted for shootouts, gunslingers are mobile and daring, knowing that life or death hangs
-          on snap decision-making and one’s own mettle.</p><h3>Dangerous Outsiders</h3><p>A
-          gunslinger’s explosive lifestyle lends well to wandering and adventuring. Gunslingers will
-          often shoot first and ask questions later, an attitude which earns them few friends and
-          bountiful enemies. In their travels, most gunslingers are secretive and take great lengths
-          to go unnoticed, lest they be spotted by old foes with scores to settle.</p><p>Yet, their
-          skills are not unneeded. Anyone requiring protection or revenge of their own can count on
-          a gunslinger to be in need of an odd job when they roll into town. After all, skill with a
-          gun is always in demand somewhere.</p><h3>Creating a Gunslinger</h3><p>When creating your
+          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpGunslinger000 caption=false
+          nameStyle=h1]</p><h2>Guts and Gunpowder</h2><p>Black powder is not for the faint of heart.
+          Its thunderous applause is volatile and imprecise—a barely controlled explosion directed
+          at an enemy. Only the truly fearless seek to master it, for one must be mad or have nerves
+          of steel to weather the risk of its use. But those who call themselves gunslingers are
+          fearless combatants, hurling death from their guns in a roaring cacophony. Adapted for
+          shootouts, gunslingers are mobile and daring, knowing that life or death hangs on snap
+          decision-making and one’s own mettle.</p><h2>Dangerous Outsiders</h2><p>A gunslinger’s
+          explosive lifestyle lends well to wandering and adventuring. Gunslingers will often shoot
+          first and ask questions later, an attitude which earns them few friends and bountiful
+          enemies. In their travels, most gunslingers are secretive and take great lengths to go
+          unnoticed, lest they be spotted by old foes with scores to settle.</p><p>Yet, their skills
+          are not unneeded. Anyone requiring protection or revenge of their own can count on a
+          gunslinger to be in need of an odd job when they roll into town. After all, skill with a
+          gun is always in demand somewhere.</p><h2>Creating a Gunslinger</h2><p>When creating your
           gunslinger, consider where firearms fit in the campaign’s world and what the common
           perceptions are of those who use them. If firearms are the norm, your gunslinger might be
           a mercenary or militia fighter. If firearms are rare, your gunslinger might be one of a
           kind, a trailblazer in new types of warfare.</p><p>It’s also not unusual for a gunslinger
           to be haunted by their past. Did some event drive you to the gun and motivate you to
           travel? Is there a bounty on your head in one or more areas? Do you have any old enemies
-          that seek you for revenge?</p><h4>Quick Build</h4><p>To make a gunslinger quickly, follow
+          that seek you for revenge?</p><h3>Quick Build</h3><p>To make a gunslinger quickly, follow
           these suggestions. Make Dexterity and Constitution your highest ability scores. If you
           plan to choose the Gun Tank creed, instead make Strength your highest ability score.
           Lastly, choose any background, preferably one that emphasizes your familiarity with
@@ -43,7 +43,7 @@ pages:
       style: ''
       subclassHeader: ''
     title:
-      show: true
+      show: false
       level: 1
     image: {}
     text:
@@ -57,12 +57,12 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.3.3
+      systemVersion: 6.0.0
       lastModifiedBy: magehandpress000
       createdTime: 1783115752043
-      modifiedTime: 1783115929325
+      modifiedTime: 1788994015064
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpGunslinger5e0.mhpGunslinger000'
@@ -180,19 +180,18 @@ pages:
       format: 1
       content: >-
         <p>The deeds are presented in alphabetical
-        order.</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpBiteBullet000]{Bite
-        the Bullet}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpBiteBullet000
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpCoveringFire0]{Covering
-        Fire}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpCoveringFire0
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpDodgeRoll0000]{Dodge
-        Roll}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpDodgeRoll0000
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpLimbShot00000]{Limb
-        Shot}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpLimbShot00000
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpSkinYourTeeth]{Skin
-        of Your Teeth}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpSkinYourTeeth
-        inline]</p><h3>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpSteadyAim0000]{Steady
-        Aim}</h3><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpSteadyAim0000
-        inline]</p>
+        order.</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpBiteBullet000
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpCoveringFire0
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpDodgeRoll0000
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpLimbShot00000
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpSkinYourTeeth
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpSteadyAim0000
+        caption=false nameStyle=h3]</p>
     video:
       controls: true
       volume: 0.5
@@ -202,11 +201,11 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1783273940432
-      modifiedTime: 1783274050932
+      modifiedTime: 1788994077081
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null
@@ -220,12 +219,17 @@ flags:
     type: chapter
     position: 19
     title: Gunslinger (5e)
+  core:
+    sheetClass: mage-hand-press-core.MageHandPressJournalEntrySheet
+  mage-hand-press-core:
+    casClasses:
+      - accent-purple
 _stats:
-  coreVersion: '14.364'
+  coreVersion: '14.367'
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1783115752043
-  modifiedTime: 1783115778466
+  modifiedTime: 1788993811573
   lastModifiedBy: magehandpress000
   exportSource: null
   duplicateSource: null
