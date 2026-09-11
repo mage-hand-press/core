@@ -1,54 +1,20 @@
 @scope (.theme-light) to (.themed) {
 	.mage-hand-press-journal, &.mage-hand-press-journal {
-		--mhp-journal-accent-text: var(--mhp-journal-accent);
-		.journal-entry-content { background: var(--mhp-texture-page-light) no-repeat center / cover; }
+		.journal-entry-content {}
 	}
 
 	@scope (.mage-hand-press-journal, &.mage-hand-press-journal) to (.statblock, .toc) {
-		table {
-			--mhp-table-row-even-background: none;
-			--mhp-table-row-odd-background: var(--mhp-swatch-table);
 
-			thead {
-				color: var(--mhp-swatch-black);
-			}
-		}
-		table.accent-table, .journal-entry-page.class .features-table {
-			--mhp-table-background: var(--mhp-texture-blue-light);
-			--mhp-table-row-even-background: none;
-			--mhp-table-row-odd-background: var(--mhp-swatch-page);
-		}
-
-		.notable {
-			--mhp-notable-background: var(--mhp-texture-blue-light);
-		}
 	}
 }
 
 @scope (.theme-dark) to (.themed) {
 	.mage-hand-press-journal, &.mage-hand-press-journal {
-		--mhp-journal-accent-text: var(--mhp-journal-accent-light);
-		.journal-entry-content { background: var(--mhp-texture-page-dark) no-repeat center / cover; }
+		.journal-entry-content {}
 	}
 
 	@scope (.mage-hand-press-journal, &.mage-hand-press-journal) to (.statblock, .toc) {
-		table {
-			--mhp-table-row-even-background: none;
-			--mhp-table-row-odd-background: var(--mhp-swatch-black);
 
-			thead {
-				color: var(--mhp-swatch-page);
-			}
-		}
-		table.accent-table, .journal-entry-page.class .features-table {
-			--mhp-table-background: var(--mhp-texture-blue-dark);
-			--mhp-table-row-even-background: none;
-			--mhp-table-row-odd-background: var(--mhp-swatch-black);
-		}
-
-		.notable {
-			--mhp-notable-background: var(--mhp-texture-blue-dark);
-		}
 	}
 }
 
@@ -69,184 +35,19 @@
 	}
 }
 
-.mage-hand-press-journal .journal-entry-content {
-	/* .blurb-block {
-		margin-block-end: 8px;
-		padding-block: 12px;
-		padding-inline: 16px;
-
-		background: var(--dark-matter-journal-gradient);
-		color: white;
-
-		--_s: 20px;
-		clip-path: polygon(
-			var(--_s) 0,
-			100% 0,
-			100% calc(100% - var(--_s)),
-			calc(100% - var(--_s)) 100%,
-			0 100%,
-			0% var(--_s)
-		);
-	} */
-}
-
 @scope (.mage-hand-press-journal) to (.statblock, .toc) {
-	.notable, .notable::before, .notable::after { all: revert; }
-
-	h1:not(.window-title) {
-		border-block-end: 3px solid currentcolor;
-		font-family: var(--mhp-font-futura);
-		font-size: var(--font-size-46);
-		font-variant: none;
-		font-weight: bold;
-		text-transform: uppercase;
-		margin-block-end: 20px;
-
-		a { text-decoration: none; }
-	}
-
-	h1.subchapter, h2.class-features {
-		border: none;
-		color: var(--mhp-journal-accent-text);
-		font-family: var(--mhp-font-boucherie);
-		font-size: var(--font-size-36);
-		font-variant: none;
-		font-weight: normal;
-		margin-block-end: 0;
-		text-transform: uppercase;
-	}
-
-	h2, h4.class-feature-name {
-		border-block-end: 1px solid currentcolor;
-		color: var(--mhp-journal-accent-text);
-		font-family: var(--mhp-font-boucherie);
-		font-size: var(--font-size-24);
-		font-variant: none;
-		font-weight: normal;
-		text-transform: none;
-
-		a { text-decoration: none; }
-	}
-
-	h3, .journal-entry-page:is(.class, .subclass) h5 {
-		color: var(--mhp-journal-accent-text);
-		font-family: var(--mhp-font-boucherie);
-		font-size: var(--font-size-18);
-		font-variant: none;
-		font-weight: bold;
-		margin-block-start: 1em;
-		margin-block-end: 0;
-		text-transform: uppercase;
-	}
-
-	h4 {
-		font-family: var(--mhp-font-shrimp);
-	}
-
-	:is(h1:not(.window-title), h2, h3, h4) a:is(.content-link, .inline-roll) {
-		&, & > i { color: inherit; }
-	}
-
-	.notable, table {
-		position: relative;
-
-		&::after {
-			block-size: calc(100% + var(--corner-details-offset-vertical, var(--corner-details-offset, 0px)) * 2);
-			inline-size: calc(100% + var(--corner-details-offset-horizontal, var(--corner-details-offset, 0px)) * 2);
-			inset-block: calc(var(--corner-details-offset-vertical, var(--corner-details-offset, 0px)) * -1);
-			inset-inline: calc(var(--corner-details-offset-horizontal, var(--corner-details-offset, 0px)) * -1);
-			pointer-events: none;
-			position: absolute;
-			z-index: 1;
-		}
-	}
-
-	table {
-		background: var(--mhp-table-background);
-
-		caption {
-			background: var(--mhp-table-caption-background);
-			font-family: var(--mhp-font-axis);
-			font-size: var(--font-size-18);
-			font-weight: 900;
-			margin-block-end: 0;
-			padding-block-start: 6px;
-			padding-inline: 6px;
-			text-align: start;
-			text-transform: uppercase;
-		}
-
-		thead {
-			background: var(--mhp-table-header-background);
-			border: none;
-
-			th {
-				padding: 6px;
-				text-align: start;
-			}
-		}
-		tbody {
-			tr:nth-of-type(even) { background: var(--mhp-table-row-even-background); }
-			tr:nth-of-type(odd) { background: var(--mhp-table-row-odd-background); }
-		}
-
-		&.level-list-table {
-			tr > :is(th, td):first-child {
-				text-align: center;
-				width: min-content;
-			}
-		}
-
-		&.switch-weapons-table {
-			thead th {
-				vertical-align: bottom;
-			}
-			tbody td {
-				vertical-align: baseline;
-
-				&:nth-child(3), &:nth-child(5) {
-					border-inline-start: 2px dashed rgb(0 0 0 / 0.25);
-				}
-			}
-		}
-
-		&.subclasses-table {
-			--corner-details-offset-horizontal: 10px;
-			--corner-details-offset-vertical: 8px;
-			margin-inline-start: 4px;
-
-			&::after {
-				background-image: var(--mhp-table-top-right), var(--mhp-table-bottom-left);
-				background-position: top right, bottom left;
-				background-repeat: no-repeat, no-repeat;
-				background-size: calc(345px / 3.5), calc(321px / 3.5);
-				content: "";
-			}
-		}
-	}
-
-	table.accent-table, .journal-entry-page.class .features-table {
-		--mhp-table-caption-background: var(--mhp-journal-accent);
-		--mhp-table-header-background: var(--mhp-journal-accent);
-		box-shadow: 6px 6px 6px var(--dnd5e-shadow-15);
-		margin-block: 10px;
-
-		caption, thead {
-			color: var(--mhp-swatch-page);
-			font-family: var(--mhp-font-shrimp);
-			text-transform: uppercase;
-		}
-	}
-
-	strong, .item-entry-specifics dt, span.embed-name {
-		font-family: var(--mhp-font-calibre);
-		font-style: normal;
-		font-variant: small-caps;
-	}
-
 	figure img {
 		border: none;
 		box-shadow: none;
+	}
+
+	.content-embed {
+		figcaption:first-child, :is(h1, h2, h3, h4, h4) + figcaption {
+			color: inherit;
+			font-style: normal;
+			margin: 0;
+			text-align: start;
+		}
 	}
 
 	.item-entry-details {
@@ -255,65 +56,20 @@
 		}
 	}
 
-	.notable {
-		--corner-details-offset: 2px;
-		background: var(--mhp-notable-background);
-		box-shadow: 6px 6px 6px var(--dnd5e-shadow-15);
-		margin: 6px;
-		margin-block: 10px;
-		padding: 6px;
-		position: relative;
-
-		&::after {
-			background-image: var(--mhp-note-top-right);
-			background-position: top right;
-			background-repeat: no-repeat;
-			background-size: auto 50px;
-			content: "";
-		}
-
-		> h4, > document-embed > .content-embed > h4 {
-			background: var(--mhp-journal-accent);
-			color: var(--mhp-swatch-page);
-			font-family: var(--mhp-font-shrimp);
-			font-size: var(--font-size-18);
-			margin: -6px;
-			margin-block-end: 6px;
-			padding: 6px;
-			padding-block-start: 9px;
-			text-transform: uppercase;
-		}
-	}
-
-	.random-magic-items {
-		&, > .content-embed { display: contents; }
-		.embed-caption {
-			font-style: normal;
-			text-align: start;
-		}
-		tbody td:last-child {
-			p { display: contents; }
-			br { display: none; }
-		}
-	}
-
 	.roll-table-embed {
 		thead th > button {
 			margin: auto;
 		}
-		tbody h4:not(& + p) {
+		tbody td h4 {
 			color: inherit;
 			font-family: inherit;
 			font-size: inherit;
-			font-weight: normal;
 			margin-block-end: 0;
-		}
-	}
 
-	.signature-line {
-		font-family: var(--mhp-font-edwardian);
-		font-size: var(--font-size-36);
-		text-align: end;
+			&:not(:has(~ p)) {
+				font-weight: normal;
+			}
+		}
 	}
 
 	.navigation-container {
@@ -330,17 +86,8 @@
 				margin-block-start: 30px;
 
 				.navigation-entry {
-					/* &::before { background: var(--dark-matter-journal-gradient); }
+					&::before { background: var(--dark-matter-journal-gradient); }
 					&::after { background: var(--dark-matter-gradient-grey-left); }
-					&::before, &::after, img {
-						clip-path: polygon(
-							0 0,
-							100% 0,
-							100% 100%,
-							var(--_s) 100%,
-							0 calc(100% - var(--_s))
-						);
-					} */
 				}
 			}
 		}
@@ -362,17 +109,6 @@
 			z-index: -1;
 			background: var(--dark-matter-gradient-grey-right);
 		}
-
-		/* &::before, &::after, img {
-			--_s: 30px;
-			clip-path: polygon(
-				0 0,
-				100% 0,
-				100% calc(100% - var(--_s)),
-				calc(100% - var(--_s)) 100%,
-				0 100%
-			);
-		} */
 
 		img {
 			inline-size: 100%;
@@ -446,10 +182,10 @@
 	}
 }
 
-.table-of-contents:is([data-compendium-id^="mage-hand-press-core"],
+.table-of-contents:is([data-compendium-id="mage-hand-press-core"],
 											[data-compendium-id^="mage-hand-press-complete-"],
 											[data-compendium-id^="mage-hand-press-expanded-"],
-											[data-compendium-id^="mage-hand-press-valdas-spire-of-secrets"]) {
+											[data-compendium-id="mage-hand-press-valdas-spire-of-secrets"]) {
 	article .contents section {
 		column-count: 2;
 	}

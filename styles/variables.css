@@ -1,34 +1,5 @@
 :root {
-	/* Swatches */
-	--mhp-swatch-black: rgb(0, 0, 0);
-	--mhp-swatch-page: rgb(249, 245, 238);
-	--mhp-swatch-page-accent: rgb(232, 228, 218);
-	--mhp-swatch-table: rgb(232, 235, 239);
-	--mhp-swatch-theme-blue: rgb(57, 91, 112);
-	--mhp-swatch-theme-green: rgb(104, 113, 84);
-	--mhp-swatch-theme-purple: rgb(81, 62, 81);
-	--mhp-swatch-theme-yellow: rgb(128, 105, 71);
 
-	/* Gradients */
-
-	/* Fonts */
-	--mhp-font-axis: Axis, sans-serif;
-	--mhp-font-boucherie: Boucherie Flared, sans-serif;
-	--mhp-font-calibre: Calibri, Carlito, sans-serif;
-	--mhp-font-edwardian: Edwardian Script ITC, cursive;
-	--mhp-font-futura: Futura LT, Futura, sans-serif;
-	--mhp-font-shrimp: Shrimp, sans-serif;
-
-	/* Images */
-	--mhp-note-top-right: url("../assets/interface/note-top-right.webp");
-	--mhp-table-bottom-left: url("../assets/interface/table-bottom-left.webp");
-	--mhp-table-bottom-right: url("../assets/interface/table-bottom-right.webp");
-	--mhp-table-top-left: url("../assets/interface/table-top-left.webp");
-	--mhp-table-top-right: url("../assets/interface/table-top-right.webp");
-	--mhp-texture-blue-light: url("../assets/interface/texture-blue-light.webp");
-	--mhp-texture-blue-dark: url("../assets/interface/texture-blue-dark.webp");
-	--mhp-texture-page-dark: url("../assets/interface/texture-page-dark.webp");
-	--mhp-texture-page-light: url("../assets/interface/texture-page-light.webp");
 }
 
 .mage-hand-press-journal,
@@ -36,20 +7,5 @@
 [data-compendium-id^="mage-hand-press-complete-"],
 [data-compendium-id^="mage-hand-press-expanded-"],
 [data-compendium-id^="mage-hand-press-valdas-spire-of-secrets"] {
-
-	--mhp-journal-accent: var(--mhp-swatch-theme-purple);
-	--mhp-journal-accent-light: oklch(from var(--mhp-swatch-theme-purple) .8 c h);
-
-	&.accent-blue {
-		--mhp-journal-accent: var(--mhp-swatch-theme-blue);
-		--mhp-journal-accent-light: oklch(from var(--mhp-swatch-theme-blue) .8 c h);
-	}
-	&.accent-green {
-		--mhp-journal-accent: var(--mhp-swatch-theme-green);
-		--mhp-journal-accent-light: oklch(from var(--mhp-swatch-theme-green) .8 c h);
-	}
-	&.accent-yellow {
-		--mhp-journal-accent: var(--mhp-swatch-theme-yellow);
-		--mhp-journal-accent-light: oklch(from var(--mhp-swatch-theme-yellow) .8 c h);
-	}
+	--mhp-journal-accent: black;
 }
