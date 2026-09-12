@@ -14,10 +14,6 @@ export function initialize() {
 		Object.assign(CONFIG.DND5E.itemProperties, itemPropertiesLegacy);
 		validPropertiesLegacy.spell.forEach(p => CONFIG.DND5E.validProperties.spell.add(p));
 		validPropertiesLegacy.weapon.forEach(p => CONFIG.DND5E.validProperties.weapon.add(p));
-		Object.assign(CONFIG.DND5E.weaponProficiencies, weaponProficiencies);
-		Object.assign(CONFIG.DND5E.weaponProficienciesMap, weaponProficienciesMap);
-		Object.assign(CONFIG.DND5E.weaponTypeMap, weaponTypeMap);
-		Object.assign(CONFIG.DND5E.weaponTypes, weaponTypes); // TODO: Insert into order after ranged
 		weaponIds = weaponIdsLegacy;
 	}
 
@@ -365,38 +361,4 @@ const weaponMasteries = {
 		label: "MageHandPress.Mastery.Sighted",
 		reference: "Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpSighted000000"
 	}
-};
-
-/* -------------------------------------------- */
-
-/** @inheritDoc */
-const weaponProficiencies = {
-	exo: "MageHandPress.Weapon.ExoticProficiency"
-};
-
-/* -------------------------------------------- */
-
-/** @inheritDoc */
-const weaponProficienciesMap = {
-	simpleFirearm: "sim",
-	martialFirearm: "mar",
-	exoticFirearm: "exo"
-};
-
-/* -------------------------------------------- */
-
-/** @inheritDoc */
-const weaponTypeMap = {
-	simpleFirearm: "ranged",
-	martialFirearm: "ranged",
-	exoticFirearm: "ranged"
-};
-
-/* -------------------------------------------- */
-
-/** @inheritDoc */
-const weaponTypes = {
-	simpleFirearm: "MageHandPress.Weapon.FirearmSimple",
-	martialFirearm: "MageHandPress.Weapon.FirearmMartial",
-	exoticFirearm: "MageHandPress.Weapon.FirearmExotic"
 };

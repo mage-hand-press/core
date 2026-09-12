@@ -11,6 +11,28 @@ export function initialize() {
 		Object.assign(CONFIG.DND5E.equipmentTypes, graftEquipmentTypes);
 		Object.assign(CONFIG.DND5E.miscEquipmentTypes, graftMiscEquipmentTypes);
 	}
+
+	const craftsmanCustomization = false;
+	const gunslingerCustomization = game.settings.get("mage-hand-press-core", "gunslinger").customization;
+	const legacyRules = game.settings.get("dnd5e", "rulesVersion") === "legacy";
+	const valdasActive = game.modules.get("mage-hand-press-valdas-spire-of-secrets")?.active;
+	if ( (craftsmanCustomization || gunslingerCustomization || valdasActive) && legacyRules ) {
+		Object.assign(CONFIG.DND5E.weaponProficiencies, weaponProficiencies);
+		Object.assign(CONFIG.DND5E.weaponProficienciesMap, weaponProficienciesMap);
+		Object.assign(CONFIG.DND5E.weaponTypeMap, weaponTypeMap);
+
+		const weaponEntries = Object.entries(CONFIG.DND5E.weaponTypes);
+		if ( craftsmanCustomization || valdasActive ) weaponEntries.splice(
+			weaponEntries.findIndex(t => t[0] === "martialR") + 1, 0, ...Object.entries(weaponTypes)
+		);
+		for ( const d of Object.entries(weaponTypesFirearm) ) {
+			let idx = weaponEntries.findIndex(t => t[0] === d[0].replace("Firearm", "R"));
+			if ( idx === -1 ) idx = weaponEntries.findIndex(t => t[0] === "natural");
+			else idx++;
+			weaponEntries.splice(idx, 0, d);
+		}
+		CONFIG.DND5E.weaponTypes = Object.fromEntries(weaponEntries);
+	}
 }
 
 /* -------------------------------------------- */
@@ -32,6 +54,52 @@ const itemProperties = {
 /** @inheritDoc */
 const validProperties = {
 	spell: ["chronomancy"]
+};
+
+/* -------------------------------------------- */
+
+/** @inheritDoc */
+export const weaponProficiencies = {
+	exo: "MageHandPress.Weapon.ExoticProficiency"
+};
+
+/* -------------------------------------------- */
+
+/** @inheritDoc */
+export const weaponProficienciesMap = {
+	simpleFirearm: "sim",
+	martialFirearm: "mar",
+	exoticMelee: "exo",
+	exoticRanged: "exo",
+	exoticFirearm: "exo"
+};
+
+/* -------------------------------------------- */
+
+/** @inheritDoc */
+export const weaponTypeMap = {
+	simpleFirearm: "ranged",
+	martialFirearm: "ranged",
+	exoticMelee: "melee",
+	exoticRanged: "ranged",
+	exoticFirearm: "ranged"
+};
+
+/* -------------------------------------------- */
+
+/** @inheritDoc */
+export const weaponTypes = {
+	exoticMelee: "MageHandPress.Weapon.ExoticMelee",
+	exoticRanged: "MageHandPress.Weapon.ExoticRanged"
+};
+
+/* -------------------------------------------- */
+
+/** @inheritDoc */
+export const weaponTypesFirearm = {
+	simpleFirearm: "MageHandPress.Weapon.FirearmSimple",
+	martialFirearm: "MageHandPress.Weapon.FirearmMartial",
+	exoticFirearm: "MageHandPress.Weapon.FirearmExotic"
 };
 
 /* -------------------------------------------- */
