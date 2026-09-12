@@ -82,33 +82,14 @@
 		@container (width > 600px) {
 			grid-template-columns: 1fr 1fr;
 
-			.reverse-navigation {
-				margin-block-start: 30px;
-
-				.navigation-entry {
-					&::before { background: var(--dark-matter-journal-gradient); }
-					&::after { background: var(--dark-matter-gradient-grey-left); }
-				}
-			}
+			.reverse-navigation { margin-block-start: 30px; }
 		}
 	}
 
 	.navigation-entry {
+		--mhp-navigation-font: var(--dnd5e-font-roboto-condensed);
+		box-shadow: 3px 3px 8px rgb(0 0 0 / 0.55), 6px 6px 12px rgb(0 0 0 / 0.25);
 		position: relative;
-
-		&::before {
-			content: "";
-			position: absolute;
-			z-index: -2;
-			background: var(--dark-matter-journal-gradient-reverse);
-		}
-		&::after {
-			content: "";
-			position: absolute;
-			inset: 0;
-			z-index: -1;
-			background: var(--dark-matter-gradient-grey-right);
-		}
 
 		img {
 			inline-size: 100%;
@@ -121,7 +102,7 @@
 			inset: 0;
 
 			color: white;
-			font-family: var(--mhp-font-shrimp);
+			font-family: var(--mhp-navigation-font);
 			font-style: normal;
 			font-weight: normal;
 			text-decoration: none;
@@ -141,12 +122,6 @@
 		.navigation-entry {
 			height: 600px;
 
-			&::before, &::after, img { --_s: 10px; }
-			&::before {
-				inset: 0;
-				background: var(--dark-matter-journal-gradient);
-			}
-			&::after { inset-block-end: 50px; }
 			img {
 				block-size: calc(100% - 50px);
 				clip-path: none;
@@ -172,7 +147,7 @@
 				padding-inline: 8px;
 				align-content: center;
 				font-size: var(--font-size-24);
-				text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
+				text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.75), 0px 0px 2px rgba(0, 0, 0, 0.75);
 			}
 		}
 		&.large-navigation .navigation-entry { flex: 0 0 150px; }
@@ -182,10 +157,10 @@
 	}
 }
 
-.table-of-contents:is([data-compendium-id="mage-hand-press-core"],
+.table-of-contents:is([data-compendium-id^="mage-hand-press-core"],
 											[data-compendium-id^="mage-hand-press-complete-"],
 											[data-compendium-id^="mage-hand-press-expanded-"],
-											[data-compendium-id="mage-hand-press-valdas-spire-of-secrets"]) {
+											[data-compendium-id^="mage-hand-press-valdas-spire-of-secrets"]) {
 	article .contents section {
 		column-count: 2;
 	}
