@@ -157,9 +157,11 @@
 			"WarmageTrick": "Warmage Trick"
 		},
 		"Weapon": {
+			"ExoticMelee": "Exotic Melee",
 			"ExoticProficiency": "Exotic",
 			"FirearmExotic": "Exotic Firearm",
 			"FirearmMartial": "Martial Firearm",
+			"ExoticRanged": "Exotic Ranged",
 			"FirearmSimple": "Simple Firearm"
 		}
 	}
