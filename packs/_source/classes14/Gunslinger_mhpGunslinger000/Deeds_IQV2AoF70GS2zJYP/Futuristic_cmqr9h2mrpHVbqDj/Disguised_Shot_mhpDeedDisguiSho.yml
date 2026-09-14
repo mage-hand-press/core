@@ -69,7 +69,8 @@ system:
           calculation: ''
           formula: ''
         ability: ''
-        visible: true
+        visible: false
+        bonus: '@scale.gunslinger.risk.die'
       behaviors: []
   uses:
     spent: 0
@@ -114,7 +115,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 6.0.1
   createdTime: 1789423714770
-  modifiedTime: 1789423714770
+  modifiedTime: 1789424607751
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

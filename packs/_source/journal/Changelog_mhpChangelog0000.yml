@@ -129,6 +129,40 @@ pages:
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpChangelog0000.IIJDfQAQ0fQYR7W1'
+  - sort: -100000
+    name: Version 2.0.0
+    type: text
+    _id: mhpVersion200000
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h3 data-no-toc>Version 2.0.0</h3><ul><li><p>[<a
+        href="https://github.com/mage-hand-press/premium-content/issues/29" title="Add bonus to
+        check &amp; save activities">#29</a>] Add risk die bonus to Disguised Shot &amp; Fancy
+        Gunplay deeds for 5e Gunslinger</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.1
+      createdTime: 1789424703235
+      modifiedTime: 1789424821675
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpChangelog0000.mhpVersion200000'
 folder: null
 categories: []
 sort: 0
