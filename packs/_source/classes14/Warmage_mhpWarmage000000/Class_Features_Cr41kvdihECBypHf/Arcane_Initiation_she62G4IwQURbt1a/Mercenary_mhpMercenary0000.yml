@@ -7,7 +7,7 @@ system:
     value: >-
       <p>You mastered the fundamentals of war magic to engage in battle with similarly armed
       arcanists. You learn the
-      <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpArcBlade00000]{arc
+      <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpSpelArcBlade0]{arc
       blade}</em> and <em>@UUID[Compendium.dnd5e.spells.Item.mGGlcLdggHwcL7MG]{true strike}</em>
       cantrips.</p>
     chat: ''
@@ -37,7 +37,7 @@ system:
       _id: iTuVs8TWa2OJHd14
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpArcBlade00000
+          - uuid: Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpSpelArcBlade0
             optional: false
           - uuid: Compendium.dnd5e.spells.Item.mGGlcLdggHwcL7MG
             optional: false

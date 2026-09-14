@@ -7,9 +7,9 @@ system:
     value: >-
       <p>You have learned the simple, yet potent brand of spellcasting for which Warmages are
       known.</p><p><strong>Cantrips.</strong> You know four Warmage cantrips of your choice.
-      @UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpForceDart0000]{Force Dart},
+      @UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelForceDart]{Force Dart},
       @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitation},
-      @UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpQuickstep0000]{Quickstep},
+      @UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelQuickstep]{Quickstep},
       and @UUID[Compendium.dnd5e.spells24.Item.phbsplShockingGr]{Shocking Grasp} are recommended.
       Whenever you gain a Warmage level, you can replace one of your cantrips from this feature with
       another Warmage cantrip of your choice. You can’t replace a cantrip that is a prerequisite for

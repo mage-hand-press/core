@@ -6,13 +6,13 @@ system:
   description:
     value: >-
       <p><em>Prerequisite:
-      </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpQuickstep0000]{Quickstep}<em>
+      </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelQuickstep]{Quickstep}<em>
       or
-      </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpringheel000]{Springheel}<em>
+      </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelSpringhee]{Springheel}<em>
       Cantrip</em></p><p>When you cast the
-      <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpQuickstep0000]{Quickstep}</em>
+      <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelQuickstep]{Quickstep}</em>
       cantrip, your Speed increases by 20 feet instead of 10. When you cast the
-      <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpringheel000]{Springheel}</em>
+      <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelSpringhee]{Springheel}</em>
       cantrip, the distance of your jumps increases by 20 feet instead of 10 feet. If you know both
       of these cantrips, you can cast both of them as part of the same Bonus
       Action.</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpTrickswithEnc

@@ -76,9 +76,9 @@ system:
   description:
     value: >-
       <p><em>Prerequisite:
-      </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpForceWeapon00]{force
+      </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpSpelForceWeap]{force
       weapon}<em> or
-      </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpMagicDaggers0]{magic
+      </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpSpelMagicDagg]{magic
       daggers}<em>
       cantrip</em></p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpMysticalWeapo
       inline]</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpTrickswithEnc

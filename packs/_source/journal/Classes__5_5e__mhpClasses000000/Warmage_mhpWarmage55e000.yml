@@ -227,7 +227,7 @@ pages:
             book: Complete Warmage
             page: ''
             custom: ''
-            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpArcBlade00000
+            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelArcBlade0
         - _id: DcbsdvZkUjua9cAC
           identifier: burning-blade
           name: Burning Blade
@@ -238,7 +238,7 @@ pages:
             book: Complete Warmage
             page: ''
             custom: ''
-            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpBurningBlade0
+            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelBurninBla
         - _id: SvhjKS43Kt2fXEOu
           name: Card Trick
           system:
@@ -248,7 +248,7 @@ pages:
             book: Complete Warmage
             page: ''
             custom: ''
-            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpCardTrick0000
+            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelCardTrick
           identifier: card-trick
         - _id: hSidJL9492T9kfzf
           identifier: cheat
@@ -260,7 +260,7 @@ pages:
             book: Complete Warmage
             page: ''
             custom: ''
-            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpCheat00000000
+            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelCheat0000
         - _id: JhAaqpieJLC6Tm90
           identifier: cryptogram
           name: Cryptogram
@@ -271,7 +271,7 @@ pages:
             book: Complete Warmage
             page: ''
             custom: ''
-            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpCryptogram000
+            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelCryptogra
         - _id: N2D9T3UmDDZJC0jQ
           identifier: force-buckler
           name: Force Buckler
@@ -282,7 +282,7 @@ pages:
             book: Complete Warmage
             page: ''
             custom: ''
-            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpForceBuckler0
+            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelForceBuck
         - _id: muqWyGVSf0w3qvrq
           identifier: force-dart
           name: Force Dart
@@ -293,7 +293,7 @@ pages:
             book: Complete Warmage
             page: ''
             custom: ''
-            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpForceDart0000
+            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelForceDart
         - _id: nZ6JUM6gUiqmjHTX
           identifier: force-weapon
           name: Force Weapon
@@ -304,7 +304,7 @@ pages:
             book: Complete Warmage
             page: ''
             custom: ''
-            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpForceWeapon00
+            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelForceWeap
         - _id: SPWnudeYHUlRswLY
           identifier: frigid-blade
           name: Frigid Blade
@@ -315,7 +315,7 @@ pages:
             book: Complete Warmage
             page: ''
             custom: ''
-            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpFrigidBlade00
+            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelFrigidBla
         - _id: OxaC5vrimkEn43rN
           identifier: lightning-surge
           name: Lightning Surge
@@ -326,7 +326,7 @@ pages:
             book: Complete Warmage
             page: ''
             custom: ''
-            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpLightningSurg
+            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelLightnSur
         - _id: xIh5z7QSFLhp329Y
           identifier: magic-daggers
           name: Magic Daggers
@@ -359,7 +359,7 @@ pages:
             book: Complete Warmage
             page: ''
             custom: ''
-            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpPhantomGrapne
+            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelPhantoGra
         - _id: B00amW9qVw9Xbcos
           identifier: quickstep
           name: Quickstep
@@ -370,7 +370,7 @@ pages:
             book: Complete Warmage
             page: ''
             custom: ''
-            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpQuickstep0000
+            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelQuickstep
         - _id: xvMrDdTl292UGmIF
           identifier: sonic-pulse
           name: Sonic Pulse
@@ -381,7 +381,7 @@ pages:
             book: Complete Warmage
             page: ''
             custom: ''
-            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSonicPulse000
+            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelSonicPuls
         - _id: isx8Ly61Y36m3xij
           identifier: springheel
           name: Springheel
@@ -392,7 +392,7 @@ pages:
             book: Complete Warmage
             page: ''
             custom: ''
-            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpringheel000
+            uuid: Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelSpringhee
         - _id: gfFnzwmRY5g9ktYx
           identifier: sulfuric-smoke
           name: Sulfuric Smoke

@@ -6,9 +6,9 @@ system:
   description:
     value: >-
       <p><em>Prerequisite: House of Cards or House of Dice,
-      </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpCheat00000000]{cheat}<em>
+      </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpSpelCheat0000]{cheat}<em>
       cantrip</em></p><p>You are always under the effects of the
-      <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpCheat00000000]{cheat}</em>
+      <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpSpelCheat0000]{cheat}</em>
       cantrip.</p><p>Additionally, when you miss with an attack roll, or you fail an ability check
       or saving throw, you can reroll the d20 and must use the new roll. Once you use this ability,
       you can’t use it again until you finish a short or long rest.</p>

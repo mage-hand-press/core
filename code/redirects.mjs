@@ -1,10 +1,15 @@
 export function initialize() {
-	if ( game.modules.get("mage-hand-press-complete-gunslinger")?.active ) {
-		Object.assign(CONFIG.compendium.uuidRedirects, gunslinger);
-	}
+	const gunslinger = game.modules.get("mage-hand-press-complete-gunslinger")?.active;
+	const valdas = game.modules.get("mage-hand-press-valdas-spire-of-secrets")?.active;
+	const warmage = game.modules.get("mage-hand-press-complete-warmage")?.active;
+
+	if ( gunslinger ) Object.assign(CONFIG.compendium.uuidRedirects, gunslingerFirearms);
+	else if ( valdas ) Object.assign(CONFIG.compendium.uuidRedirects, valdasFirearms);
+
+	if ( !warmage && valdas ) Object.assign(CONFIG.compendium.uuidRedirects, valdasCantrips);
 }
 
-const gunslinger = {
+const gunslingerFirearms = {
 	"Compendium.mage-hand-press-core.equipment14.Item.mhpAntiMaterialR": "Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpAntiMaterialR",
 	"Compendium.mage-hand-press-core.equipment14.Item.mhpAntimatterCar": "Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpAntimatterCar",
 	"Compendium.mage-hand-press-core.equipment14.Item.mhpAssaultRifle1": "Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpAssaultRifle1",
@@ -88,4 +93,41 @@ const gunslinger = {
 	"Compendium.mage-hand-press-core.equipment24.Item.mhpStandardCarbi": "Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpStandardCarbi",
 	"Compendium.mage-hand-press-core.equipment24.Item.mhpSubmachineGun": "Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpSubmachineGun",
 	"Compendium.mage-hand-press-core.equipment24.Item.mhpSwarmPistol00": "Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpSwarmPistol00"
+};
+
+const valdasFirearms = {
+	"Compendium.mage-hand-press-core.equipment14.Item.mhpAntiMaterialR": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapAntiMRifl",
+	"Compendium.mage-hand-press-core.equipment14.Item.mhpAssaultRifle1": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapAssaulRif",
+	"Compendium.mage-hand-press-core.equipment14.Item.mhpAssaultShotgu": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapAssaulSho",
+	"Compendium.mage-hand-press-core.equipment14.Item.mhpBayonet000000": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapBayonet00",
+	"Compendium.mage-hand-press-core.equipment14.Item.mhpBlunderbuss00": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapBlunderbu",
+	"Compendium.mage-hand-press-core.equipment14.Item.mhpBriefcaseGun0": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapBriefcGun",
+	"Compendium.mage-hand-press-core.equipment14.Item.mhpDoubleBarrelS": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapDoubleSho",
+	"Compendium.mage-hand-press-core.equipment14.Item.mhpDoubleHandgun": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapDoubleHan",
+	"Compendium.mage-hand-press-core.equipment14.Item.mhpDragonRifle00": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapDragonRif",
+	"Compendium.mage-hand-press-core.equipment14.Item.mhpDucksFoot0000": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapDucksFoot",
+	"Compendium.mage-hand-press-core.equipment14.Item.mhpMagnumExplosi": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapExplosMag",
+	"Compendium.mage-hand-press-core.equipment14.Item.mhpFlintlock0000": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapFlintlock",
+	"Compendium.mage-hand-press-core.equipment14.Item.mhpGatlingGun000": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapGatlinGun",
+	"Compendium.mage-hand-press-core.equipment14.Item.mhpGrenadeLaunch": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapGrenadLau",
+	"Compendium.mage-hand-press-core.equipment14.Item.mhpHandgun000000": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapHandgun00",
+	"Compendium.mage-hand-press-core.equipment14.Item.mhpHarpoonGun000": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapHarpooGun",
+	"Compendium.mage-hand-press-core.equipment14.Item.mhpHuntingRifle0": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapHuntinRif",
+	"Compendium.mage-hand-press-core.equipment14.Item.mhpLightCannon00": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapLightCann",
+	"Compendium.mage-hand-press-core.equipment14.Item.mhpMagnum0000000": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapMagnum000",
+	"Compendium.mage-hand-press-core.equipment14.Item.mhpMultiRocketLa": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapMultiLaun",
+	"Compendium.mage-hand-press-core.equipment14.Item.mhpMusket0000000": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapMusket000",
+	"Compendium.mage-hand-press-core.equipment14.Item.mhpParlorGun0000": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapParlorGun",
+	"Compendium.mage-hand-press-core.equipment14.Item.mhpPumpShotgun00": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapPumpShotg",
+	"Compendium.mage-hand-press-core.equipment14.Item.mhpQuadrupleBarr": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapQuadruSho",
+	"Compendium.mage-hand-press-core.equipment14.Item.mhpRevolver00000": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapRevolver0",
+	"Compendium.mage-hand-press-core.equipment14.Item.mhpRevolvingGren": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapRevolvGre",
+	"Compendium.mage-hand-press-core.equipment14.Item.mhpRocketLaunche": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapRocketLau",
+	"Compendium.mage-hand-press-core.equipment14.Item.mhpSniperRifle00": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapSniperRif",
+	"Compendium.mage-hand-press-core.equipment14.Item.mhpSubmachineGun": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapSubmacGun",
+	"Compendium.mage-hand-press-core.equipment14.Item.mhpVolleyGun0000": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapVolleyGun"
+};
+
+const valdasCantrips = {
+	"Compendium.mage-hand-press-complete-warmage.spells14": "Compendium.mage-hand-press-valdas-spire-of-secrets.spells14"
 };

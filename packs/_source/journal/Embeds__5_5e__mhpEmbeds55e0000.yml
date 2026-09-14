@@ -90,7 +90,7 @@ pages:
       content: >-
         <p>Your knowledge of ciphers has improved your magically clandestine communications. When
         you cast the
-        <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpCryptogram000]{Cryptogram}</em>
+        <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelCryptogra]{Cryptogram}</em>
         cantrip, its limit is 20 characters, instead of 8, and you can choose to magically encrypt
         the message such that only the specified recipient can read it.</p>
     video:
@@ -286,9 +286,9 @@ pages:
       format: 1
       content: >-
         <p>When you cast the
-        <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpringheel000]{Springheel}</em>
+        <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelSpringhee]{Springheel}</em>
         cantrip, your jumping distance increases by 20 feet instead of 10 feet. If you know the
-        <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpQuickstep0000]{Quickstep}</em>
+        <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelQuickstep]{Quickstep}</em>
         cantrip, you can cast it as part of the same bonus action.</p>
     video:
       controls: true
@@ -321,9 +321,9 @@ pages:
       format: 1
       content: >-
         <p>When you cast the
-        <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpQuickstep0000]{Quickstep}</em>
+        <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelQuickstep]{Quickstep}</em>
         cantrip, your speed increases by 20 feet instead of 10 feet. If you know the
-        <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpringheel000]{Springheel}</em>
+        <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelSpringhee]{Springheel}</em>
         cantrip, you can cast it as part of the same bonus action.</p>
     video:
       controls: true
@@ -357,7 +357,7 @@ pages:
       format: 1
       content: >-
         <p>You can cast the
-        <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpPhantomGrapne]{Phantom
+        <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelPhantoGra]{Phantom
         Grapnel}</em> cantrip as a Bonus Action. If you do so, its range is reduced to 15 feet. When
         you cast the spell as an action, the target is pulled an additional 10 feet toward you by
         the spell.</p>
@@ -504,7 +504,7 @@ pages:
       format: 1
       content: >-
         <p>When you cast the
-        <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpForceBuckler0]{Force
+        <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelForceBuck]{Force
         Buckler}</em> cantrip, you can concentrate on it for up to 1 minute. The spell doesn’t end
         early if you are hit by an attack.</p>
     video:
@@ -538,7 +538,7 @@ pages:
       format: 1
       content: >-
         <p>When you cast
-        <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpForceWeapon00]{Force
+        <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelForceWeap]{Force
         Weapon}</em> or
         <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpMagicDaggers1]{Magic
         Daggers}</em>, you can take a Bonus Action to make one additional spell attack with that

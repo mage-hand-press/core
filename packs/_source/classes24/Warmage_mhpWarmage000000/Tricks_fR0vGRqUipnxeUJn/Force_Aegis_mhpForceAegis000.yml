@@ -6,7 +6,7 @@ system:
   description:
     value: >-
       <p><em>Prerequisite: Level 5+ Warmage,
-      </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpForceBuckler0]{Force
+      </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelForceBuck]{Force
       Buckler}<em>
       cantrip</em></p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpForceAegis000
       inline]</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpTrickswithEnc

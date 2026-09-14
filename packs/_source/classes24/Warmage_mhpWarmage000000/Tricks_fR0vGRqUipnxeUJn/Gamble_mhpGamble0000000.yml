@@ -6,10 +6,10 @@ system:
   description:
     value: >-
       <p><em>Prerequisite:
-      </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpCheat00000000]{Cheat}<em>
+      </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelCheat0000]{Cheat}<em>
       Cantrip; House of Cards, House of Darts, House of Dice, or House of Roulette</em></p><p>You
       are always under the effects of the
-      <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpCheat00000000]{Cheat}</em>
+      <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelCheat0000]{Cheat}</em>
       cantrip. Additionally, when you fail a D20 Test, you can reroll the die, and you must use the
       new roll.</p><p>You can use this trick twice. You regain one of its expended uses when you
       finish a Short Rest, and you regain all expended uses when you finish a Long Rest.</p>

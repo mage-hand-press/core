@@ -135,7 +135,7 @@ system:
   description:
     value: >-
       <p><em>Prerequisites: 10th level, House of Knights,
-      @UUID[Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpForceBuckler0]{force
+      @UUID[Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpSpelForceBuck]{force
       buckler}
       cantrip</em></p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpForceAegis000
       inline]</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpTrickswithEnc
