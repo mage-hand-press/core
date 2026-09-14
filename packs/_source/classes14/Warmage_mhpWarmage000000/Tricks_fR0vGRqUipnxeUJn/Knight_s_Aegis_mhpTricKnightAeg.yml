@@ -1,0 +1,238 @@
+folder: fR0vGRqUipnxeUJn
+name: Knight’s Aegis
+type: feat
+_id: mhpTricKnightAeg
+img: icons/magic/defensive/armor-shield-barrier-steel.webp
+system:
+  activities:
+    1AxmnLKOvhxcTWZ9:
+      type: enchant
+      name: Modify "Force Buckler"
+      _id: 1AxmnLKOvhxcTWZ9
+      img: ''
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      effects:
+        - _id: 22E0TKo2GLEaWZ4P
+          level:
+            min: null
+            max: null
+          riders:
+            activity:
+              - FkQblYDbZcsVMdB0
+            effect: []
+            item: []
+          uuid: null
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      enchant:
+        self: false
+      restrictions:
+        allowMagical: false
+        categories: []
+        properties: []
+        type: spell
+      behaviors: []
+    FkQblYDbZcsVMdB0:
+      type: utility
+      name: Cast (concentration)
+      _id: FkQblYDbZcsVMdB0
+      img: ''
+      sort: 100000
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        units: minute
+        concentration: true
+        override: true
+        value: '1'
+        expiry: null
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      behaviors: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><em>Prerequisites: 10th level, House of Knights,
+      @UUID[Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpSpelForceBuck]{force
+      buckler}
+      cantrip</em></p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpForceAegis000
+      inline]</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpTrickswithEnc
+      inline classes="hide-in-embed"]</p>
+    chat: ''
+  identifier: knights-aegis
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - subclass:house-knights
+      - spell:forrce-buckler
+    repeatable: false
+    level: 10
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: warmageTrick
+effects:
+  - type: enchantment
+    name: Knight’s Aegis
+    img: icons/magic/defensive/armor-shield-barrier-steel.webp
+    disabled: true
+    _id: 22E0TKo2GLEaWZ4P
+    system:
+      changes:
+        - key: system.description.value
+          type: add
+          value: >-
+            <hr>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpForceAegis000
+            inline]
+          phase: initial
+          priority: null
+          _id: z1so1RV1OxtMX6DF
+          conditions: '{}'
+          replacement: ''
+      origin:
+        actor: null
+        behavior: null
+        effect: null
+        item: null
+        message: null
+      magical: true
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags:
+      dnd5e:
+        riders: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.1
+      createdTime: 1789423357289
+      modifiedTime: 1789423357289
+      lastModifiedBy: magehandpress000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!mhpTricKnightAeg.22E0TKo2GLEaWZ4P'
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity:
+        - FkQblYDbZcsVMdB0
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  createdTime: 1789423357289
+  modifiedTime: 1789423357290
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpTricKnightAeg'

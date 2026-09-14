@@ -1,0 +1,202 @@
+folder: J0D4pSoft1wE7YCY
+name: Gut Shot
+type: feat
+_id: mhpGunsGutShot00
+img: icons/skills/wounds/injury-pain-body-orange.webp
+system:
+  activities:
+    a1EBLiLL7eJUyE4L:
+      type: utility
+      _id: a1EBLiLL7eJUyE4L
+      img: ''
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: Whenever you score a crritical hit with a firearm
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      effects:
+        - _id: EVXNSijk0WdkgRA0
+          level: {}
+          uuid: null
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: Larger or smaller creature that isn't an Elemental, Ooze, or Undead
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Apply
+      behaviors: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Starting at 6th level, whenever you score a critical hit against a Large or smaller
+      creature with a firearm, the bullet lodges itself in the target. Until the creature uses its
+      action to dislodge the bullet, it moves at half speed and has disadvantage on attack rolls and
+      ability checks. Elementals, Oozes, and Undead are immune to this effect.</p>
+    chat: ''
+  identifier: gut-shot
+  source:
+    revision: 1
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
+  advancement: {}
+  crewed: false
+  enchant: {}
+  prerequisites:
+    repeatable: false
+    level: 6
+    items: []
+  properties:
+    - trait
+  requirements: Gunslinger
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Gut Shot
+    img: icons/skills/wounds/injury-pain-body-orange.webp
+    origin: Compendium.mage-hand-press-core.classes14.Item.mhpGutShot000000
+    transfer: false
+    _id: EVXNSijk0WdkgRA0
+    type: base
+    system:
+      changes:
+        - key: system.attributes.movement.walk
+          type: multiply
+          value: 0.5
+          phase: initial
+          priority: null
+          _id: z1dTtcTlFqNT71YR
+          conditions: '{}'
+          replacement: ''
+        - key: system.attributes.movement.burrrow
+          type: multiply
+          value: 0.5
+          phase: initial
+          priority: null
+          _id: p2acFiiAvbVewhIm
+          conditions: '{}'
+          replacement: ''
+        - key: system.attributes.movement.climb
+          type: multiply
+          value: 0.5
+          phase: initial
+          priority: null
+          _id: 23kUsPKyUbeMOSp7
+          conditions: '{}'
+          replacement: ''
+        - key: system.attributes.movement.fly
+          type: multiply
+          value: 0.5
+          phase: initial
+          priority: null
+          _id: WYPbojOZ3ht6BPIw
+          conditions: '{}'
+          replacement: ''
+        - key: system.attributes.movement.swim
+          type: multiply
+          value: 0.5
+          phase: initial
+          priority: null
+          _id: 3jo3FJEHb3f3leaQ
+          conditions: '{}'
+          replacement: ''
+      rider:
+        statuses: []
+      origin:
+        actor: null
+        behavior: null
+        effect: null
+        item: null
+        message: null
+      conditions: '{}'
+      magical: false
+    disabled: false
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags:
+      dnd5e:
+        riders: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.1
+      createdTime: 1789423246885
+      modifiedTime: 1789423246885
+      lastModifiedBy: magehandpress000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!mhpGunsGutShot00.EVXNSijk0WdkgRA0'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  createdTime: 1789423246885
+  modifiedTime: 1789423246886
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpGunsGutShot00'

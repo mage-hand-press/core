@@ -1,0 +1,89 @@
+folder: Cr41kvdihECBypHf
+name: Arcane Fighting Style
+type: feat
+_id: mhpWarmArcaneFig
+img: icons/magic/light/orbs-firefly-hand-yellow.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    TZt73mQN2asNqpLd:
+      type: ItemChoice
+      _id: TZt73mQN2asNqpLd
+      configuration:
+        allowDrops: false
+        choices:
+          '1':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpBlaster000000
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpDeflector0000
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpResistive0000
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpSniper0000000
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpStriker000000
+            sort: 0
+        restriction:
+          list: []
+          type: class
+          subtype: fightingStyle
+          school: []
+        spell: null
+        type: feat
+        sorting: a
+      value:
+        added: {}
+        replaced: {}
+      hint: >-
+        <p>Warmages learn that magic is the purest of weapons, and can be wielded just as easily as
+        any other. At 1st level, choose one of the following fighting styles:</p>
+      flags: {}
+      name: Arcane Fighting Style
+  description:
+    value: >-
+      <p>Warmages learn that magic is the purest of weapons, and can be wielded just as easily as
+      any other. At 1st level, choose one of the following fighting
+      styles:</p><h5>Blaster</h5><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpBlaster000000
+      inline]</p><h5>Deflector</h5><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpDeflector0000
+      inline]</p><h5>Resistive</h5><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpResistive0000
+      inline]</p><h5>Sniper</h5><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpSniper0000000
+      inline]</p><h5>Striker</h5><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpStriker000000
+      inline]</p>
+    chat: ''
+  identifier: arcane-fighting-style
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties: []
+  requirements: Warmage
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  createdTime: 1789423233225
+  modifiedTime: 1789423233226
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpWarmArcaneFig'

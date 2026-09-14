@@ -1,0 +1,79 @@
+folder: she62G4IwQURbt1a
+name: Circus Performer
+type: feat
+img: icons/magic/light/orb-shadow-blue.webp
+system:
+  description:
+    value: >-
+      <p>You learned a few simple tricks to participate in a sideshow or circus act. You learn the
+      <em>@UUID[Compendium.dnd5e.spells.Item.CAxSzHWizrafT033]{dancing lights}</em> and
+      <em>@UUID[Compendium.dnd5e.spells.Item.oIzA2MEHwxhtQneU]{minor illusion}</em> cantrips.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Warmage
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: arcaneInitiation
+  requirements: ''
+  properties: []
+  activities: {}
+  identifier: circus-performer
+  advancement:
+    iTuVs8TWa2OJHd14:
+      type: ItemGrant
+      _id: iTuVs8TWa2OJHd14
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.CAxSzHWizrafT033
+            optional: false
+            sort: 0
+          - uuid: Compendium.dnd5e.spells.Item.oIzA2MEHwxhtQneU
+            optional: false
+            sort: 0
+        optional: false
+        spell:
+          ability: []
+          method: warmage
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+        sorting: m
+      value: {}
+      level: 1
+      hint: ''
+      flags: {}
+      name: Initiation Spells
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  createdTime: 1789423340074
+  modifiedTime: 1789423340074
+  lastModifiedBy: magehandpress000
+_id: mhpWarmCircusPer
+sort: 200000
+ownership:
+  default: 0
+_key: '!items!mhpWarmCircusPer'

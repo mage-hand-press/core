@@ -1,0 +1,200 @@
+folder: fR0vGRqUipnxeUJn
+name: Force Aegis
+type: feat
+img: icons/magic/defensive/armor-shield-barrier-steel.webp
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: Level 5+ Warmage,
+      </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelForceBuck]{Force
+      Buckler}<em>
+      cantrip</em></p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpForceAegis000
+      inline]</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpTrickswithEnc
+      inline classes="hide-in-embed"]</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Warmage
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2024'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: warmageTrick
+  requirements: ''
+  properties: []
+  activities:
+    erNtO7Pp4n2g0xQT:
+      type: enchant
+      name: Modify "Force Buckler"
+      _id: erNtO7Pp4n2g0xQT
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      effects:
+        - _id: mhpForceAegis000
+          level: {}
+          riders:
+            activity: []
+            effect: []
+            item: []
+          uuid: null
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      enchant:
+        self: false
+      restrictions:
+        allowMagical: false
+        categories: []
+        properties: []
+        type: spell
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      img: ''
+      behaviors: []
+  identifier: force-aegis
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    level: 5
+    repeatable: false
+    items:
+      - spell:force-buckler
+effects:
+  - type: enchantment
+    name: Force Aegis
+    img: icons/magic/defensive/armor-shield-barrier-steel.webp
+    disabled: true
+    _id: mhpForceAegis000
+    system:
+      changes:
+        - key: system.description.value
+          value: >-
+            <hr>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpForceAegis000
+            inline]
+          priority: null
+          type: add
+          phase: initial
+          _id: w3uOVjSkmWMr7SW3
+          conditions: '{}'
+          replacement: ''
+        - key: system.duration.value
+          value: 1
+          priority: null
+          type: override
+          phase: initial
+          _id: OzyMhwSiJwaIup3q
+          conditions: '{}'
+          replacement: ''
+        - key: system.duration.units
+          value: minute
+          priority: null
+          type: override
+          phase: initial
+          _id: Ty1JYPrJNWHMw3Py
+          conditions: '{}'
+          replacement: ''
+        - key: system.properties
+          value: concentration
+          priority: null
+          type: add
+          phase: initial
+          _id: QzDfQOCNkQCiZY1q
+          conditions: '{}'
+          replacement: ''
+      origin:
+        actor: null
+        behavior: null
+        effect: null
+        item: null
+        message: null
+      magical: true
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.1
+      lastModifiedBy: magehandpress000
+      createdTime: 1789423572220
+      modifiedTime: 1789423572220
+    start: null
+    showIcon: 1
+    folder: null
+    _key: '!items.effects!mhpTricForceAegi.mhpForceAegis000'
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  createdTime: 1789423572220
+  modifiedTime: 1789423572221
+  lastModifiedBy: magehandpress000
+_id: mhpTricForceAegi
+sort: 3800000
+ownership:
+  default: 0
+_key: '!items!mhpTricForceAegi'

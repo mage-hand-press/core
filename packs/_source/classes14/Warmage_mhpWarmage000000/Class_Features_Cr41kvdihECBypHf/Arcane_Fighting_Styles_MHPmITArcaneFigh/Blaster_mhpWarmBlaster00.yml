@@ -1,0 +1,104 @@
+folder: MHPmITArcaneFigh
+name: Blaster
+type: feat
+img: icons/magic/light/beam-impact-deflect-teal.webp
+system:
+  description:
+    value: <p>You gain a +1 bonus to the saving throw DCs of your warmage spells.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Warmage
+    page: ''
+    license: ''
+    rules: '2014'
+    revision: 1
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: fightingStyle
+  requirements: ''
+  properties: []
+  identifier: blaster
+  activities: {}
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    items:
+      - class:warmage
+    repeatable: false
+    level: null
+effects:
+  - origin: Item.zz76PJHIqutRqiDe
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    disabled: false
+    _id: KgYiuyMXaSekkBD4
+    tint: '#ffffff'
+    transfer: true
+    flags:
+      dnd5e:
+        riders: {}
+    name: Blaster DC
+    description: ''
+    statuses: []
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.1
+      createdTime: 1789423332861
+      modifiedTime: 1789423332861
+      lastModifiedBy: magehandpress000
+      compendiumSource: Item.hllQJIH2OUCpyGZm.ActiveEffect.xSQ3lcIuh12V5KJY
+      duplicateSource: null
+      exportSource: null
+    img: icons/magic/defensive/shield-barrier-glowing-triangle-teal.webp
+    type: base
+    system:
+      changes:
+        - key: system.bonuses.spell.dc
+          value: 1
+          priority: null
+          type: add
+          phase: initial
+          _id: Mu84kDzd8YP8wd9Q
+          conditions: '{}'
+          replacement: ''
+      rider:
+        statuses: []
+      origin:
+        actor: null
+        behavior: null
+        effect: null
+        item: null
+        message: null
+      conditions: '{}'
+      magical: false
+    sort: 0
+    start: null
+    showIcon: 1
+    folder: null
+    _key: '!items.effects!mhpWarmBlaster00.KgYiuyMXaSekkBD4'
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  coreVersion: '14.367'
+  createdTime: 1789423332861
+  modifiedTime: 1789423332861
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_id: mhpWarmBlaster00
+sort: 100000
+ownership:
+  default: 0
+_key: '!items!mhpWarmBlaster00'

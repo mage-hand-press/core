@@ -1,0 +1,144 @@
+folder: J0D4pSoft1wE7YCY
+name: Head Shot
+type: feat
+_id: mhpGunsHeadShot0
+img: icons/skills/wounds/injury-eyes-blood-red-pink.webp
+system:
+  activities:
+    HTipI9nlWgUVGSar:
+      type: damage
+      _id: HTipI9nlWgUVGSar
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      effects: []
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: Not Elemental, Ooze, Undead, or a creature that lacks a nervous system or vital organs
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 10
+            denomination: 10
+            bonus: ''
+            types:
+              - bludgeoning
+              - piercing
+              - slashing
+              - acid
+              - cold
+              - fire
+              - force
+              - lightning
+              - necrotic
+              - poison
+              - psychic
+              - radiant
+              - thunder
+            scaling:
+              number: 1
+            modifiers: []
+      name: ''
+      img: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      behaviors: []
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
+  description:
+    value: >-
+      <p>At 20th level, when you score a critical hit against a creature with a firearm, you can
+      choose for the shot to be a head shot. If the creature has less than 100 hit points, it dies.
+      Otherwise, it takes an extra 10d10 damage from the hit. Elementals, Oozes, Undead, and
+      creatures that lack nervous systems or vital organs take no extra damage from this
+      feature.</p><p>Once you use this feature, you can’t use it again until you finish a short or
+      long rest.</p>
+    chat: ''
+  identifier: head-shot
+  source:
+    revision: 1
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
+  advancement: {}
+  crewed: false
+  enchant: {}
+  prerequisites:
+    repeatable: false
+    level: 20
+    items: []
+  properties: []
+  requirements: Gunslinger
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  createdTime: 1789423247751
+  modifiedTime: 1789423247751
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpGunsHeadShot0'

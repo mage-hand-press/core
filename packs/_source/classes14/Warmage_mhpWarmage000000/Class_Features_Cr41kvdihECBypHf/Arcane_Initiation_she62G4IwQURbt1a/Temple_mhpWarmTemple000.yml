@@ -1,0 +1,79 @@
+folder: she62G4IwQURbt1a
+name: Temple
+type: feat
+img: icons/magic/light/beam-rays-blue.webp
+system:
+  description:
+    value: >-
+      <p>arc bladeA monastery or temple educated you in the ways of gentle healing magic. You learn
+      the <em>@UUID[Compendium.dnd5e.spells.Item.n9pJzTDsAwQxJVRl]{sacred flame}</em> and
+      <em>@UUID[Compendium.dnd5e.spells.Item.8zT7njvqbpXs4Cel]{spare the dying}</em> cantrips.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Warmage
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: arcaneInitiation
+  requirements: ''
+  properties: []
+  activities: {}
+  identifier: temple
+  advancement:
+    iTuVs8TWa2OJHd14:
+      type: ItemGrant
+      _id: iTuVs8TWa2OJHd14
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.n9pJzTDsAwQxJVRl
+            optional: false
+            sort: 0
+          - uuid: Compendium.dnd5e.spells.Item.8zT7njvqbpXs4Cel
+            optional: false
+            sort: 0
+        optional: false
+        spell:
+          ability: []
+          method: warmage
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+        sorting: m
+      value: {}
+      level: 1
+      hint: ''
+      flags: {}
+      name: Initiation Spells
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  createdTime: 1789423340595
+  modifiedTime: 1789423340595
+  lastModifiedBy: magehandpress000
+_id: mhpWarmTemple000
+sort: 225000
+ownership:
+  default: 0
+_key: '!items!mhpWarmTemple000'

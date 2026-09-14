@@ -1,0 +1,114 @@
+folder: J0D4pSoft1wE7YCY
+name: Dire Gambit
+type: feat
+_id: mhpGunsDireGambi
+img: icons/skills/wounds/anatomy-organ-heart-red.webp
+system:
+  activities:
+    ViAtGv9vIKW0UUYS:
+      type: utility
+      _id: ViAtGv9vIKW0UUYS
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: Whenever you score a critical hit
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '-1'
+            target: feat:risk
+            scaling: {}
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Regain Risk Die
+      img: modules/mage-hand-press-core/assets/svg/restore-use.svg
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      behaviors: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Beginning at 13th level, whenever you score a critical hit, you regain one expended risk
+      die.</p>
+    chat: ''
+  identifier: dire-gambit
+  source:
+    revision: 1
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
+  advancement: {}
+  crewed: false
+  enchant: {}
+  prerequisites:
+    repeatable: false
+    level: 13
+    items: []
+  properties:
+    - trait
+  requirements: Gunslinger
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  createdTime: 1789423247253
+  modifiedTime: 1789423247254
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpGunsDireGambi'

@@ -1,0 +1,94 @@
+folder: she62G4IwQURbt1a
+name: Survival
+type: feat
+img: icons/magic/fire/dagger-rune-enchant-flame-blue.webp
+system:
+  description:
+    value: >-
+      <p>To survive in the wild, you taught yourself to cast simple spells. You learn the
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplDruidcraft]{Druidcraft} and
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplShillelagh]{Shillelagh} cantrips and you gain
+      proficiency in the Survival skill.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Warmage
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2024'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: arcaneInitiation
+  requirements: ''
+  properties: []
+  activities: {}
+  identifier: survival
+  advancement:
+    iTuVs8TWa2OJHd14:
+      type: ItemGrant
+      _id: iTuVs8TWa2OJHd14
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.spells24.Item.phbsplDruidcraft
+            sort: 0
+          - optional: false
+            uuid: Compendium.dnd5e.spells24.Item.phbsplShillelagh
+            sort: 0
+        optional: false
+        spell:
+          ability: []
+          method: warmage
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+        sorting: m
+      value: {}
+      level: 1
+      hint: ''
+      flags: {}
+      name: Initiation Spells
+    dTFqGX1kLaphpC9a:
+      type: Trait
+      _id: dTFqGX1kLaphpC9a
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - skills:sur
+        mode: default
+      level: 1
+      hint: ''
+      value: {}
+      flags: {}
+      name: Initiation Proficiency
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  createdTime: 1789423583839
+  modifiedTime: 1789423583840
+  lastModifiedBy: magehandpress000
+_id: mhpWarmSurvival0
+sort: 275000
+ownership:
+  default: 0
+_key: '!items!mhpWarmSurvival0'

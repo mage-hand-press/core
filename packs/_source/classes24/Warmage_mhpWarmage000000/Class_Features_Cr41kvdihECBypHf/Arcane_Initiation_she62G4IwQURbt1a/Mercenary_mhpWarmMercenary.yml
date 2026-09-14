@@ -1,0 +1,94 @@
+folder: she62G4IwQURbt1a
+name: Mercenary
+type: feat
+img: icons/magic/water/strike-ice-blade-fang.webp
+system:
+  description:
+    value: >-
+      <p>You mastered the fundamentals of war magic to engage in battle with similarly armed
+      arcanists. You learn the @UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]{Mending} and
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplTrueStrike]{True Strike} cantrips and you gain
+      proficiency in the Athletics skill.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Warmage
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2024'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: arcaneInitiation
+  requirements: ''
+  properties: []
+  activities: {}
+  identifier: mercenary
+  advancement:
+    iTuVs8TWa2OJHd14:
+      type: ItemGrant
+      _id: iTuVs8TWa2OJHd14
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplMending000
+            optional: false
+            sort: 0
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplTrueStrike
+            optional: false
+            sort: 0
+        optional: false
+        spell:
+          ability: []
+          method: warmage
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+        sorting: m
+      value: {}
+      level: 1
+      hint: ''
+      flags: {}
+      name: Initiation Spells
+    dTFqGX1kLaphpC9a:
+      type: Trait
+      _id: dTFqGX1kLaphpC9a
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - skills:ath
+        mode: default
+      level: 1
+      hint: ''
+      value: {}
+      flags: {}
+      name: Initiation Proficiency
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  createdTime: 1789423583697
+  modifiedTime: 1789423583697
+  lastModifiedBy: magehandpress000
+_id: mhpWarmMercenary
+sort: 250000
+ownership:
+  default: 0
+_key: '!items!mhpWarmMercenary'

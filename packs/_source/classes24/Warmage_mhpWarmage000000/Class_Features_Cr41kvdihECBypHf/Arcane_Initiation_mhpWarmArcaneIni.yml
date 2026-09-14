@@ -1,0 +1,72 @@
+folder: Cr41kvdihECBypHf
+name: Arcane Initiation
+type: feat
+img: icons/sundries/books/book-open-brown.webp
+system:
+  description:
+    value: >-
+      <p>Choose where you first learned the basics of
+      magic.</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpAdventurer000
+      caption=false cite=false
+      nameStyle=inline]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpArcaneEvent00
+      caption=false cite=false
+      nameStyle=inline]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpCircusPerform
+      caption=false cite=false
+      nameStyle=inline]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpMercenary0000
+      caption=false cite=false
+      nameStyle=inline]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpTempleInitiat
+      caption=false cite=false
+      nameStyle=inline]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpTowerApprenti
+      caption=false cite=false
+      nameStyle=inline]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpSelfTaught000
+      caption=false cite=false
+      nameStyle=inline]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpSurvival00000
+      caption=false cite=false nameStyle=inline]</p><section class="notable
+      hide-in-embed"><h4>Making Your Own Initiation</h4><p>You can work with your GM to create an
+      Arcane Initiation to suit your character’s background. Choose two cantrips of your choice from
+      any class’s spell list; one cantrip should be suitable for combat, and the other for utility.
+      Avoid choosing cantrips that are otherwise exclusive to another spellcaster. Also choose one
+      skill.</p></section>
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Warmage
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2024'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Warmage
+  properties: []
+  activities: {}
+  identifier: arcane-initiation
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    level: 1
+    repeatable: false
+    items: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  createdTime: 1789423555009
+  modifiedTime: 1789423555009
+  lastModifiedBy: magehandpress000
+_id: mhpWarmArcaneIni
+sort: 200000
+ownership:
+  default: 0
+_key: '!items!mhpWarmArcaneIni'

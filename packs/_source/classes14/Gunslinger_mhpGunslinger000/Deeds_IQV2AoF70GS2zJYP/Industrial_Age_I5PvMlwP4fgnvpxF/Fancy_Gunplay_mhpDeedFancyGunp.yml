@@ -1,0 +1,119 @@
+folder: I5PvMlwP4fgnvpxF
+name: Fancy Gunplay
+type: feat
+_id: mhpDeedFancyGunp
+img: icons/weapons/guns/pistol-aimed.webp
+system:
+  activities:
+    QpjFqtIIaVWHdL8m:
+      type: check
+      _id: QpjFqtIIaVWHdL8m
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: feat:risk
+            scaling: {}
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      check:
+        associated:
+          - prf
+          - slt
+        dc:
+          calculation: ''
+          formula: ''
+        ability: ''
+        visible: true
+      name: ''
+      behaviors: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>You can impressively twirl your weapons to impress others. Whenever you make a Charisma
+      (Performance) check or a Dexterity (Sleight of Hand) check using one of your ranged weapons,
+      you can expend a risk die and add it to the ability check.</p>
+    chat: ''
+  identifier: fancy-gunplay
+  source:
+    revision: 1
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: gunslingerDeed
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  createdTime: 1789423714333
+  modifiedTime: 1789423714334
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!mhpDeedFancyGunp'

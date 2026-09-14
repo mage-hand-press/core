@@ -1,0 +1,115 @@
+folder: IQV2AoF70GS2zJYP
+name: Dodge Roll
+type: feat
+_id: mhpDeedDodgeRoll
+img: icons/skills/movement/ball-spinning-blue.webp
+system:
+  activities:
+    WbdPNWWapCE9grmu:
+      type: utility
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: feat:risk
+            scaling: {}
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      name: Dodge Roll
+      img: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      _id: WbdPNWWapCE9grmu
+      behaviors: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>You can expend one risk die as a bonus action to move up to 15 feet and reload any firearm
+      you are holding. This movement doesn’t provoke opportunity attacks, ignores
+      &amp;Reference[difficult terrain], and allows you to move through a hostile creature’s space,
+      as long as you don’t end your movement there.</p>
+    chat: ''
+  identifier: dodge-roll
+  source:
+    revision: 1
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: gunslingerDeed
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  createdTime: 1789423713775
+  modifiedTime: 1789423713776
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!mhpDeedDodgeRoll'

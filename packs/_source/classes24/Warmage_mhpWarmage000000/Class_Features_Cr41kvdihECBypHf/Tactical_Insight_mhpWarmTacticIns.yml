@@ -1,0 +1,53 @@
+folder: Cr41kvdihECBypHf
+name: Tactical Insight
+type: feat
+img: icons/magic/defensive/shield-barrier-blades-teal.webp
+system:
+  description:
+    value: >-
+      <p>You gain a bonus to saving throws against spells and other magical effects equal to your
+      Intelligence modifier (minimum bonus of +1). You don’t gain this bonus to Intelligence saving
+      throws.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Warmage
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2024'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Warmage
+  properties: []
+  activities: {}
+  identifier: tactical-insight
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    level: 6
+    repeatable: false
+    items: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  createdTime: 1789423555224
+  modifiedTime: 1789423555224
+  lastModifiedBy: magehandpress000
+_id: mhpWarmTacticIns
+sort: 212500
+ownership:
+  default: 0
+_key: '!items!mhpWarmTacticIns'

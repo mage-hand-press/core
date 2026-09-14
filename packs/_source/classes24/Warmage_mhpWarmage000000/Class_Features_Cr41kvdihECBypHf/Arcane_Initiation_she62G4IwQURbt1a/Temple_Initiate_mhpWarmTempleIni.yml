@@ -1,0 +1,94 @@
+folder: she62G4IwQURbt1a
+name: Temple Initiate
+type: feat
+img: icons/magic/light/beam-rays-blue.webp
+system:
+  description:
+    value: >-
+      <p>A monastery or temple educated you in the ways of gentle healing magic. You learn the
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplSacredFlam]{Sacred Flame} and
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplSparetheDy]{Spare the Dying} cantrips and you gain
+      proficiency in the Religion skill.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Warmage
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2024'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: arcaneInitiation
+  requirements: ''
+  properties: []
+  activities: {}
+  identifier: temple
+  advancement:
+    iTuVs8TWa2OJHd14:
+      type: ItemGrant
+      _id: iTuVs8TWa2OJHd14
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplSacredFlam
+            optional: false
+            sort: 0
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplSparetheDy
+            optional: false
+            sort: 0
+        optional: false
+        spell:
+          ability: []
+          method: warmage
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+        sorting: m
+      value: {}
+      level: 1
+      hint: ''
+      flags: {}
+      name: Initiation Spells
+    dTFqGX1kLaphpC9a:
+      type: Trait
+      _id: dTFqGX1kLaphpC9a
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - skills:rel
+        mode: default
+      level: 1
+      hint: ''
+      value: {}
+      flags: {}
+      name: Initiation Proficiency
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  createdTime: 1789423583919
+  modifiedTime: 1789423583920
+  lastModifiedBy: magehandpress000
+_id: mhpWarmTempleIni
+sort: 225000
+ownership:
+  default: 0
+_key: '!items!mhpWarmTempleIni'

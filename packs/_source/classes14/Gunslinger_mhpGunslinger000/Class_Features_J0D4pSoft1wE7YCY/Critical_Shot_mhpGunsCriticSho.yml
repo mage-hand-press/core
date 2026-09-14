@@ -1,0 +1,76 @@
+folder: J0D4pSoft1wE7YCY
+name: Critical Shot
+type: feat
+_id: mhpGunsCriticSho
+img: icons/skills/targeting/crosshair-triple-strike-orange.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>At 2nd level, your ranged firearm attacks score a critical hit on a roll of 19 or
+      20.</p><p>Starting at 9th level, your ranged firearm attacks score a critical hit on a roll of
+      18–20, and at 17th level your ranged firearm attacks score a critical hit on a roll of
+      17–20.</p><section id="secret-OmPIa2rvXklyPM3S" class="secret"><p><strong>Foundry
+      Note</strong></p><p>Each of your firearms will need to be updated. To do this: go to the
+      'Attack' activities of each firearm, click on the 'Effect' tab, and add the lowest number
+      (i.e. 19) to the 'Critical Threshold'.</p></section>
+    chat: ''
+  identifier: critical-shot
+  source:
+    revision: 1
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
+  advancement:
+    OJ7RB75s1q2YglET:
+      type: ScaleValue
+      _id: OJ7RB75s1q2YglET
+      configuration:
+        identifier: threshold
+        type: number
+        distance:
+          units: ''
+        scale:
+          '2':
+            value: 19
+          '9':
+            value: 18
+          '17':
+            value: 17
+      flags: {}
+      value: {}
+      hint: ''
+      name: Critical Threshold
+  crewed: false
+  enchant: {}
+  prerequisites:
+    repeatable: false
+    level: 2
+    items: []
+  properties:
+    - trait
+  requirements: Gunslinger
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  createdTime: 1789423246205
+  modifiedTime: 1789423246205
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpGunsCriticSho'

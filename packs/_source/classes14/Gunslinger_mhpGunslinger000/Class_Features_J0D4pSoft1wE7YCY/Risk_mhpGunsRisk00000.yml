@@ -1,0 +1,147 @@
+folder: J0D4pSoft1wE7YCY
+name: Risk
+type: feat
+_id: mhpGunsRisk00000
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '@scale.gunslinger.risk.number'
+  description:
+    value: >-
+      <p>By 2nd level, you can perform incredible feats of daring that are fueled by special dice
+      called risk dice.</p><h5>Risk Dice</h5><p class="p1">You have four risk dice, which are d8s.
+      You gain additional risk dice, and your risk dice change as you gain levels in this class, as
+      shown in the Risk Dice column of the Gunslinger table. You regain all expended risk dice when
+      you finish a long rest.</p><h5>Using Risk Dice</h5><p><span class="s1">Once per turn, you can
+      expend a risk die to perform a deed of your choice. Your deed options are detailed at the
+      @UUID[Compendium.mage-hand-press-core.journal.JournalEntry.mhpGunslinger5e0.JournalEntryPage.mhpDeeds00000000]{end
+      of the class description}.</span></p><h5><span class="s1">Saving Throws</span></h5><p>Some of
+      your deeds require your target to make a saving throw to resist the deed’s effects. The saving
+      throw DC is calculated as follows:</p><p style="text-align:center" class="p3"><span
+      class="s1"><strong>Deed save DC</strong> = 8 + your proficiency bonus + your Dexterity
+      modifier</span></p>
+    chat: ''
+  identifier: risk
+  source:
+    revision: 1
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
+  advancement:
+    umOud8Wxo42n0EhA:
+      type: ItemChoice
+      _id: umOud8Wxo42n0EhA
+      configuration:
+        allowDrops: false
+        choices:
+          '2':
+            count: 5
+            replacement: false
+        pool:
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpBiteBullet000
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpCoveringFire0
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpDodgeRoll0000
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpLimbShot00000
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpSkinYourTeeth
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpSteadyAim0000
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpGrazingShot00
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpReposition000
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpFancyGunplay0
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpMaverickSpiri
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpCurvedTraject
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpTakeBullet000
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpBlindfire0000
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpDisguisedShot
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpGrazingShot00
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpReposition000
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpFancyGunplay0
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpMaverickSpiri
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpCurvedTraject
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpTakeBullet000
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpBlindfire0000
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpDisguisedShot
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpGrazingShot00
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpReposition000
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpFancyGunplay0
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpMaverickSpiri
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpCurvedTraject
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpTakeBullet000
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpBlindfire0000
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpDisguisedShot
+            sort: 0
+        restriction:
+          list: []
+          type: class
+          subtype: gunslingerDeed
+          school: []
+        spell: null
+        type: feat
+        sorting: a
+      flags: {}
+      value:
+        added: {}
+        replaced: {}
+      hint: ''
+      name: Deeds
+  crewed: false
+  enchant: {}
+  prerequisites:
+    repeatable: false
+    level: 2
+    items: []
+  properties: []
+  requirements: Gunslinger
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  createdTime: 1789423246491
+  modifiedTime: 1789423246492
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpGunsRisk00000'

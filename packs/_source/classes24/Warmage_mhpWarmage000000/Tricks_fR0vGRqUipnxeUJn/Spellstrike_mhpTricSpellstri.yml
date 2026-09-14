@@ -1,0 +1,65 @@
+folder: fR0vGRqUipnxeUJn
+name: Spellstrike
+type: feat
+_id: mhpTricSpellstri
+img: icons/magic/light/projectile-stars-blue.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><em>Prerequisite: Level 10+ Warmage,
+      </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelArcBlade0]{Arc
+      Blade}<em>,
+      </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelBurninBla]{Burning
+      Blade}<em>,
+      </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelFrigidBla]{Frigid
+      Blade}<em>, or </em>@UUID[Compendium.dnd5e.spells24.Item.phbsplTrueStrike]{True Strike}<em>
+      Cantrip</em></p><p>Whenever you cast
+      <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelArcBlade0]{Arc
+      Blade}</em>,
+      <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelBurninBla]{Burning
+      Blade}</em>,
+      <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpSpelFrigidBla]{Frigid
+      Blade}</em>, or <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplTrueStrike]{True Strike}</em>,
+      you can make two attacks as a part of the spell instead of one. You can only apply the
+      cantrip’s bonus damage to one of the attacks.</p>
+    chat: ''
+  identifier: spellstrike
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - spell:arc-blade
+      - spell:burning-blade
+      - spell:frigid-blade
+      - spell:true-strike
+    repeatable: false
+    level: 10
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: warmageTrick
+effects: []
+sort: 1400000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  createdTime: 1789423573935
+  modifiedTime: 1789423573935
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpTricSpellstri'

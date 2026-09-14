@@ -1,0 +1,171 @@
+folder: fR0vGRqUipnxeUJn
+name: Magic Moment
+type: feat
+_id: mhpTricMagicMome
+img: icons/magic/time/hourglass-tilted-glowing-gold.webp
+system:
+  activities:
+    AcoaJs06ThYGZ6RV:
+      type: enchant
+      _id: AcoaJs06ThYGZ6RV
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      effects:
+        - _id: mhpMagicMoment00
+          level: {}
+          riders:
+            activity: []
+            effect: []
+            item: []
+          uuid: null
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      enchant:
+        self: false
+      restrictions:
+        allowMagical: false
+        categories: []
+        properties: []
+        type: spell
+      name: Modify "Moment to Think"
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      img: ''
+      behaviors: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><em>Prerequisite:
+      </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells24.Item.mhpMomenttoThink]{Moment
+      to Think}<em>
+      Cantrip</em></p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpMagicMoment00
+      inline]</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpTrickswithEnc
+      inline classes="hide-in-embed"]</p>
+    chat: ''
+  identifier: magic-moment
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - spell:moment-to-think
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: warmageTrick
+effects:
+  - type: enchantment
+    name: Magic Moment
+    img: icons/magic/time/hourglass-tilted-glowing-gold.webp
+    disabled: true
+    _id: mhpMagicMoment00
+    system:
+      changes:
+        - key: system.description.value
+          value: >-
+            <hr>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpMagicMoment00
+            inline]
+          priority: null
+          type: add
+          phase: initial
+          _id: pe1RxNaEjARCffgo
+          conditions: '{}'
+          replacement: ''
+      origin:
+        actor: null
+        behavior: null
+        effect: null
+        item: null
+        message: null
+      magical: true
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.1
+      lastModifiedBy: magehandpress000
+      createdTime: 1789423572763
+      modifiedTime: 1789423572763
+    start: null
+    showIcon: 1
+    folder: null
+    _key: '!items.effects!mhpTricMagicMome.mhpMagicMoment00'
+sort: 800000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  createdTime: 1789423572763
+  modifiedTime: 1789423572764
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpTricMagicMome'

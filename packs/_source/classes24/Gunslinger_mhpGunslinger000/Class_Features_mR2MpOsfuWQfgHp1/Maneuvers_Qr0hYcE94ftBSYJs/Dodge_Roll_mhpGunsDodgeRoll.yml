@@ -1,0 +1,116 @@
+folder: Qr0hYcE94ftBSYJs
+name: Dodge Roll
+type: feat
+_id: mhpGunsDodgeRoll
+img: icons/skills/movement/ball-spinning-blue.webp
+system:
+  activities:
+    iyfjESWhLll4lFA8:
+      type: utility
+      name: Dodge Roll
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: feat:risk
+            scaling: {}
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+        value: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      _id: iyfjESWhLll4lFA8
+      img: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      behaviors: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>You can expend one Risk Die as a Bonus Action to move up to 15 feet and reload any Ranged
+      weapon you are holding. This movement doesn’t provoke &amp;Reference[Opportunity Attacks] and
+      is unaffected by &amp;Reference[Difficult Terrain].</p>
+    chat: ''
+  identifier: dodge-roll
+  source:
+    revision: 1
+    rules: '2024'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: maneuver
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  createdTime: 1789423596138
+  modifiedTime: 1789423596139
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpGunsDodgeRoll'

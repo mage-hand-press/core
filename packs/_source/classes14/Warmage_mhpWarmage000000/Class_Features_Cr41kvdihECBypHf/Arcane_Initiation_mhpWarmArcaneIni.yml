@@ -1,0 +1,116 @@
+folder: Cr41kvdihECBypHf
+name: Arcane Initiation
+type: feat
+img: icons/sundries/books/book-open-brown.webp
+system:
+  description:
+    value: >-
+      <p>Warmages come from all backgrounds and walks of life. At 1st level, choose where you first
+      learned the basics of magic. The cantrips offered by your initiation don’t count against your
+      number of cantrips
+      known.</p><h5><strong>Adventurer</strong></h5><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpAdventurer000
+      inline]</p><h5>Circus
+      Performer</h5><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpCircusPerform
+      inline]</p><h5>Eldritch
+      Event</h5><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpEldritchEvent
+      inline]</p><h5>Mercenary</h5><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpMercenary0000
+      inline]</p><h5>Temple</h5><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpTemple0000000
+      inline]</p><h5>Tower
+      Apprentice</h5><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpTowerApprenti
+      inline]</p><h5>Self-Taught</h5><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpSelfTaught000
+      inline]</p><h5>Survival</h5><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpSurvival00000
+      inline]</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Warmage
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Warmage
+  properties: []
+  activities: {}
+  identifier: arcane-initiation
+  advancement:
+    gpXueEjeYh2OESRI:
+      _id: gpXueEjeYh2OESRI
+      type: ItemChoice
+      configuration:
+        choices:
+          '1':
+            count: 1
+            replacement: false
+        allowDrops: true
+        type: feat
+        pool:
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpAdventurer000
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpCircusPerform
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpEldritchEvent
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpMercenary0000
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpSelfTaught000
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpSurvival00000
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpTemple0000000
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpTowerApprenti
+            sort: 0
+        spell:
+          ability:
+            - ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+        restriction:
+          type: class
+          subtype: arcaneInitiation
+          level: ''
+          list: []
+          school: []
+        sorting: a
+      value:
+        added: {}
+        replaced: {}
+      hint: >-
+        <p>Warmages come from all backgrounds and walks of life. At 1st level, choose where you
+        first learned the basics of magic. The cantrips offered by your initiation don’t count
+        against your total number of warmage cantrips known.</p>
+      flags: {}
+      name: Arcane Initiation
+  enchant: {}
+  prerequisites:
+    level: 1
+    repeatable: false
+    items: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  createdTime: 1789423232903
+  modifiedTime: 1789423232903
+  lastModifiedBy: magehandpress000
+_id: mhpWarmArcaneIni
+sort: 200000
+ownership:
+  default: 0
+_key: '!items!mhpWarmArcaneIni'

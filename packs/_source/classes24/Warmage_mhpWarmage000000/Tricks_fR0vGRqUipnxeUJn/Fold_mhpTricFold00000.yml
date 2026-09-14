@@ -1,0 +1,80 @@
+folder: fR0vGRqUipnxeUJn
+name: Fold
+type: feat
+img: icons/magic/defensive/shield-barrier-blue.webp
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: Level 10+ Warmage, House of Cards</em></p><p>You have learned to
+      graciously accept defeat using your Deck of Fate. As a Reaction when you are hit by an attack,
+      you can play your entire hand to cast
+      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShield0000]{Shield}</em> without expending a
+      spell slot.</p><p>Once you use this trick, you can’t use it again until you finish a Short or
+      Long Rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Warmage
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2024'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: warmageTrick
+  requirements: ''
+  properties: []
+  activities: {}
+  identifier: fold
+  advancement:
+    JO1ezpdAxcU9jiXh:
+      type: ItemGrant
+      _id: JO1ezpdAxcU9jiXh
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.spells24.Item.phbsplShield0000
+            sort: 0
+        optional: false
+        spell:
+          ability: []
+          method: atwill
+          uses:
+            max: '1'
+            per: sr
+            requireSlot: false
+          prepared: 0
+        sorting: m
+      value: {}
+      level: 0
+      hint: ''
+      flags: {}
+      name: ''
+  enchant: {}
+  prerequisites:
+    level: 10
+    repeatable: false
+    items:
+      - subclass:house-cards
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  createdTime: 1789423572145
+  modifiedTime: 1789423572145
+  lastModifiedBy: magehandpress000
+_id: mhpTricFold00000
+sort: 4400000
+ownership:
+  default: 0
+_key: '!items!mhpTricFold00000'

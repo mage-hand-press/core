@@ -1,0 +1,81 @@
+folder: she62G4IwQURbt1a
+name: Mercenary
+type: feat
+img: icons/magic/water/strike-ice-blade-fang.webp
+system:
+  description:
+    value: >-
+      <p>You mastered the fundamentals of war magic to engage in battle with similarly armed
+      arcanists. You learn the
+      <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpSpelArcBlade0]{arc
+      blade}</em> and <em>@UUID[Compendium.dnd5e.spells.Item.mGGlcLdggHwcL7MG]{true strike}</em>
+      cantrips.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Warmage
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: arcaneInitiation
+  requirements: ''
+  properties: []
+  activities: {}
+  identifier: mercenary
+  advancement:
+    iTuVs8TWa2OJHd14:
+      type: ItemGrant
+      _id: iTuVs8TWa2OJHd14
+      configuration:
+        items:
+          - uuid: Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpSpelArcBlade0
+            optional: false
+            sort: 0
+          - uuid: Compendium.dnd5e.spells.Item.mGGlcLdggHwcL7MG
+            optional: false
+            sort: 0
+        optional: false
+        spell:
+          ability: []
+          method: warmage
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+        sorting: m
+      value: {}
+      level: 1
+      hint: ''
+      flags: {}
+      name: Initiation Spells
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+effects: []
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  createdTime: 1789423340287
+  modifiedTime: 1789423340287
+  lastModifiedBy: magehandpress000
+_id: mhpWarmMercenary
+sort: 250000
+ownership:
+  default: 0
+_key: '!items!mhpWarmMercenary'

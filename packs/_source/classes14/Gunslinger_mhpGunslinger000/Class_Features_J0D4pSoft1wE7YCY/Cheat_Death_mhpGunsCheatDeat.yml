@@ -1,0 +1,128 @@
+folder: J0D4pSoft1wE7YCY
+name: Cheat Death
+type: feat
+_id: mhpGunsCheatDeat
+img: icons/magic/death/hand-dirt-undead-zombie.webp
+system:
+  activities:
+    0Z1TpsRU4hV23FoK:
+      type: heal
+      _id: 0Z1TpsRU4hV23FoK
+      sort: 0
+      activation:
+        type: reaction
+        override: false
+        condition: When you drop to 0 hit points and don’t die outright
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: feat:risk
+            scaling: {}
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: '@scale.gunslinger.risk.die'
+        scaling:
+          number: 1
+        number: null
+        denomination: null
+        bonus: ''
+        modifiers: []
+      name: ''
+      img: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      behaviors: []
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
+  description:
+    value: >-
+      <p>By 15th level, you have a knack for evading the grave. When you drop to 0 hit points and
+      don’t die outright, you can use your reaction and expend one risk die to remain standing. You
+      instead drop to a number of hit points equal to the number rolled on the die.</p><p>Once you
+      use this feature, you can’t use it again until you finish a short or long rest.</p>
+    chat: ''
+  identifier: cheat-death
+  source:
+    revision: 1
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
+  advancement: {}
+  crewed: false
+  enchant: {}
+  prerequisites:
+    repeatable: false
+    level: 15
+    items: []
+  properties: []
+  requirements: Gunslinger
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  createdTime: 1789423247418
+  modifiedTime: 1789423247419
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpGunsCheatDeat'

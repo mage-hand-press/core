@@ -1,0 +1,138 @@
+folder: znl6yysvktjxe1w8
+name: Grazing Shot
+type: feat
+_id: mhpDeedGrazinSho
+img: icons/skills/wounds/injury-hand-blood-red.webp
+system:
+  activities:
+    FCbx1gEEH04JkJ5m:
+      type: damage
+      _id: FCbx1gEEH04JkJ5m
+      img: ''
+      sort: 0
+      activation:
+        type: reaction
+        override: false
+        condition: When you make a ranged attack against a target within the weapon’s norrmal range and miss
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: feat:risk
+            scaling: {}
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      effects: []
+      flags: {}
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: any
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: '@scale.gunslinger.risk.die'
+            number: null
+            denomination: null
+            bonus: ''
+            types:
+              - bludgeoning
+              - piercing
+              - slashing
+              - acid
+              - cold
+              - fire
+              - force
+              - lightning
+              - necrotic
+              - poison
+              - psychic
+              - radiant
+              - thunder
+            scaling:
+              number: 1
+            modifiers: []
+      name: Graze
+      behaviors: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>When you make a ranged attack against a target within the weapon’s normal range and miss,
+      you can spend a risk die as a reaction to deal damage to the target equal to the roll on the
+      die. This ability deals no damage if the attack roll misses the target’s AC by 10 or more.</p>
+    chat: ''
+  identifier: grazing-shot
+  source:
+    revision: 1
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: gunslingerDeed
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  createdTime: 1789423714151
+  modifiedTime: 1789423714152
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!mhpDeedGrazinSho'
