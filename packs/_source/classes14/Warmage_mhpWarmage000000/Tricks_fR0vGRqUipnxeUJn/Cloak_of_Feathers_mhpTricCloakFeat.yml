@@ -39,17 +39,12 @@ effects:
     _id: 02HAHzmntghFcqqH
     system:
       changes:
-        - key: system.attributes.ac.calc
+        - key: system.attributes.ac.formulas
           type: override
-          value: custom
-          phase: initial
-          priority: null
-          _id: FXcyWqgnOvSLHFqh
-          conditions: '{}'
-          replacement: ''
-        - key: system.attributes.ac.formula
-          type: override
-          value: 10 + @abilities.dex.mod + @abilities.int.mod
+          value:
+            formula: 10 + @abilities.dex.mod + @abilities.int.mod
+            armored: false
+            shielded: false
           phase: initial
           priority: null
           _id: nrD5Z2wGy61Bbt0U
@@ -87,7 +82,7 @@ effects:
       systemId: dnd5e
       systemVersion: 6.0.1
       createdTime: 1789423356041
-      modifiedTime: 1789423356041
+      modifiedTime: 1789426198697
       lastModifiedBy: magehandpress000
       compendiumSource: null
       duplicateSource: null

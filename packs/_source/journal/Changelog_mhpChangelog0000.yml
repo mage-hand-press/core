@@ -143,17 +143,20 @@ pages:
       content: >-
         <h3 data-no-toc>Version 2.0.0</h3><ul><li><p>[<a
         href="https://github.com/mage-hand-press/premium-content/issues/29" title="Add bonus to
-        check &amp; save activities">#29</a>] Add risk die bonus to Disguised Shot &amp; Fancy
-        Gunplay deeds for 5e Gunslinger</p></li><li><p>[<a
+        check &amp; save activities">#29</a>] Add risk die bonus to Disguised Shot (5e) &amp; Fancy
+        Gunplay (5e) deeds</p></li><li><p>[<a
         href="https://github.com/mage-hand-press/premium-content/issues/30" title="Add attack
-        advantage/disadvantage">#30</a>] Add attack disadvantage to Gut Shot for both
-        Gunslingers</p></li><li><p>[<a
-        href="https://github.com/mage-hand-press/premium-content/issues/39" title="Add teleport
-        activities">#39</a>] Use teleport activities for Bishop's Maneuver (5.5e) and Castle
-        (both)</p></li><li><p>[<a
+        advantage/disadvantage">#30</a>] Add attack disadvantage to Gut Shot (5e &amp;
+        5.5e)</p></li><li><p>[<a href="https://github.com/mage-hand-press/premium-content/issues/39"
+        title="Add teleport activities">#39</a>] Use teleport activities for Bishop's Maneuver
+        (5.5e) and Castle (5e &amp; 5.5e)</p></li><li><p>[<a
+        href="https://github.com/mage-hand-press/premium-content/issues/44" title="Make use of new
+        AC formula support">#44</a>] Update Cloak of Feathers (5e) to only work without armor &amp;
+        shield</p></li><li><p>[<a
         href="https://github.com/mage-hand-press/premium-content/issues/45" title="Use new
         &quot;Start/End of Source/Target's Next Turn&quot; expiry in AEs">#45</a>] Set start of turn
-        duration on Blinding Light &amp; Silent Cantrip tricks for both Warmages</p></li></ul>
+        duration on Blinding Light (5e &amp; 5.5e) &amp; Silent Cantrip (5e &amp; 5.5e)
+        tricks</p></li></ul>
     video:
       controls: true
       volume: 0.5
@@ -167,7 +170,7 @@ pages:
       systemId: dnd5e
       systemVersion: 6.0.1
       createdTime: 1789424703235
-      modifiedTime: 1789425936626
+      modifiedTime: 1789426281804
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null
