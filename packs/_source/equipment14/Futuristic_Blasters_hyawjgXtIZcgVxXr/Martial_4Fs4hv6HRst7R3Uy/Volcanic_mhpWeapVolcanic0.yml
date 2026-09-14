@@ -1,0 +1,175 @@
+folder: 4Fs4hv6HRst7R3Uy
+name: Volcanic
+type: weapon
+_id: mhpWeapVolcanic0
+img: icons/weapons/guns/pistol-smoking-orange.webp
+system:
+  activities:
+    MRaTqm92DH39B6Wl:
+      type: save
+      _id: MRaTqm92DH39B6Wl
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      effects: []
+      range:
+        units: self
+        override: true
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: cone
+          size: '15'
+          count: ''
+          stationary: false
+        affects:
+          choice: false
+          type: creature
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 6
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              number: 1
+            modifiers: []
+        onSave: none
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: ''
+          formula: '14'
+        visible: true
+      name: ''
+      img: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      behaviors: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Whenever you make an attack with this weapon, it spews flames in a 15-foot radius cone.
+      Each creature within that area must make a DC 14 Dexterity saving throw or take 2d6 fire
+      damage.</p>
+    chat: ''
+  identifier: volcanic
+  source:
+    revision: 1
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 10
+    units: lb
+  price:
+    value: 1000
+    denomination: gp
+  attunement: ''
+  attuned: false
+  equipped: false
+  ammunition: {}
+  armor: {}
+  damage:
+    base:
+      types:
+        - fire
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: 2
+      denomination: 6
+      bonus: ''
+      modifiers: []
+    versatile:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      modifiers: []
+  properties:
+    - blaster
+    - heat
+    - hvy
+    - spc
+    - two
+  proficient: null
+  range:
+    reach: null
+    units: ft
+    value: null
+    long: null
+  type:
+    value: martialFirearm
+    baseItem: volcanic
+  mastery: ''
+  crew:
+    value: []
+  rarities: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  createdTime: 1789423919716
+  modifiedTime: 1789423919717
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpWeapVolcanic0'

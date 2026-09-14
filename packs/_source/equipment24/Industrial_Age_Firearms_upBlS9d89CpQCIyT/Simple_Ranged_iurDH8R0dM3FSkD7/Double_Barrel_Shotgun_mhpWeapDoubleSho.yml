@@ -1,0 +1,153 @@
+folder: iurDH8R0dM3FSkD7
+name: Double-Barrel Shotgun
+type: weapon
+_id: mhpWeapDoubleSho
+img: icons/weapons/guns/gun-double-barrel.webp
+system:
+  activities:
+    NY2Oqf4NJTFoX882:
+      _id: NY2Oqf4NJTFoX882
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ''
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      name: ''
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: ''
+    chat: ''
+  identifier: double-barrel-shotgun
+  source:
+    revision: 1
+    rules: '2024'
+    book: Complete Gunslinger
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 8
+    units: lb
+  price:
+    value: 175
+    denomination: gp
+  attunement: ''
+  attuned: false
+  equipped: false
+  ammunition:
+    type: shell
+  armor: {}
+  damage:
+    base:
+      types:
+        - piercing
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: 2
+      denomination: 6
+      bonus: ''
+      modifiers: []
+    versatile:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      modifiers: []
+  properties:
+    - amm
+    - fir
+    - rel
+    - two
+  proficient: null
+  range:
+    reach: null
+    units: ft
+    value: 20
+    long: 60
+  type:
+    value: simpleR
+    baseItem: doubleBarrelShotgun
+  mastery: scatter
+  crew:
+    value: []
+  rarities: []
+effects: []
+sort: 100000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  createdTime: 1789423931014
+  modifiedTime: 1789423931015
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpWeapDoubleSho'

@@ -1,0 +1,69 @@
+folder: ZPxf0j1P94MnWsGW
+name: Rocket
+type: consumable
+_id: mhpAmmoRocket000
+img: icons/weapons/thrown/rocket.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: ''
+    chat: ''
+  identifier: rocket
+  source:
+    revision: 1
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 6
+    units: lb
+  price:
+    value: 20
+    denomination: gp
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: null
+      denomination: null
+      bonus: ''
+      modifiers: []
+    replace: false
+  properties: []
+  type:
+    value: ammo
+    subtype: rocket
+  rarities: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  createdTime: 1789423949393
+  modifiedTime: 1789423949394
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpAmmoRocket000'

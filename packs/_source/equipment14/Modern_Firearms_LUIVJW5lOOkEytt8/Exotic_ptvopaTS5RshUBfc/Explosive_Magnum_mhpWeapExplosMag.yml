@@ -1,0 +1,223 @@
+folder: ptvopaTS5RshUBfc
+name: Explosive Magnum
+type: weapon
+_id: mhpWeapExplosMag
+img: icons/weapons/guns/pistol-silenced-scope.webp
+system:
+  activities:
+    MHG2PxBKeEIqlXl6:
+      _id: MHG2PxBKeEIqlXl6
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ''
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      name: ''
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    DZGd8t12YmjLDIvo:
+      type: save
+      _id: DZGd8t12YmjLDIvo
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      effects: []
+      range:
+        units: self
+        override: true
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: sphere
+          size: '7.5'
+          count: ''
+          stationary: false
+        affects:
+          choice: false
+          type: creature
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: none
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: ''
+          formula: '14'
+        visible: true
+      name: Explode
+      img: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      behaviors: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: <h2></h2>
+    chat: ''
+  identifier: explosive-magnum
+  source:
+    revision: 1
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 8
+    units: lb
+  price:
+    value: 1250
+    denomination: gp
+  attunement: ''
+  attuned: false
+  equipped: false
+  ammunition:
+    type: firearmBullet
+  armor: {}
+  damage:
+    base:
+      types:
+        - fire
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: 2
+      denomination: 8
+      bonus: ''
+      modifiers: []
+    versatile:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      modifiers: []
+  properties:
+    - amm
+    - explosive
+    - hvy
+    - rel
+  proficient: null
+  range:
+    reach: null
+    units: ft
+    value: 50
+    long: 200
+  type:
+    value: exoticFirearm
+    baseItem: explosiveMagnum
+  mastery: ''
+  crew:
+    value: []
+  rarities: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  createdTime: 1789423918157
+  modifiedTime: 1789423918158
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpWeapExplosMag'

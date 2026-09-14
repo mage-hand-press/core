@@ -1,0 +1,156 @@
+folder: FwstaPVCJemDYJrL
+name: Repeater
+type: weapon
+_id: mhpWeapRepeater0
+img: icons/weapons/guns/pistol-auto-tech-teal.webp
+system:
+  activities:
+    qBWDdV15N8xDSpO2:
+      _id: qBWDdV15N8xDSpO2
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ''
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      name: ''
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>The quintessential handheld blaster, the Repeater is a staple on the Galactic Frontier.
+      Solid, reliable, and packing just enough firepower to bring down an assailant, nearly every
+      explorer worth their salt has one of these blasters strapped to their hip.</p>
+    chat: ''
+  identifier: repeater
+  source:
+    revision: 1
+    rules: '2024'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 3
+    units: lb
+  price:
+    value: 300
+    denomination: gp
+  attunement: ''
+  attuned: false
+  equipped: false
+  ammunition: {}
+  armor: {}
+  damage:
+    base:
+      types:
+        - radiant
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: 2
+      denomination: 6
+      bonus: ''
+      modifiers: []
+    versatile:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      modifiers: []
+  properties:
+    - blaster
+    - fir
+  proficient: null
+  range:
+    reach: null
+    units: ft
+    value: 60
+    long: 240
+  type:
+    value: martialR
+    baseItem: repeater
+  mastery: vex
+  crew:
+    value: []
+  rarities: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  createdTime: 1789423931390
+  modifiedTime: 1789423931390
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpWeapRepeater0'

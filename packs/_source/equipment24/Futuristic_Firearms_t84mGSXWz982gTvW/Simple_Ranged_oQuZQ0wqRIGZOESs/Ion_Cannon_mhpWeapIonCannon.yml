@@ -1,0 +1,155 @@
+folder: oQuZQ0wqRIGZOESs
+name: Ion Cannon
+type: weapon
+_id: mhpWeapIonCannon
+img: icons/weapons/guns/pistol-energy-blast.webp
+system:
+  activities:
+    rYEWm6LTs3cWKNPc:
+      _id: rYEWm6LTs3cWKNPc
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ''
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      name: ''
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>The Ion Cannon fires a bright, diffuse cone, rendering it deadly up close. Between shots,
+      it makes a quiet zipping noise, as the arcane battery charges the ion cell for another
+      blast.</p>
+    chat: ''
+  identifier: ion-cannon
+  source:
+    revision: 1
+    rules: '2024'
+    book: Complete Gunslinger
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 6
+    units: lb
+  price:
+    value: 275
+    denomination: gp
+  attunement: ''
+  attuned: false
+  equipped: false
+  ammunition: {}
+  armor: {}
+  damage:
+    base:
+      types:
+        - radiant
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: 2
+      denomination: 6
+      bonus: ''
+      modifiers: []
+    versatile:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      modifiers: []
+  properties:
+    - blaster
+    - fir
+    - recoil
+    - two
+  proficient: null
+  range:
+    reach: null
+    units: ft
+    value: 20
+    long: 60
+  type:
+    value: simpleR
+    baseItem: ionCannon
+  mastery: scatter
+  crew:
+    value: []
+  rarities: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  createdTime: 1789423931203
+  modifiedTime: 1789423931204
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpWeapIonCannon'

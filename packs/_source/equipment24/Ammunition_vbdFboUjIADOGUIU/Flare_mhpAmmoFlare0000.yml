@@ -1,0 +1,69 @@
+folder: vbdFboUjIADOGUIU
+name: Flare
+type: consumable
+_id: mhpAmmoFlare0000
+img: icons/magic/fire/projectile-fireball-orange-yellow.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: ''
+    chat: ''
+  identifier: flare
+  source:
+    revision: 1
+    rules: '2024'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 5
+  weight:
+    value: 1
+    units: lb
+  price:
+    value: 5
+    denomination: gp
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: null
+      denomination: null
+      bonus: ''
+      modifiers: []
+    replace: false
+  properties: []
+  type:
+    value: ammo
+    subtype: flare
+  rarities: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  createdTime: 1789423944823
+  modifiedTime: 1789423944823
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpAmmoFlare0000'

@@ -1,0 +1,69 @@
+folder: vbdFboUjIADOGUIU
+name: Shot
+type: consumable
+_id: mhpAmmoShot00000
+img: icons/weapons/ammunition/shot-round-blue.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: true
+    max: ''
+  description:
+    value: ''
+    chat: ''
+  identifier: shot
+  source:
+    revision: 1
+    rules: '2024'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 10
+  weight:
+    value: 0.5
+    units: lb
+  price:
+    value: 1
+    denomination: gp
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: null
+      denomination: null
+      bonus: ''
+      modifiers: []
+    replace: false
+  properties: []
+  type:
+    value: ammo
+    subtype: shot
+  rarities: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  createdTime: 1789423944926
+  modifiedTime: 1789423944926
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpAmmoShot00000'

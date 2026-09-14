@@ -1,0 +1,166 @@
+folder: y2nFtf5VzZ4r3odx
+name: Blunderbuss
+type: weapon
+_id: mhpWeapBlunderbu
+img: icons/weapons/guns/gun-blunderbuss-gold.webp
+system:
+  activities:
+    0zEj4a0ccWbJUs9D:
+      _id: 0zEj4a0ccWbJUs9D
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ''
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      name: ''
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <section id="secret-WTDbrWMy72gzy5EP" class="secret"><p><strong>Foundry
+      Note</strong></p><p>For the Scatter property, use the "Two-Handed" attack mode for attacks
+      within half this weapon’s normal range and "One-Handed" attack mode for attacks beyond that
+      range.</p></section>
+    chat: ''
+  identifier: blunderbuss
+  source:
+    revision: 1
+    rules: '2014'
+    book: Complete Gunslinger
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 8
+    units: lb
+  price:
+    value: 180
+    denomination: gp
+  attunement: ''
+  attuned: false
+  equipped: false
+  ammunition:
+    type: blunderbussShot
+  armor: {}
+  damage:
+    base:
+      types:
+        - piercing
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: 2
+      denomination: 8
+      bonus: ''
+      modifiers: []
+    versatile:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: null
+      denomination: null
+      bonus: ''
+      modifiers: []
+  properties:
+    - amm
+    - dry
+    - hvy
+    - lod
+    - misfire
+    - scatter
+    - two
+  proficient: null
+  range:
+    reach: null
+    units: ft
+    value: 30
+    long: 90
+  type:
+    value: martialFirearm
+    baseItem: blunderbuss
+  mastery: ''
+  crew:
+    value: []
+  rarities: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  createdTime: 1789423916419
+  modifiedTime: 1789423916420
+  lastModifiedBy: magehandpress000
+_key: '!items!mhpWeapBlunderbu'
