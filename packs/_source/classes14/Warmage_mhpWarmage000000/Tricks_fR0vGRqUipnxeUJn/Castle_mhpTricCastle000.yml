@@ -33,7 +33,7 @@ system:
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
-      type: utility
+      type: teleport
       activation:
         type: action
         value: 1
@@ -92,7 +92,7 @@ system:
         prompt: false
         visible: false
       sort: 0
-      name: Teleport
+      name: ''
       flags: {}
       visibility:
         level:
@@ -121,7 +121,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 6.0.1
   createdTime: 1789423355854
-  modifiedTime: 1789423355855
+  modifiedTime: 1789425828399
   lastModifiedBy: magehandpress000
 _id: mhpTricCastle000
 sort: 400000

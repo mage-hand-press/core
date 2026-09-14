@@ -33,7 +33,7 @@ system:
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
-      type: utility
+      type: teleport
       activation:
         type: action
         value: 1
@@ -92,14 +92,17 @@ system:
         prompt: false
         visible: false
       sort: 0
-      name: Teleport
+      name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-      img: null
+        identifier: ''
+      img: ''
       behaviors: []
   identifier: castle
   advancement: {}
@@ -118,7 +121,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 6.0.1
   createdTime: 1789423571061
-  modifiedTime: 1789423571061
+  modifiedTime: 1789425831784
   lastModifiedBy: magehandpress000
 _id: mhpTricCastle000
 sort: 4100000

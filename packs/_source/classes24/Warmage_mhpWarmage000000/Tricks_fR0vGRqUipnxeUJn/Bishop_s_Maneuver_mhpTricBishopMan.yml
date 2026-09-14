@@ -30,7 +30,7 @@ system:
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
-      type: utility
+      type: teleport
       activation:
         type: bonus
         value: 1
@@ -91,14 +91,17 @@ system:
         prompt: false
         visible: false
       sort: 0
-      name: Teleport
+      name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-      img: null
+        identifier: ''
+      img: ''
       behaviors: []
   identifier: bishops-maneuver
   advancement: {}
@@ -108,58 +111,7 @@ system:
     repeatable: false
     items:
       - subclass:house-bishops
-effects:
-  - origin: Item.waXMQ85X4zvxmeqi
-    duration:
-      value: 1
-      units: turns
-      expiry: turnStart
-      expired: false
-    disabled: true
-    _id: mhpBishopsManeuv
-    tint: '#ffffff'
-    transfer: true
-    flags: {}
-    name: Bishop's Maneuver
-    description: ''
-    statuses: []
-    _stats:
-      compendiumSource: Item.hllQJIH2OUCpyGZm.ActiveEffect.lit9OHU3cr66Xxrj
-      duplicateSource: null
-      exportSource: null
-      coreVersion: '14.367'
-      systemId: dnd5e
-      systemVersion: 6.0.1
-      lastModifiedBy: magehandpress000
-      createdTime: 1789423570740
-      modifiedTime: 1789423570740
-    img: icons/magic/nature/wolf-paw-glow-large-green.webp
-    type: base
-    system:
-      changes:
-        - key: system.attributes.movement.walk
-          value: 10
-          priority: null
-          type: add
-          phase: initial
-          _id: tupkChHkoxTKqHa4
-          conditions: '{}'
-          replacement: ''
-      origin:
-        actor: null
-        behavior: null
-        effect: null
-        item: null
-        message: null
-      conditions: '{}'
-      magical: false
-      rider:
-        statuses: []
-    sort: 0
-    start: null
-    showIcon: 1
-    folder: null
-    _key: '!items.effects!mhpTricBishopMan.mhpBishopsManeuv'
+effects: []
 flags: {}
 _stats:
   duplicateSource: null
@@ -168,7 +120,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 6.0.1
   createdTime: 1789423570740
-  modifiedTime: 1789423570740
+  modifiedTime: 1789425505247
   lastModifiedBy: magehandpress000
 _id: mhpTricBishopMan
 sort: 4000000

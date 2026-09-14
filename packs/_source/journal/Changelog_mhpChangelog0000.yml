@@ -148,6 +148,9 @@ pages:
         href="https://github.com/mage-hand-press/premium-content/issues/30" title="Add attack
         advantage/disadvantage">#30</a>] Add attack disadvantage to Gut Shot for both
         Gunslingers</p></li><li><p>[<a
+        href="https://github.com/mage-hand-press/premium-content/issues/39" title="Add teleport
+        activities">#39</a>] Use teleport activities for Bishop's Maneuver (5.5e) and Castle
+        (both)</p></li><li><p>[<a
         href="https://github.com/mage-hand-press/premium-content/issues/45" title="Use new
         &quot;Start/End of Source/Target's Next Turn&quot; expiry in AEs">#45</a>] Set start of turn
         duration on Blinding Light &amp; Silent Cantrip tricks for both Warmages</p></li></ul>
@@ -164,7 +167,7 @@ pages:
       systemId: dnd5e
       systemVersion: 6.0.1
       createdTime: 1789424703235
-      modifiedTime: 1789425273331
+      modifiedTime: 1789425936626
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null
