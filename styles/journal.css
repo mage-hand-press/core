@@ -50,6 +50,10 @@
 		}
 	}
 
+	.notable {
+		display: flow-root;
+	}
+
 	.item-entry-details {
 		.item-entry-tag {
 			margin-block-start: 0;
