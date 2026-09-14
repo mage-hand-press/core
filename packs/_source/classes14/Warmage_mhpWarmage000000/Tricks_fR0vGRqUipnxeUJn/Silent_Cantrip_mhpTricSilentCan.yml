@@ -52,7 +52,7 @@ system:
         units: round
         special: ''
         override: false
-        expiry: null
+        expiry: sourceStart
       effects: []
       range:
         units: any
@@ -113,7 +113,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 6.0.1
   createdTime: 1789423358426
-  modifiedTime: 1789423358426
+  modifiedTime: 1789425221326
   lastModifiedBy: magehandpress000
 _id: mhpTricSilentCan
 sort: 2800000

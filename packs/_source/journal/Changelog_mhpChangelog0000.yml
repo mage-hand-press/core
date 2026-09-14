@@ -144,7 +144,13 @@ pages:
         <h3 data-no-toc>Version 2.0.0</h3><ul><li><p>[<a
         href="https://github.com/mage-hand-press/premium-content/issues/29" title="Add bonus to
         check &amp; save activities">#29</a>] Add risk die bonus to Disguised Shot &amp; Fancy
-        Gunplay deeds for 5e Gunslinger</p></li></ul>
+        Gunplay deeds for 5e Gunslinger</p></li><li><p>[<a
+        href="https://github.com/mage-hand-press/premium-content/issues/30" title="Add attack
+        advantage/disadvantage">#30</a>] Add attack disadvantage to Gut Shot for both
+        Gunslingers</p></li><li><p>[<a
+        href="https://github.com/mage-hand-press/premium-content/issues/45" title="Use new
+        &quot;Start/End of Source/Target's Next Turn&quot; expiry in AEs">#45</a>] Set start of turn
+        duration on Blinding Light &amp; Silent Cantrip tricks for both Warmages</p></li></ul>
     video:
       controls: true
       volume: 0.5
@@ -158,7 +164,7 @@ pages:
       systemId: dnd5e
       systemVersion: 6.0.1
       createdTime: 1789424703235
-      modifiedTime: 1789424821675
+      modifiedTime: 1789425273331
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null
