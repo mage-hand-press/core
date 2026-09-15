@@ -1,3 +1,6 @@
+/**
+ * Initialize Firearms damage modifier handling.
+ */
 export function initialize() {
 	if ( !game.settings.get("mage-hand-press-core", "firearmModifier") ) return;
 	super_processDamagePart = dnd5e.documents.activity.AttackActivity.prototype._processDamagePart;
@@ -8,6 +11,7 @@ export function initialize() {
 
 let super_processDamagePart;
 
+/** @override */
 function _processDamagePart(damage, rollConfig, rollData, index=0, options={}) {
 	const roll = super_processDamagePart.call(this, damage, rollConfig, rollData, index, options);
 

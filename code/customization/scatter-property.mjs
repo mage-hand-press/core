@@ -1,3 +1,6 @@
+/**
+ * Initialize support for Scatter property on weapons.
+ */
 export function initialize() {
 	if ( !game.settings.get("mage-hand-press-core", "gunslinger").customization ) return;
 

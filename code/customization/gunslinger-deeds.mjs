@@ -1,5 +1,8 @@
 import { firearmEras } from "../config/gunslinger.mjs";
 
+/**
+ * Initialize list of deeds on Gunslinger's Risk feature based on selected eras.
+ */
 export function initialize() {
 	Hooks.on("dnd5e.initializeItemSource", setGunslingerDeeds);
 }

@@ -13,7 +13,11 @@
 			"Shot": "Shot"
 		},
 		"AuxiliaryLevel": {
-			"Label": "Auxiliary Level"
+			"Label": "Auxiliary Level",
+			"Warning": {
+				"NotFirstClass": "You cannot take an auxiliary level without first having a regular class level.",
+				"OnlyOneLevel": "Auxiliary levels cannot be leveled up."
+			}
 		},
 		"Gunslinger": {
 			"Deed": "Deed",

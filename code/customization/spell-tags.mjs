@@ -1,3 +1,6 @@
+/**
+ * Initialize rendering of spell tags in embeds.
+ */
 export function initialize() {
 	Hooks.on("dnd5e.renderEmbeddedSpell", renderEmbeddedSpell);
 }
