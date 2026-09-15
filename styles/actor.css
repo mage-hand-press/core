@@ -1,0 +1,9 @@
+.actor.sheet {
+	[data-application-part="grafts"] {
+		.items-header .item-name .slot-count {
+			margin-inline-start: auto;
+			margin-inline-end: 8px;
+			font-family: var(--dnd5e-font-roboto-condensed);
+		}
+	}
+}

@@ -43,7 +43,7 @@ pages:
     text:
       format: 1
       content: >-
-        <h3 data-no-toc>Version 1.0.1</h3><ul><li><p>Fix permissions issue with journal
+        <h3 data-no-toc>Version 1.0.1</h3><ul><li><p>Fixed permissions issue with journal
         compendium</p></li><li><p>[<a
         href="https://github.com/mage-hand-press/premium-content/issues/31" title="Warmage Edge not
         properly gated behind setting">#31</a>] Properly gate Warmage Edge behind
@@ -57,11 +57,11 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.365'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1784232090831
-      modifiedTime: 1784232186971
+      modifiedTime: 1789504913429
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null
@@ -80,7 +80,7 @@ pages:
       content: >-
         <h3 data-no-toc>Version 1.1.0</h3><ul><li><p>[<a
         href="https://github.com/mage-hand-press/premium-content/issues/32" title="Implement
-        Gunslinger base class">#32</a>] Implement Gunslinger base class</p></li></ul>
+        Gunslinger base class">#32</a>] Implemented Gunslinger base class</p></li></ul>
     video:
       controls: true
       volume: 0.5
@@ -90,11 +90,11 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.365'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1784233659109
-      modifiedTime: 1784233707077
+      modifiedTime: 1789504907200
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null
@@ -110,7 +110,9 @@ pages:
     image: {}
     text:
       format: 1
-      content: <h3 data-no-toc>Version 1.1.1</h3><ul><li><p>Fix manifest link in module.json</p></li></ul>
+      content: >-
+        <h3 data-no-toc>Version 1.1.1</h3><ul><li><p>Fixed manifest link in
+        module.json</p></li></ul>
     video:
       controls: true
       volume: 0.5
@@ -120,11 +122,11 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.365'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1786312463242
-      modifiedTime: 1786312492287
+      modifiedTime: 1789504901075
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null
@@ -143,20 +145,28 @@ pages:
       content: >-
         <h3 data-no-toc>Version 2.0.0</h3><ul><li><p>[<a
         href="https://github.com/mage-hand-press/premium-content/issues/29" title="Add bonus to
-        check &amp; save activities">#29</a>] Add risk die bonus to Disguised Shot (5e) &amp; Fancy
-        Gunplay (5e) deeds</p></li><li><p>[<a
+        check &amp; save activities">#29</a>] Added risk die bonus to Disguised Shot (5e) &amp;
+        Fancy Gunplay (5e) deeds</p></li><li><p>[<a
         href="https://github.com/mage-hand-press/premium-content/issues/30" title="Add attack
-        advantage/disadvantage">#30</a>] Add attack disadvantage to Gut Shot (5e &amp;
+        advantage/disadvantage">#30</a>] Added attack disadvantage to Gut Shot (5e &amp;
         5.5e)</p></li><li><p>[<a href="https://github.com/mage-hand-press/premium-content/issues/39"
-        title="Add teleport activities">#39</a>] Use teleport activities for Bishop's Maneuver
-        (5.5e) and Castle (5e &amp; 5.5e)</p></li><li><p>[<a
+        title="Add teleport activities">#39</a>] Switched to teleport activities for Bishop's
+        Maneuver (5.5e) and Castle (5e &amp; 5.5e)</p></li><li><p>[<a
         href="https://github.com/mage-hand-press/premium-content/issues/44" title="Make use of new
-        AC formula support">#44</a>] Update Cloak of Feathers (5e) to only work without armor &amp;
+        AC formula support">#44</a>] Updated Cloak of Feathers (5e) to only work without armor &amp;
         shield</p></li><li><p>[<a
         href="https://github.com/mage-hand-press/premium-content/issues/45" title="Use new
         &quot;Start/End of Source/Target's Next Turn&quot; expiry in AEs">#45</a>] Set start of turn
         duration on Blinding Light (5e &amp; 5.5e) &amp; Silent Cantrip (5e &amp; 5.5e)
-        tricks</p></li></ul>
+        tricks</p></li><li><p>[<a
+        href="https://github.com/mage-hand-press/premium-content/issues/53" title="Add support for
+        Auxiliary Levels">#53</a>] Implemented Auxiliary Levels support</p></li><li><p>[<a
+        href="https://github.com/mage-hand-press/premium-content/issues/54" title="Add exotic weapon
+        categories for non-firearms">#54</a>] Added Exotic Simple and Exotic Martial weapon
+        categories, adjust ordering</p></li><li><p>[<a
+        href="https://github.com/mage-hand-press/premium-content/issues/55" title="Add support for
+        Monstrous Grafts">#55</a>] Added Monstrous Graft equipment &amp; weapon types, graft tab on
+        actor sheets</p></li></ul>
     video:
       controls: true
       volume: 0.5
@@ -170,7 +180,7 @@ pages:
       systemId: dnd5e
       systemVersion: 6.0.1
       createdTime: 1789424703235
-      modifiedTime: 1789426281804
+      modifiedTime: 1789504893800
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null

@@ -19,6 +19,8 @@ export function initialize() {
 }
 
 /* -------------------------------------------- */
+/*  Updates                                     */
+/* -------------------------------------------- */
 
 /**
  * Prevent selecting an auxiliary level without first having another class.
@@ -50,6 +52,8 @@ function preUpdateItem(item, updates, options) {
 	}
 }
 
+/* -------------------------------------------- */
+/*  Rendering                                   */
 /* -------------------------------------------- */
 
 /**
