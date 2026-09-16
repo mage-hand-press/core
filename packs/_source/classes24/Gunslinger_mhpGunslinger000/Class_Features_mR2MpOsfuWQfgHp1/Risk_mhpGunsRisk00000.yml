@@ -18,11 +18,9 @@ system:
       Risk Die is expended when you use it. You regain all expended Risk Dice when you finish a
       Short or Long Rest. Your Risk Die changes and more Risk Dice become available as shown on the
       Risk Dice column of the Gunslinger Features table.</p><p><em><strong>Maneuvers.</strong></em>
-      You can expend Risk Dice to perform maneuvers. Your maneuver options are detailed
-      @UUID[Compendium.mage-hand-press-core.journal.JournalEntry.mhpGunslinger55e.JournalEntryPage.mhpManeuverOptio]{later
-      in the class description}.</p><p><em><strong>Saving Throws.</strong></em> If a maneuver
-      requires a saving throw, the DC equals 8 plus your Dexterity modifier and Proficiency
-      Bonus.</p>
+      You can expend Risk Dice to perform maneuvers. Your maneuver options are detailed later in the
+      class description.</p><p><em><strong>Saving Throws.</strong></em> If a maneuver requires a
+      saving throw, the DC equals 8 plus your Dexterity modifier and Proficiency Bonus.</p>
     chat: ''
   identifier: risk
   source:
@@ -85,8 +83,8 @@ _stats:
   exportSource: null
   coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 6.0.1
+  systemVersion: 6.0.2
   createdTime: 1789423553203
-  modifiedTime: 1789423553203
+  modifiedTime: 1789592490524
   lastModifiedBy: magehandpress000
 _key: '!items!mhpGunsRisk00000'

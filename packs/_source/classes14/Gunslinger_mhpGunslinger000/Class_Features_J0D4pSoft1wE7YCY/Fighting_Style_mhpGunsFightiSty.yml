@@ -13,23 +13,14 @@ system:
     value: >-
       <p>You adopt a particular style of gunfighting as your specialty. Choose one of the following
       options. You can’t take a Fighting Style option more than once, even if you later get to
-      choose again.</p>
-
-      <h5>Akimbo</h5>
-
-      <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpAkimbo0000000 inline]</p>
-
-      <h5>Bullseye</h5>
-
-      <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpBullseye00000 inline]</p>
-
-      <h5>Duelist</h5>
-
-      <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpDuelist000000 inline]</p>
-
-      <h5>Shotgunner</h5>
-
-      <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpShotgunner000 inline]</p>
+      choose again.</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpAkimbo0000000
+      caption=false cite=false
+      nameStyle=h5]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpBullseye00000
+      caption=false cite=false
+      nameStyle=h5]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpDuelist000000
+      caption=false cite=false
+      nameStyle=h5]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpShotgunner000
+      caption=false cite=false nameStyle=h5]</p>
     chat: ''
   identifier: fighting-style
   source:
@@ -96,8 +87,8 @@ _stats:
   exportSource: null
   coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 6.0.1
+  systemVersion: 6.0.2
   createdTime: 1789423245745
-  modifiedTime: 1789423245746
+  modifiedTime: 1789592329787
   lastModifiedBy: magehandpress000
 _key: '!items!mhpGunsFightiSty'

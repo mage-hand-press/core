@@ -149,9 +149,12 @@ pages:
         Fancy Gunplay (5e) deeds</p></li><li><p>[<a
         href="https://github.com/mage-hand-press/premium-content/issues/30" title="Add attack
         advantage/disadvantage">#30</a>] Added attack disadvantage to Gut Shot (5e &amp;
-        5.5e)</p></li><li><p>[<a href="https://github.com/mage-hand-press/premium-content/issues/39"
-        title="Add teleport activities">#39</a>] Switched to teleport activities for Bishop's
-        Maneuver (5.5e) and Castle (5e &amp; 5.5e)</p></li><li><p>[<a
+        5.5e)</p></li><li><p>[<a href="https://github.com/mage-hand-press/premium-content/issues/34"
+        title="Add area of effect region behaviors">#34</a>] Silent Cantrip (5e &amp; 5.5e) now adds
+        Silenced effect to anyone in region</p></li><li><p>[<a
+        href="https://github.com/mage-hand-press/premium-content/issues/39" title="Add teleport
+        activities">#39</a>] Switched to teleport activities for Bishop's Maneuver (5.5e) and Castle
+        (5e &amp; 5.5e)</p></li><li><p>[<a
         href="https://github.com/mage-hand-press/premium-content/issues/44" title="Make use of new
         AC formula support">#44</a>] Updated Cloak of Feathers (5e) to only work without armor &amp;
         shield</p></li><li><p>[<a
@@ -166,7 +169,11 @@ pages:
         categories, adjust ordering</p></li><li><p>[<a
         href="https://github.com/mage-hand-press/premium-content/issues/55" title="Add support for
         Monstrous Grafts">#55</a>] Added Monstrous Graft equipment &amp; weapon types, graft tab on
-        actor sheets</p></li></ul>
+        actor sheets</p></li><li><p>[<a
+        href="https://github.com/mage-hand-press/premium-content/issues/56" title="Use enchantments
+        to add new abilities to attack activity">#56</a>] Signature Focus now adds to attack's
+        ability options, rather than just replacing</p></li><li><p>Remove unused effects from
+        Blindfire &amp; Opening Move</p></li></ul>
     video:
       controls: true
       volume: 0.5
@@ -180,7 +187,7 @@ pages:
       systemId: dnd5e
       systemVersion: 6.0.1
       createdTime: 1789424703235
-      modifiedTime: 1789504893800
+      modifiedTime: 1789592606315
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null

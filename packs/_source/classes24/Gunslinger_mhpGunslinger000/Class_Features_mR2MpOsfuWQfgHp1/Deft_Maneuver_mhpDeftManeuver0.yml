@@ -20,6 +20,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
+            target: ''
             scaling: {}
       description:
         chatFlavor: ''
@@ -52,14 +53,17 @@ system:
         visible: false
         name: ''
         formula: ''
-      name: ''
+      name: Maneuver
       img: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
   uses:
     spent: 0
     recovery:
@@ -70,8 +74,7 @@ system:
   description:
     value: >-
       <p>You gain a special additional Bonus Action that you can take once on each of your turns.
-      You can take this special Bonus Action only to use a
-      @UUID[Compendium.mage-hand-press-core.classes24.Item.mhpManeuvers0000]{maneuver}.</p>
+      You can take this special Bonus Action only to use a maneuver.</p>
     chat: ''
   identifier: deft-maneuver
   source:
@@ -100,10 +103,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.3.3
+  systemVersion: 6.0.2
   createdTime: 1775254056548
-  modifiedTime: 1783118733189
+  modifiedTime: 1789592444496
   lastModifiedBy: magehandpress000
 _key: '!items!mhpDeftManeuver0'
