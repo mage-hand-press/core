@@ -92,7 +92,7 @@ function preRenderCharacterActorSheet(sheet, context, options) {
 			if ( !graftSlot.free ) slot.occupied++;
 		}
 	}
-	context.itemCategories.inventory = context.itemCategories.inventory.filter(i =>
+	context.itemCategories.inventory = context.itemCategories.inventory?.filter(i =>
 		(i.type !== "equipment") || !isGraft(i)
 	);
 

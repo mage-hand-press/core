@@ -1,3 +1,6 @@
+/**
+ * Initialize Mankiller & Overkill automation.
+ */
 export function initialize() {
 	if ( !game.settings.get("mage-hand-press-core", "gunslinger").mankillerOverkill ) return;
 	super_processDamagePart = dnd5e.documents.activity.AttackActivity.prototype._processDamagePart;

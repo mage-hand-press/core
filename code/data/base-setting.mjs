@@ -9,9 +9,9 @@ export default class BaseSettingData extends foundry.abstract.DataModel {
 
 	/**
 	 * Perform customization on field before it is displayed in the form.
-	 * @param {DataField} field - Data field being added to the form.
-	 * @param {object} data - Data passed to template to render the field in the form.
-	 * @returns {false|void} - Return `false` to prevent field from rendering.
+	 * @param {DataField} field  Data field being added to the form.
+	 * @param {object} data      Data passed to template to render the field in the form.
+	 * @returns {false|void}     Return `false` to prevent field from rendering.
 	 */
 	customizeField(field, data) {}
 
@@ -19,9 +19,9 @@ export default class BaseSettingData extends foundry.abstract.DataModel {
 
 	/**
 	 * Recursively build up fields for behavior data models.
-	 * @param {object} source - Source data for the activity behavior.
+	 * @param {object} source              Source data for the activity behavior.
 	 * @param {object} [options={}]
-	 * @param {string} [options.prefix=""] - Prefix added before each field's name.
+	 * @param {string} [options.prefix=""] Prefix added before each field's name.
 	 * @yields object
 	 */
 	*generateFields(source, { prefix="", ...options }={}) {

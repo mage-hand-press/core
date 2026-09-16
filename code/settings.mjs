@@ -1,6 +1,9 @@
 import SettingsConfig from "./applications/settings-config.mjs";
 import * as SettingsData from "./data/_module.mjs";
 
+/**
+ * Initialize settings.
+ */
 export function initialize() {
 	// General
 	game.settings.register("mage-hand-press-core", "auxiliaryLevels", {

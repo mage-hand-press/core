@@ -13,6 +13,9 @@ export default class WarmageSpellcasting extends dnd5e.dataModels.spellcasting.S
 
 	/* -------------------------------------------- */
 
+	/**
+	 * Set up Warmage spellcasting in config.
+	 */
 	static initialize() {
 		if ( !game.settings.get("mage-hand-press-core", "warmage").customization ) return;
 
@@ -30,7 +33,4 @@ export default class WarmageSpellcasting extends dnd5e.dataModels.spellcasting.S
 			}
 		};
 	}
-
-	// TODO: Remove this stub method when switching to DnD5e 6.0
-	prepareSlots(spells, actor, progression) {}
 }

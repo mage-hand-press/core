@@ -14,6 +14,6 @@ export default class WarmageSettingData extends BaseSettingData {
 		return {
 			customization: new BooleanField({ initial: true }),
 			warmageEdge: new BooleanField({ initial: true })
-		}
+		};
 	}
 }

@@ -16,7 +16,7 @@ export default class GunslingerSettingData extends BaseSettingData {
 			customization: new BooleanField({ initial: true }),
 			eras: new SetField(new StringField(), { initial: ["renaissance", "industrialAge", "modern", "futuristic"] }),
 			mankillerOverkill: new BooleanField({ initial: true })
-		}
+		};
 	}
 
 	/* -------------------------------------------- */

@@ -1,5 +1,8 @@
 const { Die, NumericTerm, OperatorTerm } = foundry.dice.terms;
 
+/**
+ * Initialize Warmage Edge automation.
+ */
 export function initialize() {
 	if ( !game.settings.get("mage-hand-press-core", "warmage").warmageEdge ) return;
 
@@ -13,7 +16,7 @@ export function initialize() {
 
 /**
  * Add flag indicating whether Warmage Edge should be used by default.
- * @param {DamageRollProcessConfiguration} config
+ * @param {DamageRollProcessConfiguration} process
  * @param {BasicRollDialogConfiguration} dialog
  * @param {BasicRollMessageConfiguration} message
  */

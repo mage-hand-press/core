@@ -1,3 +1,6 @@
+/**
+ * Set up compendium UUID redirects based on which modules are enabled.
+ */
 export function initialize() {
 	Object.assign(CONFIG.compendium.uuidRedirects, base);
 

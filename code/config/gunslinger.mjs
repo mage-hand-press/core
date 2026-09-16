@@ -1,3 +1,6 @@
+/**
+ * Initialize Gunslinger configuration changes.
+ */
 export function initialize() {
 	if ( !game.settings.get("mage-hand-press-core", "gunslinger").customization ) return;
 	Object.assign(CONFIG.DND5E.featureTypes.class.subtypes, featureTypes.class);
@@ -65,7 +68,7 @@ export const firearmEras = {
 		label: "MageHandPress.Gunslinger.Era.Modern",
 		weapons: new Set([
 			"antiMaterialRifle", "assaultRifle", "assaultShotgun", "bayonet", "briefcaseGun", "doubleBarrelShotgun",
-			"explosiveMagnum", "flareGun", "handgun" ,"huntingRifle", "gatlingGun", "grenadeLauncher",
+			"explosiveMagnum", "flareGun", "handgun", "huntingRifle", "gatlingGun", "grenadeLauncher",
 			"lightMachineGun", "machinePistol", "magnum", "multiRocketLauncher", "parlorGun", "pumpShotgun",
 			"revolver", "revolvingGrenadeLauncher", "rocketLauncher", "sawedOffShotgun", "sniperRifle", "submachineGun"
 		])

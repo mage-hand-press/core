@@ -1,3 +1,6 @@
+/**
+ * Initialize General configuration changes.
+ */
 export function initialize() {
 	Object.assign(CONFIG.DND5E.itemProperties, itemProperties);
 	validProperties.spell.forEach(p => CONFIG.DND5E.validProperties.spell.add(p));
