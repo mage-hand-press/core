@@ -52,14 +52,17 @@ system:
         visible: false
         name: ''
         formula: ''
-      name: ''
+      name: Prepare
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-      img: null
+        identifier: ''
+      img: ''
       behaviors: []
   uses:
     spent: 0
@@ -101,10 +104,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.367'
+  coreVersion: '14.368'
   systemId: dnd5e
-  systemVersion: 6.0.1
+  systemVersion: 6.0.2
   createdTime: 1789423571307
-  modifiedTime: 1789423571307
+  modifiedTime: 1789589551476
   lastModifiedBy: magehandpress000
 _key: '!items!mhpTricContinCan'

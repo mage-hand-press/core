@@ -50,12 +50,16 @@ system:
     value: >-
       <p>Warmages learn that magic is the purest of weapons, and can be wielded just as easily as
       any other. At 1st level, choose one of the following fighting
-      styles:</p><h5>Blaster</h5><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpBlaster000000
-      inline]</p><h5>Deflector</h5><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpDeflector0000
-      inline]</p><h5>Resistive</h5><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpResistive0000
-      inline]</p><h5>Sniper</h5><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpSniper0000000
-      inline]</p><h5>Striker</h5><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpStriker000000
-      inline]</p>
+      styles:</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpBlaster000000
+      caption=false cite=false
+      nameStyle=h5]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpDeflector0000
+      caption=false cite=false
+      nameStyle=h5]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpResistive0000
+      caption=false cite=false
+      nameStyle=h5]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpSniper0000000
+      caption=false cite=false
+      nameStyle=h5]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpStriker000000
+      caption=false cite=false nameStyle=h5]</p>
     chat: ''
   identifier: arcane-fighting-style
   source:
@@ -80,10 +84,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.367'
+  coreVersion: '14.368'
   systemId: dnd5e
-  systemVersion: 6.0.1
+  systemVersion: 6.0.2
   createdTime: 1789423233225
-  modifiedTime: 1789423233226
+  modifiedTime: 1789589119085
   lastModifiedBy: magehandpress000
 _key: '!items!mhpWarmArcaneFig'

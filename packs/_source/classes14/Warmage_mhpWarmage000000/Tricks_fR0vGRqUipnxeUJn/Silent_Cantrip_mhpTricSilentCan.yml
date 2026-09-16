@@ -63,7 +63,7 @@ system:
           count: ''
           contiguous: false
           type: sphere
-          size: '15'
+          size: '7.5'
           width: ''
           height: ''
           units: ft
@@ -96,7 +96,18 @@ system:
         requireMagic: false
         identifier: ''
       img: ''
-      behaviors: []
+      behaviors:
+        - name: ''
+          _id: SvDshHSG9FTEM0MO
+          type: applyActiveEffect
+          config:
+            effects:
+              - Compendium.dnd5e.effects.ActiveEffect.phbeffSilenced00
+            sizes: []
+            types: []
+          level:
+            min: null
+            max: null
   identifier: silent-cantrip
   advancement: {}
   enchant: {}
@@ -109,11 +120,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.367'
+  coreVersion: '14.368'
   systemId: dnd5e
-  systemVersion: 6.0.1
+  systemVersion: 6.0.2
   createdTime: 1789423358426
-  modifiedTime: 1789425221326
+  modifiedTime: 1789589937566
   lastModifiedBy: magehandpress000
 _id: mhpTricSilentCan
 sort: 2800000

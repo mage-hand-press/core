@@ -7,9 +7,7 @@ system:
     value: >-
       <p>You learn to use Warmage tricks, special techniques that alter the way you fight, move, and
       cast your spells. You learn two tricks of your choice for which you meet the prerequisites.
-      Warmage Tricks are described in the
-      “@UUID[Compendium.mage-hand-press-core.journal.JournalEntry.mhpWarmageModern.JournalEntryPage.mhpWarmageTrickO]{Warmage
-      Trick Options}” section later on in the class’s
+      Warmage Tricks are described in the “Warmage Trick Options” section later on in the class’s
       description.</p><p><strong>Prerequisites.</strong> If a trick has a prerequisite, you must
       meet it to learn that trick. For example, if a trick requires you to be a level 5+ Warmage,
       you can select the trick once you reach Warmage level 5.</p><p><strong>Replacing and Gaining
@@ -49,11 +47,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.367'
+  coreVersion: '14.368'
   systemId: dnd5e
-  systemVersion: 6.0.1
+  systemVersion: 6.0.2
   createdTime: 1789423555122
-  modifiedTime: 1789423555122
+  modifiedTime: 1789590003614
   lastModifiedBy: magehandpress000
 _id: mhpWarmWarmagTri
 sort: 225000

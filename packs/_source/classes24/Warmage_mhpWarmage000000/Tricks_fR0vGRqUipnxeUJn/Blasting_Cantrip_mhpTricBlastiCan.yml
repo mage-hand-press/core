@@ -33,7 +33,7 @@ system:
       activation:
         type: special
         value: null
-        condition: ''
+        condition: when you deal Force damage to a creature with a Warmage cantrip
         override: false
       consumption:
         targets: []
@@ -54,7 +54,7 @@ system:
       effects: []
       range:
         value: '10'
-        units: ft
+        units: any
         special: ''
         override: false
       target:
@@ -68,8 +68,8 @@ system:
           units: ft
           stationary: false
         affects:
-          count: ''
-          type: ''
+          count: '1'
+          type: creature
           choice: false
           special: ''
         prompt: true
@@ -86,12 +86,16 @@ system:
       sort: 0
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-      img: null
+        identifier: ''
+      img: ''
       behaviors: []
+      name: Push
   identifier: blasting-cantrip
   advancement: {}
   enchant: {}
@@ -104,11 +108,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.367'
+  coreVersion: '14.368'
   systemId: dnd5e
-  systemVersion: 6.0.1
+  systemVersion: 6.0.2
   createdTime: 1789423570846
-  modifiedTime: 1789423570846
+  modifiedTime: 1789589483435
   lastModifiedBy: magehandpress000
 _id: mhpTricBlastiCan
 sort: 3400000

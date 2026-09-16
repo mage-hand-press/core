@@ -7,8 +7,7 @@ system:
     value: >-
       <p>Once on each of your turns, when you deal Cold damage to a creature with a Warmage cantrip,
       you can numb the target with a frigid blast. The first time the target makes an attack roll
-      before the end of its next turn, subtract half your Warmage level
-      ([[floor(@classes.warmage.levels / 2)]]) from the attack roll.</p>
+      before the end of its next turn, subtract half your Warmage level from the attack roll.</p>
     chat: ''
   source:
     custom: ''
@@ -41,11 +40,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.367'
+  coreVersion: '14.368'
   systemId: dnd5e
-  systemVersion: 6.0.1
+  systemVersion: 6.0.2
   createdTime: 1789423572445
-  modifiedTime: 1789423572446
+  modifiedTime: 1789589672054
   lastModifiedBy: magehandpress000
 _id: mhpTricIcyCantri
 sort: 3500000

@@ -87,10 +87,10 @@ system:
       surround it. You can determine this by placing an imaginary cube around the enemy. If you and
       your allies are adjacent to each side of the cube, the creature is surrounded.</p><p>When you
       activate this formation, the enemy must make a Dexterity saving throw against your spell save
-      DC or be enveloped by chains of magical force and have the &amp;Reference[Stunned] condition
-      for 1 minute. The Stunned target repeats the save at the end of each of its turns, ending the
-      condition on itself and this formation on a success.</p><p>Once you use this trick, you can’t
-      use it again until you finish a Short or Long Rest.</p>
+      DC or be enveloped by chains of magical force and have the &amp;Reference[Stunned apply=false]
+      condition for 1 minute. The Stunned target repeats the save at the end of each of its turns,
+      ending the condition on itself and this formation on a success.</p><p>Once you use this trick,
+      you can’t use it again until you finish a Short or Long Rest.</p>
     chat: ''
   identifier: capture
   source:
@@ -129,8 +129,8 @@ effects:
       magical: false
     disabled: false
     duration:
-      value: null
-      units: seconds
+      value: 1
+      units: minutes
       expiry: null
       expired: false
     description: ''
@@ -145,12 +145,12 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dnd5e
       systemVersion: 6.0.1
       lastModifiedBy: magehandpress000
       createdTime: 1789423570979
-      modifiedTime: 1789423570979
+      modifiedTime: 1789589522429
     showIcon: 2
     start: null
     folder: null
@@ -162,10 +162,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.367'
+  coreVersion: '14.368'
   systemId: dnd5e
-  systemVersion: 6.0.1
+  systemVersion: 6.0.2
   createdTime: 1789423570979
-  modifiedTime: 1789423570980
+  modifiedTime: 1789589520520
   lastModifiedBy: magehandpress000
 _key: '!items!mhpTricCapture00'

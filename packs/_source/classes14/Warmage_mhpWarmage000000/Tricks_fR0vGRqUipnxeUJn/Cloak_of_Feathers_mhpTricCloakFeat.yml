@@ -40,7 +40,7 @@ effects:
     system:
       changes:
         - key: system.attributes.ac.formulas
-          type: override
+          type: add
           value:
             formula: 10 + @abilities.dex.mod + @abilities.int.mod
             armored: false
@@ -78,11 +78,11 @@ effects:
       dnd5e:
         riders: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dnd5e
-      systemVersion: 6.0.1
+      systemVersion: 6.0.2
       createdTime: 1789423356041
-      modifiedTime: 1789426198697
+      modifiedTime: 1789589025584
       lastModifiedBy: magehandpress000
       compendiumSource: null
       duplicateSource: null

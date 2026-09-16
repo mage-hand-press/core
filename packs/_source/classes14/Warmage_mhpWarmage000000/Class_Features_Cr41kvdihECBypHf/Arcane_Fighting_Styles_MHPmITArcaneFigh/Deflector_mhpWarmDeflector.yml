@@ -112,9 +112,9 @@ system:
 effects:
   - origin: Item.nn9fdIDoAaiyxEJa
     duration:
-      value: 1
-      units: turns
-      expiry: null
+      value: null
+      units: seconds
+      expiry: turnEnd
       expired: false
     disabled: true
     _id: 7KNyUgqVqM3PwfqD
@@ -124,14 +124,16 @@ effects:
       dnd5e:
         riders: {}
     name: AC Increase
-    description: ''
+    description: >-
+      <p>You add your proficiency bonus to your Armor Class for an attack, potentially causing it to
+      miss.</p>
     statuses: []
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dnd5e
       systemVersion: 6.0.1
       createdTime: 1789423332972
-      modifiedTime: 1789423332972
+      modifiedTime: 1789589340285
       lastModifiedBy: magehandpress000
       compendiumSource: Item.hllQJIH2OUCpyGZm.ActiveEffect.iL4B0tvyWHu5HjlU
       duplicateSource: null

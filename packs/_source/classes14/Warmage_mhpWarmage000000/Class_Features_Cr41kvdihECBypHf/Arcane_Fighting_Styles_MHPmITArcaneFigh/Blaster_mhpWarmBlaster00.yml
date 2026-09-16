@@ -48,14 +48,14 @@ effects:
       dnd5e:
         riders: {}
     name: Blaster DC
-    description: ''
+    description: <p>You gain a +1 bonus to the saving throw DCs of your warmage spells.</p>
     statuses: []
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dnd5e
       systemVersion: 6.0.1
       createdTime: 1789423332861
-      modifiedTime: 1789423332861
+      modifiedTime: 1789589348700
       lastModifiedBy: magehandpress000
       compendiumSource: Item.hllQJIH2OUCpyGZm.ActiveEffect.xSQ3lcIuh12V5KJY
       duplicateSource: null

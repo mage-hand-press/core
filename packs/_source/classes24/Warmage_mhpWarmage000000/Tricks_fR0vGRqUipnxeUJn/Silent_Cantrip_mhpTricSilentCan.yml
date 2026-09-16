@@ -8,9 +8,9 @@ system:
       <p>Once on each of your turns immediately after you deal Thunder damage to an enemy with a
       Warmage cantrip, you can create a 5-foot Emanation of magical silence originating from the
       target, which lasts until the start of your next turn. Any creature or object entirely inside
-      the Emanation has Immunity to Thunder damage, and creatures have the &amp;Reference[Deafened]
-      condition while entirely inside it. Casting a spell that includes a Verbal component is
-      impossible there.</p>
+      the Emanation has Immunity to Thunder damage, and creatures have the &amp;Reference[Deafened
+      apply=false] condition while entirely inside it. Casting a spell that includes a Verbal
+      component is impossible there.</p>
     chat: ''
   source:
     custom: ''
@@ -98,7 +98,18 @@ system:
         requireMagic: false
         identifier: ''
       img: ''
-      behaviors: []
+      behaviors:
+        - name: ''
+          _id: TmBAl4gQhUFziawa
+          type: applyActiveEffect
+          config:
+            effects:
+              - Compendium.dnd5e.effects.ActiveEffect.phbeffSilenced00
+            sizes: []
+            types: []
+          level:
+            min: null
+            max: null
   identifier: silent-cantrip
   advancement: {}
   enchant: {}
@@ -111,11 +122,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.367'
+  coreVersion: '14.368'
   systemId: dnd5e
-  systemVersion: 6.0.1
+  systemVersion: 6.0.2
   createdTime: 1789423573758
-  modifiedTime: 1789425233374
+  modifiedTime: 1789589953790
   lastModifiedBy: magehandpress000
 _id: mhpTricSilentCan
 sort: 3000000

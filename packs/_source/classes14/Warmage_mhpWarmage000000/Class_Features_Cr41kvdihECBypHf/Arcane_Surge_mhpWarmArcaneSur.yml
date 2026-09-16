@@ -93,14 +93,17 @@ system:
         prompt: false
         visible: false
       sort: 0
-      name: ''
+      name: Surge
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-      img: null
+        identifier: ''
+      img: ''
       behaviors: []
   identifier: arcane-surge
   advancement:
@@ -131,11 +134,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.367'
+  coreVersion: '14.368'
   systemId: dnd5e
-  systemVersion: 6.0.1
+  systemVersion: 6.0.2
   createdTime: 1789423233698
-  modifiedTime: 1789423233699
+  modifiedTime: 1789589163152
   lastModifiedBy: magehandpress000
 _id: mhpWarmArcaneSur
 sort: 221875

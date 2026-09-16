@@ -51,14 +51,17 @@ effects:
       dnd5e:
         riders: {}
     name: Resistive
-    description: ''
+    description: >-
+      <p>While you are wearing light armor or are under the effects of the
+      <em>@UUID[Compendium.dnd5e.spells.CKZTpZlxj7hjjo2H]{mage armor}</em> spell, you gain a +1
+      bonus to your Armor Class.</p>
     statuses: []
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dnd5e
       systemVersion: 6.0.1
       createdTime: 1789423333071
-      modifiedTime: 1789423333071
+      modifiedTime: 1789589311847
       lastModifiedBy: magehandpress000
       compendiumSource: Item.hllQJIH2OUCpyGZm.ActiveEffect.iL4B0tvyWHu5HjlU
       duplicateSource: null

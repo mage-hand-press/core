@@ -6,7 +6,7 @@ system:
   description:
     value: >-
       <p>You gain a +1 bonus to ranged spell attack rolls. Additionally, your warmage cantrips
-      ignore half cover.</p>
+      ignore &amp;Reference[half cover]{half cover}.</p>
     chat: ''
   source:
     custom: ''
@@ -53,11 +53,11 @@ effects:
     description: ''
     statuses: []
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dnd5e
-      systemVersion: 6.0.1
+      systemVersion: 6.0.2
       createdTime: 1789423333196
-      modifiedTime: 1789423333196
+      modifiedTime: 1789589390564
       lastModifiedBy: magehandpress000
       compendiumSource: Item.hllQJIH2OUCpyGZm.ActiveEffect.9vHvktxgjWVE544E
       duplicateSource: null
@@ -66,7 +66,7 @@ effects:
     type: base
     system:
       changes:
-        - key: system.bonuses.rsak.attack
+        - key: system.rolls.attack.rsak.bonus
           type: add
           value: 1
           phase: initial
@@ -92,10 +92,10 @@ effects:
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.1
-  coreVersion: '14.367'
+  systemVersion: 6.0.2
+  coreVersion: '14.368'
   createdTime: 1789423333196
-  modifiedTime: 1789423333196
+  modifiedTime: 1789589376096
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

@@ -259,8 +259,8 @@ effects:
           _id: 0tsZPgiOnXx6zah6
           conditions: '{}'
           replacement: ''
-        - key: activities[attack].attack.ability
-          type: override
+        - key: activities[attack].attack.abilities
+          type: add
           value: int
           phase: initial
           priority: null
@@ -292,11 +292,11 @@ effects:
       dnd5e:
         riders: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dnd5e
-      systemVersion: 6.0.1
+      systemVersion: 6.0.2
       createdTime: 1789423358346
-      modifiedTime: 1789423358346
+      modifiedTime: 1789588676888
       lastModifiedBy: magehandpress000
       compendiumSource: null
       duplicateSource: null
