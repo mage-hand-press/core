@@ -1,9 +1,9 @@
 /**
  * Removes unwanted flags, permissions, and other data from entries before extracting or compiling.
- * @param {object} data - Data for a single entry to clean.
+ * @param {object} data                      Data for a single entry to clean.
  * @param {object} [options]
- * @param {boolean} [options.clearSourceId] - Should the core sourceId flag be deleted.
- * @param {string} [options.userId] - Static ID that will be used for `lastModifiedBy`.
+ * @param {boolean} [options.clearSourceId]  Should the core sourceId flag be deleted.
+ * @param {string} [options.userId]          Static ID that will be used for `lastModifiedBy`.
  */
 export function cleanPackEntry(data, { clearSourceId=true, userId="magehandpress" }={}) {
 	if ( "ownership" in data ) Object.keys(data.ownership).forEach(key => {

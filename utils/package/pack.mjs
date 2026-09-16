@@ -5,10 +5,11 @@ import { cleanPackEntry } from "./clean.mjs";
 
 /**
  * Compile the source JSON files into compendium packs.
- * @param {string} [packName] - Name of pack to compile. If none provided, all packs will be packed.
+ * @param {string} [packName]  Name of pack to compile. If none provided, all packs will be packed.
  * @param {object} [options={}]
  * @param {object} [config={}]
  *
+ * @example
  * - `npm run build:db` - Compile all JSON files into their LevelDB files.
  * - `npm run build:db -- classes` - Only compile the specified pack.
  */
@@ -24,7 +25,7 @@ export default async function packDB(packName, options={}, config={}) {
 		folders = (await readdir(PACK_SRC, { withFileTypes: true })).filter(file =>
 			file.isDirectory() && ( !packName || (packName === file.name) )
 		);
-	} catch(err) {
+	} catch (err) {
 		console.error(err.message);
 		return;
 	}

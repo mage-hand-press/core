@@ -5,11 +5,12 @@ import { cleanPackEntry } from "./clean.mjs";
 
 /**
  * Extract the contents of compendium packs to JSON files.
- * @param {string} [packName] - Name of pack to extract. If none provided, all packs will be unpacked.
- * @param {string} [entryName] - Name of a specific entry to extract.
+ * @param {string} [packName]   Name of pack to extract. If none provided, all packs will be unpacked.
+ * @param {string} [entryName]  Name of a specific entry to extract.
  * @param {object} [options={}]
  * @param {object} [config={}]
  *
+ * @example
  * - `npm build:json - Extract all compendium NEDB files into JSON files.
  * - `npm build:json -- classes` - Only extract the contents of the specified compendium.
  * - `npm build:json -- classes Barbarian` - Only extract a single item from the specified compendium.
@@ -26,7 +27,7 @@ export default async function unpackDB(packName, entryName, options={}, config={
 	for ( const packInfo of packs ) {
 		const dest = Path.join(config?.sources ?? "packs/_source", packInfo.name);
 
-		await extractPack(packInfo.path, dest, {
+		await extractPack(packInfo.path ?? Path.join("packs/", packInfo.name), dest, {
 			clean: true,
 			folders: true,
 			expandAdventures: true,
