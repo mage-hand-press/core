@@ -31,7 +31,6 @@
 		{
 			"name": "journal",
 			"label": "Core Classes",
-			"path": "packs/journal",
 			"banner": "modules/mage-hand-press-core/assets/interface/banners/journal.webp",
 			"type": "JournalEntry",
 			"ownership": {
@@ -48,7 +47,6 @@
 		{
 			"name": "classes24",
 			"label": "Classes (5.5e)",
-			"path": "packs/classes24",
 			"banner": "modules/mage-hand-press-core/assets/interface/banners/classes24.webp",
 			"type": "Item",
 			"ownership": {
@@ -68,7 +66,6 @@
 		{
 			"name": "classes14",
 			"label": "Classes (5e)",
-			"path": "packs/classes14",
 			"banner": "modules/mage-hand-press-core/assets/interface/banners/classes14.webp",
 			"type": "Item",
 			"ownership": {
@@ -88,7 +85,6 @@
 		{
 			"name": "equipment24",
 			"label": "Equipment (5.5e)",
-			"path": "packs/equipment24",
 			"type": "Item",
 			"ownership": {
 				"PLAYER": "LIMITED"
@@ -100,14 +96,13 @@
 					"types": ["consumable", "weapon"]
 				},
 				"mage-hand-press-core": {
-					"rulesVersion": "modern"
+					"invisible": true
 				}
 			}
 		},
 		{
 			"name": "equipment14",
 			"label": "Equipment (5e)",
-			"path": "packs/equipment14",
 			"type": "Item",
 			"ownership": {
 				"PLAYER": "LIMITED"
@@ -119,14 +114,13 @@
 					"types": ["consumable", "weapon"]
 				},
 				"mage-hand-press-core": {
-					"rulesVersion": "legacy"
+					"invisible": true
 				}
 			}
 		},
 		{
 			"name": "tables",
 			"label": "Roll Tables",
-			"path": "packs/tables",
 			"banner": "modules/mage-hand-press-core/assets/interface/banners/tables.webp",
 			"type": "RollTable",
 			"ownership": {

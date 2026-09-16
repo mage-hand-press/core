@@ -45,4 +45,12 @@ Hooks.once("i18nInit", () => {
 	foundry.helpers.Localization.localizeDataModel(data.WarmageSettingData);
 });
 
+Hooks.on("renderCompendiumDirectory", (application, element, context, options) => {
+	for ( const pack of game.packs ) {
+		if ( !pack.metadata.flags?.["mage-hand-press-core"]?.invisible ) continue;
+		const el = element.querySelector(`[data-pack="${pack.metadata.id}"]`);
+		if ( el ) el.hidden = true;
+	}
+});
+
 // TODO: Automatically set compendium browser filtering based on rules version
