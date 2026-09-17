@@ -9,9 +9,9 @@ pages:
       item: Compendium.mage-hand-press-core.classes14.Item.mhpWarmage000001
       description:
         value: >-
-          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpWarmage000001
-          caption=false]</p><h3>Cantrip Masters</h3><p>While other spellcasters aspire to grander
-          and more complex spells, warmages refine and master the most fundamental magic: cantrips.
+          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpWarmage000001 caption=false
+          nameStyle=h1]</p><h3>Cantrip Masters</h3><p>While other spellcasters aspire to grander and
+          more complex spells, warmages refine and master the most fundamental magic: cantrips.
           Warmages wield their magic in the same way that a warrior uses a sword, bow, or axe—as
           weapons to be perfected, not as an unknowable force to be feared. In contrast to sorcerers
           and wizards, their magic is a trainable skill, one that can be mastered by almost anyone
@@ -59,7 +59,7 @@ pages:
       style: ''
       subclassHeader: ''
     title:
-      show: true
+      show: false
       level: 1
     image: {}
     text:
@@ -77,11 +77,11 @@ pages:
     _stats:
       duplicateSource: null
       exportSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 6.0.0
+      systemVersion: 6.0.2
       lastModifiedBy: magehandpress000
-      modifiedTime: 1783016198679
+      modifiedTime: 1789676152650
       createdTime: 1782754711341
     _key: '!journal.pages!mhpWarmage5e0000.mhpWarmage000000'
   - sort: 300000
