@@ -169,7 +169,7 @@
 	},
 	"protected": false,
 	"bugs": "https://github.com/mage-hand-press/premium-content/issues",
-	"manifest": "https://raw.githubusercontent.com/mage-hand-press/core/main/module.json",
-	"download": "",
+	"manifest": "https://github.com/mage-hand-press/core/releases/latest/download/module.json",
+	"download": "https://github.com/mage-hand-press/core/releases/download/2.0.0/mage-hand-press-core-2.0.0.zip",
 	"url": "https://foundryvtt.com/packages/mage-hand-press-core"
 }
