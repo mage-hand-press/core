@@ -168,9 +168,6 @@
 	article .contents section {
 		column-count: 2;
 	}
-	.chapter {
-		break-inside: auto;
-	}
 }
 
 .table-of-contents[data-compendium-id^="mage-hand-press-core"] {
