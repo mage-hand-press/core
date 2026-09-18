@@ -36,6 +36,22 @@ export function initialize() {
 		requiresReload: true
 	});
 
+	// Alchemist
+	game.settings.registerMenu("mage-hand-press-core", "alchemistDialog", {
+		name: "MageHandPress.Setting.Alchemist.name",
+		label: "MageHandPress.Setting.Alchemist.label",
+		hint: "MageHandPress.Setting.Alchemist.hint",
+		type: SettingsConfig.for("alchemist")
+	});
+
+	game.settings.register("mage-hand-press-core", "alchemist", {
+		name: "MageHandPress.Setting.Alchemist.name",
+		scope: "world",
+		config: false,
+		type: SettingsData.AlchemistSettingData,
+		requiresReload: true
+	});
+
 	// Gunslinger
 	game.settings.registerMenu("mage-hand-press-core", "gunslingerDialog", {
 		name: "MageHandPress.Setting.Gunslinger.name",

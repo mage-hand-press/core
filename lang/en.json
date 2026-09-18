@@ -1,5 +1,9 @@
 {
 	"MageHandPress": {
+		"Alchemist": {
+			"BombFormula": "Bomb Formula",
+			"Discovery": "Discovery"
+		},
 		"Ammunition": {
 			"BlunderbussShot": "Blunderbuss Shot",
 			"BulletDragon": "Bullet, Dragon",
@@ -99,6 +103,17 @@
 			"Twinshot": "Twinshot"
 		},
 		"Setting": {
+			"Alchemist": {
+				"hint": "Configure customization & automation related to Alchemist class.",
+				"FIELDS": {
+					"customization": {
+						"hint": "Add …",
+						"label": "Alchemist Customization"
+					}
+				},
+				"label": "Alchemist Settings",
+				"name": "Alchemist"
+			},
 			"AuxiliaryLevels": {
 				"hint": "Enable support for special, one-level classes.",
 				"name": "Auxiliary Levels"
@@ -108,7 +123,7 @@
 				"name": "Ignore Modifier for Firearms"
 			},
 			"Gunslinger": {
-				"hint": "Configure customization & automation related to Gunslinger class",
+				"hint": "Configure customization & automation related to Gunslinger class.",
 				"FIELDS": {
 					"customization": {
 						"hint": "Add a new class feature type, weapon properties, masteries, and base weapons depending on your rules version.",
@@ -131,7 +146,7 @@
 				"name": "Monstrous Grafts"
 			},
 			"Warmage": {
-				"hint": "Configure customization & automation related to Warmage class",
+				"hint": "Configure customization & automation related to Warmage class.",
 				"FIELDS": {
 					"customization": {
 						"hint": "Add a new Warmage spellcasting type and new feature types for various class features.",
@@ -150,6 +165,7 @@
 			"JournalEntry": "Mage Hand Press Journal Sheet"
 		},
 		"Source": {
+			"CompleteAlchemist": "Complete Alchemist",
 			"CompleteGunslinger": "Complete Gunslinger",
 			"CompleteWarmage": "Complete Warmage"
 		},

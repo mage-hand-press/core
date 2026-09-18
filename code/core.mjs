@@ -19,6 +19,7 @@ Hooks.once("init", () => {
 		graftBodySlots: config.General.graftBodySlots
 	});
 	config.General.initialize();
+	config.Alchemist.initialize();
 	config.Gunslinger.initialize();
 	config.Warmage.initialize();
 
@@ -41,6 +42,7 @@ Hooks.once("init", () => {
 });
 
 Hooks.once("i18nInit", () => {
+	foundry.helpers.Localization.localizeDataModel(data.AlchemistSettingData);
 	foundry.helpers.Localization.localizeDataModel(data.GunslingerSettingData);
 	foundry.helpers.Localization.localizeDataModel(data.WarmageSettingData);
 });
