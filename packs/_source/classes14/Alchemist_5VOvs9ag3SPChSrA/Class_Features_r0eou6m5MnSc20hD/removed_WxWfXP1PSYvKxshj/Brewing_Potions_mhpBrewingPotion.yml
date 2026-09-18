@@ -1,13 +1,18 @@
-folder: r0eou6m5MnSc20hD
-name: Reagent Synthesis
+folder: WxWfXP1PSYvKxshj
+name: Brewing Potions
 type: feat
-img: icons/tools/laboratory/bowl-powder-purple.webp
+img: icons/tools/laboratory/cauldron-filled-gold.webp
 system:
   description:
     value: >-
-      <div><p>When you finish a short rest, you can choose to regain all of your expended reagent
-      dice that weren’t used to brew potions. Once you use this feature, you can’t do so again until
-      you finish a long rest.</p></div>
+      <p>You can spend 10 minutes and expend any number of reagent dice to brew potions. These
+      potions retain potency for 24 hours, after which they become inert. If a potion calls for a
+      saving throw, it uses your bomb save DC.</p><p>The number of reagent dice and the alchemist
+      level required to brew a potion are given on the Potions
+      table.</p><p>@Embed[Compendium.mage-hand-press-valdas-spire-of-secrets.journal14.JournalEntry.mhpTables0000000.JournalEntryPage.mhpPotions000000
+      inline]</p><h3></h3><p><em><strong>*Foundry Note:</strong> The default reagent die consumption
+      is 1, if the user decides to spend more than 1 die they will have to update the
+      'itemconsumption' on the Details tab before completing the action.</em></p>
     chat: ''
   source:
     custom: ''
@@ -19,10 +24,8 @@ system:
   cover: null
   crewed: false
   uses:
-    max: '1'
-    recovery:
-      - period: lr
-        type: recoverAll
+    max: ''
+    recovery: []
     spent: 0
   type:
     value: class
@@ -34,8 +37,8 @@ system:
       _id: dnd5eactivity000
       type: utility
       activation:
-        type: special
-        value: null
+        type: minute
+        value: 10
         condition: ''
         override: false
       consumption:
@@ -52,14 +55,12 @@ system:
         spellSlot: true
       description:
         chatFlavor: ''
-        value: ''
       duration:
         concentration: false
-        value: ''
-        units: inst
+        value: '24'
+        units: hour
         special: ''
         override: false
-        expiry: null
       effects: []
       range:
         units: self
@@ -99,9 +100,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-      behaviors: []
   advancement: {}
-  identifier: reagent-synthesis
+  identifier: brewing-potions
   enchant: {}
   prerequisites:
     items: []
@@ -111,15 +111,15 @@ effects: []
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.0
+  systemVersion: 5.3.2
   coreVersion: '14.367'
-  createdTime: 1788545795404
-  modifiedTime: 1788545795404
+  createdTime: 1777321144360
+  modifiedTime: 1789768149828
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
-_id: mhpReagentSynthe
-sort: 0
+_id: mhpBrewingPotion
+sort: 100000
 ownership:
   default: 0
-_key: '!items!mhpReagentSynthe'
+_key: '!items!mhpBrewingPotion'

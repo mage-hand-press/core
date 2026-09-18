@@ -1,58 +1,43 @@
-name: Antitoxin
-type: consumable
-img: icons/consumables/potions/bottle-round-corked-pink.webp
+folder: WxWfXP1PSYvKxshj
+name: Reagent | Bonus Damage (d8)
+type: feat
+img: icons/commodities/materials/bowl-powder-gold.webp
 system:
   description:
     value: >-
-      <p>A creature that drinks this vial of liquid gains advantage on saving throws against poison
-      for 1 hour. It confers no benefit to undead or constructs.</p>
+      <p>When you use a
+      @UUID[Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpPrimedBomb000]{primed
+      bomb}, you can expend a number of reagent dice up to your proficiency bonus and add the dice
+      to the bomb’s damage roll.</p><p></p><p><em><strong>*Foundry Note:</strong> Link the Reagent
+      Dice to the Item Consumption.</em></p><p><em>This feature expends one Reagent die to improve
+      the damage roll of a d8 bomb, such as a Cryo Bomb. Use this feature multiple times to expend
+      multiple Reagent dice.</em></p>
     chat: ''
   source:
-    custom: SRD 5.1
+    custom: ''
     book: ''
     page: ''
     license: ''
     revision: 1
     rules: '2014'
-  quantity: 1
-  weight:
-    value: 0.1
-    units: lb
-  price:
-    value: 50
-    denomination: gp
-  attunement: ''
-  equipped: false
-  rarity: ''
-  identified: true
+  cover: null
+  crewed: false
   uses:
-    max: '1'
+    max: ''
     recovery: []
-    autoDestroy: true
     spent: 0
-  damage:
-    base:
-      types: []
-      custom:
-        enabled: false
-      scaling:
-        number: 1
-      modifiers: []
-    replace: false
-  properties: []
-  unidentified:
-    description: ''
   type:
-    value: potion
+    value: class
     subtype: ''
-  container: null
+  requirements: Alchemist
+  properties: []
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
-      type: utility
+      type: damage
       activation:
-        type: action
-        value: 1
+        type: special
+        value: null
         condition: ''
         override: false
       consumption:
@@ -69,14 +54,12 @@ system:
         spellSlot: true
       description:
         chatFlavor: ''
-        value: ''
       duration:
         concentration: false
-        value: '1'
-        units: hour
+        value: ''
+        units: inst
         special: ''
         override: false
-        expiry: null
       effects: []
       range:
         units: self
@@ -94,7 +77,7 @@ system:
           stationary: false
         affects:
           count: ''
-          type: self
+          type: ''
           choice: false
           special: ''
         prompt: true
@@ -103,11 +86,22 @@ system:
         spent: 0
         max: ''
         recovery: []
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - number: 1
+            denomination: 8
+            bonus: ''
+            types: []
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
       img: null
       sort: 0
       flags: {}
@@ -116,24 +110,26 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-      behaviors: []
-  identifier: antitoxin
-  attuned: false
-  rarities: []
+  advancement: {}
+  identifier: reagent-or-bonus-damage-d8
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
 effects: []
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.0
+  systemVersion: 5.3.2
   coreVersion: '14.367'
-  createdTime: 1788545785911
-  modifiedTime: 1788545785911
+  createdTime: 1777321171998
+  modifiedTime: 1789768173903
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
-folder: Emv2g4SCmcZVvnYe
-_id: mhpAntitoxin0000
-sort: 0
+_id: mhpReagentorBon3
+sort: 156250
 ownership:
   default: 0
-_key: '!items!mhpAntitoxin0000'
+_key: '!items!mhpReagentorBon3'

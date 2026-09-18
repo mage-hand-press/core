@@ -1,13 +1,13 @@
-_id: mhpArcanoBomb000
-name: Arcano Bomb*
+_id: mhpBlackPowderBo
+name: Black Powder Bomb
 type: feat
-img: icons/skills/ranged/bomb-grenade-thrown-stars-orange.webp
+img: icons/weapons/thrown/bomb-fuse-black.webp
 effects: []
 folder: QP5gQCeH1KDXj4A6
 flags: {}
 system:
   description:
-    value: "<p><em>Requirements:</em>\_<em>Dynamo Engineer</em></p><p>Starting at 6th level, you can craft arcano bombs. By adding an unexpended dynamo to your bomb (and thus expending the dynamo’s spell slot), you can change it into an arcano bomb. An arcano bomb deals force damage instead of fire damage, its damage dice are d12s, and it deals one extra die of damage, as if a reagent die were added to it.</p>"
+    value: "<p><em>Requirements: Mad Bomber</em></p><p>Beginning at 18th level, you can replace your bomb’s explosive contents with a charge of black powder, changing it into a dreaded black powder bomb. A black powder bomb’s damage dice are d12s.</p><p>\_</p>"
     chat: ''
   source:
     custom: ''
@@ -25,7 +25,7 @@ system:
   type:
     value: class
     subtype: ''
-  requirements: Dynamo Engineer
+  requirements: Mad Bomber
   properties: []
   activities:
     dnd5eactivity000:
@@ -37,13 +37,7 @@ system:
         condition: ''
         override: false
       consumption:
-        targets:
-          - type: itemUses
-            target: ''
-            value: '1'
-            scaling:
-              mode: ''
-              formula: ''
+        targets: []
         scaling:
           allowed: false
           max: ''
@@ -100,10 +94,10 @@ system:
             denomination: null
             bonus: ''
             types:
-              - force
+              - fire
             custom:
               enabled: true
-              formula: (@scale.alchemist.bomb-dice)d12 + 1d12 + @abilities.int.mod
+              formula: (@scale.alchemist.bomb-dice)d12 + @abilities.int.mod
             scaling:
               mode: whole
               number: null
@@ -125,13 +119,7 @@ system:
         condition: ''
         override: false
       consumption:
-        targets:
-          - type: itemUses
-            target: ''
-            value: '1'
-            scaling:
-              mode: ''
-              formula: ''
+        targets: []
         scaling:
           allowed: false
           max: ''
@@ -177,10 +165,10 @@ system:
             denomination: null
             bonus: ''
             types:
-              - force
+              - fire
             custom:
               enabled: true
-              formula: (@scale.alchemist.bomb-dice)d12 + 1d12 + @abilities.int.mod
+              formula: (@scale.alchemist.bomb-dice)d12 + @abilities.int.mod
             scaling:
               mode: whole
               number: null
@@ -200,22 +188,22 @@ system:
         requireIdentification: false
         requireMagic: false
   advancement: {}
-  identifier: arcano-bomb
+  identifier: black-powder-bomb
   enchant: {}
   prerequisites:
     items: []
     repeatable: false
-    level: 6
+    level: 18
 _stats:
   systemId: dnd5e
   systemVersion: 5.3.2
-  coreVersion: '14.360'
-  createdTime: 1777321163931
-  modifiedTime: 1777330822447
+  coreVersion: '14.367'
+  createdTime: 1777321153434
+  modifiedTime: 1789765067384
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
 sort: 0
 ownership:
   default: 0
-_key: '!items!mhpArcanoBomb000'
+_key: '!items!mhpBlackPowderBo'

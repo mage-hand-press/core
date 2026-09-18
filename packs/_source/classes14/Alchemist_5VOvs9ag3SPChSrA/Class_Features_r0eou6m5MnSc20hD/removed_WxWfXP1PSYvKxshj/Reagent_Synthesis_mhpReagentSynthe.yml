@@ -1,17 +1,13 @@
-folder: r0eou6m5MnSc20hD
-name: Reagent | Bonus Damage (d10)
+folder: WxWfXP1PSYvKxshj
+name: Reagent Synthesis
 type: feat
-img: icons/commodities/materials/bowl-powder-gold.webp
+img: icons/tools/laboratory/bowl-powder-purple.webp
 system:
   description:
     value: >-
-      <p>When you use a
-      @UUID[Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpPrimedBomb000]{primed
-      bomb}, you can expend a number of reagent dice up to your proficiency bonus and add the dice
-      to the bomb’s damage roll.</p><p></p><p><em><strong>*Foundry Note:</strong> Link the Reagent
-      Dice to the Item Consumption.</em></p><p><em>This feature expends one Reagent die to improve
-      the damage roll of a d10 bomb, such as a Primed Bomb. Use this feature multiple times to
-      expend multiple Reagent dice.</em></p>
+      <div><p>When you finish a short rest, you can choose to regain all of your expended reagent
+      dice that weren’t used to brew potions. Once you use this feature, you can’t do so again until
+      you finish a long rest.</p></div>
     chat: ''
   source:
     custom: ''
@@ -23,8 +19,10 @@ system:
   cover: null
   crewed: false
   uses:
-    max: ''
-    recovery: []
+    max: '1'
+    recovery:
+      - period: lr
+        type: recoverAll
     spent: 0
   type:
     value: class
@@ -34,7 +32,7 @@ system:
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
-      type: damage
+      type: utility
       activation:
         type: special
         value: null
@@ -54,12 +52,14 @@ system:
         spellSlot: true
       description:
         chatFlavor: ''
+        value: ''
       duration:
         concentration: false
         value: ''
         units: inst
         special: ''
         override: false
+        expiry: null
       effects: []
       range:
         units: self
@@ -86,22 +86,11 @@ system:
         spent: 0
         max: ''
         recovery: []
-      damage:
-        critical:
-          allow: false
-          bonus: ''
-        parts:
-          - number: 1
-            denomination: 10
-            bonus: ''
-            types: []
-            custom:
-              enabled: false
-              formula: ''
-            scaling:
-              mode: whole
-              number: null
-              formula: ''
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
       img: null
       sort: 0
       flags: {}
@@ -110,8 +99,9 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      behaviors: []
   advancement: {}
-  identifier: reagent-or-bonus-damage-d10
+  identifier: reagent-synthesis
   enchant: {}
   prerequisites:
     items: []
@@ -121,15 +111,15 @@ effects: []
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 5.3.2
-  coreVersion: '14.360'
-  createdTime: 1777321173538
-  modifiedTime: 1777330849538
+  systemVersion: 6.0.0
+  coreVersion: '14.367'
+  createdTime: 1788545795404
+  modifiedTime: 1789768204425
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
-_id: mhpReagentorBon4
-sort: 0
+_id: mhpReagentSynthe
+sort: 125000
 ownership:
   default: 0
-_key: '!items!mhpReagentorBon4'
+_key: '!items!mhpReagentSynthe'

@@ -26,28 +26,6 @@ system:
   identifier: alchemist
   levels: 1
   advancement:
-    g6osg4bg4ufhbriy:
-      _id: g6osg4bg4ufhbriy
-      type: ScaleValue
-      configuration:
-        identifier: ''
-        type: number
-        distance:
-          units: ''
-        scale:
-          '1':
-            value: 1
-          '5':
-            value: 2
-          '11':
-            value: 3
-          '17':
-            value: 4
-      value: {}
-      title: Bomb Dice
-      icon: icons/skills/ranged/bomb-grenade-thrown-yellow.webp
-      flags: {}
-      hint: ''
     dyaph2dwju9uwd4l:
       _id: dyaph2dwju9uwd4l
       type: HitPoints
@@ -55,64 +33,17 @@ system:
       value: {}
       flags: {}
       hint: ''
-    KMpwIhUeIkyy7Qy2:
-      _id: KMpwIhUeIkyy7Qy2
-      type: ScaleValue
-      configuration:
-        identifier: ''
-        type: number
-        distance:
-          units: ''
-        scale:
-          '3':
-            value: 3
-          '4':
-            value: 4
-          '5':
-            value: 5
-          '6':
-            value: 6
-          '7':
-            value: 7
-          '8':
-            value: 8
-          '9':
-            value: 9
-          '10':
-            value: 10
-          '11':
-            value: 11
-          '12':
-            value: 12
-          '13':
-            value: 13
-          '14':
-            value: 14
-          '15':
-            value: 15
-          '16':
-            value: 16
-          '17':
-            value: 17
-          '18':
-            value: 18
-          '19':
-            value: 19
-          '20':
-            value: 20
-      value: {}
-      title: Reagent
-      flags: {}
-      hint: ''
     OavVTU9P0mdtyvhy:
       _id: OavVTU9P0mdtyvhy
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpBombs00000000
-            optional: false
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpNaturalPhilos
-            optional: false
+          - optional: false
+            sort: 200000
+            uuid: Compendium.mage-hand-press-core.classes14.Item.mhpBombs00000000
+          - optional: false
+            sort: 100000
+            uuid: Compendium.mage-hand-press-core.classes14.Item.mhpNaturalPhilos
         optional: false
         spell:
           ability: []
@@ -126,15 +57,18 @@ system:
       title: Class Features
       flags: {}
       hint: ''
+      classRestriction: ''
     FcWITjVh8WG5xvyH:
       _id: FcWITjVh8WG5xvyH
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpBombFormulae0
+          - optional: false
+            sort: 0
+            uuid: Compendium.mage-hand-press-core.classes14.Item.mhpBombFormulae0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpFieldStudy000
             optional: false
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpFieldStudy000
-            optional: false
+            sort: 0
         optional: false
         spell:
           ability: []
@@ -148,14 +82,15 @@ system:
       title: Class Features
       flags: {}
       hint: ''
+      classRestriction: ''
     uisDksXb9ZdogNhS:
       _id: uisDksXb9ZdogNhS
       type: ItemGrant
       configuration:
         items:
-          - optional: false
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpReagent000000
+            optional: false
             sort: 0
-            uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpReagent000000
         optional: false
         spell:
           ability: []
@@ -175,11 +110,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpDiscoveries00
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpDiscoveries00
             optional: false
-          - uuid: >-
-              Compendium.mage-hand-press-valdas-spire-of-secrets.valdas-classes.Item.OY70yXjY0PObqWcb
-            optional: false
+            sort: 0
         optional: false
         spell:
           ability: []
@@ -193,13 +126,15 @@ system:
       title: Class Features
       flags: {}
       hint: ''
+      classRestriction: ''
     o5AOmRKolhk9cM2d:
       _id: o5AOmRKolhk9cM2d
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpFlashbang0000
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpFlashbang0000
             optional: false
+            sort: 0
         optional: false
         spell:
           ability: []
@@ -213,13 +148,15 @@ system:
       title: Class Features
       flags: {}
       hint: ''
+      classRestriction: ''
     djGAM2EXRCfm8jnX:
       _id: djGAM2EXRCfm8jnX
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpEvasion000003
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpEvasion000003
             optional: false
+            sort: 0
         optional: false
         spell:
           ability: []
@@ -233,13 +170,15 @@ system:
       title: Class Features
       flags: {}
       hint: ''
+      classRestriction: ''
     Fe6af0wGFATboHGV:
       _id: Fe6af0wGFATboHGV
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpBlastCoating0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpBlastCoating0
             optional: false
+            sort: 0
         optional: false
         spell:
           ability: []
@@ -253,13 +192,15 @@ system:
       title: Class Features
       flags: {}
       hint: ''
+      classRestriction: ''
     MkR034b8YDWxgW3d:
       _id: MkR034b8YDWxgW3d
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpPhilosophersS
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpPhilosophersS
             optional: false
+            sort: 0
         optional: false
         spell:
           ability: []
@@ -273,6 +214,7 @@ system:
       title: Class Features
       flags: {}
       hint: ''
+      classRestriction: ''
     tWl0JgPD98ugsRik:
       _id: tWl0JgPD98ugsRik
       type: AbilityScoreImprovement
@@ -378,59 +320,6 @@ system:
       title: ''
       flags: {}
       hint: ''
-    12zigAtjFew5VpPP:
-      _id: 12zigAtjFew5VpPP
-      type: ScaleValue
-      configuration:
-        identifier: ''
-        type: number
-        distance:
-          units: ''
-        scale:
-          '1':
-            value: 12
-          '2':
-            value: 14
-          '3':
-            value: 16
-          '4':
-            value: 18
-          '5':
-            value: 20
-          '6':
-            value: 22
-          '7':
-            value: 24
-          '8':
-            value: 26
-          '9':
-            value: 28
-          '10':
-            value: 30
-          '11':
-            value: 32
-          '12':
-            value: 34
-          '13':
-            value: 36
-          '14':
-            value: 38
-          '15':
-            value: 40
-          '16':
-            value: 42
-          '17':
-            value: 44
-          '18':
-            value: 46
-          '19':
-            value: 48
-          '20':
-            value: 50
-      value: {}
-      title: Bombs
-      flags: {}
-      hint: ''
     3cGXq3IS6HrEFdSM:
       _id: 3cGXq3IS6HrEFdSM
       type: Trait
@@ -443,7 +332,7 @@ system:
       level: 1
       title: Armor
       icon: null
-      classRestriction: primary
+      classRestriction: ''
       value: {}
       flags: {}
       hint: ''
@@ -522,23 +411,6 @@ system:
       value: {}
       flags: {}
       hint: ''
-    d7D5otb4r2Lz1qeS:
-      _id: d7D5otb4r2Lz1qeS
-      type: Trait
-      configuration:
-        mode: default
-        allowReplacements: false
-        grants:
-          - armor:lgt
-          - tool:art:alchemist
-        choices: []
-      level: 1
-      title: Multiclass Proficiencies
-      icon: null
-      classRestriction: secondary
-      value: {}
-      flags: {}
-      hint: ''
     OtWUUkH0jZcoIBiD:
       _id: OtWUUkH0jZcoIBiD
       type: ItemChoice
@@ -547,70 +419,76 @@ system:
           '2':
             count: 3
             replacement: false
+          '3':
+            count: null
+            replacement: true
+          '4':
+            count: null
+            replacement: true
           '5':
             count: 1
-            replacement: false
+            replacement: true
+          '6':
+            count: null
+            replacement: true
           '7':
             count: 1
-            replacement: false
+            replacement: true
+          '8':
+            count: null
+            replacement: true
           '9':
             count: 1
-            replacement: false
+            replacement: true
+          '10':
+            count: null
+            replacement: true
           '11':
             count: 1
-            replacement: false
+            replacement: true
+          '12':
+            count: null
+            replacement: true
           '13':
             count: 1
-            replacement: false
+            replacement: true
+          '14':
+            count: null
+            replacement: true
           '15':
             count: 1
-            replacement: false
+            replacement: true
+          '16':
+            count: null
+            replacement: true
           '17':
             count: 1
-            replacement: false
+            replacement: true
+          '18':
+            count: null
+            replacement: true
           '19':
             count: 1
-            replacement: false
-        allowDrops: false
-        type: null
-        pool:
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpAcidBomb00000
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpArcanoBomb000
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpBlackPowderBo
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpBrambleBomb00
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpCryoBomb00000
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpHolyBomb00000
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpImpactBomb000
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpIncendiaryBom
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpLaughingGasBo
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpLightningBomb
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpNonlethalBomb
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpOilBomb000000
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpPainkillerBom
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpPheromoneBomb
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpPrismaticBomb
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpPsionicBomb00
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpQuietBomb0000
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpSeekingBomb00
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpShrapnelBomb0
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpSlimeBomb0000
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpSmokeBomb0000
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpSonicBomb0000
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpStinkBomb0000
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpTeleportation
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpThermobaricBo
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpVenomBomb0000
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpWitheringBomb
+            replacement: true
+          '20':
+            count: null
+            replacement: true
+        allowDrops: true
+        type: feat
+        pool: []
         spell: null
         restriction:
           list: []
+          type: class
+          subtype: bombFormula
       value:
         added: {}
         replaced: {}
       title: Bomb Formulae
       icon: null
-      hint: Bombs that are exclusively available to one field of study are marked with an asterisk.
+      hint: ''
       flags: {}
+      classRestriction: ''
     KR38Sdc1BcSbMdhf:
       _id: KR38Sdc1BcSbMdhf
       type: ItemChoice
@@ -619,74 +497,308 @@ system:
           '4':
             count: 2
             replacement: false
+          '5':
+            count: null
+            replacement: true
           '6':
             count: 1
-            replacement: false
+            replacement: true
+          '7':
+            count: null
+            replacement: true
+          '8':
+            count: null
+            replacement: true
           '9':
             count: 1
-            replacement: false
+            replacement: true
+          '10':
+            count: null
+            replacement: true
+          '11':
+            count: null
+            replacement: true
+          '12':
+            count: null
+            replacement: true
           '13':
             count: 1
-            replacement: false
+            replacement: true
+          '14':
+            count: null
+            replacement: true
+          '15':
+            count: null
+            replacement: true
+          '16':
+            count: null
+            replacement: true
           '17':
             count: 1
-            replacement: false
-        allowDrops: false
-        type: null
-        pool:
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpDisArcaneStud
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpBallisticsRes
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpBattleTrainin
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpClottingAgent
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpCraftHomuncul
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpExplosiveMiss
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpFireBrand0000
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpFireEater0000
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpGrenadier0000
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpPoisoner00001
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpPrecisionExpl
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpRecycledPotio
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpSyringe000000
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpFireinHole000
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpLazarusBolt01
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpAdvancedPoiso
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpAlchemyInflue
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpAlchemyTransf
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpBeguilingHaze
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpBufferedMetab
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpDemolitionSpr
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpFortifiedSeru
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpDynamoCharger
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpOozeCowboy000
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpTriMutation00
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpAlchemyAscend
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpHemoreagent00
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpMagnifiedBlas
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpReactionaryGu
+            replacement: true
+          '18':
+            count: null
+            replacement: true
+          '19':
+            count: null
+            replacement: true
+          '20':
+            count: null
+            replacement: true
+        allowDrops: true
+        type: feat
+        pool: []
         spell: null
         restriction:
           list: []
+          type: class
+          subtype: discovery
       value:
         added: {}
         replaced: {}
       title: Discoveries
       icon: null
-      hint: >-
-        If a discovery has prerequisites, you must meet them to learn it. You can learn the
-        discovery at the same time that you meet its prerequisites. A level prerequisite refers to
-        your level in this class. You can only learn a discovery once, unless otherwise specified.
-        For more information about each discovery, go to the Discoveries Feature.
+      hint: ''
       flags: {}
+      classRestriction: ''
+    XEzly4vuiMxeepvb:
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - tool:art:alchemist
+        choices: []
+      level: 1
+      classRestriction: secondary
+      flags: {}
+      hint: ''
+      name: Tools
+      img: null
+      _id: XEzly4vuiMxeepvb
+    34h2inxmDKTG9USa:
+      name: Formulae Known
+      type: ScaleValue
+      _id: 34h2inxmDKTG9USa
+      configuration:
+        identifier: formulae-known
+        type: number
+        distance:
+          units: ''
+        scale:
+          '2':
+            value: 3
+          '5':
+            value: 4
+          '7':
+            value: 5
+          '9':
+            value: 6
+          '11':
+            value: 7
+          '13':
+            value: 8
+          '15':
+            value: 9
+          '17':
+            value: 10
+          '19':
+            value: 11
+      flags: {}
+      value: {}
+      hint: ''
+      classRestriction: ''
+    KMpwIhUeIkyy7Qy2:
+      _id: KMpwIhUeIkyy7Qy2
+      type: ScaleValue
+      configuration:
+        identifier: reagent
+        type: dice
+        distance:
+          units: ''
+        scale:
+          '3':
+            faces: 10
+            number: 3
+          '4':
+            number: 4
+          '5':
+            number: 5
+          '6':
+            number: 6
+          '7':
+            number: 7
+          '8':
+            number: 8
+          '9':
+            number: 9
+          '10':
+            number: 10
+          '11':
+            number: 11
+          '12':
+            number: 12
+          '13':
+            number: 13
+          '14':
+            number: 14
+          '15':
+            number: 15
+          '16':
+            number: 16
+          '17':
+            number: 17
+          '18':
+            number: 18
+          '19':
+            number: 19
+          '20':
+            number: 20
+      value: {}
+      flags: {}
+      hint: ''
+      name: Reagent Dice
+      classRestriction: ''
+    TVbvR1TtCqulKiui:
+      name: Discoveries Known
+      type: ScaleValue
+      _id: TVbvR1TtCqulKiui
+      configuration:
+        identifier: discoveries-known
+        type: number
+        distance:
+          units: ''
+        scale:
+          '4':
+            value: 2
+          '6':
+            value: 3
+          '9':
+            value: 4
+          '13':
+            value: 5
+          '17':
+            value: 6
+      flags: {}
+      value: {}
+      hint: ''
+      classRestriction: ''
   spellcasting:
     progression: none
-    ability: int
+    ability: ''
     preparation:
       formula: ''
   hd:
     denomination: d6
     spent: 0
     additional: ''
-  startingEquipment: []
+  startingEquipment:
+    - type: OR
+      requiresProficiency: false
+      _id: UvEANWdg5Pb4r34T
+      group: ''
+      sort: 100000
+    - type: AND
+      requiresProficiency: false
+      _id: d9b6J6LcuFIblmQN
+      group: UvEANWdg5Pb4r34T
+      sort: 700000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.ddWvQRLmnnIS0eLF
+      requiresProficiency: false
+      _id: xtie90rriuiKYEgt
+      group: d9b6J6LcuFIblmQN
+      sort: 425000
+    - type: linked
+      count: 20
+      key: Compendium.dnd5e.items.Item.SItCnYBqhzqBoaWG
+      requiresProficiency: false
+      _id: MK86mGDEhxq3ODv0
+      group: d9b6J6LcuFIblmQN
+      sort: 450000
+    - type: weapon
+      count: null
+      key: sim
+      requiresProficiency: false
+      _id: O3ali0RmZe8Os22i
+      group: UvEANWdg5Pb4r34T
+      sort: 800000
+    - type: OR
+      requiresProficiency: false
+      _id: itLgsZQll4NY92OQ
+      group: ''
+      sort: 200000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.8KWz5DJbWUpNWniP
+      requiresProficiency: false
+      _id: QCFmDVbAikcKkZ1D
+      group: itLgsZQll4NY92OQ
+      sort: 900000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.UOE8RGOpgv2oWIvM
+      requiresProficiency: false
+      _id: LW4kwWBPWrcXfvAc
+      group: itLgsZQll4NY92OQ
+      sort: 1000000
+    - type: AND
+      requiresProficiency: false
+      _id: TawbF8DayiFaMwZf
+      group: ''
+      sort: 300000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.SztwZhbhZeCqyAes
+      requiresProficiency: false
+      _id: PtZjNnOTGaxzH5wf
+      group: TawbF8DayiFaMwZf
+      sort: 1100000
+    - type: OR
+      requiresProficiency: false
+      _id: n0QhPPOJU7ZtT4RU
+      group: TawbF8DayiFaMwZf
+      sort: 1200000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.Sx5E6utixHdAbGNb
+      requiresProficiency: false
+      _id: uVKp69TM8x9U6f9a
+      group: n0QhPPOJU7ZtT4RU
+      sort: 1300000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.FvNOwWbh5FXyX4xe
+      requiresProficiency: false
+      _id: slegdn6dsm8cLw8V
+      group: n0QhPPOJU7ZtT4RU
+      sort: 1400000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.eVbPkYjpl29RE2uW
+      requiresProficiency: false
+      _id: gYwf4ypGfqNLHQGJ
+      group: n0QhPPOJU7ZtT4RU
+      sort: 1500000
+    - type: AND
+      requiresProficiency: false
+      _id: nL83q98k3uCWjfQP
+      group: ''
+      sort: 400000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.WwdpHLXGX5r8uZu5
+      requiresProficiency: false
+      _id: 8iWjQcBY4Tkl5sXx
+      group: nL83q98k3uCWjfQP
+      sort: 1600000
+    - _id: Zfi8JgRxRndl6Bv4
+      group: nL83q98k3uCWjfQP
+      sort: 1700000
+      type: linked
+      key: Compendium.dnd5e.items.Item.0E565kQUBmndJ1a2
+      requiresProficiency: false
   primaryAbility:
     value: []
     all: true
@@ -694,10 +806,10 @@ system:
   wealth: ''
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.1
+  systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1777321174308
-  modifiedTime: 1789756456189
+  modifiedTime: 1789765021693
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

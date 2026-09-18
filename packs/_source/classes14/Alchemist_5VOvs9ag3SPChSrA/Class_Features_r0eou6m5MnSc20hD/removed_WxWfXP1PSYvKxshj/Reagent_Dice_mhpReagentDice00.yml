@@ -1,18 +1,19 @@
-folder: r0eou6m5MnSc20hD
-name: Brewing Potions
+_id: mhpReagentDice00
+name: Reagent Dice
 type: feat
-img: icons/tools/laboratory/cauldron-filled-gold.webp
+img: icons/sundries/gaming/dice-pair-white-green.webp
+effects: []
+folder: WxWfXP1PSYvKxshj
+flags: {}
 system:
   description:
     value: >-
-      <p>You can spend 10 minutes and expend any number of reagent dice to brew potions. These
-      potions retain potency for 24 hours, after which they become inert. If a potion calls for a
-      saving throw, it uses your bomb save DC.</p><p>The number of reagent dice and the alchemist
-      level required to brew a potion are given on the Potions
-      table.</p><p>@Embed[Compendium.mage-hand-press-valdas-spire-of-secrets.journal14.JournalEntry.mhpTables0000000.JournalEntryPage.mhpPotions000000
-      inline]</p><h3></h3><p><em><strong>*Foundry Note:</strong> The default reagent die consumption
-      is 1, if the user decides to spend more than 1 die they will have to update the
-      'itemconsumption' on the Details tab before completing the action.</em></p>
+      <p>You start with three reagent dice, which are d10s, and you gain additional reagent dice as
+      you gain levels in this class, as shown in the Reagent Dice column of the Alchemist table. You
+      regain all expended reagent dice when you finish a long rest.</p><p>When you use a
+      @UUID[Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpPrimedBomb000]{primed
+      bomb}, you can expend a number of reagent dice up to your proficiency bonus and add the dice
+      to the bomb’s damage roll.</p>
     chat: ''
   source:
     custom: ''
@@ -24,8 +25,10 @@ system:
   cover: null
   crewed: false
   uses:
-    max: ''
-    recovery: []
+    max: '@scale.alchemist.reagent'
+    recovery:
+      - period: lr
+        type: recoverAll
     spent: 0
   type:
     value: class
@@ -37,8 +40,8 @@ system:
       _id: dnd5eactivity000
       type: utility
       activation:
-        type: minute
-        value: 10
+        type: special
+        value: null
         condition: ''
         override: false
       consumption:
@@ -55,12 +58,14 @@ system:
         spellSlot: true
       description:
         chatFlavor: ''
+        value: ''
       duration:
         concentration: false
-        value: '24'
-        units: hour
+        value: ''
+        units: inst
         special: ''
         override: false
+        expiry: null
       effects: []
       range:
         units: self
@@ -100,26 +105,24 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      behaviors: []
   advancement: {}
-  identifier: brewing-potions
+  identifier: reagent-dice
   enchant: {}
   prerequisites:
     items: []
     repeatable: false
     level: 3
-effects: []
-flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 5.3.2
-  coreVersion: '14.360'
-  createdTime: 1777321144360
-  modifiedTime: 1778000329748
+  systemVersion: 6.0.0
+  coreVersion: '14.367'
+  createdTime: 1788545795356
+  modifiedTime: 1789768156738
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
-_id: mhpBrewingPotion
-sort: 0
+sort: 200000
 ownership:
   default: 0
-_key: '!items!mhpBrewingPotion'
+_key: '!items!mhpReagentDice00'

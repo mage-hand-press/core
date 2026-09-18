@@ -1,7 +1,7 @@
-folder: r0eou6m5MnSc20hD
-name: Reagent | Bonus Damage (d12)
+folder: WxWfXP1PSYvKxshj
+name: Reagent | Bonus Damage (d10)
 type: feat
-img: icons/commodities/materials/bowl-powder-grey.webp
+img: icons/commodities/materials/bowl-powder-gold.webp
 system:
   description:
     value: >-
@@ -10,7 +10,7 @@ system:
       bomb}, you can expend a number of reagent dice up to your proficiency bonus and add the dice
       to the bomb’s damage roll.</p><p></p><p><em><strong>*Foundry Note:</strong> Link the Reagent
       Dice to the Item Consumption.</em></p><p><em>This feature expends one Reagent die to improve
-      the damage roll of a d12 bomb, such as a Black Powder Bomb. Use this feature multiple times to
+      the damage roll of a d10 bomb, such as a Primed Bomb. Use this feature multiple times to
       expend multiple Reagent dice.</em></p>
     chat: ''
   source:
@@ -92,7 +92,7 @@ system:
           bonus: ''
         parts:
           - number: 1
-            denomination: 12
+            denomination: 10
             bonus: ''
             types: []
             custom:
@@ -111,7 +111,7 @@ system:
         requireIdentification: false
         requireMagic: false
   advancement: {}
-  identifier: reagent-or-bonus-damage-d12
+  identifier: reagent-or-bonus-damage-d10
   enchant: {}
   prerequisites:
     items: []
@@ -122,14 +122,14 @@ flags: {}
 _stats:
   systemId: dnd5e
   systemVersion: 5.3.2
-  coreVersion: '14.360'
-  createdTime: 1777321151612
-  modifiedTime: 1777330849585
+  coreVersion: '14.367'
+  createdTime: 1777321173538
+  modifiedTime: 1789768166766
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
-_id: mhpReagentorBonu
-sort: 0
+_id: mhpReagentorBon4
+sort: 150000
 ownership:
   default: 0
-_key: '!items!mhpReagentorBonu'
+_key: '!items!mhpReagentorBon4'

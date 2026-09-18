@@ -1,4 +1,4 @@
-folder: r0eou6m5MnSc20hD
+folder: WxWfXP1PSYvKxshj
 name: Primed Bomb
 type: weapon
 img: icons/weapons/thrown/bomb-fuse-black-pink.webp
@@ -48,6 +48,7 @@ system:
     value: 30
     long: 90
     units: ft
+    reach: null
   uses:
     max: ''
     recovery: []
@@ -263,19 +264,20 @@ system:
   crew:
     value: []
   ammunition: {}
+  mastery: ''
 effects: []
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 5.3.2
-  coreVersion: '14.360'
+  systemVersion: 6.0.3
+  coreVersion: '14.367'
   createdTime: 1777321165821
-  modifiedTime: 1777321165821
+  modifiedTime: 1789768237099
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
 _id: mhpPrimedBomb000
-sort: 0
+sort: 181250
 ownership:
   default: 0
 _key: '!items!mhpPrimedBomb000'

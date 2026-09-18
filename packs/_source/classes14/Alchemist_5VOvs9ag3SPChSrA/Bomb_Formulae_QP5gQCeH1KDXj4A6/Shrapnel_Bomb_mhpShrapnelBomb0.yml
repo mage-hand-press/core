@@ -1,63 +1,117 @@
-folder: aeVamln8zLRmSvwq
-name: Burnt Othur Fumes
-type: consumable
-img: icons/consumables/potions/bottle-conical-fumes-green.webp
+_id: mhpShrapnelBomb0
+name: Shrapnel Bomb
+type: feat
+img: icons/weapons/thrown/ball-spiked.webp
+effects: []
+folder: QP5gQCeH1KDXj4A6
+flags: {}
 system:
   description:
-    value: >-
-      <p><strong>(Inhaled).</strong> A creature subjected to this poison must succeed on a DC 13
-      Constitution saving throw or take 10 (3d6) poison damage, and must repeat the saving throw at
-      the start of each of its turns. On each successive failed save, the character takes 3 (1d6)
-      poison damage. After three successful saves, the poison ends.</p>
+    value: "<p><em>Requirements:\_Mad Bomber</em></p><p>At 2nd level, you can augment your bomb’s explosive contents with metal bearings, changing it into a shrapnel bomb. A shrapnel bomb deals piercing damage instead of fire damage, its damage dice are d8s, and it explodes in a 10-foot radius.</p>"
     chat: ''
   source:
-    custom: SRD 5.1
+    custom: ''
     book: ''
     page: ''
     license: ''
     revision: 1
     rules: '2014'
-  quantity: 1
-  weight:
-    value: 0
-    units: lb
-  price:
-    value: 0
-    denomination: gp
-  attunement: ''
-  equipped: false
-  rarity: ''
-  identified: true
+  cover: null
+  crewed: false
   uses:
     max: ''
     recovery: []
-    autoDestroy: true
     spent: 0
-  damage:
-    base:
-      number: 3
-      denomination: 6
-      bonus: ''
-      types:
-        - poison
-      custom:
-        enabled: false
-        formula: ''
-      scaling:
-        mode: ''
-        number: null
-        formula: ''
-    replace: false
-  properties: []
-  unidentified:
-    description: ''
   type:
-    value: poison
+    value: class
     subtype: ''
-  container: null
+  requirements: Mad Bomber
+  properties: []
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
+      type: attack
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: radius
+          size: '10'
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: weapon
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - number: null
+            denomination: null
+            bonus: ''
+            types:
+              - piercing
+            custom:
+              enabled: true
+              formula: (@scale.alchemist.bomb-dice)d8 + @abilities.int.mod
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+      img: null
+      sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    dnd5eactivity100:
+      _id: dnd5eactivity100
       type: save
       activation:
         type: action
@@ -87,8 +141,8 @@ system:
         template:
           count: ''
           contiguous: false
-          type: ''
-          size: ''
+          type: radius
+          size: '10'
           width: ''
           height: ''
           units: ft
@@ -107,24 +161,24 @@ system:
       damage:
         onSave: half
         parts:
-          - number: 3
-            denomination: 6
+          - number: null
+            denomination: null
             bonus: ''
             types:
-              - poison
+              - piercing
             custom:
-              enabled: false
-              formula: ''
+              enabled: true
+              formula: (@scale.alchemist.bomb-dice)d8 + @abilities.int.mod
             scaling:
               mode: whole
               number: null
               formula: ''
       save:
         ability:
-          - con
+          - dex
         dc:
-          calculation: ''
-          formula: '13'
+          calculation: int
+          formula: ''
       img: null
       sort: 0
       flags: {}
@@ -133,82 +187,23 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-    dnd5eactivity300:
-      _id: dnd5eactivity300
-      type: utility
-      activation:
-        type: action
-        value: 1
-        condition: ''
-        override: false
-      consumption:
-        targets: []
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
-      description:
-        chatFlavor: ''
-      duration:
-        concentration: false
-        value: ''
-        units: inst
-        special: ''
-        override: false
-      effects: []
-      range:
-        units: self
-        special: ''
-        override: false
-      target:
-        template:
-          count: ''
-          contiguous: false
-          type: ''
-          size: ''
-          width: ''
-          height: ''
-          units: ft
-          stationary: false
-        affects:
-          count: ''
-          type: ''
-          choice: false
-          special: ''
-        prompt: true
-        override: false
-      uses:
-        spent: 0
-        max: ''
-        recovery: []
-      roll:
-        formula: 1d6
-        name: ''
-        prompt: false
-        visible: false
-      img: null
-      sort: 0
-      flags: {}
-      visibility:
-        level: {}
-        requireAttunement: false
-        requireIdentification: false
-        requireMagic: false
-  identifier: burnt-othur-fumes
-  attuned: false
-effects: []
-flags: {}
+  advancement: {}
+  identifier: shrapnel-bomb
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 2
 _stats:
   systemId: dnd5e
   systemVersion: 5.3.2
-  coreVersion: '14.360'
-  createdTime: 1777321170455
-  modifiedTime: 1777321170455
+  coreVersion: '14.367'
+  createdTime: 1777321163556
+  modifiedTime: 1789765076751
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
-_id: mhpBurntOthurFum
 sort: 0
 ownership:
   default: 0
-_key: '!items!mhpBurntOthurFum'
+_key: '!items!mhpShrapnelBomb0'

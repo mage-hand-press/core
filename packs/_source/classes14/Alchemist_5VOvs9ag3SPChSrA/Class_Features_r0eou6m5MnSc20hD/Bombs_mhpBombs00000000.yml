@@ -182,7 +182,30 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-  advancement: {}
+  advancement:
+    g6osg4bg4ufhbriy:
+      _id: g6osg4bg4ufhbriy
+      type: ScaleValue
+      configuration:
+        identifier: dice
+        type: dice
+        distance:
+          units: ''
+        scale:
+          '1':
+            number: 1
+            faces: 10
+          '5':
+            number: 2
+          '11':
+            number: 3
+          '17':
+            number: 4
+      value: {}
+      flags: {}
+      hint: ''
+      name: Bomb Dice
+      img: icons/skills/ranged/bomb-grenade-thrown-yellow.webp
   identifier: bombs
   enchant: {}
   prerequisites:
@@ -191,10 +214,10 @@ system:
     level: 1
 _stats:
   systemId: dnd5e
-  systemVersion: 5.3.2
-  coreVersion: '14.360'
+  systemVersion: 6.0.3
+  coreVersion: '14.367'
   createdTime: 1777321140754
-  modifiedTime: 1777330824690
+  modifiedTime: 1789764601745
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

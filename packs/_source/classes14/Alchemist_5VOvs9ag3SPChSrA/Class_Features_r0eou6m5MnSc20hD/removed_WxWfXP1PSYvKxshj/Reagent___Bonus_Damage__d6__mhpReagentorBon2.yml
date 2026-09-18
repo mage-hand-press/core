@@ -1,72 +1,53 @@
-folder: aeVamln8zLRmSvwq
-name: Pale Tincture
-type: consumable
-img: icons/consumables/potions/potion-bottle-corked-stopper-yellow.webp
+folder: WxWfXP1PSYvKxshj
+name: Reagent | Bonus Damage (d6)
+type: feat
+img: icons/commodities/materials/bowl-powder-teal.webp
 system:
   description:
     value: >-
-      <p><strong>(Ingested).</strong> A creature subjected to this poison must succeed on a DC 16
-      Constitution saving throw or take 3 (1d6) poison damage and become poisoned. The poisoned
-      creature must repeat the saving throw every 24 hours, taking 3 (1d6) poison damage on a failed
-      save. Until this poison ends, the damage the poison deals can't be healed by any means. After
-      seven successful saving throws, the effect ends and the creature can heal normally.</p>
+      <p>When you use a
+      @UUID[Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpPrimedBomb000]{primed
+      bomb}, you can expend a number of reagent dice up to your proficiency bonus and add the dice
+      to the bomb’s damage roll.</p><p></p><p><em><strong>*Foundry Note:</strong> Link the Reagent
+      Dice to the Item Consumption.</em></p><p><em>This feature expends one Reagent die to improve
+      the damage roll of a d6 bomb, such as an Incendiary Bomb. Use this feature multiple times to
+      expend multiple Reagent dice.</em></p>
     chat: ''
   source:
-    custom: SRD 5.1
+    custom: ''
     book: ''
     page: ''
     license: ''
     revision: 1
     rules: '2014'
-  quantity: 1
-  weight:
-    value: 0
-    units: lb
-  price:
-    value: 0
-    denomination: gp
-  attunement: ''
-  equipped: false
-  rarity: ''
-  identified: true
+  cover: null
+  crewed: false
   uses:
     max: ''
     recovery: []
-    autoDestroy: true
     spent: 0
-  damage:
-    base:
-      number: 1
-      denomination: 6
-      bonus: ''
-      types:
-        - poison
-      custom:
-        enabled: false
-        formula: ''
-      scaling:
-        mode: ''
-        number: null
-        formula: ''
-    replace: false
-  properties: []
-  unidentified:
-    description: ''
   type:
-    value: poison
+    value: class
     subtype: ''
-  container: null
+  requirements: Alchemist
+  properties: []
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
-      type: save
+      type: damage
       activation:
-        type: action
-        value: 1
+        type: special
+        value: null
         condition: ''
         override: false
       consumption:
-        targets: []
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
         scaling:
           allowed: false
           max: ''
@@ -106,13 +87,14 @@ system:
         max: ''
         recovery: []
       damage:
-        onSave: half
+        critical:
+          allow: false
+          bonus: ''
         parts:
           - number: 1
             denomination: 6
             bonus: ''
-            types:
-              - poison
+            types: []
             custom:
               enabled: false
               formula: ''
@@ -120,12 +102,6 @@ system:
               mode: whole
               number: null
               formula: ''
-      save:
-        ability:
-          - con
-        dc:
-          calculation: ''
-          formula: '16'
       img: null
       sort: 0
       flags: {}
@@ -134,21 +110,26 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-  identifier: pale-tincture
-  attuned: false
+  advancement: {}
+  identifier: reagent-or-bonus-damage-d6
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
 effects: []
 flags: {}
 _stats:
   systemId: dnd5e
   systemVersion: 5.3.2
-  coreVersion: '14.360'
-  createdTime: 1777321175831
-  modifiedTime: 1777321175831
+  coreVersion: '14.367'
+  createdTime: 1777321159102
+  modifiedTime: 1789768171823
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
-_id: mhpPaleTincture0
-sort: 0
+_id: mhpReagentorBon2
+sort: 162500
 ownership:
   default: 0
-_key: '!items!mhpPaleTincture0'
+_key: '!items!mhpReagentorBon2'

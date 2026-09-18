@@ -1,13 +1,17 @@
-_id: mhpPainkillerBom
-name: Painkiller Bomb*
+folder: WxWfXP1PSYvKxshj
+name: Reagent | Bonus Damage (d4)
 type: feat
-img: icons/commodities/materials/bowl-liquid-white.webp
-effects: []
-folder: QP5gQCeH1KDXj4A6
-flags: {}
+img: icons/commodities/materials/bowl-powder-pink.webp
 system:
   description:
-    value: "<p><em>Requirements:\_\_Apothecary</em></p><p>At 2nd level, you can mix your bomb’s contents with analgesic oil, changing it into a painkiller bomb. A painkiller bomb deals no damage and doesn't have a blast radius. On a hit, roll damage as normal; the target instead gains temporary hit points which last for 1 minute equal to the total damage roll. You can target a willing creature with this bomb without making an attack roll. Once you throw one of these bombs, you can’t throw another one for 1 minute.</p>"
+    value: >-
+      <p>When you use a
+      @UUID[Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpPrimedBomb000]{primed
+      bomb}, you can expend a number of reagent dice up to your proficiency bonus and add the dice
+      to the bomb’s damage roll.</p><p></p><p><em><strong>*Foundry Note:</strong> Link the Reagent
+      Dice to the Item Consumption.</em></p><p><em>This feature expends one Reagent die to improve
+      the damage roll of a d4 bomb, such as an Acid Bomb. Use this feature multiple times to expend
+      multiple Reagent dice.</em></p>
     chat: ''
   source:
     custom: ''
@@ -25,19 +29,25 @@ system:
   type:
     value: class
     subtype: ''
-  requirements: Apothecary
+  requirements: Alchemist
   properties: []
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
-      type: attack
+      type: damage
       activation:
-        type: ''
-        value: 0
+        type: special
+        value: null
         condition: ''
         override: false
       consumption:
-        targets: []
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
         scaling:
           allowed: false
           max: ''
@@ -76,28 +86,18 @@ system:
         spent: 0
         max: ''
         recovery: []
-      attack:
-        ability: ''
-        bonus: ''
-        critical:
-          threshold: null
-        flat: false
-        type:
-          value: ranged
-          classification: weapon
       damage:
         critical:
+          allow: false
           bonus: ''
-        includeBase: true
         parts:
-          - number: null
-            denomination: null
+          - number: 1
+            denomination: 4
             bonus: ''
-            types:
-              - temphp
+            types: []
             custom:
-              enabled: true
-              formula: (@scale.alchemist.bomb-dice)d10 + @abilities.int.mod
+              enabled: false
+              formula: ''
             scaling:
               mode: whole
               number: null
@@ -111,22 +111,25 @@ system:
         requireIdentification: false
         requireMagic: false
   advancement: {}
-  identifier: painkiller-bomb
+  identifier: reagent-or-bonus-damage-d4
   enchant: {}
   prerequisites:
     items: []
     repeatable: false
-    level: 2
+    level: 3
+effects: []
+flags: {}
 _stats:
   systemId: dnd5e
   systemVersion: 5.3.2
-  coreVersion: '14.360'
-  createdTime: 1777321178411
-  modifiedTime: 1777330846877
+  coreVersion: '14.367'
+  createdTime: 1777321158430
+  modifiedTime: 1789768169927
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
-sort: 0
+_id: mhpReagentorBon1
+sort: 187500
 ownership:
   default: 0
-_key: '!items!mhpPainkillerBom'
+_key: '!items!mhpReagentorBon1'

@@ -1,13 +1,13 @@
-_id: mhpBlackPowderBo
-name: Black Powder Bomb*
+_id: mhpPheromoneBomb
+name: Pheromone Bomb
 type: feat
-img: icons/weapons/thrown/bomb-fuse-black.webp
+img: icons/magic/control/silhouette-hold-change-green.webp
 effects: []
 folder: QP5gQCeH1KDXj4A6
 flags: {}
 system:
   description:
-    value: "<p><em>Requirements: Mad Bomber</em></p><p>Beginning at 18th level, you can replace your bomb’s explosive contents with a charge of black powder, changing it into a dreaded black powder bomb. A black powder bomb’s damage dice are d12s.</p><p>\_</p>"
+    value: "<p><em>Requirement:\_Amorist</em></p><p>Starting at 2nd level, you can replace your bomb’s explosive contents with a potent pheromone, changing it into a pheromone bomb. A pheromone bomb requires a Wisdom saving throw, instead of a Dexterity saving throw. The bomb deals no damage, and instead causes the target, as well as each creature within the blast radius that fails its saving throw, to be charmed by you until the end of its turn or until it takes damage.</p>"
     chat: ''
   source:
     custom: ''
@@ -25,7 +25,7 @@ system:
   type:
     value: class
     subtype: ''
-  requirements: Mad Bomber
+  requirements: Amorist
   properties: []
   activities:
     dnd5eactivity000:
@@ -89,19 +89,7 @@ system:
         critical:
           bonus: ''
         includeBase: true
-        parts:
-          - number: null
-            denomination: null
-            bonus: ''
-            types:
-              - fire
-            custom:
-              enabled: true
-              formula: (@scale.alchemist.bomb-dice)d12 + @abilities.int.mod
-            scaling:
-              mode: whole
-              number: null
-              formula: ''
+        parts: []
       img: null
       sort: 0
       flags: {}
@@ -160,22 +148,10 @@ system:
         recovery: []
       damage:
         onSave: half
-        parts:
-          - number: null
-            denomination: null
-            bonus: ''
-            types:
-              - fire
-            custom:
-              enabled: true
-              formula: (@scale.alchemist.bomb-dice)d12 + @abilities.int.mod
-            scaling:
-              mode: whole
-              number: null
-              formula: ''
+        parts: []
       save:
         ability:
-          - dex
+          - wis
         dc:
           calculation: int
           formula: ''
@@ -188,22 +164,22 @@ system:
         requireIdentification: false
         requireMagic: false
   advancement: {}
-  identifier: black-powder-bomb
+  identifier: pheromone-bomb
   enchant: {}
   prerequisites:
     items: []
     repeatable: false
-    level: 18
+    level: 2
 _stats:
   systemId: dnd5e
   systemVersion: 5.3.2
-  coreVersion: '14.360'
-  createdTime: 1777321153434
-  modifiedTime: 1777330823853
+  coreVersion: '14.367'
+  createdTime: 1777321142341
+  modifiedTime: 1789765071108
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
 sort: 0
 ownership:
   default: 0
-_key: '!items!mhpBlackPowderBo'
+_key: '!items!mhpPheromoneBomb'
