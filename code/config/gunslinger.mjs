@@ -233,8 +233,6 @@ const validPropertiesModern = {
 
 /* -------------------------------------------- */
 
-// TODO: Point these to the Complete Gunslinger module, use redirects to point back here if module isn't active
-
 /** @inheritDoc */
 const weaponIdsLegacy = {
 	antiMaterialRifle: "Compendium.mage-hand-press-core.equipment14.Item.mhpAntiMaterialR",

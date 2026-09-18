@@ -4,9 +4,13 @@
 export function initialize() {
 	Object.assign(CONFIG.compendium.uuidRedirects, base);
 
+	const alchemist = game.modules.get("mage-hand-press-complete-alchemist")?.active;
 	const gunslinger = game.modules.get("mage-hand-press-complete-gunslinger")?.active;
 	const valdas = game.modules.get("mage-hand-press-valdas-spire-of-secrets")?.active;
 	const warmage = game.modules.get("mage-hand-press-complete-warmage")?.active;
+
+	if ( alchemist ) Object.assign(CONFIG.compendium.uuidRedirects, alchemistBomb);
+	else if ( valdas ) Object.assign(CONFIG.compendium.uuidRedirects, valdasBomb);
 
 	if ( gunslinger ) Object.assign(CONFIG.compendium.uuidRedirects, gunslingerFirearms);
 	else if ( valdas ) Object.assign(CONFIG.compendium.uuidRedirects, valdasFirearms);
@@ -294,6 +298,10 @@ const base = {
 	"Compendium.mage-hand-press-core.equipment24.Item.mhpShot000000000": "Compendium.mage-hand-press-core.equipment24.Item.mhpAmmoShot00000"
 };
 
+const alchemistBomb = {
+	"Compendium.mage-hand-press-core.equipment14.Item.mhpWeapBomb00000": "Compendium.mage-hand-press-complete-alchemist.equipment14.Item.mhpWeapBomb00000"
+};
+
 const gunslingerFirearms = {
 	// Weapons 2014
 	"Compendium.mage-hand-press-core.equipment14.Item.mhpWeapAntiMRifl": "Compendium.mage-hand-press-complete-gunslinger.equipment14.Item.mhpWeapAntiMRifl",
@@ -383,6 +391,14 @@ const gunslingerFirearms = {
 	"Compendium.mage-hand-press-core.equipment24.Item.mhpWeapSwarmPist": "Compendium.mage-hand-press-complete-gunslinger.equipment24.Item.mhpWeapSwarmPist"
 };
 
+const valdasBomb = {
+	"Compendium.mage-hand-press-core.equipment14.Item.mhpWeapBomb00000": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapBomb00000"
+};
+
+const valdasCantrips = {
+	"Compendium.mage-hand-press-complete-warmage.spells14": "Compendium.mage-hand-press-valdas-spire-of-secrets.spells14"
+};
+
 const valdasFirearms = {
 	"Compendium.mage-hand-press-core.equipment14.Item.mhpWeapAntiMRifl": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapAntiMRifl",
 	"Compendium.mage-hand-press-core.equipment14.Item.mhpWeapAssaulRif": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapAssaulRif",
@@ -414,8 +430,4 @@ const valdasFirearms = {
 	"Compendium.mage-hand-press-core.equipment14.Item.mhpWeapSniperRif": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapSniperRif",
 	"Compendium.mage-hand-press-core.equipment14.Item.mhpWeapSubmacGun": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapSubmacGun",
 	"Compendium.mage-hand-press-core.equipment14.Item.mhpWeapVolleyGun": "Compendium.mage-hand-press-valdas-spire-of-secrets.equipment14.Item.mhpWeapVolleyGun"
-};
-
-const valdasCantrips = {
-	"Compendium.mage-hand-press-complete-warmage.spells14": "Compendium.mage-hand-press-valdas-spire-of-secrets.spells14"
 };

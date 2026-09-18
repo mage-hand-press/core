@@ -8,6 +8,8 @@ export function initialize() {
 	if ( game.settings.get("dnd5e", "rulesVersion") === "modern" ) {
 		Object.assign(CONFIG.DND5E.itemProperties, itemPropertiesModern);
 		validPropertiesModern.weapon.forEach(p => CONFIG.DND5E.validProperties.weapon.add(p));
+	} else {
+		Object.assign(CONFIG.DND5E.weaponIds, weaponIdsLegacy);
 	}
 }
 
@@ -42,4 +44,11 @@ const itemPropertiesModern = {
 /** @inheritDoc */
 const validPropertiesModern = {
 	weapon: ["destructible", "explode"]
+};
+
+/* -------------------------------------------- */
+
+/** @inheritDoc */
+const weaponIdsLegacy = {
+	bomb: "Compendium.mage-hand-press-core.equipment14.Item.mhpWeapBomb00000"
 };

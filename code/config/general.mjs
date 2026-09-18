@@ -15,17 +15,18 @@ export function initialize() {
 		Object.assign(CONFIG.DND5E.miscEquipmentTypes, graftMiscEquipmentTypes);
 	}
 
-	const craftsmanCustomization = false;
-	const gunslingerCustomization = game.settings.get("mage-hand-press-core", "gunslinger").customization;
+	const alchemist = game.settings.get("mage-hand-press-core", "alchemist").customization;
+	const craftsman = false;
+	const gunslinger = game.settings.get("mage-hand-press-core", "gunslinger").customization;
 	const legacyRules = game.settings.get("dnd5e", "rulesVersion") === "legacy";
 	const valdasActive = game.modules.get("mage-hand-press-valdas-spire-of-secrets")?.active;
-	if ( (craftsmanCustomization || gunslingerCustomization || valdasActive) && legacyRules ) {
+	if ( (alchemist || craftsman || gunslinger || valdasActive) && legacyRules ) {
 		Object.assign(CONFIG.DND5E.weaponProficiencies, weaponProficiencies);
 		Object.assign(CONFIG.DND5E.weaponProficienciesMap, weaponProficienciesMap);
 		Object.assign(CONFIG.DND5E.weaponTypeMap, weaponTypeMap);
 
 		const weaponEntries = Object.entries(CONFIG.DND5E.weaponTypes);
-		if ( craftsmanCustomization || valdasActive ) weaponEntries.splice(
+		if ( alchemist || craftsman || valdasActive ) weaponEntries.splice(
 			weaponEntries.findIndex(t => t[0] === "martialR") + 1, 0, ...Object.entries(weaponTypes)
 		);
 		for ( const d of Object.entries(weaponTypesFirearm) ) {
