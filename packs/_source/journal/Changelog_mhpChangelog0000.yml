@@ -192,6 +192,38 @@ pages:
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpChangelog0000.mhpVersion200000'
+  - sort: -200000
+    name: Version 2.0.1
+    type: text
+    _id: KWhJkojj70W12FnF
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h3 data-no-toc>Version 2.0.1</h3><ul><li><p>Fixed issue with none of the pack contents
+        being shipped</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.2
+      createdTime: 1789710765828
+      modifiedTime: 1789710781923
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpChangelog0000.KWhJkojj70W12FnF'
 folder: null
 categories: []
 sort: 0

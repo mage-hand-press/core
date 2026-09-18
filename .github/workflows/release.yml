@@ -120,7 +120,7 @@ jobs:
           if ( process.env.STYLES ) manifest.styles = JSON.parse(process.env.STYLES);
           const includes = [
             "${{ steps.type.outputs.value }}.json",
-            ...(manifest.packs?.map(p => p.path) ?? []),
+            ...(manifest.packs?.map(p => p.path ?? `packs/${p.name}`) ?? []),
             ...(manifest.languages?.map(l => l.path) ?? []),
             ...(manifest.includes ?? [])
           ];
