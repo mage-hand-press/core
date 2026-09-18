@@ -1,0 +1,19 @@
+type: Item
+folder: mhL6Y2UXaq04aFwZ
+name: Class Features
+color: '#3a6f3f'
+sorting: a
+_id: UATOVhYne2KQe01V
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.3
+  createdTime: 1789754911152
+  modifiedTime: 1789754911152
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!UATOVhYne2KQe01V'

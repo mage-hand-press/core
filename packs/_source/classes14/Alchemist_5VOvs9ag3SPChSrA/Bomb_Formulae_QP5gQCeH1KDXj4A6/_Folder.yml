@@ -1,0 +1,19 @@
+type: Item
+folder: 5VOvs9ag3SPChSrA
+name: Bomb Formulae
+color: '#3a6f3f'
+sorting: a
+_id: QP5gQCeH1KDXj4A6
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.3
+  createdTime: 1789754941971
+  modifiedTime: 1789754941971
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!QP5gQCeH1KDXj4A6'
