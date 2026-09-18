@@ -29,11 +29,11 @@ const featureTypes = {
 const itemPropertiesModern = {
 	destructible: {
 		label: "MageHandPress.Properties.Destructible",
-		// reference: "Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage."
+		reference: "Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpDestructible0"
 	},
 	explode: {
 		label: "MageHandPress.Properties.Explode",
-		// reference: "Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage."
+		reference: "Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpExplode000000"
 	}
 };
 

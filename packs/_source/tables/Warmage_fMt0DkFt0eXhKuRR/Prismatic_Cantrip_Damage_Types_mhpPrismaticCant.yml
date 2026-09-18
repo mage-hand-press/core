@@ -149,19 +149,19 @@ results:
     _key: '!tables.results!mhpPrismaticCant.mhpThunder000000'
 replacement: true
 displayRoll: true
-folder: null
-sort: 0
+folder: fMt0DkFt0eXhKuRR
+sort: 100000
 ownership:
   default: 0
 flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
   systemVersion: 5.2.0
   createdTime: 1763856635586
-  modifiedTime: 1763856635586
+  modifiedTime: 1789757422427
   lastModifiedBy: magehandpress000
 formula: 1d6
 _key: '!tables!mhpPrismaticCant'

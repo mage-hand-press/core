@@ -1,0 +1,451 @@
+folder: mhpClasses5e0000
+name: Alchemist
+pages:
+  - sort: 0
+    name: Alchemist
+    type: class
+    _id: mhpAlchemist0000
+    system:
+      item: Compendium.mage-hand-press-core.classes14.Item.mhpAlchemist0000
+      description:
+        value: >-
+          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpAlchemist0000 caption=false
+          nameStyle=h1 no-toc]</p><h2>Chemical Reactions</h2><p>One of the first things an alchemist
+          learns is how to mix chemicals that react explosively with each other. Ostensibly, this is
+          taught to students to prevent deadly accidents, but adventuring alchemists regularly apply
+          this knowledge to create bombs.</p><p>An alchemical bomb is a 1-pound, apple-sized,
+          spherical glass or clay flask filled with a reactive chemical. A smaller vial of thin
+          glass containing a reagent is suspended in the liquid, and the whole thing is sealed with
+          a cork or wax seal. The chemicals violently explode when mixed. This occurs when the inner
+          vial breaks, usually after the bomb impacts a solid surface or a fuse sets off a small
+          explosive detonator within the vial. Bombs are primarily used to fend off enemies, but
+          creative alchemists may find more practical uses for explosives, such as demolishing
+          obstacles.</p><h2>Serums and Tinctures</h2><p>More experienced alchemists learn to mix
+          less volatile substances into potions, alchemical concoctions that replicate magical
+          effects. These potions range from the medicinal, such as <em>potions of healing</em>, to
+          the transformative, such as <em>potions of gaseous form</em>, to the downright deadly,
+          such as <em>potions of poison</em>. Undisputed masters of potions, alchemists constantly
+          innovate with new formulations and preparations, improving their potions into magic items
+          in their own right.</p><h2>Elemental Sciences</h2><p>The primary source of alchemy’s power
+          comes from the elemental planes. It is no surprise, then, that alchemists strive to tap
+          deeper into that power, researching and discovering new compounds composed of the
+          elements. The pinnacle of alchemy is the philosopher’s stone, which is rumored to grant
+          its bearer supreme elemental power. Few alchemists have succeeded in creating a
+          philosopher’s stone, and fewer still remain alive to divulge its secrets.</p><h2>Creating
+          an Alchemist</h2><p>When you create an alchemist, consider why you study alchemy. Are you
+          attracted to its dangerous power or its ability to help others? Do you desire to use
+          magic, but lack the aptitude or inborn ability?</p><p>Why do you adventure? Are you
+          searching for new alchemical formulae or rare ingredients? Do you, like so many, seek the
+          philosopher’s stone?</p><p>Be sure to understand alchemy’s place in your campaign world.
+          You might have learned your trade from a master or studied alongside artificers and
+          wizards in a university. Your trade might be commonplace or an oddity. Depending on the
+          setting, you might be respected for your knowledge or feared for your destructive
+          potential.</p><h3>Quick Build</h3><p>You can make an alchemist quickly by following these
+          suggestions. First, make Intelligence your highest ability score, followed by Dexterity.
+          Choose any background of your choice, preferably one that lends insight into your history
+          with alchemy.</p>
+        additionalHitPoints: ''
+        additionalTraits: ''
+        additionalEquipment: >-
+          <div class="notable"><h4>Bomb</h4><p>Bombs are exotic ranged weapons with the following
+          statistics:</p><p>@Embed[Compendium.mage-hand-press-valdas-spire-of-secrets.journal14.JournalEntry.mhpTables0000000.JournalEntryPage.mhpBomb000000000
+          inline]</p><h3>Special Property</h3><p><em><strong>Bomb.</strong></em> When a bomb hits a
+          target, it explodes in a 15-foot diameter sphere and is destroyed. The bomb can be thrown
+          at an unoccupied space within its range. Each creature other than the target within the
+          blast radius (for a Medium or smaller target, each creature within 5 feet of it) must make
+          a DC 11 Dexterity saving throw, taking half the damage rolled on a failed save, or no
+          damage on a successful one.</p><p>Additionally, as a bonus action, you can empty some of
+          the bomb’s explosive material to permanently remove the blast radius from this bomb,
+          dealing damage only to the bomb’s target.</p></div>
+        subclass: ''
+      subclassItems: []
+      style: ''
+      subclassHeader: ''
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags:
+      dnd5e:
+        title: Class Features
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.1
+      createdTime: 1777925304123
+      modifiedTime: 1789158783592
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpAlchemist5e00.mhpAlchemist0000'
+  - sort: 500000
+    name: Bomb Formulae
+    type: text
+    _id: mhpBombFormulae0
+    system: {}
+    title:
+      show: false
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1 data-no-toc class="subchapter">Bomb Formulae</h1><p>Bomb formulae are summarized on the
+        following table. Bombs that are exclusively available to one field of study are marked with
+        an asterisk. Unless otherwise stated, all bombs produce a loud boom, audible out to one
+        mile. Bombs are presented in alphabetical
+        order.</p><p>@Embed[Compendium.mage-hand-press-valdas-spire-of-secrets.journal14.JournalEntry.mhpTables0000000.JournalEntryPage.mhpBombFormulae0
+        inline]</p><div class="notable"><h4>Missed Bombs</h4><p>As bombs are explosive projectiles,
+        it makes sense to ask what happens if a thrown bomb fails to hit its target. For simplicity,
+        we assume that missed bombs explode harmlessly in the background or fail to detonate
+        altogether, but do not explode in the target’s space or deal damage within their blast
+        radius. The GM can decide which of these two outcomes happens or can determine the outcome
+        randomly.</p></div><h3>Acid Bomb</h3><p>By mixing your bomb’s explosive contents with a few
+        drops of ardenflotic acid, a highly corrosive chemical, you can change it into an acid bomb.
+        An acid bomb deals acid damage instead of fire damage, and its damage dice are d4s.
+        Additionally, the target, as well as each creature within the blast radius that fails its
+        saving throw, takes the same amount of damage again at the end of its next
+        turn.</p><h3>Bramble Bomb</h3><p>By adding a potent fertilizer to your bomb’s explosive
+        contents, you can change it into a bramble bomb. A bramble bomb deals no damage, but instead
+        causes tough, thorny brambles to sprout from any area of natural ground within the bomb’s
+        blast radius, which becomes difficult terrain. Additionally, if a creature in the blast
+        radius is prone when the bomb detonates, it is enveloped by the brambles and must succeed on
+        a Strength (Athletics) check against your bomb save DC before it can move or stand. The
+        brambles shrivel and die after 1 minute.</p><h3>Cryo Bomb</h3><p>By replacing your bomb’s
+        explosive contents with a piece of ice-nine, you can change it into a cryo bomb. A cryo bomb
+        deals cold damage instead of fire damage, its damage dice are d8s, and it requires a
+        Constitution saving throw, instead of a Dexterity saving throw. Additionally, the target, as
+        well as each creature within the blast radius that fails its saving throw, has its speed
+        reduced by 10 feet until the end of its next turn.</p><h3>Holy Bomb</h3><p>By adding a few
+        drops of holy water to your bomb’s explosive contents, you can change it into a holy bomb. A
+        holy bomb deals radiant damage instead of fire damage, and its damage dice are d8s, unless
+        the target is a Celestial, Fiend, or Undead. The bomb’s damage dice are d6s against
+        Celestials and d12s against Fiends and Undead.</p><h3>Impact Bomb</h3><p>By replacing your
+        bomb’s explosive contents with more reactive ones, you can change it into an impact bomb. An
+        impact bomb deals force damage instead of fire damage, and its damage dice are d8s.
+        Additionally, the target, as well as each creature within the blast radius that fails its
+        saving throw, is pushed 5 feet away from the center of the blast.</p><h3>Incendiary
+        Bomb</h3><p>By adding a thickening agent to your bomb’s explosive contents, you can change
+        it into an incendiary bomb. An incendiary bomb’s damage dice are d6s. Additionally, the area
+        of the blast radius is engulfed in flames, which persist until the start of your next turn.
+        Flammable objects in this area that aren’t being worn or carried ignite. Any creature that
+        ends its turn in this area takes half the bomb’s damage.</p><h3>Laughing Gas Bomb</h3><p>By
+        mixing your bomb’s explosive contents with a drop of jesterate, a highly euphoric chemical,
+        you can change it into a laughing gas bomb. A laughing gas bomb deals poison damage instead
+        of fire damage, its damage dice are d6s, and it requires a Constitution saving throw,
+        instead of a Dexterity saving throw. Additionally, the target, as well as each creature
+        within the blast radius that fails its saving throw, falls prone in a fit of laughter. Once
+        a creature falls prone due to this bomb’s effects, it is immune to this effect (but not the
+        bomb’s poison damage) for the next 24 hours.</p><h3>Lightning Bomb</h3><p>By replacing your
+        bomb’s explosive contents with a charged arcane capacitor, you can change it into a
+        lightning bomb. A lightning bomb deals lightning damage instead of fire damage, and its
+        damage dice are d8s. Additionally, the target, as well as each creature within the blast
+        radius that fails its saving throw, can’t take reactions until the end of its next
+        turn.</p><h3>Nonlethal Bomb</h3><p>By replacing your bomb’s explosive contents with a pouch
+        of rubber pellets, you can change it into a nonlethal bomb. A nonlethal bomb deals
+        bludgeoning damage instead of fire damage, and its damage dice are d8s. If damage from this
+        bomb drops a creature to 0 hit points, it knocks the creature out, rather than dealing a
+        killing blow, rendering the creature unconscious and stable. Additionally, this bomb’s
+        rubber pellets bounce around corners, ignoring half and three-quarters cover for targets
+        within the blast radius.</p><h3>Oil Bomb</h3><p>By mixing your bomb’s explosive contents
+        with a few drops of a super-surfactant, you can change it into an oil bomb. An oil bomb
+        deals no damage, but coats each creature within the blast radius in a sticky, flammable oil.
+        The next time a creature coated in oil takes fire damage, it takes an extra d6 fire damage
+        for each die of fire damage rolled, up to a maximum of half your alchemist level, rounded
+        up. This oil can be removed by dousing a creature with a gallon of water.</p><h3>Prismatic
+        Bomb</h3><p>By adding an ounce of polyjuice, an unpredictable, multicolored chemical, to
+        your bomb’s explosive contents, you can change it into a prismatic bomb. A prismatic bomb
+        deals damage of a randomly determined type instead of fire damage, and it requires a
+        randomly determined type of saving throw. Its damage dice are d8s. Roll on each of the
+        following tables.</p><p></p><table><thead><tr><td><p>d6</p></td><td><p>Damage
+        Type</p></td></tr></thead><tbody><tr><td><p>1</p></td><td><p>Acid</p></td></tr><tr><td><p>2</p></td><td><p>Cold</p></td></tr><tr><td><p>3</p></td><td><p>Fire</p></td></tr><tr><td><p>4</p></td><td><p>Lightning</p></td></tr><tr><td><p>5</p></td><td><p>Poison</p></td></tr><tr><td><p>6</p></td><td><p>Radiant</p></td></tr></tbody></table><p></p><table><thead><tr><td><p>d6</p></td><td><p>Saving
+        Throw</p></td></tr></thead><tbody><tr><td><p>1-2</p></td><td><p>Dexterity</p></td></tr><tr><td><p>3-4</p></td><td><p>Constitution</p></td></tr><tr><td><p>5-6</p></td><td><p>Wisdom</p></td></tr></tbody></table><p></p><h3>Psionic
+        Bomb</h3><p>By mixing your bomb’s explosive contents with dust from a psionic crystal, you
+        can change it into a psionic bomb. A psionic bomb deals psychic damage instead of fire
+        damage, its damage dice are d6s, and it requires a Wisdom saving throw, instead of a
+        Dexterity saving throw. Additionally, the target, as well as each creature within the blast
+        radius that fails its saving throw, has disadvantage on Constitution saving throws it makes
+        to maintain concentration on spells until the end of its next turn, including against this
+        bomb’s damage.</p><h3>Quiet Bomb</h3><p>By replacing your bomb’s explosive contents with a
+        wad of thermal cotton, you can change it into a quiet bomb. A quiet bomb’s damage dice are
+        d8s. When this bomb detonates, it makes only a low thud, audible out to 10 feet, and
+        releases a puff of smoke to mask the light given off by its blast. Creatures have
+        disadvantage on ability checks to detect that this bomb was detonated nearby.</p><h3>Seeking
+        Bomb</h3><p>By replacing your bomb’s explosive contents with a powerful lodestone, you can
+        change it into a seeking bomb. A seeking bomb’s damage dice are d6s. You don’t have
+        disadvantage on ranged attack rolls you make using this bomb as a result of being within 5
+        feet of a hostile creature.</p><h3>Smoke Bomb</h3><p>By removing your bomb’s explosive
+        contents entirely, you can change it into a smoke bomb. A smoke bomb deals no damage but
+        fills a 10-foot-radius sphere with smoke. This smoke spreads around corners and its area is
+        heavily obscured. It lasts for a number of rounds equal to your Intelligence modifier
+        (minimum of 1 round) or until a wind of moderate or greater speed (at least 10 miles per
+        hour) disperses it. Once you throw one of these bombs, you can’t throw another one for 1
+        minute.</p><h3>Sonic Bomb</h3><p>By mixing your bomb’s explosive contents with a few drops
+        of air elemental essence, you can change it into a sonic bomb. A sonic bomb deals thunder
+        damage instead of fire damage, its damage dice are d6s, and it requires a Constitution
+        saving throw, instead of a Dexterity saving throw. Additionally, the target, as well as each
+        creature within the blast radius that fails its saving throw, is deafened until the end of
+        its next turn.</p><h3>Stink Bomb</h3><p>By adding a single drop of skunkanide, a chemical
+        too unholy to expound upon, you can change it into a stink bomb. A stink bomb deals poison
+        damage instead of fire damage, its damage dice are d8, and it requires a Constitution saving
+        throw, instead of a Dexterity saving throw. Additionally, the target, as well as each
+        creature within the blast radius that fails its saving throw, has disadvantage on ability
+        checks it makes until the end of its next turn.</p><h3>Teleportation Bomb</h3><p>By
+        replacing your bomb’s explosive contents with a glowing etherite crystal, you can change it
+        into a teleportation bomb. A teleportation bomb deals no damage and instead opens a rift in
+        space, instantly teleporting you to its point of detonation. This effect fails if the bomb
+        explodes more than 30 feet away from you.</p><h3>Thermobaric Bomb</h3><p>By replacing your
+        bomb’s explosive contents with a lower speed explosive, you can change it into a thermobaric
+        bomb. A thermobaric bomb’s damage dice are d6s, and it explodes in a 10-foot
+        radius.</p><h3>Withering Bomb</h3><p>By mixing your bomb’s explosive components with a
+        powerful desiccating agent, you can change it into a withering bomb. A withering bomb deals
+        necrotic damage instead of fire damage, its damage dice are d8s, it requires a Constitution
+        saving throw, instead of a Dexterity saving throw. Additionally, the target, as well as each
+        creature within the blast radius that fails its saving throw, can’t regain hit points until
+        the end of its next turn.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      createdTime: 1777925453606
+      modifiedTime: 1789158951868
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpAlchemist5e00.mhpBombFormulae0'
+  - sort: 600000
+    name: Discoveries
+    type: text
+    _id: mhpDiscoveries00
+    system: {}
+    title:
+      show: false
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1 data-no-toc class="subchapter">Discoveries</h1><p>If a discovery has prerequisites, you
+        must meet them to learn it. You can learn the discovery at the same time that you meet its
+        prerequisites. A level prerequisite refers to your level in this class. You can only learn a
+        discovery once, unless otherwise specified.</p><div class="hide-secrets"><h3>Advanced
+        Poisoner</h3><p><em>Prerequisites: 13th level, Venomsmith Field of Study</em></p><p>Your
+        morbid research into the most vicious, exotic poisons allows you to brew the following
+        poisons (found
+        @UUID[Compendium.dnd5e.rules.t6scHTmpmHBTZGTX.JournalEntryPage.B8rYvLQ4jMY9GeJA#sample-poisons]{Here})
+        when you brew
+        potions:</p><p></p><table><thead><tr><td><p>Potion</p></td><td><p>Cost</p></td></tr></thead><tbody><tr><td><p>Burnt
+        Othur Fumes</p></td><td><p>3 reagent dice</p></td></tr><tr><td><p>Crawler
+        Mucus</p></td><td><p>3 reagent dice</p></td></tr><tr><td><p>Drow Poison</p></td><td><p>3
+        reagent dice</p></td></tr><tr><td><p>Pale Tincture</p></td><td><p>4 reagent
+        dice</p></td></tr><tr><td><p>Midnight Tears</p></td><td><p>5 reagent
+        dice</p></td></tr><tr><td><p>Wyvern Poison</p></td><td><p>6 reagent
+        dice</p></td></tr></tbody></table><p></p><h3>Alchemy of Ascendancy</h3><p><em>Prerequisite:
+        17th level</em></p><p>A breakthrough in your alchemical studies has revealed the formulation
+        of several potent elixirs. You can brew the following
+        potions:</p><p></p><table><thead><tr><td><p>Potion</p></td><td><p>Cost</p></td></tr></thead><tbody><tr><td><p>@UUID[Compendium.mage-hand-press-valdas-spire-of-secrets.items-and-spells.Item.j3dsBzGEvEFo6PGB]{Necromantic
+        Draught}</p></td><td><p>4 reagent
+        dice</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.Xbq8CyXSRV358SfP]{Oil of
+        Etherealness}</p></td><td><p>4 reagent
+        dice</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.ctKfjHjk9gs9UtZI]{Potion of
+        Speed}</p></td><td><p>4 reagent
+        dice</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.4ZiJsDTRA1GgcWKP]{Potion of Stone
+        Giant Strength}</p></td><td><p>4 reagent
+        dice</p></td></tr></tbody></table><p></p><h3>Alchemy of Influence</h3><p><em>Prerequisite:
+        13th level</em></p><p>Your alchemical research has revealed many of the basic chemicals that
+        govern emotions. You can brew the following
+        potions:</p><p></p><table><thead><tr><td><p>Potion</p></td><td><p>Cost</p></td></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd5e.items.nXWevqtV6p484N59]{Potion
+        of Animal Friendship}</p></td><td><p>1 reagent
+        die</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.63nb14yQRJMc4bIn]{Philter of
+        Love}</p></td><td><p>2 reagent
+        dice</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.bAyr7j5Peq9wIJTa]{Potion of
+        Clairvoyance}</p></td><td><p>3 reagent
+        dice</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.Ct9LR9Ft1FG4a6Y1]{Potion of Mind
+        Reading}</p></td><td><p>3 reagent dice</p></td></tr></tbody></table><p></p><h3>Alchemy of
+        Transformation</h3><p><em>Prerequisite: 13th level</em></p><p>You have mastered the
+        alchemical secrets of shifting matter, which allow you to brew the following
+        potions:</p><p></p><table><thead><tr><td><p>Potion</p></td><td><p>Cost</p></td></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd5e.items.FIDyR0kZnxGy7bj8]{Oil
+        of Slipperiness}</p></td><td><p>2 reagent
+        dice</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-valdas-spire-of-secrets.items-and-spells.Item.SWvO5S0uuLpohGim]{Sandstone
+        Solution}</p></td><td><p>2 reagent
+        dice</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-valdas-spire-of-secrets.items-and-spells.Item.odbsYuL4x0E1ZooY]{Aqua
+        Fortis}</p></td><td><p>3 reagent
+        dice</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-valdas-spire-of-secrets.items-and-spells.Item.1MdHby7I36WEouCA]{Chameleon
+        Concoction}</p></td><td><p>3 reagent
+        dice</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.bqZ6NTLDCUB98YjV]{Potion of
+        Gaseous Form}</p></td><td><p>3 reagent dice</p></td></tr></tbody></table><p></p><h3>Arcane
+        Study</h3><p>You learn three cantrips of your choice from the wizard spell list.
+        Intelligence is your spellcasting ability for your wizard spells.</p><h3>Ballistics
+        Research</h3><p>You learn two additional bomb formulae.</p><h3>Battle Training</h3><p>You
+        gain proficiency with martial weapons and shields.</p><h3>Beguiling
+        Haze</h3><p><em>Prerequisites: 13th level, Amorist Field of Study</em></p><p>When you charm
+        a creature, you can choose to place it in a dreamy state, from which it regards everyone it
+        sees as close friends. While the creature is charmed, it is nonhostile and acts as though it
+        is charmed equally by each creature it sees.</p><p>Once you use this ability, you can’t use
+        it again until you finish a short or long rest.</p><h3>Buffered
+        Metabolism</h3><p><em>Prerequisites: 13th level, Xenoalchemist Field of Study</em></p><p>As
+        a reaction when you take damage, you can expend any number of reagent dice up to your
+        proficiency bonus to reduce the amount of damage taken by the total rolled on the
+        dice.</p><h3>Clotting Agent</h3><p>You have developed a serum that thickens your blood. Your
+        hit point maximum increases by your alchemist level + your Constitution modifier, and it
+        increases by 1 again whenever you gain a level in this class.</p><h3>Craft
+        Homunculus</h3><p>Using a special alchemical process requiring 8 hours of work, which can be
+        performed over the course of a long rest, you can create a homunculus. A homunculus
+        functions as a familiar summoned by the
+        <em>@UUID[Compendium.dnd5e.spells.JGT5bNqu9REL7Fuz]{find familiar}</em> spell, with several
+        differences:</p><ul><li><p>The telepathic link between you and your homunculus functions at
+        any distance, provided you and your homunculus are on the same plane of
+        existence.</p></li><li><p>You can’t dismiss your homunculus as you would a
+        familiar.</p></li><li><p>Your homunculus is a Construct and can’t assume a different
+        form.</p></li><li><p>Your homunculus can take the Attack action on its
+        turn.</p></li></ul><p>When your homunculus dies, its body remains, and can be reanimated in
+        a procedure requiring 1 hour of work, which can be performed over the course of a short or
+        long rest.</p><h3>Demolition Spree</h3><p><em>Prerequisites: 13th level, Mad Bomber Field of
+        Study</em></p><p>When you prime and throw a bomb, you can choose to throw a number of bombs
+        equal to the number of damage dice for the bomb instead of only one. Each bomb you throw
+        deals 1d10 damage plus your Intelligence modifier and can’t target the same creature or
+        space. You must spend reagent dice separately on these bombs and can apply a bomb formula to
+        only one of them.</p><h3>Explosive Missile</h3><p>As a bonus action, you can load one of
+        your bombs onto the head of a crossbow bolt. Instead of its normal damage, this bolt deals
+        damage as if the bomb had been primed and thrown, but it doesn’t have a blast radius. Only
+        one of your bombs can be loaded onto a bolt at a time, and you can’t fire an explosive bolt
+        on the same turn you throw a bomb.</p><h3>Fire Brand</h3><p>As a bonus action you can mix
+        your bomb’s contents together and apply the fiery concoction to a melee weapon you are
+        holding. Until the end of your turn, this melee weapon deals an extra 1d6 fire damage on a
+        hit. This extra damage increases by 1d6 at 5th level (2d6), 11th level (3d6), and 17th level
+        (4d6).</p><h3>Fire Eater</h3><p>Instead of priming and throwing a bomb, you use an action to
+        drink its contents and spit them out in a 15-foot cone. Each creature within the cone must
+        make a Dexterity saving throw against your bomb save DC. On a failed save, a creature takes
+        fire damage as if the bomb had been primed and thrown, or half as much on a successful save.
+        When you use this ability, you take 1d4 points of fire damage for each of your bomb’s damage
+        dice.</p><h3>Fire in the Hole</h3><p><em>Prerequisite: 9th level</em></p><p>You have tweaked
+        your bomb’s formula to increase its explosive yield. Your bomb save DC increases by half
+        your proficiency bonus, rounded down.</p><h3>Fortified Serum</h3><p><em>Prerequisites: 13th
+        level, Apothecary Field of Study</em></p><p>Whenever a creature regains hit points by
+        drinking one of your potions, it gains resistance to bludgeoning, piercing, and slashing
+        damage from nonmagical attacks until the end of its next turn.</p><h3>Grenadier</h3><p>When
+        you prime and throw a bomb, you can use your bonus action to make an attack with a weapon
+        that isn’t two-handed.</p><h3>Dynamo Charger</h3><p><em>Prerequisites: 13th level, Dynamo
+        Engineer Field of Study</em></p><p>You’ve invented a device that rapidly recharges your
+        spell dynamos. Once per day when you finish a short rest, you can regain 2 expended spell
+        slots stored in dynamos. You can configure these dynamos
+        immediately.</p><h3>Hemoreagent</h3><p><em>Prerequisite: 17th level</em></p><p>When you
+        prime and throw a bomb, you can convert a measure of your own blood into reagents. You can
+        add five or fewer reagent dice to the bomb’s damage roll without expending them, and you
+        lose 1d6 hit points for each reagent die added. This loss of hit points can’t be reduced or
+        prevented in any way.</p><h3>Lazarus Bolt</h3><p><em>Prerequisite: 9th
+        level</em></p><p>You’ve discovered a radical necromantic workaround: restoring life with
+        direct electricity to the heart. As an action, you can drive a bolt into the torso of a
+        creature within 5 feet of you that has died within the last minute and shock it back to
+        life. That creature returns to life with 1 hit point. This feature can’t return to life a
+        creature that lacks a heart, a creature that has died of old age, or a creature that is
+        missing vital organs.</p><p>Once you use this ability, you can’t use it again until you
+        finish a short or long rest.</p><h3>Magnified Blast</h3><p><em>Prerequisite: 17th
+        level</em></p><p>Thanks to a new internal design for your bombs, you have expanded their
+        blast radius and magnitude. Whenever you add reagent dice to your bomb’s damage, you can
+        also choose to expand the bomb’s blast radius by a distance of up to 5 feet per two reagent
+        dice spent.</p><h3>Ooze Cowboy</h3><p><em>Prerequisites: 13th level, Ooze Rancher Field of
+        Study</em></p><p>Tired of waiting for your Oozes to catch up with you, you’ve modified your
+        formula to make extra fast slimes! All slimes you make have a speed of 30 feet, unless it
+        was already higher. Additionally, you can ride any Ooze you make of Medium size or larger as
+        a mount. You and your equipment suffer no ill effect from touching your Oozes directly.
+        Lastly, your Oozes add your proficiency bonus to their damage rolls and initiative
+        rolls.</p><h3>Poisoner</h3><p>Your research into poisonous compounds has taught you how to
+        concoct lethal toxins. You gain proficiency with the poisoner’s kit. Additionally, you can
+        craft the following poisons when you brew potions, which use your bomb save DC instead of
+        their normal save
+        DCs:</p><p></p><table><thead><tr><td><p>Potion</p></td><td><p>Cost</p></td></tr></thead><tbody><tr><td><p>2
+        x @UUID[Compendium.dnd5e.items.Fc6UfFNOnW80XMzi]{Antitoxin}</p></td><td><p>1 reagent
+        die</p></td></tr><tr><td><p>2 x @UUID[Compendium.dnd5e.items.eVbPkYjpl29RE2uW]{Basic
+        Poison}</p></td><td><p>1 reagent die</p></td></tr><tr><td><p>Oil of Taggit</p></td><td><p>2
+        reagent dice</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.qBSEGJyHxdKIlBfj]{Potion
+        of Poison}</p></td><td><p>2 reagent dice</p></td></tr><tr><td><p>Serpent
+        Venom</p></td><td><p>2 reagent
+        dice</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.a86F565Pjdzym1jH]{Truth
+        Serum}</p></td><td><p>2 reagent dice</p></td></tr></tbody></table><blockquote><p>Foundry
+        Note: Oil of Taggit and Serpent Venom can be found
+        @UUID[Compendium.dnd5e.rules.t6scHTmpmHBTZGTX.JournalEntryPage.B8rYvLQ4jMY9GeJA#sample-poisons]{here}!</p></blockquote><p></p><h3>Precision
+        Explosives</h3><p>You have modified your bombs to have narrow gaps in their explosions,
+        perfect for keeping some creatures safe from the blast. You can choose one creature in the
+        blast radius of a bomb, other than the target, to automatically succeed on its saving throw
+        against the bomb and take no damage from it.</p><h3>Reactionary
+        Gulp</h3><p><em>Prerequisite: 17th level</em></p><p>By keeping your potions organized on a
+        bandolier or in a series of pouches, you can quickly draw them at a moment’s notice.
+        Immediately after you take damage, you can use your reaction to drink a
+        potion.</p><h3>Recycled Potions</h3><p>When you brew potions, you can distill potions you
+        have already brewed, destroying them and regaining the reagent dice expended to brew them.
+        You can choose to expend these reagent dice to create new potions. You can’t gain more than
+        your maximum number of reagent dice using this ability.</p><h3>Syringe</h3><p>Using a
+        sophisticated hypodermic needle, you can more quickly administer potions and poisons. As a
+        bonus action, you can inject a potion into yourself or a willing creature within 5 feet of
+        you, granting the benefits of the potion as if it were consumed normally. You can inject a
+        potion into an unwilling creature with a successful melee attack, treating the syringe as a
+        finesse weapon.</p><h3>Tri-Mutation</h3><p><em>Prerequisites: 13th level, Mutagenist Field
+        of Study</em></p><p>You’ve developed a powerful, but fleeting way to blend your mutagens.
+        When you inject yourself with a mutagen, you can choose to inject a tri-mutagen, which
+        grants you the benefit of all your mutagens at once. This benefit lasts for 1 minute, or
+        until you inject yourself with a different mutagen. Once you use this ability, you can’t use
+        it again until you finish a long rest.</p></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      createdTime: 1777925554198
+      modifiedTime: 1789159010496
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpAlchemist5e00.mhpDiscoveries00'
+flags:
+  core:
+    sheetClass: mage-hand-press-valdas-spire-of-secrets.ValdasJournalEntrySheet
+  dnd5e:
+    type: chapter
+    navigation:
+      up: mhpChapter2Intro
+      next: mhpCaptain000000
+    position: 14
+    title: Alchemist (5e)
+  mage-hand-press-core:
+    cssClasses:
+      - accent-yellow
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.0.3
+  coreVersion: '14.367'
+  createdTime: 1777417736592
+  modifiedTime: 1789757602937
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_id: mhpAlchemist5e00
+sort: -100000
+ownership:
+  default: 0
+categories: []
+_key: '!journal!mhpAlchemist5e00'

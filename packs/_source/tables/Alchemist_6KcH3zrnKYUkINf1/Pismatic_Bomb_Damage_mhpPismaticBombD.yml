@@ -1,0 +1,161 @@
+folder: 6KcH3zrnKYUkINf1
+name: Pismatic Bomb Damage
+_id: mhpPismaticBombD
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: Z69LVn1PyfChkeEP
+    name: Acid
+    img: systems/dnd5e/icons/svg/dice/d20.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.3
+      createdTime: 1789757513868
+      modifiedTime: 1789757524309
+      lastModifiedBy: t35nY7VSpLVSBI93
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    documentUuid: null
+    _key: '!tables.results!mhpPismaticBombD.Z69LVn1PyfChkeEP'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: BkI5j9fjqlHt1nCi
+    name: Cold
+    img: systems/dnd5e/icons/svg/dice/d20.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.3
+      createdTime: 1789757514304
+      modifiedTime: 1789757530781
+      lastModifiedBy: t35nY7VSpLVSBI93
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    documentUuid: null
+    _key: '!tables.results!mhpPismaticBombD.BkI5j9fjqlHt1nCi'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: oVKeZsmwZ5PAcUAn
+    name: Fire
+    img: systems/dnd5e/icons/svg/dice/d20.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.3
+      createdTime: 1789757515029
+      modifiedTime: 1789757534625
+      lastModifiedBy: t35nY7VSpLVSBI93
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    documentUuid: null
+    _key: '!tables.results!mhpPismaticBombD.oVKeZsmwZ5PAcUAn'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: yAq3HPrQUORTHiT6
+    name: Lightning
+    img: systems/dnd5e/icons/svg/dice/d20.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.3
+      createdTime: 1789757515461
+      modifiedTime: 1789757538422
+      lastModifiedBy: t35nY7VSpLVSBI93
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    documentUuid: null
+    _key: '!tables.results!mhpPismaticBombD.yAq3HPrQUORTHiT6'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: a8Mk1MbcSunC0FHP
+    name: Poison
+    img: systems/dnd5e/icons/svg/dice/d20.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.3
+      createdTime: 1789757515877
+      modifiedTime: 1789757542585
+      lastModifiedBy: t35nY7VSpLVSBI93
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    documentUuid: null
+    _key: '!tables.results!mhpPismaticBombD.a8Mk1MbcSunC0FHP'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: 4u9krSbZaB3FYwUh
+    name: Radiant
+    img: systems/dnd5e/icons/svg/dice/d20.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.3
+      createdTime: 1789757516351
+      modifiedTime: 1789757546245
+      lastModifiedBy: t35nY7VSpLVSBI93
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    documentUuid: null
+    _key: '!tables.results!mhpPismaticBombD.4u9krSbZaB3FYwUh'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.3
+  createdTime: 1789757444988
+  modifiedTime: 1789757521692
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+formula: 1d6
+_key: '!tables!mhpPismaticBombD'

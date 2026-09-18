@@ -1,0 +1,92 @@
+folder: 6KcH3zrnKYUkINf1
+name: Pismatic Bomb Saving Throw
+_id: mhpPismaticBombS
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: 0nYu5NY2Ts9jNMRQ
+    name: Dexterity
+    img: systems/dnd5e/icons/svg/dice/d20.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.3
+      createdTime: 1789757456507
+      modifiedTime: 1789757465094
+      lastModifiedBy: t35nY7VSpLVSBI93
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    documentUuid: null
+    _key: '!tables.results!mhpPismaticBombS.0nYu5NY2Ts9jNMRQ'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: 1KdG88r3647tgXh0
+    name: Constitution
+    img: systems/dnd5e/icons/svg/dice/d20.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.3
+      createdTime: 1789757456922
+      modifiedTime: 1789757477176
+      lastModifiedBy: t35nY7VSpLVSBI93
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    documentUuid: null
+    _key: '!tables.results!mhpPismaticBombS.1KdG88r3647tgXh0'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: MQ1L4iz1AIdJDsuq
+    name: Wisdom
+    img: systems/dnd5e/icons/svg/dice/d20.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.3
+      createdTime: 1789757458261
+      modifiedTime: 1789757484407
+      lastModifiedBy: t35nY7VSpLVSBI93
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    documentUuid: null
+    _key: '!tables.results!mhpPismaticBombS.MQ1L4iz1AIdJDsuq'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.3
+  createdTime: 1789757452877
+  modifiedTime: 1789757470257
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+formula: 1d6
+_key: '!tables!mhpPismaticBombS'

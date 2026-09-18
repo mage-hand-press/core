@@ -1,0 +1,19 @@
+type: RollTable
+folder: null
+name: Alchemist
+color: null
+sorting: a
+_id: 6KcH3zrnKYUkINf1
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.3
+  createdTime: 1789757427850
+  modifiedTime: 1789757427850
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!6KcH3zrnKYUkINf1'
