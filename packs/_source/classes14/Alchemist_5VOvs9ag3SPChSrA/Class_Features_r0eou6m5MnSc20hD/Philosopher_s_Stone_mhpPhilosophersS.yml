@@ -1,0 +1,67 @@
+_id: mhpPhilosophersS
+name: Philosopher's Stone
+type: feat
+img: icons/magic/symbols/runes-carved-stone-green.webp
+effects: []
+folder: r0eou6m5MnSc20hD
+flags: {}
+system:
+  description:
+    value: >-
+      <p>At 20th level, you unlock the crowning achievement of all alchemy: a philosopher’s stone, a
+      dynamo of alchemical energy in a fist-sized, glowing jewel. You can construct your
+      philosopher’s stone using your alchemist’s supplies, 1,000 gp worth of materials, and 7 days
+      of work. You can only have one philosopher’s stone at a time. As long as you possess the
+      stone, you gain the following benefits:</p><p>• Whenever you finish a short rest, you regain
+      all expended reagent dice.</p><p>• You can brew potions as an action, instead of over the
+      course of 10 minutes.</p><p>• You age 10 times slower than normal, and you can’t be aged
+      magically.</p><p>Additionally, you learn the following formula, which doesn’t count against
+      the total number of formulae you know:</p><h3 data-no-toc>Formula: Nuclear Bomb</h3><p>By
+      replacing your bomb’s explosive contents with your philosopher’s stone, you can change it into
+      a
+      @UUID[Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpNuclearBomb00]{nuclear
+      bomb}. A nuclear bomb deals 10d10 + 100 force damage instead of its normal fire damage, has a
+      blast radius of 1 mile, and completely destroys the philosopher’s stone. Additionally, each
+      creature within the blast radius that fails its saving throw takes the full bomb damage
+      rolled, or half as much damage on a successful save. Creatures within 60 feet of the bomb gain
+      no benefit from Evasion or similar features.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    rules: '2014'
+    revision: 1
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Alchemist
+  properties: []
+  identifier: philosophers-stone
+  activities: {}
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 20
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  coreVersion: '14.367'
+  createdTime: 1777321173336
+  modifiedTime: 1789159382829
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+_key: '!items!mhpPhilosophersS'

@@ -1,0 +1,19 @@
+name: Advanced Poisoner Poisons
+sorting: a
+folder: cO1p2kqou9MyQ0Km
+type: Item
+description: ''
+sort: 0
+color: null
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  coreVersion: '14.360'
+  createdTime: 1777321179431
+  modifiedTime: 1777321179431
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_id: aeVamln8zLRmSvwq
+_key: '!folders!aeVamln8zLRmSvwq'

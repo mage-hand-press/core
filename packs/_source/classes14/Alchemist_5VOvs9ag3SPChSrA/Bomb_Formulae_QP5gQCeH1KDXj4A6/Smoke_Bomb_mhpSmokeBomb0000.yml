@@ -1,0 +1,118 @@
+_id: mhpSmokeBomb0000
+name: Smoke Bomb
+type: feat
+img: icons/commodities/materials/glass-orb.webp
+effects: []
+folder: QP5gQCeH1KDXj4A6
+flags: {}
+system:
+  description:
+    value: >-
+      <p>By removing your bomb’s explosive contents entirely, you can change it into a smoke bomb. A
+      smoke bomb deals no damage but fills a 10-foot-radius sphere with smoke. This smoke spreads
+      around corners and its area is heavily obscured. It lasts for a number of rounds equal to your
+      Intelligence modifier (minimum of 1 round) or until a wind of moderate or greater speed (at
+      least 10 miles per hour) disperses it. Once you throw one of these bombs, you can’t throw
+      another one for 1 minute.</p><p></p><p><em><strong>*Foundry Note:</strong> The user can use
+      the 'Other Formula' to calculate the number of rounds the smoke lasts.</em></p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Alchemist
+  properties: []
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: special
+        value: 0
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: radius
+          size: '10'
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: '@abilities.int.mod'
+        name: ''
+        prompt: false
+        visible: false
+      img: null
+      sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  advancement: {}
+  identifier: smoke-bomb
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 2
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  coreVersion: '14.360'
+  createdTime: 1777321174582
+  modifiedTime: 1777330853253
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+_key: '!items!mhpSmokeBomb0000'

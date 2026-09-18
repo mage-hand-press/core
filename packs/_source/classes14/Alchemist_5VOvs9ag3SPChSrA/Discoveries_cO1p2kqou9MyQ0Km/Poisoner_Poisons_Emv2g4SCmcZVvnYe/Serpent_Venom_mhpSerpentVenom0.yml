@@ -1,0 +1,153 @@
+folder: Emv2g4SCmcZVvnYe
+name: Serpent Venom
+type: consumable
+img: icons/consumables/potions/round-decorated-snake-green.webp
+system:
+  description:
+    value: >-
+      <p><strong>(Injury).</strong> This poison must be harvested from a dead or incapacitated giant
+      poisonous snake. A creature subjected to this poison must succeed on a DC 11 Constitution
+      saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a
+      successful one.</p>
+    chat: ''
+  source:
+    custom: SRD 5.1
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  attunement: ''
+  equipped: false
+  rarity: ''
+  identified: true
+  uses:
+    max: ''
+    recovery: []
+    autoDestroy: false
+    spent: 0
+  damage:
+    base:
+      number: 3
+      denomination: 6
+      bonus: ''
+      types:
+        - poison
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    replace: false
+  properties: []
+  unidentified:
+    description: ''
+  type:
+    value: potion
+    subtype: ''
+  container: null
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 3
+            denomination: 6
+            bonus: ''
+            types:
+              - poison
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+      save:
+        ability:
+          - con
+        dc:
+          calculation: ''
+          formula: '11'
+      img: null
+      sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  identifier: serpent-venom
+  attuned: false
+effects: []
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  coreVersion: '14.360'
+  createdTime: 1777321171952
+  modifiedTime: 1777321171952
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_id: mhpSerpentVenom0
+sort: 0
+ownership:
+  default: 0
+_key: '!items!mhpSerpentVenom0'

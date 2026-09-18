@@ -1,0 +1,128 @@
+_id: mhpReagentDice00
+name: Reagent Dice
+type: feat
+img: icons/sundries/gaming/dice-pair-white-green.webp
+effects: []
+folder: r0eou6m5MnSc20hD
+flags: {}
+system:
+  description:
+    value: >-
+      <p>You start with three reagent dice, which are d10s, and you gain additional reagent dice as
+      you gain levels in this class, as shown in the Reagent Dice column of the Alchemist table. You
+      regain all expended reagent dice when you finish a long rest.</p><p>When you use a
+      @UUID[Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpPrimedBomb000]{primed
+      bomb}, you can expend a number of reagent dice up to your proficiency bonus and add the dice
+      to the bomb’s damage roll.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: '@scale.alchemist.reagent'
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Alchemist
+  properties: []
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: special
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+        expiry: null
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      img: null
+      sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+  advancement: {}
+  identifier: reagent-dice
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.0.0
+  coreVersion: '14.367'
+  createdTime: 1788545795356
+  modifiedTime: 1788545795356
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+_key: '!items!mhpReagentDice00'

@@ -1,0 +1,142 @@
+_id: mhpLazarusBolt01
+name: Lazarus Bolt
+type: feat
+img: icons/magic/lightning/bolt-strike-creature-pink.webp
+effects: []
+folder: cO1p2kqou9MyQ0Km
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: 9th level</em></p>
+
+      <p>You’ve discovered a radical necromantic workaround: restoring life with direct electricity
+      to the heart. As an action, you can drive a bolt into the torso of a creature within 5 feet of
+      you that has died within the last minute and shock it back to life. That creature returns to
+      life with 1 hit point. This feature can’t return to life a creature that lacks a heart, a
+      creature that has died of old age, or a creature that is missing vital organs.</p>
+
+      <p>Once you use this ability, you can’t use it again until you finish a short or long
+      rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: '1'
+    recovery:
+      - period: sr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Alchemist
+  properties: []
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: heal
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+        expiry: null
+      effects: []
+      range:
+        value: '5'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      healing:
+        number: null
+        denomination: null
+        bonus: ''
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: '1'
+        scaling:
+          mode: whole
+          number: null
+          formula: ''
+        modifiers: []
+      img: null
+      sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+  advancement: {}
+  identifier: lazarus-bolt
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.0.0
+  coreVersion: '14.367'
+  createdTime: 1788545792230
+  modifiedTime: 1788545792230
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+_key: '!items!mhpLazarusBolt01'

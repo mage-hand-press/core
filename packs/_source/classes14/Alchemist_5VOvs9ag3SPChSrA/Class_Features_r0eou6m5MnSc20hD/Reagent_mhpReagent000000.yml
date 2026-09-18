@@ -1,0 +1,123 @@
+_id: mhpReagent000000
+name: Reagent
+type: feat
+img: icons/tools/laboratory/vials-blue-pink.webp
+effects: []
+folder: r0eou6m5MnSc20hD
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level, you have a collection of powerful alchemical reagents, represented
+      by a pool of reagent dice, that you can spend to brew potions or magnify the power of your
+      explosives.</p><h3 data-no-toc>Reagent Dice</h3><p>You start with three
+      @UUID[Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpReagentDice00]{reagent
+      dice}, which are d10s, and you gain additional reagent dice as you gain levels in this class,
+      as shown in the Reagent Dice column of the Alchemist table. You regain all expended reagent
+      dice when you finish a long rest.</p><p>When you prime a
+      @UUID[Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpBombs00000000]{bomb},
+      you can expend a number of reagent dice up to your proficiency bonus and add the dice to the
+      bomb’s damage roll.</p><h3 data-no-toc>Brewing Potions</h3><p>You can spend 10 minutes and
+      expend any number of reagent dice to
+      @UUID[Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpBrewingPotion]{brew
+      potions}. These potions retain potency for 24 hours, after which they become inert. If a
+      potion calls for a saving throw, it uses your bomb save DC.</p><p>The number of reagent dice
+      and the alchemist level required to brew a potion are given on the Potions
+      table.</p><p></p><table><thead><tr><td
+      colspan="3"><p>Potions</p></td></tr><tr><td><p>Potion</p></td><td><p>Cost</p></td><td><p>Alchemist
+      Level</p></td></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd5e.items.aMnWi1WXWpxRHq4r]{Potion
+      of Climbing}</p></td><td><p>1 reagent
+      die</p></td><td><p>3rd</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.gTRFQLdVD1gsKtPi]{Potion
+      of Growth}</p></td><td><p>1 reagent
+      die</p></td><td><p>3rd</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.ytlsBjYsZ7OBSEBs]{Potion
+      of Healing}</p></td><td><p>1 reagent
+      die</p></td><td><p>3rd</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.CAZMwFBWp9VC0ZCg]{Potion
+      of Water Breathing}</p></td><td><p>1 reagent
+      die</p></td><td><p>3rd</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.MAwoj2suj6cvb9Ti]{Universal
+      Solvent}</p></td><td><p>1 reagent
+      die</p></td><td><p>3rd</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpCureAll000000]{Cure-All}</p></td><td><p>2
+      reagent
+      dice</p></td><td><p>7th</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.L887NdWEP5NqHCrQ]{Potion
+      of Greater Healing}</p></td><td><p>2 reagent
+      dice</p></td><td><p>7th</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.wNKYbKYwOHbA7SH8]{Potion
+      of Heroism}</p></td><td><p>2 reagent dice</p></td><td><p>7th</p></td></tr><tr><td><p>Potion of
+      Resistance</p></td><td><p>2 reagent
+      dice</p></td><td><p>7th</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.zJ5LhDvTxYKzPIx4]{Sovereign
+      Glue} (1 ounce)</p></td><td><p>2 reagent
+      dice</p></td><td><p>7th</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.HY8duCwmvlXOruTG]{Potion
+      of Diminution}</p></td><td><p>3 reagent
+      dice</p></td><td><p>14th</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.eTNc8XPtvZNe3yQs]{Potion
+      of Flying}</p></td><td><p>4 reagent
+      dice</p></td><td><p>14th</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.mhFBTY0egW8AeCHe]{Potion
+      of Hill Giant Strength}</p></td><td><p>4 reagent
+      dice</p></td><td><p>14th</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.rTn4p9nJr4Aq2GPB]{Potion
+      of Invisibility}</p></td><td><p>4 reagent
+      dice</p></td><td><p>14th</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.5m9ErO9In8Uc5yyf]{Potion
+      of Superior Healing}</p></td><td><p>4 reagent
+      dice</p></td><td><p>14th</p></td></tr></tbody></table><p></p><h3 data-no-toc>Reagent
+      Synthesis</h3><p>When you finish a short rest, you can choose to regain all of your expended
+      reagent dice that weren’t used to brew potions. Once you use this
+      @UUID[Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpReagentSynthe]{feature},
+      you can’t do so again until you finish a long rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    rules: '2014'
+    revision: 1
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Alchemist
+  properties: []
+  identifier: reagent
+  activities: {}
+  advancement:
+    F9YJZXExebXYflb2:
+      name: ''
+      type: ItemGrant
+      _id: F9YJZXExebXYflb2
+      configuration:
+        items:
+          - optional: false
+            sort: 0
+            uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpReagentDice00
+          - optional: false
+            sort: 0
+            uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpBrewingPotion
+          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpReagentSynthe
+            optional: false
+            sort: 0
+        optional: false
+        sorting: m
+        spell: null
+      flags: {}
+      value: {}
+      level: 3
+      hint: ''
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.0.1
+  coreVersion: '14.367'
+  createdTime: 1777321167741
+  modifiedTime: 1789159373612
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+_key: '!items!mhpReagent000000'

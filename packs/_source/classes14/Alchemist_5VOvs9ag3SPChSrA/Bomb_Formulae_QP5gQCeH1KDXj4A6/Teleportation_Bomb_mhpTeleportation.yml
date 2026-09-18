@@ -1,0 +1,54 @@
+_id: mhpTeleportation
+name: Teleportation Bomb
+type: feat
+img: icons/commodities/gems/pearl-brown-red.webp
+effects: []
+folder: QP5gQCeH1KDXj4A6
+flags: {}
+system:
+  description:
+    value: >-
+      <p>By replacing your bomb’s explosive contents with a glowing etherite crystal, you can change
+      it into a teleportation bomb. A teleportation bomb deals no damage and instead opens a rift in
+      space, instantly teleporting you to its point of detonation. This effect fails if the bomb
+      explodes more than 30 feet away from you.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    rules: '2014'
+    revision: 1
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Alchemist
+  properties: []
+  identifier: teleportation-bomb
+  activities: {}
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 2
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  coreVersion: '14.360'
+  createdTime: 1777321138943
+  modifiedTime: 1777330856571
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+_key: '!items!mhpTeleportation'

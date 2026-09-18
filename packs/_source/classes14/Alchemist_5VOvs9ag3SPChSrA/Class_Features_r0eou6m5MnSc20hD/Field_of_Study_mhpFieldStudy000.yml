@@ -1,0 +1,54 @@
+_id: mhpFieldStudy000
+name: Field of Study
+type: feat
+img: icons/tools/hand/scale-balances-merchant-brown.webp
+effects: []
+folder: r0eou6m5MnSc20hD
+flags: {}
+system:
+  description:
+    value: >-
+      <p>While all alchemists share a common knowledge base, most alchemists specialize into a
+      particular field of study. When you reach 2nd level, you select your field of study, which
+      grants you features at 2nd, 6th, 10th, and 18th level.</p><p>A formula granted by your field
+      of study doesn’t count against the total number of formulae you know.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    rules: '2014'
+    revision: 1
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Alchemist
+  properties: []
+  identifier: field-of-study
+  activities: {}
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 2
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  coreVersion: '14.360'
+  createdTime: 1777321170836
+  modifiedTime: 1778001292255
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+_key: '!items!mhpFieldStudy000'

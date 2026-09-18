@@ -1,0 +1,243 @@
+name: Potion of Poison
+type: consumable
+img: icons/consumables/potions/potion-bottle-skull-label-poison-teal.webp
+system:
+  description:
+    value: >-
+      <p><em>This concoction looks, smells, and tastes like a potion of healing or other beneficial
+      potion.</em></p><p>However, it is actually poison masked by illusion magic. An identify spell
+      reveals its true nature.</p><p>If you drink it, you take 3d6 poison damage, and you must
+      succeed on a DC 13 Constitution saving throw or be poisoned. At the start of each of your
+      turns while you are poisoned in this way, you take 3d6 poison damage. At the end of each of
+      your turns, you can repeat the saving throw. On a successful save, the poison damage you take
+      on your subsequent turns decreases by 1d6. The poison ends when the damage decreases to
+      0.</p><section class="secret foundry-note" id="secret-lK9L9LydgGgQJzNL"><p><strong>Foundry
+      Note</strong></p><p>To apply the reduced damage from a successful Constitution save, please
+      use the Other Formula (set at 1d6) as required.</p></section>
+    chat: ''
+  source:
+    custom: SRD 5.1
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  quantity: 1
+  weight:
+    value: 0.1
+    units: lb
+  price:
+    value: 100
+    denomination: gp
+  attunement: ''
+  equipped: false
+  rarity: uncommon
+  identified: true
+  uses:
+    max: '1'
+    recovery: []
+    autoDestroy: true
+    spent: 0
+  damage:
+    base:
+      number: 3
+      denomination: 6
+      bonus: ''
+      types:
+        - poison
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+      modifiers: []
+    replace: false
+  properties: []
+  unidentified:
+    description: ''
+  type:
+    value: poison
+    subtype: ''
+  container: null
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        concentration: false
+        value: ''
+        units: spec
+        special: ''
+        override: false
+        expiry: null
+      effects: []
+      range:
+        units: touch
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 3
+            denomination: 6
+            bonus: ''
+            types:
+              - poison
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+            modifiers: []
+      save:
+        ability:
+          - con
+        dc:
+          calculation: ''
+          formula: '13'
+        visible: true
+      img: null
+      sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    dnd5eactivity300:
+      _id: dnd5eactivity300
+      type: utility
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        concentration: false
+        value: ''
+        units: spec
+        special: ''
+        override: false
+        expiry: null
+      effects: []
+      range:
+        units: touch
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: 1d6
+        name: ''
+        prompt: false
+        visible: false
+      img: null
+      sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+  identifier: potion-of-poison
+  attuned: false
+  rarities:
+    - uncommon
+effects: []
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.0.0
+  coreVersion: '14.367'
+  createdTime: 1788545794668
+  modifiedTime: 1788545794668
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+folder: Emv2g4SCmcZVvnYe
+_id: mhpPotionPoison0
+sort: 0
+ownership:
+  default: 0
+_key: '!items!mhpPotionPoison0'

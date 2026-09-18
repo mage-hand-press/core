@@ -1,0 +1,135 @@
+folder: r0eou6m5MnSc20hD
+name: Reagent | Bonus Damage (d10)
+type: feat
+img: icons/commodities/materials/bowl-powder-gold.webp
+system:
+  description:
+    value: >-
+      <p>When you use a
+      @UUID[Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpPrimedBomb000]{primed
+      bomb}, you can expend a number of reagent dice up to your proficiency bonus and add the dice
+      to the bomb’s damage roll.</p><p></p><p><em><strong>*Foundry Note:</strong> Link the Reagent
+      Dice to the Item Consumption.</em></p><p><em>This feature expends one Reagent die to improve
+      the damage roll of a d10 bomb, such as a Primed Bomb. Use this feature multiple times to
+      expend multiple Reagent dice.</em></p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Alchemist
+  properties: []
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: damage
+      activation:
+        type: special
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - number: 1
+            denomination: 10
+            bonus: ''
+            types: []
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+      img: null
+      sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  advancement: {}
+  identifier: reagent-or-bonus-damage-d10
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+effects: []
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  coreVersion: '14.360'
+  createdTime: 1777321173538
+  modifiedTime: 1777330849538
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_id: mhpReagentorBon4
+sort: 0
+ownership:
+  default: 0
+_key: '!items!mhpReagentorBon4'
