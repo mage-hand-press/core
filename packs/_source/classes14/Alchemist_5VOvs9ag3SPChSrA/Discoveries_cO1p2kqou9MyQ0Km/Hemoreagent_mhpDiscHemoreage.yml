@@ -1,0 +1,133 @@
+_id: mhpDiscHemoreage
+name: Hemoreagent
+type: feat
+img: icons/skills/wounds/blood-spurt-spray-red.webp
+effects: []
+folder: cO1p2kqou9MyQ0Km
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: 17th level</em></p><p>When you prime and throw a bomb, you can convert a
+      measure of your own blood into reagents. You can add five or fewer reagent dice to the bomb’s
+      damage roll without expending them, and you take 1d6 necrotic damage for each reagent die
+      added. This damage can’t be reduced or prevented in any way.</p><p></p><p><em><strong>*Foundry
+      Note:</strong> The user can declare how many reagent dice they are using and then use the
+      Other formula that many times to calculate the damage they take from this feature.</em></p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Alchemist
+  properties: []
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: damage
+      activation:
+        type: ''
+        value: 0
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+        expiry: null
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - necrotic
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+            modifiers: []
+      img: null
+      sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+  advancement: {}
+  identifier: hemoreagent
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 17
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.0.3
+  coreVersion: '14.367'
+  createdTime: 1789769389419
+  modifiedTime: 1789769389419
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+_key: '!items!mhpDiscHemoreage'

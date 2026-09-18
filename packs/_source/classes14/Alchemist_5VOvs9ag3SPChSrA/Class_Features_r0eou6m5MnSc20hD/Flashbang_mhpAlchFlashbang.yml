@@ -1,0 +1,119 @@
+_id: mhpAlchFlashbang
+name: Flashbang
+type: feat
+img: icons/magic/light/beam-explosion-orange.webp
+effects: []
+folder: r0eou6m5MnSc20hD
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Beginning at 5th level, you carry a supply of concussive explosives to help you escape from
+      perilous situations. As a bonus action, you can throw one of these explosives at your feet,
+      disorienting and distracting nearby foes. Each Large or smaller creature within 5 feet of you
+      can’t take reactions until the start of its next turn.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Alchemist
+  properties: []
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: bonus
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        concentration: false
+        value: '1'
+        units: round
+        special: ''
+        override: false
+        expiry: null
+      effects: []
+      range:
+        value: '5'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      img: null
+      sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+  advancement: {}
+  identifier: flashbang
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 5
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.0.3
+  coreVersion: '14.367'
+  createdTime: 1789769323629
+  modifiedTime: 1789769323629
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+_key: '!items!mhpAlchFlashbang'

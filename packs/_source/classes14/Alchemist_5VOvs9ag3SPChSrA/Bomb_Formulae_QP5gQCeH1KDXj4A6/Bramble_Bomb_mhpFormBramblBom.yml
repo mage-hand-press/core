@@ -1,0 +1,120 @@
+_id: mhpFormBramblBom
+name: Bramble Bomb
+type: feat
+img: icons/commodities/materials/plant-sprout-seed-brown-green.webp
+effects: []
+folder: QP5gQCeH1KDXj4A6
+flags: {}
+system:
+  description:
+    value: >-
+      <p>By adding a potent fertilizer to your bomb’s explosive contents, you can change it into a
+      bramble bomb. A bramble bomb deals no damage, but instead causes tough, thorny brambles to
+      sprout from any area of natural ground within the bomb’s blast radius, which becomes difficult
+      terrain. Additionally, if a creature in the blast radius is prone when the bomb detonates, it
+      is enveloped by the brambles and must succeed on a Strength (Athletics) check against your
+      bomb save DC before it can move or stand. The brambles shrivel and die after 1 minute.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Alchemist
+  properties: []
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: special
+        value: 0
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        concentration: false
+        value: '1'
+        units: minute
+        special: ''
+        override: false
+        expiry: null
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      img: null
+      sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+  advancement: {}
+  identifier: bramble-bomb
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 2
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.0.3
+  coreVersion: '14.367'
+  createdTime: 1789769434904
+  modifiedTime: 1789769434904
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+_key: '!items!mhpFormBramblBom'

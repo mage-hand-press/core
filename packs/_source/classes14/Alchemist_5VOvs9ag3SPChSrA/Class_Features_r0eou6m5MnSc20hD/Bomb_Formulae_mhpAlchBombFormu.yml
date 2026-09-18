@@ -1,0 +1,59 @@
+_id: mhpAlchBombFormu
+name: Bomb Formulae
+type: feat
+img: icons/skills/toxins/symbol-poison-drop-skull-green.webp
+effects: []
+folder: r0eou6m5MnSc20hD
+flags: {}
+system:
+  description:
+    value: >-
+      <p>By 2nd level, your research has granted you insight into new alchemical formulations for
+      your bombs. Select three bomb formulae from the
+      @UUID[Compendium.mage-hand-press-valdas-spire-of-secrets.journal14.JournalEntry.mhpAlchemist0000.JournalEntryPage.mhpBombFormulae0]{Bomb
+      Formulae} section. Once per turn when you prime a bomb, you can apply a formula to it.
+      Applying a formula sometimes changes all of the damage dice rolled for a bomb, but also grants
+      it special effects.</p><p>When you gain certain levels in this class, you learn additional
+      formulae of your choice, as shown in the Bomb Formulae Known column of the Alchemist table.
+      Additionally, when you gain a level in this class, you can choose one of the formulae you know
+      and replace it with another formula.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    rules: '2014'
+    revision: 1
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Alchemist
+  properties: []
+  identifier: bomb-formulae
+  activities: {}
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 2
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.0.3
+  coreVersion: '14.367'
+  createdTime: 1789769323110
+  modifiedTime: 1789769323110
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+_key: '!items!mhpAlchBombFormu'

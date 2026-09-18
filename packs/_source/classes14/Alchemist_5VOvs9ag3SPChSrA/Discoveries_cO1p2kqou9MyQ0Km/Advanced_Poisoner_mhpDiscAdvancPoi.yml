@@ -1,0 +1,56 @@
+_id: mhpDiscAdvancPoi
+name: Advanced Poisoner
+type: feat
+img: icons/consumables/potions/bottle-conical-corked-labeled-skull-poison-green.webp
+effects: []
+folder: cO1p2kqou9MyQ0Km
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Prerequisites: 13th level, Venomsmith Field of Study</em></p><p>Your morbid research
+      into the most vicious, exotic poisons allows you to brew the following poisons (also found
+      @UUID[Compendium.dnd5e.rules.t6scHTmpmHBTZGTX.JournalEntryPage.B8rYvLQ4jMY9GeJA#sample-poisons]{Here})
+      when you brew
+      potions:</p><p>@Embed[Compendium.mage-hand-press-valdas-spire-of-secrets.journal14.JournalEntry.mhpTables0000000.JournalEntryPage.mhpAdvancedPoiso
+      inline]</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    rules: '2014'
+    revision: 1
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Venomsmith
+  properties: []
+  identifier: advanced-poisoner
+  activities: {}
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 13
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.0.3
+  coreVersion: '14.367'
+  createdTime: 1789769387452
+  modifiedTime: 1789769387452
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+_key: '!items!mhpDiscAdvancPoi'

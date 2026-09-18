@@ -1,0 +1,54 @@
+_id: mhpDiscRecyclPot
+name: Recycled Potions
+type: feat
+img: icons/tools/laboratory/vials-blue-pink.webp
+effects: []
+folder: cO1p2kqou9MyQ0Km
+flags: {}
+system:
+  description:
+    value: >-
+      <div><p>When you brew potions, you can distill potions you have already brewed, destroying
+      them and regaining the reagent dice expended to brew them. You can choose to expend these
+      reagent dice to create new potions. You can’t gain more than your maximum number of reagent
+      dice using this ability.</p></div>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    rules: '2014'
+    revision: 1
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Alchemist
+  properties: []
+  identifier: recycled-potions
+  activities: {}
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 4
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.0.3
+  coreVersion: '14.367'
+  createdTime: 1789769390146
+  modifiedTime: 1789769390146
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+_key: '!items!mhpDiscRecyclPot'

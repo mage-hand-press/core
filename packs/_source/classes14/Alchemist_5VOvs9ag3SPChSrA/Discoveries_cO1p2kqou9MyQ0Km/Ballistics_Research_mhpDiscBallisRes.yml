@@ -1,0 +1,50 @@
+_id: mhpDiscBallisRes
+name: Ballistics Research
+type: feat
+img: icons/magic/control/orb-web-hold.webp
+effects: []
+folder: cO1p2kqou9MyQ0Km
+flags: {}
+system:
+  description:
+    value: <p>You learn two additional bomb formulae.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    rules: '2014'
+    revision: 1
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Alchemist
+  properties: []
+  identifier: ballistics-research
+  activities: {}
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 4
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.0.3
+  coreVersion: '14.367'
+  createdTime: 1789769387814
+  modifiedTime: 1789769387814
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+_key: '!items!mhpDiscBallisRes'

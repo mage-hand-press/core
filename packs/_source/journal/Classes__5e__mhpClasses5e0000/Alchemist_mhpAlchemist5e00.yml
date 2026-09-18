@@ -6,10 +6,10 @@ pages:
     type: class
     _id: mhpAlchemist0000
     system:
-      item: Compendium.mage-hand-press-core.classes14.Item.mhpAlchemist0000
+      item: Compendium.mage-hand-press-core.classes14.Item.mhpClasAlchemist
       description:
         value: >-
-          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpAlchemist0000 caption=false
+          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpClasAlchemist caption=false
           nameStyle=h1 no-toc]</p><h2>Chemical Reactions</h2><p>One of the first things an alchemist
           learns is how to mix chemicals that react explosively with each other. Ostensibly, this is
           taught to students to prevent deadly accidents, but adventuring alchemists regularly apply

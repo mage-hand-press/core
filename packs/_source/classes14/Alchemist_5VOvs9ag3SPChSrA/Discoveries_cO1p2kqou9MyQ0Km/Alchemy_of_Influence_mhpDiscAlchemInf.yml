@@ -1,0 +1,54 @@
+_id: mhpDiscAlchemInf
+name: Alchemy of Influence
+type: feat
+img: icons/magic/air/air-burst-spiral-large-pink.webp
+effects: []
+folder: cO1p2kqou9MyQ0Km
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: 13th level</em></p><p>Your alchemical research has revealed many of the
+      basic chemicals that govern emotions. You can brew the following
+      potions:</p><p>@Embed[Compendium.mage-hand-press-valdas-spire-of-secrets.journal14.JournalEntry.mhpTables0000000.JournalEntryPage.mhpAlchemyInflue
+      inline]</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    rules: '2014'
+    revision: 1
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Alchemist
+  properties: []
+  identifier: alchemy-of-influence
+  activities: {}
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 13
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.0.3
+  coreVersion: '14.367'
+  createdTime: 1789769387604
+  modifiedTime: 1789769387604
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+_key: '!items!mhpDiscAlchemInf'

@@ -9,7 +9,7 @@ pages:
       item: ''
       description:
         value: >-
-          <p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpAlchemist0000
+          <p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpClasAlchemist
           caption=false]</p><h2></h2>
         additionalHitPoints: ''
         additionalTraits: ''

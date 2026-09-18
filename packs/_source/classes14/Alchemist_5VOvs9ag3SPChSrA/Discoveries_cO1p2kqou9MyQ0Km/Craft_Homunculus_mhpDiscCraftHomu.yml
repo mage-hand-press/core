@@ -1,0 +1,126 @@
+_id: mhpDiscCraftHomu
+name: Craft Homunculus
+type: feat
+img: icons/skills/trades/textiles-stitching-leather-brown.webp
+effects: []
+folder: cO1p2kqou9MyQ0Km
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Using a special alchemical process requiring 8 hours of work, which can be performed over
+      the course of a long rest, you can create a
+      @UUID[Compendium.mage-hand-press-valdas-spire-of-secrets.bestiary.Actor.pGjdxJ7eqg1od1XS]{homunculus}.
+      A homunculus functions as a familiar summoned by the
+      <em>@Compendium[dnd5e.spells.JGT5bNqu9REL7Fuz]{Find Familiar}</em> spell, with several
+      differences:</p><ul><li>The telepathic link between you and your homunculus functions at any
+      distance, provided you and your homunculus are on the same plane of existence.</li><li>You
+      can’t dismiss your homunculus as you would a familiar.</li><li>Your homunculus is a Construct
+      and can’t assume a different form.</li><li>Your homunculus can take the Attack action on its
+      turn.</li></ul><p>When your homunculus dies, its body remains, and can be reanimated in a
+      procedure requiring 1 hour of work, which can be performed over the course of a short or long
+      rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Alchemist
+  properties: []
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: hour
+        value: 8
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+        expiry: null
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      img: null
+      sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+  advancement: {}
+  identifier: craft-homunculus
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 4
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.0.3
+  coreVersion: '14.367'
+  createdTime: 1789769388365
+  modifiedTime: 1789769388365
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+_key: '!items!mhpDiscCraftHomu'

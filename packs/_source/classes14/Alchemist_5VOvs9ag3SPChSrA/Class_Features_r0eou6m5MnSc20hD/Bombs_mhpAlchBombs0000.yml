@@ -1,0 +1,234 @@
+_id: mhpAlchBombs0000
+name: Bombs
+type: feat
+img: icons/skills/ranged/bomb-grenade-thrown-yellow.webp
+effects: []
+folder: r0eou6m5MnSc20hD
+flags: {}
+system:
+  description:
+    value: >-
+      <p>At 1st level, you can create volatile alchemical bombs using your alchemist’s supplies.
+      Whenever you finish a short or long rest, you can create a number of bombs equal to 10 + twice
+      your alchemist level. For you the cost of materials necessary to create these bombs is
+      negligible. After 24 hours, an unused bomb becomes inert. The statistics of a bomb are shown
+      @UUID[Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpBomb000000000]{here}.</p><p><em><strong>Priming
+      Bombs.</strong></em> Once per turn you can take the Use an Object action to prime a
+      @UUID[Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpPrimedBomb000]{bomb}
+      with explosive reagents and make an attack with it, increasing the bomb’s explosive potential.
+      When you do so, you can add your Intelligence modifier, instead of Dexterity, to the bomb’s
+      damage roll.</p><p>Additionally, when you throw a bomb in this way, its damage increases by
+      1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level
+      (4d10).</p><p><em><strong>Saving Throws.</strong></em> When you throw a bomb, the save DC for
+      its blast radius is calculated as follows:</p><p style="text-align:center"><em><strong>Bomb
+      save DC</strong></em> = 8 + your proficiency bonus + your Intelligence
+      modifier</p><p></p><p><em><strong>*Foundry Note:</strong> the user can roll the 'Other'
+      formula to calculate the number of bombs they get per day.</em></p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Alchemist
+  properties: []
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: special
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+        expiry: null
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: '@scale.alchemist.bombs'
+        name: ''
+        prompt: false
+        visible: false
+      img: null
+      sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    dnd5eactivity100:
+      _id: dnd5eactivity100
+      type: save
+      activation:
+        type: special
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+        expiry: null
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts: []
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: int
+          formula: ''
+        visible: true
+      img: null
+      sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+  advancement:
+    g6osg4bg4ufhbriy:
+      _id: g6osg4bg4ufhbriy
+      type: ScaleValue
+      configuration:
+        identifier: dice
+        type: dice
+        distance:
+          units: ''
+        scale:
+          '1':
+            number: 1
+            faces: 10
+          '5':
+            number: 2
+          '11':
+            number: 3
+          '17':
+            number: 4
+      value: {}
+      flags: {}
+      hint: ''
+      name: Bomb Dice
+      img: icons/skills/ranged/bomb-grenade-thrown-yellow.webp
+  identifier: bombs
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.0.3
+  coreVersion: '14.367'
+  createdTime: 1789769322781
+  modifiedTime: 1789769322781
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+_key: '!items!mhpAlchBombs0000'

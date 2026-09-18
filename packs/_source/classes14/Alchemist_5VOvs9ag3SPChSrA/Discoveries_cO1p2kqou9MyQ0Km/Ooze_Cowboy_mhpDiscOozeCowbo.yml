@@ -1,0 +1,57 @@
+_id: mhpDiscOozeCowbo
+name: Ooze Cowboy
+type: feat
+img: icons/magic/movement/trail-streak-zigzag-teal.webp
+effects: []
+folder: cO1p2kqou9MyQ0Km
+flags: {}
+system:
+  description:
+    value: >-
+      <p><em>Prerequisites: 13th level, Ooze Rancher Field of Study</em></p>
+
+      <p>Tired of waiting for your Oozes to catch up with you, you’ve modified your formula to make
+      extra fast slimes! All slimes you make have a speed of 30 feet, unless it was already higher.
+      Additionally, you can ride any Ooze you make of Medium size or larger as a mount. You and your
+      equipment suffer no ill effect from touching your Oozes directly. Lastly, your Oozes add your
+      proficiency bonus to their damage rolls and initiative rolls.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    rules: '2014'
+    revision: 1
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Ooze Rancher
+  properties: []
+  identifier: ooze-cowboy
+  activities: {}
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 13
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.0.3
+  coreVersion: '14.367'
+  createdTime: 1789769389733
+  modifiedTime: 1789769389733
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+_key: '!items!mhpDiscOozeCowbo'
