@@ -18,7 +18,7 @@ export function initialize() {
 	const alchemist = game.settings.get("mage-hand-press-core", "alchemist").customization;
 	const craftsman = false;
 	const gunslinger = game.settings.get("mage-hand-press-core", "gunslinger").customization;
-	const legacyRules = game.settings.get("dnd5e", "rulesVersion") === "legacy";
+	const legacyRules = dnd5e.settings.rulesVersion === "legacy";
 	const valdasActive = game.modules.get("mage-hand-press-valdas-spire-of-secrets")?.active;
 	if ( (alchemist || craftsman || gunslinger || valdasActive) && legacyRules ) {
 		Object.assign(CONFIG.DND5E.weaponProficiencies, weaponProficiencies);

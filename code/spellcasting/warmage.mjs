@@ -1,6 +1,34 @@
 const { SchemaField, StringField, TypedObjectField } = foundry.data.fields;
 
-export default class WarmageSpellcasting extends dnd5e.dataModels.spellcasting.SpellcastingModel {
+/**
+ * Initialize Warmage spellcasting.
+ */
+export function initialize() {
+	if ( !game.settings.get("mage-hand-press-core", "warmage").customization ) return;
+
+	dnd5e.dataModels.spellcasting.SpellcastingModel.TYPES.warmage = WarmageSpellcasting;
+
+	CONFIG.DND5E.spellcasting.warmage = {
+		label: "MageHandPress.Warmage.Spellcasting",
+		img: "icons/magic/light/hand-sparks-smoke-green.webp",
+		order: 30,
+		type: "warmage",
+		progression: {
+			warmage: {
+				label: "MageHandPress.Warmage.Spellcasting"
+			}
+		}
+	};
+}
+
+/* -------------------------------------------- */
+/*  Models                                      */
+/* -------------------------------------------- */
+
+/**
+ * Special spellcasting model to handle Warmage's special cantrip-only spellcasting.
+ */
+export class WarmageSpellcasting extends dnd5e.dataModels.spellcasting.SpellcastingModel {
 	/** @inheritDoc */
 	static defineSchema() {
 		return {
@@ -8,29 +36,6 @@ export default class WarmageSpellcasting extends dnd5e.dataModels.spellcasting.S
 			progression: new TypedObjectField(new SchemaField({
 				label: new StringField({ required: true, initial: () => _loc("DND5E.SPELLCASTING.Unlabeled") })
 			}))
-		};
-	}
-
-	/* -------------------------------------------- */
-
-	/**
-	 * Set up Warmage spellcasting in config.
-	 */
-	static initialize() {
-		if ( !game.settings.get("mage-hand-press-core", "warmage").customization ) return;
-
-		dnd5e.dataModels.spellcasting.SpellcastingModel.TYPES.warmage = WarmageSpellcasting;
-
-		CONFIG.DND5E.spellcasting.warmage = {
-			label: "MageHandPress.Warmage.Spellcasting",
-			img: "icons/magic/light/hand-sparks-smoke-green.webp",
-			order: 30,
-			type: "warmage",
-			progression: {
-				warmage: {
-					label: "MageHandPress.Warmage.Spellcasting"
-				}
-			}
 		};
 	}
 }

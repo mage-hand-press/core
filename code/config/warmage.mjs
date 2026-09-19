@@ -2,7 +2,7 @@
  * Initialize Warmage configuration changes.
  */
 export function initialize() {
-	dnd5e.registry.spellLists.register(game.settings.get("dnd5e", "rulesVersion") === "legacy"
+	dnd5e.registry.spellLists.register(dnd5e.settings.rulesVersion === "legacy"
 		? "Compendium.mage-hand-press-core.journal.JournalEntry.mhpWarmage5e0000.JournalEntryPage.mhpWarmageSpellL"
 		: "Compendium.mage-hand-press-core.journal.JournalEntry.mhpWarmage55e000.JournalEntryPage.mhpWarmageSpellL"
 	);

@@ -7,7 +7,7 @@ export function initialize() {
 	Object.assign(CONFIG.DND5E.weaponMasteries, weaponMasteries);
 
 	let weaponIds;
-	if ( game.settings.get("dnd5e", "rulesVersion") === "modern" ) {
+	if ( dnd5e.settings.rulesVersion === "modern" ) {
 		Object.assign(CONFIG.DND5E.consumableTypes.ammo.subtypes, consumableTypesModern.ammo);
 		Object.assign(CONFIG.DND5E.itemProperties, itemPropertiesModern);
 		validPropertiesModern.weapon.forEach(p => CONFIG.DND5E.validProperties.weapon.add(p));

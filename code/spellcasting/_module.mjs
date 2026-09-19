@@ -1,1 +1,2 @@
-export {default as WarmageSpellcasting} from "./warmage.mjs";
+export * as Alchemist from "./alchemist.mjs";
+export * as Warmage from "./warmage.mjs";

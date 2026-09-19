@@ -33,7 +33,8 @@ Hooks.once("init", () => {
 	automation.MonstrousGrafts.initialize();
 	automation.WarmageEdge.initialize();
 
-	spellcasting.WarmageSpellcasting.initialize();
+	spellcasting.Alchemist.initialize();
+	spellcasting.Warmage.initialize();
 
 	foundry.applications.apps.DocumentSheetConfig.registerSheet(
 		JournalEntry, "mage-hand-press-core", applications.MageHandPressJournalEntrySheet,

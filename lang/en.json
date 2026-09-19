@@ -2,7 +2,11 @@
 	"MageHandPress": {
 		"Alchemist": {
 			"BombFormula": "Bomb Formula",
-			"Discovery": "Discovery"
+			"Discovery": "Discovery",
+			"Dynamo": {
+				"Label": "Dynamo",
+				"SpellDynamos": "Spell Dynamos"
+			}
 		},
 		"Ammunition": {
 			"BlunderbussShot": "Blunderbuss Shot",
