@@ -23,8 +23,8 @@ system:
     recovery: []
     spent: 0
   type:
-    value: class
-    subtype: ''
+    value: enchantment
+    subtype: bombFormula
   requirements: Amorist
   properties: []
   activities:
@@ -182,7 +182,7 @@ _stats:
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769436138
-  modifiedTime: 1789769436139
+  modifiedTime: 1789840242665
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

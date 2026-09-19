@@ -23,8 +23,8 @@ system:
     recovery: []
     spent: 0
   type:
-    value: class
-    subtype: ''
+    value: enchantment
+    subtype: bombFormula
   requirements: Venomsmith
   properties: []
   activities:
@@ -208,7 +208,7 @@ _stats:
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769437450
-  modifiedTime: 1789769437452
+  modifiedTime: 1789840196759
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

@@ -23,8 +23,8 @@ system:
     recovery: []
     spent: 0
   type:
-    value: class
-    subtype: ''
+    value: enchantment
+    subtype: bombFormula
   requirements: Apothecary
   properties: []
   activities:
@@ -126,7 +126,7 @@ _stats:
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769436021
-  modifiedTime: 1789769436021
+  modifiedTime: 1789840245971
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

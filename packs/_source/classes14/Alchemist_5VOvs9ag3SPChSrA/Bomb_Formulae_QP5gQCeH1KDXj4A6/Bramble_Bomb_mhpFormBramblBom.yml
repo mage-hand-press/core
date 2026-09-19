@@ -29,8 +29,8 @@ system:
     recovery: []
     spent: 0
   type:
-    value: class
-    subtype: ''
+    value: enchantment
+    subtype: bombFormula
   requirements: Alchemist
   properties: []
   activities:
@@ -110,7 +110,7 @@ _stats:
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769434904
-  modifiedTime: 1789769434904
+  modifiedTime: 1789840291747
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
