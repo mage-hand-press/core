@@ -10,7 +10,7 @@ system:
     value: >-
       <p><em>Prerequisite: 13th level</em></p><p>You have mastered the alchemical secrets of
       shifting matter, which allow you to brew the following
-      potions:</p><p>@Embed[Compendium.mage-hand-press-valdas-spire-of-secrets.journal14.JournalEntry.mhpTables0000000.JournalEntryPage.mhpAlchemyTransf
+      potions:</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpAlchemyTransf
       inline]</p>
     chat: ''
   source:
@@ -44,7 +44,7 @@ _stats:
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769387707
-  modifiedTime: 1789769387707
+  modifiedTime: 1789845336352
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

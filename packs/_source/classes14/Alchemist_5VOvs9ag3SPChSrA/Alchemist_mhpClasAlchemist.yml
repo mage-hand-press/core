@@ -419,86 +419,6 @@ system:
       hint: ''
       name: Skills
       img: null
-    OtWUUkH0jZcoIBiD:
-      _id: OtWUUkH0jZcoIBiD
-      type: ItemChoice
-      configuration:
-        choices:
-          '2':
-            count: 3
-            replacement: false
-          '3':
-            count: null
-            replacement: true
-          '4':
-            count: null
-            replacement: true
-          '5':
-            count: 1
-            replacement: true
-          '6':
-            count: null
-            replacement: true
-          '7':
-            count: 1
-            replacement: true
-          '8':
-            count: null
-            replacement: true
-          '9':
-            count: 1
-            replacement: true
-          '10':
-            count: null
-            replacement: true
-          '11':
-            count: 1
-            replacement: true
-          '12':
-            count: null
-            replacement: true
-          '13':
-            count: 1
-            replacement: true
-          '14':
-            count: null
-            replacement: true
-          '15':
-            count: 1
-            replacement: true
-          '16':
-            count: null
-            replacement: true
-          '17':
-            count: 1
-            replacement: true
-          '18':
-            count: null
-            replacement: true
-          '19':
-            count: 1
-            replacement: true
-          '20':
-            count: null
-            replacement: true
-        allowDrops: true
-        type: feat
-        pool: []
-        spell: null
-        restriction:
-          list: []
-          type: class
-          subtype: bombFormula
-          school: []
-        sorting: a
-      value:
-        added: {}
-        replaced: {}
-      hint: ''
-      flags: {}
-      classRestriction: ''
-      name: Bomb Formulae
-      img: null
     KR38Sdc1BcSbMdhf:
       _id: KR38Sdc1BcSbMdhf
       type: ItemChoice
@@ -822,7 +742,7 @@ _stats:
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769322644
-  modifiedTime: 1789769324101
+  modifiedTime: 1789840395764
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

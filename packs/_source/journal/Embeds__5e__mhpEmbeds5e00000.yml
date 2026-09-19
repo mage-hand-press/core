@@ -1,7 +1,7 @@
 name: Embeds (5e)
 _id: mhpEmbeds5e00000
 pages:
-  - sort: 200000
+  - sort: 100000
     name: Tricks with Enchantments
     type: text
     _id: mhpTrickswithEnc
@@ -33,14 +33,14 @@ pages:
     _stats:
       duplicateSource: null
       exportSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: magehandpress000
-      modifiedTime: 1782582893199
+      modifiedTime: 1789844522157
       createdTime: 1782517956213
     _key: '!journal.pages!mhpEmbeds5e00000.mhpTrickswithEnc'
-  - sort: 300000
+  - sort: 200000
     name: Blinding Light
     type: text
     _id: mhpBlindingLight
@@ -69,14 +69,14 @@ pages:
     _stats:
       duplicateSource: null
       exportSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: magehandpress000
-      modifiedTime: 1782517956213
+      modifiedTime: 1789844522157
       createdTime: 1782517250656
     _key: '!journal.pages!mhpEmbeds5e00000.mhpBlindingLight'
-  - sort: 400000
+  - sort: 300000
     name: Encryptogram
     type: text
     _id: mhpEncryptogram0
@@ -104,14 +104,14 @@ pages:
     _stats:
       duplicateSource: null
       exportSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: magehandpress000
-      modifiedTime: 1782517956213
+      modifiedTime: 1789844522157
       createdTime: 1782517290916
     _key: '!journal.pages!mhpEmbeds5e00000.mhpEncryptogram0'
-  - sort: 600000
+  - sort: 500000
     name: Infinite Variation
     type: text
     _id: mhpInfiniteVaria
@@ -141,14 +141,14 @@ pages:
     _stats:
       duplicateSource: null
       exportSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: magehandpress000
-      modifiedTime: 1782517956214
+      modifiedTime: 1789844522157
       createdTime: 1782517356749
     _key: '!journal.pages!mhpEmbeds5e00000.mhpInfiniteVaria'
-  - sort: 800000
+  - sort: 700000
     name: Mage Hand Knack
     type: text
     _id: mhpMageHandKnack
@@ -186,14 +186,14 @@ pages:
     _stats:
       duplicateSource: null
       exportSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: magehandpress000
-      modifiedTime: 1782517956214
+      modifiedTime: 1789844522158
       createdTime: 1782517519922
     _key: '!journal.pages!mhpEmbeds5e00000.mhpMageHandKnack'
-  - sort: 900000
+  - sort: 800000
     name: Minor Shadow Illusion
     type: text
     _id: mhpMinorShadowIl
@@ -229,11 +229,11 @@ pages:
     _stats:
       duplicateSource: null
       exportSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: magehandpress000
-      modifiedTime: 1782583653696
+      modifiedTime: 1789844522158
       createdTime: 1782517581459
     _key: '!journal.pages!mhpEmbeds5e00000.mhpMinorShadowIl'
   - sort: 1000000
@@ -271,7 +271,7 @@ pages:
       createdTime: 1782517874682
     _id: mhpMysticalAthSp
     _key: '!journal.pages!mhpEmbeds5e00000.mhpMysticalAthSp'
-  - sort: 950000
+  - sort: 900000
     name: Mystical Athlete (quickstep)
     type: text
     system: {}
@@ -298,15 +298,15 @@ pages:
     _stats:
       duplicateSource: null
       exportSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: magehandpress000
-      modifiedTime: 1782584174956
+      modifiedTime: 1789844522158
       createdTime: 1782517889332
     _id: mhpMysticalAthQu
     _key: '!journal.pages!mhpEmbeds5e00000.mhpMysticalAthQu'
-  - sort: 1400000
+  - sort: 1200000
     name: Phantom Hookshot
     type: text
     _id: mhpPhantomHooksh
@@ -334,14 +334,14 @@ pages:
     _stats:
       duplicateSource: null
       exportSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: magehandpress000
-      modifiedTime: 1782518012137
+      modifiedTime: 1789844522158
       createdTime: 1782517956215
     _key: '!journal.pages!mhpEmbeds5e00000.mhpPhantomHooksh'
-  - sort: 1500000
+  - sort: 1300000
     name: Rapid Fortification
     type: text
     _id: mhpRapidFortific
@@ -372,14 +372,14 @@ pages:
     _stats:
       duplicateSource: null
       exportSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: magehandpress000
-      modifiedTime: 1782518061894
+      modifiedTime: 1789844522158
       createdTime: 1782517956215
     _key: '!journal.pages!mhpEmbeds5e00000.mhpRapidFortific'
-  - sort: 500000
+  - sort: 400000
     name: Field Medic
     type: text
     _id: mhpFieldMedic000
@@ -408,14 +408,14 @@ pages:
     _stats:
       duplicateSource: null
       exportSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: magehandpress000
-      modifiedTime: 1782517956213
+      modifiedTime: 1789844522157
       createdTime: 1782517311940
     _key: '!journal.pages!mhpEmbeds5e00000.mhpFieldMedic000'
-  - sort: 700000
+  - sort: 600000
     name: Knight’s Aegis
     type: text
     _id: mhpForceAegis000
@@ -442,14 +442,14 @@ pages:
     _stats:
       duplicateSource: null
       exportSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: magehandpress000
-      modifiedTime: 1782517956214
+      modifiedTime: 1789844522158
       createdTime: 1782517398072
     _key: '!journal.pages!mhpEmbeds5e00000.mhpForceAegis000'
-  - sort: 1200000
+  - sort: 1100000
     name: Mystical Weaponmaster
     type: text
     _id: mhpMysticalWeapo
@@ -477,14 +477,14 @@ pages:
     _stats:
       duplicateSource: null
       exportSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: magehandpress000
-      modifiedTime: 1782517990551
+      modifiedTime: 1789844522158
       createdTime: 1782517990551
     _key: '!journal.pages!mhpEmbeds5e00000.mhpMysticalWeapo'
-  - sort: 1600000
+  - sort: 1400000
     name: Unerring Strike
     type: text
     category: mhpWarmage000000
@@ -509,16 +509,16 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1782518084932
-      modifiedTime: 1782584087909
+      modifiedTime: 1789844522158
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpEmbeds5e00000.mhpUnerringStrik'
-  - sort: 1700000
+  - sort: 1500000
     name: Signature Focus
     type: text
     category: mhpWarmage000000
@@ -546,16 +546,16 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1782586111239
-      modifiedTime: 1782586140829
+      modifiedTime: 1789844522158
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpEmbeds5e00000.mhpSignatureFocu'
-  - sort: 1800000
+  - sort: 1600000
     name: Weapon Properties
     type: text
     category: xJ6OJMRjTWNmz5Yx
@@ -576,16 +576,16 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1783117666615
-      modifiedTime: 1783117668878
+      modifiedTime: 1789844522158
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpEmbeds5e00000.mhpWeaponPropert'
-  - sort: 1800000
+  - sort: 1700000
     name: Automatic
     type: rule
     category: xJ6OJMRjTWNmz5Yx
@@ -611,11 +611,11 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1783117676457
-      modifiedTime: 1783117684162
+      modifiedTime: 1789844522158
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null
@@ -655,7 +655,7 @@ pages:
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpEmbeds5e00000.mhpBlaster000000'
-  - sort: 1800000
+  - sort: 1900000
     name: Concealable
     type: rule
     category: xJ6OJMRjTWNmz5Yx
@@ -680,16 +680,16 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1783117721861
-      modifiedTime: 1783117725832
+      modifiedTime: 1789844522158
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpEmbeds5e00000.mhpConcealable00'
-  - sort: 1800000
+  - sort: 2000000
     name: Dry
     type: rule
     category: xJ6OJMRjTWNmz5Yx
@@ -715,16 +715,16 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1783117738575
-      modifiedTime: 1783117741591
+      modifiedTime: 1789844522158
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpEmbeds5e00000.mhpDry0000000000'
-  - sort: 1800000
+  - sort: 2100000
     name: Explosive
     type: rule
     category: xJ6OJMRjTWNmz5Yx
@@ -752,16 +752,16 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1783117760786
-      modifiedTime: 1783117916849
+      modifiedTime: 1789844522158
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpEmbeds5e00000.mhpExplosive0000'
-  - sort: 1800000
+  - sort: 2200000
     name: Foregrip
     type: rule
     category: xJ6OJMRjTWNmz5Yx
@@ -786,16 +786,16 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1783117768636
-      modifiedTime: 1783117898756
+      modifiedTime: 1789844522158
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpEmbeds5e00000.mhpForegrip00000'
-  - sort: 1800000
+  - sort: 2300000
     name: Heat
     type: rule
     category: xJ6OJMRjTWNmz5Yx
@@ -822,16 +822,16 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1783117775469
-      modifiedTime: 1783117890893
+      modifiedTime: 1789844522159
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpEmbeds5e00000.mhpHeat000000000'
-  - sort: 1800000
+  - sort: 2400000
     name: Misfire
     type: rule
     category: xJ6OJMRjTWNmz5Yx
@@ -857,16 +857,16 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1783117786658
-      modifiedTime: 1783117883030
+      modifiedTime: 1789844522159
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpEmbeds5e00000.mhpMisfire000000'
-  - sort: 1800000
+  - sort: 2500000
     name: Mounted
     type: rule
     category: xJ6OJMRjTWNmz5Yx
@@ -893,16 +893,16 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1783117795674
-      modifiedTime: 1783117877739
+      modifiedTime: 1789844522159
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpEmbeds5e00000.mhpMounted000000'
-  - sort: 1800000
+  - sort: 2600000
     name: Nonlethal
     type: rule
     category: xJ6OJMRjTWNmz5Yx
@@ -927,16 +927,16 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1783117804908
-      modifiedTime: 1783117870742
+      modifiedTime: 1789844522159
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpEmbeds5e00000.mhpNonlethal0000'
-  - sort: 1800000
+  - sort: 2700000
     name: Overheat
     type: rule
     category: xJ6OJMRjTWNmz5Yx
@@ -961,16 +961,16 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1783117811194
-      modifiedTime: 1783117864406
+      modifiedTime: 1789844522159
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpEmbeds5e00000.mhpOverheat00000'
-  - sort: 1800000
+  - sort: 2800000
     name: Scatter
     type: rule
     category: xJ6OJMRjTWNmz5Yx
@@ -996,16 +996,16 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1783117821030
-      modifiedTime: 1783117857053
+      modifiedTime: 1789844522159
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpEmbeds5e00000.mhpScatter000000'
-  - sort: 1800000
+  - sort: 2900000
     name: Sighted
     type: rule
     category: xJ6OJMRjTWNmz5Yx
@@ -1028,16 +1028,16 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1783117827149
-      modifiedTime: 1783117849959
+      modifiedTime: 1789844522159
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpEmbeds5e00000.mhpSighted000000'
-  - sort: 1800000
+  - sort: 3000000
     name: Twinshot
     type: rule
     category: xJ6OJMRjTWNmz5Yx
@@ -1063,16 +1063,16 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1783117837201
-      modifiedTime: 1783117842936
+      modifiedTime: 1789844522159
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpEmbeds5e00000.mhpTwinshot00000'
-  - sort: 1800000
+  - sort: 3100000
     name: Eras
     type: text
     category: xJ6OJMRjTWNmz5Yx
@@ -1110,57 +1110,481 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1783378617018
-      modifiedTime: 1783378726592
+      modifiedTime: 1789844522159
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpEmbeds5e00000.mhpEras000000000'
+  - sort: 3300000
+    name: Potions
+    type: text
+    category: MXEwg4kpNJw5Vyrp
+    _id: mhpPotions000000
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <table><caption><p>Potions</p></caption><thead><tr><th><p>Potion</p></th><th><p>Cost</p></th><th><p>Alchemist
+        Level</p></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd5e.items.aMnWi1WXWpxRHq4r]{Potion
+        of Climbing}</p></td><td><p>1 reagent
+        die</p></td><td><p>3rd</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.gTRFQLdVD1gsKtPi]{Potion
+        of Growth}</p></td><td><p>1 reagent
+        die</p></td><td><p>3rd</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.ytlsBjYsZ7OBSEBs]{Potion
+        of Healing}</p></td><td><p>1 reagent
+        die</p></td><td><p>3rd</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.CAZMwFBWp9VC0ZCg]{Potion
+        of Water Breathing}</p></td><td><p>1 reagent
+        die</p></td><td><p>3rd</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.MAwoj2suj6cvb9Ti]{Universal
+        Solvent}</p></td><td><p>1 reagent
+        die</p></td><td><p>3rd</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-alchemist.equipment14.Item.mhpPotiCureAll00]{Cure-All}</p></td><td><p>2
+        reagent
+        dice</p></td><td><p>7th</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.L887NdWEP5NqHCrQ]{Potion
+        of Greater Healing}</p></td><td><p>2 reagent
+        dice</p></td><td><p>7th</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.wNKYbKYwOHbA7SH8]{Potion
+        of Heroism}</p></td><td><p>2 reagent dice</p></td><td><p>7th</p></td></tr><tr><td><p>Potion
+        of Resistance</p></td><td><p>2 reagent
+        dice</p></td><td><p>7th</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.zJ5LhDvTxYKzPIx4]{Sovereign
+        Glue} (1 ounce)</p></td><td><p>2 reagent
+        dice</p></td><td><p>7th</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.HY8duCwmvlXOruTG]{Potion
+        of Diminution}</p></td><td><p>3 reagent
+        dice</p></td><td><p>14th</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.eTNc8XPtvZNe3yQs]{Potion
+        of Flying}</p></td><td><p>4 reagent
+        dice</p></td><td><p>14th</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.mhFBTY0egW8AeCHe]{Potion
+        of Hill Giant Strength}</p></td><td><p>4 reagent
+        dice</p></td><td><p>14th</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.rTn4p9nJr4Aq2GPB]{Potion
+        of Invisibility}</p></td><td><p>4 reagent
+        dice</p></td><td><p>14th</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.5m9ErO9In8Uc5yyf]{Potion
+        of Superior Healing}</p></td><td><p>4 reagent
+        dice</p></td><td><p>14th</p></td></tr></tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.3
+      createdTime: 1789843956851
+      modifiedTime: 1789844522159
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds5e00000.mhpPotions000000'
+  - sort: 3400000
+    name: Bomb Formulae
+    type: text
+    category: MXEwg4kpNJw5Vyrp
+    _id: mhpBombFormulae0
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <table><caption><p>Bomb
+        Formulae</p></caption><thead><tr><th><p>Formula</p></th><th><p>Damage</p></th><th><p>Saving
+        Throw</p></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpFormAcidBomb0]{Acid
+        Bomb}</p></td><td><p>d4
+        acid</p></td><td><p>Dexterity</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpFormArcanoBom]{Arcano
+        Bomb*}</p></td><td><p>d12
+        force</p></td><td><p>Dexterity</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpFormBlackPowd]{Black
+        Powder Bomb*}</p></td><td><p>d12
+        fire</p></td><td><p>Dexterity</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpFormBramblBom]{Bramble
+        Bomb}</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpFormCryoBomb0]{Cryo
+        Bomb}</p></td><td><p>d8
+        cold</p></td><td><p>Constitution</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpFormHolyBomb0]{Holy
+        Bomb}</p></td><td><p>d8
+        radiant</p></td><td><p>Dexterity</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpFormImpactBom]{Impact
+        Bomb}</p></td><td><p>d8
+        force</p></td><td><p>Dexterity</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpFormIncendBom]{Incendiary
+        Bomb}</p></td><td><p>d6
+        fire</p></td><td><p>Dexterity</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpFormLaughiGas]{Laughing
+        Gas Bomb}</p></td><td><p>d6
+        poison</p></td><td><p>Constitution</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpFormLightnBom]{Lightning
+        Bomb}</p></td><td><p>d8
+        lightning</p></td><td><p>Dexterity</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpFormNonletBom]{Nonlethal
+        Bomb}</p></td><td><p>d8
+        bludgening</p></td><td><p>Dexterity</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpFormOilBomb00]{Oil
+        Bomb}</p></td><td><p>d6
+        fire</p></td><td><p>—</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpFormPainkiBom]{Painkiller
+        Bomb*}</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpFormPheromBom]{Pheromone
+        Bomb*}</p></td><td><p>—</p></td><td><p>Wisdom</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpFormPrismaBom]{Prismatic
+        Bomb}</p></td><td><p>Varies</p></td><td><p>Varies</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpFormPsioniBom]{Psionic
+        Bomb}</p></td><td><p>d6
+        psychic</p></td><td><p>Wisdom</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpFormQuietBomb]{Quiet
+        Bomb}</p></td><td><p>d8
+        fire</p></td><td><p>Dexterity</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpFormSeekinBom]{Seeking
+        Bomb}</p></td><td><p>d6
+        fire</p></td><td><p>Dexterity</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpFormShrapnBom]{Shrapnel
+        Bomb*}</p></td><td><p>d8
+        piercing</p></td><td><p>Dexterity</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpFormSlimeBomb]{Slime
+        Bomb*}</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpFormSmokeBomb]{Smoke
+        Bomb}</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpFormSonicBomb]{Sonic
+        Bomb}</p></td><td><p>d6
+        thunder</p></td><td><p>Constitution</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpFormStinkBomb]{Stink
+        Bomb}</p></td><td><p>d8
+        poison</p></td><td><p>Constitution</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpFormTelepoBom]{Teleportation
+        Bomb}</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpFormThermoBom]{Thermobaric
+        Bomb}</p></td><td><p>d6
+        fire</p></td><td><p>Dexterity</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpFormVenomBomb]{Venom
+        Bomb*}</p></td><td><p>d8
+        poison</p></td><td><p>Constitution</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpFormWitherBom]{Withering
+        Bomb}</p></td><td><p>d8 necrotic</p></td><td><p>Constitution</p></td></tr></tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.3
+      createdTime: 1789843973099
+      modifiedTime: 1789844522159
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds5e00000.mhpBombFormulae0'
+  - sort: 3450000
+    name: Missed Bomb
+    type: text
+    category: MXEwg4kpNJw5Vyrp
+    _id: mhpMissedBomb000
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <aside class="notable"><h4>Missed Bomb</h4><p>As bombs are explosive projectiles, it makes
+        sense to ask what happens if a thrown bomb fails to hit its target. For simplicity, we
+        assume that missed bombs explode harmlessly in the background or fail to detonate
+        altogether, but do not explode in the target’s space and deal damage with its blast radius.
+        The GM can decide which of these two outcomes happens or can determine the outcome
+        randomly.</p></aside>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.3
+      createdTime: 1789843981517
+      modifiedTime: 1789845473052
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds5e00000.mhpMissedBomb000'
+  - sort: 3200000
+    name: Bomb
+    type: text
+    _id: mhpBomb000000000
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <table><thead><tr><td><p>Name</p></td><td><p>Cost</p></td><td><p>Damage</p></td><td><p>Weight</p></td><td><p>Properties</p></td></tr></thead><tbody><tr><td><p>@UUID[Compendium.mage-hand-press-core.equipment14.Item.mhpWeapBomb00000]{Bomb}</p></td><td><p>2
+        sp</p></td><td><p>1d10 fire</p></td><td><p>1 lb.</p></td><td><p>Finesse, special, thrown
+        (range 30/90)</p></td></tr></tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: MXEwg4kpNJw5Vyrp
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.3
+      createdTime: 1789844479233
+      modifiedTime: 1789844522159
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds5e00000.mhpBomb000000000'
+  - sort: 3500000
+    name: Advanced Poisoner
+    type: text
+    _id: mhpAdvancedPoiso
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <table><thead><tr><th><p>Potion</p></th><th><p>Cost</p></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd5e.items.Item.Neh9udRZHj0Bg9EH]{Burnt
+        Othur Fumes}</p></td><td><p>3 reagent
+        dice</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.Item.B018Yhz1M7Np8JCW]{Crawler
+        Mucus}</p></td><td><p>3 reagent
+        dice</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.Item.rT5Hhe7uISNTZK18]{Drow
+        Poison}</p></td><td><p>3 reagent
+        dice</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.Item.hmzXexBpLXFhmzEu]{Pale
+        Tincture}</p></td><td><p>4 reagent
+        dice</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.Item.9YyfarjYlV1QXvGi]{Midnight
+        Tears}</p></td><td><p>5 reagent
+        dice</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.Item.tJC6SG4kAO2Vt4Qd]{Wyvern
+        Poison}</p></td><td><p>6 reagent dice</p></td></tr></tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: MXEwg4kpNJw5Vyrp
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.3
+      createdTime: 1789844556783
+      modifiedTime: 1789844708694
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds5e00000.mhpAdvancedPoiso'
+  - sort: 3600000
+    name: Alchemy of Ascendancy
+    type: text
+    _id: mhpAlchemyAscend
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <table><thead><tr><th><p>Potion</p></th><th><p>Cost</p></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.mage-hand-press-complete-alchemist.equipment14.Item.mhpPotiNecromDra]{Necromantic
+        Draught}</p></td><td><p>4 reagent
+        dice</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.Xbq8CyXSRV358SfP]{Oil of
+        Etherealness}</p></td><td><p>4 reagent
+        dice</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.ctKfjHjk9gs9UtZI]{Potion of
+        Speed}</p></td><td><p>4 reagent
+        dice</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.4ZiJsDTRA1GgcWKP]{Potion of Stone
+        Giant Strength}</p></td><td><p>4 reagent dice</p></td></tr></tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: MXEwg4kpNJw5Vyrp
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.3
+      createdTime: 1789844558734
+      modifiedTime: 1789845381823
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds5e00000.mhpAlchemyAscend'
+  - sort: 3800000
+    name: Alchemy of Influence
+    type: text
+    _id: mhpAlchemyInflue
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <table><thead><tr><th><p>Potion</p></th><th><p>Cost</p></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd5e.items.nXWevqtV6p484N59]{Potion
+        of Animal Friendship}</p></td><td><p>1 reagent
+        die</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.63nb14yQRJMc4bIn]{Philter of
+        Love}</p></td><td><p>2 reagent
+        dice</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.bAyr7j5Peq9wIJTa]{Potion of
+        Clairvoyance}</p></td><td><p>3 reagent
+        dice</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.Ct9LR9Ft1FG4a6Y1]{Potion of Mind
+        Reading}</p></td><td><p>3 reagent dice</p></td></tr></tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: MXEwg4kpNJw5Vyrp
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.3
+      createdTime: 1789844559701
+      modifiedTime: 1789844592246
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds5e00000.mhpAlchemyInflue'
+  - sort: 3900000
+    name: Alchemy of Transformation
+    type: text
+    _id: mhpAlchemyTransf
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <table><thead><tr><th><p>Potion</p></th><th><p>Cost</p></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd5e.items.FIDyR0kZnxGy7bj8]{Oil
+        of Slipperiness}</p></td><td><p>2 reagent
+        dice</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-alchemist.equipment14.Item.mhpPotiSandstSol]{Sandstone
+        Solution}</p></td><td><p>2 reagent
+        dice</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-alchemist.equipment14.Item.mhpPotiAquaForti]{Aqua
+        Fortis}</p></td><td><p>3 reagent
+        dice</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-alchemist.equipment14.Item.mhpPotiChamelCon]{Chameleon
+        Concoction}</p></td><td><p>3 reagent
+        dice</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.bqZ6NTLDCUB98YjV]{Potion of
+        Gaseous Form}</p></td><td><p>3 reagent dice</p></td></tr></tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: MXEwg4kpNJw5Vyrp
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.3
+      createdTime: 1789844560800
+      modifiedTime: 1789845358132
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds5e00000.mhpAlchemyTransf'
+  - sort: 4000000
+    name: Poisoner
+    type: text
+    category: MXEwg4kpNJw5Vyrp
+    _id: mhpPoisoner00000
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <table><thead><tr><th><p>Potion</p></th><th><p>Cost</p></th></tr></thead><tbody><tr><td><p>2
+        x @UUID[Compendium.dnd5e.items.Item.Fc6UfFNOnW80XMzi]{Antitoxin}</p></td><td><p>1 reagent
+        die</p></td></tr><tr><td><p>2 x @UUID[Compendium.dnd5e.items.Item.eVbPkYjpl29RE2uW]{Basic
+        Poison}</p></td><td><p>1 reagent
+        die</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.Item.0R4VzaAY99facLlm]{Oil of
+        Taggit}</p></td><td><p>2 reagent
+        dice</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.Item.qBSEGJyHxdKIlBfj]{Potion of
+        Poison}</p></td><td><p>2 reagent
+        dice</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.Item.TQRezUN0WtdZX5ae]{Serpent
+        Venom}</p></td><td><p>2 reagent
+        dice</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.Item.a86F565Pjdzym1jH]{Truth
+        Serum}</p></td><td><p>2 reagent dice</p></td></tr></tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.3
+      createdTime: 1789844562110
+      modifiedTime: 1789844640181
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds5e00000.mhpPoisoner00000'
 folder: null
 categories:
   - name: Warmage
-    sort: 200000
+    sort: 300000
     _id: mhpWarmage000000
     flags: {}
     _stats:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
-      lastModifiedBy: 7d8DFzzH3FH7q5Ba
+      lastModifiedBy: t35nY7VSpLVSBI93
       createdTime: 1783117581366
-      modifiedTime: 1783117581366
+      modifiedTime: 1789843928414
     _key: '!journal.categories!mhpEmbeds5e00000.mhpWarmage000000'
   - name: Gunslinger
-    sort: 100000
+    sort: 200000
     _id: xJ6OJMRjTWNmz5Yx
     flags: {}
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1783117577380
-      modifiedTime: 1783117581364
-      lastModifiedBy: 7d8DFzzH3FH7q5Ba
+      modifiedTime: 1789843928938
+      lastModifiedBy: t35nY7VSpLVSBI93
       compendiumSource: null
       duplicateSource: null
       exportSource: null
     _key: '!journal.categories!mhpEmbeds5e00000.xJ6OJMRjTWNmz5Yx'
+  - name: Alchemist
+    sort: 100000
+    _id: MXEwg4kpNJw5Vyrp
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.3
+      createdTime: 1789843927600
+      modifiedTime: 1789843932224
+      lastModifiedBy: t35nY7VSpLVSBI93
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.categories!mhpEmbeds5e00000.MXEwg4kpNJw5Vyrp'
 sort: 0
 ownership:
   default: 0
 flags: {}
 _stats:
-  coreVersion: '14.364'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 6.0.0
+  systemVersion: 6.0.3
   createdTime: 1782430563289
-  modifiedTime: 1783117581363
+  modifiedTime: 1789845438408
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

@@ -103,70 +103,66 @@ pages:
         following table. Bombs that are exclusively available to one field of study are marked with
         an asterisk. Unless otherwise stated, all bombs produce a loud boom, audible out to one
         mile. Bombs are presented in alphabetical
-        order.</p><p>@Embed[Compendium.mage-hand-press-valdas-spire-of-secrets.journal14.JournalEntry.mhpTables0000000.JournalEntryPage.mhpBombFormulae0
-        inline]</p><div class="notable"><h4>Missed Bombs</h4><p>As bombs are explosive projectiles,
-        it makes sense to ask what happens if a thrown bomb fails to hit its target. For simplicity,
-        we assume that missed bombs explode harmlessly in the background or fail to detonate
-        altogether, but do not explode in the target’s space or deal damage within their blast
-        radius. The GM can decide which of these two outcomes happens or can determine the outcome
-        randomly.</p></div><h3>Acid Bomb</h3><p>By mixing your bomb’s explosive contents with a few
-        drops of ardenflotic acid, a highly corrosive chemical, you can change it into an acid bomb.
-        An acid bomb deals acid damage instead of fire damage, and its damage dice are d4s.
-        Additionally, the target, as well as each creature within the blast radius that fails its
-        saving throw, takes the same amount of damage again at the end of its next
-        turn.</p><h3>Bramble Bomb</h3><p>By adding a potent fertilizer to your bomb’s explosive
-        contents, you can change it into a bramble bomb. A bramble bomb deals no damage, but instead
-        causes tough, thorny brambles to sprout from any area of natural ground within the bomb’s
-        blast radius, which becomes difficult terrain. Additionally, if a creature in the blast
-        radius is prone when the bomb detonates, it is enveloped by the brambles and must succeed on
-        a Strength (Athletics) check against your bomb save DC before it can move or stand. The
-        brambles shrivel and die after 1 minute.</p><h3>Cryo Bomb</h3><p>By replacing your bomb’s
-        explosive contents with a piece of ice-nine, you can change it into a cryo bomb. A cryo bomb
-        deals cold damage instead of fire damage, its damage dice are d8s, and it requires a
-        Constitution saving throw, instead of a Dexterity saving throw. Additionally, the target, as
-        well as each creature within the blast radius that fails its saving throw, has its speed
-        reduced by 10 feet until the end of its next turn.</p><h3>Holy Bomb</h3><p>By adding a few
-        drops of holy water to your bomb’s explosive contents, you can change it into a holy bomb. A
-        holy bomb deals radiant damage instead of fire damage, and its damage dice are d8s, unless
-        the target is a Celestial, Fiend, or Undead. The bomb’s damage dice are d6s against
-        Celestials and d12s against Fiends and Undead.</p><h3>Impact Bomb</h3><p>By replacing your
-        bomb’s explosive contents with more reactive ones, you can change it into an impact bomb. An
-        impact bomb deals force damage instead of fire damage, and its damage dice are d8s.
-        Additionally, the target, as well as each creature within the blast radius that fails its
-        saving throw, is pushed 5 feet away from the center of the blast.</p><h3>Incendiary
-        Bomb</h3><p>By adding a thickening agent to your bomb’s explosive contents, you can change
-        it into an incendiary bomb. An incendiary bomb’s damage dice are d6s. Additionally, the area
-        of the blast radius is engulfed in flames, which persist until the start of your next turn.
-        Flammable objects in this area that aren’t being worn or carried ignite. Any creature that
-        ends its turn in this area takes half the bomb’s damage.</p><h3>Laughing Gas Bomb</h3><p>By
-        mixing your bomb’s explosive contents with a drop of jesterate, a highly euphoric chemical,
-        you can change it into a laughing gas bomb. A laughing gas bomb deals poison damage instead
-        of fire damage, its damage dice are d6s, and it requires a Constitution saving throw,
+        order.</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpBombFormulae0
+        inline]</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpMissedBomb000
+        inline]</p><h3>Acid Bomb</h3><p>By mixing your bomb’s explosive contents with a few drops of
+        ardenflotic acid, a highly corrosive chemical, you can change it into an acid bomb. An acid
+        bomb deals acid damage instead of fire damage, and its damage dice are d4s. Additionally,
+        the target, as well as each creature within the blast radius that fails its saving throw,
+        takes the same amount of damage again at the end of its next turn.</p><h3>Bramble
+        Bomb</h3><p>By adding a potent fertilizer to your bomb’s explosive contents, you can change
+        it into a bramble bomb. A bramble bomb deals no damage, but instead causes tough, thorny
+        brambles to sprout from any area of natural ground within the bomb’s blast radius, which
+        becomes difficult terrain. Additionally, if a creature in the blast radius is prone when the
+        bomb detonates, it is enveloped by the brambles and must succeed on a Strength (Athletics)
+        check against your bomb save DC before it can move or stand. The brambles shrivel and die
+        after 1 minute.</p><h3>Cryo Bomb</h3><p>By replacing your bomb’s explosive contents with a
+        piece of ice-nine, you can change it into a cryo bomb. A cryo bomb deals cold damage instead
+        of fire damage, its damage dice are d8s, and it requires a Constitution saving throw,
         instead of a Dexterity saving throw. Additionally, the target, as well as each creature
-        within the blast radius that fails its saving throw, falls prone in a fit of laughter. Once
-        a creature falls prone due to this bomb’s effects, it is immune to this effect (but not the
-        bomb’s poison damage) for the next 24 hours.</p><h3>Lightning Bomb</h3><p>By replacing your
-        bomb’s explosive contents with a charged arcane capacitor, you can change it into a
-        lightning bomb. A lightning bomb deals lightning damage instead of fire damage, and its
-        damage dice are d8s. Additionally, the target, as well as each creature within the blast
-        radius that fails its saving throw, can’t take reactions until the end of its next
-        turn.</p><h3>Nonlethal Bomb</h3><p>By replacing your bomb’s explosive contents with a pouch
-        of rubber pellets, you can change it into a nonlethal bomb. A nonlethal bomb deals
-        bludgeoning damage instead of fire damage, and its damage dice are d8s. If damage from this
-        bomb drops a creature to 0 hit points, it knocks the creature out, rather than dealing a
-        killing blow, rendering the creature unconscious and stable. Additionally, this bomb’s
-        rubber pellets bounce around corners, ignoring half and three-quarters cover for targets
-        within the blast radius.</p><h3>Oil Bomb</h3><p>By mixing your bomb’s explosive contents
-        with a few drops of a super-surfactant, you can change it into an oil bomb. An oil bomb
-        deals no damage, but coats each creature within the blast radius in a sticky, flammable oil.
-        The next time a creature coated in oil takes fire damage, it takes an extra d6 fire damage
-        for each die of fire damage rolled, up to a maximum of half your alchemist level, rounded
-        up. This oil can be removed by dousing a creature with a gallon of water.</p><h3>Prismatic
-        Bomb</h3><p>By adding an ounce of polyjuice, an unpredictable, multicolored chemical, to
-        your bomb’s explosive contents, you can change it into a prismatic bomb. A prismatic bomb
-        deals damage of a randomly determined type instead of fire damage, and it requires a
-        randomly determined type of saving throw. Its damage dice are d8s. Roll on each of the
-        following tables.</p><p></p><table><thead><tr><td><p>d6</p></td><td><p>Damage
+        within the blast radius that fails its saving throw, has its speed reduced by 10 feet until
+        the end of its next turn.</p><h3>Holy Bomb</h3><p>By adding a few drops of holy water to
+        your bomb’s explosive contents, you can change it into a holy bomb. A holy bomb deals
+        radiant damage instead of fire damage, and its damage dice are d8s, unless the target is a
+        Celestial, Fiend, or Undead. The bomb’s damage dice are d6s against Celestials and d12s
+        against Fiends and Undead.</p><h3>Impact Bomb</h3><p>By replacing your bomb’s explosive
+        contents with more reactive ones, you can change it into an impact bomb. An impact bomb
+        deals force damage instead of fire damage, and its damage dice are d8s. Additionally, the
+        target, as well as each creature within the blast radius that fails its saving throw, is
+        pushed 5 feet away from the center of the blast.</p><h3>Incendiary Bomb</h3><p>By adding a
+        thickening agent to your bomb’s explosive contents, you can change it into an incendiary
+        bomb. An incendiary bomb’s damage dice are d6s. Additionally, the area of the blast radius
+        is engulfed in flames, which persist until the start of your next turn. Flammable objects in
+        this area that aren’t being worn or carried ignite. Any creature that ends its turn in this
+        area takes half the bomb’s damage.</p><h3>Laughing Gas Bomb</h3><p>By mixing your bomb’s
+        explosive contents with a drop of jesterate, a highly euphoric chemical, you can change it
+        into a laughing gas bomb. A laughing gas bomb deals poison damage instead of fire damage,
+        its damage dice are d6s, and it requires a Constitution saving throw, instead of a Dexterity
+        saving throw. Additionally, the target, as well as each creature within the blast radius
+        that fails its saving throw, falls prone in a fit of laughter. Once a creature falls prone
+        due to this bomb’s effects, it is immune to this effect (but not the bomb’s poison damage)
+        for the next 24 hours.</p><h3>Lightning Bomb</h3><p>By replacing your bomb’s explosive
+        contents with a charged arcane capacitor, you can change it into a lightning bomb. A
+        lightning bomb deals lightning damage instead of fire damage, and its damage dice are d8s.
+        Additionally, the target, as well as each creature within the blast radius that fails its
+        saving throw, can’t take reactions until the end of its next turn.</p><h3>Nonlethal
+        Bomb</h3><p>By replacing your bomb’s explosive contents with a pouch of rubber pellets, you
+        can change it into a nonlethal bomb. A nonlethal bomb deals bludgeoning damage instead of
+        fire damage, and its damage dice are d8s. If damage from this bomb drops a creature to 0 hit
+        points, it knocks the creature out, rather than dealing a killing blow, rendering the
+        creature unconscious and stable. Additionally, this bomb’s rubber pellets bounce around
+        corners, ignoring half and three-quarters cover for targets within the blast
+        radius.</p><h3>Oil Bomb</h3><p>By mixing your bomb’s explosive contents with a few drops of
+        a super-surfactant, you can change it into an oil bomb. An oil bomb deals no damage, but
+        coats each creature within the blast radius in a sticky, flammable oil. The next time a
+        creature coated in oil takes fire damage, it takes an extra d6 fire damage for each die of
+        fire damage rolled, up to a maximum of half your alchemist level, rounded up. This oil can
+        be removed by dousing a creature with a gallon of water.</p><h3>Prismatic Bomb</h3><p>By
+        adding an ounce of polyjuice, an unpredictable, multicolored chemical, to your bomb’s
+        explosive contents, you can change it into a prismatic bomb. A prismatic bomb deals damage
+        of a randomly determined type instead of fire damage, and it requires a randomly determined
+        type of saving throw. Its damage dice are d8s. Roll on each of the following
+        tables.</p><p></p><table><thead><tr><td><p>d6</p></td><td><p>Damage
         Type</p></td></tr></thead><tbody><tr><td><p>1</p></td><td><p>Acid</p></td></tr><tr><td><p>2</p></td><td><p>Cold</p></td></tr><tr><td><p>3</p></td><td><p>Fire</p></td></tr><tr><td><p>4</p></td><td><p>Lightning</p></td></tr><tr><td><p>5</p></td><td><p>Poison</p></td></tr><tr><td><p>6</p></td><td><p>Radiant</p></td></tr></tbody></table><p></p><table><thead><tr><td><p>d6</p></td><td><p>Saving
         Throw</p></td></tr></thead><tbody><tr><td><p>1-2</p></td><td><p>Dexterity</p></td></tr><tr><td><p>3-4</p></td><td><p>Constitution</p></td></tr><tr><td><p>5-6</p></td><td><p>Wisdom</p></td></tr></tbody></table><p></p><h3>Psionic
         Bomb</h3><p>By mixing your bomb’s explosive contents with dust from a psionic crystal, you
@@ -225,7 +221,7 @@ pages:
       systemId: dnd5e
       systemVersion: 5.3.0
       createdTime: 1777925453606
-      modifiedTime: 1789158951868
+      modifiedTime: 1789845530358
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null

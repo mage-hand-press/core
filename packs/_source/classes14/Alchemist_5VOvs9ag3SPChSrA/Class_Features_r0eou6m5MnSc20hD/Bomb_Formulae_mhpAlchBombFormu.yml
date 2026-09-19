@@ -9,14 +9,12 @@ system:
   description:
     value: >-
       <p>By 2nd level, your research has granted you insight into new alchemical formulations for
-      your bombs. Select three bomb formulae from the
-      @UUID[Compendium.mage-hand-press-valdas-spire-of-secrets.journal14.JournalEntry.mhpAlchemist0000.JournalEntryPage.mhpBombFormulae0]{Bomb
-      Formulae} section. Once per turn when you prime a bomb, you can apply a formula to it.
-      Applying a formula sometimes changes all of the damage dice rolled for a bomb, but also grants
-      it special effects.</p><p>When you gain certain levels in this class, you learn additional
-      formulae of your choice, as shown in the Bomb Formulae Known column of the Alchemist table.
-      Additionally, when you gain a level in this class, you can choose one of the formulae you know
-      and replace it with another formula.</p>
+      your bombs. Select three bomb formulae from the Bomb Formulae section. Once per turn when you
+      prime a bomb, you can apply a formula to it. Applying a formula sometimes changes all of the
+      damage dice rolled for a bomb, but also grants it special effects.</p><p>When you gain certain
+      levels in this class, you learn additional formulae of your choice, as shown in the Bomb
+      Formulae Known column of the Alchemist table. Additionally, when you gain a level in this
+      class, you can choose one of the formulae you know and replace it with another formula.</p>
     chat: ''
   source:
     custom: ''
@@ -33,13 +31,95 @@ system:
     recovery: []
   type:
     value: class
-    subtype: ''
+    subtype: bombFormula
   requirements: Alchemist
   properties: []
   identifier: bomb-formulae
   activities: {}
-  advancement: {}
-  enchant: {}
+  advancement:
+    OtWUUkH0jZcoIBiD:
+      _id: OtWUUkH0jZcoIBiD
+      type: ItemChoice
+      configuration:
+        choices:
+          '2':
+            count: 3
+            replacement: false
+          '3':
+            count: null
+            replacement: true
+          '4':
+            count: null
+            replacement: true
+          '5':
+            count: 1
+            replacement: true
+          '6':
+            count: null
+            replacement: true
+          '7':
+            count: 1
+            replacement: true
+          '8':
+            count: null
+            replacement: true
+          '9':
+            count: 1
+            replacement: true
+          '10':
+            count: null
+            replacement: true
+          '11':
+            count: 1
+            replacement: true
+          '12':
+            count: null
+            replacement: true
+          '13':
+            count: 1
+            replacement: true
+          '14':
+            count: null
+            replacement: true
+          '15':
+            count: 1
+            replacement: true
+          '16':
+            count: null
+            replacement: true
+          '17':
+            count: 1
+            replacement: true
+          '18':
+            count: null
+            replacement: true
+          '19':
+            count: 1
+            replacement: true
+          '20':
+            count: null
+            replacement: true
+        allowDrops: true
+        type: feat
+        pool: []
+        spell: null
+        restriction:
+          list: []
+          type: enchantment
+          subtype: bombFormula
+          school: []
+        sorting: a
+      value:
+        added: {}
+        replaced: {}
+      hint: ''
+      flags: {}
+      classRestriction: ''
+      name: Bomb Formulae
+      img: null
+  enchant:
+    max: ''
+    period: ''
   prerequisites:
     items: []
     repeatable: false
@@ -49,7 +129,7 @@ _stats:
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769323110
-  modifiedTime: 1789769323110
+  modifiedTime: 1789840399062
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

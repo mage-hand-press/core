@@ -10,7 +10,7 @@ system:
     value: >-
       <p><em>Prerequisite: 17th level</em></p><p>A breakthrough in your alchemical studies has
       revealed the formulation of several potent elixirs. You can brew the following
-      potions:</p><p>@Embed[Compendium.mage-hand-press-valdas-spire-of-secrets.journal14.JournalEntry.mhpTables0000000.JournalEntryPage.mhpAlchemyAscend
+      potions:</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpAlchemyAscend
       inline]</p>
     chat: ''
   source:
@@ -44,7 +44,7 @@ _stats:
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769387510
-  modifiedTime: 1789769387510
+  modifiedTime: 1789845387361
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

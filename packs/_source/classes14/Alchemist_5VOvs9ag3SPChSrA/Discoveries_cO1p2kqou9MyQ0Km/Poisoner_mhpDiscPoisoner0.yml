@@ -12,10 +12,8 @@ system:
       gain proficiency with the @UUID[Compendium.dnd5e.items.il2GNi8C0DvGLL9P]{poisoner’s kit}.
       Additionally, you can craft the following poisons when you brew potions, which use your bomb
       save DC instead of their normal save
-      DCs:</p><p>@Embed[Compendium.mage-hand-press-valdas-spire-of-secrets.journal14.JournalEntry.mhpTables0000000.JournalEntryPage.mhpPoisoner00000
-      inline]</p><p></p><p><em><strong>*Foundry Note:</strong> Oil of Taggit and Serpent Venom can
-      also be found
-      @UUID[Compendium.dnd5e.rules.t6scHTmpmHBTZGTX.JournalEntryPage.B8rYvLQ4jMY9GeJA#sample-poisons]{here}!</em></p>
+      DCs:</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpPoisoner00000
+      inline]</p>
     chat: ''
   source:
     custom: ''
@@ -118,7 +116,7 @@ _stats:
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769389836
-  modifiedTime: 1789769389837
+  modifiedTime: 1789845323522
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
