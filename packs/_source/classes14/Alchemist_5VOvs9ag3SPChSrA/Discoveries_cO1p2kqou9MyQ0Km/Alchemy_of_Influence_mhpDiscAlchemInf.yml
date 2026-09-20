@@ -28,8 +28,8 @@ system:
     recovery: []
   type:
     value: class
-    subtype: ''
-  requirements: Alchemist
+    subtype: discovery
+  requirements: ''
   properties: []
   identifier: alchemy-of-influence
   activities: {}
@@ -44,7 +44,7 @@ _stats:
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769387604
-  modifiedTime: 1789845370256
+  modifiedTime: 1789863472945
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

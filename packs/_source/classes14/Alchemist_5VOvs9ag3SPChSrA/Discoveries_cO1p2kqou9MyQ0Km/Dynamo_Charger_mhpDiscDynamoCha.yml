@@ -31,26 +31,28 @@ system:
     spent: 0
   type:
     value: class
-    subtype: ''
-  requirements: Dynamo Engineer
+    subtype: discovery
+  requirements: ''
   properties: []
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
       type: utility
       activation:
-        type: special
+        type: shortRest
         value: 1
         condition: ''
         override: false
       consumption:
         targets:
           - type: itemUses
-            target: ''
             value: '1'
-            scaling:
-              mode: ''
-              formula: ''
+            target: ''
+            scaling: {}
+          - type: attribute
+            value: '-2'
+            target: spells.dynamo.value
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -96,20 +98,25 @@ system:
         name: ''
         prompt: false
         visible: false
-      img: null
+      img: ''
       sort: 0
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
       behaviors: []
+      name: Charge Dynamos
   advancement: {}
   identifier: dynamo-charger
   enchant: {}
   prerequisites:
-    items: []
+    items:
+      - subclass:dynamo-engineer
     repeatable: false
     level: 13
 _stats:
@@ -117,7 +124,7 @@ _stats:
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769388669
-  modifiedTime: 1789769388669
+  modifiedTime: 1789864238004
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

@@ -24,23 +24,47 @@ system:
     recovery: []
   type:
     value: class
-    subtype: ''
-  requirements: Alchemist
+    subtype: discovery
+  requirements: ''
   properties: []
   identifier: ballistics-research
   activities: {}
-  advancement: {}
+  advancement:
+    q5hvYMm2WTEV3lk0:
+      name: ''
+      type: ItemChoice
+      _id: q5hvYMm2WTEV3lk0
+      configuration:
+        allowDrops: true
+        choices:
+          '0':
+            count: 2
+            replacement: false
+        pool: []
+        restriction:
+          list: []
+          school: []
+          type: enchantment
+          subtype: bombFormula
+        sorting: a
+        spell: null
+        type: feat
+      flags: {}
+      value:
+        added: {}
+        replaced: {}
+      hint: <p>You learn two additional bomb formulae.</p>
   enchant: {}
   prerequisites:
     items: []
     repeatable: false
-    level: 4
+    level: null
 _stats:
   systemId: dnd5e
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769387814
-  modifiedTime: 1789769387814
+  modifiedTime: 1789863538310
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

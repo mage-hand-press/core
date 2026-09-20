@@ -2,7 +2,57 @@ _id: mhpDiscFireBrand
 name: Fire Brand
 type: feat
 img: icons/magic/fire/dagger-rune-enchant-flame-strong-red.webp
-effects: []
+effects:
+  - type: enchantment
+    name: Fire Brand
+    img: icons/magic/fire/dagger-rune-enchant-flame-strong-red.webp
+    disabled: true
+    transfer: false
+    _id: BOThXBaKWpkycssz
+    system:
+      changes:
+        - key: damage
+          type: dnd5e.bonus
+          value: (@details.tier)d6[fire]
+          phase: initial
+          _id: HERlAXSXbzufY5hl
+          conditions: '{}'
+          replacement: ''
+          priority: null
+      origin:
+        actor: null
+        behavior: null
+        effect: null
+        item: null
+        message: null
+      magical: true
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: turnEnd
+      expired: false
+    description: >-
+      <p>This melee weapon deals an extra 1d6 fire damage on a hit. This bonus damage increases by
+      1d6 at 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.3
+      createdTime: 1789864362684
+      modifiedTime: 1789864418139
+      lastModifiedBy: magehandpress000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!mhpDiscFireBrand.BOThXBaKWpkycssz'
 folder: cO1p2kqou9MyQ0Km
 flags: {}
 system:
@@ -28,109 +78,96 @@ system:
     spent: 0
   type:
     value: class
-    subtype: ''
-  requirements: Alchemist
+    subtype: discovery
+  requirements: ''
   properties: []
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
-      type: attack
+    nl0j3SQVTlihfYvb:
+      type: enchant
+      name: Apply Concoction
+      _id: nl0j3SQVTlihfYvb
+      img: ''
+      sort: 100000
       activation:
         type: bonus
-        value: 1
-        condition: ''
         override: false
+        condition: ''
+      behaviors: []
       consumption:
-        targets: []
         scaling:
           allowed: false
-          max: ''
         spellSlot: true
+        targets: []
       description:
+        value: ''
         chatFlavor: ''
-        value: ''
       duration:
-        concentration: false
-        value: ''
-        units: inst
-        special: ''
-        override: false
+        units: turn
         expiry: null
-      effects: []
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: BOThXBaKWpkycssz
+          uuid: null
+          level:
+            min: null
+            max: null
+          riders:
+            activity: []
+            effect: []
+            item: []
+      flags: {}
       range:
         units: self
-        special: ''
         override: false
+        special: ''
       target:
         template:
-          count: ''
           contiguous: false
-          type: ''
-          size: ''
-          width: ''
-          height: ''
-          units: ft
           stationary: false
-        affects:
-          count: ''
+          units: ft
           type: ''
+        affects:
           choice: false
-          special: ''
-        prompt: true
+          type: ''
         override: false
+        prompt: true
       uses:
         spent: 0
-        max: ''
         recovery: []
-      attack:
-        ability: ''
-        bonus: ''
-        critical:
-          threshold: null
-        flat: false
-        type:
-          value: melee
-          classification: weapon
-      damage:
-        critical:
-          bonus: ''
-        includeBase: true
-        parts:
-          - number: null
-            denomination: null
-            bonus: ''
-            types:
-              - fire
-            custom:
-              enabled: true
-              formula: (@scale.alchemist.bomb-dice)d6
-            scaling:
-              mode: whole
-              number: null
-              formula: ''
-            modifiers: []
-      img: null
-      sort: 0
-      flags: {}
+        max: ''
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-      behaviors: []
+        identifier: ''
+      enchant:
+        self: false
+      restrictions:
+        allowMagical: true
+        categories:
+          - simpleM
+          - martialM
+          - exoticMelee
+        properties: []
+        type: weapon
   advancement: {}
   identifier: fire-brand
   enchant: {}
   prerequisites:
     items: []
     repeatable: false
-    level: 4
+    level: null
 _stats:
   systemId: dnd5e
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769388885
-  modifiedTime: 1789769388886
+  modifiedTime: 1789864436343
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

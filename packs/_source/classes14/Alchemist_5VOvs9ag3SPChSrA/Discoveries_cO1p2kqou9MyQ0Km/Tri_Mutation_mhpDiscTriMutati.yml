@@ -33,85 +33,16 @@ system:
     spent: 0
   type:
     value: class
-    subtype: ''
-  requirements: Mutagenist
+    subtype: discovery
+  requirements: ''
   properties: []
-  activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
-      type: utility
-      activation:
-        type: special
-        value: 1
-        condition: ''
-        override: false
-      consumption:
-        targets:
-          - type: itemUses
-            target: ''
-            value: '1'
-            scaling:
-              mode: ''
-              formula: ''
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
-      description:
-        chatFlavor: ''
-        value: ''
-      duration:
-        concentration: false
-        value: '1'
-        units: minute
-        special: ''
-        override: false
-        expiry: null
-      effects: []
-      range:
-        units: self
-        special: ''
-        override: false
-      target:
-        template:
-          count: ''
-          contiguous: false
-          type: ''
-          size: ''
-          width: ''
-          height: ''
-          units: ft
-          stationary: false
-        affects:
-          count: ''
-          type: ''
-          choice: false
-          special: ''
-        prompt: true
-        override: false
-      uses:
-        spent: 0
-        max: ''
-        recovery: []
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
-      img: null
-      sort: 0
-      flags: {}
-      visibility:
-        level: {}
-        requireAttunement: false
-        requireIdentification: false
-        requireMagic: false
-      behaviors: []
+  activities: {}
   advancement: {}
   identifier: tri-mutation
   enchant: {}
   prerequisites:
-    items: []
+    items:
+      - subclass:mutagenist
     repeatable: false
     level: 13
 _stats:
@@ -119,7 +50,7 @@ _stats:
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769390350
-  modifiedTime: 1789769390350
+  modifiedTime: 1789864918585
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

@@ -29,8 +29,8 @@ system:
     recovery: []
   type:
     value: class
-    subtype: ''
-  requirements: Alchemist
+    subtype: discovery
+  requirements: ''
   properties: []
   identifier: magnified-blast
   activities: {}
@@ -45,7 +45,7 @@ _stats:
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769389625
-  modifiedTime: 1789769389625
+  modifiedTime: 1789864793576
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

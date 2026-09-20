@@ -5,9 +5,9 @@ img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
 effects:
   - origin: null
     duration:
-      value: 1
-      units: rounds
-      expiry: turnStart
+      value: null
+      units: seconds
+      expiry: targetEnd
       expired: false
     disabled: true
     _id: U2fsucmHEOD0nRzI
@@ -15,14 +15,16 @@ effects:
     transfer: true
     flags: {}
     name: Fortified Serum
-    description: ''
+    description: >-
+      <p>You have resistance to bludgeoning, piercing, and slashing damage from nonmagical
+      attacks.</p>
     statuses: []
     _stats:
       coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 6.0.3
       createdTime: 1789769389205
-      modifiedTime: 1789769389205
+      modifiedTime: 1789864679727
       lastModifiedBy: magehandpress000
       compendiumSource: null
       duplicateSource: null
@@ -55,6 +57,14 @@ effects:
           _id: NRh18Ge98A4FSuwd
           conditions: '{}'
           replacement: ''
+        - key: system.traits.dr.bypasses
+          type: add
+          value: mgc
+          phase: initial
+          _id: wAhGXvb4KvLN6GAw
+          conditions: '{}'
+          replacement: ''
+          priority: null
       origin:
         actor: null
         behavior: null
@@ -77,9 +87,7 @@ system:
     value: >-
       <p><em>Prerequisites: 13th level, Apothecary Field of Study</em></p><p>Whenever a creature
       regains hit points by drinking one of your potions, it gains resistance to bludgeoning,
-      piercing, and slashing damage from nonmagical attacks until the end of its next
-      turn.</p><p></p><p><em><strong>*Foundry Note:</strong> The GM can drag the active effect from
-      this feature to the creature targeted.</em> </p>
+      piercing, and slashing damage from nonmagical attacks until the end of its next turn.</p>
     chat: ''
   source:
     custom: ''
@@ -96,8 +104,8 @@ system:
     spent: 0
   type:
     value: class
-    subtype: ''
-  requirements: Apothecary
+    subtype: discovery
+  requirements: ''
   properties: []
   activities:
     dnd5eactivity000:
@@ -106,7 +114,7 @@ system:
       activation:
         type: special
         value: 0
-        condition: ''
+        condition: when a creature regains hit points by drinking one of your potions
         override: false
       consumption:
         targets: []
@@ -123,10 +131,15 @@ system:
         units: round
         special: ''
         override: false
-        expiry: null
-      effects: []
+        expiry: targetEnd
+      effects:
+        - _id: U2fsucmHEOD0nRzI
+          uuid: null
+          level:
+            min: null
+            max: null
       range:
-        units: self
+        units: any
         special: ''
         override: false
       target:
@@ -155,20 +168,25 @@ system:
         name: ''
         prompt: false
         visible: false
-      img: null
+      img: ''
       sort: 0
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
       behaviors: []
+      name: ''
   advancement: {}
   identifier: fortified-serum
   enchant: {}
   prerequisites:
-    items: []
+    items:
+      - subclass:apothecary
     repeatable: false
     level: 13
 _stats:
@@ -176,7 +194,7 @@ _stats:
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769389205
-  modifiedTime: 1789769389205
+  modifiedTime: 1789864716894
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

@@ -28,15 +28,16 @@ system:
     recovery: []
   type:
     value: class
-    subtype: ''
-  requirements: Venomsmith
+    subtype: discovery
+  requirements: ''
   properties: []
   identifier: advanced-poisoner
   activities: {}
   advancement: {}
   enchant: {}
   prerequisites:
-    items: []
+    items:
+      - subclass:venomsmith
     repeatable: false
     level: 13
 _stats:
@@ -44,7 +45,7 @@ _stats:
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769387452
-  modifiedTime: 1789845405426
+  modifiedTime: 1789863478915
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

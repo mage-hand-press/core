@@ -28,8 +28,8 @@ system:
     recovery: []
   type:
     value: class
-    subtype: ''
-  requirements: Alchemist
+    subtype: discovery
+  requirements: ''
   properties: []
   identifier: precision-explosives
   activities: {}
@@ -38,13 +38,13 @@ system:
   prerequisites:
     items: []
     repeatable: false
-    level: 4
+    level: null
 _stats:
   systemId: dnd5e
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769389939
-  modifiedTime: 1789769389939
+  modifiedTime: 1789864838430
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

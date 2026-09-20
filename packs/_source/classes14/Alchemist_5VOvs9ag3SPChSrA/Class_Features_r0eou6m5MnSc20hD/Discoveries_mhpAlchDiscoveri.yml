@@ -35,7 +35,81 @@ system:
   properties: []
   identifier: discoveries
   activities: {}
-  advancement: {}
+  advancement:
+    KR38Sdc1BcSbMdhf:
+      _id: KR38Sdc1BcSbMdhf
+      type: ItemChoice
+      configuration:
+        choices:
+          '4':
+            count: 2
+            replacement: false
+          '5':
+            count: null
+            replacement: true
+          '6':
+            count: 1
+            replacement: true
+          '7':
+            count: null
+            replacement: true
+          '8':
+            count: null
+            replacement: true
+          '9':
+            count: 1
+            replacement: true
+          '10':
+            count: null
+            replacement: true
+          '11':
+            count: null
+            replacement: true
+          '12':
+            count: null
+            replacement: true
+          '13':
+            count: 1
+            replacement: true
+          '14':
+            count: null
+            replacement: true
+          '15':
+            count: null
+            replacement: true
+          '16':
+            count: null
+            replacement: true
+          '17':
+            count: 1
+            replacement: true
+          '18':
+            count: null
+            replacement: true
+          '19':
+            count: null
+            replacement: true
+          '20':
+            count: null
+            replacement: true
+        allowDrops: true
+        type: feat
+        pool: []
+        spell: null
+        restriction:
+          list: []
+          type: class
+          subtype: discovery
+          school: []
+        sorting: a
+      value:
+        added: {}
+        replaced: {}
+      hint: ''
+      flags: {}
+      classRestriction: ''
+      name: Discoveries
+      img: null
   enchant: {}
   prerequisites:
     items: []
@@ -46,7 +120,7 @@ _stats:
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769323484
-  modifiedTime: 1789769323484
+  modifiedTime: 1789863080650
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

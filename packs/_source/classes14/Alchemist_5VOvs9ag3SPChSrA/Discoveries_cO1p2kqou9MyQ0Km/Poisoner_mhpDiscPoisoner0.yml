@@ -30,93 +30,36 @@ system:
     spent: 0
   type:
     value: class
-    subtype: ''
-  requirements: Alchemist
+    subtype: discovery
+  requirements: ''
   properties: []
-  activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
-      type: utility
-      activation:
-        type: special
-        value: 0
-        condition: ''
-        override: false
-      consumption:
-        targets:
-          - type: itemUses
-            target: ''
-            value: '1'
-            scaling:
-              mode: ''
-              formula: ''
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
-      description:
-        chatFlavor: ''
-        value: ''
-      duration:
-        concentration: false
-        value: ''
-        units: inst
-        special: ''
-        override: false
-        expiry: null
-      effects: []
-      range:
-        units: self
-        special: ''
-        override: false
-      target:
-        template:
-          count: ''
-          contiguous: false
-          type: ''
-          size: ''
-          width: ''
-          height: ''
-          units: ft
-          stationary: false
-        affects:
-          count: ''
-          type: ''
-          choice: false
-          special: ''
-        prompt: true
-        override: false
-      uses:
-        spent: 0
-        max: ''
-        recovery: []
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
-      img: null
-      sort: 0
+  activities: {}
+  advancement:
+    e639F39Z5LxSv7xS:
+      name: ''
+      type: Trait
+      _id: e639F39Z5LxSv7xS
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - tool:pois
+        mode: default
       flags: {}
-      visibility:
-        level: {}
-        requireAttunement: false
-        requireIdentification: false
-        requireMagic: false
-      behaviors: []
-  advancement: {}
+      level: 0
+      hint: ''
   identifier: poisoner
   enchant: {}
   prerequisites:
     items: []
     repeatable: false
-    level: 4
+    level: null
 _stats:
   systemId: dnd5e
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769389836
-  modifiedTime: 1789845323522
+  modifiedTime: 1789864827558
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

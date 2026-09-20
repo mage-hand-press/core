@@ -29,8 +29,8 @@ system:
     spent: 0
   type:
     value: class
-    subtype: ''
-  requirements: Alchemist
+    subtype: discovery
+  requirements: ''
   properties: []
   activities:
     dnd5eactivity000:
@@ -39,7 +39,7 @@ system:
       activation:
         type: reaction
         value: 1
-        condition: ''
+        condition: when you take damage from a creature you can see
         override: false
       consumption:
         targets: []
@@ -74,7 +74,7 @@ system:
           stationary: false
         affects:
           count: ''
-          type: ''
+          type: self
           choice: false
           special: ''
         prompt: true
@@ -88,15 +88,19 @@ system:
         name: ''
         prompt: false
         visible: false
-      img: null
+      img: ''
       sort: 0
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
       behaviors: []
+      name: Drink
   advancement: {}
   identifier: reactionary-gulp
   enchant: {}
@@ -109,7 +113,7 @@ _stats:
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769390045
-  modifiedTime: 1789769390046
+  modifiedTime: 1789865027709
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

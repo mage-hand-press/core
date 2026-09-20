@@ -36,8 +36,8 @@ system:
     spent: 0
   type:
     value: class
-    subtype: ''
-  requirements: Alchemist
+    subtype: discovery
+  requirements: ''
   properties: []
   activities:
     dnd5eactivity000:
@@ -132,7 +132,7 @@ _stats:
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769389522
-  modifiedTime: 1789769389522
+  modifiedTime: 1789864767933
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

@@ -8,8 +8,8 @@ flags: {}
 system:
   description:
     value: >-
-      <p>At 3rd level, you gain proficiency in two of the following skills of your choice: Arcana,
-      History, Investigation, Medicine, or Religion.</p>
+      <p>You learn three cantrips of your choice from the wizard spell list. Intelligence is your
+      spellcasting ability for your wizard spells.</p>
     chat: ''
   source:
     custom: ''
@@ -26,23 +26,57 @@ system:
     recovery: []
   type:
     value: class
-    subtype: ''
-  requirements: House of Bishops
+    subtype: discovery
+  requirements: ''
   properties: []
   identifier: arcane-study
   activities: {}
-  advancement: {}
+  advancement:
+    T1x93bihXjTLqXig:
+      name: ''
+      type: ItemChoice
+      _id: T1x93bihXjTLqXig
+      configuration:
+        allowDrops: true
+        choices:
+          '0':
+            count: 3
+            replacement: false
+        pool: []
+        restriction:
+          list:
+            - class:wizard
+          school: []
+          level: '0'
+        sorting: a
+        spell:
+          ability:
+            - int
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+        type: spell
+      flags: {}
+      value:
+        added: {}
+        replaced: {}
+      hint: >-
+        <p>You learn three cantrips of your choice from the wizard spell list. Intelligence is your
+        spellcasting ability for your wizard spells.</p>
   enchant: {}
   prerequisites:
     items: []
     repeatable: false
-    level: 3
+    level: null
 _stats:
   systemId: dnd5e
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769388570
-  modifiedTime: 1789769388570
+  modifiedTime: 1789863509958
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

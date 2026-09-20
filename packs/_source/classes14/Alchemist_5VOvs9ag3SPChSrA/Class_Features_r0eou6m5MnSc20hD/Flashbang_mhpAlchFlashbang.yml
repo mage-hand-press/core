@@ -2,7 +2,50 @@ _id: mhpAlchFlashbang
 name: Flashbang
 type: feat
 img: icons/magic/light/beam-explosion-orange.webp
-effects: []
+effects:
+  - name: Distracted
+    img: icons/magic/light/beam-explosion-orange.webp
+    system:
+      origin:
+        item: Compendium.mage-hand-press-core.classes14.Item.mhpAlchFlashbang
+        actor: null
+        behavior: null
+        effect: null
+        message: null
+      changes: []
+      conditions: '{}'
+      magical: false
+      rider:
+        statuses: []
+    transfer: false
+    _id: ONCSIXD9omhZoRMr
+    type: base
+    disabled: false
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: targetStart
+      expired: false
+    description: <p>You can’t take reactions.</p>
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.3
+      createdTime: 1789863129036
+      modifiedTime: 1789863147969
+      lastModifiedBy: magehandpress000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!mhpAlchFlashbang.ONCSIXD9omhZoRMr'
 folder: r0eou6m5MnSc20hD
 flags: {}
 system:
@@ -55,19 +98,22 @@ system:
         units: round
         special: ''
         override: false
-        expiry: null
-      effects: []
+        expiry: targetStart
+      effects:
+        - _id: ONCSIXD9omhZoRMr
+          uuid: null
+          level: {}
       range:
         value: '5'
-        units: ft
+        units: self
         special: ''
         override: false
       target:
         template:
           count: ''
           contiguous: false
-          type: ''
-          size: ''
+          type: radius
+          size: '5'
           width: ''
           height: ''
           units: ft
@@ -88,15 +134,19 @@ system:
         name: ''
         prompt: false
         visible: false
-      img: null
+      img: ''
       sort: 0
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
       behaviors: []
+      name: Throw
   advancement: {}
   identifier: flashbang
   enchant: {}
@@ -109,7 +159,7 @@ _stats:
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769323629
-  modifiedTime: 1789769323629
+  modifiedTime: 1789863129077
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

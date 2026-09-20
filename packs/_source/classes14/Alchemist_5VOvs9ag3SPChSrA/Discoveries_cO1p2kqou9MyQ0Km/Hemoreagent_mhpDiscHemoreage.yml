@@ -11,9 +11,7 @@ system:
       <p><em>Prerequisite: 17th level</em></p><p>When you prime and throw a bomb, you can convert a
       measure of your own blood into reagents. You can add five or fewer reagent dice to the bomb’s
       damage roll without expending them, and you take 1d6 necrotic damage for each reagent die
-      added. This damage can’t be reduced or prevented in any way.</p><p></p><p><em><strong>*Foundry
-      Note:</strong> The user can declare how many reagent dice they are using and then use the
-      Other formula that many times to calculate the damage they take from this feature.</em></p>
+      added. This damage can’t be reduced or prevented in any way.</p>
     chat: ''
   source:
     custom: ''
@@ -30,23 +28,23 @@ system:
     spent: 0
   type:
     value: class
-    subtype: ''
-  requirements: Alchemist
+    subtype: discovery
+  requirements: ''
   properties: []
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
       type: damage
       activation:
-        type: ''
+        type: special
         value: 0
-        condition: ''
+        condition: when you prime and throw a bomb
         override: false
       consumption:
         targets: []
         scaling:
-          allowed: false
-          max: ''
+          allowed: true
+          max: min(@scale.alchemist.reagent.number, 5)
         spellSlot: true
       description:
         chatFlavor: ''
@@ -75,7 +73,7 @@ system:
           stationary: false
         affects:
           count: ''
-          type: ''
+          type: self
           choice: false
           special: ''
         prompt: true
@@ -89,28 +87,31 @@ system:
           allow: false
           bonus: ''
         parts:
-          - number: 1
-            denomination: 6
-            bonus: ''
-            types:
-              - necrotic
-            custom:
+          - custom:
               enabled: false
               formula: ''
+            number: 1
+            denomination: 6
+            bonus: ''
+            modifiers: []
+            types:
+              - necrotic
             scaling:
               mode: whole
-              number: null
-              formula: ''
-            modifiers: []
-      img: null
+              number: 1
+      img: ''
       sort: 0
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
       behaviors: []
+      name: ''
   advancement: {}
   identifier: hemoreagent
   enchant: {}
@@ -123,7 +124,7 @@ _stats:
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769389419
-  modifiedTime: 1789769389419
+  modifiedTime: 1789865140460
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

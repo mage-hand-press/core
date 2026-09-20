@@ -46,17 +46,7 @@ pages:
           with alchemy.</p>
         additionalHitPoints: ''
         additionalTraits: ''
-        additionalEquipment: >-
-          <div class="notable"><h4>Bomb</h4><p>Bombs are exotic ranged weapons with the following
-          statistics:</p><p>@Embed[Compendium.mage-hand-press-valdas-spire-of-secrets.journal14.JournalEntry.mhpTables0000000.JournalEntryPage.mhpBomb000000000
-          inline]</p><h3>Special Property</h3><p><em><strong>Bomb.</strong></em> When a bomb hits a
-          target, it explodes in a 15-foot diameter sphere and is destroyed. The bomb can be thrown
-          at an unoccupied space within its range. Each creature other than the target within the
-          blast radius (for a Medium or smaller target, each creature within 5 feet of it) must make
-          a DC 11 Dexterity saving throw, taking half the damage rolled on a failed save, or no
-          damage on a successful one.</p><p>Additionally, as a bonus action, you can empty some of
-          the bomb’s explosive material to permanently remove the blast radius from this bomb,
-          dealing damage only to the bomb’s target.</p></div>
+        additionalEquipment: ''
         subclass: ''
       subclassItems: []
       style: ''
@@ -80,9 +70,9 @@ pages:
     _stats:
       coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 6.0.1
+      systemVersion: 6.0.3
       createdTime: 1777925304123
-      modifiedTime: 1789158783592
+      modifiedTime: 1789862553476
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null

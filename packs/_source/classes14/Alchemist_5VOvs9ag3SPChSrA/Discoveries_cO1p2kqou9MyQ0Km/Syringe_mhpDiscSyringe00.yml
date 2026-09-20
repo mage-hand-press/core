@@ -1,7 +1,7 @@
 _id: mhpDiscSyringe00
 name: Syringe
 type: feat
-img: icons/magic/unholy/strike-beam-blood-small-red-teal.webp
+img: icons/tools/laboratory/injector-needle-syringe-plunger.webp
 effects: []
 folder: cO1p2kqou9MyQ0Km
 flags: {}
@@ -29,8 +29,8 @@ system:
     spent: 0
   type:
     value: class
-    subtype: ''
-  requirements: Alchemist
+    subtype: discovery
+  requirements: ''
   properties: []
   activities:
     dnd5eactivity000:
@@ -113,13 +113,13 @@ system:
   prerequisites:
     items: []
     repeatable: false
-    level: 4
+    level: null
 _stats:
   systemId: dnd5e
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769390252
-  modifiedTime: 1789769390252
+  modifiedTime: 1789864886783
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

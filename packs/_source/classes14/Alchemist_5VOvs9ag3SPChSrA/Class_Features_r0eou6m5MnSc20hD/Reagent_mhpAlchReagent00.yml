@@ -10,24 +10,19 @@ system:
     value: >-
       <p>Starting at 3rd level, you have a collection of powerful alchemical reagents, represented
       by a pool of reagent dice, that you can spend to brew potions or magnify the power of your
-      explosives.</p><h3 data-no-toc>Reagent Dice</h3><p>You start with three
-      @UUID[Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpReagentDice00]{reagent
-      dice}, which are d10s, and you gain additional reagent dice as you gain levels in this class,
-      as shown in the Reagent Dice column of the Alchemist table. You regain all expended reagent
-      dice when you finish a long rest.</p><p>When you prime a bomb, you can expend a number of
-      reagent dice up to your proficiency bonus and add the dice to the bomb’s damage roll.</p><h3
-      data-no-toc>Brewing Potions</h3><p>You can spend 10 minutes and expend any number of reagent
-      dice to
-      @UUID[Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpBrewingPotion]{brew
-      potions}. These potions retain potency for 24 hours, after which they become inert. If a
-      potion calls for a saving throw, it uses your bomb save DC.</p><p>The number of reagent dice
-      and the alchemist level required to brew a potion are given on the Potions
+      explosives.</p><h3 data-no-toc>Reagent Dice</h3><p>You start with three reagent dice, which
+      are d10s, and you gain additional reagent dice as you gain levels in this class, as shown in
+      the Reagent Dice column of the Alchemist table. You regain all expended reagent dice when you
+      finish a long rest.</p><p>When you prime a bomb, you can expend a number of reagent dice up to
+      your proficiency bonus and add the dice to the bomb’s damage roll.</p><h3 data-no-toc>Brewing
+      Potions</h3><p>You can spend 10 minutes and expend any number of reagent dice to brew potions.
+      These potions retain potency for 24 hours, after which they become inert. If a potion calls
+      for a saving throw, it uses your bomb save DC.</p><p>The number of reagent dice and the
+      alchemist level required to brew a potion are given on the Potions
       table.</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpPotions000000
       inline]</p><h3 data-no-toc>Reagent Synthesis</h3><p>When you finish a short rest, you can
       choose to regain all of your expended reagent dice that weren’t used to brew potions. Once you
-      use this
-      @UUID[Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpReagentSynthe]{feature},
-      you can’t do so again until you finish a long rest.</p>
+      use this feature, you can’t do so again until you finish a long rest.</p>
     chat: ''
   source:
     custom: ''
@@ -39,39 +34,149 @@ system:
   cover: null
   crewed: false
   uses:
-    max: ''
+    max: '@scale.alchemist.reagent.number'
     spent: 0
-    recovery: []
+    recovery:
+      - period: lr
+        type: recoverAll
   type:
     value: class
     subtype: ''
   requirements: Alchemist
   properties: []
   identifier: reagent
-  activities: {}
-  advancement:
-    F9YJZXExebXYflb2:
-      name: ''
-      type: ItemGrant
-      _id: F9YJZXExebXYflb2
-      configuration:
-        items:
-          - optional: false
-            sort: 0
-            uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpReagentDice00
-          - optional: false
-            sort: 0
-            uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpBrewingPotion
-          - uuid: Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpReagentSynthe
-            optional: false
-            sort: 0
-        optional: false
-        sorting: m
-        spell: null
+  activities:
+    mXrGiz2XpK6hUzl7:
+      type: utility
+      name: Brew
+      _id: mXrGiz2XpK6hUzl7
+      img: ''
+      sort: 0
+      activation:
+        type: minute
+        override: false
+        condition: ''
+        value: 10
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: true
+          max: '@item.uses.max'
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling:
+              mode: ''
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects: []
       flags: {}
-      value: {}
-      level: 3
-      hint: ''
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+    6NOmCquUWVPTKwwR:
+      type: utility
+      name: Synthesize
+      _id: 6NOmCquUWVPTKwwR
+      img: modules/mage-hand-press-core/assets/svg/restore-use.svg
+      sort: 100000
+      activation:
+        type: shortRest
+        override: false
+        condition: ''
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: true
+          max: '@scale.alchemist.reagent.number'
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '-1'
+            target: ''
+            scaling:
+              mode: amount
+              formula: ''
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+  advancement: {}
   enchant: {}
   prerequisites:
     items: []
@@ -82,7 +187,7 @@ _stats:
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769323359
-  modifiedTime: 1789844135099
+  modifiedTime: 1789863055096
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

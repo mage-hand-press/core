@@ -1,7 +1,7 @@
 _id: mhpDiscRecyclPot
 name: Recycled Potions
 type: feat
-img: icons/tools/laboratory/vials-blue-pink.webp
+img: icons/tools/laboratory/bowl-liquid-black.webp
 effects: []
 folder: cO1p2kqou9MyQ0Km
 flags: {}
@@ -28,23 +28,88 @@ system:
     recovery: []
   type:
     value: class
-    subtype: ''
-  requirements: Alchemist
+    subtype: discovery
+  requirements: ''
   properties: []
   identifier: recycled-potions
-  activities: {}
+  activities:
+    qOAZ8KWYjBgS6Z56:
+      type: utility
+      name: Recycle
+      img: modules/mage-hand-press-core/assets/svg/restore-use.svg
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: when you brew potions
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: true
+          max: '@scale.alchemist.reagent.number'
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '-1'
+            target: ''
+            scaling:
+              mode: amount
+              formula: ''
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      _id: qOAZ8KWYjBgS6Z56
   advancement: {}
   enchant: {}
   prerequisites:
     items: []
     repeatable: false
-    level: 4
+    level: null
 _stats:
   systemId: dnd5e
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769390146
-  modifiedTime: 1789769390146
+  modifiedTime: 1789864999094
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

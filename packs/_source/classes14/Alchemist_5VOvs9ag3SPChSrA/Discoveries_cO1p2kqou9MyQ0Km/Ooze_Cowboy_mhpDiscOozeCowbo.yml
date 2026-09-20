@@ -31,15 +31,16 @@ system:
     recovery: []
   type:
     value: class
-    subtype: ''
-  requirements: Ooze Rancher
+    subtype: discovery
+  requirements: ''
   properties: []
   identifier: ooze-cowboy
   activities: {}
   advancement: {}
   enchant: {}
   prerequisites:
-    items: []
+    items:
+      - subclass:ooze-rancher
     repeatable: false
     level: 13
 _stats:
@@ -47,7 +48,7 @@ _stats:
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769389733
-  modifiedTime: 1789769389733
+  modifiedTime: 1789864792914
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

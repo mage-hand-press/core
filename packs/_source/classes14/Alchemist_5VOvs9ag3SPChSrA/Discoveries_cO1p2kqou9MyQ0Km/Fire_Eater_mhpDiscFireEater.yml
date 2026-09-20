@@ -12,9 +12,7 @@ system:
       15-foot cone. Each creature within the cone must make a Dexterity saving throw against your
       bomb save DC. On a failed save, a creature takes fire damage as if the bomb had been primed
       and thrown, or half as much on a successful save. When you use this ability, you take 1d4
-      points of fire damage for each of your bomb’s damage dice.</p><p></p><p><em><strong>*Foundry
-      Note:</strong> The damage formula can be used to roll the damage you take from using this
-      feature.</em></p>
+      points of fire damage for each of your bomb’s damage dice.</p>
     chat: ''
   source:
     custom: ''
@@ -31,8 +29,8 @@ system:
     spent: 0
   type:
     value: class
-    subtype: ''
-  requirements: Alchemist
+    subtype: discovery
+  requirements: ''
   properties: []
   activities:
     dnd5eactivity000:
@@ -76,7 +74,7 @@ system:
           stationary: false
         affects:
           count: ''
-          type: ''
+          type: creature
           choice: false
           special: ''
         prompt: true
@@ -88,19 +86,17 @@ system:
       damage:
         onSave: half
         parts:
-          - number: null
+          - custom:
+              enabled: true
+              formula: '@scale.bombs.dice'
+            number: null
             denomination: null
             bonus: ''
+            modifiers: []
             types:
               - fire
-            custom:
-              enabled: true
-              formula: (@scale.alchemist.bomb-dice)d4
             scaling:
-              mode: whole
-              number: null
-              formula: ''
-            modifiers: []
+              number: 1
       save:
         ability:
           - dex
@@ -108,28 +104,102 @@ system:
           calculation: int
           formula: ''
         visible: true
-      img: null
+        bonus: ''
+      img: ''
       sort: 0
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
       behaviors: []
+      name: Drink & Spit
+    loGmNX17qFP7tduh:
+      type: damage
+      name: Injure Self
+      _id: loGmNX17qFP7tduh
+      img: ''
+      sort: 100000
+      activation:
+        type: special
+        override: false
+        condition: when you use this ability
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: (@scale.bombs.dice.number)d4
+            number: null
+            denomination: 4
+            bonus: ''
+            modifiers: []
+            types:
+              - fire
+            scaling:
+              number: 1
   advancement: {}
   identifier: fire-eater
   enchant: {}
   prerequisites:
     items: []
     repeatable: false
-    level: 4
+    level: null
 _stats:
   systemId: dnd5e
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769388988
-  modifiedTime: 1789769388988
+  modifiedTime: 1789864584849
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

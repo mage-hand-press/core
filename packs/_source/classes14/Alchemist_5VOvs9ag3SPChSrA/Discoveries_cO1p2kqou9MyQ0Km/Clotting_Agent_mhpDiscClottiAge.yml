@@ -2,7 +2,60 @@ _id: mhpDiscClottiAge
 name: Clotting Agent
 type: feat
 img: icons/skills/wounds/blood-cells-vessel-red.webp
-effects: []
+effects:
+  - name: Clotting Agent
+    img: icons/skills/wounds/blood-cells-vessel-red.webp
+    system:
+      magical: false
+      origin:
+        item: Compendium.mage-hand-press-core.classes14.Item.mhpDiscClottiAge
+        actor: null
+        behavior: null
+        effect: null
+        message: null
+      changes:
+        - key: system.attributes.hp.bonuses.overall
+          type: add
+          value: '@classes.alchemist.levels + @abilities.con.mod'
+          phase: initial
+          _id: PLsjQIDMzZM7B4Ac
+          conditions: '{}'
+          replacement: ''
+          priority: null
+      conditions: '{}'
+      rider:
+        statuses: []
+    type: base
+    _id: YxLigpYMS9mVaeB9
+    disabled: false
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: >-
+      <p>Your hit point maximum increases by your alchemist level + your Constitution modifier, and
+      it increases by 1 again whenever you gain a level in this class.</p>
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.3
+      createdTime: 1789863785162
+      modifiedTime: 1789863904185
+      lastModifiedBy: magehandpress000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!mhpDiscClottiAge.YxLigpYMS9mVaeB9'
 folder: cO1p2kqou9MyQ0Km
 flags: {}
 system:
@@ -10,8 +63,7 @@ system:
     value: >-
       <p>You have developed a serum that thickens your blood. Your hit point maximum increases by
       your alchemist level + your Constitution modifier, and it increases by 1 again whenever you
-      gain a level in this class.</p><p></p><p><em><strong>*Foundry Note:</strong> The user can
-      calculate the initial hit point maximum increase by using the Other formula.</em></p>
+      gain a level in this class.</p>
     chat: ''
   source:
     custom: ''
@@ -28,99 +80,23 @@ system:
     spent: 0
   type:
     value: class
-    subtype: ''
-  requirements: Alchemist
+    subtype: discovery
+  requirements: ''
   properties: []
-  activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
-      type: damage
-      activation:
-        type: ''
-        value: 0
-        condition: ''
-        override: false
-      consumption:
-        targets: []
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
-      description:
-        chatFlavor: ''
-        value: ''
-      duration:
-        concentration: false
-        value: ''
-        units: inst
-        special: ''
-        override: false
-        expiry: null
-      effects: []
-      range:
-        units: self
-        special: ''
-        override: false
-      target:
-        template:
-          count: ''
-          contiguous: false
-          type: ''
-          size: ''
-          width: ''
-          height: ''
-          units: ft
-          stationary: false
-        affects:
-          count: ''
-          type: ''
-          choice: false
-          special: ''
-        prompt: true
-        override: false
-      uses:
-        spent: 0
-        max: ''
-        recovery: []
-      damage:
-        critical:
-          allow: false
-          bonus: ''
-        parts:
-          - number: null
-            denomination: null
-            bonus: ''
-            types: []
-            custom:
-              enabled: true
-              formula: '@classes.alchemist.levels + @abilities.con.mod'
-            scaling:
-              mode: whole
-              number: null
-              formula: ''
-            modifiers: []
-      img: null
-      sort: 0
-      flags: {}
-      visibility:
-        level: {}
-        requireAttunement: false
-        requireIdentification: false
-        requireMagic: false
-      behaviors: []
+  activities: {}
   advancement: {}
   identifier: clotting-agent
   enchant: {}
   prerequisites:
     items: []
     repeatable: false
-    level: 4
+    level: null
 _stats:
   systemId: dnd5e
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769388256
-  modifiedTime: 1789769388256
+  modifiedTime: 1789863907466
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

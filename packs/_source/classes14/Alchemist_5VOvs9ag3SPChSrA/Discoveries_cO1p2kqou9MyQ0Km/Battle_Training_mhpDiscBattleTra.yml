@@ -24,23 +24,37 @@ system:
     recovery: []
   type:
     value: class
-    subtype: ''
-  requirements: Alchemist
+    subtype: discovery
+  requirements: ''
   properties: []
   identifier: battle-training
   activities: {}
-  advancement: {}
+  advancement:
+    pjvFJ9J6LGLT23Df:
+      name: ''
+      type: Trait
+      _id: pjvFJ9J6LGLT23Df
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - armor:shl
+          - weapon:mar
+        mode: default
+      flags: {}
+      level: 0
+      hint: <p>You gain proficiency with martial weapons and shields.</p>
   enchant: {}
   prerequisites:
     items: []
     repeatable: false
-    level: 4
+    level: null
 _stats:
   systemId: dnd5e
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769387923
-  modifiedTime: 1789769387923
+  modifiedTime: 1789863571891
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

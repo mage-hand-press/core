@@ -616,6 +616,22 @@ system:
       value: {}
       hint: ''
       classRestriction: ''
+    r14jXuQvnhIVaNrR:
+      name: Field of Study
+      type: Subclass
+      _id: r14jXuQvnhIVaNrR
+      configuration: {}
+      flags: {}
+      value:
+        document: null
+        uuid: null
+      level: 2
+      hint: >-
+        <p>While all alchemists share a common knowledge base, most alchemists specialize into a
+        particular field of study. When you reach 2nd level, you select your field of study, which
+        grants you features at 2nd, 6th, 10th, and 18th level.</p><p>A formula granted by your field
+        of study doesn’t count against the total number of formulae you know.</p>
+      classRestriction: ''
   spellcasting:
     progression: none
     ability: ''
@@ -742,7 +758,7 @@ _stats:
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769322644
-  modifiedTime: 1789840395764
+  modifiedTime: 1789862365783
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

@@ -16,15 +16,9 @@ system:
       all expended reagent dice.</p><p>• You can brew potions as an action, instead of over the
       course of 10 minutes.</p><p>• You age 10 times slower than normal, and you can’t be aged
       magically.</p><p>Additionally, you learn the following formula, which doesn’t count against
-      the total number of formulae you know:</p><h3 data-no-toc>Formula: Nuclear Bomb</h3><p>By
-      replacing your bomb’s explosive contents with your philosopher’s stone, you can change it into
-      a
-      @UUID[Compendium.mage-hand-press-valdas-spire-of-secrets.classes14.Item.mhpNuclearBomb00]{nuclear
-      bomb}. A nuclear bomb deals 10d10 + 100 force damage instead of its normal fire damage, has a
-      blast radius of 1 mile, and completely destroys the philosopher’s stone. Additionally, each
-      creature within the blast radius that fails its saving throw takes the full bomb damage
-      rolled, or half as much damage on a successful save. Creatures within 60 feet of the bomb gain
-      no benefit from Evasion or similar features.</p>
+      the total number of formulae you
+      know:</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpFormNucleaBom
+      caption=false cite=false nameStyle=h5]{Formula: Nuclear Bomb}</p>
     chat: ''
   source:
     custom: ''
@@ -45,8 +39,83 @@ system:
   requirements: Alchemist
   properties: []
   identifier: philosophers-stone
-  activities: {}
-  advancement: {}
+  activities:
+    B4WWJOgBtGylB9yA:
+      type: utility
+      name: Construct
+      _id: B4WWJOgBtGylB9yA
+      img: ''
+      sort: 0
+      activation:
+        type: day
+        override: false
+        condition: ''
+        value: 7
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+  advancement:
+    Ij1Fc3RK9yMaqzi5:
+      name: ''
+      type: ItemGrant
+      _id: Ij1Fc3RK9yMaqzi5
+      configuration:
+        items:
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpFormNucleaBom
+            optional: false
+            sort: 0
+        optional: false
+        sorting: m
+        spell: null
+      flags: {}
+      value: {}
+      level: 20
+      hint: ''
   enchant: {}
   prerequisites:
     items: []
@@ -57,7 +126,7 @@ _stats:
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769324035
-  modifiedTime: 1789769324035
+  modifiedTime: 1789863274152
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

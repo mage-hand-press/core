@@ -30,8 +30,8 @@ system:
     spent: 0
   type:
     value: class
-    subtype: ''
-  requirements: Mad Bomber
+    subtype: discovery
+  requirements: ''
   properties: []
   activities:
     dnd5eactivity000:
@@ -60,9 +60,10 @@ system:
         expiry: null
       effects: []
       range:
-        units: self
+        units: ft
         special: ''
         override: false
+        value: '90'
       target:
         template:
           count: ''
@@ -75,7 +76,7 @@ system:
           stationary: false
         affects:
           count: ''
-          type: ''
+          type: any
           choice: false
           special: ''
         prompt: true
@@ -98,33 +99,36 @@ system:
           bonus: ''
         includeBase: true
         parts:
-          - number: 1
-            denomination: 10
-            bonus: '@abilities.int.mod'
-            types:
-              - fire
-            custom:
+          - custom:
               enabled: false
               formula: ''
-            scaling:
-              mode: whole
-              number: null
-              formula: ''
+            number: 1
+            denomination: 10
+            bonus: '@abilities.int.mod'
             modifiers: []
-      img: null
+            types:
+              - fire
+            scaling:
+              number: 1
+      img: ''
       sort: 0
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
       behaviors: []
+      name: ''
   advancement: {}
   identifier: demolition-spree
   enchant: {}
   prerequisites:
-    items: []
+    items:
+      - subclass:mad-bomber
     repeatable: false
     level: 13
 _stats:
@@ -132,7 +136,7 @@ _stats:
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769388434
-  modifiedTime: 1789769388434
+  modifiedTime: 1789864114452
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
