@@ -2,17 +2,121 @@ _id: mhpFormSonicBomb
 name: Sonic Bomb
 type: feat
 img: icons/magic/sonic/explosion-impact-shock-wave.webp
-effects: []
+effects:
+  - type: enchantment
+    name: Sonic Bomb
+    img: icons/magic/sonic/explosion-impact-shock-wave.webp
+    disabled: true
+    transfer: false
+    _id: OZDhiy2Fe9opR0nG
+    system:
+      changes:
+        - key: name
+          type: override
+          value: Sonic Bomb
+          phase: initial
+          _id: Rl1FOWfkzheikqS8
+          conditions: '{}'
+          replacement: ''
+          priority: null
+        - key: system.description.value
+          type: override
+          value: >-
+            {}<hr><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpSonicBomb0000
+            inline]</p>
+          phase: initial
+          _id: CBt8ViR9xfVCNP0K
+          conditions: '{}'
+          replacement: ''
+          priority: null
+      origin:
+        actor: null
+        behavior: null
+        effect: null
+        item: null
+        message: null
+      magical: true
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.3
+      createdTime: 1790025473560
+      modifiedTime: 1790025496231
+      lastModifiedBy: magehandpress000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!mhpFormSonicBomb.OZDhiy2Fe9opR0nG'
+  - name: Deafened
+    img: systems/dnd5e/icons/svg/statuses/deafened.svg
+    system:
+      origin:
+        item: Compendium.mage-hand-press-core.classes14.Item.mhpFormSonicBomb
+        actor: null
+        behavior: null
+        effect: null
+        message: null
+      changes: []
+      conditions: '{}'
+      magical: false
+      rider:
+        statuses: []
+    transfer: false
+    _id: ie6rfAfpNnJHfN96
+    type: base
+    disabled: false
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: targetEnd
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses:
+      - deafened
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.3
+      createdTime: 1790028359106
+      modifiedTime: 1790028372015
+      lastModifiedBy: magehandpress000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!mhpFormSonicBomb.ie6rfAfpNnJHfN96'
 folder: QP5gQCeH1KDXj4A6
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity:
+        - dnd5eactivity000
+        - dnd5eactivity100
 system:
   description:
     value: >-
-      <p>By mixing your bomb’s explosive contents with a few drops of air elemental essence, you can
-      change it into a sonic bomb. A sonic bomb deals thunder damage instead of fire damage, its
-      damage dice are d6s, and it requires a Constitution saving throw, instead of a Dexterity
-      saving throw. Additionally, the target, as well as each creature within the blast radius that
-      fails its saving throw, is deafened until the end of its next turn.</p>
+      <p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpSonicBomb0000
+      inline]</p>
     chat: ''
   source:
     custom: ''
@@ -73,8 +177,8 @@ system:
           units: ft
           stationary: false
         affects:
-          count: ''
-          type: ''
+          count: '1'
+          type: creature
           choice: false
           special: ''
         prompt: true
@@ -95,35 +199,37 @@ system:
       damage:
         critical:
           bonus: ''
-        includeBase: true
+        includeBase: false
         parts:
-          - number: null
+          - custom:
+              enabled: true
+              formula: (@scale.bombs.dice.number)d6 + @abilities.int.mod
+            number: null
             denomination: null
             bonus: ''
+            modifiers: []
             types:
               - thunder
-            custom:
-              enabled: true
-              formula: (@scale.alchemist.bomb-dice)d6 + @abilities.int.mod
             scaling:
-              mode: whole
-              number: null
-              formula: ''
-            modifiers: []
-      img: null
+              number: 1
+      img: ''
       sort: 0
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
       behaviors: []
+      name: Throw
     dnd5eactivity100:
       _id: dnd5eactivity100
       type: save
       activation:
-        type: action
+        type: ''
         value: 1
         condition: ''
         override: false
@@ -143,7 +249,11 @@ system:
         special: ''
         override: false
         expiry: null
-      effects: []
+      effects:
+        - _id: ie6rfAfpNnJHfN96
+          uuid: null
+          level: {}
+          onSave: false
       range:
         units: self
         special: ''
@@ -152,15 +262,15 @@ system:
         template:
           count: ''
           contiguous: false
-          type: ''
-          size: ''
+          type: sphere
+          size: '7.5'
           width: ''
           height: ''
           units: ft
           stationary: false
         affects:
           count: ''
-          type: ''
+          type: creature
           choice: false
           special: ''
         prompt: true
@@ -171,20 +281,7 @@ system:
         recovery: []
       damage:
         onSave: half
-        parts:
-          - number: null
-            denomination: null
-            bonus: ''
-            types:
-              - thunder
-            custom:
-              enabled: true
-              formula: (@scale.alchemist.bomb-dice)d6 + @abilities.int.mod
-            scaling:
-              mode: whole
-              number: null
-              formula: ''
-            modifiers: []
+        parts: []
       save:
         ability:
           - con
@@ -192,18 +289,98 @@ system:
           calculation: int
           formula: ''
         visible: true
-      img: null
+        bonus: ''
+      img: ''
       sort: 0
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
       behaviors: []
+      name: ''
+    gobKHKIgPlOlTFYy:
+      type: enchant
+      name: Prime Bomb
+      img: ''
+      sort: -100000
+      activation:
+        type: action
+        override: false
+        condition: ''
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects:
+        - _id: OZDhiy2Fe9opR0nG
+          uuid: null
+          level:
+            min: null
+            max: null
+          riders:
+            activity:
+              - dnd5eactivity000
+              - dnd5eactivity100
+            effect: []
+            item: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: object
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      enchant:
+        self: false
+      restrictions:
+        allowMagical: false
+        categories: []
+        properties: []
+        type: weapon
+      _id: gobKHKIgPlOlTFYy
   advancement: {}
   identifier: sonic-bomb
-  enchant: {}
+  enchant:
+    max: ''
+    period: ''
   prerequisites:
     items: []
     repeatable: false
@@ -213,7 +390,7 @@ _stats:
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769437021
-  modifiedTime: 1789840212322
+  modifiedTime: 1790028359131
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

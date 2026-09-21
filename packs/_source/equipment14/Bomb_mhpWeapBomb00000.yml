@@ -67,6 +67,7 @@ system:
         mode: ''
         number: null
         formula: ''
+      modifiers: []
   armor:
     value: null
   hp:
@@ -95,13 +96,7 @@ system:
         condition: ''
         override: false
       consumption:
-        targets:
-          - type: itemUses
-            target: ''
-            value: '1'
-            scaling:
-              mode: ''
-              formula: ''
+        targets: []
         scaling:
           allowed: false
           max: ''
@@ -124,15 +119,15 @@ system:
         template:
           count: ''
           contiguous: false
-          type: radius
+          type: ''
           size: '15'
           width: ''
           height: ''
           units: ft
           stationary: false
         affects:
-          count: ''
-          type: ''
+          count: '1'
+          type: creature
           choice: false
           special: ''
         prompt: true
@@ -142,43 +137,51 @@ system:
         max: ''
         recovery: []
       attack:
-        ability: dex
+        ability: ''
         bonus: ''
         critical:
           threshold: null
         flat: false
         type:
-          value: ranged
-          classification: weapon
+          value: ''
+          classification: ''
       damage:
         critical:
           bonus: ''
-        includeBase: true
-        parts: []
-      img: null
+        includeBase: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 10
+            bonus: '@abilities.int.mod'
+            modifiers: []
+            types: []
+            scaling:
+              number: 1
+      img: ''
       sort: 0
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
+      name: Throw
     dnd5eactivity100:
       _id: dnd5eactivity100
       type: save
       activation:
-        type: action
+        type: ''
         value: 1
         condition: ''
         override: false
       consumption:
-        targets:
-          - type: itemUses
-            target: ''
-            value: '1'
-            scaling:
-              mode: ''
-              formula: ''
+        targets: []
         scaling:
           allowed: false
           max: ''
@@ -202,14 +205,14 @@ system:
           count: ''
           contiguous: false
           type: radius
-          size: '15'
+          size: '7.5'
           width: ''
           height: ''
           units: ft
           stationary: false
         affects:
           count: ''
-          type: ''
+          type: creature
           choice: false
           special: ''
         prompt: true
@@ -220,33 +223,85 @@ system:
         recovery: []
       damage:
         onSave: half
-        parts:
-          - number: 1
-            denomination: 10
-            bonus: '@mod'
-            types:
-              - fire
-            custom:
-              enabled: false
-              formula: ''
-            scaling:
-              mode: whole
-              number: null
-              formula: ''
+        parts: []
       save:
         ability:
           - dex
         dc:
           calculation: ''
           formula: '11'
-      img: null
+        bonus: ''
+      img: ''
       sort: 0
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
+      name: ''
+    IVSFjAlOeo43gs38:
+      type: utility
+      name: Reduce Radius
+      _id: IVSFjAlOeo43gs38
+      img: ''
+      sort: 100000
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        value: >-
+          <p>You empty some of the bomb’s explosive material to permanently remove the blast radius
+          from this bomb, dealing damage only to the bomb’s target.</p>
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
   identifier: bomb
   attuned: false
   crew:
@@ -260,7 +315,7 @@ _stats:
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1777321150304
-  modifiedTime: 1789769225523
+  modifiedTime: 1790029443905
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

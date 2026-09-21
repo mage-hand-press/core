@@ -2,16 +2,76 @@ _id: mhpFormTelepoBom
 name: Teleportation Bomb
 type: feat
 img: icons/commodities/gems/pearl-brown-red.webp
-effects: []
+effects:
+  - type: enchantment
+    name: Teleportation Bomb
+    img: icons/commodities/gems/pearl-brown-red.webp
+    disabled: true
+    transfer: false
+    _id: cif4dIs9ez4840JW
+    system:
+      changes:
+        - key: name
+          type: override
+          value: Teleportation Bomb
+          phase: initial
+          _id: VG15jCEFcJydaH3U
+          conditions: '{}'
+          replacement: ''
+          priority: null
+        - key: system.description.value
+          type: override
+          value: >-
+            {}<hr><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpTeleportation
+            inline]</p>
+          phase: initial
+          _id: qfQmIlhTwXgF5WOP
+          conditions: '{}'
+          replacement: ''
+          priority: null
+      origin:
+        actor: null
+        behavior: null
+        effect: null
+        item: null
+        message: null
+      magical: true
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.3
+      createdTime: 1790025607449
+      modifiedTime: 1790025630959
+      lastModifiedBy: magehandpress000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!mhpFormTelepoBom.cif4dIs9ez4840JW'
 folder: QP5gQCeH1KDXj4A6
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity:
+        - MZByb6LsrTnzy9Vi
 system:
   description:
     value: >-
-      <p>By replacing your bomb’s explosive contents with a glowing etherite crystal, you can change
-      it into a teleportation bomb. A teleportation bomb deals no damage and instead opens a rift in
-      space, instantly teleporting you to its point of detonation. This effect fails if the bomb
-      explodes more than 30 feet away from you.</p>
+      <p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpTeleportation
+      inline]</p>
     chat: ''
   source:
     custom: ''
@@ -32,9 +92,140 @@ system:
   requirements: Alchemist
   properties: []
   identifier: teleportation-bomb
-  activities: {}
+  activities:
+    MSlNW3ogbRx7hdfK:
+      type: enchant
+      name: Prime Bomb
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects:
+        - _id: cif4dIs9ez4840JW
+          uuid: null
+          level:
+            min: null
+            max: null
+          riders:
+            activity:
+              - MZByb6LsrTnzy9Vi
+            effect: []
+            item: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: object
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      enchant:
+        self: false
+      restrictions:
+        allowMagical: false
+        categories: []
+        properties: []
+        type: weapon
+      _id: MSlNW3ogbRx7hdfK
+    MZByb6LsrTnzy9Vi:
+      type: teleport
+      name: ''
+      _id: MZByb6LsrTnzy9Vi
+      img: ''
+      sort: 100000
+      activation:
+        type: action
+        override: false
+        condition: ''
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      teleport:
+        override: true
+        units: ft
+        value: '30'
   advancement: {}
-  enchant: {}
+  enchant:
+    max: ''
+    period: ''
   prerequisites:
     items: []
     repeatable: false
@@ -44,7 +235,7 @@ _stats:
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769437232
-  modifiedTime: 1789840204490
+  modifiedTime: 1790028494661
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

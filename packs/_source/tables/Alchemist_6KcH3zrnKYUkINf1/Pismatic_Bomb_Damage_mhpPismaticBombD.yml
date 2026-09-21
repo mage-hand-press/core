@@ -1,7 +1,7 @@
 folder: 6KcH3zrnKYUkINf1
 name: Pismatic Bomb Damage
 _id: mhpPismaticBombD
-img: icons/svg/d20-grey.svg
+img: icons/magic/lightning/bolt-strike-explosion-yellow.webp
 description: ''
 results:
   - type: text
@@ -153,7 +153,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 6.0.3
   createdTime: 1789757444988
-  modifiedTime: 1789757521692
+  modifiedTime: 1790024038956
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

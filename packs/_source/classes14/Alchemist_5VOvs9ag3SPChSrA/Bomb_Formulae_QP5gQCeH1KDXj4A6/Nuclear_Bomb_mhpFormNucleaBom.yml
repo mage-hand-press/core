@@ -2,18 +2,79 @@ _id: mhpFormNucleaBom
 name: Nuclear Bomb
 type: feat
 img: icons/magic/fire/explosion-mushroom-nuke-yellow.webp
-effects: []
+effects:
+  - type: enchantment
+    name: Nuclear Bomb
+    img: icons/magic/fire/explosion-mushroom-nuke-yellow.webp
+    disabled: true
+    transfer: false
+    _id: zMN8Y9lN0sE6fdZm
+    system:
+      changes:
+        - key: name
+          type: override
+          value: Nuclear Bomb
+          phase: initial
+          _id: MOqOysKI9GDLg3Zj
+          conditions: '{}'
+          replacement: ''
+          priority: null
+        - key: system.description.value
+          type: override
+          value: >-
+            {}<hr><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpNuclearBomb00
+            inline]</p>
+          phase: initial
+          _id: c6MJz1iV1fVZRatv
+          conditions: '{}'
+          replacement: ''
+          priority: null
+      origin:
+        actor: null
+        behavior: null
+        effect: null
+        item: null
+        message: null
+      magical: true
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: >-
+      <p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpNuclearBomb00
+      inline]</p>
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.3
+      createdTime: 1790025059351
+      modifiedTime: 1790025081041
+      lastModifiedBy: magehandpress000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!mhpFormNucleaBom.zMN8Y9lN0sE6fdZm'
 folder: QP5gQCeH1KDXj4A6
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity:
+        - dnd5eactivity000
+        - dnd5eactivity100
 system:
   description:
     value: >-
-      <p>By replacing your bomb’s explosive contents with your philosopher’s stone, you can change
-      it into a nuclear bomb. A nuclear bomb deals 10d10 + 100 force damage instead of its normal
-      fire damage, has a blast radius of 1 mile, and completely destroys the philosopher’s stone.
-      Additionally, each creature within the blast radius that fails its saving throw takes the full
-      bomb damage rolled, or half as much damage on a successful save. Creatures within 60 feet of
-      the bomb gain no benefit from Evasion or similar features.</p>
+      <p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpNuclearBomb00
+      inline]</p>
     chat: ''
   source:
     custom: ''
@@ -202,9 +263,84 @@ system:
         requireIdentification: false
         requireMagic: false
       behaviors: []
+    EZL3PlH6PJjydr9v:
+      type: enchant
+      name: Prime Bomb
+      img: ''
+      sort: -100000
+      activation:
+        type: action
+        override: false
+        condition: ''
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects:
+        - _id: zMN8Y9lN0sE6fdZm
+          uuid: null
+          level:
+            min: null
+            max: null
+          riders:
+            activity:
+              - dnd5eactivity000
+              - dnd5eactivity100
+            effect: []
+            item: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: object
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      enchant:
+        self: false
+      restrictions:
+        allowMagical: false
+        categories: []
+        properties: []
+        type: weapon
+      _id: EZL3PlH6PJjydr9v
   advancement: {}
   identifier: nuclear-bomb
-  enchant: {}
+  enchant:
+    max: ''
+    period: ''
   prerequisites:
     items: []
     repeatable: false
@@ -214,7 +350,7 @@ _stats:
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769435799
-  modifiedTime: 1789840254239
+  modifiedTime: 1790025062403
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
