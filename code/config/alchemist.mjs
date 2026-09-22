@@ -5,6 +5,9 @@ import { PrimeBombActivity } from "../automation/prime-bomb-activity.mjs";
  */
 export function initialize() {
 	Object.assign(CONFIG.DND5E.activityTypes, activityTypes);
+	Hooks.on("dnd5e.preCreateUsageMessage", (activity, message) => {
+		if ( activity instanceof PrimeBombActivity ) activity.preCreateUsageMessage(message);
+	});
 	if ( !game.settings.get("mage-hand-press-core", "alchemist").customization ) return;
 
 	Object.assign(CONFIG.DND5E.featureTypes.class.subtypes, featureTypes.class);

@@ -203,7 +203,9 @@ system:
         parts:
           - custom:
               enabled: true
-              formula: (@scale.bombs.dice.number)d6 + @abilities.int.mod
+              formula: >-
+                (@scale.bombs.dice.number + @item.flags.mage-hand-press-core.primedBomb.reagents)d6
+                + @abilities.int.mod
             number: null
             denomination: null
             bonus: ''

@@ -10,12 +10,17 @@
 			"PrimeBomb": {
 				"Hint": "Prime a bomb with a formula and reagent.",
 				"NoFormula": "No Formula",
+				"Reagent": {
+					"one": "Reagent",
+					"other": "Reagents"
+				},
 				"Title": "Prime Bomb",
 				"Warning": {
 					"MissingEnchant": "No enchantment effect could be found to prime bomb.",
 					"NoBombs": "No bombs found on {actor} to prime."
 				}
-			}
+			},
+			"Reagents": "Reagents"
 		},
 		"Ammunition": {
 			"BlunderbussShot": "Blunderbuss Shot",

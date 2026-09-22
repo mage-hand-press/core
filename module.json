@@ -96,7 +96,7 @@
 					"types": ["consumable", "weapon"]
 				},
 				"mage-hand-press-core": {
-					"invisible": true
+					"invisible": false
 				}
 			}
 		},
@@ -114,7 +114,7 @@
 					"types": ["consumable", "weapon"]
 				},
 				"mage-hand-press-core": {
-					"invisible": true
+					"invisible": false
 				}
 			}
 		},
@@ -162,6 +162,7 @@
 	"flags": {
 		"dnd5e": {
 			"sourceBooks": {
+				"Complete Alchemist": "MageHandPress.Source.CompleteAlchemist",
 				"Complete Gunslinger": "MageHandPress.Source.CompleteGunslinger",
 				"Complete Warmage": "MageHandPress.Source.CompleteWarmage"
 			}

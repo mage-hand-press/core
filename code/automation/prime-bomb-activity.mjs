@@ -1,5 +1,3 @@
-
-
 import PrimeBombUsageDialog from "../applications/prime-bomb-usage-dialog.mjs";
 
 /**
@@ -55,14 +53,6 @@ export class PrimeBombActivity extends dnd5e.documents.activity.EnchantActivity 
 	/* -------------------------------------------- */
 
 	/** @inheritDoc */
-	async _prepareUsageScaling(config) {
-		await super._prepareUsageScaling(config);
-		// TODO: Reagent scaling?
-	}
-
-	/* -------------------------------------------- */
-
-	/** @inheritDoc */
 	async _prepareUsageUpdates(config, options={}) {
 		const updates = await super._prepareUsageUpdates(config, options);
 		if ( updates === false ) return updates;
@@ -92,7 +82,24 @@ export class PrimeBombActivity extends dnd5e.documents.activity.EnchantActivity 
 				updates.create.push(clone.toObject());
 			}
 
-			// TODO: Consume reagents
+			// Consume reagents
+			if ( config.bomb.reagents > 0 ) {
+				const reagentItem = this.actor.identifiedItems.get("reagent", { type: "feat" })?.first();
+				if ( (reagentItem?.system.uses?.value ?? 0) < config.bomb.reagents ) {
+					const pr = dnd5e.utils.getPluralRules();
+					newErrors.push(new dnd5e.dataModels.activity.ConsumptionError(
+						_loc(`DND5E.CONSUMPTION.Warning.${reagentItem?.system.uses?.value ? "NotEnough" : "None"}`, {
+							available: dnd5e.utils.formatNumber(reagentItem?.system.uses?.value),
+							cost: dnd5e.utils.formatNumber(config.bomb.reagents),
+							type: _loc(`MageHandPress.Alchemist.PrimeBomb.Reagent.${pr.select(config.bomb.reagents)}`).toLowerCase()
+						})
+					));
+				} else {
+					updates.item.push({
+						_id: reagentItem.id, "system.uses.spent": reagentItem.system.uses.spent + config.bomb.reagents
+					});
+				}
+			}
 		} else if ( !bombItem ) {
 			newErrors.push(new dnd5e.dataModels.activity.ConsumptionError(
 				_loc("MageHandPress.Alchemist.PrimeBomb.Warning.NoBombs", { actor: this.actor.name })
@@ -130,6 +137,28 @@ export class PrimeBombActivity extends dnd5e.documents.activity.EnchantActivity 
 
 	/* -------------------------------------------- */
 
+	/**
+	 * Add new properties to message.
+	 * @param {ActivityMessageConfiguration} messageConfig  Configuration info for the created message.
+	 */
+	preCreateUsageMessage(messageConfig) {
+		const bomb = foundry.utils.getProperty(messageConfig.data, "flags.mage-hand-press-core.bomb");
+		if ( !bomb ) return;
+		const properties = foundry.utils.getProperty(messageConfig.data, "system.properties") ?? [];
+		if ( bomb.formula ) {
+			const formulaItem = this.actor.identifiedItems.get(bomb.formula)?.first();
+			if ( formulaItem ) properties.push({ type: "text", text: formulaItem.name });
+		}
+		if ( bomb.reagents ) {
+			const pr = dnd5e.utils.getPluralRules();
+			const reagents = `MageHandPress.Alchemist.PrimeBomb.Reagent.${pr.select(bomb.reagents)}`;
+			properties.push({ type: "text", text: `${dnd5e.utils.formatNumber(bomb.reagents)} ${_loc(reagents)}` });
+		}
+		foundry.utils.setProperty(messageConfig.data, "system.properties", properties);
+	}
+
+	/* -------------------------------------------- */
+
 	/** @override */
 	onRenderChatCard(message, element) {}
 
@@ -138,7 +167,7 @@ export class PrimeBombActivity extends dnd5e.documents.activity.EnchantActivity 
 	/** @override */
 	async _triggerSubsequentActions(config, results) {
 		const createdItem = this.actor.items.get(results.updates.create?.[0]?._id);
-		createdItem?.use({ chooseActivity: false });
+		createdItem?.use();
 	}
 
 	/* -------------------------------------------- */
@@ -173,10 +202,9 @@ export class PrimeBombActivity extends dnd5e.documents.activity.EnchantActivity 
 	 * @param {object} item  In-memory version of bomb being primed.
 	 * @param {object} [config={}]
 	 * @param {string} [config.formula]   Formula being applied.
-	 * @param {number} [config.reagents]  Number of reagent dice to add.
 	 * @returns {false|void}
 	 */
-	async primeBomb(item, { formula, reagents }={}) {
+	async primeBomb(item, { formula }={}) {
 		const activity = this.getFormulaEnchantment(formula);
 		const profile = activity.effects[0];
 		const effect = await profile?.getEffect();

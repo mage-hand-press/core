@@ -10,19 +10,19 @@ system:
     value: >-
       <p>Starting at 3rd level, you have a collection of powerful alchemical reagents, represented
       by a pool of reagent dice, that you can spend to brew potions or magnify the power of your
-      explosives.</p><h3 data-no-toc>Reagent Dice</h3><p>You start with three reagent dice, which
-      are d10s, and you gain additional reagent dice as you gain levels in this class, as shown in
-      the Reagent Dice column of the Alchemist table. You regain all expended reagent dice when you
-      finish a long rest.</p><p>When you prime a bomb, you can expend a number of reagent dice up to
-      your proficiency bonus and add the dice to the bomb’s damage roll.</p><h3 data-no-toc>Brewing
-      Potions</h3><p>You can spend 10 minutes and expend any number of reagent dice to brew potions.
+      explosives.</p><h5>Reagent Dice</h5><p>You start with three reagent dice, which are d10s, and
+      you gain additional reagent dice as you gain levels in this class, as shown in the Reagent
+      Dice column of the Alchemist table. You regain all expended reagent dice when you finish a
+      long rest.</p><p>When you prime a bomb, you can expend a number of reagent dice up to your
+      proficiency bonus and add the dice to the bomb’s damage roll.</p><h5>Brewing
+      Potions</h5><p>You can spend 10 minutes and expend any number of reagent dice to brew potions.
       These potions retain potency for 24 hours, after which they become inert. If a potion calls
       for a saving throw, it uses your bomb save DC.</p><p>The number of reagent dice and the
       alchemist level required to brew a potion are given on the Potions
       table.</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpPotions000000
-      inline]</p><h3 data-no-toc>Reagent Synthesis</h3><p>When you finish a short rest, you can
-      choose to regain all of your expended reagent dice that weren’t used to brew potions. Once you
-      use this feature, you can’t do so again until you finish a long rest.</p>
+      inline]</p><h5>Reagent Synthesis</h5><p>When you finish a short rest, you can choose to regain
+      all of your expended reagent dice that weren’t used to brew potions. Once you use this
+      feature, you can’t do so again until you finish a long rest.</p>
     chat: ''
   source:
     custom: ''
@@ -187,7 +187,7 @@ _stats:
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769323359
-  modifiedTime: 1789863055096
+  modifiedTime: 1790109046166
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
