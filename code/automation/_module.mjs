@@ -2,11 +2,7 @@
 export * as MonstrousGrafts from "./monstrous-grafts.mjs";
 
 /* Alchemist */
-
-// TODO: Special attack activity for "Bombs" feature that primes a bomb with a formula (if desired)
-// and has the ability to add reagent dice. It then reduces your carried bombs by 1, creates a new
-// copy of the bomb, applies the enchantment from the formula to that bomb along with the reagent dice,
-// and makes an attack with it
+export * as PrimeBombActivity from "./prime-bomb-activity.mjs";
 
 /* Gunslinger */
 export * as MankillerOverkill from "./mankiller-overkill.mjs";

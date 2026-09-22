@@ -4,18 +4,18 @@
 export function initialize() {
 	Object.assign(CONFIG.compendium.uuidRedirects, base);
 
-	const alchemist = game.modules.get("mage-hand-press-complete-alchemist")?.active;
-	const gunslinger = game.modules.get("mage-hand-press-complete-gunslinger")?.active;
-	const valdas = game.modules.get("mage-hand-press-valdas-spire-of-secrets")?.active;
-	const warmage = game.modules.get("mage-hand-press-complete-warmage")?.active;
-
-	if ( alchemist ) Object.assign(CONFIG.compendium.uuidRedirects, alchemistBomb);
-	else if ( valdas ) Object.assign(CONFIG.compendium.uuidRedirects, valdasBomb);
-
-	if ( gunslinger ) Object.assign(CONFIG.compendium.uuidRedirects, gunslingerFirearms);
-	else if ( valdas ) Object.assign(CONFIG.compendium.uuidRedirects, valdasFirearms);
-
-	if ( !warmage && valdas ) Object.assign(CONFIG.compendium.uuidRedirects, valdasCantrips);
+// 	const alchemist = game.modules.get("mage-hand-press-complete-alchemist")?.active;
+// 	const gunslinger = game.modules.get("mage-hand-press-complete-gunslinger")?.active;
+// 	const valdas = game.modules.get("mage-hand-press-valdas-spire-of-secrets")?.active;
+// 	const warmage = game.modules.get("mage-hand-press-complete-warmage")?.active;
+//
+// 	if ( alchemist ) Object.assign(CONFIG.compendium.uuidRedirects, alchemistBomb);
+// 	else if ( valdas ) Object.assign(CONFIG.compendium.uuidRedirects, valdasBomb);
+//
+// 	if ( gunslinger ) Object.assign(CONFIG.compendium.uuidRedirects, gunslingerFirearms);
+// 	else if ( valdas ) Object.assign(CONFIG.compendium.uuidRedirects, valdasFirearms);
+//
+// 	if ( !warmage && valdas ) Object.assign(CONFIG.compendium.uuidRedirects, valdasCantrips);
 }
 
 const base = {

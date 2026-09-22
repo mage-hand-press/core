@@ -105,8 +105,8 @@ system:
   properties: []
   activities:
     IDbG8iABPgTdie4e:
-      type: enchant
-      name: Prime Bomb
+      type: mage-hand-press-core.primeBomb
+      name: ''
       _id: IDbG8iABPgTdie4e
       img: ''
       sort: 0
@@ -121,7 +121,16 @@ system:
         spellSlot: true
         targets: []
       description:
-        value: ''
+        value: >-
+          <p>Once per turn you can take the Use an Object action to prime a bomb with explosive
+          reagents and make an attack with it, increasing the bomb’s explosive potential. When you
+          do so, you can add your Intelligence modifier, instead of Dexterity, to the bomb’s damage
+          roll.</p><p>Additionally, when you throw a bomb in this way, its damage increases by 1d10
+          when you reach 5th level (2d10), 11th level (3d10), and 17th level
+          (4d10).</p><p><em><strong>Saving Throws.</strong></em> When you throw a bomb, the save DC
+          for its blast radius is calculated as follows:</p><p
+          style="text-align:center"><strong>Bomb save DC</strong> = 8 + your proficiency bonus +
+          your Intelligence modifier</p>
         chatFlavor: ''
       duration:
         units: inst
@@ -153,7 +162,9 @@ system:
           type: ''
         affects:
           choice: false
-          type: ''
+          type: object
+          count: '1'
+          special: ''
         override: false
         prompt: true
       uses:
@@ -374,7 +385,7 @@ _stats:
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769322781
-  modifiedTime: 1790029449878
+  modifiedTime: 1790095403398
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

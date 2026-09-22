@@ -1,8 +1,12 @@
+import { PrimeBombActivity } from "../automation/prime-bomb-activity.mjs";
+
 /**
  * Initialize Alchemist configuration changes.
  */
 export function initialize() {
+	Object.assign(CONFIG.DND5E.activityTypes, activityTypes);
 	if ( !game.settings.get("mage-hand-press-core", "alchemist").customization ) return;
+
 	Object.assign(CONFIG.DND5E.featureTypes.class.subtypes, featureTypes.class);
 	Object.assign(CONFIG.DND5E.featureTypes.enchantment.subtypes, featureTypes.enchantment);
 
@@ -16,6 +20,16 @@ export function initialize() {
 
 /* -------------------------------------------- */
 /*  System Config Changes                       */
+/* -------------------------------------------- */
+
+/** @inheritDoc */
+const activityTypes = {
+	"mage-hand-press-core.primeBomb": {
+		documentClass: PrimeBombActivity,
+		hidden: true
+	}
+};
+
 /* -------------------------------------------- */
 
 /** @inheritDoc */

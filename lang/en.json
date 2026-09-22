@@ -6,6 +6,15 @@
 			"Dynamo": {
 				"Label": "Dynamo",
 				"SpellDynamos": "Spell Dynamos"
+			},
+			"PrimeBomb": {
+				"Hint": "Prime a bomb with a formula and reagent.",
+				"NoFormula": "No Formula",
+				"Title": "Prime Bomb",
+				"Warning": {
+					"MissingEnchant": "No enchantment effect could be found to prime bomb.",
+					"NoBombs": "No bombs found on {actor} to prime."
+				}
 			}
 		},
 		"Ammunition": {

@@ -258,8 +258,8 @@ system:
       behaviors: []
       name: ''
     DhpKrmlV3G1NgPX2:
-      type: enchant
-      name: Prime Bomb
+      type: mage-hand-press-core.primeBomb
+      name: ''
       img: ''
       sort: 100000
       activation:

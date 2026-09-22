@@ -264,8 +264,8 @@ system:
         requireMagic: false
       behaviors: []
     EZL3PlH6PJjydr9v:
-      type: enchant
-      name: Prime Bomb
+      type: mage-hand-press-core.primeBomb
+      name: ''
       img: ''
       sort: -100000
       activation:

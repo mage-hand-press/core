@@ -93,8 +93,8 @@ system:
   properties: []
   activities:
     jIXWNNynlaMFGdaM:
-      type: enchant
-      name: Prime Bomb
+      type: mage-hand-press-core.primeBomb
+      name: ''
       img: ''
       sort: -100000
       activation:
@@ -188,7 +188,7 @@ system:
         expiry: null
         concentration: false
         override: false
-        value: max(1, @attributes.int.mod)
+        value: max(1, @abilities.int.mod)
       effects: []
       flags: {}
       range:
@@ -239,7 +239,7 @@ _stats:
   systemVersion: 6.0.3
   coreVersion: '14.367'
   createdTime: 1789769436910
-  modifiedTime: 1790028279822
+  modifiedTime: 1790095459438
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

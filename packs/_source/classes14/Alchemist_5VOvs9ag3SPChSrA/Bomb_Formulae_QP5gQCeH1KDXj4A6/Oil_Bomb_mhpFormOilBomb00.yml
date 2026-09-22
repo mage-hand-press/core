@@ -141,8 +141,8 @@ system:
   identifier: oil-bomb
   activities:
     yXnVPlcdw26VbMYU:
-      type: enchant
-      name: Prime Bomb
+      type: mage-hand-press-core.primeBomb
+      name: ''
       img: ''
       sort: 0
       activation:

@@ -232,7 +232,7 @@ system:
           formula: '11'
         bonus: ''
       img: ''
-      sort: 0
+      sort: 50000
       flags: {}
       visibility:
         level:
@@ -248,7 +248,7 @@ system:
       name: Reduce Radius
       _id: IVSFjAlOeo43gs38
       img: ''
-      sort: 100000
+      sort: 100000000
       activation:
         type: bonus
         override: false

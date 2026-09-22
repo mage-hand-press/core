@@ -4,7 +4,7 @@ type: feat
 img: icons/commodities/materials/orb-tassle-blue-yellow.webp
 effects:
   - type: enchantment
-    name: Prime Bomb
+    name: Nonlethal Bomb
     img: icons/commodities/materials/orb-tassle-blue-yellow.webp
     disabled: true
     transfer: false
@@ -256,8 +256,8 @@ system:
       behaviors: []
       name: ''
     dso2QOzn7Oy9UgAJ:
-      type: enchant
-      name: Prime Bomb
+      type: mage-hand-press-core.primeBomb
+      name: ''
       img: ''
       sort: -100000
       activation:
