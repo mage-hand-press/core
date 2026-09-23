@@ -31,7 +31,7 @@ system:
     recovery: []
   type:
     value: class
-    subtype: bombFormula
+    subtype: ''
   requirements: Alchemist
   properties: []
   identifier: bomb-formulae
@@ -126,10 +126,10 @@ system:
     level: 2
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.3
+  systemVersion: 6.0.5
   coreVersion: '14.367'
   createdTime: 1789769323110
-  modifiedTime: 1789840399062
+  modifiedTime: 1790119690308
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
