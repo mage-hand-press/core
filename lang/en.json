@@ -1,4 +1,7 @@
 {
+	"DND5E": {
+		"SpellSlotsDynamo": "Dynamos"
+	},
 	"MageHandPress": {
 		"Alchemist": {
 			"BombFormula": "Bomb Formula",
