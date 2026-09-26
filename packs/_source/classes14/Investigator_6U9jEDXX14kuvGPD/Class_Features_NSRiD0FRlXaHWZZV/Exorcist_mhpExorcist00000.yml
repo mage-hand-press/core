@@ -6,8 +6,8 @@ system:
   description:
     value: >-
       <p>Beginning at 18th level, you can cast the
-      <em>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpProtectionfro]{protection
-      from evil and good}</em> spell without expending a spell slot or material components.</p>
+      <em>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpProtectionfro]{protection from
+      evil and good}</em> spell without expending a spell slot or material components.</p>
     chat: ''
   source:
     custom: ''

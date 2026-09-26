@@ -8,13 +8,11 @@ system:
       <p>At 13th level, you uncover a magical secret connected to a wellspring of potent magic. You
       can cast one of the following spells once without expending a spell slot:
       <em>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpMirageArcane0]{mirage
-      arcane}</em>,
-      <em>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpPlaneShift000]{plane
+      arcane}</em>, <em>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpPlaneShift000]{plane
       shift}</em>,
       <em>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpReverseGravit]{reverse
       gravity}</em>,
-      <em>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpSequester0000]{sequester}</em>,
-      or
+      <em>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpSequester0000]{sequester}</em>, or
       <em>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpTeleport00000]{teleport}</em>.
       Once you do so, you can’t cast any of these spells in this way again until you finish a long
       rest.</p>

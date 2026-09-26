@@ -6,13 +6,11 @@ system:
   description:
     value: >-
       <p>At 17th level, you can also cast one of the following spells once without expending a spell
-      slot:
-      <em>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpAstralProject]{astral
+      slot: <em>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpAstralProject]{astral
       projection}</em>,
-      <em>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpGate000000000]{gate}</em>,
-      or
-      <em>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpWeird00000000]{weird}</em>.
-      Once you do so, you can’t cast any of these spells in this way again until you finish a long
+      <em>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpGate000000000]{gate}</em>, or
+      <em>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpWeird00000000]{weird}</em>. Once
+      you do so, you can’t cast any of these spells in this way again until you finish a long
       rest.</p>
     chat: ''
   source:

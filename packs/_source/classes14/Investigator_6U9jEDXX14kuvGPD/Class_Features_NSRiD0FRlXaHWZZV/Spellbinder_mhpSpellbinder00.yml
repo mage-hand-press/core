@@ -8,9 +8,9 @@ system:
       <p>By 20th level, many rituals you perform have become second nature to you. Select five
       ritual spells in your grimoire with a casting time of 1 action. You can cast these spells as a
       bonus action without expending a use of
-      @UUID[Compendium.mage-hand-press-core.classes14.Item.mhpRushedIncanta]{Rushed
-      Incantation}, and you can do so without your grimoire on hand. If the spell requires material
-      components worth 100 gp or less, you can cast it without providing those components.</p>
+      @UUID[Compendium.mage-hand-press-core.classes14.Item.mhpRushedIncanta]{Rushed Incantation},
+      and you can do so without your grimoire on hand. If the spell requires material components
+      worth 100 gp or less, you can cast it without providing those components.</p>
     chat: ''
   source:
     custom: ''

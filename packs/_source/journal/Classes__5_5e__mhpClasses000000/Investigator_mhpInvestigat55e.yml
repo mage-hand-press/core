@@ -1,0 +1,519 @@
+folder: mhpClasses000000
+name: Investigator
+pages:
+  - sort: 300000
+    name: Cover
+    type: text
+    _id: mhpCover00000000
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>@Embed[Compendium.mage-hand-press-core.journal14.JournalEntry.mhpArtHandouts00.JournalEntryPage.mhpInvestigatorC
+        caption=false]</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags:
+      dnd5e:
+        tocHidden: true
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.1
+      createdTime: 1789159467614
+      modifiedTime: 1789165837388
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpInvestigat55e.mhpCover00000000'
+  - sort: 400000
+    name: Investigator
+    type: class
+    _id: mhpInvestigator0
+    system:
+      description:
+        value: >-
+          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpInvestigator0
+          caption=false nameStyle=h1 no-toc]</p><h2>Paranormal Investigators</h2><p>There are forces
+          more ancient than time, foes more sinister than the foulest men, and beings more titanic
+          than gods. The world stands on a precipice of woe and terror, being threatened nightly by
+          dark agents and hordes of monsters. At risk to their own lives and sanities, investigators
+          penetrate the evil that creeps in the shadows and banish it from the world. Their battles
+          are never-ending, for victory only delays doomsday another night.</p><p>Investigators
+          track supernatural threats ranging from incorporeal spirits, to nefarious vampires and
+          lycanthropes, to incursions of demons and devils. Often in their investigations, they
+          uncover secret cults and maligned individuals who bring these supernatural threats to
+          bear. It is always their goal to impede these evildoers by any means necessary, resorting
+          to trickery, guile, magic, and bloodshed when necessary. To an investigator, no tactic is
+          unthinkable when the world is at stake.</p><h2>Exorcists and Occultists</h2><p>Even as
+          they strive to contain its influence from the world at large, investigators dabble in
+          forbidden magic to give themselves an edge against supernatural threats. Prepared
+          investigators keep a well-stocked grimoire of magical secrets, containing rituals,
+          incantations, notes on monsters’ powers and weaknesses, recipes for poisons, and arcane
+          diagrams—everything needed to confront their foes on an even footing. Even so, an
+          investigator’s occupation is perilous. A grimoire might spell out a vampire’s fear of
+          sunlight and aversion to silver, but it does little to hinder their fangs.</p><h2>Creating
+          an Investigator</h2><p>As you build your investigator, consider what sort of supernatural
+          threat first drove you to investigating and combating the occult. Did one of your family
+          members strike a bargain with a fiend? Were you kidnapped by a cabal of vampires or a pack
+          of lycanthropes? Did you stumble across evidence of an eldritch abomination, such as a
+          Great Old One? The type of creature you first did battle with likely shaped your tools and
+          methods later on.</p><p>Did you apprentice under a seasoned monster hunter, learning the
+          ropes of tracking a threat, uncovering its weaknesses, and setting a trap for it? Or did
+          you strike out on your own, compiling your own grimoire from hard-earned research? Perhaps
+          you learned everything about monster hunting from someone else’s grimoire, a masterwork
+          containing an abridged library of occult knowledge and a lifetime of experience. It’s even
+          possible that you signed a contract with a minor fiend and turned to supernatural
+          investigation in a last-ditch effort to save your soul.</p><h3>Quick Build</h3><p>Follow
+          these suggestions to build an investigator quickly: Intelligence should be your highest
+          ability score, followed by Dexterity or Strength. Then, select the rituals
+          <em>@UUID[Compendium.mage-hand-press-core.items-and-spells.Item.Pj4xWqizCYVDK1fb]{clue}</em>,
+          <em>@UUID[Compendium.dnd5e.spells.4dSvfvTy2ZIJ3K4k]{comprehend languages}</em>,
+          <em>@UUID[Compendium.dnd5e.spells.ghXTfe7sgCbgf1Q8]{detect magic}</em>, and
+          <em>@UUID[Compendium.mage-hand-press-core.items-and-spells.Item.LnYZNKo6l3meaWLe]{transient
+          bulwark}</em> to add to your grimoire. Finally, pick any background, preferably one that
+          relates to your experience with supernatural monsters and the occult.</p>
+      value: >-
+        <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpInvestigator0
+        caption=false nameStyle=h1 no-toc]</p><h2>Paranormal Investigators</h2><p>There are forces
+        more ancient than time, foes more sinister than the foulest men, and beings more titanic
+        than gods. The world stands on a precipice of woe and terror, being threatened nightly by
+        dark agents and hordes of monsters. At risk to their own lives and sanities, investigators
+        penetrate the evil that creeps in the shadows and banish it from the world. Their battles
+        are never-ending, for victory only delays doomsday another night.</p><p>Investigators track
+        supernatural threats ranging from incorporeal spirits, to nefarious vampires and
+        lycanthropes, to incursions of demons and devils. Often in their investigations, they
+        uncover secret cults and maligned individuals who bring these supernatural threats to bear.
+        It is always their goal to impede these evildoers by any means necessary, resorting to
+        trickery, guile, magic, and bloodshed when necessary. To an investigator, no tactic is
+        unthinkable when the world is at stake.</p><h2>Exorcists and Occultists</h2><p>Even as they
+        strive to contain its influence from the world at large, investigators dabble in forbidden
+        magic to give themselves an edge against supernatural threats. Prepared investigators keep a
+        well-stocked grimoire of magical secrets, containing rituals, incantations, notes on
+        monsters’ powers and weaknesses, recipes for poisons, and arcane diagrams—everything needed
+        to confront their foes on an even footing. Even so, an investigator’s occupation is
+        perilous. A grimoire might spell out a vampire’s fear of sunlight and aversion to silver,
+        but it does little to hinder their fangs.</p><h2>Creating an Investigator</h2><p>As you
+        build your investigator, consider what sort of supernatural threat first drove you to
+        investigating and combating the occult. Did one of your family members strike a bargain with
+        a fiend? Were you kidnapped by a cabal of vampires or a pack of lycanthropes? Did you
+        stumble across evidence of an eldritch abomination, such as a Great Old One? The type of
+        creature you first did battle with likely shaped your tools and methods later on.</p><p>Did
+        you apprentice under a seasoned monster hunter, learning the ropes of tracking a threat,
+        uncovering its weaknesses, and setting a trap for it? Or did you strike out on your own,
+        compiling your own grimoire from hard-earned research? Perhaps you learned everything about
+        monster hunting from someone else’s grimoire, a masterwork containing an abridged library of
+        occult knowledge and a lifetime of experience. It’s even possible that you signed a contract
+        with a minor fiend and turned to supernatural investigation in a last-ditch effort to save
+        your soul.</p><h3>Quick Build</h3><p>Follow these suggestions to build an investigator
+        quickly: Intelligence should be your highest ability score, followed by Dexterity or
+        Strength. Then, select the rituals
+        <em>@UUID[Compendium.mage-hand-press-core.items-and-spells.Item.Pj4xWqizCYVDK1fb]{clue}</em>,
+        <em>@UUID[Compendium.dnd5e.spells.4dSvfvTy2ZIJ3K4k]{comprehend languages}</em>,
+        <em>@UUID[Compendium.dnd5e.spells.ghXTfe7sgCbgf1Q8]{detect magic}</em>, and
+        <em>@UUID[Compendium.mage-hand-press-core.items-and-spells.Item.LnYZNKo6l3meaWLe]{transient
+        bulwark}</em> to add to your grimoire. Finally, pick any background, preferably one that
+        relates to your experience with supernatural monsters and the occult.</p>
+      item: Compendium.mage-hand-press-core.classes14.Item.mhpInvestigator0
+      style: ''
+      subclassHeader: ''
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags:
+      dnd5e:
+        title: Class Features
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.1
+      createdTime: 1789160369347
+      modifiedTime: 1789162542539
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpInvestigat55e.mhpInvestigator0'
+  - sort: 500000
+    name: Occult Specializations
+    type: text
+    _id: mhpOccultSpecial
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h1 data-no-toc class="subchapter">Occult Specializations</h1><p>Investigators of all
+        stripes share the broad goal of combating the occult, but their methods vary wildly. Some
+        emphasize cutting down monsters and banishing demons, while others believe that uncovering
+        secrets and compiling critical information is the surest method for eliminating supernatural
+        threats. When an investigator gains enough experience, they can steer their approach,
+        including the specific techniques they employ and the trinkets they carry, into an occult
+        specialization, a school of thought for handling eldritch
+        threats.</p><p>@Embed[Compendium.mage-hand-press-core.journal14.JournalEntry.mhpTables0000000.JournalEntryPage.mhpOccultSpecial
+        inline]</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.1
+      createdTime: 1789160893360
+      modifiedTime: 1789162708882
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpInvestigat55e.mhpOccultSpecial'
+  - sort: 600000
+    name: Antiquarian
+    type: subclass
+    _id: mhpAntiquarian00
+    system:
+      item: Compendium.mage-hand-press-core.classes14.Item.mhpAntiquarian00
+      description:
+        value: >-
+          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpAntiquarian00
+          caption=false nameStyle=h2 no-toc]</p>
+      style: ''
+    title:
+      show: false
+      level: 2
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags:
+      dnd5e:
+        tocHidden: true
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.1
+      createdTime: 1789160909269
+      modifiedTime: 1789165839376
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpInvestigat55e.mhpAntiquarian00'
+  - sort: 700000
+    name: Archivist
+    type: subclass
+    _id: mhpArchivist0000
+    system:
+      item: Compendium.mage-hand-press-core.classes14.Item.mhpArchivist0000
+      description:
+        value: >-
+          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpArchivist0000
+          caption=false nameStyle=h2 no-toc]</p>
+      style: ''
+    title:
+      show: false
+      level: 2
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags:
+      dnd5e:
+        tocHidden: true
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.1
+      createdTime: 1789160917812
+      modifiedTime: 1789165840811
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpInvestigat55e.mhpArchivist0000'
+  - sort: 800000
+    name: Detective
+    type: subclass
+    _id: mhpDetective0000
+    system:
+      item: Compendium.mage-hand-press-core.classes14.Item.mhpDetective0000
+      description:
+        value: >-
+          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpDetective0000
+          caption=false nameStyle=h2 no-toc]</p>
+      style: ''
+    title:
+      show: false
+      level: 2
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags:
+      dnd5e:
+        tocHidden: true
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.1
+      createdTime: 1789160926163
+      modifiedTime: 1789165842045
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpInvestigat55e.mhpDetective0000'
+  - sort: 900000
+    name: Exterminator
+    type: subclass
+    _id: mhpExterminator0
+    system:
+      item: Compendium.mage-hand-press-core.classes14.Item.mhpExterminator0
+      description:
+        value: >-
+          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpExterminator0
+          caption=false nameStyle=h2 no-toc]</p>
+      style: ''
+    title:
+      show: false
+      level: 2
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags:
+      dnd5e:
+        tocHidden: true
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.1
+      createdTime: 1789160934610
+      modifiedTime: 1789165843335
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpInvestigat55e.mhpExterminator0'
+  - sort: 1000000
+    name: Inquisitor
+    type: subclass
+    _id: mhpInquisitor000
+    system:
+      item: Compendium.mage-hand-press-core.classes14.Item.mhpInquisitor000
+      description:
+        value: >-
+          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpInquisitor000
+          caption=false nameStyle=h2 no-toc]</p>
+      style: ''
+    title:
+      show: false
+      level: 2
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags:
+      dnd5e:
+        tocHidden: true
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.1
+      createdTime: 1789160941524
+      modifiedTime: 1789165844541
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpInvestigat55e.mhpInquisitor000'
+  - sort: 1100000
+    name: Medium
+    type: subclass
+    _id: mhpMedium0000000
+    system:
+      item: Compendium.mage-hand-press-core.classes14.Item.mhpOccultist0000
+      description:
+        value: >-
+          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpOccultist0000
+          caption=false nameStyle=h2 no-toc]</p>
+      style: ''
+    title:
+      show: false
+      level: 2
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags:
+      dnd5e:
+        tocHidden: true
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.1
+      createdTime: 1789160947572
+      modifiedTime: 1789165845761
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpInvestigat55e.mhpMedium0000000'
+  - sort: 1200000
+    name: Occultist
+    type: subclass
+    _id: mhpOccultist0000
+    system:
+      item: Compendium.mage-hand-press-core.classes14.Item.mhpOccultist0000
+      description:
+        value: >-
+          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpOccultist0000
+          caption=false nameStyle=h2 no-toc]</p>
+      style: ''
+    title:
+      show: false
+      level: 2
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags:
+      dnd5e:
+        tocHidden: true
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.1
+      createdTime: 1789160953669
+      modifiedTime: 1789165847171
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpInvestigat55e.mhpOccultist0000'
+  - sort: 1300000
+    name: Spy
+    type: subclass
+    _id: mhpSpy0000000000
+    system:
+      item: Compendium.mage-hand-press-core.classes14.Item.mhpSpy0000000000
+      description:
+        value: >-
+          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpSpy0000000000
+          caption=false nameStyle=h2 no-toc]</p>
+      style: ''
+    title:
+      show: false
+      level: 2
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags:
+      dnd5e:
+        tocHidden: true
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.1
+      createdTime: 1789160958863
+      modifiedTime: 1789165848555
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpInvestigat55e.mhpSpy0000000000'
+flags:
+  core:
+    sheetClass: mage-hand-press-valdas-spire-of-secrets.ValdasJournalEntrySheet
+  dnd5e:
+    type: chapter
+    navigation:
+      up: mhpChapter2Intro
+      previous: mhpGunslinger000
+      next: mhpMartyr0000000
+    position: 7
+    title: Investigator (5.5e)
+  mage-hand-press-core:
+    cssClasses:
+      - accent-yellow
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.0.5
+  coreVersion: '14.368'
+  createdTime: 1777417736506
+  modifiedTime: 1790397456418
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_id: mhpInvestigat55e
+sort: 200000
+ownership:
+  default: 0
+categories: []
+_key: '!journal!mhpInvestigat55e'
