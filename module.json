@@ -164,6 +164,7 @@
 			"sourceBooks": {
 				"Complete Alchemist": "MageHandPress.Source.CompleteAlchemist",
 				"Complete Gunslinger": "MageHandPress.Source.CompleteGunslinger",
+				"Complete Investigator": "MageHandPress.Source.CompleteInvestigator",
 				"Complete Warmage": "MageHandPress.Source.CompleteWarmage"
 			}
 		}
