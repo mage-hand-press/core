@@ -34,7 +34,9 @@ Hooks.once("init", () => {
 	automation.MonstrousGrafts.initialize();
 	automation.WarmageEdge.initialize();
 
+	dnd5e.dataModels.spellcasting.SpellcastingModel.TYPES.slotless = spellcasting.SlotlessSpellcasting;
 	spellcasting.Alchemist.initialize();
+	spellcasting.Investigator.initialize();
 	spellcasting.Warmage.initialize();
 
 	foundry.applications.apps.DocumentSheetConfig.registerSheet(

@@ -61,7 +61,10 @@
 			}
 		},
 		"Investigator": {
-
+			"Spellcasting": {
+				"Occultist": "Occultist",
+				"Ritualist": "Ritualist"
+			}
 		},
 		"Mastery": {
 			"Automatic": "Automatic",

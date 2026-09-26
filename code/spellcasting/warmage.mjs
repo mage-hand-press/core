@@ -1,5 +1,3 @@
-const { SchemaField, StringField, TypedObjectField } = foundry.data.fields;
-
 /**
  * Initialize Warmage spellcasting.
  */
@@ -12,30 +10,11 @@ export function initialize() {
 		label: "MageHandPress.Warmage.Spellcasting",
 		img: "icons/magic/light/hand-sparks-smoke-green.webp",
 		order: 30,
-		type: "warmage",
+		type: "slotless",
 		progression: {
 			warmage: {
 				label: "MageHandPress.Warmage.Spellcasting"
 			}
 		}
 	};
-}
-
-/* -------------------------------------------- */
-/*  Models                                      */
-/* -------------------------------------------- */
-
-/**
- * Special spellcasting model to handle Warmage's special cantrip-only spellcasting.
- */
-export class WarmageSpellcasting extends dnd5e.dataModels.spellcasting.SpellcastingModel {
-	/** @inheritDoc */
-	static defineSchema() {
-		return {
-			...super.defineSchema(),
-			progression: new TypedObjectField(new SchemaField({
-				label: new StringField({ required: true, initial: () => _loc("DND5E.SPELLCASTING.Unlabeled") })
-			}))
-		};
-	}
 }
