@@ -60,6 +60,9 @@
 				"Section": "Scatter"
 			}
 		},
+		"Investigator": {
+
+		},
 		"Mastery": {
 			"Automatic": "Automatic",
 			"Bludgeon": "Bludgeon",
@@ -161,6 +164,17 @@
 				},
 				"label": "Gunslinger Settings",
 				"name": "Gunslinger"
+			},
+			"Investigator": {
+				"hint": "Configure customization & automation related to Investigator class.",
+				"FIELDS": {
+					"customization": {
+						"hint": "Add a new Ritualist spellcasting type.",
+						"label": "Investigator Customization"
+					}
+				},
+				"label": "Investigator Settings",
+				"name": "Investigator"
 			},
 			"MonstrousGrafts": {
 				"hint": "Enable the Monsterous Graft equipment type and the Grafts tab on actor sheets.",

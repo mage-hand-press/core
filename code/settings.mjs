@@ -68,6 +68,22 @@ export function initialize() {
 		requiresReload: true
 	});
 
+	// Investigator
+	game.settings.registerMenu("mage-hand-press-core", "investigatorDialog", {
+		name: "MageHandPress.Setting.Investigator.name",
+		label: "MageHandPress.Setting.Investigator.label",
+		hint: "MageHandPress.Setting.Investigator.hint",
+		type: SettingsConfig.for("investigator")
+	});
+
+	game.settings.register("mage-hand-press-core", "investigator", {
+		name: "MageHandPress.Setting.Investigator.name",
+		scope: "world",
+		config: false,
+		type: SettingsData.InvestigatorSettingData,
+		requiresReload: true
+	});
+
 	// Warmage
 	game.settings.registerMenu("mage-hand-press-core", "warmageDialog", {
 		name: "MageHandPress.Setting.Warmage.name",
