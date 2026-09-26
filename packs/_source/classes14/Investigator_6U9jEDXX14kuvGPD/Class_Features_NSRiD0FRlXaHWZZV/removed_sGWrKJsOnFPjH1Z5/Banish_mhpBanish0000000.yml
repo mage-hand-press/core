@@ -1,0 +1,131 @@
+folder: sGWrKJsOnFPjH1Z5
+name: Banish
+type: feat
+img: icons/magic/control/energy-stream-link-spiral-white.webp
+system:
+  description:
+    value: >-
+      <p>You cast the <em>@UUID[Compendium.dnd5e.spells.pxpb2eOB6bv4phAf]{banishment}</em> spell
+      without expending a spell slot. If the target is a Fey, Fiend, or Undead and fails its saving
+      throw against this spell, it also takes radiant damage equal to your level.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: ''
+    subtype: ''
+  requirements: Opportunistic Piety
+  properties: []
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: damage
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - number: null
+            denomination: null
+            bonus: ''
+            types:
+              - radiant
+            custom:
+              enabled: true
+              formula: '@classes.investigator.levels'
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+      img: null
+      sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  advancement: {}
+  identifier: banish
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+effects: []
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  coreVersion: '14.368'
+  createdTime: 1777321177041
+  modifiedTime: 1790383359180
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_id: mhpBanish0000000
+sort: 150000
+ownership:
+  default: 0
+_key: '!items!mhpBanish0000000'

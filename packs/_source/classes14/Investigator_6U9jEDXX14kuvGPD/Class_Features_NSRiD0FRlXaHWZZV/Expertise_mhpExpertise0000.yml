@@ -1,0 +1,53 @@
+name: Expertise
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 1st level, choose two of your skill proficiencies; your proficiency bonus is doubled for
+      any ability check you make that uses either of the chosen proficiencies.</p><p>At 6th level,
+      you can choose another two skill proficiencies to gain this benefit.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    rules: '2014'
+    revision: 1
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Investigator
+  properties: []
+  identifier: expertise
+  activities: {}
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+flags: {}
+img: icons/skills/targeting/target-glowing-yellow.webp
+effects: []
+folder: NSRiD0FRlXaHWZZV
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  coreVersion: '14.360'
+  createdTime: 1777321163832
+  modifiedTime: 1777330832882
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_id: mhpExpertise0000
+sort: 0
+ownership:
+  default: 0
+_key: '!items!mhpExpertise0000'

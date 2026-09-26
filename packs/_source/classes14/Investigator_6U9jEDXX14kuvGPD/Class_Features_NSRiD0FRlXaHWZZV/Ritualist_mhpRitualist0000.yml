@@ -1,0 +1,73 @@
+folder: NSRiD0FRlXaHWZZV
+name: Ritualist
+type: feat
+img: icons/skills/trades/academics-book-study-runes.webp
+system:
+  description:
+    value: >-
+      <p>You maintain a grimoire brimming with magical rituals: your most potent tools to defeat
+      supernatural threats.</p><h3>Grimoire</h3><p>At 1st level, you have a grimoire containing four
+      1st-level spells of your choice that have the ritual tag from any class’s spell list (the
+      spells needn’t be from the same list). You can’t cast spells that are in your grimoire except
+      as rituals, unless you’ve learned them by some other means.</p><p>Whenever you gain a level in
+      this class, you can add an additional ritual spell from the
+      @UUID[Compendium.mage-hand-press-valdas-spire-of-secrets.journals.JournalEntry.rUFpsyUhPn8R9vp2.JournalEntryPage.mWtY55h2WRKNIc4h]{Investigator
+      Spells} list (see Chapter 6) to your grimoire at no cost. The Ritual Level column on the
+      Investigator table shows the maximum spell level you can add to your
+      grimoire.</p><p>Additionally, whenever you find a ritual spell on your adventures, you can add
+      it to your grimoire if it is on the investigator spell list and is of a level you can add to
+      your grimoire. For each level of the spell, the transcription process takes 2 hours and costs
+      50 gp for the rare inks needed to inscribe it.</p><h3>Bonus Rituals</h3><p>As an investigator,
+      you can treat specific spells as if they had the ritual tag, allowing you to add them to your
+      grimoire and cast them as rituals. These spells are marked in the investigator spell
+      list.</p><h3>Spellcasting Ability</h3><p>Intelligence is your spellcasting ability for your
+      ritual spells, since you master your spells through deduction and cunning. You use your
+      Intelligence whenever a spell refers to your spellcasting ability. In addition, when you cast
+      an investigator ritual or a spell offered to you by a feature in this class, you use your
+      Intelligence modifier when setting the saving throw DC and making an attack
+      roll.</p><p><em><strong>Spell save DC</strong></em> = 8 + your proficiency bonus + your
+      Intelligence modifier</p><p><em><strong>Spell attack modifier</strong></em> = your proficiency
+      bonus + your Intelligence modifier</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    rules: '2014'
+    revision: 1
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Investigator
+  properties: []
+  identifier: ritualist
+  activities: {}
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+effects: []
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  coreVersion: '14.360'
+  createdTime: 1777321172299
+  modifiedTime: 1777330850582
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_id: mhpRitualist0000
+sort: 0
+ownership:
+  default: 0
+_key: '!items!mhpRitualist0000'

@@ -1,0 +1,53 @@
+folder: NSRiD0FRlXaHWZZV
+name: Myths and Legends
+type: feat
+img: icons/sundries/books/book-open-brown.webp
+system:
+  description:
+    value: >-
+      <p>At 2nd level, you are extremely adept at uncovering knowledge that pertains to eldritch
+      threats and forgotten legends. You have advantage on Intelligence checks related to
+      researching creatures, spells, and other ancient or secret lore.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    rules: '2014'
+    revision: 1
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Investigator
+  properties: []
+  identifier: myths-and-legends
+  activities: {}
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 2
+effects: []
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  coreVersion: '14.360'
+  createdTime: 1777321136522
+  modifiedTime: 1777330846018
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_id: mhpMythsandLegen
+sort: 0
+ownership:
+  default: 0
+_key: '!items!mhpMythsandLegen'

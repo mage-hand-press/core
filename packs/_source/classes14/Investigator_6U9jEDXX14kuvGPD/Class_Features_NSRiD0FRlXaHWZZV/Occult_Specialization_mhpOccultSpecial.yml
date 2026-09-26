@@ -1,0 +1,70 @@
+folder: NSRiD0FRlXaHWZZV
+name: Occult Specialization
+type: feat
+img: icons/tools/scribal/spectacles-glasses.webp
+system:
+  description:
+    value: >-
+      <p>At 3rd level, you choose a specialization, an area of expertise in handling eldritch
+      threats. Specializations are detailed at the end of the class description. Your specialization
+      choice grants you features at 3rd level and again at 6th, 10th, and 14th
+      level.</p><p></p><table><thead><tr><td colspan="2">Occult
+      Specializations</td></tr><tr><td>Name</td><td>Description</td></tr></thead><tbody><tr><td>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpAntiquarian00]{Antiquarian}</td><td>Festooned
+      with powerful magical trinkets of all shapes and
+      sizes</td></tr><tr><td>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpArchivist0000]{Archivist}</td><td>A
+      scholar who collects scraps of ancient
+      lore</td></tr><tr><td>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpDetective0000]{Detective}</td><td>Chases
+      down clues and unravels crimes with their impressive
+      intellect</td></tr><tr><td>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpExterminator0]{Exterminator}</td><td>Hunts
+      down vampires, lycanthropes, and beasts that stalk the
+      night</td></tr><tr><td>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpInquisitor000]{Inquisitor}</td><td>An
+      agent of the church that performs exorcisms and roots out
+      heresy</td></tr><tr><td>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpMedium0000000]{Medium}</td><td>Foretells
+      events of the future using a magical connection to the
+      dead</td></tr><tr><td>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpOccultist0000]{Occultist}</td><td>A
+      magician borrowing spells from wizards and
+      warlocks</td></tr><tr><td>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpSpy0000000000]{Spy}</td><td>Infiltrates
+      with perfect disguises and unmatched charm</td></tr></tbody></table>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    rules: '2014'
+    revision: 1
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Investigator
+  properties: []
+  identifier: occult-specialization
+  activities: {}
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+effects: []
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  coreVersion: '14.360'
+  createdTime: 1777321149362
+  modifiedTime: 1777330846361
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_id: mhpOccultSpecial
+sort: 0
+ownership:
+  default: 0
+_key: '!items!mhpOccultSpecial'

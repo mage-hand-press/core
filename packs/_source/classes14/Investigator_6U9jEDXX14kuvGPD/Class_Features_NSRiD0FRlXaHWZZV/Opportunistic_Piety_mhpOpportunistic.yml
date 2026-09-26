@@ -1,0 +1,138 @@
+folder: NSRiD0FRlXaHWZZV
+name: Opportunistic Piety
+type: feat
+img: icons/magic/holy/prayer-hands-glowing-yellow-green.webp
+system:
+  description:
+    value: >-
+      <p>By 7th level, you always keep a wide array of holy symbols and blessed items on your
+      person, even if you aren’t particularly pious. When you use your Opportunistic Piety, you
+      choose which effect to create from the list below. You must then finish a short or long rest
+      to use your Opportunistic Piety
+      again.</p><p><em><strong>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpBanish0000000]{Banish}.</strong></em>
+      You cast the <em>@UUID[Compendium.dnd5e.spells.pxpb2eOB6bv4phAf]{banishment}</em> spell
+      without expending a spell slot. If the target is a Fey, Fiend, or Undead and fails its saving
+      throw against this spell, it also takes radiant damage equal to your
+      level.</p><p><em><strong>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpMiracleHealin]{Miracle
+      Healing}.</strong></em> As an action, divine light from your hands knit the wounds of a
+      willing creature you touch. That creature regains a number of hit points equal to twice your
+      investigator level. This ability has no effect on Undead or
+      Constructs.</p><p><em><strong>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpWardingorOppo]{Warding}.</strong></em>
+      As an action, you trace a holy symbol on a creature within 5 feet of you, warding it against
+      harm. For the next minute, Aberrations, Celestials, Elementals, Fey, Fiends, and Undead that
+      touch the warded creature or hit it with a melee attack take 1d12 radiant damage.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: '1'
+    recovery:
+      - period: sr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Investigator
+  properties: []
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: special
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+        expiry: null
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      img: null
+      sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+  advancement: {}
+  identifier: opportunistic-piety
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 7
+effects: []
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.0.0
+  coreVersion: '14.367'
+  createdTime: 1788545793591
+  modifiedTime: 1788545793591
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_id: mhpOpportunistic
+sort: 0
+ownership:
+  default: 0
+_key: '!items!mhpOpportunistic'

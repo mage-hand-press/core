@@ -1,0 +1,146 @@
+folder: NSRiD0FRlXaHWZZV
+name: Rushed Incantation
+type: feat
+img: icons/magic/control/debuff-energy-hold-levitate-teal-blue.webp
+system:
+  description:
+    value: >-
+      <p>Beginning at 2nd level, you can hastily perform any ritual spell in your grimoire that has
+      a casting time of 1 action or 1 bonus action, completing the ritual as a bonus action. If the
+      spell requires material components worth 100 gp or less, you can cast it without providing
+      those components. You can use this feature a number of times equal to your Intelligence
+      modifier (a minimum of once), and you regain all expended uses when you finish a long
+      rest.</p><p>As you gain higher levels in this class, you can use this feature additional
+      times. You can use it once more at 5th level (Intelligence modifier + 1), 9th level
+      (Intelligence modifier + 2), 13th level (Intelligence modifier + 3), and 17th level
+      (Intelligence modifier + 4).</p><p></p><p><em><strong>*Foundry Note:</strong> At higher levels
+      the user will have to update the amount of uses that they get from this feature. Use the
+      'Other' formula to calculate the number of uses you have and then update the 'Limited Uses' on
+      the Details tab from the current formula (@abilities.int.mod) to the new number.</em></p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: '@abilities.int.mod'
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Investigator
+  properties: []
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: damage
+      activation:
+        type: bonus
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+        expiry: null
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - number: null
+            denomination: null
+            bonus: ''
+            types: []
+            custom:
+              enabled: true
+              formula: '@scale.investigator.rushed-incantation + @abilities.int.mod'
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+            modifiers: []
+      img: null
+      sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+  advancement: {}
+  identifier: rushed-incantation
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 2
+effects: []
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.0.0
+  coreVersion: '14.367'
+  createdTime: 1788545795807
+  modifiedTime: 1788545795807
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_id: mhpRushedIncanta
+sort: 0
+ownership:
+  default: 0
+_key: '!items!mhpRushedIncanta'

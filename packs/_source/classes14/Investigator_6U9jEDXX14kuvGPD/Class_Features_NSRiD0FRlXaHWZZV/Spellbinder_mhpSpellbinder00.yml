@@ -1,0 +1,56 @@
+folder: NSRiD0FRlXaHWZZV
+name: Spellbinder
+type: feat
+img: icons/magic/unholy/silhouette-light-fire-blue.webp
+system:
+  description:
+    value: >-
+      <p>By 20th level, many rituals you perform have become second nature to you. Select five
+      ritual spells in your grimoire with a casting time of 1 action. You can cast these spells as a
+      bonus action without expending a use of
+      @UUID[Compendium.mage-hand-press-core.classes14.Item.mhpRushedIncanta]{Rushed
+      Incantation}, and you can do so without your grimoire on hand. If the spell requires material
+      components worth 100 gp or less, you can cast it without providing those components.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    rules: '2014'
+    revision: 1
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Investigator
+  properties: []
+  identifier: spellbinder
+  activities: {}
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 20
+effects: []
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  coreVersion: '14.360'
+  createdTime: 1777321173987
+  modifiedTime: 1777330853895
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_id: mhpSpellbinder00
+sort: 0
+ownership:
+  default: 0
+_key: '!items!mhpSpellbinder00'

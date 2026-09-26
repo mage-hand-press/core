@@ -1,0 +1,48 @@
+name: Grimoire
+type: loot
+_id: mhpGrimoire00000
+img: icons/sundries/books/book-embossed-jewel-silver-green.webp
+system:
+  description:
+    value: ''
+    chat: ''
+  identifier: grimoire
+  source:
+    revision: 1
+    rules: '2014'
+    book: Complete Investigator
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 3
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  rarities: []
+  properties: []
+  type:
+    value: ''
+    subtype: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: dnd5e
+  systemVersion: 6.0.5
+  createdTime: 1790383006148
+  modifiedTime: 1790383126113
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!mhpGrimoire00000'

@@ -1,0 +1,131 @@
+folder: sGWrKJsOnFPjH1Z5
+name: Enigma Arcane | Level 17
+type: feat
+img: icons/magic/symbols/runes-star-pentagon-orange.webp
+system:
+  description:
+    value: >-
+      <p>At 17th level, you can also cast one of the following spells once without expending a spell
+      slot:
+      <em>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpAstralProject]{astral
+      projection}</em>,
+      <em>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpGate000000000]{gate}</em>,
+      or
+      <em>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpWeird00000000]{weird}</em>.
+      Once you do so, you can’t cast any of these spells in this way again until you finish a long
+      rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: '1'
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Investigator
+  properties: []
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: special
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+        expiry: null
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      img: null
+      sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+  advancement: {}
+  identifier: enigma-arcane-or-level-17
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 17
+effects: []
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.0.0
+  coreVersion: '14.368'
+  createdTime: 1788545789028
+  modifiedTime: 1790383420940
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_id: mhpEnigmaArcaneo
+sort: 101563
+ownership:
+  default: 0
+_key: '!items!mhpEnigmaArcaneo'

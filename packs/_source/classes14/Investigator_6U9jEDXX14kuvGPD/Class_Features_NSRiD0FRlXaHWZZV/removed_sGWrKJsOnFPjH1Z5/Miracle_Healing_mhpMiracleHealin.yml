@@ -1,0 +1,127 @@
+folder: sGWrKJsOnFPjH1Z5
+name: Miracle Healing
+type: feat
+img: icons/magic/holy/prayer-hands-glowing-yellow.webp
+system:
+  description:
+    value: >-
+      <p>As an action, divine light from your hands knit the wounds of a willing creature you touch.
+      That creature regains a number of hit points equal to twice your investigator level. This
+      ability has no effect on Undead or Constructs.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: ''
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: ''
+    subtype: ''
+  requirements: Opportunistic Piety
+  properties: []
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: heal
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: touch
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      healing:
+        number: null
+        denomination: null
+        bonus: ''
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: 2*@classes.investigator.levels
+        scaling:
+          mode: whole
+          number: null
+          formula: ''
+      img: null
+      sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  advancement: {}
+  identifier: miracle-healing
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+effects: []
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  coreVersion: '14.368'
+  createdTime: 1777321161904
+  modifiedTime: 1790383357481
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_id: mhpMiracleHealin
+sort: 200000
+ownership:
+  default: 0
+_key: '!items!mhpMiracleHealin'
