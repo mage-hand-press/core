@@ -21,7 +21,7 @@ Hooks.once("init", () => {
 	config.General.initialize();
 	config.Alchemist.initialize();
 	config.Gunslinger.initialize();
-	config.investigator.initialize();
+	config.Investigator.initialize();
 	config.Warmage.initialize();
 
 	customization.AuxiliaryLevels.initialize();
