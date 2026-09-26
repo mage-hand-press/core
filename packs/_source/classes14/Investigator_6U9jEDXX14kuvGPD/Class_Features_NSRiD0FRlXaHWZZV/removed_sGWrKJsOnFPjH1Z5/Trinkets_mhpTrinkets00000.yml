@@ -1,4 +1,4 @@
-folder: NSRiD0FRlXaHWZZV
+folder: sGWrKJsOnFPjH1Z5
 name: Trinkets
 type: feat
 img: icons/commodities/treasure/stone-cracked-lightning-blue.webp
@@ -114,15 +114,15 @@ effects: []
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.0
-  coreVersion: '14.367'
+  systemVersion: 6.0.5
+  coreVersion: '14.368'
   createdTime: 1788545797593
-  modifiedTime: 1788545797593
+  modifiedTime: 1790398400561
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
 _id: mhpTrinkets00000
-sort: 0
+sort: 100782
 ownership:
   default: 0
 _key: '!items!mhpTrinkets00000'

@@ -46,7 +46,29 @@ system:
   properties: []
   identifier: occult-specialization
   activities: {}
-  advancement: {}
+  advancement:
+    qaW6EGgbWQtqWn9k:
+      _id: qaW6EGgbWQtqWn9k
+      type: ScaleValue
+      configuration:
+        identifier: trinkets
+        type: usage
+        distance:
+          units: ''
+        scale:
+          '3':
+            value: 1
+            period: sr
+          '5':
+            value: 2
+          '11':
+            value: 3
+          '17':
+            value: 4
+      value: {}
+      flags: {}
+      hint: ''
+      name: Trinkets
   enchant: {}
   prerequisites:
     items: []
@@ -56,15 +78,15 @@ effects: []
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 5.3.2
-  coreVersion: '14.360'
-  createdTime: 1777321149362
-  modifiedTime: 1777330846361
+  systemVersion: 6.0.5
+  coreVersion: '14.368'
+  createdTime: 1790399704694
+  modifiedTime: 1790399704694
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
-_id: mhpOccultSpecial
+_id: mhpInveOccultSpe
 sort: 0
 ownership:
   default: 0
-_key: '!items!mhpOccultSpecial'
+_key: '!items!mhpInveOccultSpe'

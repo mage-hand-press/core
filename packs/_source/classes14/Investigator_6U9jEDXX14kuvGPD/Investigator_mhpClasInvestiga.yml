@@ -18,7 +18,9 @@ system:
       inquisitor breathes a sigh of relief.</p><p>Supernatural detectives and monster slayers,
       investigators are always on the hunt for malevolent outsiders. Whenever evil seeps into the
       world—be it fiends, undead, or strange abominations from beyond the stars—investigators will
-      be the first to locate them and banish their foul corruption from the mortal plane.</p>
+      be the first to locate them and banish their foul corruption from the mortal plane.</p><p
+      class="hide-in-embed">@UUID[Compendium.mage-hand-press-core.journal.JournalEntry.mhpInvestigato5e.JournalEntryPage.mhpInvestigator0]{Continue
+      reading…}</p>
     chat: ''
   source:
     custom: ''
@@ -55,9 +57,9 @@ system:
       value:
         type: asi
       level: 4
-      title: ''
       flags: {}
       hint: ''
+      name: ''
     1VpeFJwu2a7qmrhJ:
       _id: 1VpeFJwu2a7qmrhJ
       type: AbilityScoreImprovement
@@ -76,9 +78,9 @@ system:
       value:
         type: asi
       level: 8
-      title: ''
       flags: {}
       hint: ''
+      name: ''
     x5NwIbTwMCLKWkwr:
       _id: x5NwIbTwMCLKWkwr
       type: AbilityScoreImprovement
@@ -97,9 +99,9 @@ system:
       value:
         type: asi
       level: 12
-      title: ''
       flags: {}
       hint: ''
+      name: ''
     zV9lHHMUZLPxNmcQ:
       _id: zV9lHHMUZLPxNmcQ
       type: AbilityScoreImprovement
@@ -118,9 +120,9 @@ system:
       value:
         type: asi
       level: 16
-      title: ''
       flags: {}
       hint: ''
+      name: ''
     qpRfLSQFVfK3xq7G:
       _id: qpRfLSQFVfK3xq7G
       type: AbilityScoreImprovement
@@ -139,39 +141,20 @@ system:
       value:
         type: asi
       level: 19
-      title: ''
       flags: {}
       hint: ''
-    qaW6EGgbWQtqWn9k:
-      _id: qaW6EGgbWQtqWn9k
-      type: ScaleValue
-      configuration:
-        identifier: ''
-        type: number
-        distance:
-          units: ''
-        scale:
-          '3':
-            value: 1
-          '5':
-            value: 2
-          '11':
-            value: 3
-          '17':
-            value: 4
-      value: {}
-      title: Trinkets
-      flags: {}
-      hint: ''
+      name: ''
     mkP3iMVqtFSMAlaB:
       _id: mkP3iMVqtFSMAlaB
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpExpertise0000
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpInveExpertise
             optional: false
-          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpRitualist0000
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpInveRitualist
             optional: false
+            sort: 0
         optional: false
         spell:
           ability: []
@@ -180,20 +163,23 @@ system:
             per: ''
             requireSlot: false
           prepared: 0
+        sorting: m
       value: {}
       level: 1
-      title: Class Features
       flags: {}
       hint: ''
+      name: Class Features
     Kjy790xnAzqaxAnG:
       _id: Kjy790xnAzqaxAnG
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpMythsandLegen
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpInveMythsLege
             optional: false
-          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpRushedIncanta
+            sort: 0
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpInveRushedInc
             optional: false
+            sort: 0
         optional: false
         spell:
           ability: []
@@ -202,20 +188,20 @@ system:
             per: ''
             requireSlot: false
           prepared: 0
+        sorting: m
       value: {}
       level: 2
-      title: Class Features
       flags: {}
       hint: ''
+      name: Class Features
     mdZn93ZHb8hTm5hc:
       _id: mdZn93ZHb8hTm5hc
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpOccultSpecial
-            optional: false
-          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpTrinkets00000
-            optional: false
+          - optional: false
+            sort: 0
+            uuid: Compendium.mage-hand-press-core.classes14.Item.mhpInveOccultSpe
         optional: false
         spell:
           ability: []
@@ -224,18 +210,21 @@ system:
             per: ''
             requireSlot: false
           prepared: 0
+        sorting: m
       value: {}
       level: 3
-      title: Class Features
       flags: {}
       hint: ''
+      classRestriction: ''
+      name: Class Features
     RuPR0SBiDjdkILka:
       _id: RuPR0SBiDjdkILka
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpExploitWeakne
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpInveExploiWea
             optional: false
+            sort: 0
         optional: false
         spell:
           ability: []
@@ -244,11 +233,12 @@ system:
             per: ''
             requireSlot: false
           prepared: 0
+        sorting: m
       value: {}
       level: 5
-      title: Class Features
       flags: {}
       hint: ''
+      name: Class Features
     plqUzA8gUvr4axCc:
       _id: plqUzA8gUvr4axCc
       type: ItemGrant
@@ -256,7 +246,7 @@ system:
         items:
           - optional: false
             sort: 0
-            uuid: Compendium.mage-hand-press-core.classes14.Item.mhpOpportunistic
+            uuid: Compendium.mage-hand-press-core.classes14.Item.mhpInveOpportPie
         optional: false
         spell:
           ability: []
@@ -265,19 +255,21 @@ system:
             per: ''
             requireSlot: false
           prepared: 0
+        sorting: m
       value: {}
       level: 7
-      title: Class Features
       flags: {}
       hint: ''
       classRestriction: ''
+      name: Class Features
     tJQQFDrfJGA0snpx:
       _id: tJQQFDrfJGA0snpx
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpSupernaturalR
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpInveSupernRes
             optional: false
+            sort: 0
         optional: false
         spell:
           ability: []
@@ -286,18 +278,20 @@ system:
             per: ''
             requireSlot: false
           prepared: 0
+        sorting: m
       value: {}
       level: 9
-      title: Class Features
       flags: {}
       hint: ''
+      name: Class Features
     2MtMvdfSxXQwCqZl:
       _id: 2MtMvdfSxXQwCqZl
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpFinisher00000
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpInveFinisher0
             optional: false
+            sort: 0
         optional: false
         spell:
           ability: []
@@ -306,11 +300,12 @@ system:
             per: ''
             requireSlot: false
           prepared: 0
+        sorting: m
       value: {}
       level: 11
-      title: Class Features
       flags: {}
       hint: ''
+      name: Class Features
     4kvQE4sylB0e9DOg:
       _id: 4kvQE4sylB0e9DOg
       type: ItemGrant
@@ -318,7 +313,7 @@ system:
         items:
           - optional: false
             sort: 0
-            uuid: Compendium.mage-hand-press-core.classes14.Item.mhpEnigmaArcane1
+            uuid: Compendium.mage-hand-press-core.classes14.Item.mhpInveEnigmaArc
         optional: false
         spell:
           ability: []
@@ -328,12 +323,13 @@ system:
             requireSlot: false
           prepared: 0
           method: ''
+        sorting: m
       value: {}
       level: 13
-      title: Class Features
       flags: {}
       hint: ''
       classRestriction: ''
+      name: Class Features
     FE7qZH5UDFqOsEgn:
       _id: FE7qZH5UDFqOsEgn
       type: ItemGrant
@@ -341,7 +337,7 @@ system:
         items:
           - optional: false
             sort: 0
-            uuid: Compendium.mage-hand-press-core.classes14.Item.mhpExorcist00000
+            uuid: Compendium.mage-hand-press-core.classes14.Item.mhpInveExorcist0
         optional: false
         spell:
           ability: []
@@ -351,19 +347,21 @@ system:
             requireSlot: false
           prepared: 0
           method: ''
+        sorting: m
       value: {}
       level: 18
-      title: Class Features
       flags: {}
       hint: ''
       classRestriction: ''
+      name: Class Features
     vUKC0HG4oaWJffvm:
       _id: vUKC0HG4oaWJffvm
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpSpellbinder00
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpInveSpellbind
             optional: false
+            sort: 0
         optional: false
         spell:
           ability: []
@@ -372,32 +370,12 @@ system:
             per: ''
             requireSlot: false
           prepared: 0
+        sorting: m
       value: {}
       level: 20
-      title: Class Features
       flags: {}
       hint: ''
-    PiypcOFtoGuKqx4h:
-      _id: PiypcOFtoGuKqx4h
-      type: ScaleValue
-      configuration:
-        identifier: ''
-        type: number
-        distance:
-          units: ''
-        scale:
-          '5':
-            value: 1
-          '9':
-            value: 2
-          '13':
-            value: 3
-          '17':
-            value: 4
-      value: {}
-      title: Rushed Incantation
-      flags: {}
-      hint: ''
+      name: Class Features
     CHFiWhaQRJvWodja:
       _id: CHFiWhaQRJvWodja
       type: ItemGrant
@@ -406,6 +384,7 @@ system:
           - uuid: >-
               Compendium.mage-hand-press-valdas-spire-of-secrets.valdas-classes.Item.7RzNyYeqe4aOHUac
             optional: false
+            sort: 0
         optional: false
         spell:
           ability: []
@@ -414,11 +393,12 @@ system:
             per: ''
             requireSlot: false
           prepared: 0
+        sorting: m
       value: {}
       level: 4
-      title: Class Features
       flags: {}
       hint: ''
+      name: Class Features
     xA15Ih7Mnq1CGgDQ:
       type: Trait
       level: 1
@@ -434,11 +414,11 @@ system:
           - saves:dex
           - saves:int
       _id: xA15Ih7Mnq1CGgDQ
-      title: ''
-      icon: null
       classRestriction: primary
       flags: {}
       hint: ''
+      name: ''
+      img: null
     gJFc8TGFdVt8mY3f:
       type: Trait
       level: 1
@@ -464,12 +444,12 @@ system:
         allowReplacements: false
         grants: []
       _id: gJFc8TGFdVt8mY3f
-      title: ''
-      icon: null
       classRestriction: primary
       value: {}
       flags: {}
       hint: ''
+      name: ''
+      img: null
     oKUQMpTbZhOg4XBo:
       _id: oKUQMpTbZhOg4XBo
       type: Trait
@@ -480,13 +460,12 @@ system:
           - armor:lgt
         choices: []
       level: 1
-      title: Armor
-      icon: null
       classRestriction: ''
       value: {}
       flags: {}
       hint: ''
-      name: ''
+      name: Armor
+      img: null
     7KSuNqmauDPrI0NL:
       _id: 7KSuNqmauDPrI0NL
       type: Trait
@@ -502,13 +481,12 @@ system:
           - weapon:mar:shortsword
         choices: []
       level: 1
-      title: Weapons
-      icon: null
       classRestriction: primary
       value: {}
       flags: {}
       hint: ''
-      name: ''
+      name: Weapons
+      img: null
     gJzJ6ryBfxB8BeSo:
       _id: gJzJ6ryBfxB8BeSo
       type: Trait
@@ -521,12 +499,12 @@ system:
             pool:
               - tool:game:*
       level: 1
-      title: Tools
-      icon: null
       classRestriction: primary
       value: {}
       flags: {}
       hint: ''
+      name: Tools
+      img: null
     HRLSo2dpRq4n3kIv:
       _id: HRLSo2dpRq4n3kIv
       type: Trait
@@ -552,13 +530,12 @@ system:
               - skills:slt
               - skills:ste
       level: 1
-      title: Multiclass Proficiencies
-      icon: null
       classRestriction: secondary
       flags: {}
       value: {}
       hint: ''
-      name: ''
+      name: Multiclass Proficiencies
+      img: null
     HcW52ZvZB2g6NE8I:
       name: Occult Specialization
       type: Subclass
@@ -594,6 +571,33 @@ system:
       name: ''
       img: null
       _id: i9OQ0JK4ai4GiK80
+      value: {}
+    FFFJNeUKgBwiCKag:
+      name: Ritual Level
+      type: ScaleValue
+      _id: FFFJNeUKgBwiCKag
+      configuration:
+        identifier: ''
+        type: string
+        distance:
+          units: ''
+        scale:
+          '1':
+            value: 1st
+          '3':
+            value: 2nd
+          '5':
+            value: 3rd
+          '7':
+            value: 4th
+          '9':
+            value: 5th
+          '11':
+            value: 6th
+      flags: {}
+      value: {}
+      hint: ''
+      classRestriction: ''
   spellcasting:
     progression: none
     ability: int
@@ -734,13 +738,13 @@ _stats:
   systemId: dnd5e
   systemVersion: 6.0.5
   coreVersion: '14.368'
-  createdTime: 1777321173515
-  modifiedTime: 1790383487254
+  createdTime: 1790399704126
+  modifiedTime: 1790399705544
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
-_id: mhpInvestigator0
+_id: mhpClasInvestiga
 sort: 100000
 ownership:
   default: 0
-_key: '!items!mhpInvestigator0'
+_key: '!items!mhpClasInvestiga'

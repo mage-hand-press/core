@@ -48,12 +48,14 @@ system:
         spellSlot: true
       description:
         chatFlavor: ''
+        value: ''
       duration:
         concentration: false
         value: ''
         units: inst
         special: ''
         override: false
+        expiry: null
       effects: []
       range:
         units: self
@@ -96,6 +98,7 @@ system:
               mode: whole
               number: null
               formula: ''
+            modifiers: []
       img: null
       sort: 0
       flags: {}
@@ -104,6 +107,7 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      behaviors: []
     dnd5eactivity300:
       _id: dnd5eactivity300
       type: utility
@@ -120,12 +124,14 @@ system:
         spellSlot: true
       description:
         chatFlavor: ''
+        value: ''
       duration:
         concentration: false
         value: ''
         units: inst
         special: ''
         override: false
+        expiry: null
       effects: []
       range:
         units: self
@@ -165,6 +171,7 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      behaviors: []
   advancement: {}
   identifier: finisher
   enchant: {}
@@ -176,15 +183,15 @@ effects: []
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 5.3.2
-  coreVersion: '14.360'
-  createdTime: 1777321152205
-  modifiedTime: 1777330834859
+  systemVersion: 6.0.5
+  coreVersion: '14.368'
+  createdTime: 1790399705129
+  modifiedTime: 1790399705129
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
-_id: mhpFinisher00000
+_id: mhpInveFinisher0
 sort: 0
 ownership:
   default: 0
-_key: '!items!mhpFinisher00000'
+_key: '!items!mhpInveFinisher0'

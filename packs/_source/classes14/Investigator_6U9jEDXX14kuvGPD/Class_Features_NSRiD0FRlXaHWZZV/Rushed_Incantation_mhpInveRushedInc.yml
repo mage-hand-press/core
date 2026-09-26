@@ -13,10 +13,7 @@ system:
       rest.</p><p>As you gain higher levels in this class, you can use this feature additional
       times. You can use it once more at 5th level (Intelligence modifier + 1), 9th level
       (Intelligence modifier + 2), 13th level (Intelligence modifier + 3), and 17th level
-      (Intelligence modifier + 4).</p><p></p><p><em><strong>*Foundry Note:</strong> At higher levels
-      the user will have to update the amount of uses that they get from this feature. Use the
-      'Other' formula to calculate the number of uses you have and then update the 'Limited Uses' on
-      the Details tab from the current formula (@abilities.int.mod) to the new number.</em></p>
+      (Intelligence modifier + 4).</p>
     chat: ''
   source:
     custom: ''
@@ -28,7 +25,7 @@ system:
   cover: null
   crewed: false
   uses:
-    max: '@abilities.int.mod'
+    max: max(1, @abilities.int.mod) + @scale.rushed-incantation.uses
     recovery:
       - period: lr
         type: recoverAll
@@ -121,7 +118,30 @@ system:
         requireIdentification: false
         requireMagic: false
       behaviors: []
-  advancement: {}
+  advancement:
+    PiypcOFtoGuKqx4h:
+      _id: PiypcOFtoGuKqx4h
+      type: ScaleValue
+      configuration:
+        identifier: uses
+        type: usage
+        distance:
+          units: ''
+        scale:
+          '2':
+            value: 0
+          '5':
+            value: 1
+          '9':
+            value: 2
+          '13':
+            value: 3
+          '17':
+            value: 4
+      value: {}
+      flags: {}
+      hint: ''
+      name: Extra Uses
   identifier: rushed-incantation
   enchant: {}
   prerequisites:
@@ -132,15 +152,15 @@ effects: []
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.0
-  coreVersion: '14.367'
-  createdTime: 1788545795807
-  modifiedTime: 1788545795807
+  systemVersion: 6.0.5
+  coreVersion: '14.368'
+  createdTime: 1790399704575
+  modifiedTime: 1790399704576
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
-_id: mhpRushedIncanta
+_id: mhpInveRushedInc
 sort: 0
 ownership:
   default: 0
-_key: '!items!mhpRushedIncanta'
+_key: '!items!mhpInveRushedInc'

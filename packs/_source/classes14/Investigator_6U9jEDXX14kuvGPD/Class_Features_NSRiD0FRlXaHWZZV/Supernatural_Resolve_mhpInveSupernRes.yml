@@ -51,11 +51,11 @@ effects:
     description: ''
     statuses: []
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dnd5e
-      systemVersion: 6.0.0
-      createdTime: 1777321166752
-      modifiedTime: 1788545796843
+      systemVersion: 6.0.5
+      createdTime: 1790399705016
+      modifiedTime: 1790399705016
       lastModifiedBy: magehandpress000
       compendiumSource: null
       duplicateSource: null
@@ -88,23 +88,33 @@ effects:
           _id: WpKwWyXznc2jWSvN
           conditions: '{}'
           replacement: ''
+      origin:
+        actor: null
+        behavior: null
+        effect: null
+        item: null
+        message: null
+      conditions: '{}'
+      magical: false
+      rider:
+        statuses: []
     sort: 0
     start: null
     showIcon: 1
     folder: null
-    _key: '!items.effects!mhpSupernaturalR.GgIdPH6oOyNFJWPE'
+    _key: '!items.effects!mhpInveSupernRes.GgIdPH6oOyNFJWPE'
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 5.3.2
-  coreVersion: '14.367'
-  createdTime: 1777321166752
-  modifiedTime: 1788545796843
+  systemVersion: 6.0.5
+  coreVersion: '14.368'
+  createdTime: 1790399705016
+  modifiedTime: 1790399705016
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
-_id: mhpSupernaturalR
+_id: mhpInveSupernRes
 sort: 0
 ownership:
   default: 0
-_key: '!items!mhpSupernaturalR'
+_key: '!items!mhpInveSupernRes'

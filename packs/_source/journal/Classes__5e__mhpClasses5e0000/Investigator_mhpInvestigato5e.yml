@@ -1,40 +1,6 @@
 folder: mhpClasses5e0000
 name: Investigator
 pages:
-  - sort: 300000
-    name: Cover
-    type: text
-    _id: mhpCover00000000
-    system: {}
-    title:
-      show: false
-      level: 1
-    image: {}
-    text:
-      format: 1
-      content: >-
-        <p>@Embed[Compendium.mage-hand-press-core.journal14.JournalEntry.mhpArtHandouts00.JournalEntryPage.mhpInvestigatorC
-        caption=false]</p>
-    video:
-      controls: true
-      volume: 0.5
-    src: null
-    category: null
-    ownership:
-      default: -1
-    flags:
-      dnd5e:
-        tocHidden: true
-    _stats:
-      coreVersion: '14.367'
-      systemId: dnd5e
-      systemVersion: 6.0.1
-      createdTime: 1789159467614
-      modifiedTime: 1789165837388
-      lastModifiedBy: magehandpress000
-      duplicateSource: null
-      exportSource: null
-    _key: '!journal.pages!mhpInvestigato5e.mhpCover00000000'
   - sort: 400000
     name: Investigator
     type: class
@@ -42,14 +8,14 @@ pages:
     system:
       description:
         value: >-
-          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpInvestigator0
-          caption=false nameStyle=h1 no-toc]</p><h2>Paranormal Investigators</h2><p>There are forces
-          more ancient than time, foes more sinister than the foulest men, and beings more titanic
-          than gods. The world stands on a precipice of woe and terror, being threatened nightly by
-          dark agents and hordes of monsters. At risk to their own lives and sanities, investigators
-          penetrate the evil that creeps in the shadows and banish it from the world. Their battles
-          are never-ending, for victory only delays doomsday another night.</p><p>Investigators
-          track supernatural threats ranging from incorporeal spirits, to nefarious vampires and
+          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpInvestigator0 caption=false
+          nameStyle=h1 no-toc]</p><h2>Paranormal Investigators</h2><p>There are forces more ancient
+          than time, foes more sinister than the foulest men, and beings more titanic than gods. The
+          world stands on a precipice of woe and terror, being threatened nightly by dark agents and
+          hordes of monsters. At risk to their own lives and sanities, investigators penetrate the
+          evil that creeps in the shadows and banish it from the world. Their battles are
+          never-ending, for victory only delays doomsday another night.</p><p>Investigators track
+          supernatural threats ranging from incorporeal spirits, to nefarious vampires and
           lycanthropes, to incursions of demons and devils. Often in their investigations, they
           uncover secret cults and maligned individuals who bring these supernatural threats to
           bear. It is always their goal to impede these evildoers by any means necessary, resorting
@@ -75,21 +41,18 @@ pages:
           possible that you signed a contract with a minor fiend and turned to supernatural
           investigation in a last-ditch effort to save your soul.</p><h3>Quick Build</h3><p>Follow
           these suggestions to build an investigator quickly: Intelligence should be your highest
-          ability score, followed by Dexterity or Strength. Then, select the rituals
-          <em>@UUID[Compendium.mage-hand-press-core.items-and-spells.Item.Pj4xWqizCYVDK1fb]{clue}</em>,
-          <em>@UUID[Compendium.dnd5e.spells.4dSvfvTy2ZIJ3K4k]{comprehend languages}</em>,
-          <em>@UUID[Compendium.dnd5e.spells.ghXTfe7sgCbgf1Q8]{detect magic}</em>, and
-          <em>@UUID[Compendium.mage-hand-press-core.items-and-spells.Item.LnYZNKo6l3meaWLe]{transient
-          bulwark}</em> to add to your grimoire. Finally, pick any background, preferably one that
-          relates to your experience with supernatural monsters and the occult.</p>
+          ability score, followed by Dexterity or Strength. Then, select the rituals <em>clue</em>,
+          <em>comprehend languages</em>, <em>detect magic</em>, and <em>transient bulwark</em> to
+          add to your grimoire. Finally, pick any background, preferably one that relates to your
+          experience with supernatural monsters and the occult.</p>
       value: >-
-        <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpInvestigator0
-        caption=false nameStyle=h1 no-toc]</p><h2>Paranormal Investigators</h2><p>There are forces
-        more ancient than time, foes more sinister than the foulest men, and beings more titanic
-        than gods. The world stands on a precipice of woe and terror, being threatened nightly by
-        dark agents and hordes of monsters. At risk to their own lives and sanities, investigators
-        penetrate the evil that creeps in the shadows and banish it from the world. Their battles
-        are never-ending, for victory only delays doomsday another night.</p><p>Investigators track
+        <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpInvestigator0 caption=false
+        nameStyle=h1 no-toc]</p><h2>Paranormal Investigators</h2><p>There are forces more ancient
+        than time, foes more sinister than the foulest men, and beings more titanic than gods. The
+        world stands on a precipice of woe and terror, being threatened nightly by dark agents and
+        hordes of monsters. At risk to their own lives and sanities, investigators penetrate the
+        evil that creeps in the shadows and banish it from the world. Their battles are
+        never-ending, for victory only delays doomsday another night.</p><p>Investigators track
         supernatural threats ranging from incorporeal spirits, to nefarious vampires and
         lycanthropes, to incursions of demons and devils. Often in their investigations, they
         uncover secret cults and maligned individuals who bring these supernatural threats to bear.
@@ -144,11 +107,11 @@ pages:
       dnd5e:
         title: Class Features
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dnd5e
-      systemVersion: 6.0.1
+      systemVersion: 6.0.5
       createdTime: 1789160369347
-      modifiedTime: 1789162542539
+      modifiedTime: 1790398072734
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null
@@ -200,8 +163,8 @@ pages:
       item: Compendium.mage-hand-press-core.classes14.Item.mhpAntiquarian00
       description:
         value: >-
-          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpAntiquarian00
-          caption=false nameStyle=h2 no-toc]</p>
+          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpAntiquarian00 caption=false
+          nameStyle=h2 no-toc]</p>
       style: ''
     title:
       show: false
@@ -237,8 +200,8 @@ pages:
       item: Compendium.mage-hand-press-core.classes14.Item.mhpArchivist0000
       description:
         value: >-
-          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpArchivist0000
-          caption=false nameStyle=h2 no-toc]</p>
+          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpArchivist0000 caption=false
+          nameStyle=h2 no-toc]</p>
       style: ''
     title:
       show: false
@@ -274,8 +237,8 @@ pages:
       item: Compendium.mage-hand-press-core.classes14.Item.mhpDetective0000
       description:
         value: >-
-          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpDetective0000
-          caption=false nameStyle=h2 no-toc]</p>
+          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpDetective0000 caption=false
+          nameStyle=h2 no-toc]</p>
       style: ''
     title:
       show: false
@@ -311,8 +274,8 @@ pages:
       item: Compendium.mage-hand-press-core.classes14.Item.mhpExterminator0
       description:
         value: >-
-          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpExterminator0
-          caption=false nameStyle=h2 no-toc]</p>
+          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpExterminator0 caption=false
+          nameStyle=h2 no-toc]</p>
       style: ''
     title:
       show: false
@@ -348,8 +311,8 @@ pages:
       item: Compendium.mage-hand-press-core.classes14.Item.mhpInquisitor000
       description:
         value: >-
-          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpInquisitor000
-          caption=false nameStyle=h2 no-toc]</p>
+          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpInquisitor000 caption=false
+          nameStyle=h2 no-toc]</p>
       style: ''
     title:
       show: false
@@ -385,8 +348,8 @@ pages:
       item: Compendium.mage-hand-press-core.classes14.Item.mhpOccultist0000
       description:
         value: >-
-          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpOccultist0000
-          caption=false nameStyle=h2 no-toc]</p>
+          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpOccultist0000 caption=false
+          nameStyle=h2 no-toc]</p>
       style: ''
     title:
       show: false
@@ -422,8 +385,8 @@ pages:
       item: Compendium.mage-hand-press-core.classes14.Item.mhpOccultist0000
       description:
         value: >-
-          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpOccultist0000
-          caption=false nameStyle=h2 no-toc]</p>
+          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpOccultist0000 caption=false
+          nameStyle=h2 no-toc]</p>
       style: ''
     title:
       show: false
@@ -459,8 +422,8 @@ pages:
       item: Compendium.mage-hand-press-core.classes14.Item.mhpSpy0000000000
       description:
         value: >-
-          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpSpy0000000000
-          caption=false nameStyle=h2 no-toc]</p>
+          <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpSpy0000000000 caption=false
+          nameStyle=h2 no-toc]</p>
       style: ''
     title:
       show: false
@@ -490,7 +453,7 @@ pages:
     _key: '!journal.pages!mhpInvestigato5e.mhpSpy0000000000'
 flags:
   core:
-    sheetClass: mage-hand-press-valdas-spire-of-secrets.ValdasJournalEntrySheet
+    sheetClass: mage-hand-press-core.MageHandPressJournalEntrySheet
   dnd5e:
     type: chapter
     navigation:
@@ -507,7 +470,7 @@ _stats:
   systemVersion: 6.0.5
   coreVersion: '14.368'
   createdTime: 1777417736506
-  modifiedTime: 1790397468072
+  modifiedTime: 1790398451043
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

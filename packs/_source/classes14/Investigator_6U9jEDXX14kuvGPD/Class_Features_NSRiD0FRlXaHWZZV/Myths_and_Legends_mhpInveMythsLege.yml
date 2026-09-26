@@ -1,13 +1,13 @@
 folder: NSRiD0FRlXaHWZZV
-name: Exorcist
+name: Myths and Legends
 type: feat
-img: icons/magic/defensive/shield-barrier-flaming-diamond-blue-yellow.webp
+img: icons/sundries/books/book-open-brown.webp
 system:
   description:
     value: >-
-      <p>Beginning at 18th level, you can cast the
-      <em>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpProtectionfro]{protection from
-      evil and good}</em> spell without expending a spell slot or material components.</p>
+      <p>At 2nd level, you are extremely adept at uncovering knowledge that pertains to eldritch
+      threats and forgotten legends. You have advantage on Intelligence checks related to
+      researching creatures, spells, and other ancient or secret lore.</p>
     chat: ''
   source:
     custom: ''
@@ -27,27 +27,27 @@ system:
     subtype: ''
   requirements: Investigator
   properties: []
-  identifier: exorcist
+  identifier: myths-and-legends
   activities: {}
   advancement: {}
   enchant: {}
   prerequisites:
     items: []
     repeatable: false
-    level: 18
+    level: 2
 effects: []
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 5.3.2
-  coreVersion: '14.360'
-  createdTime: 1777321165174
-  modifiedTime: 1777330832649
+  systemVersion: 6.0.5
+  coreVersion: '14.368'
+  createdTime: 1790399704423
+  modifiedTime: 1790399704423
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
-_id: mhpExorcist00000
+_id: mhpInveMythsLege
 sort: 0
 ownership:
   default: 0
-_key: '!items!mhpExorcist00000'
+_key: '!items!mhpInveMythsLege'
