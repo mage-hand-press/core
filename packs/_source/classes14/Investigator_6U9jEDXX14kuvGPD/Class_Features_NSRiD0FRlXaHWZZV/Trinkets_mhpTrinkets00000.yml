@@ -1,0 +1,74 @@
+folder: NSRiD0FRlXaHWZZV
+name: Trinkets
+type: feat
+_id: mhpTrinkets00000
+img: icons/commodities/treasure/figurine-elk.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery:
+      - period: '@scale.trinkets.uses'
+        type: recoverAll
+    max: '@scale.trinkets.uses'
+  advancement:
+    qaW6EGgbWQtqWn9k:
+      _id: qaW6EGgbWQtqWn9k
+      type: ScaleValue
+      configuration:
+        identifier: uses
+        type: usage
+        distance:
+          units: ''
+        scale:
+          '3':
+            value: 1
+            period: sr
+          '5':
+            value: 2
+          '11':
+            value: 3
+          '17':
+            value: 4
+      value: {}
+      flags: {}
+      hint: ''
+      name: Trinkets
+  description:
+    value: >-
+      <p>Investigators also collect a number of supernatural trinkets. Once you use one of your
+      trinkets, you can’t use this feature again until you finish a short or long rest.</p><p>As you
+      gain higher levels in this class, you can use your trinkets additional times between rests:
+      You can use them once more at 5th level (2 uses), 11th level (3 uses), and 17th level (4
+      uses).</p>
+    chat: ''
+  identifier: trinkets
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: Investigator
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 1400000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: 1792099069121
+  modifiedTime: 1792100198733
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!mhpTrinkets00000'

@@ -6,12 +6,9 @@ system:
   description:
     value: >-
       <p>Beginning at 11th level, you know exactly how to bring a monster down. Once on each of your
-      turns when you take the Attack action and hit a creature with a weapon attack, you can deal an
-      extra 2d8 damage to the creature. If the creature has less than half its hit points remaining,
-      you can instead deal an extra 4d8 damage to the
-      creature.<br><br><strong>*</strong><em><strong>Foundry Note:</strong> The damage can be rolled
-      from this feature, the user can update the damage type on the Details tab &gt; Damage
-      Formula.</em></p>
+      turns when you take the &amp;Reference[Attack] action and hit a creature with a weapon attack,
+      you can deal an extra 2d8 damage to the creature. If the creature has less than half its hit
+      points remaining, you can instead deal an extra 4d8 damage to the creature.</p>
     chat: ''
   source:
     custom: ''
@@ -36,9 +33,9 @@ system:
       _id: dnd5eactivity000
       type: damage
       activation:
-        type: ''
+        type: special
         value: null
-        condition: ''
+        condition: when you take the Attack action and hit a creature with a weapon attack
         override: false
       consumption:
         targets: []
@@ -58,7 +55,7 @@ system:
         expiry: null
       effects: []
       range:
-        units: self
+        units: any
         special: ''
         override: false
       target:
@@ -72,8 +69,8 @@ system:
           units: ft
           stationary: false
         affects:
-          count: ''
-          type: ''
+          count: '1'
+          type: creature
           choice: false
           special: ''
         prompt: true
@@ -84,37 +81,51 @@ system:
         recovery: []
       damage:
         critical:
-          allow: false
+          allow: true
           bonus: ''
         parts:
-          - number: 2
-            denomination: 8
-            bonus: ''
-            types: []
-            custom:
+          - custom:
               enabled: false
               formula: ''
-            scaling:
-              mode: whole
-              number: null
-              formula: ''
+            number: 2
+            denomination: 8
+            bonus: ''
             modifiers: []
-      img: null
+            types:
+              - bludgeoning
+              - piercing
+              - slashing
+              - acid
+              - cold
+              - fire
+              - force
+              - lightning
+              - necrotic
+              - poison
+              - psychic
+              - radiant
+              - thunder
+            scaling:
+              number: 1
+      img: ''
       sort: 0
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
       behaviors: []
-    dnd5eactivity300:
-      _id: dnd5eactivity300
-      type: utility
+      name: Extra Damage
+    9vwmnwe7ELoD5bDA:
+      type: damage
       activation:
-        type: ''
+        type: special
         value: null
-        condition: ''
+        condition: when you take the Attack action and hit a creature with a weapon attack
         override: false
       consumption:
         targets: []
@@ -134,7 +145,7 @@ system:
         expiry: null
       effects: []
       range:
-        units: self
+        units: any
         special: ''
         override: false
       target:
@@ -148,30 +159,58 @@ system:
           units: ft
           stationary: false
         affects:
-          count: ''
-          type: ''
+          count: '1'
+          type: creature
           choice: false
-          special: ''
+          special: with less than half its hit points remaining
         prompt: true
         override: false
       uses:
         spent: 0
         max: ''
         recovery: []
-      roll:
-        formula: 4d8
-        name: ''
-        prompt: false
-        visible: false
-      img: null
-      sort: 0
+      damage:
+        critical:
+          allow: true
+          bonus: ''
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 8
+            bonus: ''
+            modifiers: []
+            types:
+              - bludgeoning
+              - piercing
+              - slashing
+              - acid
+              - cold
+              - fire
+              - force
+              - lightning
+              - necrotic
+              - poison
+              - psychic
+              - radiant
+              - thunder
+            scaling:
+              number: 1
+      img: ''
+      sort: 100000
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
       behaviors: []
+      name: Extra Damage (Half HP)
+      _id: 9vwmnwe7ELoD5bDA
   advancement: {}
   identifier: finisher
   enchant: {}
@@ -183,15 +222,15 @@ effects: []
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.5
-  coreVersion: '14.368'
+  systemVersion: 6.0.6
+  coreVersion: '14.369'
   createdTime: 1790399705129
-  modifiedTime: 1790399705129
+  modifiedTime: 1792100198733
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
 _id: mhpInveFinisher0
-sort: 0
+sort: 600000
 ownership:
   default: 0
 _key: '!items!mhpInveFinisher0'

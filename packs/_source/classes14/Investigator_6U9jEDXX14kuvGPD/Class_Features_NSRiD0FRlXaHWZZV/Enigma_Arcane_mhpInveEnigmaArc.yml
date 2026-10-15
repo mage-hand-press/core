@@ -7,15 +7,15 @@ system:
     value: >-
       <p>At 13th level, you uncover a magical secret connected to a wellspring of potent magic. You
       can cast one of the following spells once without expending a spell slot:
-      <em>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpMirageArcane0]{mirage
-      arcane}</em>, <em>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpPlaneShift000]{plane
-      shift}</em>,
-      <em>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpReverseGravit]{reverse
-      gravity}</em>,
-      <em>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpSequester0000]{sequester}</em>, or
-      <em>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpTeleport00000]{teleport}</em>.
-      Once you do so, you can’t cast any of these spells in this way again until you finish a long
-      rest.</p>
+      <em>@UUID[Compendium.dnd5e.spells.Item.f38w5rd9SgdmWc6F]{mirage arcane}</em>,
+      <em>@UUID[Compendium.dnd5e.spells.Item.J6Jpw5XzB5aTeqnz]{plane shift}</em>,
+      <em>@UUID[Compendium.dnd5e.spells.Item.ERCv7yuRkQ0YjGx6]{reverse gravity}</em>,
+      <em>@UUID[Compendium.dnd5e.spells.Item.wvLbtemkH8gyBpdc]{sequester}</em>, or
+      <em>@UUID[Compendium.dnd5e.spells.Item.L4J89JXqbKs6puEV]{teleport}</em>. Once you do so, you
+      can’t cast any of these spells in this way again until you finish a long
+      rest.</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpEnigmaArcane2
+      inline]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpEnigmaArcaneo
+      inline]</p>
     chat: ''
   source:
     custom: ''
@@ -36,79 +36,342 @@ system:
     value: class
     subtype: ''
   requirements: Investigator
-  properties: []
+  properties:
+    - mgc
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
-      type: utility
+    T6O5jM6bEo6DEePm:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.f38w5rd9SgdmWc6F
+        challenge:
+          override: false
+        properties: []
+        spellbook: false
+        ability: ''
+        level: 7
+      _id: T6O5jM6bEo6DEePm
+      img: ''
+      sort: 0
       activation:
-        type: special
-        value: null
-        condition: ''
+        type: action
         override: false
+      behaviors: []
       consumption:
-        targets:
-          - type: itemUses
-            target: ''
-            value: '1'
-            scaling:
-              mode: ''
-              formula: ''
         scaling:
           allowed: false
-          max: ''
         spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
       description:
+        value: ''
         chatFlavor: ''
-        value: ''
       duration:
-        concentration: false
-        value: ''
         units: inst
-        special: ''
-        override: false
         expiry: null
-      effects: []
+        concentration: false
+        override: false
+      flags: {}
       range:
         units: self
-        special: ''
         override: false
       target:
         template:
-          count: ''
           contiguous: false
-          type: ''
-          size: ''
-          width: ''
-          height: ''
-          units: ft
           stationary: false
+          units: ft
         affects:
-          count: ''
-          type: ''
           choice: false
-          special: ''
-        prompt: true
         override: false
+        prompt: true
       uses:
         spent: 0
-        max: ''
         recovery: []
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
-      img: null
-      sort: 0
-      flags: {}
+        max: ''
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
+      name: ''
+    nAQPkWDnAjq1FivH:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.J6Jpw5XzB5aTeqnz
+        challenge:
+          override: false
+        properties: []
+        spellbook: false
+        ability: ''
+        level: 7
+      _id: nAQPkWDnAjq1FivH
+      img: ''
+      sort: 100000
+      activation:
+        type: action
+        override: false
       behaviors: []
-  advancement: {}
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      name: ''
+    0CLvlZPN1PZaCIFa:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.ERCv7yuRkQ0YjGx6
+        challenge:
+          override: false
+        properties: []
+        spellbook: false
+        ability: ''
+        level: 7
+      _id: 0CLvlZPN1PZaCIFa
+      img: ''
+      sort: 200000
+      activation:
+        type: action
+        override: false
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      name: ''
+    oYjRARc9VCp7LoUp:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.wvLbtemkH8gyBpdc
+        challenge:
+          override: false
+        properties: []
+        spellbook: false
+        ability: ''
+        level: 7
+      _id: oYjRARc9VCp7LoUp
+      img: ''
+      sort: 300000
+      activation:
+        type: action
+        override: false
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      name: ''
+    9ZleOsamXVwuSduM:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.L4J89JXqbKs6puEV
+        challenge:
+          override: false
+        properties: []
+        spellbook: false
+        ability: ''
+        level: 7
+      _id: 9ZleOsamXVwuSduM
+      img: ''
+      sort: 400000
+      activation:
+        type: action
+        override: false
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      name: ''
+  advancement:
+    Sy6cw1ATVVdtcYvw:
+      name: ''
+      type: ItemGrant
+      _id: Sy6cw1ATVVdtcYvw
+      configuration:
+        items:
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpEnigmaArcane2
+            optional: false
+            sort: 0
+        optional: false
+        sorting: m
+        spell: null
+      flags: {}
+      value: {}
+      level: 15
+      hint: ''
+    R5uoZSx8ouyNsBPo:
+      name: ''
+      type: ItemGrant
+      _id: R5uoZSx8ouyNsBPo
+      configuration:
+        items:
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpEnigmaArcaneo
+            optional: false
+            sort: 0
+        optional: false
+        sorting: m
+        spell: null
+      flags: {}
+      value: {}
+      level: 17
+      hint: ''
   identifier: enigma-arcane
   enchant: {}
   prerequisites:
@@ -119,15 +382,15 @@ effects: []
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.5
-  coreVersion: '14.368'
+  systemVersion: 6.0.6
+  coreVersion: '14.369'
   createdTime: 1790399705244
-  modifiedTime: 1790399705244
+  modifiedTime: 1792100198732
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
 _id: mhpInveEnigmaArc
-sort: 0
+sort: 100000
 ownership:
   default: 0
 _key: '!items!mhpInveEnigmaArc'

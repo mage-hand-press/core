@@ -1,13 +1,13 @@
 folder: NSRiD0FRlXaHWZZV
 name: Exorcist
 type: feat
-img: icons/magic/defensive/shield-barrier-flaming-diamond-blue-yellow.webp
+img: icons/magic/light/orb-container-orange.webp
 system:
   description:
     value: >-
       <p>Beginning at 18th level, you can cast the
-      <em>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpProtectionfro]{protection from
-      evil and good}</em> spell without expending a spell slot or material components.</p>
+      <em>@UUID[Compendium.dnd5e.spells.Item.xmDBqZhRVrtLP8h2]{protection from evil and good}</em>
+      spell without expending a spell slot or material components.</p>
     chat: ''
   source:
     custom: ''
@@ -26,9 +26,67 @@ system:
     value: class
     subtype: ''
   requirements: Investigator
-  properties: []
+  properties:
+    - mgc
   identifier: exorcist
-  activities: {}
+  activities:
+    uAse4cvQooLrlFsV:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.xmDBqZhRVrtLP8h2
+        challenge:
+          override: false
+        properties:
+          - material
+        spellbook: true
+        ability: ''
+        level: 1
+      _id: uAse4cvQooLrlFsV
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        override: false
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      name: ''
   advancement: {}
   enchant: {}
   prerequisites:
@@ -39,15 +97,15 @@ effects: []
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.5
-  coreVersion: '14.368'
+  systemVersion: 6.0.6
+  coreVersion: '14.369'
   createdTime: 1790399705358
-  modifiedTime: 1790399705358
+  modifiedTime: 1792100237198
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
 _id: mhpInveExorcist0
-sort: 0
+sort: 300000
 ownership:
   default: 0
 _key: '!items!mhpInveExorcist0'

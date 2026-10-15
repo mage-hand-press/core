@@ -52,9 +52,7 @@
 		}
 	}
 
-	.notable {
-		display: flow-root;
-	}
+	.notable { display: flow-root; }
 
 	.item-entry-details {
 		.item-entry-tag {
@@ -161,6 +159,10 @@
 		&.small-navigation .navigation-entry { flex: 0 0 75px; }
 		&.tiny-navigation .navigation-entry { flex: 0 0 60px; }
 	}
+}
+
+:is(.dnd5e, .dnd5e2, .dnd5e2-journal) {
+	.centered { text-align: center; }
 }
 
 .table-of-contents:is([data-compendium-id^="mage-hand-press-core"],

@@ -1,7 +1,7 @@
 folder: NSRiD0FRlXaHWZZV
 name: Rushed Incantation
 type: feat
-img: icons/magic/control/debuff-energy-hold-levitate-teal-blue.webp
+img: icons/sundries/books/book-worn-brown-grey.webp
 system:
   description:
     value: >-
@@ -34,90 +34,70 @@ system:
     value: class
     subtype: ''
   requirements: Investigator
-  properties: []
+  properties:
+    - mgc
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
-      type: damage
+    hMuvBvSGWmeAxAyH:
+      type: utility
+      name: Cast
+      _id: hMuvBvSGWmeAxAyH
+      img: systems/dnd5e/icons/svg/action/magic.svg
+      sort: 0
       activation:
         type: bonus
-        value: 1
-        condition: ''
         override: false
+        condition: ''
+      behaviors: []
       consumption:
-        targets:
-          - type: itemUses
-            target: ''
-            value: '1'
-            scaling:
-              mode: ''
-              formula: ''
         scaling:
           allowed: false
-          max: ''
         spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
       description:
+        value: ''
         chatFlavor: ''
-        value: ''
       duration:
-        concentration: false
-        value: ''
         units: inst
-        special: ''
-        override: false
         expiry: null
+        concentration: false
+        override: false
       effects: []
+      flags: {}
       range:
         units: self
-        special: ''
         override: false
+        special: ''
       target:
         template:
-          count: ''
           contiguous: false
-          type: ''
-          size: ''
-          width: ''
-          height: ''
-          units: ft
           stationary: false
-        affects:
-          count: ''
+          units: ft
           type: ''
+        affects:
           choice: false
-          special: ''
-        prompt: true
+          type: ''
         override: false
+        prompt: true
       uses:
         spent: 0
-        max: ''
         recovery: []
-      damage:
-        critical:
-          allow: false
-          bonus: ''
-        parts:
-          - number: null
-            denomination: null
-            bonus: ''
-            types: []
-            custom:
-              enabled: true
-              formula: '@scale.investigator.rushed-incantation + @abilities.int.mod'
-            scaling:
-              mode: whole
-              number: null
-              formula: ''
-            modifiers: []
-      img: null
-      sort: 0
-      flags: {}
+        max: ''
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
-        requireMagic: false
-      behaviors: []
+        requireMagic: true
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
   advancement:
     PiypcOFtoGuKqx4h:
       _id: PiypcOFtoGuKqx4h
@@ -152,15 +132,15 @@ effects: []
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.5
-  coreVersion: '14.368'
+  systemVersion: 6.0.6
+  coreVersion: '14.369'
   createdTime: 1790399704575
-  modifiedTime: 1790399704576
+  modifiedTime: 1792100198733
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
 _id: mhpInveRushedInc
-sort: 0
+sort: 1100000
 ownership:
   default: 0
 _key: '!items!mhpInveRushedInc'

@@ -9,18 +9,12 @@ system:
       person, even if you aren’t particularly pious. When you use your Opportunistic Piety, you
       choose which effect to create from the list below. You must then finish a short or long rest
       to use your Opportunistic Piety
-      again.</p><p><em><strong>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpBanish0000000]{Banish}.</strong></em>
-      You cast the <em>@UUID[Compendium.dnd5e.spells.pxpb2eOB6bv4phAf]{banishment}</em> spell
-      without expending a spell slot. If the target is a Fey, Fiend, or Undead and fails its saving
-      throw against this spell, it also takes radiant damage equal to your
-      level.</p><p><em><strong>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpMiracleHealin]{Miracle
-      Healing}.</strong></em> As an action, divine light from your hands knit the wounds of a
-      willing creature you touch. That creature regains a number of hit points equal to twice your
-      investigator level. This ability has no effect on Undead or
-      Constructs.</p><p><em><strong>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpWardingorOppo]{Warding}.</strong></em>
-      As an action, you trace a holy symbol on a creature within 5 feet of you, warding it against
-      harm. For the next minute, Aberrations, Celestials, Elementals, Fey, Fiends, and Undead that
-      touch the warded creature or hit it with a melee attack take 1d12 radiant damage.</p>
+      again.</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpInveOpportPie.Activity.RlZoWWJE7HDnhiOC
+      caption=false cite=false
+      nameStyle=inline]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpInveOpportPie.Activity.1QO8NNIAw7JG8e3R
+      caption=false cite=false
+      nameStyle=inline]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpInveOpportPie.Activity.MCkt0SfiDS508HOH
+      caption=false cite=false nameStyle=inline]</p>
     chat: ''
   source:
     custom: ''
@@ -41,31 +35,95 @@ system:
     value: class
     subtype: ''
   requirements: Investigator
-  properties: []
+  properties:
+    - mgc
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
-      type: utility
+    RlZoWWJE7HDnhiOC:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.pxpb2eOB6bv4phAf
+        challenge:
+          override: false
+        properties: []
+        spellbook: false
+        ability: ''
+        level: 4
+      _id: RlZoWWJE7HDnhiOC
+      img: ''
+      sort: 100000
       activation:
-        type: special
-        value: null
+        type: action
+        override: false
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        value: >-
+          <p>You cast the <em>@UUID[Compendium.dnd5e.spells.pxpb2eOB6bv4phAf]{banishment}</em> spell
+          without expending a spell slot. If the target is a Fey, Fiend, or Undead and fails its
+          saving throw against this spell, it also takes radiant damage equal to your level.</p>
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      name: Banish
+    1QO8NNIAw7JG8e3R:
+      type: heal
+      activation:
+        type: action
+        value: 1
         condition: ''
         override: false
       consumption:
         targets:
           - type: itemUses
-            target: ''
             value: '1'
-            scaling:
-              mode: ''
-              formula: ''
+            target: ''
+            scaling: {}
         scaling:
           allowed: false
           max: ''
         spellSlot: true
       description:
         chatFlavor: ''
-        value: ''
+        value: >-
+          <p>As an action, divine light from your hands knit the wounds of a willing creature you
+          touch. That creature regains a number of hit points equal to twice your investigator
+          level. This ability has no effect on Undead or Constructs.</p>
       duration:
         concentration: false
         value: ''
@@ -75,7 +133,7 @@ system:
         expiry: null
       effects: []
       range:
-        units: self
+        units: touch
         special: ''
         override: false
       target:
@@ -89,8 +147,8 @@ system:
           units: ft
           stationary: false
         affects:
-          count: ''
-          type: ''
+          count: '1'
+          type: creature
           choice: false
           special: ''
         prompt: true
@@ -99,20 +157,125 @@ system:
         spent: 0
         max: ''
         recovery: []
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
-      img: null
-      sort: 0
+      healing:
+        number: null
+        denomination: null
+        bonus: ''
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: 2 * @classes.investigator.levels
+        scaling:
+          mode: whole
+          number: null
+          formula: ''
+        modifiers: []
+      img: ''
+      sort: 200000
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
       behaviors: []
+      _id: 1QO8NNIAw7JG8e3R
+      name: Miracle Healing
+    MCkt0SfiDS508HOH:
+      type: damage
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+        value: >-
+          <p>As an action, you trace a holy symbol on a creature within 5 feet of you, warding it
+          against harm. For the next minute, Aberrations, Celestials, Elementals, Fey, Fiends, and
+          Undead that touch the warded creature or hit it with a melee attack take 1d12 radiant
+          damage.</p>
+      duration:
+        concentration: false
+        value: '1'
+        units: minute
+        special: ''
+        override: false
+        expiry: null
+      effects:
+        - _id: UMBQziYSP8sVDigN
+          uuid: null
+          level: {}
+      range:
+        value: '5'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 12
+            bonus: ''
+            modifiers: []
+            types:
+              - radiant
+            scaling:
+              number: 1
+      img: ''
+      sort: 300000
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      behaviors: []
+      _id: MCkt0SfiDS508HOH
+      name: Warding
   advancement: {}
   identifier: opportunistic-piety
   enchant: {}
@@ -120,19 +283,64 @@ system:
     items: []
     repeatable: false
     level: 7
-effects: []
+effects:
+  - name: Warded
+    img: icons/magic/holy/prayer-hands-glowing-yellow-green.webp
+    system:
+      origin:
+        item: Compendium.mage-hand-press-core.classes14.Item.mhpInveOpportPie
+        actor: null
+        behavior: null
+        effect: null
+        message: null
+      changes: []
+      conditions: '{}'
+      magical: false
+      rider:
+        statuses: []
+    transfer: false
+    _id: UMBQziYSP8sVDigN
+    type: base
+    disabled: false
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: >-
+      <p>Aberrations, Celestials, Elementals, Fey, Fiends, and Undead that touch you or hit you with
+      a melee attack take 1d12 radiant damage.</p>
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.369'
+      systemId: dnd5e
+      systemVersion: 6.0.6
+      createdTime: 1792099412835
+      modifiedTime: 1792099441307
+      lastModifiedBy: magehandpress000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!mhpInveOpportPie.UMBQziYSP8sVDigN'
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.5
-  coreVersion: '14.368'
+  systemVersion: 6.0.6
+  coreVersion: '14.369'
   createdTime: 1790399704899
-  modifiedTime: 1790399704900
+  modifiedTime: 1792100198733
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
 _id: mhpInveOpportPie
-sort: 0
+sort: 900000
 ownership:
   default: 0
 _key: '!items!mhpInveOpportPie'

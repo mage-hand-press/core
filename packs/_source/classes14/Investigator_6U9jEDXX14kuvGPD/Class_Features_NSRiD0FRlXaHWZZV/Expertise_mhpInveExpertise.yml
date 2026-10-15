@@ -27,7 +27,37 @@ system:
   properties: []
   identifier: expertise
   activities: {}
-  advancement: {}
+  advancement:
+    JeGH3i2a3BqEU0dT:
+      name: Expertise
+      type: Trait
+      _id: JeGH3i2a3BqEU0dT
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 2
+            pool:
+              - skills:*
+        grants: []
+        mode: expertise
+      flags: {}
+      level: 1
+      hint: ''
+    CN97zFw3v77uyHaC:
+      name: Expertise
+      type: Trait
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 2
+            pool:
+              - skills:*
+        grants: []
+        mode: expertise
+      flags: {}
+      level: 6
+      hint: ''
+      _id: CN97zFw3v77uyHaC
   enchant: {}
   prerequisites:
     items: []
@@ -39,15 +69,15 @@ effects: []
 folder: NSRiD0FRlXaHWZZV
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.5
-  coreVersion: '14.368'
+  systemVersion: 6.0.6
+  coreVersion: '14.369'
   createdTime: 1790399704199
-  modifiedTime: 1790399704199
+  modifiedTime: 1792100198733
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
 _id: mhpInveExpertise
-sort: 0
+sort: 400000
 ownership:
   default: 0
 _key: '!items!mhpInveExpertise'

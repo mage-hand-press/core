@@ -149,12 +149,12 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpInveExpertise
-            optional: false
+          - optional: false
+            sort: -100000
+            uuid: Compendium.mage-hand-press-core.classes14.Item.mhpInveExpertise
+          - optional: false
             sort: 0
-          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpInveRitualist
-            optional: false
-            sort: 0
+            uuid: Compendium.mage-hand-press-core.classes14.Item.mhpInveRitualist
         optional: false
         spell:
           ability: []
@@ -174,12 +174,12 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpInveMythsLege
-            optional: false
+          - optional: false
             sort: 0
-          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpInveRushedInc
-            optional: false
-            sort: 0
+            uuid: Compendium.mage-hand-press-core.classes14.Item.mhpInveMythsLege
+          - optional: false
+            sort: 100000
+            uuid: Compendium.mage-hand-press-core.classes14.Item.mhpInveRushedInc
         optional: false
         spell:
           ability: []
@@ -200,8 +200,11 @@ system:
       configuration:
         items:
           - optional: false
-            sort: 0
+            sort: -100000
             uuid: Compendium.mage-hand-press-core.classes14.Item.mhpInveOccultSpe
+          - optional: false
+            sort: 0
+            uuid: Compendium.mage-hand-press-core.classes14.Item.mhpTrinkets00000
         optional: false
         spell:
           ability: []
@@ -376,29 +379,6 @@ system:
       flags: {}
       hint: ''
       name: Class Features
-    CHFiWhaQRJvWodja:
-      _id: CHFiWhaQRJvWodja
-      type: ItemGrant
-      configuration:
-        items:
-          - uuid: >-
-              Compendium.mage-hand-press-valdas-spire-of-secrets.valdas-classes.Item.7RzNyYeqe4aOHUac
-            optional: false
-            sort: 0
-        optional: false
-        spell:
-          ability: []
-          uses:
-            max: ''
-            per: ''
-            requireSlot: false
-          prepared: 0
-        sorting: m
-      value: {}
-      level: 4
-      flags: {}
-      hint: ''
-      name: Class Features
     xA15Ih7Mnq1CGgDQ:
       type: Trait
       level: 1
@@ -464,7 +444,7 @@ system:
       value: {}
       flags: {}
       hint: ''
-      name: Armor
+      name: ''
       img: null
     7KSuNqmauDPrI0NL:
       _id: 7KSuNqmauDPrI0NL
@@ -485,7 +465,7 @@ system:
       value: {}
       flags: {}
       hint: ''
-      name: Weapons
+      name: ''
       img: null
     gJzJ6ryBfxB8BeSo:
       _id: gJzJ6ryBfxB8BeSo
@@ -503,7 +483,7 @@ system:
       value: {}
       flags: {}
       hint: ''
-      name: Tools
+      name: ''
       img: null
     HRLSo2dpRq4n3kIv:
       _id: HRLSo2dpRq4n3kIv
@@ -534,7 +514,7 @@ system:
       flags: {}
       value: {}
       hint: ''
-      name: Multiclass Proficiencies
+      name: ''
       img: null
     HcW52ZvZB2g6NE8I:
       name: Occult Specialization
@@ -736,10 +716,10 @@ effects: []
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.5
-  coreVersion: '14.368'
+  systemVersion: 6.0.6
+  coreVersion: '14.369'
   createdTime: 1790399704126
-  modifiedTime: 1790399705544
+  modifiedTime: 1792099183892
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

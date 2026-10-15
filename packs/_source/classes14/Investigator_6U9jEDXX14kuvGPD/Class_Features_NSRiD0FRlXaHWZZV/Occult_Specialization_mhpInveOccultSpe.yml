@@ -6,25 +6,9 @@ system:
   description:
     value: >-
       <p>At 3rd level, you choose a specialization, an area of expertise in handling eldritch
-      threats. Specializations are detailed at the end of the class description. Your specialization
-      choice grants you features at 3rd level and again at 6th, 10th, and 14th
-      level.</p><p></p><table><thead><tr><td colspan="2">Occult
-      Specializations</td></tr><tr><td>Name</td><td>Description</td></tr></thead><tbody><tr><td>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpAntiquarian00]{Antiquarian}</td><td>Festooned
-      with powerful magical trinkets of all shapes and
-      sizes</td></tr><tr><td>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpArchivist0000]{Archivist}</td><td>A
-      scholar who collects scraps of ancient
-      lore</td></tr><tr><td>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpDetective0000]{Detective}</td><td>Chases
-      down clues and unravels crimes with their impressive
-      intellect</td></tr><tr><td>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpExterminator0]{Exterminator}</td><td>Hunts
-      down vampires, lycanthropes, and beasts that stalk the
-      night</td></tr><tr><td>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpInquisitor000]{Inquisitor}</td><td>An
-      agent of the church that performs exorcisms and roots out
-      heresy</td></tr><tr><td>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpMedium0000000]{Medium}</td><td>Foretells
-      events of the future using a magical connection to the
-      dead</td></tr><tr><td>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpOccultist0000]{Occultist}</td><td>A
-      magician borrowing spells from wizards and
-      warlocks</td></tr><tr><td>@UUID[Compendium.mage-hand-press-core.classes14.Item.mhpSpy0000000000]{Spy}</td><td>Infiltrates
-      with perfect disguises and unmatched charm</td></tr></tbody></table>
+      threats. Your specialization choices are detailed at the end of the class description. Your
+      specialization choice grants you features at 3rd level and again at 6th, 10th, and 14th
+      level.</p>
     chat: ''
   source:
     custom: ''
@@ -46,29 +30,7 @@ system:
   properties: []
   identifier: occult-specialization
   activities: {}
-  advancement:
-    qaW6EGgbWQtqWn9k:
-      _id: qaW6EGgbWQtqWn9k
-      type: ScaleValue
-      configuration:
-        identifier: trinkets
-        type: usage
-        distance:
-          units: ''
-        scale:
-          '3':
-            value: 1
-            period: sr
-          '5':
-            value: 2
-          '11':
-            value: 3
-          '17':
-            value: 4
-      value: {}
-      flags: {}
-      hint: ''
-      name: Trinkets
+  advancement: {}
   enchant: {}
   prerequisites:
     items: []
@@ -78,15 +40,15 @@ effects: []
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.5
-  coreVersion: '14.368'
+  systemVersion: 6.0.6
+  coreVersion: '14.369'
   createdTime: 1790399704694
-  modifiedTime: 1790399704694
+  modifiedTime: 1792100198733
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
 _id: mhpInveOccultSpe
-sort: 0
+sort: 800000
 ownership:
   default: 0
 _key: '!items!mhpInveOccultSpe'

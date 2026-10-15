@@ -48,14 +48,16 @@ effects:
     transfer: true
     flags: {}
     name: Supernatural Resolve
-    description: ''
+    description: >-
+      <p>You can’t be possessed or charmed, and you have resistance to necrotic and psychic
+      damage.</p>
     statuses: []
     _stats:
-      coreVersion: '14.368'
+      coreVersion: '14.369'
       systemId: dnd5e
       systemVersion: 6.0.5
       createdTime: 1790399705016
-      modifiedTime: 1790399705016
+      modifiedTime: 1792099511887
       lastModifiedBy: magehandpress000
       compendiumSource: null
       duplicateSource: null
@@ -107,14 +109,14 @@ flags: {}
 _stats:
   systemId: dnd5e
   systemVersion: 6.0.5
-  coreVersion: '14.368'
+  coreVersion: '14.369'
   createdTime: 1790399705016
-  modifiedTime: 1790399705016
+  modifiedTime: 1792100198733
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
 _id: mhpInveSupernRes
-sort: 0
+sort: 1300000
 ownership:
   default: 0
 _key: '!items!mhpInveSupernRes'
