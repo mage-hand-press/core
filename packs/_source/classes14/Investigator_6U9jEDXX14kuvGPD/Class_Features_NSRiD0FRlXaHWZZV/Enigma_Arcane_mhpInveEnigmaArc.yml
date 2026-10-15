@@ -13,8 +13,8 @@ system:
       <em>@UUID[Compendium.dnd5e.spells.Item.wvLbtemkH8gyBpdc]{sequester}</em>, or
       <em>@UUID[Compendium.dnd5e.spells.Item.L4J89JXqbKs6puEV]{teleport}</em>. Once you do so, you
       can’t cast any of these spells in this way again until you finish a long
-      rest.</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpEnigmaArcane2
-      inline]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpEnigmaArcaneo
+      rest.</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpInveEnigArc15
+      inline]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpInveEnigArc17
       inline]</p>
     chat: ''
   source:
@@ -346,7 +346,7 @@ system:
       _id: Sy6cw1ATVVdtcYvw
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpEnigmaArcane2
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpInveEnigArc15
             optional: false
             sort: 0
         optional: false
@@ -362,7 +362,7 @@ system:
       _id: R5uoZSx8ouyNsBPo
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpEnigmaArcaneo
+          - uuid: Compendium.mage-hand-press-core.classes14.Item.mhpInveEnigArc17
             optional: false
             sort: 0
         optional: false

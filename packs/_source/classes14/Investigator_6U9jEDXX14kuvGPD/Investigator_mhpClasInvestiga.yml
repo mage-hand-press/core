@@ -202,9 +202,6 @@ system:
           - optional: false
             sort: -100000
             uuid: Compendium.mage-hand-press-core.classes14.Item.mhpInveOccultSpe
-          - optional: false
-            sort: 0
-            uuid: Compendium.mage-hand-press-core.classes14.Item.mhpTrinkets00000
         optional: false
         spell:
           ability: []
@@ -719,7 +716,7 @@ _stats:
   systemVersion: 6.0.6
   coreVersion: '14.369'
   createdTime: 1790399704126
-  modifiedTime: 1792099183892
+  modifiedTime: 1792100512973
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

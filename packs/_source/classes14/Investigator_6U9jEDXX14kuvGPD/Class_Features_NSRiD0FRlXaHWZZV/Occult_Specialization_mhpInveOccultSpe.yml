@@ -8,7 +8,11 @@ system:
       <p>At 3rd level, you choose a specialization, an area of expertise in handling eldritch
       threats. Your specialization choices are detailed at the end of the class description. Your
       specialization choice grants you features at 3rd level and again at 6th, 10th, and 14th
-      level.</p>
+      level.</p><h5>Trinkets</h5><p>Investigators also collect a number of supernatural trinkets.
+      You must be holding a trinket to activate it. Once you use one of your trinkets, you can’t use
+      any of them again until you finish a short or long rest.</p><p>As you gain higher levels in
+      this class, you can use your trinkets additional times between rests: You can use them once
+      more at 5th level (2 uses), 11th level (3 uses), and 17th level (4 uses).</p>
     chat: ''
   source:
     custom: ''
@@ -43,7 +47,7 @@ _stats:
   systemVersion: 6.0.6
   coreVersion: '14.369'
   createdTime: 1790399704694
-  modifiedTime: 1792100198733
+  modifiedTime: 1792100564695
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

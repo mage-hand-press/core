@@ -1,15 +1,14 @@
 folder: NSRiD0FRlXaHWZZV
-name: Enigma Arcane (15th Level)
+name: Enigma Arcane (17th Level)
 type: feat
-img: icons/magic/symbols/runes-star-orange.webp
+img: icons/magic/symbols/runes-star-pentagon-orange.webp
 system:
   description:
     value: >-
-      <p>At 15th level, you can also cast one of the following spells once without expending a spell
-      slot: <em>@UUID[Compendium.dnd5e.spells.Item.Eon0jzGzQRNluTPQ]{antimagic field}</em>,
-      <em>@UUID[Compendium.dnd5e.spells.Item.1RzxKZzkQOoioxPj]{glibness}</em>,
-      <em>@UUID[Compendium.dnd5e.spells.Item.clwv2PWOcT822hlr]{maze}</em>, or
-      <em>@UUID[Compendium.dnd5e.spells.Item.bllEWfm9xfEKynhv]{mind blank}</em>. Once you do so, you
+      <p>At 17th level, you can also cast one of the following spells once without expending a spell
+      slot: <em>@UUID[Compendium.dnd5e.spells.Item.TIoadMIsUKD4edXi]{astral projection}</em>,
+      <em>@UUID[Compendium.dnd5e.spells.Item.XbwGq5kDJNvAxNXV]{gate}</em>, or
+      <em>@UUID[Compendium.dnd5e.spells.Item.Wl2vtJ4hCt2tpWfR]{weird}</em>. Once you do so, you
       can’t cast any of these spells in this way again until you finish a long rest.</p>
     chat: ''
   source:
@@ -34,17 +33,87 @@ system:
   properties:
     - mgc
   activities:
-    r8ClfifS8QPamZSb:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: special
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+        expiry: null
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      img: null
+      sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    IWYzu8kCPOWqDL4i:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.Eon0jzGzQRNluTPQ
+        uuid: Compendium.dnd5e.spells.Item.TIoadMIsUKD4edXi
         challenge:
           override: false
         properties: []
         spellbook: false
         ability: ''
-        level: 8
-      _id: r8ClfifS8QPamZSb
+        level: 9
+      _id: IWYzu8kCPOWqDL4i
       img: ''
       sort: 100000
       activation:
@@ -94,17 +163,17 @@ system:
         requireMagic: false
         identifier: ''
       name: ''
-    U9vtJNldEoFiEGTM:
+    tJbBUDGqAZxFoVyX:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.1RzxKZzkQOoioxPj
+        uuid: Compendium.dnd5e.spells.Item.XbwGq5kDJNvAxNXV
         challenge:
           override: false
         properties: []
         spellbook: false
         ability: ''
-        level: 8
-      _id: U9vtJNldEoFiEGTM
+        level: 9
+      _id: tJbBUDGqAZxFoVyX
       img: ''
       sort: 200000
       activation:
@@ -154,17 +223,17 @@ system:
         requireMagic: false
         identifier: ''
       name: ''
-    0gJVYgyibEINObLZ:
+    xoSugQnw7DzNDwl0:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.clwv2PWOcT822hlr
+        uuid: Compendium.dnd5e.spells.Item.Wl2vtJ4hCt2tpWfR
         challenge:
           override: false
         properties: []
         spellbook: false
         ability: ''
-        level: 8
-      _id: 0gJVYgyibEINObLZ
+        level: 9
+      _id: xoSugQnw7DzNDwl0
       img: ''
       sort: 300000
       activation:
@@ -214,86 +283,26 @@ system:
         requireMagic: false
         identifier: ''
       name: ''
-    xG0FfoaGbeTwBDeQ:
-      type: cast
-      spell:
-        uuid: Compendium.dnd5e.spells.Item.bllEWfm9xfEKynhv
-        challenge:
-          override: false
-        properties: []
-        spellbook: false
-        ability: ''
-        level: 8
-      _id: xG0FfoaGbeTwBDeQ
-      img: ''
-      sort: 400000
-      activation:
-        type: action
-        override: false
-      behaviors: []
-      consumption:
-        scaling:
-          allowed: false
-        spellSlot: true
-        targets:
-          - type: itemUses
-            value: '1'
-            target: ''
-            scaling: {}
-      description:
-        value: ''
-        chatFlavor: ''
-      duration:
-        units: inst
-        expiry: null
-        concentration: false
-        override: false
-      flags: {}
-      range:
-        units: self
-        override: false
-      target:
-        template:
-          contiguous: false
-          stationary: false
-          units: ft
-        affects:
-          choice: false
-        override: false
-        prompt: true
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      visibility:
-        level:
-          min: null
-          max: null
-        requireAttunement: false
-        requireIdentification: false
-        requireMagic: false
-        identifier: ''
-      name: ''
   advancement: {}
-  identifier: enigma-arcane-level-15
+  identifier: enigma-arcane-level-17
   enchant: {}
   prerequisites:
     items: []
     repeatable: false
-    level: 15
+    level: 17
 effects: []
 flags: {}
 _stats:
   systemId: dnd5e
   systemVersion: 6.0.6
   coreVersion: '14.369'
-  createdTime: 1788545788971
-  modifiedTime: 1792100198733
+  createdTime: 1788545789028
+  modifiedTime: 1792100199423
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
-_id: mhpEnigmaArcane2
-sort: 200000
+_id: mhpInveEnigArc17
+sort: 250000
 ownership:
   default: 0
-_key: '!items!mhpEnigmaArcane2'
+_key: '!items!mhpInveEnigArc17'
