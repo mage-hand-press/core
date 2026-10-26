@@ -14,10 +14,11 @@ system:
       ability for your warmage spells, since you learn your spells through practice and mental
       discipline. You use your Intelligence whenever a spell refers to your spellcasting ability. In
       addition, you use your Intelligence modifier when setting the saving throw DC for a warmage
-      spell you cast and when making an attack roll with one.</p><p><strong>Spell save DC</strong> =
-      8 + your proficiency bonus + your Intelligence modifier</p><p><strong>Spell attack
-      modifier</strong> = your proficiency bonus + your Intelligence modifier</p><h5>Spellcasting
-      Focus</h5><p>You can use an arcane focus as a spellcasting focus for your warmage spells.</p>
+      spell you cast and when making an attack roll with one.</p><div
+      class="centered"><p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your
+      Intelligence modifier</p><p><strong>Spell attack modifier</strong> = your proficiency bonus +
+      your Intelligence modifier</p></div><h5>Spellcasting Focus</h5><p>You can use an arcane focus
+      as a spellcasting focus for your warmage spells.</p>
     chat: ''
   source:
     custom: ''
@@ -50,11 +51,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.368'
+  coreVersion: '14.369'
   systemId: dnd5e
-  systemVersion: 6.0.2
+  systemVersion: 6.0.6
   createdTime: 1789423232757
-  modifiedTime: 1789589201031
+  modifiedTime: 1793051283244
   lastModifiedBy: magehandpress000
 _id: mhpWarmSpellcast
 sort: 100000
