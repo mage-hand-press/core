@@ -224,6 +224,43 @@ pages:
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpChangelog0000.KWhJkojj70W12FnF'
+  - sort: -300000
+    name: Version 2.1.0
+    type: text
+    _id: zX4XBDlX83FMxthb
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h3 data-no-toc>Version 2.1.0</h3><ul><li><p>[<a
+        href="https://github.com/mage-hand-press/premium-content/issues/58" title="Implement
+        Alchemist base class">#58</a>] Implemented 5e version of Alchemist base
+        class</p></li><li><p>[<a href="https://github.com/mage-hand-press/premium-content/issues/61"
+        title="Implement Investigator base class">#61</a>] Implemented 5e version of Investigator
+        base class</p></li><li><p>Added support for automatic compendium source filtering based on
+        selected rules version</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.369'
+      systemId: dnd5e
+      systemVersion: 6.0.6
+      createdTime: 1793051688884
+      modifiedTime: 1793051959442
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpChangelog0000.zX4XBDlX83FMxthb'
 folder: null
 categories: []
 sort: 0
