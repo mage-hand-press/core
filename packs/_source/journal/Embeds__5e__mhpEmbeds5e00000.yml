@@ -1260,7 +1260,7 @@ pages:
       exportSource: null
     _key: '!journal.pages!mhpEmbeds5e00000.mhpBombFormulae0'
   - sort: 5500000
-    name: Missed Bomb
+    name: Missed Bombs
     type: text
     category: MXEwg4kpNJw5Vyrp
     _id: mhpMissedBomb000
@@ -1272,7 +1272,7 @@ pages:
     text:
       format: 1
       content: >-
-        <aside class="notable"><h4>Missed Bomb</h4><p>As bombs are explosive projectiles, it makes
+        <aside class="notable"><h4>Missed Bombs</h4><p>As bombs are explosive projectiles, it makes
         sense to ask what happens if a thrown bomb fails to hit its target. For simplicity, we
         assume that missed bombs explode harmlessly in the background or fail to detonate
         altogether, but do not explode in the target’s space and deal damage with its blast radius.
@@ -1286,11 +1286,11 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.369'
       systemId: dnd5e
       systemVersion: 6.0.3
       createdTime: 1789843981517
-      modifiedTime: 1790023984204
+      modifiedTime: 1793053447664
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null
@@ -2359,11 +2359,11 @@ ownership:
   default: 0
 flags: {}
 _stats:
-  coreVersion: '14.367'
+  coreVersion: '14.369'
   systemId: dnd5e
-  systemVersion: 6.0.3
+  systemVersion: 6.0.6
   createdTime: 1782430563289
-  modifiedTime: 1790028984887
+  modifiedTime: 1793051015377
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

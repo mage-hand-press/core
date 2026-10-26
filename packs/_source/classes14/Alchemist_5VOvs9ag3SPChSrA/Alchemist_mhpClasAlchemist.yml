@@ -14,7 +14,9 @@ system:
       liquids and herbs in a small bowl. She applies the mixture to an arrow wound on an injured
       dwarf’s side, which immediately stops bleeding.</p><p>Whether their methods are explosive,
       transformative, or restorative, alchemists live to transmute the world around them to their
-      liking.</p>
+      liking.</p><p
+      class="hide-in-embed">@UUID[Compendium.mage-hand-press-core.journal.JournalEntry.mhpAlchemist5e00.JournalEntryPage.mhpAlchemist0000]{Continue
+      reading…}</p>
     chat: ''
   source:
     custom: ''
@@ -681,10 +683,10 @@ system:
   wealth: ''
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.5
-  coreVersion: '14.367'
+  systemVersion: 6.1.0
+  coreVersion: '14.369'
   createdTime: 1789769322644
-  modifiedTime: 1790120509351
+  modifiedTime: 1793053315559
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
