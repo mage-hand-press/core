@@ -13,7 +13,7 @@ system:
     chat: ''
   source:
     custom: ''
-    book: ''
+    book: Complete Investigator
     page: ''
     license: ''
     rules: '2014'
@@ -41,10 +41,10 @@ effects: []
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.6
+  systemVersion: 6.1.0
   coreVersion: '14.369'
   createdTime: 1790399705460
-  modifiedTime: 1792100198733
+  modifiedTime: 1793052492250
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

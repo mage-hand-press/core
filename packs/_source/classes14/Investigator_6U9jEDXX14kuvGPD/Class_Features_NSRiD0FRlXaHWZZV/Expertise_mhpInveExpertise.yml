@@ -9,7 +9,7 @@ system:
     chat: ''
   source:
     custom: ''
-    book: ''
+    book: Complete Investigator
     page: ''
     license: ''
     rules: '2014'
@@ -69,10 +69,10 @@ effects: []
 folder: NSRiD0FRlXaHWZZV
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.6
+  systemVersion: 6.1.0
   coreVersion: '14.369'
   createdTime: 1790399704199
-  modifiedTime: 1792100198733
+  modifiedTime: 1793052492146
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
