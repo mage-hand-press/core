@@ -56,10 +56,8 @@
 			"system": "dnd5e",
 			"flags": {
 				"dnd5e": {
+					"rulesVersion": "modern",
 					"types": ["class", "feat"]
-				},
-				"mage-hand-press-core": {
-					"rulesVersion": "modern"
 				}
 			}
 		},
@@ -75,16 +73,15 @@
 			"system": "dnd5e",
 			"flags": {
 				"dnd5e": {
+					"rulesVersion": "legacy",
 					"types": ["class", "feat"]
-				},
-				"mage-hand-press-core": {
-					"rulesVersion": "legacy"
 				}
 			}
 		},
 		{
 			"name": "equipment24",
 			"label": "Equipment (5.5e)",
+			"banner": "modules/mage-hand-press-core/assets/interface/banners/equipment24.webp",
 			"type": "Item",
 			"ownership": {
 				"PLAYER": "LIMITED"
@@ -92,17 +89,16 @@
 			"system": "dnd5e",
 			"flags": {
 				"dnd5e": {
+					"rulesVersion": "modern",
 					"sorting": "m",
-					"types": ["consumable", "weapon"]
-				},
-				"mage-hand-press-core": {
-					"invisible": true
+					"types": ["consumable", "equipment", "weapon"]
 				}
 			}
 		},
 		{
 			"name": "equipment14",
 			"label": "Equipment (5e)",
+			"banner": "modules/mage-hand-press-core/assets/interface/banners/equipment14.webp",
 			"type": "Item",
 			"ownership": {
 				"PLAYER": "LIMITED"
@@ -110,11 +106,9 @@
 			"system": "dnd5e",
 			"flags": {
 				"dnd5e": {
+					"rulesVersion": "legacy",
 					"sorting": "m",
-					"types": ["consumable", "weapon"]
-				},
-				"mage-hand-press-core": {
-					"invisible": true
+					"types": ["consumable", "equipment", "weapon"]
 				}
 			}
 		},
