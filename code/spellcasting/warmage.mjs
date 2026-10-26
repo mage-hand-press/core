@@ -4,8 +4,6 @@
 export function initialize() {
 	if ( !game.settings.get("mage-hand-press-core", "warmage").customization ) return;
 
-	dnd5e.dataModels.spellcasting.SpellcastingModel.TYPES.warmage = WarmageSpellcasting;
-
 	CONFIG.DND5E.spellcasting.warmage = {
 		label: "MageHandPress.Warmage.Spellcasting",
 		img: "icons/magic/light/hand-sparks-smoke-green.webp",
