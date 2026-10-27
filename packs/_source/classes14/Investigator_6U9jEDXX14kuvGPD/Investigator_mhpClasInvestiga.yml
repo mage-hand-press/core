@@ -576,7 +576,7 @@ system:
       hint: ''
       classRestriction: ''
   spellcasting:
-    progression: none
+    progression: ritualist
     ability: int
     preparation:
       formula: ''
@@ -716,7 +716,7 @@ _stats:
   systemVersion: 6.1.0
   coreVersion: '14.369'
   createdTime: 1790399704126
-  modifiedTime: 1793052492070
+  modifiedTime: 1793123204909
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

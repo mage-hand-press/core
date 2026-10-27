@@ -1,0 +1,124 @@
+folder: luJvtd63rRdp9ra5
+name: Rushed Incantation
+type: feat
+img: icons/sundries/books/book-worn-brown-grey.webp
+system:
+  description:
+    value: >-
+      <p>You can hastily perform any spell in your grimoire that has a casting time of an action or
+      Bonus Action, casting the spell as a Bonus Action. You can cast it without Material components
+      unless the components have a cost of 100+ GP specified by the spell.</p><p>You can use this
+      feature three times. You regain one of its expended uses when you finish a Short Rest, and you
+      regain all expended uses when you finish a Long Rest. You gain additional uses when you reach
+      certain Investigator levels, as shown in the Rushed Incantation column of the Investigator
+      Features table.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Investigator
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2024'
+  cover: null
+  crewed: false
+  uses:
+    max: '@scale.investigator.rushed-incantation'
+    recovery:
+      - period: sr
+        type: formula
+        formula: '1'
+      - period: lr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Investigator
+  properties:
+    - mgc
+  activities:
+    hMuvBvSGWmeAxAyH:
+      type: utility
+      name: Cast
+      _id: hMuvBvSGWmeAxAyH
+      img: systems/dnd5e/icons/svg/action/magic.svg
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: true
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+  advancement: {}
+  identifier: rushed-incantation
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 2
+effects: []
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.1.0
+  coreVersion: '14.369'
+  createdTime: 1790399704575
+  modifiedTime: 1793124591056
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_id: mhpInveRushedInc
+sort: 1100000
+ownership:
+  default: 0
+_key: '!items!mhpInveRushedInc'

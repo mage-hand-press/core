@@ -1,0 +1,55 @@
+folder: luJvtd63rRdp9ra5
+name: Spellbinder
+type: feat
+img: icons/magic/unholy/silhouette-light-fire-blue.webp
+system:
+  description:
+    value: >-
+      <p>Choose 5 Investigator spells in your grimoire of levels 1–3 that have a casting time of an
+      action or Bonus Action. You can use Rushed Incantation to cast the chosen spells without
+      expending a use of the feature, and you don’t need to read from your grimoire to cast
+      them.</p><p>Whenever you finish a Long Rest, you can replace one of those spells with another
+      spell in your grimoire.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Investigator
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Investigator
+  properties: []
+  identifier: spellbinder
+  activities: {}
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 20
+effects: []
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.1.0
+  coreVersion: '14.369'
+  createdTime: 1790399705460
+  modifiedTime: 1793126470576
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_id: mhpInveSpellbind
+sort: 1200000
+ownership:
+  default: 0
+_key: '!items!mhpInveSpellbind'

@@ -1,0 +1,238 @@
+folder: luJvtd63rRdp9ra5
+name: Enigma Arcane (17th Level)
+type: feat
+img: icons/magic/symbols/runes-star-pentagon-orange.webp
+system:
+  description:
+    value: >-
+      <p>At Investigator level 17, you can also cast one of the following spells without a spell
+      slot and regain the ability to do so when you finish a Long Rest:
+      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplAstralProj]{Astral Projection}</em>,
+      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGate000000]{Gate}</em>, or
+      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWeird00000]{Weird}</em>.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Investigator
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2024'
+  cover: null
+  crewed: false
+  uses:
+    max: '1'
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Investigator
+  properties:
+    - mgc
+  activities:
+    y3OLlvn0MGB4rHYZ:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplAstralProj
+        challenge:
+          override: false
+        properties: []
+        spellbook: false
+        ability: ''
+        level: 9
+      _id: y3OLlvn0MGB4rHYZ
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        override: false
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      name: ''
+    tGOzkZbP4ZRwctLH:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplGate000000
+        challenge:
+          override: false
+        properties: []
+        spellbook: false
+        ability: ''
+        level: 9
+      _id: tGOzkZbP4ZRwctLH
+      img: ''
+      sort: 100000
+      activation:
+        type: action
+        override: false
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      name: ''
+    OWxdlgseu9hd0iRe:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplWeird00000
+        challenge:
+          override: false
+        properties: []
+        spellbook: false
+        ability: ''
+        level: 9
+      _id: OWxdlgseu9hd0iRe
+      img: ''
+      sort: 200000
+      activation:
+        type: action
+        override: false
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      name: ''
+  advancement: {}
+  identifier: enigma-arcane-level-17
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 17
+effects: []
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.1.0
+  coreVersion: '14.369'
+  createdTime: 1788545789028
+  modifiedTime: 1793126419270
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_id: mhpInveEnigArc17
+sort: 250000
+ownership:
+  default: 0
+_key: '!items!mhpInveEnigArc17'

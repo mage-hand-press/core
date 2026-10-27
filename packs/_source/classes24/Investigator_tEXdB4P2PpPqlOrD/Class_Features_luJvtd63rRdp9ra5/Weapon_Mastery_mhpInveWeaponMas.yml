@@ -1,0 +1,72 @@
+folder: luJvtd63rRdp9ra5
+name: Weapon Mastery
+type: feat
+_id: mhpInveWeaponMas
+img: icons/weapons/crossbows/crossbow-purple.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    EhixhdM96Vl4EsIC:
+      name: Weapon Mastery
+      type: Trait
+      _id: EhixhdM96Vl4EsIC
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 2
+            pool:
+              - weapon:*
+        grants: []
+        mode: mastery
+      flags: {}
+      level: 1
+      hint: >-
+        <p>Your training with weapons allows you to use the mastery properties of two kinds of
+        weapons of your choice with which you have proficiency, such as Rapiers and Heavy
+        Crossbows.</p>
+      value: {}
+  description:
+    value: >-
+      <p>Your training with weapons allows you to use the mastery properties of two kinds of weapons
+      of your choice with which you have proficiency, such as Rapiers and Heavy
+      Crossbows.</p><p>Whenever you finish a Long Rest, you can change the kinds of weapons you
+      chose.</p>
+    chat: ''
+  identifier: weapon-mastery
+  source:
+    revision: 1
+    rules: '2024'
+    book: Complete Investigator
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties: []
+  requirements: Investigator
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: dnd5e
+  systemVersion: 6.1.0
+  createdTime: 1793126635060
+  modifiedTime: 1793126635060
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!mhpInveWeaponMas'

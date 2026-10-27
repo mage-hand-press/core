@@ -1,0 +1,60 @@
+folder: luJvtd63rRdp9ra5
+name: Trinkets
+type: feat
+_id: mhpInveTrinkets0
+img: icons/containers/bags/case-leather-tan.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: formula
+        formula: '1'
+      - period: lr
+        type: recoverAll
+    max: '@scale.investigator.trinkets'
+  advancement: {}
+  description:
+    value: >-
+      <p>Your subclass grants you a number of supernatural trinkets to aid you in defeating
+      supernatural threats and unraveling mysteries. You can use this feature twice, activating one
+      of your trinket options each time you use it. You regain one of its expended uses when you
+      finish a Short Rest, and you regain all expended uses when you finish a Long Rest. You gain
+      additional uses when you reach certain Investigator levels, as shown in the Trinkets column of
+      the Investigator Features table.</p>
+    chat: ''
+  identifier: trinkets
+  source:
+    revision: 1
+    rules: '2024'
+    book: Complete Investigator
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: Investigator
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: dnd5e
+  systemVersion: 6.1.0
+  createdTime: 1793126635242
+  modifiedTime: 1793126635242
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!mhpInveTrinkets0'

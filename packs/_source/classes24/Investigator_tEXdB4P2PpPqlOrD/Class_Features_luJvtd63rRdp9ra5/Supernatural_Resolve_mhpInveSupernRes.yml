@@ -1,0 +1,52 @@
+folder: luJvtd63rRdp9ra5
+name: Supernatural Resolve
+type: feat
+img: icons/magic/control/silhouette-hold-change-green.webp
+system:
+  description:
+    value: >-
+      <p>You have Advantage on saving throws against spells and other magical effects unless you
+      have the &amp;Reference[Incapacitated apply=false] condition.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Investigator
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Investigator
+  properties: []
+  identifier: supernatural-resolve
+  activities: {}
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 18
+effects: []
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.1.0
+  coreVersion: '14.369'
+  createdTime: 1790399705016
+  modifiedTime: 1793126446393
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_id: mhpInveSupernRes
+sort: 1300000
+ownership:
+  default: 0
+_key: '!items!mhpInveSupernRes'

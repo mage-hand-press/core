@@ -1,0 +1,348 @@
+folder: luJvtd63rRdp9ra5
+name: Finisher
+type: feat
+_id: mhpInveFinisher0
+img: icons/skills/wounds/bone-broken-knee-beam.webp
+system:
+  activities:
+    VzlC0ivCTqrWygIh:
+      type: damage
+      activation:
+        type: special
+        value: null
+        condition: when you deal damage with a weapon to a creature that is Bloodied
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+        value: >-
+          <p>Once per turn when you deal damage with a weapon to a creature that is
+          &amp;Reference[Bloodied apply=false], you can deal an extra 1d8 damage to the target. The
+          damage is the same type as the damage dealt by the weapon.</p>
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+        expiry: null
+      effects: []
+      range:
+        units: any
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: true
+          bonus: ''
+        parts:
+          - custom:
+              enabled: true
+              formula: '@scale.investigator.finisher'
+            number: null
+            denomination: null
+            bonus: ''
+            modifiers: []
+            types:
+              - bludgeoning
+              - piercing
+              - slashing
+              - acid
+              - cold
+              - fire
+              - force
+              - lightning
+              - necrotic
+              - poison
+              - psychic
+              - radiant
+              - thunder
+            scaling:
+              number: 1
+      img: ''
+      sort: 0
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      behaviors: []
+      name: Extra Damage
+      _id: VzlC0ivCTqrWygIh
+    vmOYoC8mwMQipbSC:
+      type: damage
+      activation:
+        type: special
+        value: null
+        condition: when you take the Attack action and hit a creature with a weapon attack
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+        value: >-
+          <p>When you take the Attack action on your turn, you can use your Finisher on a creature
+          that isn’t &amp;Reference[Bloodied apply=false], dealing only an extra 1d8 damage to the
+          target.</p>
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+        expiry: null
+      effects: []
+      range:
+        units: any
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: true
+          bonus: ''
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 8
+            bonus: ''
+            modifiers: []
+            types:
+              - bludgeoning
+              - piercing
+              - slashing
+              - acid
+              - cold
+              - fire
+              - force
+              - lightning
+              - necrotic
+              - poison
+              - psychic
+              - radiant
+              - thunder
+            scaling:
+              number: 1
+      img: ''
+      sort: 100000
+      flags: {}
+      visibility:
+        level:
+          min: 11
+          max: 16
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: investigator
+      behaviors: []
+      name: Extra Damage (Not Bloodied)
+      _id: vmOYoC8mwMQipbSC
+    oZk7bcmwxpLBlCqp:
+      type: damage
+      activation:
+        type: special
+        value: null
+        condition: when you take the Attack action and hit a creature with a weapon attack
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+        value: >-
+          <p>When you take the Attack action on your turn, you can use your Finisher on a creature
+          that isn’t &amp;Reference[Bloodied apply=false], dealing only an extra 2d8 damage to the
+          target.</p>
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+        expiry: null
+      effects: []
+      range:
+        units: any
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: true
+          bonus: ''
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 8
+            bonus: ''
+            modifiers: []
+            types:
+              - bludgeoning
+              - piercing
+              - slashing
+              - acid
+              - cold
+              - fire
+              - force
+              - lightning
+              - necrotic
+              - poison
+              - psychic
+              - radiant
+              - thunder
+            scaling:
+              number: 1
+      img: ''
+      sort: 200000
+      flags: {}
+      visibility:
+        level:
+          min: 17
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: investigator
+      behaviors: []
+      name: Extra Damage (Not Bloodied)
+      _id: oZk7bcmwxpLBlCqp
+  uses:
+    spent: 0
+    recovery:
+      - period: turn
+        type: recoverAll
+    max: '1'
+  advancement: {}
+  description:
+    value: >-
+      <p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpFinisher00000.Activity.VzlC0ivCTqrWygIh
+      inline]</p><p>This damage increases as you gain Investigator levels, as shown in the Finisher
+      column of the Investigator Features table.</p>
+    chat: ''
+  identifier: finisher
+  source:
+    revision: 1
+    rules: '2024'
+    book: Complete Investigator
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 2
+  properties: []
+  requirements: Investigator
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: dnd5e
+  systemVersion: 6.1.0
+  createdTime: 1793126635156
+  modifiedTime: 1793126635156
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!mhpInveFinisher0'

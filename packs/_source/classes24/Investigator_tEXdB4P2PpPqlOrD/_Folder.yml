@@ -1,0 +1,19 @@
+type: Item
+folder: null
+name: Investigator
+color: '#578d5b'
+sorting: a
+_id: tEXdB4P2PpPqlOrD
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: dnd5e
+  systemVersion: 6.0.5
+  createdTime: 1790381988851
+  modifiedTime: 1790381988851
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!tEXdB4P2PpPqlOrD'

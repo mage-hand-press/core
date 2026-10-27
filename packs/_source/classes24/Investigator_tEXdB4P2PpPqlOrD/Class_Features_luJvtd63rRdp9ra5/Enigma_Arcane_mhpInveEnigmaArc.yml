@@ -1,0 +1,397 @@
+folder: luJvtd63rRdp9ra5
+name: Enigma Arcane
+type: feat
+img: icons/magic/symbols/runes-star-orange-purple.webp
+system:
+  description:
+    value: >-
+      <p>You learn a secret that unlocks potent arcane magic. You gain the ability to cast a level 7
+      spell, and discover additional secrets when you reach certain Investigator
+      levels.</p><p><em><strong>Level 7 Spell.</strong></em> You can cast one of the following
+      spells without a spell slot and regain the ability to do so when you finish a Long Rest:
+      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMirageArca]{Mirage Arcane}</em>,
+      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplPlaneShift]{Plane Shift}</em>,
+      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplReverseGra]{Reverse Gravity}</em>,
+      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSequester0]{Sequester}</em>, or
+      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplTeleport00]{Teleport}</em>.</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpInveEnigArc15
+      cite=false caption=false nameStyle=inline]{Level 8
+      Spell}</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpInveEnigArc17 cite=false
+      caption=false nameStyle=inline]{Level 9 Spell}</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Investigator
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2024'
+  cover: null
+  crewed: false
+  uses:
+    max: '1'
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Investigator
+  properties:
+    - mgc
+  activities:
+    ovmpSB4Di5EjcTK4:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplMirageArca
+        challenge:
+          override: false
+        properties: []
+        spellbook: false
+        ability: ''
+        level: 7
+      _id: ovmpSB4Di5EjcTK4
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        override: false
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      name: ''
+    scYQm0n7auGOrDyE:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplPlaneShift
+        challenge:
+          override: false
+        properties: []
+        spellbook: false
+        ability: ''
+        level: 7
+      _id: scYQm0n7auGOrDyE
+      img: ''
+      sort: 100000
+      activation:
+        type: action
+        override: false
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      name: ''
+    Y4TVjn6B7mOd0fGb:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplReverseGra
+        challenge:
+          override: false
+        properties: []
+        spellbook: false
+        ability: ''
+        level: 7
+      _id: Y4TVjn6B7mOd0fGb
+      img: ''
+      sort: 200000
+      activation:
+        type: action
+        override: false
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      name: ''
+    qbFMk3tAM4SsIahN:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplSequester0
+        challenge:
+          override: false
+        properties: []
+        spellbook: false
+        ability: ''
+        level: 7
+      _id: qbFMk3tAM4SsIahN
+      img: ''
+      sort: 300000
+      activation:
+        type: action
+        override: false
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      name: ''
+    fYn0WsaiLFiP37Hp:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplTeleport00
+        challenge:
+          override: false
+        properties: []
+        spellbook: false
+        ability: ''
+        level: 7
+      _id: fYn0WsaiLFiP37Hp
+      img: ''
+      sort: 400000
+      activation:
+        type: action
+        override: false
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      name: ''
+  advancement:
+    Sy6cw1ATVVdtcYvw:
+      name: ''
+      type: ItemGrant
+      _id: Sy6cw1ATVVdtcYvw
+      configuration:
+        items:
+          - uuid: Compendium.mage-hand-press-core.classes24.Item.mhpInveEnigArc15
+            optional: false
+            sort: 0
+        optional: false
+        sorting: m
+        spell: null
+      flags: {}
+      value: {}
+      level: 15
+      hint: ''
+    R5uoZSx8ouyNsBPo:
+      name: ''
+      type: ItemGrant
+      _id: R5uoZSx8ouyNsBPo
+      configuration:
+        items:
+          - uuid: Compendium.mage-hand-press-core.classes24.Item.mhpInveEnigArc17
+            optional: false
+            sort: 0
+        optional: false
+        sorting: m
+        spell: null
+      flags: {}
+      value: {}
+      level: 17
+      hint: ''
+  identifier: enigma-arcane
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 13
+effects: []
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.1.0
+  coreVersion: '14.369'
+  createdTime: 1790399705244
+  modifiedTime: 1793126388759
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_id: mhpInveEnigmaArc
+sort: 100000
+ownership:
+  default: 0
+_key: '!items!mhpInveEnigmaArc'

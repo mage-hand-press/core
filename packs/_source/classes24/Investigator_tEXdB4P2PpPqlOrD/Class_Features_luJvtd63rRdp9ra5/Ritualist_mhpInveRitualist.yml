@@ -1,0 +1,80 @@
+folder: luJvtd63rRdp9ra5
+name: Ritualist
+type: feat
+img: icons/skills/trades/academics-book-study-runes.webp
+system:
+  description:
+    value: >-
+      <p>You have learned to cast Rituals to overcome supernatural
+      threats.</p><p><em><strong>Grimoire.</strong></em> Your Rituals are recorded in a grimoire, a
+      Tiny object that weighs 3 pounds and contains 100 pages. You determine the grimoire’s
+      appearance and materials.</p><p>The grimoire starts with four level 1 Investigator spells of
+      your choice. <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detect Magic}</em>,
+      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHeroism000]{Heroism}</em>, <em>Memorize</em>,
+      and <em>Transient Bulwark</em> are recommended.</p><p>Whenever you gain an Investigator level,
+      you can add two Investigator spells of your choice to your grimoire. The Ritual Level column
+      on the Investigator Feature table shows the maximum level of a spell you can add to your
+      grimoire.</p><p><em><strong>Ritual Casting.</strong></em> You can cast any spell as a Ritual
+      if that spell has the Ritual tag and the spell is in your grimoire. You must read from the
+      book to cast a spell in this way. You can’t cast spells that are in your grimoire except as
+      Rituals, unless you’ve learned them by other means.</p><p><em><strong>Bonus
+      Rituals.</strong></em> You can treat specific spells as if they have the Ritual tag, allowing
+      you to add them to your grimoire and cast them as Rituals. These spells are marked in the
+      Investigator Spells list.</p><p><em><strong>Spellcasting Ability.</strong></em> Intelligence
+      is your spellcasting ability for your Investigator spells.</p><aside class="notable"><h4
+      data-no-toc>Expanding and Replacing a Grimoire</h4><p>The spells you add to your grimoire
+      represent research into occult and supernatural threats, but you might find other spells
+      during your adventures that you can add to your grimoire.</p><p><strong>Copying a Spell into
+      the Grimoire.</strong> When you find a level 1+ Investigator spell, you can copy it into your
+      grimoire if it’s of an eligible level and if you have time to copy it. For each level of the
+      spell, the transcription takes 2 hours and costs 50 GP. Copying the Grimoire. You can copy
+      a</p><p><strong>Copying the Grimoire.</strong> You can copy a spell from your grimoire into
+      another book. This is like copying a new spell into your grimoire but faster, since you
+      already know how to cast the spell. You need spend only 1 hour and 10 GP for each level of the
+      copied spell.</p><p>If you lose your grimoire, you can recall from memory a number of spells
+      equal to your Investigator level and use the same procedure to transcribe the spells into a
+      new grimoire. Filling out the remainder of the new book requires you to find new spells to do
+      so. For this reason, many Investigators keep a backup grimoire.</p></aside>
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Investigator
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Investigator
+  properties: []
+  identifier: ritualist
+  activities: {}
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+effects: []
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.1.0
+  coreVersion: '14.369'
+  createdTime: 1790399704289
+  modifiedTime: 1793124386284
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_id: mhpInveRitualist
+sort: 1000000
+ownership:
+  default: 0
+_key: '!items!mhpInveRitualist'

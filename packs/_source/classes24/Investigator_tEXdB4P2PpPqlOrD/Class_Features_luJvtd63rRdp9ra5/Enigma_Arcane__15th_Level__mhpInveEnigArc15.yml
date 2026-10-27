@@ -1,0 +1,299 @@
+folder: luJvtd63rRdp9ra5
+name: Enigma Arcane (15th Level)
+type: feat
+img: icons/magic/symbols/runes-star-orange.webp
+system:
+  description:
+    value: >-
+      <p>At Investigator level 15, you can also cast one of the following spells without a spell
+      slot and regain the ability to do so when you finish a Long Rest:
+      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplAntimagicF]{Antimagic Field}</em>,
+      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGlibness00]{Glibness}</em>,
+      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMaze000000]{Maze}</em>, or
+      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMindBlank0]{Mind Blank}</em>.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Investigator
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2024'
+  cover: null
+  crewed: false
+  uses:
+    max: '1'
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Investigator
+  properties:
+    - mgc
+  activities:
+    ealfTuFioN1CPPhi:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplAntimagicF
+        challenge:
+          override: false
+        properties: []
+        spellbook: false
+        ability: ''
+        level: 8
+      _id: ealfTuFioN1CPPhi
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        override: false
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      name: ''
+    yZVXFKjJIXWhf48c:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplGlibness00
+        challenge:
+          override: false
+        properties: []
+        spellbook: false
+        ability: ''
+        level: 8
+      _id: yZVXFKjJIXWhf48c
+      img: ''
+      sort: 100000
+      activation:
+        type: action
+        override: false
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      name: ''
+    oZoNPs2ufCHMRZHK:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplMaze000000
+        challenge:
+          override: false
+        properties: []
+        spellbook: false
+        ability: ''
+        level: 8
+      _id: oZoNPs2ufCHMRZHK
+      img: ''
+      sort: 200000
+      activation:
+        type: action
+        override: false
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      name: ''
+    8JmSRkFwP6k6ApDH:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplMindBlank0
+        challenge:
+          override: false
+        properties: []
+        spellbook: false
+        ability: ''
+        level: 8
+      _id: 8JmSRkFwP6k6ApDH
+      img: ''
+      sort: 300000
+      activation:
+        type: action
+        override: false
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      name: ''
+  advancement: {}
+  identifier: enigma-arcane-level-15
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 15
+effects: []
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.1.0
+  coreVersion: '14.369'
+  createdTime: 1788545788971
+  modifiedTime: 1793126406806
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_id: mhpInveEnigArc15
+sort: 200000
+ownership:
+  default: 0
+_key: '!items!mhpInveEnigArc15'
