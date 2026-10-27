@@ -244,11 +244,11 @@ system:
     value: >-
       <p>You keep a wide array of Holy Symbols and blessed items on your person, even if you aren’t
       particularly pious. You can use the following trinkets (expending a use of your Trinkets to do
-      so).</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpHolyTrinkets0.Activity.qcgKiTwcYcu8jvVM
+      so).</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpInveHolyTrink.Activity.qcgKiTwcYcu8jvVM
       caption=false cite=false
-      nameStyle=inline]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpHolyTrinkets0.Activity.jBbimKiHDVI62AhS
+      nameStyle=inline]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpInveHolyTrink.Activity.jBbimKiHDVI62AhS
       caption=false cite=false
-      nameStyle=inline]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpHolyTrinkets0.Activity.NEXXcrUtvGIJcyAE
+      nameStyle=inline]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpInveHolyTrink.Activity.NEXXcrUtvGIJcyAE
       caption=false cite=false nameStyle=inline]</p>
     chat: ''
   identifier: holy-trinkets
@@ -398,7 +398,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 6.1.0
   createdTime: 1793126635339
-  modifiedTime: 1793126635339
+  modifiedTime: 1793127009483
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

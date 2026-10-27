@@ -279,7 +279,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.mage-hand-press-core.classes24.Item.mhpInveFinisher0
+          - uuid: Compendium.mage-hand-press-core.classes24.Item.mhpImprovedFinis
             optional: false
             sort: 0
         optional: false
@@ -296,6 +296,7 @@ system:
       flags: {}
       hint: ''
       name: Class Features
+      classRestriction: ''
     4kvQE4sylB0e9DOg:
       _id: 4kvQE4sylB0e9DOg
       type: ItemGrant
@@ -443,24 +444,6 @@ system:
           - weapon:sim
           - weapon:mar
         choices: []
-      level: 1
-      classRestriction: primary
-      value: {}
-      flags: {}
-      hint: ''
-      name: ''
-      img: null
-    gJzJ6ryBfxB8BeSo:
-      _id: gJzJ6ryBfxB8BeSo
-      type: Trait
-      configuration:
-        mode: default
-        allowReplacements: false
-        grants: []
-        choices:
-          - count: 1
-            pool:
-              - tool:game:*
       level: 1
       classRestriction: primary
       value: {}
@@ -716,7 +699,7 @@ _stats:
   systemVersion: 6.1.0
   coreVersion: '14.369'
   createdTime: 1790399704126
-  modifiedTime: 1793126635366
+  modifiedTime: 1793126924600
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

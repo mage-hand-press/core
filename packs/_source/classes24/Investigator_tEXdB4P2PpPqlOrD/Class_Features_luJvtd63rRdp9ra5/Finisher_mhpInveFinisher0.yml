@@ -308,7 +308,7 @@ system:
   advancement: {}
   description:
     value: >-
-      <p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpFinisher00000.Activity.VzlC0ivCTqrWygIh
+      <p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpInveFinisher0.Activity.VzlC0ivCTqrWygIh
       inline]</p><p>This damage increases as you gain Investigator levels, as shown in the Finisher
       column of the Investigator Features table.</p>
     chat: ''
@@ -341,7 +341,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 6.1.0
   createdTime: 1793126635156
-  modifiedTime: 1793126635156
+  modifiedTime: 1793126974287
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

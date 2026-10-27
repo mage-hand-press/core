@@ -1,0 +1,52 @@
+folder: luJvtd63rRdp9ra5
+name: Improved Finisher
+type: feat
+_id: mhpImprovedFinis
+img: icons/skills/melee/maneuver-greatsword-yellow.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>When you take the Attack action on your turn, you can use your Finisher on a creature that
+      isn’t Bloodied, dealing only an extra 1d8 damage to the target.</p><p>At Investigator level
+      17, this damage increases to 2d8.</p>
+    chat: ''
+  identifier: improved-finisher
+  source:
+    revision: 1
+    rules: '2024'
+    book: Complete Investigator
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 11
+  properties: []
+  requirements: Investigator
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: dnd5e
+  systemVersion: 6.1.0
+  createdTime: 1793126870037
+  modifiedTime: 1793126913864
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!mhpImprovedFinis'
