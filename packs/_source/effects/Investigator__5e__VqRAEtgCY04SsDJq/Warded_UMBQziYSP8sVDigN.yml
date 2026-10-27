@@ -1,0 +1,44 @@
+name: Warded
+img: icons/magic/holy/prayer-hands-glowing-yellow-green.webp
+system:
+  origin:
+    item: Compendium.mage-hand-press-core.classes14.Item.mhpInveOpportPie
+    actor: null
+    behavior: null
+    effect: null
+    message: null
+  changes: []
+  conditions: '{}'
+  magical: false
+  rider:
+    statuses: []
+transfer: false
+_id: UMBQziYSP8sVDigN
+type: base
+disabled: false
+start: null
+duration:
+  value: null
+  units: seconds
+  expiry: null
+  expired: false
+description: >-
+  <p>Aberrations, Celestials, Elementals, Fey, Fiends, and Undead that touch you or hit you with a
+  melee attack take 1d12 radiant damage.</p>
+origin: null
+tint: '#ffffff'
+statuses: []
+showIcon: 1
+folder: VqRAEtgCY04SsDJq
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: dnd5e
+  systemVersion: 6.1.0
+  createdTime: 1793133579544
+  modifiedTime: 1793133579544
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+sort: 0
+_key: '!effects!UMBQziYSP8sVDigN'

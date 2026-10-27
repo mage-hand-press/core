@@ -1,0 +1,19 @@
+type: ActiveEffect
+folder: null
+name: Investigator (5.5e)
+color: null
+sorting: a
+_id: hW20T3BTwYVz1L6B
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: dnd5e
+  systemVersion: 6.1.0
+  createdTime: 1793133346798
+  modifiedTime: 1793133459755
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!hW20T3BTwYVz1L6B'

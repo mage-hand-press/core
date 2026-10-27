@@ -29,89 +29,37 @@ system:
   properties: []
   identifier: supernatural-resolve
   activities: {}
-  advancement: {}
+  advancement:
+    cscr5wTv2Sesypvb:
+      name: ''
+      type: Trait
+      _id: cscr5wTv2Sesypvb
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - ci:charmed
+          - dr:necrotic
+          - dr:psychic
+        mode: default
+      flags: {}
+      level: 9
+      hint: >-
+        <p>You can’t be possessed or charmed, and you have resistance to necrotic and psychic
+        damage.</p>
   enchant: {}
   prerequisites:
     items: []
     repeatable: false
     level: 9
-effects:
-  - origin: null
-    duration:
-      value: null
-      units: seconds
-      expiry: null
-      expired: false
-    disabled: false
-    _id: GgIdPH6oOyNFJWPE
-    tint: '#ffffff'
-    transfer: true
-    flags: {}
-    name: Supernatural Resolve
-    description: >-
-      <p>You can’t be possessed or charmed, and you have resistance to necrotic and psychic
-      damage.</p>
-    statuses: []
-    _stats:
-      coreVersion: '14.369'
-      systemId: dnd5e
-      systemVersion: 6.0.5
-      createdTime: 1790399705016
-      modifiedTime: 1792099511887
-      lastModifiedBy: magehandpress000
-      compendiumSource: null
-      duplicateSource: null
-      exportSource: null
-    img: icons/magic/defensive/shield-barrier-flaming-pentagon-teal-purple.webp
-    type: base
-    system:
-      changes:
-        - key: system.traits.dr.value
-          value: necrotic
-          priority: null
-          type: add
-          phase: initial
-          _id: Ebq5HezU3HiOPAAQ
-          conditions: '{}'
-          replacement: ''
-        - key: system.traits.dr.value
-          value: psychic
-          priority: null
-          type: add
-          phase: initial
-          _id: xss0LJsQanGggIPZ
-          conditions: '{}'
-          replacement: ''
-        - key: system.traits.ci.value
-          value: charmed
-          priority: null
-          type: add
-          phase: initial
-          _id: WpKwWyXznc2jWSvN
-          conditions: '{}'
-          replacement: ''
-      origin:
-        actor: null
-        behavior: null
-        effect: null
-        item: null
-        message: null
-      conditions: '{}'
-      magical: false
-      rider:
-        statuses: []
-    sort: 0
-    start: null
-    showIcon: 1
-    folder: null
-    _key: '!items.effects!mhpInveSupernRes.GgIdPH6oOyNFJWPE'
+effects: []
 flags: {}
 _stats:
   systemId: dnd5e
   systemVersion: 6.1.0
   coreVersion: '14.369'
   createdTime: 1790399705016
-  modifiedTime: 1793052492261
+  modifiedTime: 1793133536888
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

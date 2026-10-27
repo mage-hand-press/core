@@ -1,0 +1,60 @@
+name: Warded
+img: icons/commodities/treasure/token-gold-gem-purple.webp
+system:
+  origin:
+    item: Compendium.mage-hand-press-core.classes24.Item.mhpHolyTrinkets0
+    actor: null
+    behavior: null
+    effect: null
+    message: null
+  changes:
+    - key: system.attributes.ac.bonus
+      type: add
+      value: max(1, @abilities.int.mod)
+      phase: initial
+      _id: Pwq4xoOIlyIBPPJI
+      conditions: '{}'
+      replacement: origin
+      priority: null
+    - key: system.rolls.ability.save.bonus
+      type: add
+      value: max(1, @abilities.int.mod)
+      phase: initial
+      conditions: '{}'
+      replacement: origin
+      priority: null
+      _id: pCTLv4klHPxcAEqB
+  conditions: '{}'
+  magical: true
+  rider:
+    statuses: []
+transfer: false
+_id: 9qkoFMMktU8mz9gQ
+type: base
+disabled: false
+start: null
+duration:
+  value: null
+  units: seconds
+  expiry: null
+  expired: false
+description: >-
+  <p>You gain a bonus to AC and saving throws equal to the source's Intelligence modifier (minimum
+  of +1).</p>
+origin: null
+tint: '#ffffff'
+statuses: []
+showIcon: 1
+folder: hW20T3BTwYVz1L6B
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: dnd5e
+  systemVersion: 6.1.0
+  createdTime: 1793133393890
+  modifiedTime: 1793133394905
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+sort: 300000
+_key: '!effects!9qkoFMMktU8mz9gQ'

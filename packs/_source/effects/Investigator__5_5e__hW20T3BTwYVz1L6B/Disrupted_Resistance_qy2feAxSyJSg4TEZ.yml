@@ -1,0 +1,157 @@
+name: Disrupted Resistance
+img: systems/dnd5e/icons/svg/damage/all.svg
+system:
+  origin:
+    item: Compendium.mage-hand-press-core.classes24.Item.mhpInveExploiWea
+    actor: null
+    behavior: null
+    effect: null
+    message: null
+  changes:
+    - key: system.traits.dr.value
+      type: subtract
+      value: ALL
+      phase: initial
+      _id: kIQkHRTCXggD7jpW
+      conditions: '{}'
+      replacement: ''
+      priority: null
+    - key: system.traits.dr.value
+      type: subtract
+      value: acid
+      phase: initial
+      conditions: '{}'
+      replacement: ''
+      priority: null
+      _id: AWTVD14v7sGbQuak
+    - key: system.traits.dr.value
+      type: subtract
+      value: bludgeoning
+      phase: initial
+      conditions: '{}'
+      replacement: ''
+      priority: null
+      _id: vIRBiqWbES3SUz1r
+    - key: system.traits.dr.value
+      type: subtract
+      value: cold
+      phase: initial
+      conditions: '{}'
+      replacement: ''
+      priority: null
+      _id: PwwazmyCMGwdgHAf
+    - key: system.traits.dr.value
+      type: subtract
+      value: fire
+      phase: initial
+      conditions: '{}'
+      replacement: ''
+      priority: null
+      _id: G3L0UTve8y24xXd5
+    - key: system.traits.dr.value
+      type: subtract
+      value: force
+      phase: initial
+      conditions: '{}'
+      replacement: ''
+      priority: null
+      _id: REMpCM0ywexweWMW
+    - key: system.traits.dr.value
+      type: subtract
+      value: lightning
+      phase: initial
+      conditions: '{}'
+      replacement: ''
+      priority: null
+      _id: xN8507zowLeiuo1P
+    - key: system.traits.dr.value
+      type: subtract
+      value: necrotic
+      phase: initial
+      conditions: '{}'
+      replacement: ''
+      priority: null
+      _id: 6cAcDR1Qx1neBNej
+    - key: system.traits.dr.value
+      type: subtract
+      value: piercing
+      phase: initial
+      conditions: '{}'
+      replacement: ''
+      priority: null
+      _id: p66GHjeTUu2kEyvW
+    - key: system.traits.dr.value
+      type: subtract
+      value: poison
+      phase: initial
+      conditions: '{}'
+      replacement: ''
+      priority: null
+      _id: QymrOO1OOW6byK1E
+    - key: system.traits.dr.value
+      type: subtract
+      value: psychic
+      phase: initial
+      conditions: '{}'
+      replacement: ''
+      priority: null
+      _id: lxVGN7cWdm6sdTPR
+    - key: system.traits.dr.value
+      type: subtract
+      value: radiant
+      phase: initial
+      conditions: '{}'
+      replacement: ''
+      priority: null
+      _id: uY2p8gb5zDFqH2cZ
+    - key: system.traits.dr.value
+      type: subtract
+      value: slashing
+      phase: initial
+      conditions: '{}'
+      replacement: ''
+      priority: null
+      _id: cZEcSlX3mvm7ITqa
+    - key: system.traits.dr.value
+      type: subtract
+      value: thunder
+      phase: initial
+      conditions: '{}'
+      replacement: ''
+      priority: null
+      _id: 92Fi2TplPnmD9V9Q
+  conditions: '{}'
+  magical: false
+  rider:
+    statuses: []
+transfer: false
+_id: qy2feAxSyJSg4TEZ
+type: base
+disabled: false
+start: null
+duration:
+  value: null
+  units: seconds
+  expiry: null
+  expired: false
+description: >-
+  <p>If you have &amp;Reference[Resistance] to one or more damage types, you lose these Resistances
+  until the start of the source's next turn, including against the damage of the triggering
+  attack.</p>
+origin: null
+tint: '#ffffff'
+statuses: []
+showIcon: 1
+folder: hW20T3BTwYVz1L6B
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: dnd5e
+  systemVersion: 6.1.0
+  createdTime: 1793133372726
+  modifiedTime: 1793133394904
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+sort: 100000
+_key: '!effects!qy2feAxSyJSg4TEZ'

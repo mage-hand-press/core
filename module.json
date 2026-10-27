@@ -121,6 +121,16 @@
 				"PLAYER": "OBSERVER",
 				"ASSISTANT": "OWNER"
 			}
+		},
+		{
+			"name": "effects",
+			"label": "Active Effects",
+			"banner": "modules/mage-hand-press-core/assets/interface/banners/effects.webp",
+			"type": "ActiveEffect",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
 		}
 	],
 	"packFolders": [
@@ -134,7 +144,8 @@
 				"classes14",
 				"equipment24",
 				"equipment14",
-				"tables"
+				"tables",
+				"effects"
 			],
 			"folders": []
 		}
