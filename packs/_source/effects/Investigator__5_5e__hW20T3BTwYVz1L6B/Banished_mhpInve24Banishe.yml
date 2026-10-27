@@ -21,7 +21,7 @@ system:
   rider:
     statuses: []
 transfer: false
-_id: h9BXJNanUpuYA0vd
+_id: mhpInve24Banishe
 type: base
 disabled: false
 start: null
@@ -46,10 +46,10 @@ _stats:
   coreVersion: '14.369'
   systemId: dnd5e
   systemVersion: 6.1.0
-  createdTime: 1793133394883
-  modifiedTime: 1793133394905
+  createdTime: 1793134063895
+  modifiedTime: 1793134063895
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
 sort: 200000
-_key: '!effects!h9BXJNanUpuYA0vd'
+_key: '!effects!mhpInve24Banishe'

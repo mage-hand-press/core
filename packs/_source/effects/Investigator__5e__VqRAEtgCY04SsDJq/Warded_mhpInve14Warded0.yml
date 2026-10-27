@@ -13,7 +13,7 @@ system:
   rider:
     statuses: []
 transfer: false
-_id: UMBQziYSP8sVDigN
+_id: mhpInve14Warded0
 type: base
 disabled: false
 start: null
@@ -35,10 +35,10 @@ _stats:
   coreVersion: '14.369'
   systemId: dnd5e
   systemVersion: 6.1.0
-  createdTime: 1793133579544
-  modifiedTime: 1793133579544
+  createdTime: 1793134072704
+  modifiedTime: 1793134072704
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
 sort: 0
-_key: '!effects!UMBQziYSP8sVDigN'
+_key: '!effects!mhpInve14Warded0'

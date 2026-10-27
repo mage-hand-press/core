@@ -39,7 +39,7 @@ system:
         value: ''
       effects:
         - _id: g9xgceiBtdREMOTE
-          uuid: Compendium.mage-hand-press-core.effects.ActiveEffect.9qkoFMMktU8mz9gQ
+          uuid: Compendium.mage-hand-press-core.effects.ActiveEffect.mhpInve24Warded0
           level: {}
       flags: {}
       range:
@@ -188,7 +188,7 @@ system:
         value: '1'
       effects:
         - _id: xnh5i68Gd7REMOTE
-          uuid: Compendium.mage-hand-press-core.effects.ActiveEffect.h9BXJNanUpuYA0vd
+          uuid: Compendium.mage-hand-press-core.effects.ActiveEffect.mhpInve24Banishe
           onSave: false
           level:
             min: null

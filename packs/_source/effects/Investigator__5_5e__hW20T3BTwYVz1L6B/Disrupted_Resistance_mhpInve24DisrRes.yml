@@ -125,7 +125,7 @@ system:
   rider:
     statuses: []
 transfer: false
-_id: qy2feAxSyJSg4TEZ
+_id: mhpInve24DisrRes
 type: base
 disabled: false
 start: null
@@ -148,10 +148,10 @@ _stats:
   coreVersion: '14.369'
   systemId: dnd5e
   systemVersion: 6.1.0
-  createdTime: 1793133372726
-  modifiedTime: 1793133394904
+  createdTime: 1793134063912
+  modifiedTime: 1793134063912
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
 sort: 100000
-_key: '!effects!qy2feAxSyJSg4TEZ'
+_key: '!effects!mhpInve24DisrRes'

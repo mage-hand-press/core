@@ -218,7 +218,7 @@ system:
         expiry: null
       effects:
         - _id: cqr7VaVErZREMOTE
-          uuid: Compendium.mage-hand-press-core.effects.ActiveEffect.UMBQziYSP8sVDigN
+          uuid: Compendium.mage-hand-press-core.effects.ActiveEffect.mhpInve14Warded0
           level: {}
       range:
         value: '5'

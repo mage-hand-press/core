@@ -29,7 +29,7 @@ system:
   rider:
     statuses: []
 transfer: false
-_id: 9qkoFMMktU8mz9gQ
+_id: mhpInve24Warded0
 type: base
 disabled: false
 start: null
@@ -51,10 +51,10 @@ _stats:
   coreVersion: '14.369'
   systemId: dnd5e
   systemVersion: 6.1.0
-  createdTime: 1793133393890
-  modifiedTime: 1793133394905
+  createdTime: 1793134063873
+  modifiedTime: 1793134063873
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
 sort: 300000
-_key: '!effects!9qkoFMMktU8mz9gQ'
+_key: '!effects!mhpInve24Warded0'
