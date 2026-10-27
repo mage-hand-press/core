@@ -2,13 +2,8 @@
  * Initialize Investigator configuration changes.
  */
 export function initialize() {
-	if ( !game.settings.get("mage-hand-press-core", "investigator").customization ) return;
+	dnd5e.registry.spellLists.register(dnd5e.settings.rulesVersion === "legacy"
+		? "Compendium.mage-hand-press-core.journal.JournalEntry.mhpInvestigato5e.JournalEntryPage.mhpInvestigatorS"
+		: "Compendium.mage-hand-press-core.journal.JournalEntry.mhpInvestigat55e.JournalEntryPage.mhpInvestigatorS"
+	);
 }
-
-/* -------------------------------------------- */
-/*  Investigator Config                         */
-/* -------------------------------------------- */
-
-/* -------------------------------------------- */
-/*  System Config Changes                       */
-/* -------------------------------------------- */

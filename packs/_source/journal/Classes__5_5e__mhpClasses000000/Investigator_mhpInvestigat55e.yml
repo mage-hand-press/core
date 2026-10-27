@@ -10,47 +10,6 @@ pages:
         value: >-
           <p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpClasInvestiga
           caption=false]</p>
-      value: >-
-        <p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpInvestigator0 caption=false
-        nameStyle=h1 no-toc]</p><h2>Paranormal Investigators</h2><p>There are forces more ancient
-        than time, foes more sinister than the foulest men, and beings more titanic than gods. The
-        world stands on a precipice of woe and terror, being threatened nightly by dark agents and
-        hordes of monsters. At risk to their own lives and sanities, investigators penetrate the
-        evil that creeps in the shadows and banish it from the world. Their battles are
-        never-ending, for victory only delays doomsday another night.</p><p>Investigators track
-        supernatural threats ranging from incorporeal spirits, to nefarious vampires and
-        lycanthropes, to incursions of demons and devils. Often in their investigations, they
-        uncover secret cults and maligned individuals who bring these supernatural threats to bear.
-        It is always their goal to impede these evildoers by any means necessary, resorting to
-        trickery, guile, magic, and bloodshed when necessary. To an investigator, no tactic is
-        unthinkable when the world is at stake.</p><h2>Exorcists and Occultists</h2><p>Even as they
-        strive to contain its influence from the world at large, investigators dabble in forbidden
-        magic to give themselves an edge against supernatural threats. Prepared investigators keep a
-        well-stocked grimoire of magical secrets, containing rituals, incantations, notes on
-        monsters’ powers and weaknesses, recipes for poisons, and arcane diagrams—everything needed
-        to confront their foes on an even footing. Even so, an investigator’s occupation is
-        perilous. A grimoire might spell out a vampire’s fear of sunlight and aversion to silver,
-        but it does little to hinder their fangs.</p><h2>Creating an Investigator</h2><p>As you
-        build your investigator, consider what sort of supernatural threat first drove you to
-        investigating and combating the occult. Did one of your family members strike a bargain with
-        a fiend? Were you kidnapped by a cabal of vampires or a pack of lycanthropes? Did you
-        stumble across evidence of an eldritch abomination, such as a Great Old One? The type of
-        creature you first did battle with likely shaped your tools and methods later on.</p><p>Did
-        you apprentice under a seasoned monster hunter, learning the ropes of tracking a threat,
-        uncovering its weaknesses, and setting a trap for it? Or did you strike out on your own,
-        compiling your own grimoire from hard-earned research? Perhaps you learned everything about
-        monster hunting from someone else’s grimoire, a masterwork containing an abridged library of
-        occult knowledge and a lifetime of experience. It’s even possible that you signed a contract
-        with a minor fiend and turned to supernatural investigation in a last-ditch effort to save
-        your soul.</p><h3>Quick Build</h3><p>Follow these suggestions to build an investigator
-        quickly: Intelligence should be your highest ability score, followed by Dexterity or
-        Strength. Then, select the rituals
-        <em>@UUID[Compendium.mage-hand-press-core.items-and-spells.Item.Pj4xWqizCYVDK1fb]{clue}</em>,
-        <em>@UUID[Compendium.dnd5e.spells.4dSvfvTy2ZIJ3K4k]{comprehend languages}</em>,
-        <em>@UUID[Compendium.dnd5e.spells.ghXTfe7sgCbgf1Q8]{detect magic}</em>, and
-        <em>@UUID[Compendium.mage-hand-press-core.items-and-spells.Item.LnYZNKo6l3meaWLe]{transient
-        bulwark}</em> to add to your grimoire. Finally, pick any background, preferably one that
-        relates to your experience with supernatural monsters and the occult.</p>
       item: Compendium.mage-hand-press-core.classes24.Item.mhpClasInvestiga
       style: ''
       subclassHeader: ''
@@ -97,7 +56,257 @@ pages:
           Ritual tag, and M means it requires a specific Material component.</p>
       spells:
         - Compendium.dnd5e.spells24.Item.phbsplAlarm00000
-      unlinkedSpells: []
+        - Compendium.dnd5e.spells24.Item.phbsplComprehend
+        - Compendium.dnd5e.spells24.Item.phbsplDetectEvil
+        - Compendium.dnd5e.spells24.Item.phbsplDetectMagi
+        - Compendium.dnd5e.spells24.Item.phbsplDetectPois
+        - Compendium.dnd5e.spells24.Item.phbsplDisguiseSe
+        - Compendium.dnd5e.spells24.Item.phbsplFindFamili
+        - Compendium.dnd5e.spells24.Item.phbsplTensersFlo
+        - Compendium.dnd5e.spells24.Item.phbsplFogCloud00
+        - Compendium.dnd5e.spells24.Item.phbsplHeroism000
+        - Compendium.dnd5e.spells24.Item.phbsplIdentify00
+        - Compendium.dnd5e.spells24.Item.phbsplIllusorySc
+        - Compendium.dnd5e.spells24.Item.phbEvilAndGoodPr
+        - Compendium.dnd5e.spells24.Item.phbsplPurifyFood
+        - Compendium.dnd5e.spells24.Item.phbsplSpeakwithA
+        - Compendium.dnd5e.spells24.Item.phbsplUnseenServ
+        - Compendium.dnd5e.spells24.Item.phbsplAnimalMess
+        - Compendium.dnd5e.spells24.Item.phbsplArcaneLock
+        - Compendium.dnd5e.spells24.Item.phbsplNystulsMag
+        - Compendium.dnd5e.spells24.Item.phbsplAugury0000
+        - Compendium.dnd5e.spells24.Item.phbsplDarkness00
+        - Compendium.dnd5e.spells24.Item.phbsplDarkvision
+        - Compendium.dnd5e.spells24.Item.phbsplGentleRepo
+        - Compendium.dnd5e.spells24.Item.phbsplKnock00000
+        - Compendium.dnd5e.spells24.Item.phbsplLocateAnim
+        - Compendium.dnd5e.spells24.Item.phbsplLocateObje
+        - Compendium.dnd5e.spells24.Item.phbsplMagicMouth
+        - Compendium.dnd5e.spells24.Item.phbsplProtection
+        - Compendium.dnd5e.spells24.Item.phbsplSeeInvisib
+        - Compendium.dnd5e.spells24.Item.phbsplSilence000
+        - Compendium.dnd5e.spells24.Item.phbsplSpiderClim
+        - Compendium.dnd5e.spells24.Item.phbsplZoneofTrut
+        - Compendium.dnd5e.spells24.Item.phbsplClairvoyan
+        - Compendium.dnd5e.spells24.Item.phbsplCreateFood
+        - Compendium.dnd5e.spells24.Item.phbsplDaylight00
+        - Compendium.dnd5e.spells24.Item.phbsplDispelMagi
+        - Compendium.dnd5e.spells24.Item.phbsplFly0000000
+        - Compendium.dnd5e.spells24.Item.phbsplMagicCircl
+        - Compendium.dnd5e.spells24.Item.phbsplMeldintoSt
+        - Compendium.dnd5e.spells24.Item.phbsplNondetecti
+        - Compendium.dnd5e.spells24.Item.phbsplPhantomSte
+        - Compendium.dnd5e.spells24.Item.phbsplRemoveCurs
+        - Compendium.dnd5e.spells24.Item.phbsplSending000
+        - Compendium.dnd5e.spells24.Item.phbsplSpeakwithD
+        - Compendium.dnd5e.spells24.Item.phbsplSpeakwithP
+        - Compendium.dnd5e.spells24.Item.phbsplTongues000
+        - Compendium.dnd5e.spells24.Item.phbsplWaterBreat
+        - Compendium.dnd5e.spells24.Item.phbsplWaterWalk0
+        - Compendium.dnd5e.spells24.Item.phbsplArcaneEye0
+        - Compendium.dnd5e.spells24.Item.phbsplDivination
+        - Compendium.dnd5e.spells24.Item.phbsplLocateCrea
+        - Compendium.dnd5e.spells24.Item.phbPrivateSanctu
+        - Compendium.dnd5e.spells24.Item.phbsplLeomundsSe
+        - Compendium.dnd5e.spells24.Item.phbsplCommune000
+        - Compendium.dnd5e.spells24.Item.phbsplCommunewit
+        - Compendium.dnd5e.spells24.Item.phbsplContactOth
+        - Compendium.dnd5e.spells24.Item.phbsplDream00000
+        - Compendium.dnd5e.spells24.Item.phbsplGeas000000
+        - Compendium.dnd5e.spells24.Item.phbsplLegendLore
+        - Compendium.dnd5e.spells24.Item.phbsplPlanarBind
+        - Compendium.dnd5e.spells24.Item.phbsplRarysTelep
+        - Compendium.dnd5e.spells24.Item.phbsplFindthePat
+        - Compendium.dnd5e.spells24.Item.phbsplForbiddanc
+        - Compendium.dnd5e.spells24.Item.phbsplDrawmijsIn
+      unlinkedSpells:
+        - _id: WF5iaamJKOPPOIxJ
+          identifier: bood-print
+          name: Bood Print
+          system:
+            level: 1
+            school: nec
+          source:
+            book: Complete Investigator
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-investigator.spells24.Item.mhpSpelBloodPrin
+        - _id: sdmvGX047heMeFJH
+          identifier: clue
+          name: Clue
+          system:
+            level: 1
+            school: div
+          source:
+            book: Complete Investigator
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-investigator.spells24.Item.mhpSpelClue00000
+        - _id: KD2HFklz4SkN1JY6
+          identifier: consecrated-armor
+          name: Consecrated Armor
+          system:
+            level: 1
+            school: abj
+          source:
+            book: Complete Investigator
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-investigator.spells24.Item.mhpSpelConsecArm
+        - _id: 4Q6aCeOkafnNXkPF
+          identifier: curse-ward
+          name: Curse Ward
+          system:
+            level: 1
+            school: abj
+          source:
+            book: Complete Investigator
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-investigator.spells24.Item.mhpSpelCurseWard
+        - _id: GRNqanCpbf1uB9CJ
+          identifier: memorize
+          name: Memorize
+          system:
+            level: 1
+            school: enc
+          source:
+            book: Complete Investigator
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-investigator.spells24.Item.mhpSpelMemorize0
+        - _id: 8JZqv7darLWqcyvi
+          identifier: rumor
+          name: Rumor
+          system:
+            level: 1
+            school: enc
+          source:
+            book: Complete Investigator
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-investigator.spells24.Item.mhpSpelRumor0000
+        - _id: gMDhCXZdKf7E7JBW
+          identifier: transient-bulwark
+          name: Transient Bulwark
+          system:
+            level: 1
+            school: abj
+          source:
+            book: Complete Investigator
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-investigator.spells24.Item.mhpSpelTransiBul
+        - _id: 3kxIxBwmcI0wSbY4
+          identifier: instant-reload
+          name: Jethro’s Instant Reload
+          system:
+            level: 2
+            school: con
+          source:
+            book: Complete Investigator
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-investigator.spells24.Item.mhpSpelJethroIns
+        - _id: iNBZFSn0n8ltccMF
+          identifier: nondescript
+          name: Nondescript
+          system:
+            level: 2
+            school: ill
+          source:
+            book: Complete Investigator
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-investigator.spells24.Item.mhpSpelNondescri
+        - _id: XFPgceHxaNKBBD95
+          identifier: protect-threshold
+          name: Protect Threshold
+          system:
+            level: 2
+            school: abj
+          source:
+            book: Complete Investigator
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-investigator.spells24.Item.mhpSpelProtecThr
+        - _id: VxbZfhdlGaCSyWKj
+          identifier: after-image
+          name: After Image
+          system:
+            level: 3
+            school: ill
+          source:
+            book: Complete Investigator
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-investigator.spells24.Item.mhpSpelAfterImag
+        - _id: 0NMZbT1SBL4hB84F
+          identifier: benign-dismemberment
+          name: Benign Dismemberment
+          system:
+            level: 3
+            school: nec
+          source:
+            book: Complete Investigator
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-investigator.spells24.Item.mhpSpelBenignDis
+        - _id: Q3GPASaQ7vKJTaka
+          identifier: seance
+          name: Séance
+          system:
+            level: 3
+            school: nec
+          source:
+            book: Complete Investigator
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-investigator.spells24.Item.mhpSpelSeance000
+        - _id: lD48IpWzY9AqB1lS
+          identifier: dire-warning
+          name: Dire Warning
+          system:
+            level: 4
+            school: div
+          source:
+            book: Complete Investigator
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-investigator.spells24.Item.mhpSpelDireWarni
+        - _id: RoNpf6jhV6nmKi0N
+          identifier: invisibility-purge
+          name: Invisibility Purge
+          system:
+            level: 4
+            school: ill
+          source:
+            book: Complete Investigator
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-investigator.spells24.Item.mhpSpelInvisiPur
+        - _id: 369sJJXOAHe0qlLv
+          identifier: scrutinize-foe
+          name: Scrutinize Foe
+          system:
+            level: 4
+            school: div
+          source:
+            book: Complete Investigator
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-investigator.spells24.Item.mhpSpelScrutiFoe
+        - _id: 5CKOjwUpTah8KNlJ
+          name: Game of Fate
+          system:
+            level: 6
+            school: enc
+          source:
+            book: Complete Investigator
+            page: ''
+            custom: ''
+            uuid: Compendium.mage-hand-press-complete-investigator.spells24.Item.mhpSpelGameFate0
+          identifier: game-of-fate
       identifier: investigator
     title:
       show: true
@@ -118,7 +327,7 @@ pages:
       systemId: dnd5e
       systemVersion: 6.1.0
       createdTime: 1793127041021
-      modifiedTime: 1793127069132
+      modifiedTime: 1793131862716
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null
