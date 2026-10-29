@@ -1,0 +1,683 @@
+_id: mhpClasAlchemist
+name: Alchemist
+type: class
+img: modules/mage-hand-press-valdas-spire-of-secrets/assets/options/alchemist.webp
+effects: []
+folder: 5VOvs9ag3SPChSrA
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Whether their methods are explosive, transformative, or restorative, Alchemists transmute
+      the world around them to their liking.</p><h3>Explosive Reactions</h3><p>One of the first
+      things an Alchemist learns is which chemicals react explosively with one other. Ostensibly,
+      this is to prevent deadly accidents, but adventuring Alchemists regularly apply this knowledge
+      to create Bombs.</p><p>An alchemical bomb is a one-pound, apple-sized, spherical glass or clay
+      flask filled with a reactive chemical. A smaller vial of thin glass containing a reagent is
+      suspended in the liquid, and the whole thing is sealed with a cork or wax seal. When the inner
+      vial breaks, usually on impact, the chemicals react with a violent explosion. With
+      experimentation, an Alchemist can even infuse these explosions with elemental fire, lightning,
+      or frost.</p><h3>Serums and Tinctures</h3><p>Experienced Alchemists learn to brew potions,
+      alchemical concoctions that replicate magical effects. These range from the medicinal, such as
+      <em>Potions of Healing</em>, to the transformative, such as <em>Potions of Gaseous Form</em>.
+      Undisputed masters of potion-brewing, an adventuring Alchemist should have a surplus of
+      potions to distribute among their allies.</p><h3>Elemental Sciences</h3><p>The source of
+      alchemy’s power is the Elemental Planes. Therefore, it is no surprise that Alchemists strive
+      to tap deeper into that power, researching and discovering new elemental compounds. The
+      pinnacle of alchemy is the Philosopher’s Stone, which is rumored to grant its bearer supreme
+      command of the elements. Few Alchemists have succeeded in creating a Philosopher’s Stone, and
+      fewer still remain alive to divulge its secrets.</p><p
+      class="hide-in-embed"><em>@UUID[Compendium.mage-hand-press-core.journal.JournalEntry.mhpAlchemist5e00.JournalEntryPage.mhpAlchemist0000]{Class
+      Details}</em></p><h3>Becoming an Alchemist…</h3><h4>As a Level 1 Character</h4><ul><li><p>Gain
+      all the traits in the Core Alchemist Traits table.</p></li><li><p>Gain the Alchemist’s level 1
+      features, which are listed in the Alchemist Features table.</p></li></ul><h4>As a Multiclass
+      Character</h4><ul><li><p>Gain the following traits from the Core Alchemist Traits table: Hit
+      Point Die, proficiency in one skill of your choice from the Alchemist’s skill list,
+      proficiency with Alchemist’s Supplies, and training with Light armor.</p></li><li><p>Gain the
+      Alchemist’s level 1 features, which are listed in the Alchemist Features table.</p></li></ul>
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Alchemist
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: alchemist
+  levels: 1
+  advancement:
+    dyaph2dwju9uwd4l:
+      _id: dyaph2dwju9uwd4l
+      type: HitPoints
+      configuration: {}
+      value: {}
+      flags: {}
+      hint: ''
+    OavVTU9P0mdtyvhy:
+      _id: OavVTU9P0mdtyvhy
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            sort: 100000
+            uuid: Compendium.mage-hand-press-core.classes24.Item.mhpAlchPotionBre
+          - optional: false
+            sort: -100000
+            uuid: Compendium.mage-hand-press-core.classes24.Item.mhpAlchBombs0000
+          - optional: false
+            sort: 0
+            uuid: Compendium.mage-hand-press-core.classes24.Item.mhpAlchReagents0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+        sorting: m
+      value: {}
+      level: 1
+      flags: {}
+      hint: ''
+      classRestriction: ''
+      name: ''
+    FcWITjVh8WG5xvyH:
+      _id: FcWITjVh8WG5xvyH
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            sort: -50000
+            uuid: Compendium.mage-hand-press-core.classes24.Item.mhpAlchPrimeBomb
+          - optional: false
+            sort: 50000
+            uuid: Compendium.mage-hand-press-core.classes24.Item.mhpAlchBombFormu
+          - optional: false
+            sort: 100000
+            uuid: Compendium.mage-hand-press-core.classes24.Item.mhpAlchReagenSyn
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+        sorting: m
+      value: {}
+      level: 2
+      flags: {}
+      hint: ''
+      classRestriction: ''
+      name: ''
+    X40xTi46evs2ppEH:
+      _id: X40xTi46evs2ppEH
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            sort: -100000
+            uuid: Compendium.mage-hand-press-core.classes24.Item.mhpAlchDiscovery
+          - optional: false
+            sort: 0
+            uuid: Compendium.mage-hand-press-core.classes24.Item.mhpAlchImprovBom
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+        sorting: m
+      value: {}
+      level: 5
+      flags: {}
+      hint: ''
+      classRestriction: ''
+      name: ''
+    djGAM2EXRCfm8jnX:
+      _id: djGAM2EXRCfm8jnX
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.mage-hand-press-core.classes24.Item.mhpAlchEvasion00
+            optional: false
+            sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+        sorting: m
+      value: {}
+      level: 7
+      flags: {}
+      hint: ''
+      classRestriction: ''
+      name: ''
+    Fe6af0wGFATboHGV:
+      _id: Fe6af0wGFATboHGV
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.mage-hand-press-core.classes24.Item.mhpAlchBlastCoat
+            optional: false
+            sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+        sorting: m
+      value: {}
+      level: 11
+      flags: {}
+      hint: ''
+      classRestriction: ''
+      name: ''
+    MkR034b8YDWxgW3d:
+      _id: MkR034b8YDWxgW3d
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            sort: -100000
+            uuid: Compendium.mage-hand-press-core.classes24.Item.mhpAlchPhilosSto
+          - optional: false
+            sort: 0
+            uuid: Compendium.mage-hand-press-core.classes24.Item.mhpAlchNucleaBom
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+        sorting: m
+      value: {}
+      level: 20
+      flags: {}
+      hint: ''
+      classRestriction: ''
+      name: Class Features
+    tWl0JgPD98ugsRik:
+      _id: tWl0JgPD98ugsRik
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value:
+        type: asi
+      level: 4
+      flags: {}
+      hint: ''
+      name: ''
+    K6zYyVDySCAqlcOr:
+      _id: K6zYyVDySCAqlcOr
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value:
+        type: asi
+      level: 8
+      flags: {}
+      hint: ''
+      name: ''
+    lEJWUVHxBVgZjvKx:
+      _id: lEJWUVHxBVgZjvKx
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value:
+        type: asi
+      level: 12
+      flags: {}
+      hint: ''
+      name: ''
+    ptkMxrRQ4elXM9eh:
+      _id: ptkMxrRQ4elXM9eh
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value:
+        type: asi
+      level: 16
+      flags: {}
+      hint: ''
+      name: ''
+    CxqveybmEFVWJhGk:
+      _id: CxqveybmEFVWJhGk
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value:
+        type: asi
+      level: 19
+      flags: {}
+      hint: ''
+      name: ''
+    3cGXq3IS6HrEFdSM:
+      _id: 3cGXq3IS6HrEFdSM
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - armor:lgt
+        choices: []
+      level: 1
+      classRestriction: ''
+      value: {}
+      flags: {}
+      hint: ''
+      name: ''
+      img: null
+    v9AdF3ZV8hjs6PII:
+      _id: v9AdF3ZV8hjs6PII
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - weapon:sim
+        choices: []
+      level: 1
+      classRestriction: primary
+      value: {}
+      flags: {}
+      hint: ''
+      name: ''
+      img: null
+    uqID3TNMehFunN7e:
+      _id: uqID3TNMehFunN7e
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - saves:dex
+          - saves:int
+        choices: []
+      level: 1
+      classRestriction: primary
+      value: {}
+      flags: {}
+      hint: ''
+      name: ''
+      img: null
+    nZtnNdqZsS6KEFIG:
+      _id: nZtnNdqZsS6KEFIG
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          - count: 3
+            pool:
+              - skills:arc
+              - skills:his
+              - skills:ins
+              - skills:med
+              - skills:nat
+              - skills:prc
+              - skills:slt
+              - skills:sur
+      level: 1
+      classRestriction: primary
+      value: {}
+      flags: {}
+      hint: ''
+      name: ''
+      img: null
+    XEzly4vuiMxeepvb:
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - tool:art:alchemist
+        choices: []
+      level: 1
+      classRestriction: ''
+      flags: {}
+      hint: ''
+      name: ''
+      img: null
+      _id: XEzly4vuiMxeepvb
+      value: {}
+    r14jXuQvnhIVaNrR:
+      name: ''
+      type: Subclass
+      _id: r14jXuQvnhIVaNrR
+      configuration: {}
+      flags: {}
+      value:
+        document: null
+        uuid: null
+      level: 3
+      hint: >-
+        <p>You gain an Alchemist subclass of your choice. A subclass is a specialization that grants
+        you features at certain Alchemist levels. For the rest of your career, you gain each of your
+        subclass’s features that are of your Alchemist level or lower.</p>
+      classRestriction: ''
+    IiiW5ynE4JLjewLh:
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          - count: 1
+            pool:
+              - skills:arc
+              - skills:his
+              - skills:ins
+              - skills:med
+              - skills:nat
+              - skills:prc
+              - skills:slt
+              - skills:sur
+      level: 1
+      classRestriction: secondary
+      flags: {}
+      hint: ''
+      name: ''
+      img: null
+      _id: IiiW5ynE4JLjewLh
+    bTAC5JHmWqhN0NLM:
+      name: Bomb Damage
+      type: ScaleValue
+      _id: bTAC5JHmWqhN0NLM
+      configuration:
+        identifier: bomb
+        type: dice
+        distance:
+          units: ''
+        scale:
+          '1':
+            number: 1
+            faces: 10
+          '5':
+            number: 2
+          '11':
+            number: 3
+          '17':
+            number: 4
+      flags: {}
+      value: {}
+      hint: ''
+      classRestriction: ''
+    idEZPyHydWUqx1Cu:
+      name: Prime Bomb
+      type: ScaleValue
+      _id: idEZPyHydWUqx1Cu
+      configuration:
+        identifier: prime
+        type: number
+        distance:
+          units: ''
+        scale:
+          '1':
+            value: 1
+          '5':
+            value: 2
+          '9':
+            value: 3
+          '13':
+            value: 4
+          '17':
+            value: 5
+      flags: {}
+      value: {}
+      hint: ''
+      classRestriction: ''
+    RUAZNR3gD1NyX3LP:
+      name: Reagents
+      type: ScaleValue
+      _id: RUAZNR3gD1NyX3LP
+      configuration:
+        identifier: reagents
+        type: number
+        distance:
+          units: ''
+        scale:
+          '1':
+            value: 2
+          '2':
+            value: 4
+          '3':
+            value: 6
+          '4':
+            value: 8
+          '5':
+            value: 10
+          '6':
+            value: 12
+          '7':
+            value: 14
+          '8':
+            value: 16
+          '9':
+            value: 18
+          '10':
+            value: 20
+          '11':
+            value: 22
+          '12':
+            value: 24
+          '13':
+            value: 26
+          '14':
+            value: 28
+          '15':
+            value: 30
+          '16':
+            value: 32
+          '17':
+            value: 34
+          '18':
+            value: 36
+          '19':
+            value: 38
+          '20':
+            value: 40
+      flags: {}
+      value: {}
+      hint: ''
+      classRestriction: ''
+    w1QOd4BREAYGVkns:
+      name: Formulas
+      type: ScaleValue
+      _id: w1QOd4BREAYGVkns
+      configuration:
+        identifier: formulas
+        type: number
+        distance:
+          units: ''
+        scale:
+          '2':
+            value: 3
+          '4':
+            value: 4
+          '8':
+            value: 5
+          '12':
+            value: 6
+          '16':
+            value: 7
+          '19':
+            value: 8
+      flags: {}
+      value: {}
+      hint: ''
+      classRestriction: ''
+    vtpZ9UZiZ3RnpPzO:
+      name: ''
+      type: ItemGrant
+      _id: vtpZ9UZiZ3RnpPzO
+      configuration:
+        items:
+          - uuid: Compendium.mage-hand-press-core.classes24.Item.mhpAlchPotionMix
+            optional: false
+            sort: 0
+        optional: false
+        sorting: m
+        spell: null
+      flags: {}
+      value: {}
+      level: 15
+      hint: ''
+      classRestriction: ''
+    dYi52VQ2uvnyMsLx:
+      name: ''
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.mage-hand-press-core.classes24.Item.mhpAlchExperimen
+            optional: false
+            sort: 0
+        optional: false
+        sorting: m
+        spell: null
+      flags: {}
+      value: {}
+      level: 18
+      hint: ''
+      classRestriction: ''
+      _id: dYi52VQ2uvnyMsLx
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+  hd:
+    denomination: d8
+    spent: 0
+    additional: ''
+  startingEquipment:
+    - type: AND
+      requiresProficiency: false
+      _id: nL83q98k3uCWjfQP
+      group: ''
+      sort: 0
+    - type: linked
+      count: 2
+      key: Compendium.dnd5e.items.Item.0E565kQUBmndJ1a2
+      requiresProficiency: false
+      _id: Zfi8JgRxRndl6Bv4
+      group: nL83q98k3uCWjfQP
+      sort: 1550000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.WwdpHLXGX5r8uZu5
+      requiresProficiency: false
+      _id: 8iWjQcBY4Tkl5sXx
+      group: nL83q98k3uCWjfQP
+      sort: 1600000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.SztwZhbhZeCqyAes
+      requiresProficiency: false
+      _id: PtZjNnOTGaxzH5wf
+      group: nL83q98k3uCWjfQP
+      sort: 1700000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.FvNOwWbh5FXyX4xe
+      requiresProficiency: false
+      _id: slegdn6dsm8cLw8V
+      group: nL83q98k3uCWjfQP
+      sort: 1800000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.UOE8RGOpgv2oWIvM
+      requiresProficiency: false
+      _id: LW4kwWBPWrcXfvAc
+      group: nL83q98k3uCWjfQP
+      sort: 1900000
+    - type: currency
+      count: 6
+      key: gp
+      requiresProficiency: false
+      _id: dhFo0qUhmuyj1gKJ
+      group: nL83q98k3uCWjfQP
+      sort: 2000000
+  primaryAbility:
+    value:
+      - dex
+      - int
+    all: true
+  properties: []
+  wealth: '160'
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.1.0
+  coreVersion: '14.369'
+  createdTime: 1789769322644
+  modifiedTime: 1793310413554
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+sort: 100000
+ownership:
+  default: 0
+_key: '!items!mhpClasAlchemist'

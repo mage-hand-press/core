@@ -1,0 +1,50 @@
+_id: mhpAlchPotionBre
+name: Potion Brewing
+type: feat
+img: icons/skills/toxins/bottle-open-vapors-pink.webp
+effects: []
+folder: r0eou6m5MnSc20hD
+flags: {}
+system:
+  description:
+    value: <p></p><p></p><p></p><p></p>
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Alchemist
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2024'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Alchemist
+  properties: []
+  activities: {}
+  advancement: {}
+  identifier: potion-brewing
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.1.0
+  coreVersion: '14.369'
+  createdTime: 1793310413082
+  modifiedTime: 1793310413083
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+_key: '!items!mhpAlchPotionBre'

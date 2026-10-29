@@ -344,7 +344,7 @@ system:
       value: {}
       flags: {}
       hint: ''
-      name: Armor
+      name: ''
       img: null
     v9AdF3ZV8hjs6PII:
       _id: v9AdF3ZV8hjs6PII
@@ -360,7 +360,7 @@ system:
       value: {}
       flags: {}
       hint: ''
-      name: Weapons
+      name: ''
       img: null
     XpyuJ3QunmgBGjg7:
       _id: XpyuJ3QunmgBGjg7
@@ -377,7 +377,7 @@ system:
       value: {}
       flags: {}
       hint: ''
-      name: Tools
+      name: ''
       img: null
     uqID3TNMehFunN7e:
       _id: uqID3TNMehFunN7e
@@ -394,7 +394,7 @@ system:
       value: {}
       flags: {}
       hint: ''
-      name: Saving Throws
+      name: ''
       img: null
     nZtnNdqZsS6KEFIG:
       _id: nZtnNdqZsS6KEFIG
@@ -419,7 +419,7 @@ system:
       value: {}
       flags: {}
       hint: ''
-      name: Skills
+      name: ''
       img: null
     XEzly4vuiMxeepvb:
       type: Trait
@@ -433,7 +433,7 @@ system:
       classRestriction: secondary
       flags: {}
       hint: ''
-      name: Tools
+      name: ''
       img: null
       _id: XEzly4vuiMxeepvb
       value: {}
@@ -686,7 +686,7 @@ _stats:
   systemVersion: 6.1.0
   coreVersion: '14.369'
   createdTime: 1789769322644
-  modifiedTime: 1793053315559
+  modifiedTime: 1793308578889
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

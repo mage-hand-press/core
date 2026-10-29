@@ -1,0 +1,93 @@
+_id: mhpAlchBombFormu
+name: Bomb Formulas
+type: feat
+img: icons/skills/toxins/symbol-poison-drop-skull-green.webp
+effects: []
+folder: r0eou6m5MnSc20hD
+flags: {}
+system:
+  description:
+    value: <p></p><p></p><p></p>
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Alchemist
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Alchemist
+  properties: []
+  identifier: bomb-formulas
+  activities: {}
+  advancement:
+    OtWUUkH0jZcoIBiD:
+      _id: OtWUUkH0jZcoIBiD
+      type: ItemChoice
+      configuration:
+        choices:
+          '2':
+            count: 3
+            replacement: false
+          '4':
+            count: 1
+            replacement: false
+          '8':
+            count: 1
+            replacement: false
+          '12':
+            count: 1
+            replacement: false
+          '16':
+            count: 1
+            replacement: false
+          '19':
+            count: 1
+            replacement: false
+        allowDrops: true
+        type: feat
+        pool: []
+        spell: null
+        restriction:
+          list: []
+          type: enchantment
+          subtype: bombFormula
+          school: []
+        sorting: a
+      value:
+        added: {}
+        replaced: {}
+      hint: ''
+      flags: {}
+      classRestriction: ''
+      name: Choose Formulas
+      img: null
+  enchant:
+    max: ''
+    period: ''
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 2
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.1.0
+  coreVersion: '14.369'
+  createdTime: 1789769323110
+  modifiedTime: 1793309265547
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+_key: '!items!mhpAlchBombFormu'

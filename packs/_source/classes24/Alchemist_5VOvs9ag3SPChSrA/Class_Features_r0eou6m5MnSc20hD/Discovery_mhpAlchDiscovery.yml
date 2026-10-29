@@ -1,0 +1,121 @@
+_id: mhpAlchDiscovery
+name: Discovery
+type: feat
+img: icons/sundries/books/book-embossed-gold-red.webp
+effects: []
+folder: r0eou6m5MnSc20hD
+flags: {}
+system:
+  description:
+    value: <p></p><p></p>
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Alchemist
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Alchemist
+  properties: []
+  identifier: discovery
+  activities: {}
+  advancement:
+    KR38Sdc1BcSbMdhf:
+      _id: KR38Sdc1BcSbMdhf
+      type: ItemChoice
+      configuration:
+        choices:
+          '5':
+            count: 1
+            replacement: false
+          '6':
+            count: null
+            replacement: true
+          '7':
+            count: null
+            replacement: true
+          '8':
+            count: null
+            replacement: true
+          '9':
+            count: 1
+            replacement: true
+          '10':
+            count: null
+            replacement: true
+          '11':
+            count: null
+            replacement: true
+          '12':
+            count: null
+            replacement: true
+          '13':
+            count: 1
+            replacement: true
+          '14':
+            count: null
+            replacement: true
+          '15':
+            count: null
+            replacement: true
+          '16':
+            count: null
+            replacement: true
+          '17':
+            count: 1
+            replacement: true
+          '18':
+            count: null
+            replacement: true
+          '19':
+            count: null
+            replacement: true
+          '20':
+            count: null
+            replacement: true
+        allowDrops: true
+        type: feat
+        pool: []
+        spell: null
+        restriction:
+          list: []
+          type: class
+          subtype: discovery
+          school: []
+        sorting: a
+      value:
+        added: {}
+        replaced: {}
+      hint: <p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpAlchDiscoveri inline]</p>
+      flags: {}
+      classRestriction: ''
+      name: Choose Discovery
+      img: null
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 5
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.1.0
+  coreVersion: '14.369'
+  createdTime: 1793310413287
+  modifiedTime: 1793310413288
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+_key: '!items!mhpAlchDiscovery'

@@ -1,0 +1,49 @@
+folder: QP5gQCeH1KDXj4A6
+name: Fear Bomb
+type: feat
+_id: mhpFormFearBomb0
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: ''
+    chat: ''
+  identifier: fear-bomb
+  source:
+    revision: 1
+    rules: '2024'
+    book: Complete Alchemist
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: Alchemist
+  type:
+    value: class
+    subtype: bombFormula
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: dnd5e
+  systemVersion: 6.1.0
+  createdTime: 1793310378479
+  modifiedTime: 1793310378479
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!mhpFormFearBomb0'

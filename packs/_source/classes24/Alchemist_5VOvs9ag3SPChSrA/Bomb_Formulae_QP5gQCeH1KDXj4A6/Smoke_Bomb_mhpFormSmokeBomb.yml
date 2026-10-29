@@ -1,0 +1,249 @@
+_id: mhpFormSmokeBomb
+name: Smoke Bomb
+type: feat
+img: icons/commodities/materials/glass-orb.webp
+effects:
+  - type: enchantment
+    name: Smoke Bomb
+    img: icons/commodities/materials/glass-orb.webp
+    disabled: true
+    transfer: false
+    _id: m9DUmBi96qNVPD3y
+    system:
+      changes:
+        - key: name
+          type: override
+          value: Smoke Bomb
+          phase: initial
+          _id: Mkb6O7L3sYIkvC4X
+          conditions: '{}'
+          replacement: ''
+          priority: null
+        - key: system.description.value
+          type: override
+          value: >-
+            {}<hr><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpSmokeBomb0000
+            inline]</p>
+          phase: initial
+          _id: HRyGbVHbSynzaTJX
+          conditions: '{}'
+          replacement: ''
+          priority: null
+      origin:
+        actor: null
+        behavior: null
+        effect: null
+        item: null
+        message: null
+      magical: true
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.3
+      createdTime: 1790025415780
+      modifiedTime: 1790025436801
+      lastModifiedBy: magehandpress000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!mhpFormSmokeBomb.m9DUmBi96qNVPD3y'
+folder: QP5gQCeH1KDXj4A6
+flags:
+  dnd5e:
+    riders:
+      activity:
+        - EuVPEjw9FibchX1S
+system:
+  description:
+    value: >-
+      <p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpSmokeBomb0000
+      inline]</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Alchemist
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: enchantment
+    subtype: bombFormula
+  requirements: Alchemist
+  properties: []
+  activities:
+    jIXWNNynlaMFGdaM:
+      type: mage-hand-press-core.primeBomb
+      name: ''
+      img: ''
+      sort: -100000
+      activation:
+        type: action
+        override: false
+        condition: ''
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects:
+        - _id: m9DUmBi96qNVPD3y
+          uuid: null
+          level:
+            min: null
+            max: null
+          riders:
+            activity:
+              - EuVPEjw9FibchX1S
+            effect: []
+            item: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: object
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      enchant:
+        self: false
+      restrictions:
+        allowMagical: false
+        categories: []
+        properties: []
+        type: weapon
+      _id: jIXWNNynlaMFGdaM
+    EuVPEjw9FibchX1S:
+      type: utility
+      name: Throw
+      _id: EuVPEjw9FibchX1S
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: round
+        expiry: null
+        concentration: false
+        override: false
+        value: max(1, @abilities.int.mod)
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: sphere
+          size: '7.5'
+          count: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+  advancement: {}
+  identifier: smoke-bomb
+  enchant:
+    max: ''
+    period: ''
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 2
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.0.3
+  coreVersion: '14.367'
+  createdTime: 1789769436910
+  modifiedTime: 1790095459438
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+_key: '!items!mhpFormSmokeBomb'

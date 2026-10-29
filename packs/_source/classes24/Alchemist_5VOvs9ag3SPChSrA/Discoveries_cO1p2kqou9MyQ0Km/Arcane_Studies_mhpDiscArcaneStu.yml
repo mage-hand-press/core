@@ -1,0 +1,84 @@
+_id: mhpDiscArcaneStu
+name: Arcane Studies
+type: feat
+img: icons/skills/trades/academics-book-study-runes.webp
+effects: []
+folder: cO1p2kqou9MyQ0Km
+flags: {}
+system:
+  description:
+    value: ''
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Alchemist
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: discovery
+  requirements: ''
+  properties: []
+  identifier: arcane-studies
+  activities: {}
+  advancement:
+    T1x93bihXjTLqXig:
+      name: ''
+      type: ItemChoice
+      _id: T1x93bihXjTLqXig
+      configuration:
+        allowDrops: true
+        choices:
+          '0':
+            count: 3
+            replacement: false
+        pool: []
+        restriction:
+          list:
+            - class:wizard
+          school: []
+          level: '0'
+        sorting: a
+        spell:
+          ability:
+            - int
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+        type: spell
+      flags: {}
+      value:
+        added: {}
+        replaced: {}
+      hint: >-
+        <p>You learn three cantrips of your choice from the wizard spell list. Intelligence is your
+        spellcasting ability for your wizard spells.</p>
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.1.0
+  coreVersion: '14.369'
+  createdTime: 1789769388570
+  modifiedTime: 1793310079876
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+sort: 100000
+ownership:
+  default: 0
+_key: '!items!mhpDiscArcaneStu'

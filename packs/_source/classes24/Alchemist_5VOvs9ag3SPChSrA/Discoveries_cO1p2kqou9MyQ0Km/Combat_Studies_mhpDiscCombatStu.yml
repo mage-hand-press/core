@@ -1,0 +1,45 @@
+folder: cO1p2kqou9MyQ0Km
+name: Combat Studies
+type: feat
+_id: mhpDiscCombatStu
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: <p></p><p></p><p></p><p></p>
+    chat: ''
+  identifier: combat-studies
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: discovery
+effects: []
+sort: 1600000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: dnd5e
+  systemVersion: 6.1.0
+  createdTime: 1793310346994
+  modifiedTime: 1793310346994
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!mhpDiscCombatStu'

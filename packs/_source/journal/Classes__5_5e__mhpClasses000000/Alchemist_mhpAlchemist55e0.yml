@@ -1,0 +1,134 @@
+folder: mhpClasses000000
+name: Alchemist
+pages:
+  - sort: 0
+    name: Alchemist
+    type: class
+    _id: mhpAlchemist0000
+    system:
+      item: ''
+      description:
+        value: >-
+          <p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpClasAlchemist
+          caption=false]</p><h2></h2>
+        additionalHitPoints: ''
+        additionalTraits: ''
+        additionalEquipment: ''
+        subclass: ''
+      subclassItems: []
+      style: ''
+      subclassHeader: ''
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags:
+      dnd5e:
+        title: Class Features
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.3
+      createdTime: 1777925304123
+      modifiedTime: 1789757340989
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpAlchemist55e0.mhpAlchemist0000'
+  - sort: 500000
+    name: Bomb Formulae
+    type: text
+    _id: mhpBombFormulae0
+    system: {}
+    title:
+      show: false
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: <h1 data-no-toc class="subchapter">Bomb Formulae</h1><p></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      createdTime: 1777925453606
+      modifiedTime: 1789757348920
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpAlchemist55e0.mhpBombFormulae0'
+  - sort: 600000
+    name: Discoveries
+    type: text
+    _id: mhpDiscoveries00
+    system: {}
+    title:
+      show: false
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: <h1 data-no-toc class="subchapter">Discoveries</h1><p></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      createdTime: 1777925554198
+      modifiedTime: 1789757355761
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpAlchemist55e0.mhpDiscoveries00'
+flags:
+  core:
+    sheetClass: mage-hand-press-valdas-spire-of-secrets.ValdasJournalEntrySheet
+  dnd5e:
+    type: chapter
+    navigation:
+      up: mhpChapter2Intro
+      next: mhpCaptain000000
+    position: 1
+    title: Alchemist (5.5e)
+  mage-hand-press-core:
+    cssClasses:
+      - accent-yellow
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.0.3
+  coreVersion: '14.367'
+  createdTime: 1777417736592
+  modifiedTime: 1789757597525
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_id: mhpAlchemist55e0
+sort: 200000
+ownership:
+  default: 0
+categories: []
+_key: '!journal!mhpAlchemist55e0'

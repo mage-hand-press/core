@@ -1,0 +1,50 @@
+_id: mhpDiscPrecisExp
+name: Precision Explosives
+type: feat
+img: icons/skills/targeting/crosshair-triple-strike-orange.webp
+effects: []
+folder: cO1p2kqou9MyQ0Km
+flags: {}
+system:
+  description:
+    value: ''
+    chat: ''
+  source:
+    custom: ''
+    book: Complete Alchemist
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  cover: null
+  crewed: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: discovery
+  requirements: ''
+  properties: []
+  identifier: precision-explosives
+  activities: {}
+  advancement: {}
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+_stats:
+  systemId: dnd5e
+  systemVersion: 6.1.0
+  coreVersion: '14.369'
+  createdTime: 1789769389939
+  modifiedTime: 1793310137429
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+sort: 700000
+ownership:
+  default: 0
+_key: '!items!mhpDiscPrecisExp'
