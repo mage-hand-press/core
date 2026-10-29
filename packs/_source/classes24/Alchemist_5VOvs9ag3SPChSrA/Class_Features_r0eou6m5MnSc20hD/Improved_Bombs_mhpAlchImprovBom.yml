@@ -2,7 +2,7 @@ folder: r0eou6m5MnSc20hD
 name: Improved Bombs
 type: feat
 _id: mhpAlchImprovBom
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/fire/explosion-fireball-large-red-orange.webp
 system:
   activities: {}
   uses:
@@ -11,7 +11,10 @@ system:
     max: ''
   advancement: {}
   description:
-    value: ''
+    value: >-
+      <p>Once per turn when you deal damage with a Bomb, you can improve its damage dice to 2d10.
+      This damage further improves at certain Alchemist levels as shown in the Bomb Damage column of
+      the Alchemist Features table.</p>
     chat: ''
   identifier: improved-bombs
   source:
@@ -42,7 +45,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 6.1.0
   createdTime: 1793310413307
-  modifiedTime: 1793310413307
+  modifiedTime: 1793311538461
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

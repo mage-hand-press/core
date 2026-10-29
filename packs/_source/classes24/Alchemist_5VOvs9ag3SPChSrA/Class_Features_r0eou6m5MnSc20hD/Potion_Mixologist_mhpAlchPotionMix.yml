@@ -2,16 +2,76 @@ folder: r0eou6m5MnSc20hD
 name: Potion Mixologist
 type: feat
 _id: mhpAlchPotionMix
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/consumables/potions/potion-round-stopped-yellow-green.webp
 system:
-  activities: {}
+  activities:
+    NJtusKrwaCxxjfPs:
+      type: utility
+      name: Mix
+      _id: NJtusKrwaCxxjfPs
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
   uses:
     spent: 0
     recovery: []
     max: ''
   advancement: {}
   description:
-    value: ''
+    value: >-
+      <p>You can mix two potions together and drink them as a Bonus Action, gaining the effects of
+      both. You suffer no unexpected effects from mixing potions.</p>
     chat: ''
   identifier: potion-mixologist
   source:
@@ -42,7 +102,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 6.1.0
   createdTime: 1793310413456
-  modifiedTime: 1793310413456
+  modifiedTime: 1793311626818
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

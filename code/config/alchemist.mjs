@@ -12,10 +12,12 @@ export function initialize() {
 
 	Object.assign(CONFIG.DND5E.featureTypes.class.subtypes, featureTypes.class);
 	Object.assign(CONFIG.DND5E.featureTypes.enchantment.subtypes, featureTypes.enchantment);
+	Object.assign(CONFIG.DND5E.weaponMasteries, weaponMasteries);
 
 	if ( dnd5e.settings.rulesVersion === "modern" ) {
 		Object.assign(CONFIG.DND5E.itemProperties, itemPropertiesModern);
 		validPropertiesModern.weapon.forEach(p => CONFIG.DND5E.validProperties.weapon.add(p));
+		Object.assign(CONFIG.DND5E.weaponIds, weaponIdsModern);
 	} else {
 		Object.assign(CONFIG.DND5E.weaponIds, weaponIdsLegacy);
 	}
@@ -53,10 +55,6 @@ const itemPropertiesModern = {
 	destructible: {
 		label: "MageHandPress.Properties.Destructible",
 		reference: "Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpDestructible0"
-	},
-	explode: {
-		label: "MageHandPress.Properties.Explode",
-		reference: "Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpExplode000000"
 	}
 };
 
@@ -64,7 +62,7 @@ const itemPropertiesModern = {
 
 /** @inheritDoc */
 const validPropertiesModern = {
-	weapon: ["destructible", "explode"]
+	weapon: ["destructible"]
 };
 
 /* -------------------------------------------- */
@@ -72,6 +70,23 @@ const validPropertiesModern = {
 /** @inheritDoc */
 const weaponIdsLegacy = {
 	bomb: "Compendium.mage-hand-press-core.equipment14.Item.mhpWeapBomb00000"
+};
+
+/* -------------------------------------------- */
+
+/** @inheritDoc */
+const weaponIdsModern = {
+	bomb: "Compendium.mage-hand-press-core.equipment24.Item.mhpWeapBomb00000"
+};
+
+/* -------------------------------------------- */
+
+/** @inheritDoc */
+const weaponMasteries = {
+	explode: {
+		label: "MageHandPress.Properties.Explode",
+		reference: "Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpExplode000000"
+	}
 };
 
 /* -------------------------------------------- */

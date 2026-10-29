@@ -7,7 +7,19 @@ folder: r0eou6m5MnSc20hD
 flags: {}
 system:
   description:
-    value: <p></p><p></p><p></p>
+    value: >-
+      <p>Your research has uncovered new formulations for your Bombs that you can apply just before
+      throwing them. Choose three Bomb Formulas from the “Bomb Formula Options” section later in
+      this class’s description.</p><p><em><strong>Replacing and Gaining Formulas.</strong></em> When
+      you reach certain Alchemist levels, you learn additional formulas of your choice, as shown in
+      the Formulas column of the Alchemist Features table. Additionally, whenever you finish a Long
+      Rest, you can replace one of your Bomb Formulas with another formula of your choice. If
+      another Alchemist feature gives you a Bomb Formula, it doesn’t count against your number of
+      formulas.</p><p><em><strong>Applying Bomb Formulas.</strong></em> Once per turn when you
+      attack with a Bomb or use the Bomb’s Explode property, you can apply a Bomb Formula to it.
+      Some Bomb Formulas change the Bomb’s damage dice and damage type, including Improved Bombs
+      damage starting at Alchemist level 5. Bomb Formulas don’t change the size of the extra damage
+      dice from Prime Bomb.</p>
     chat: ''
   source:
     custom: ''
@@ -83,7 +95,7 @@ _stats:
   systemVersion: 6.1.0
   coreVersion: '14.369'
   createdTime: 1789769323110
-  modifiedTime: 1793309265547
+  modifiedTime: 1793311363071
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

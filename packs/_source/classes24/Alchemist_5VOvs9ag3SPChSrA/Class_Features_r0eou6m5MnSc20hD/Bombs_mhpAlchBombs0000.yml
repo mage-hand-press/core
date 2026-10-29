@@ -2,65 +2,20 @@ _id: mhpAlchBombs0000
 name: Bombs
 type: feat
 img: icons/skills/ranged/bomb-grenade-thrown-yellow.webp
-effects:
-  - type: enchantment
-    name: Primed Bomb
-    img: icons/skills/ranged/bomb-grenade-thrown-yellow.webp
-    disabled: true
-    transfer: false
-    _id: RaLnNTJe0O6pdJLM
-    system:
-      changes:
-        - key: name
-          type: override
-          value: '{} (Primed)'
-          phase: initial
-          _id: j2KaOmZwd7FOPmpR
-          conditions: '{}'
-          replacement: ''
-          priority: null
-      origin:
-        actor: null
-        behavior: null
-        effect: null
-        item: null
-        message: null
-      magical: true
-    start: null
-    duration:
-      value: null
-      units: seconds
-      expiry: null
-      expired: false
-    description: ''
-    origin: null
-    tint: '#ffffff'
-    statuses: []
-    showIcon: 1
-    folder: null
-    sort: 0
-    flags: {}
-    _stats:
-      coreVersion: '14.367'
-      systemId: dnd5e
-      systemVersion: 6.0.3
-      createdTime: 1790028958729
-      modifiedTime: 1790029078570
-      lastModifiedBy: magehandpress000
-      compendiumSource: null
-      duplicateSource: null
-      exportSource: null
-    _key: '!items.effects!mhpAlchBombs0000.RaLnNTJe0O6pdJLM'
+effects: []
 folder: r0eou6m5MnSc20hD
-flags:
-  dnd5e:
-    riders:
-      activity:
-        - 7Hzoq86qVMZeizW1
-        - wqopBA0GpvKppmRG
+flags: {}
 system:
   description:
-    value: <p></p><p></p><p></p><p></p><p></p>
+    value: >-
+      <p>You can create volatile alchemical Bombs using the statistics shown in the Bomb
+      sidebar.</p><p><em><strong>Bomb Mastery.</strong></em> You have proficiency with Bombs and you
+      can use the Bomb’s mastery property.</p><p><em><strong>Intelligent Explosions.</strong></em>
+      When you use the Bomb’s Explode property, you can gain a bonus to the damage roll equal to
+      your Intelligence modifier (minimum of +1).</p><p><em><strong>Alchemist Save DC.</strong></em>
+      Some of your Alchemist features require your target to make a saving throw. The save DC equals
+      8 plus your Intelligence modifier and Proficiency Bonus. You can use this save DC for your
+      Bombs instead of the DC specified in the Explode property.</p><p></p>
     chat: ''
   source:
     custom: ''
@@ -80,279 +35,34 @@ system:
     subtype: ''
   requirements: Alchemist
   properties: []
-  activities:
-    IDbG8iABPgTdie4e:
-      type: mage-hand-press-core.primeBomb
-      name: ''
-      _id: IDbG8iABPgTdie4e
-      img: ''
-      sort: 0
-      activation:
-        type: action
-        override: false
-        condition: ''
-      behaviors: []
-      consumption:
-        scaling:
-          allowed: false
-        spellSlot: true
-        targets: []
-      description:
-        value: >-
-          <p>Once per turn you can take the Use an Object action to prime a bomb with explosive
-          reagents and make an attack with it, increasing the bomb’s explosive potential. When you
-          do so, you can add your Intelligence modifier, instead of Dexterity, to the bomb’s damage
-          roll.</p><p>Additionally, when you throw a bomb in this way, its damage increases by 1d10
-          when you reach 5th level (2d10), 11th level (3d10), and 17th level
-          (4d10).</p><p><em><strong>Saving Throws.</strong></em> When you throw a bomb, the save DC
-          for its blast radius is calculated as follows:</p><p
-          style="text-align:center"><strong>Bomb save DC</strong> = 8 + your proficiency bonus +
-          your Intelligence modifier</p>
-        chatFlavor: ''
-      duration:
-        units: inst
-        expiry: null
-        concentration: false
-        override: false
-      effects:
-        - _id: RaLnNTJe0O6pdJLM
-          uuid: null
-          level:
-            min: null
-            max: null
-          riders:
-            activity:
-              - 7Hzoq86qVMZeizW1
-              - wqopBA0GpvKppmRG
-            effect: []
-            item: []
-      flags: {}
-      range:
-        units: self
-        override: false
-        special: ''
-      target:
-        template:
-          contiguous: false
-          stationary: false
-          units: ft
-          type: ''
-        affects:
-          choice: false
-          type: object
-          count: '1'
-          special: ''
-        override: false
-        prompt: true
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      visibility:
-        level:
-          min: null
-          max: null
-        requireAttunement: false
-        requireIdentification: false
-        requireMagic: false
-        identifier: ''
-      enchant:
-        self: false
-      restrictions:
-        allowMagical: false
-        categories: []
-        properties: []
-        type: weapon
-    7Hzoq86qVMZeizW1:
-      type: attack
-      activation:
-        type: action
-        value: 1
-        condition: ''
-        override: false
-      consumption:
-        targets: []
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
-      description:
-        chatFlavor: ''
-        value: ''
-      duration:
-        concentration: false
-        value: ''
-        units: inst
-        special: ''
-        override: false
-        expiry: null
-      effects: []
-      range:
-        value: '30'
-        units: ft
-        special: ''
-        override: false
-      target:
-        template:
-          count: ''
-          contiguous: false
-          type: ''
-          size: '15'
-          width: ''
-          height: ''
-          units: ft
-          stationary: false
-        affects:
-          count: '1'
-          type: creature
-          choice: false
-          special: ''
-        prompt: true
-        override: false
-      uses:
-        spent: 0
-        max: ''
-        recovery: []
-      attack:
-        ability: ''
-        bonus: ''
-        critical:
-          threshold: null
-        flat: false
-        type:
-          value: ''
-          classification: ''
-      damage:
-        critical:
-          bonus: ''
-        includeBase: false
-        parts:
-          - custom:
-              enabled: true
-              formula: >-
-                (@scale.bombs.dice.number + @item.flags.mage-hand-press-core.primedBomb.reagents)d10
-                + @abilities.int.mod
-            number: null
-            denomination: null
-            bonus: ''
-            modifiers: []
-            types:
-              - fire
-            scaling:
-              number: 1
-      img: ''
-      sort: 100000
-      flags: {}
-      visibility:
-        level:
-          min: null
-          max: null
-        requireAttunement: false
-        requireIdentification: false
-        requireMagic: false
-        identifier: ''
-      name: Throw
-      behaviors: []
-      _id: 7Hzoq86qVMZeizW1
-    wqopBA0GpvKppmRG:
-      type: save
-      activation:
-        type: ''
-        value: 1
-        condition: ''
-        override: false
-      consumption:
-        targets: []
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
-      description:
-        chatFlavor: ''
-        value: ''
-      duration:
-        concentration: false
-        value: ''
-        units: inst
-        special: ''
-        override: false
-        expiry: null
-      effects: []
-      range:
-        value: '30'
-        units: ft
-        special: ''
-        override: false
-      target:
-        template:
-          count: ''
-          contiguous: false
-          type: radius
-          size: '7.5'
-          width: ''
-          height: ''
-          units: ft
-          stationary: false
-        affects:
-          count: ''
-          type: creature
-          choice: false
-          special: ''
-        prompt: true
-        override: false
-      uses:
-        spent: 0
-        max: ''
-        recovery: []
-      damage:
-        onSave: half
-        parts: []
-      save:
-        ability:
-          - dex
-        dc:
-          calculation: ''
-          formula: '11'
-        bonus: ''
-        visible: true
-      img: ''
-      sort: 200000
-      flags: {}
-      visibility:
-        level:
-          min: null
-          max: null
-        requireAttunement: false
-        requireIdentification: false
-        requireMagic: false
-        identifier: ''
-      name: ''
-      behaviors: []
-      _id: wqopBA0GpvKppmRG
+  activities: {}
   advancement:
-    g6osg4bg4ufhbriy:
-      _id: g6osg4bg4ufhbriy
-      type: ScaleValue
+    xTi0Fpw53MfA5g0n:
+      name: Bomb Proficiency
+      type: Trait
+      _id: xTi0Fpw53MfA5g0n
       configuration:
-        identifier: dice
-        type: dice
-        distance:
-          units: ''
-        scale:
-          '1':
-            number: 1
-            faces: 10
-          '5':
-            number: 2
-          '11':
-            number: 3
-          '17':
-            number: 4
-      value: {}
+        allowReplacements: false
+        choices: []
+        grants:
+          - weapon:mar:bomb
+        mode: default
       flags: {}
-      hint: ''
-      name: Bomb Dice
-      img: icons/skills/ranged/bomb-grenade-thrown-yellow.webp
+      level: 1
+      hint: <p>You have proficiency with Bombs and you can use the Bomb’s mastery property.</p>
+    KBt3MLtwHSehGrE6:
+      name: Bomb Mastery
+      type: Trait
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - weapon:mar:bomb
+        mode: mastery
+      flags: {}
+      level: 1
+      hint: <p>You have proficiency with Bombs and you can use the Bomb’s mastery property.</p>
+      _id: KBt3MLtwHSehGrE6
   identifier: bombs
   enchant: {}
   prerequisites:
@@ -364,7 +74,7 @@ _stats:
   systemVersion: 6.1.0
   coreVersion: '14.369'
   createdTime: 1789769322781
-  modifiedTime: 1793308747488
+  modifiedTime: 1793311069753
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

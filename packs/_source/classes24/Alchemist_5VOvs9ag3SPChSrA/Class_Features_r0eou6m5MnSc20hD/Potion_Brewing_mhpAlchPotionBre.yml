@@ -7,7 +7,17 @@ folder: r0eou6m5MnSc20hD
 flags: {}
 system:
   description:
-    value: <p></p><p></p><p></p><p></p>
+    value: >-
+      <p>You can spend 10 minutes and expend any number of Reagents to brew potions, which can be
+      done during a Short Rest. The number of Reagents and the Alchemist level required to brew a
+      potion are given on the Potions table. You can have a total number of potions at one time up
+      to your Intelligence modifier (minimum of 1). These potions retain potency until you finish a
+      Long Rest, after which they become inert.</p><p>When you brew potions, you can also distill
+      potions you have already brewed, destroying them and recovering the Reagents expended to brew
+      them, up to a maximum of the number of Reagents listed on the Alchemist Features table. You
+      can expend these Reagents immediately to brew new potions.</p><p>Your potions don’t have
+      unpredictable effects if a creature drinks one of your potions while still under the effects
+      of another.</p><p></p>
     chat: ''
   source:
     custom: ''
@@ -27,7 +37,72 @@ system:
     subtype: ''
   requirements: Alchemist
   properties: []
-  activities: {}
+  activities:
+    vI5MajTQYkG1TDDj:
+      type: utility
+      name: Brew
+      img: ''
+      sort: 0
+      activation:
+        type: minute
+        override: false
+        condition: ''
+        value: 10
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: true
+          max: '@scale.alchemist.reagents'
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: feat:reagents
+            scaling:
+              mode: ''
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      _id: vI5MajTQYkG1TDDj
   advancement: {}
   identifier: potion-brewing
   enchant: {}
@@ -40,7 +115,7 @@ _stats:
   systemVersion: 6.1.0
   coreVersion: '14.369'
   createdTime: 1793310413082
-  modifiedTime: 1793310413083
+  modifiedTime: 1793311197333
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

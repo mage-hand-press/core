@@ -6,11 +6,11 @@ pages:
     type: class
     _id: mhpAlchemist0000
     system:
-      item: ''
+      item: Compendium.mage-hand-press-core.classes24.Item.mhpClasAlchemist
       description:
         value: >-
           <p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpClasAlchemist
-          caption=false]</p><h2></h2>
+          caption=false]</p>
         additionalHitPoints: ''
         additionalTraits: ''
         additionalEquipment: ''
@@ -19,7 +19,7 @@ pages:
       style: ''
       subclassHeader: ''
     title:
-      show: false
+      show: true
       level: 1
     image: {}
     text:
@@ -35,27 +35,65 @@ pages:
       dnd5e:
         title: Class Features
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 6.0.3
+      systemVersion: 6.1.0
       createdTime: 1777925304123
-      modifiedTime: 1789757340989
+      modifiedTime: 1793311837688
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpAlchemist55e0.mhpAlchemist0000'
   - sort: 500000
-    name: Bomb Formulae
+    name: Bomb Formula Options
     type: text
     _id: mhpBombFormulae0
     system: {}
     title:
-      show: false
+      show: true
       level: 2
     image: {}
     text:
       format: 1
-      content: <h1 data-no-toc class="subchapter">Bomb Formulae</h1><p></p>
+      content: >-
+        <p>Bomb Formula options appear in alphabetical order. The damage dice, damage type, and
+        saving throw for Bomb Formulas are summarized on the following
+        table.</p><p></p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpFormAcidBomb0
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpFormBramblBom
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpFormConcusBom
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpFormCryoBomb0
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpFormFearBomb0
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpFormHolyBomb0
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpFormImpactBom
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpFormIncendBom
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpFormLaughiGas
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpFormLightnBom
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpFormOilBomb00
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpFormPaintBomb
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpFormPrismaBom
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpFormQuietBomb
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpFormSeekinBom
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpFormSmokeBomb
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpFormTelepoBom
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpFormWitherBom
+        caption=false nameStyle=h3]</p>
     video:
       controls: true
       volume: 0.5
@@ -65,27 +103,52 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.369'
       systemId: dnd5e
       systemVersion: 5.3.0
       createdTime: 1777925453606
-      modifiedTime: 1789757348920
+      modifiedTime: 1793311925017
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpAlchemist55e0.mhpBombFormulae0'
   - sort: 600000
-    name: Discoveries
+    name: Discovery Options
     type: text
     _id: mhpDiscoveries00
     system: {}
     title:
-      show: false
+      show: true
       level: 2
     image: {}
     text:
       format: 1
-      content: <h1 data-no-toc class="subchapter">Discoveries</h1><p></p>
+      content: >-
+        <p>Discovery options appear in alphabetical
+        order.</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpDiscAlchemAlt
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpDiscAlchemPoi
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpDiscAlchemRes
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpDiscArcaneStu
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpDiscCombatStu
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpDiscFundamAlc
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpDiscGuidedExp
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpDiscHomunculu
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpDiscNecrobiol
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpDiscPrecisExp
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpDiscUnconvExp
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpDiscUnconvPot
+        caption=false nameStyle=h3]</p>
     video:
       controls: true
       volume: 0.5
@@ -95,11 +158,11 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.369'
       systemId: dnd5e
       systemVersion: 5.3.0
       createdTime: 1777925554198
-      modifiedTime: 1789757355761
+      modifiedTime: 1793311969863
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null

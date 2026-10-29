@@ -7,7 +7,12 @@ folder: r0eou6m5MnSc20hD
 flags: {}
 system:
   description:
-    value: <p></p><p></p>
+    value: >-
+      <p>In the course of your research, you have made a number of Discoveries regarding the nature
+      of alchemy. You gain one Discovery of your choice from the “Discovery Options” section later
+      in this class’s description.</p><p>You gain another Discovery at Alchemist levels 9, 13, and
+      17. You can’t pick the same Discovery more than once. Whenever you gain an Alchemist level,
+      you can replace one of your Discoveries with another one for which you qualify.</p>
     chat: ''
   source:
     custom: ''
@@ -111,7 +116,7 @@ _stats:
   systemVersion: 6.1.0
   coreVersion: '14.369'
   createdTime: 1793310413287
-  modifiedTime: 1793310413288
+  modifiedTime: 1793311503541
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

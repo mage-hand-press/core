@@ -7,7 +7,17 @@ folder: r0eou6m5MnSc20hD
 flags: {}
 system:
   description:
-    value: <p></p><p></p><p></p><p></p><p></p><p></p>
+    value: >-
+      <p>You gain the crowning achievement of alchemy: a Philosopher’s Stone, a dynamo of alchemical
+      energy in a fist-sized, glowing
+      jewel.</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpAlchPhilosSto.Activity.B4WWJOgBtGylB9yA
+      caption=false cite=false nameStyle=inline]</p><p><em><strong>Philosopher’s Stone
+      Benefits.</strong></em> As long as you possess the stone, you gain the following
+      benefits:</p><div class="subfeature"><p><strong>Regenerating Reagents.</strong> When you roll
+      Initiative, you regain expended Reagents until you have 6 if you have 5 or
+      fewer.</p><p><strong>Quick Brewing.</strong> You can brew potions as a &amp;Reference[Utilize]
+      action, instead of over the course of 10 minutes.</p><p><strong>Longevity.</strong> For every
+      ten years that pass, your body ages only one year.</p></div>
     chat: ''
   source:
     custom: ''
@@ -47,7 +57,10 @@ system:
         spellSlot: true
         targets: []
       description:
-        value: ''
+        value: >-
+          <p>If your Philosopher’s Stone is destroyed, you can construct a new one using Alchemist’s
+          Supplies, materials worth 1,000+ GP, and 7 days of work. You can only have one
+          Philosopher’s Stone at a time.</p>
         chatFlavor: ''
       duration:
         units: inst
@@ -99,7 +112,7 @@ _stats:
   systemVersion: 6.1.0
   coreVersion: '14.369'
   createdTime: 1789769324035
-  modifiedTime: 1793309373423
+  modifiedTime: 1793311787377
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

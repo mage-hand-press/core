@@ -2,16 +2,272 @@ folder: r0eou6m5MnSc20hD
 name: Prime Bomb
 type: feat
 _id: mhpAlchPrimeBomb
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/weapons/thrown/explosive-dynamite-fuse-red.webp
 system:
-  activities: {}
+  activities:
+    ypPfN6dFXGxaL6uz:
+      type: mage-hand-press-core.primeBomb
+      name: ''
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        value: >-
+          <p>Once per turn you can take the Use an Object action to prime a bomb with explosive
+          reagents and make an attack with it, increasing the bomb’s explosive potential. When you
+          do so, you can add your Intelligence modifier, instead of Dexterity, to the bomb’s damage
+          roll.</p><p>Additionally, when you throw a bomb in this way, its damage increases by 1d10
+          when you reach 5th level (2d10), 11th level (3d10), and 17th level
+          (4d10).</p><p><em><strong>Saving Throws.</strong></em> When you throw a bomb, the save DC
+          for its blast radius is calculated as follows:</p><p
+          style="text-align:center"><strong>Bomb save DC</strong> = 8 + your proficiency bonus +
+          your Intelligence modifier</p>
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects:
+        - _id: qnABI96BL5UiCgeW
+          uuid: null
+          level:
+            min: null
+            max: null
+          riders:
+            activity:
+              - V8O7WPK5Ajnokhq4
+              - rNUJYanfgYaKIAFJ
+            effect: []
+            item: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: object
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      enchant:
+        self: false
+      restrictions:
+        allowMagical: false
+        categories: []
+        properties: []
+        type: weapon
+      _id: ypPfN6dFXGxaL6uz
+    V8O7WPK5Ajnokhq4:
+      type: attack
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+        expiry: null
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: '15'
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ''
+          classification: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: false
+        parts:
+          - custom:
+              enabled: true
+              formula: >-
+                (@scale.bombs.dice.number + @item.flags.mage-hand-press-core.primedBomb.reagents)d10
+                + @abilities.int.mod
+            number: null
+            denomination: null
+            bonus: ''
+            modifiers: []
+            types:
+              - fire
+            scaling:
+              number: 1
+      img: ''
+      sort: 100000
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      name: Throw
+      behaviors: []
+      _id: V8O7WPK5Ajnokhq4
+    rNUJYanfgYaKIAFJ:
+      type: save
+      activation:
+        type: ''
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+        expiry: null
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: radius
+          size: '7.5'
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: ''
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts: []
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: ''
+          formula: '11'
+        bonus: ''
+        visible: true
+      img: ''
+      sort: 200000
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      name: ''
+      behaviors: []
+      _id: rNUJYanfgYaKIAFJ
   uses:
     spent: 0
     recovery: []
     max: ''
   advancement: {}
   description:
-    value: <p></p><p></p>
+    value: >-
+      <p>Once per turn when you hit with a Bomb or use the Bomb’s Explode property, you can expend 1
+      Reagent to add 1d10 to the Bomb’s damage roll. When you reach certain Alchemist levels, you
+      can expend more Reagents, up to the number shown in the Prime Bomb column of the Alchemist
+      Features table, adding 1d10 damage for each Reagent expended.</p><p>If you use the Bomb’s
+      Explode property, you can also increase the radius of the explosion up to 5 feet for each
+      Reagent expended in this way. For example, if you expend 2 Reagents at Alchemist level 5, the
+      Bomb deals an extra 2d10 damage and you can choose for the Sphere to be a 5-, 10- or
+      15-foot-radius.</p>
     chat: ''
   identifier: prime-bomb
   source:
@@ -32,17 +288,75 @@ system:
   type:
     value: class
     subtype: ''
-effects: []
+effects:
+  - type: enchantment
+    name: Primed Bomb
+    img: icons/skills/ranged/bomb-grenade-thrown-yellow.webp
+    disabled: true
+    transfer: false
+    _id: qnABI96BL5UiCgeW
+    system:
+      changes:
+        - key: name
+          type: override
+          value: '{} (Primed)'
+          phase: initial
+          _id: j2KaOmZwd7FOPmpR
+          conditions: '{}'
+          replacement: ''
+          priority: null
+      origin:
+        actor: null
+        behavior: null
+        effect: null
+        item: Compendium.mage-hand-press-core.classes24.Item.mhpAlchBombs0000
+        message: null
+      magical: true
+      rider:
+        activities: []
+        effects: []
+        items: []
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.369'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1793311009121
+      modifiedTime: 1793311009121
+      lastModifiedBy: magehandpress000
+      compendiumSource: >-
+        Compendium.mage-hand-press-core.classes24.Item.mhpAlchBombs0000.ActiveEffect.RaLnNTJe0O6pdJLM
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!mhpAlchPrimeBomb.qnABI96BL5UiCgeW'
 sort: 0
 ownership:
   default: 0
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity:
+        - V8O7WPK5Ajnokhq4
+        - rNUJYanfgYaKIAFJ
 _stats:
   coreVersion: '14.369'
   systemId: dnd5e
   systemVersion: 6.1.0
   createdTime: 1793310413198
-  modifiedTime: 1793310413199
+  modifiedTime: 1793311331575
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
