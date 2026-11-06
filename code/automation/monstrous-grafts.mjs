@@ -82,7 +82,8 @@ function preRenderCharacterActorSheet(sheet, context, options) {
 		if ( !isGraft(item) ) continue;
 		context.itemCategories.grafts.push(item);
 		const ctx = context.itemContext[item.id];
-		const graftSlot = item.getFlag("mage-hand-press-core", "graftSlot") ?? {};
+		const graftSlot = item.getFlag("mage-hand-press-core", "graftSlot")
+			?? item.flags["mage-hand-press-dark-matter"]?.graftSlot ?? {};
 		const validSlot = graftSlot.valid ?? "any";
 		ctx.groups.slot = validSlot === "any" ? (graftSlot.current ?? "arms") : validSlot;
 		ctx.dataset["group-slot"] = ctx.groups.slot;
