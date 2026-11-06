@@ -199,7 +199,7 @@ export class PrimeBombActivity extends dnd5e.documents.activity.EnchantActivity 
 
 	/**
 	 * Apply a bomb formula and reagents to a bomb.
-	 * @param {object} item  In-memory version of bomb being primed.
+	 * @param {object} item               In-memory version of bomb being primed.
 	 * @param {object} [config={}]
 	 * @param {string} [config.formula]   Formula being applied.
 	 * @returns {false|void}
@@ -215,7 +215,7 @@ export class PrimeBombActivity extends dnd5e.documents.activity.EnchantActivity 
 			system: {
 				origin: {
 					activity: activity.uuid,
-					profile: profile.id
+					profile: profile._id
 				}
 			},
 			disabled: false,
@@ -234,8 +234,7 @@ export class PrimeBombActivity extends dnd5e.documents.activity.EnchantActivity 
 		}
 
 		// Manually handler riders
-		const operations = await enchantment.system
-			.collectRiders({ dnd5e: { enchantmentProfile: profile._id, activityId: activity.id } });
+		const operations = await enchantment.system.collectRiders();
 		for ( const operation of operations ) {
 			if ( (operation.action === "update") && (operation.documentName === "Item") ) {
 				const update = operation.updates[0];
