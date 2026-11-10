@@ -2,9 +2,254 @@ folder: QP5gQCeH1KDXj4A6
 name: Fear Bomb
 type: feat
 _id: mhpFormFearBomb0
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/weapons/thrown/bomb-fuse-red-black.webp
 system:
-  activities: {}
+  activities:
+    Y5mmOVxvy5TirsvL:
+      type: mage-hand-press-core.primeBomb
+      name: ''
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: When you attack with a bomb of use the Bomb's Explode property
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects:
+        - _id: 1m11HprKCCqhK3ly
+          uuid: null
+          level:
+            min: null
+            max: null
+          riders:
+            activity:
+              - YBgJGs1fxZLILSea
+              - RrjXvqqn5v2qM5sH
+            effect: []
+            item: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: object
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      enchant:
+        self: false
+      restrictions:
+        allowMagical: false
+        categories: []
+        properties: []
+        type: weapon
+      _id: Y5mmOVxvy5TirsvL
+    YBgJGs1fxZLILSea:
+      type: attack
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+        expiry: null
+      effects: []
+      range:
+        value: ''
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: '15'
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ''
+          classification: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: false
+        parts:
+          - custom:
+              enabled: true
+              formula: >-
+                (@scale.alchemist.bomb.number +
+                @item.flags.mage-hand-press-core.primedBomb.reagents)d6 + @abilities.int.mod
+            number: null
+            denomination: null
+            bonus: ''
+            modifiers: []
+            types:
+              - psychic
+            scaling:
+              number: 1
+      img: ''
+      sort: 100000
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      name: Throw
+      behaviors: []
+      _id: YBgJGs1fxZLILSea
+    RrjXvqqn5v2qM5sH:
+      type: save
+      activation:
+        type: special
+        value: 1
+        condition: When you take the Attack action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+        expiry: sourceStart
+      effects:
+        - _id: He5QUTzuofREMOTE
+          uuid: Compendium.dnd5e.effects.ActiveEffect.OpCz3oGBfDZfxAlt
+          onSave: false
+          level:
+            min: null
+            max: null
+      range:
+        value: ''
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: sphere
+          size: 5 + 5 * @item.flags.mage-hand-press-core.primedBomb.reagents
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: ''
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts: []
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: int
+          formula: ''
+        bonus: ''
+        visible: true
+      img: ''
+      sort: 200000
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      name: Explode
+      behaviors: []
+      _id: RrjXvqqn5v2qM5sH
   uses:
     spent: 0
     recovery: []
@@ -36,17 +281,84 @@ system:
   type:
     value: class
     subtype: bombFormula
-effects: []
+effects:
+  - type: enchantment
+    name: Fear Bomb
+    img: icons/weapons/thrown/bomb-fuse-red-black.webp
+    disabled: true
+    transfer: false
+    _id: 1m11HprKCCqhK3ly
+    system:
+      changes:
+        - key: name
+          type: override
+          value: Fear Bomb
+          phase: initial
+          _id: EZIfx1ufRLk7ybop
+          conditions: '{}'
+          replacement: ''
+          priority: null
+        - key: system.description.value
+          type: override
+          value: >-
+            {}<hr><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpFearBomb00000
+            inline]</p>
+          phase: initial
+          _id: hLhtrH2b3CpAOvyS
+          conditions: '{}'
+          replacement: ''
+          priority: null
+      origin:
+        actor: null
+        behavior: null
+        effect: null
+        item: null
+        message: null
+      magical: false
+      rider:
+        activities: []
+        effects: []
+        items: []
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794344597490
+      modifiedTime: 1794344698186
+      lastModifiedBy: magehandpress000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!mhpFormFearBomb0.1m11HprKCCqhK3ly'
 sort: 0
 ownership:
   default: 0
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity:
+        - YBgJGs1fxZLILSea
+        - RrjXvqqn5v2qM5sH
 _stats:
   coreVersion: '14.370'
   systemId: dnd5e
   systemVersion: 6.1.0
   createdTime: 1793310378479
-  modifiedTime: 1794339343413
+  modifiedTime: 1794346921517
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

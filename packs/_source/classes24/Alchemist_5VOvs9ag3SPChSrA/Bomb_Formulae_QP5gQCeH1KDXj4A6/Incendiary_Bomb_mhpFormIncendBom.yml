@@ -122,6 +122,7 @@ system:
         units: self
         special: ''
         override: false
+        value: ''
       target:
         template:
           count: ''
@@ -150,8 +151,8 @@ system:
           threshold: null
         flat: false
         type:
-          value: ranged
-          classification: weapon
+          value: ''
+          classification: ''
       damage:
         critical:
           bonus: ''
@@ -160,8 +161,8 @@ system:
           - custom:
               enabled: true
               formula: >-
-                (@scale.bombs.dice.number + @item.flags.mage-hand-press-core.primedBomb.reagents)d6
-                + @abilities.int.mod
+                (@scale.alchemist.bomb.number +
+                @item.flags.mage-hand-press-core.primedBomb.reagents)d8 + @abilities.int.mod
             number: null
             denomination: null
             bonus: ''
@@ -187,9 +188,9 @@ system:
       _id: dnd5eactivity100
       type: save
       activation:
-        type: ''
+        type: special
         value: 1
-        condition: ''
+        condition: When you take the Attack action
         override: false
       consumption:
         targets: []
@@ -206,18 +207,19 @@ system:
         units: inst
         special: ''
         override: false
-        expiry: null
+        expiry: sourceStart
       effects: []
       range:
         units: self
         special: ''
         override: false
+        value: ''
       target:
         template:
           count: ''
           contiguous: false
           type: sphere
-          size: '7.5'
+          size: 5 + 5 * @item.flags.mage-hand-press-core.primedBomb.reagents
           width: ''
           height: ''
           units: ft
@@ -235,7 +237,19 @@ system:
         recovery: []
       damage:
         onSave: half
-        parts: []
+        parts:
+          - custom:
+              enabled: true
+              formula: >-
+                (@scale.alchemist.bomb.number +
+                @item.flags.mage-hand-press-core.primedBomb.reagents)d8
+            number: null
+            denomination: null
+            bonus: ''
+            modifiers: []
+            types: []
+            scaling:
+              number: 1
       save:
         ability:
           - dex
@@ -256,7 +270,7 @@ system:
         requireMagic: false
         identifier: ''
       behaviors: []
-      name: ''
+      name: Explode
     0iLYjIpxSNHqZq1H:
       type: mage-hand-press-core.primeBomb
       name: ''
@@ -341,10 +355,10 @@ system:
     level: 2
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.3
-  coreVersion: '14.367'
+  systemVersion: 6.1.0
+  coreVersion: '14.370'
   createdTime: 1789769435340
-  modifiedTime: 1790027065637
+  modifiedTime: 1794347108446
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

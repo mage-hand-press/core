@@ -112,8 +112,8 @@ system:
         expiry: null
       effects: []
       range:
-        value: '30'
-        units: ft
+        value: ''
+        units: self
         special: ''
         override: false
       target:
@@ -154,8 +154,8 @@ system:
           - custom:
               enabled: true
               formula: >-
-                (@scale.bombs.dice.number + @item.flags.mage-hand-press-core.primedBomb.reagents)d10
-                + @abilities.int.mod
+                (@scale.alchemist.bomb.number +
+                @item.flags.mage-hand-press-core.primedBomb.reagents)d10 + @abilities.int.mod
             number: null
             denomination: null
             bonus: ''
@@ -181,9 +181,9 @@ system:
     rNUJYanfgYaKIAFJ:
       type: save
       activation:
-        type: ''
+        type: special
         value: 1
-        condition: ''
+        condition: When you take the Attack action
         override: false
       consumption:
         targets: []
@@ -203,16 +203,16 @@ system:
         expiry: null
       effects: []
       range:
-        value: '30'
-        units: ft
+        value: ''
+        units: self
         special: ''
         override: false
       target:
         template:
           count: ''
           contiguous: false
-          type: radius
-          size: '7.5'
+          type: sphere
+          size: 5 + 5 * @item.flags.mage-hand-press-core.primedBomb.reagents
           width: ''
           height: ''
           units: ft
@@ -235,8 +235,8 @@ system:
         ability:
           - dex
         dc:
-          calculation: ''
-          formula: '11'
+          calculation: int
+          formula: ''
         bonus: ''
         visible: true
       img: ''
@@ -250,7 +250,7 @@ system:
         requireIdentification: false
         requireMagic: false
         identifier: ''
-      name: ''
+      name: Explode
       behaviors: []
       _id: rNUJYanfgYaKIAFJ
   uses:
@@ -352,11 +352,11 @@ flags:
         - V8O7WPK5Ajnokhq4
         - rNUJYanfgYaKIAFJ
 _stats:
-  coreVersion: '14.369'
+  coreVersion: '14.370'
   systemId: dnd5e
   systemVersion: 6.1.0
   createdTime: 1793310413198
-  modifiedTime: 1793311331575
+  modifiedTime: 1794346634035
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

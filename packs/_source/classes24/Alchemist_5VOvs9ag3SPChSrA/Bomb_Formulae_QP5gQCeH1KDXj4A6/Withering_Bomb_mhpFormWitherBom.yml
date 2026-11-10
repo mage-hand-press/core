@@ -70,7 +70,15 @@ effects:
         behavior: null
         effect: null
         message: null
-      changes: []
+      changes:
+        - key: save
+          type: dnd5e.bonus
+          value: -3
+          phase: initial
+          _id: viJZ1UYYThLqTM15
+          conditions: '{}'
+          replacement: ''
+          priority: null
       conditions: '{}'
       magical: false
       rider:
@@ -83,9 +91,9 @@ effects:
     duration:
       value: null
       units: seconds
-      expiry: targetEnd
+      expiry: sourceStart
       expired: false
-    description: <p>You can’t regain hit points.</p>
+    description: <p>You have a –3 penalty on saving throws you make.</p>
     origin: null
     tint: '#ffffff'
     statuses: []
@@ -94,11 +102,11 @@ effects:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.370'
       systemId: dnd5e
-      systemVersion: 6.0.3
+      systemVersion: 6.1.0
       createdTime: 1790028740191
-      modifiedTime: 1790028752645
+      modifiedTime: 1794346834897
       lastModifiedBy: magehandpress000
       compendiumSource: null
       duplicateSource: null
@@ -159,8 +167,11 @@ system:
         units: inst
         special: ''
         override: false
-        expiry: null
-      effects: []
+        expiry: sourceStart
+      effects:
+        - _id: mSmDqamA00EUZbmo
+          uuid: null
+          level: {}
       range:
         units: self
         special: ''
@@ -193,8 +204,8 @@ system:
           threshold: null
         flat: false
         type:
-          value: ranged
-          classification: weapon
+          value: ''
+          classification: ''
       damage:
         critical:
           bonus: ''
@@ -203,8 +214,8 @@ system:
           - custom:
               enabled: true
               formula: >-
-                (@scale.bombs.dice.number + @item.flags.mage-hand-press-core.primedBomb.reagents)d8
-                + @abilities.int.mod
+                (@scale.alchemist.bomb.number +
+                @item.flags.mage-hand-press-core.primedBomb.reagents)d8 + @abilities.int.mod
             number: null
             denomination: null
             bonus: ''
@@ -230,9 +241,9 @@ system:
       _id: dnd5eactivity100
       type: save
       activation:
-        type: ''
+        type: special
         value: 1
-        condition: ''
+        condition: When you take the Attack action
         override: false
       consumption:
         targets: []
@@ -249,12 +260,14 @@ system:
         units: inst
         special: ''
         override: false
-        expiry: null
+        expiry: sourceStart
       effects:
         - _id: mSmDqamA00EUZbmo
           uuid: null
-          level: {}
           onSave: false
+          level:
+            min: null
+            max: null
       range:
         units: self
         special: ''
@@ -264,7 +277,7 @@ system:
           count: ''
           contiguous: false
           type: sphere
-          size: '7.5'
+          size: 5 + 5 * @item.flags.mage-hand-press-core.primedBomb.reagents
           width: ''
           height: ''
           units: ft
@@ -303,7 +316,7 @@ system:
         requireMagic: false
         identifier: ''
       behaviors: []
-      name: ''
+      name: Explode
     d2MiYy9upBNBYUgj:
       type: mage-hand-press-core.primeBomb
       name: ''
@@ -388,10 +401,10 @@ system:
     level: 2
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.3
-  coreVersion: '14.367'
+  systemVersion: 6.1.0
+  coreVersion: '14.370'
   createdTime: 1789769437565
-  modifiedTime: 1790028740225
+  modifiedTime: 1794346861279
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

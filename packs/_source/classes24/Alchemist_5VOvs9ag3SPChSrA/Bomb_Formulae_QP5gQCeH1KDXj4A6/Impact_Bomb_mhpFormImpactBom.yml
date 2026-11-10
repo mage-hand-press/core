@@ -122,6 +122,7 @@ system:
         units: self
         special: ''
         override: false
+        value: ''
       target:
         template:
           count: ''
@@ -150,18 +151,18 @@ system:
           threshold: null
         flat: false
         type:
-          value: ranged
-          classification: weapon
+          value: ''
+          classification: ''
       damage:
         critical:
           bonus: ''
-        includeBase: true
+        includeBase: false
         parts:
           - custom:
               enabled: true
               formula: >-
-                (@scale.bombs.dice.number + @item.flags.mage-hand-press-core.primedBomb.reagents)d8
-                + @abilities.int.mod
+                (@scale.alchemist.bomb.number +
+                @item.flags.mage-hand-press-core.primedBomb.reagents)d8 + @abilities.int.mod
             number: null
             denomination: null
             bonus: ''
@@ -187,9 +188,9 @@ system:
       _id: dnd5eactivity100
       type: save
       activation:
-        type: ''
+        type: special
         value: 1
-        condition: ''
+        condition: When you take the Attack action
         override: false
       consumption:
         targets: []
@@ -207,17 +208,24 @@ system:
         special: ''
         override: false
         expiry: null
-      effects: []
+      effects:
+        - _id: 7djfexa8kRREMOTE
+          uuid: Compendium.dnd5e.effects.ActiveEffect.UVtVRNlaslbMIsuH
+          onSave: false
+          level:
+            min: null
+            max: null
       range:
         units: self
         special: ''
         override: false
+        value: ''
       target:
         template:
           count: ''
           contiguous: false
           type: sphere
-          size: '7.5'
+          size: 5 + 5 * @item.flags.mage-hand-press-core.primedBomb.reagents
           width: ''
           height: ''
           units: ft
@@ -256,7 +264,7 @@ system:
         requireMagic: false
         identifier: ''
       behaviors: []
-      name: ''
+      name: Explode
     VPPVKloHIlbmxGTs:
       type: mage-hand-press-core.primeBomb
       name: ''
@@ -341,10 +349,10 @@ system:
     level: 2
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.3
-  coreVersion: '14.367'
+  systemVersion: 6.1.0
+  coreVersion: '14.370'
   createdTime: 1789769435232
-  modifiedTime: 1790026991275
+  modifiedTime: 1794347118074
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

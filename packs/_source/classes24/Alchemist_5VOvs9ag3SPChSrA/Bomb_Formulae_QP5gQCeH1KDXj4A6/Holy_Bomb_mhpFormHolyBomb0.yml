@@ -67,7 +67,6 @@ flags:
     riders:
       activity:
         - dnd5eactivity000
-        - swIWmBAZATTJ06tP
         - bE4lyO7dRohaGfNR
         - dnd5eactivity100
 system:
@@ -124,6 +123,7 @@ system:
         units: self
         special: ''
         override: false
+        value: ''
       target:
         template:
           count: ''
@@ -152,8 +152,8 @@ system:
           threshold: null
         flat: false
         type:
-          value: ranged
-          classification: weapon
+          value: ''
+          classification: ''
       damage:
         critical:
           bonus: ''
@@ -162,8 +162,8 @@ system:
           - custom:
               enabled: true
               formula: >-
-                (@scale.bombs.dice.number + @item.flags.mage-hand-press-core.primedBomb.reagents)d8
-                + @abilities.int.mod
+                (@scale.alchemist.bomb.number +
+                @item.flags.mage-hand-press-core.primedBomb.reagents)d10 + @abilities.int.mod
             number: null
             denomination: null
             bonus: ''
@@ -189,9 +189,9 @@ system:
       _id: dnd5eactivity100
       type: save
       activation:
-        type: ''
+        type: special
         value: 1
-        condition: ''
+        condition: When you take the Attack action
         override: false
       consumption:
         targets: []
@@ -214,12 +214,13 @@ system:
         units: self
         special: ''
         override: false
+        value: ''
       target:
         template:
           count: ''
           contiguous: false
           type: sphere
-          size: '7.5'
+          size: 5 + 5 * @item.flags.mage-hand-press-core.primedBomb.reagents
           width: ''
           height: ''
           units: ft
@@ -258,7 +259,7 @@ system:
         requireMagic: false
         identifier: ''
       behaviors: []
-      name: ''
+      name: Explode
     DhpKrmlV3G1NgPX2:
       type: mage-hand-press-core.primeBomb
       name: ''
@@ -291,7 +292,6 @@ system:
           riders:
             activity:
               - dnd5eactivity000
-              - swIWmBAZATTJ06tP
               - bE4lyO7dRohaGfNR
               - dnd5eactivity100
             effect: []
@@ -334,96 +334,6 @@ system:
         properties: []
         type: weapon
       _id: DhpKrmlV3G1NgPX2
-    swIWmBAZATTJ06tP:
-      type: attack
-      activation:
-        type: action
-        value: 1
-        condition: ''
-        override: false
-      consumption:
-        targets: []
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
-      description:
-        chatFlavor: ''
-        value: ''
-      duration:
-        concentration: false
-        value: ''
-        units: inst
-        special: ''
-        override: false
-        expiry: null
-      effects: []
-      range:
-        units: self
-        special: ''
-        override: false
-      target:
-        template:
-          count: ''
-          contiguous: false
-          type: ''
-          size: ''
-          width: ''
-          height: ''
-          units: ft
-          stationary: false
-        affects:
-          count: '1'
-          type: creature
-          choice: false
-          special: ''
-        prompt: true
-        override: false
-      uses:
-        spent: 0
-        max: ''
-        recovery: []
-      attack:
-        ability: ''
-        bonus: ''
-        critical:
-          threshold: null
-        flat: false
-        type:
-          value: ranged
-          classification: weapon
-      damage:
-        critical:
-          bonus: ''
-        includeBase: false
-        parts:
-          - custom:
-              enabled: true
-              formula: >-
-                (@scale.bombs.dice.number + @item.flags.mage-hand-press-core.primedBomb.reagents)d6
-                + @abilities.int.mod
-            number: null
-            denomination: null
-            bonus: ''
-            modifiers: []
-            types:
-              - radiant
-            scaling:
-              number: 1
-      img: ''
-      sort: 300000
-      flags: {}
-      visibility:
-        level:
-          min: null
-          max: null
-        requireAttunement: false
-        requireIdentification: false
-        requireMagic: false
-        identifier: ''
-      behaviors: []
-      name: Throw (vs Celestial)
-      _id: swIWmBAZATTJ06tP
     bE4lyO7dRohaGfNR:
       type: attack
       activation:
@@ -452,6 +362,7 @@ system:
         units: self
         special: ''
         override: false
+        value: ''
       target:
         template:
           count: ''
@@ -480,8 +391,8 @@ system:
           threshold: null
         flat: false
         type:
-          value: ranged
-          classification: weapon
+          value: ''
+          classification: ''
       damage:
         critical:
           bonus: ''
@@ -490,8 +401,8 @@ system:
           - custom:
               enabled: true
               formula: >-
-                (@scale.bombs.dice.number + @item.flags.mage-hand-press-core.primedBomb.reagents)d12
-                + @abilities.int.mod
+                (@scale.alchemist.bomb.number +
+                @item.flags.mage-hand-press-core.primedBomb.reagents)d12 + @abilities.int.mod
             number: null
             denomination: null
             bonus: ''
@@ -525,10 +436,10 @@ system:
     level: 2
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.3
-  coreVersion: '14.367'
+  systemVersion: 6.1.0
+  coreVersion: '14.370'
   createdTime: 1789769435125
-  modifiedTime: 1790026926921
+  modifiedTime: 1794347047694
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

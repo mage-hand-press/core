@@ -2,7 +2,65 @@ _id: mhpAlchBombs0000
 name: Bombs
 type: feat
 img: icons/skills/ranged/bomb-grenade-thrown-yellow.webp
-effects: []
+effects:
+  - name: Bombs
+    img: icons/skills/ranged/bomb-grenade-thrown-yellow.webp
+    system:
+      magical: false
+      origin:
+        item: Compendium.mage-hand-press-core.classes24.Item.mhpAlchBombs0000
+        actor: null
+        behavior: null
+        effect: null
+        message: null
+      changes:
+        - key: damage
+          type: dnd5e.bonus
+          value: max(1, @abilities.int.mod)
+          phase: initial
+          _id: UarMcTJbLMg9xz29
+          conditions: |-
+            [{
+              "k": "roll.item.identifier",
+              "v": "bomb"
+            }, {
+              "k": "roll.type",
+              "v": "save"
+            }]
+          replacement: ''
+          priority: null
+      conditions: '{}'
+      rider:
+        statuses: []
+    type: base
+    _id: dAXPivDSnv30spMu
+    disabled: false
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794344022222
+      modifiedTime: 1794344143830
+      lastModifiedBy: magehandpress000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!mhpAlchBombs0000.dAXPivDSnv30spMu'
 folder: r0eou6m5MnSc20hD
 flags: {}
 system:

@@ -68,6 +68,7 @@ flags:
       activity:
         - dnd5eactivity000
         - dnd5eactivity100
+        - SrQ5GEAzhQBh1Q6E
 system:
   description:
     value: >-
@@ -122,6 +123,7 @@ system:
         units: self
         special: ''
         override: false
+        value: ''
       target:
         template:
           count: ''
@@ -150,8 +152,8 @@ system:
           threshold: null
         flat: false
         type:
-          value: ranged
-          classification: weapon
+          value: ''
+          classification: ''
       damage:
         critical:
           bonus: ''
@@ -160,14 +162,14 @@ system:
           - custom:
               enabled: true
               formula: >-
-                (@scale.bombs.dice.number + @item.flags.mage-hand-press-core.primedBomb.reagents)d8
-                + @abilities.int.mod
+                (@scale.alchemist.bomb.number +
+                @item.flags.mage-hand-press-core.primedBomb.reagents)d10 + @abilities.int.mod
             number: null
             denomination: null
             bonus: ''
             modifiers: []
             types:
-              - fire
+              - bludgeoning
             scaling:
               number: 1
       img: ''
@@ -187,9 +189,9 @@ system:
       _id: dnd5eactivity100
       type: save
       activation:
-        type: ''
+        type: special
         value: 1
-        condition: ''
+        condition: When you take the Attack action
         override: false
       consumption:
         targets: []
@@ -217,7 +219,7 @@ system:
           count: ''
           contiguous: false
           type: sphere
-          size: '7.5'
+          size: 5 + 5 * @item.flags.mage-hand-press-core.primedBomb.reagents
           width: ''
           height: ''
           units: ft
@@ -256,7 +258,7 @@ system:
         requireMagic: false
         identifier: ''
       behaviors: []
-      name: ''
+      name: Explode
     YHCM3u7aKEChjBbr:
       type: mage-hand-press-core.primeBomb
       name: ''
@@ -290,6 +292,7 @@ system:
             activity:
               - dnd5eactivity000
               - dnd5eactivity100
+              - SrQ5GEAzhQBh1Q6E
             effect: []
             item: []
       flags: {}
@@ -330,6 +333,70 @@ system:
         properties: []
         type: weapon
       _id: YHCM3u7aKEChjBbr
+    SrQ5GEAzhQBh1Q6E:
+      type: check
+      name: Wake Creature
+      _id: SrQ5GEAzhQBh1Q6E
+      img: ''
+      sort: 100000
+      activation:
+        type: action
+        override: false
+        condition: ''
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: touch
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      check:
+        associated:
+          - med
+        dc:
+          calculation: ''
+          formula: '10'
+        visible: true
+        ability: wis
+        bonus: ''
   advancement: {}
   identifier: quiet-bomb
   enchant:
@@ -341,10 +408,10 @@ system:
     level: 2
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.3
-  coreVersion: '14.367'
+  systemVersion: 6.1.0
+  coreVersion: '14.370'
   createdTime: 1789769436469
-  modifiedTime: 1790028035948
+  modifiedTime: 1794346624230
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

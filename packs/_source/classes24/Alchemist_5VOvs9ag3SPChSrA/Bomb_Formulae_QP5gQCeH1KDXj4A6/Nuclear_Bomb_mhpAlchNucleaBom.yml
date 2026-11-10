@@ -103,7 +103,7 @@ system:
       _id: dnd5eactivity000
       type: attack
       activation:
-        type: special
+        type: action
         value: 1
         condition: ''
         override: false
@@ -128,19 +128,20 @@ system:
         units: self
         special: ''
         override: false
+        value: ''
       target:
         template:
           count: ''
           contiguous: false
-          type: radius
+          type: ''
           size: '1'
           width: ''
           height: ''
           units: mi
           stationary: false
         affects:
-          count: ''
-          type: ''
+          count: '1'
+          type: creature
           choice: false
           special: ''
         prompt: true
@@ -156,40 +157,42 @@ system:
           threshold: null
         flat: false
         type:
-          value: ranged
-          classification: weapon
+          value: ''
+          classification: ''
       damage:
         critical:
           bonus: ''
         includeBase: true
         parts:
-          - number: 10
-            denomination: 10
-            bonus: '100'
-            types:
-              - force
-            custom:
+          - custom:
               enabled: false
               formula: ''
-            scaling:
-              mode: whole
-              number: null
-              formula: ''
+            number: 10
+            denomination: 10
+            bonus: '100'
             modifiers: []
-      img: null
+            types:
+              - force
+            scaling:
+              number: 1
+      img: ''
       sort: 0
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
       behaviors: []
+      name: Throw
     dnd5eactivity100:
       _id: dnd5eactivity100
       type: save
       activation:
-        type: special
+        type: ''
         value: 1
         condition: ''
         override: false
@@ -214,6 +217,7 @@ system:
         units: self
         special: ''
         override: false
+        value: ''
       target:
         template:
           count: ''
@@ -226,7 +230,7 @@ system:
           stationary: false
         affects:
           count: ''
-          type: ''
+          type: creature
           choice: false
           special: ''
         prompt: true
@@ -237,20 +241,7 @@ system:
         recovery: []
       damage:
         onSave: half
-        parts:
-          - number: 10
-            denomination: 10
-            bonus: '100'
-            types:
-              - force
-            custom:
-              enabled: false
-              formula: ''
-            scaling:
-              mode: whole
-              number: null
-              formula: ''
-            modifiers: []
+        parts: []
       save:
         ability:
           - dex
@@ -258,15 +249,20 @@ system:
           calculation: int
           formula: ''
         visible: true
-      img: null
+        bonus: ''
+      img: ''
       sort: 0
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
       behaviors: []
+      name: Explode
     EZL3PlH6PJjydr9v:
       type: mage-hand-press-core.primeBomb
       name: ''
@@ -352,9 +348,9 @@ system:
 _stats:
   systemId: dnd5e
   systemVersion: 6.1.0
-  coreVersion: '14.369'
+  coreVersion: '14.370'
   createdTime: 1793310413394
-  modifiedTime: 1793310413395
+  modifiedTime: 1794347076308
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

@@ -61,9 +61,10 @@ effects:
       duplicateSource: null
       exportSource: null
     _key: '!items.effects!mhpFormLaughiGas.gD9Wz3qFYbgOutzY'
-  - name: Laughing Gas Immunity
+  - name: Laughing Uncontrollably
     img: icons/weapons/thrown/bomb-purple.webp
     system:
+      magical: false
       origin:
         item: Compendium.mage-hand-press-core.classes24.Item.mhpFormLaughiGas
         actor: null
@@ -72,23 +73,25 @@ effects:
         message: null
       changes: []
       conditions: '{}'
-      magical: false
       rider:
         statuses: []
-    transfer: false
-    _id: 0TW2cGutCHRKxPql
     type: base
+    _id: pyGRY1NO2gAJVk9w
     disabled: false
     start: null
     duration:
-      value: 24
-      units: hours
-      expiry: null
+      value: null
+      units: seconds
+      expiry: sourceStart
       expired: false
-    description: <p>You are immune to falling prone from laughing gas.</p>
+    description: >-
+      <p>You have the &amp;Reference[Poisoned apply=false] condition and can’t cast spells with a
+      Verbal component.</p>
     origin: null
     tint: '#ffffff'
-    statuses: []
+    transfer: false
+    statuses:
+      - poisoned
     showIcon: 1
     folder: null
     sort: 0
@@ -96,14 +99,14 @@ effects:
     _stats:
       coreVersion: '14.370'
       systemId: dnd5e
-      systemVersion: 6.0.3
-      createdTime: 1790027159152
-      modifiedTime: 1794339383850
+      systemVersion: 6.1.0
+      createdTime: 1794345920145
+      modifiedTime: 1794345951129
       lastModifiedBy: magehandpress000
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-    _key: '!items.effects!mhpFormLaughiGas.0TW2cGutCHRKxPql'
+    _key: '!items.effects!mhpFormLaughiGas.pyGRY1NO2gAJVk9w'
 folder: QP5gQCeH1KDXj4A6
 flags:
   dnd5e:
@@ -160,11 +163,17 @@ system:
         special: ''
         override: false
         expiry: null
-      effects: []
+      effects:
+        - _id: pyGRY1NO2gAJVk9w
+          uuid: null
+          level:
+            min: null
+            max: null
       range:
         units: self
         special: ''
         override: false
+        value: ''
       target:
         template:
           count: ''
@@ -193,8 +202,8 @@ system:
           threshold: null
         flat: false
         type:
-          value: ranged
-          classification: weapon
+          value: ''
+          classification: ''
       damage:
         critical:
           bonus: ''
@@ -203,8 +212,8 @@ system:
           - custom:
               enabled: true
               formula: >-
-                (@scale.bombs.dice.number + @item.flags.mage-hand-press-core.primedBomb.reagents)d6
-                + @abilities.int.mod
+                (@scale.alchemist.bomb.number +
+                @item.flags.mage-hand-press-core.primedBomb.reagents)d8 + @abilities.int.mod
             number: null
             denomination: null
             bonus: ''
@@ -230,9 +239,9 @@ system:
       _id: dnd5eactivity100
       type: save
       activation:
-        type: ''
+        type: special
         value: 1
-        condition: ''
+        condition: When you take the Attack action
         override: false
       consumption:
         targets: []
@@ -251,20 +260,23 @@ system:
         override: false
         expiry: null
       effects:
-        - _id: 0TW2cGutCHRKxPql
+        - _id: pyGRY1NO2gAJVk9w
           uuid: null
-          level: {}
           onSave: false
+          level:
+            min: null
+            max: null
       range:
         units: self
         special: ''
         override: false
+        value: ''
       target:
         template:
           count: ''
           contiguous: false
           type: sphere
-          size: '7.5'
+          size: 5 + 5 * @item.flags.mage-hand-press-core.primedBomb.reagents
           width: ''
           height: ''
           units: ft
@@ -303,7 +315,7 @@ system:
         requireMagic: false
         identifier: ''
       behaviors: []
-      name: ''
+      name: Explode
     yLZ48Lt1Cupn1P94:
       type: mage-hand-press-core.primeBomb
       name: ''
@@ -388,10 +400,10 @@ system:
     level: 2
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.3
-  coreVersion: '14.367'
+  systemVersion: 6.1.0
+  coreVersion: '14.370'
   createdTime: 1789769435455
-  modifiedTime: 1790027254798
+  modifiedTime: 1794347098457
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

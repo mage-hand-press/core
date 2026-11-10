@@ -66,8 +66,9 @@ flags:
   dnd5e:
     riders:
       activity:
-        - dnd5eactivity000
-        - JJOj6QYuVqxgsJvH
+        - M3uGx6bX6qMkRbuv
+        - 8EE38QxyhT90P5bj
+        - p5MAD9p8V15CzgQ9
 system:
   description:
     value: >-
@@ -93,83 +94,6 @@ system:
   requirements: Alchemist
   properties: []
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
-      type: utility
-      activation:
-        type: action
-        value: 0
-        condition: ''
-        override: false
-      consumption:
-        targets: []
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
-      description:
-        chatFlavor: ''
-        value: ''
-      duration:
-        concentration: false
-        value: '1'
-        units: minute
-        special: ''
-        override: false
-        expiry: null
-      effects: []
-      range:
-        units: self
-        special: ''
-        override: false
-      target:
-        template:
-          count: ''
-          contiguous: false
-          type: sphere
-          size: '7.5'
-          width: ''
-          height: ''
-          units: ft
-          stationary: false
-        affects:
-          count: ''
-          type: creature
-          choice: false
-          special: ''
-        prompt: true
-        override: false
-      uses:
-        spent: 0
-        max: ''
-        recovery: []
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
-      img: ''
-      sort: 0
-      flags: {}
-      visibility:
-        level:
-          min: null
-          max: null
-        requireAttunement: false
-        requireIdentification: false
-        requireMagic: false
-        identifier: ''
-      behaviors:
-        - name: ''
-          _id: g7Pgh4sU1RWEsJFF
-          type: difficultTerrain
-          config:
-            types:
-              - plants
-          level:
-            min: null
-            max: null
-      name: Throw
     t38khkah1FubDg1H:
       type: mage-hand-press-core.primeBomb
       name: ''
@@ -201,8 +125,9 @@ system:
             max: null
           riders:
             activity:
-              - dnd5eactivity000
-              - JJOj6QYuVqxgsJvH
+              - M3uGx6bX6qMkRbuv
+              - 8EE38QxyhT90P5bj
+              - p5MAD9p8V15CzgQ9
             effect: []
             item: []
       flags: {}
@@ -243,14 +168,181 @@ system:
         properties: []
         type: weapon
       _id: t38khkah1FubDg1H
-    JJOj6QYuVqxgsJvH:
-      type: check
-      name: Move
-      _id: JJOj6QYuVqxgsJvH
+    M3uGx6bX6qMkRbuv:
+      type: attack
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        concentration: false
+        value: '1'
+        units: inst
+        special: ''
+        override: false
+        expiry: null
+      effects: []
+      range:
+        value: ''
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: '15'
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ''
+          classification: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: false
+        parts: []
       img: ''
-      sort: 100000
+      sort: 0
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      name: Throw
+      behaviors: []
+      _id: M3uGx6bX6qMkRbuv
+    8EE38QxyhT90P5bj:
+      type: save
       activation:
         type: special
+        value: 1
+        condition: When you take the Attack action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        concentration: false
+        value: '1'
+        units: minute
+        special: ''
+        override: false
+        expiry: null
+      effects:
+        - _id: eLnK0rSg8kREMOTE
+          uuid: Compendium.dnd5e.effects.ActiveEffect.XtSh3VRWToowQQsn
+          onSave: false
+          level:
+            min: null
+            max: null
+      range:
+        value: ''
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: sphere
+          size: 5 + 5 * @item.flags.mage-hand-press-core.primedBomb.reagents
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: ''
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts: []
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: int
+          formula: ''
+        bonus: ''
+        visible: true
+      img: ''
+      sort: 50000
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      name: Explode
+      behaviors:
+        - name: ''
+          _id: EzPwgPQGzwIovcjx
+          type: difficultTerrain
+          config:
+            types: []
+          level:
+            min: null
+            max: null
+      _id: 8EE38QxyhT90P5bj
+    p5MAD9p8V15CzgQ9:
+      type: check
+      name: Move
+      _id: p5MAD9p8V15CzgQ9
+      img: ''
+      sort: 150000
+      activation:
+        type: ''
         override: false
         condition: ''
       behaviors: []
@@ -281,9 +373,9 @@ system:
           type: ''
         affects:
           choice: false
-          type: ''
-          count: ''
-          special: ''
+          type: creature
+          count: '1'
+          special: Entangled creature
         override: false
         prompt: true
       uses:
@@ -321,7 +413,7 @@ _stats:
   systemVersion: 6.1.0
   coreVersion: '14.370'
   createdTime: 1789769434904
-  modifiedTime: 1794339259467
+  modifiedTime: 1794346968010
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

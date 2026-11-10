@@ -71,11 +71,11 @@ effects:
         effect: null
         message: null
       changes:
-        - key: system.attributes.movement.bonus
-          type: subtract
-          value: 10
+        - key: attack
+          type: dnd5e.bonus
+          value: -3
           phase: initial
-          _id: 55dcXcbbGElBulMe
+          _id: itvjWNpkdfehYWKT
           conditions: '{}'
           replacement: ''
           priority: null
@@ -91,9 +91,9 @@ effects:
     duration:
       value: null
       units: seconds
-      expiry: targetEnd
+      expiry: sourceStart
       expired: false
-    description: <p>Your speed is reduced by 10 feet.</p>
+    description: <p>You have a –3 penalty to your attack rolls.</p>
     origin: null
     tint: '#ffffff'
     statuses: []
@@ -102,11 +102,11 @@ effects:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.370'
       systemId: dnd5e
-      systemVersion: 6.0.3
+      systemVersion: 6.1.0
       createdTime: 1790026727544
-      modifiedTime: 1790026761039
+      modifiedTime: 1794345544056
       lastModifiedBy: magehandpress000
       compendiumSource: null
       duplicateSource: null
@@ -168,11 +168,17 @@ system:
         special: ''
         override: false
         expiry: null
-      effects: []
+      effects:
+        - _id: bJEjJzcq0NgWzLRd
+          uuid: null
+          level:
+            min: null
+            max: null
       range:
         units: self
         special: ''
         override: false
+        value: ''
       target:
         template:
           count: ''
@@ -201,18 +207,18 @@ system:
           threshold: null
         flat: false
         type:
-          value: ranged
-          classification: weapon
+          value: ''
+          classification: ''
       damage:
         critical:
           bonus: ''
-        includeBase: true
+        includeBase: false
         parts:
           - custom:
               enabled: true
               formula: >-
-                (@scale.bombs.dice.number + @item.flags.mage-hand-press-core.primedBomb.reagents)d8
-                + @abilities.int.mod
+                (@scale.alchemist.bomb.number +
+                @item.flags.mage-hand-press-core.primedBomb.reagents)d8 + @abilities.int.mod
             number: null
             denomination: null
             bonus: ''
@@ -238,9 +244,9 @@ system:
       _id: dnd5eactivity100
       type: save
       activation:
-        type: ''
+        type: special
         value: 1
-        condition: ''
+        condition: When you take the Attack action
         override: false
       consumption:
         targets: []
@@ -269,12 +275,13 @@ system:
         units: self
         special: ''
         override: false
+        value: ''
       target:
         template:
           count: ''
           contiguous: false
           type: sphere
-          size: '7.5'
+          size: 5 + 5 * @item.flags.mage-hand-press-core.primedBomb.reagents
           width: ''
           height: ''
           units: ft
@@ -313,7 +320,7 @@ system:
         requireMagic: false
         identifier: ''
       behaviors: []
-      name: ''
+      name: Explode
     immtRYDiU36vXkm6:
       type: mage-hand-press-core.primeBomb
       name: ''
@@ -401,7 +408,7 @@ _stats:
   systemVersion: 6.1.0
   coreVersion: '14.370'
   createdTime: 1789769435018
-  modifiedTime: 1794339316181
+  modifiedTime: 1794347026093
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

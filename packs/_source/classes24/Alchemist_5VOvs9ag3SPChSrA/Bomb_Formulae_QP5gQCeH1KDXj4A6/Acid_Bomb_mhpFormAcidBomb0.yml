@@ -61,6 +61,57 @@ effects:
       duplicateSource: null
       exportSource: null
     _key: '!items.effects!mhpFormAcidBomb0.JRFxFRRktDRPzTsM'
+  - name: Covered in Acid
+    img: icons/weapons/thrown/bomb-fuse-brown-grey.webp
+    system:
+      origin:
+        item: Compendium.mage-hand-press-core.classes24.Item.mhpFormAcidBomb0
+        actor: null
+        behavior: null
+        effect: null
+        message: null
+      changes:
+        - key: system.attributes.ac.bonus
+          type: subtract
+          value: 3
+          phase: initial
+          _id: OhqDbQrC41kaRh6Y
+          conditions: '{}'
+          replacement: ''
+          priority: null
+      conditions: '{}'
+      magical: false
+      rider:
+        statuses: []
+    transfer: false
+    _id: i0G8n7OAUAbD2dsK
+    type: base
+    disabled: false
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: sourceStart
+      expired: false
+    description: <p>You have a –3 penalty to your AC.</p>
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794345045646
+      modifiedTime: 1794345483376
+      lastModifiedBy: magehandpress000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!mhpFormAcidBomb0.i0G8n7OAUAbD2dsK'
 folder: QP5gQCeH1KDXj4A6
 flags:
   dnd5e:
@@ -116,8 +167,13 @@ system:
         units: inst
         special: ''
         override: false
-        expiry: null
-      effects: []
+        expiry: sourceStart
+      effects:
+        - _id: i0G8n7OAUAbD2dsK
+          uuid: null
+          level:
+            min: null
+            max: null
       range:
         units: self
         special: ''
@@ -150,8 +206,8 @@ system:
           threshold: null
         flat: false
         type:
-          value: ranged
-          classification: weapon
+          value: ''
+          classification: ''
       damage:
         critical:
           bonus: ''
@@ -160,8 +216,8 @@ system:
           - custom:
               enabled: true
               formula: >-
-                (@scale.bombs.dice.number + @item.flags.mage-hand-press-core.primedBomb.reagents)d4
-                + @abilities.int.mod
+                (@scale.alchemist.bomb.number +
+                @item.flags.mage-hand-press-core.primedBomb.reagents)d8 + @abilities.int.mod
             number: null
             denomination: null
             bonus: ''
@@ -187,9 +243,9 @@ system:
       _id: dnd5eactivity100
       type: save
       activation:
-        type: ''
+        type: special
         value: 1
-        condition: ''
+        condition: When you take the Attack action
         override: false
       consumption:
         targets: []
@@ -206,18 +262,25 @@ system:
         units: inst
         special: ''
         override: false
-        expiry: null
-      effects: []
+        expiry: sourceStart
+      effects:
+        - _id: i0G8n7OAUAbD2dsK
+          uuid: null
+          onSave: false
+          level:
+            min: null
+            max: null
       range:
         units: self
         special: ''
         override: false
+        value: ''
       target:
         template:
           count: ''
           contiguous: false
           type: sphere
-          size: '7.5'
+          size: 5 + 5 * @item.flags.mage-hand-press-core.primedBomb.reagents
           width: ''
           height: ''
           units: ft
@@ -256,7 +319,7 @@ system:
         requireMagic: false
         identifier: ''
       behaviors: []
-      name: ''
+      name: Explode
     Fr8mZFijIQvwFJWX:
       type: mage-hand-press-core.primeBomb
       name: ''
@@ -264,9 +327,9 @@ system:
       img: ''
       sort: -100000
       activation:
-        type: action
+        type: special
         override: false
-        condition: ''
+        condition: When you attack with a bomb of use the Bomb's Explode property
       behaviors: []
       consumption:
         scaling:
@@ -344,7 +407,7 @@ _stats:
   systemVersion: 6.1.0
   coreVersion: '14.370'
   createdTime: 1789769434634
-  modifiedTime: 1794339229967
+  modifiedTime: 1794346954028
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

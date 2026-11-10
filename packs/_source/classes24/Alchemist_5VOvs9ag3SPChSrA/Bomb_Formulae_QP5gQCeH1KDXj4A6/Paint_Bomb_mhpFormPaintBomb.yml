@@ -2,9 +2,246 @@ folder: QP5gQCeH1KDXj4A6
 name: Paint Bomb
 type: feat
 _id: mhpFormPaintBomb
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/tools/hand/brush-paint-pink.webp
 system:
-  activities: {}
+  activities:
+    b5Dibyg3sHV9R1T0:
+      type: mage-hand-press-core.primeBomb
+      name: ''
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: When you attack with a bomb of use the Bomb's Explode property
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects:
+        - _id: smBrXxZj360QH3Ic
+          uuid: null
+          level:
+            min: null
+            max: null
+          riders:
+            activity:
+              - VQQcguh8dA6bmwfR
+              - XyoFgwOm8rbVlcD8
+            effect: []
+            item: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: object
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      enchant:
+        self: false
+      restrictions:
+        allowMagical: false
+        categories: []
+        properties: []
+        type: weapon
+      _id: b5Dibyg3sHV9R1T0
+    VQQcguh8dA6bmwfR:
+      type: attack
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+        expiry: sourceStart
+      effects:
+        - _id: BVjTEEc4fzhdUjoG
+          uuid: null
+          level:
+            min: null
+            max: null
+      range:
+        value: ''
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: '15'
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ''
+          classification: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: false
+        parts: []
+      img: ''
+      sort: 100000
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      name: Throw
+      behaviors: []
+      _id: VQQcguh8dA6bmwfR
+    XyoFgwOm8rbVlcD8:
+      type: save
+      activation:
+        type: special
+        value: 1
+        condition: When you take the Attack action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+        expiry: sourceStart
+      effects:
+        - _id: BVjTEEc4fzhdUjoG
+          uuid: null
+          onSave: false
+          level:
+            min: null
+            max: null
+      range:
+        value: ''
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: sphere
+          size: 5 + 5 * @item.flags.mage-hand-press-core.primedBomb.reagents
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: ''
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts: []
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: int
+          formula: ''
+        bonus: ''
+        visible: true
+      img: ''
+      sort: 200000
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      name: Explode
+      behaviors: []
+      _id: XyoFgwOm8rbVlcD8
   uses:
     spent: 0
     recovery: []
@@ -36,17 +273,129 @@ system:
   type:
     value: class
     subtype: bombFormula
-effects: []
+effects:
+  - type: enchantment
+    name: Paint Bomb
+    img: icons/tools/hand/brush-paint-pink.webp
+    disabled: true
+    transfer: false
+    _id: smBrXxZj360QH3Ic
+    system:
+      changes:
+        - key: name
+          type: override
+          value: Paint Bomb
+          phase: initial
+          _id: 5aTDYBkrE70n7CSY
+          conditions: '{}'
+          replacement: ''
+          priority: null
+        - key: system.description.value
+          type: override
+          value: >-
+            {}<hr><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpPaintBomb0000
+            inline]</p>
+          phase: initial
+          _id: GsaWx2V39a49opQn
+          conditions: '{}'
+          replacement: ''
+          priority: null
+      origin:
+        actor: null
+        behavior: null
+        effect: null
+        item: null
+        message: null
+      magical: false
+      rider:
+        activities: []
+        effects: []
+        items: []
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794344598329
+      modifiedTime: 1794344712867
+      lastModifiedBy: magehandpress000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!mhpFormPaintBomb.smBrXxZj360QH3Ic'
+  - name: Covered in Paint
+    img: icons/tools/hand/brush-paint-pink.webp
+    system:
+      magical: false
+      origin:
+        item: Compendium.mage-hand-press-core.classes24.Item.mhpFormPaintBomb
+        actor: null
+        behavior: null
+        effect: null
+        message: null
+      changes: []
+      conditions: '{}'
+      rider:
+        statuses: []
+    type: base
+    _id: BVjTEEc4fzhdUjoG
+    disabled: false
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: >-
+      <p>You can’t benefit from the &amp;Reference[Invisible apply=false] condition and attacks
+      against you have Advantage.</p>
+    origin: null
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794344900540
+      modifiedTime: 1794344939823
+      lastModifiedBy: magehandpress000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!mhpFormPaintBomb.BVjTEEc4fzhdUjoG'
 sort: 0
 ownership:
   default: 0
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity:
+        - VQQcguh8dA6bmwfR
+        - XyoFgwOm8rbVlcD8
 _stats:
   coreVersion: '14.370'
   systemId: dnd5e
   systemVersion: 6.1.0
   createdTime: 1793310378496
-  modifiedTime: 1794339432219
+  modifiedTime: 1794346899731
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
