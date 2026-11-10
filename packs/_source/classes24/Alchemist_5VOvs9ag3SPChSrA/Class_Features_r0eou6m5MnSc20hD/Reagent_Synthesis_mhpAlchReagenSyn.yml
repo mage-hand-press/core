@@ -23,7 +23,7 @@ system:
         targets:
           - type: itemUses
             value: min(-1, -@abilities.int.mod)
-            target: feat:reagents
+            target: feat:reagent
             scaling: {}
           - type: itemUses
             value: '1'

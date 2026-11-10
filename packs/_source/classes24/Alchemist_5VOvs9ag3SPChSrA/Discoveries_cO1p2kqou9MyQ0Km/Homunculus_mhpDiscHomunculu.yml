@@ -365,7 +365,7 @@ system:
         targets:
           - type: itemUses
             value: '3'
-            target: feat:reagents
+            target: feat:reagent
             scaling: {}
       description:
         value: >-
@@ -455,7 +455,7 @@ system:
         targets:
           - type: itemUses
             value: '2'
-            target: feat:reagents
+            target: feat:reagent
             scaling: {}
       description:
         value: >-

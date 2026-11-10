@@ -59,9 +59,9 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: feat:reagents
+            target: feat:reagent
             scaling:
-              mode: ''
+              mode: amount
       description:
         value: ''
         chatFlavor: ''
@@ -117,7 +117,7 @@ _stats:
   systemVersion: 6.1.0
   coreVersion: '14.370'
   createdTime: 1793310413082
-  modifiedTime: 1794347489125
+  modifiedTime: 1794348012420
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

@@ -23,7 +23,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: feat:reagents
+            target: feat:reagent
             scaling: {}
       description:
         value: >-
