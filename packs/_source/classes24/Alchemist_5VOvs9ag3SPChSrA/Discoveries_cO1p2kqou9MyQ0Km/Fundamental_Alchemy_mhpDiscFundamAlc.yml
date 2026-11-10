@@ -2,9 +2,425 @@ folder: cO1p2kqou9MyQ0Km
 name: Fundamental Alchemy
 type: feat
 _id: mhpDiscFundamAlc
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/consumables/potions/potion-jar-corked-orange.webp
 system:
-  activities: {}
+  activities:
+    6HB6zQF81XxACSyt:
+      type: utility
+      name: Quick Flask
+      _id: 6HB6zQF81XxACSyt
+      img: systems/dnd5e/icons/svg/items/consumable.svg
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        value: >-
+          <p>When you take the &amp;Reference[Attack] action with a Bomb, you can take a Bonus
+          Action to throw a flask of Alchemist’s Fire, Holy Water, Oil, or Acid, or to use an Oil
+          flask to douse a space.</p>
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+    7fefHP6KTIdAVYaE:
+      type: save
+      name: Throw Acid
+      sort: 100000
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: consumable:acid
+            scaling: {}
+      description:
+        chatFlavor: ''
+        value: >-
+          <p>When you take the &amp;Reference[Attack] action, you can replace one of your attacks
+          with throwing a vial of Acid. Target one creature or object you can see within 20 feet of
+          yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity
+          modifier and Proficiency Bonus) or take 3d6 Acid damage.</p>
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '20'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          count: '1'
+          type: creatureOrObject
+          special: You can see
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 3
+            denomination: 6
+            bonus: ''
+            modifiers: []
+            types:
+              - acid
+            scaling:
+              number: 1
+        onSave: none
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: int
+          formula: ''
+        visible: true
+        bonus: ''
+      img: icons/consumables/potions/bottle-round-corked-green.webp
+      behaviors: []
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      _id: 7fefHP6KTIdAVYaE
+    f0MB1iPCnRjmalGv:
+      type: save
+      sort: 200000
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: consumable:alchemists-fire
+            scaling: {}
+      description:
+        chatFlavor: ''
+        value: >-
+          <p>When you take the &amp;Reference[Attack] action, you can replace one of your attacks
+          with throwing a flask of Alchemist's Fire. Target one creature or object you can see
+          within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus
+          your Dexterity modifier and Proficiency Bonus) or take 2d4 Fire damage and start
+          &amp;Reference[burning].</p>
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      effects:
+        - _id: HL12olRyPOCmmMQ5
+          onSave: false
+          uuid: null
+          level: {}
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '20'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          type: creatureOrObject
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 4
+            bonus: ''
+            modifiers: []
+            types:
+              - fire
+            scaling:
+              number: 1
+        onSave: none
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: int
+          formula: ''
+        visible: true
+        bonus: ''
+      name: Throw Alchemist's Fire
+      img: icons/consumables/potions/bottle-round-label-cork-yellow.webp
+      behaviors: []
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      _id: f0MB1iPCnRjmalGv
+    DvDMCAb8eL6TJ9Rj:
+      type: save
+      name: Throw Holy Water
+      sort: 300000
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: consumable:holy-water
+            scaling: {}
+      description:
+        chatFlavor: ''
+        value: >-
+          <p>When you take the &amp;Reference[Attack] action, you can replace one of your attacks
+          with throwing a flask of Holy Water. Target one creature you can see within 20 feet of
+          yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity
+          modifier and Proficiency Bonus) or take 3d8 Radiant damage if it is a Fiend or an
+          Undead.</p>
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '20'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+          special: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 3
+            denomination: 8
+            bonus: ''
+            modifiers: []
+            types:
+              - radiant
+            scaling:
+              number: 1
+        onSave: none
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: int
+          formula: ''
+        visible: true
+        bonus: ''
+      img: icons/consumables/potions/bottle-round-empty-glass.webp
+      behaviors: []
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      _id: DvDMCAb8eL6TJ9Rj
+    QNcAPAMkELV9cu48:
+      type: save
+      name: Throw Oil
+      sort: 400000
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: consumable:oil
+            scaling: {}
+      description:
+        chatFlavor: ''
+        value: >-
+          <p>When you take the &amp;Reference[Attack] action, you can replace one of your attacks
+          with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The
+          target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and
+          Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil
+          dries (after 1 minute), the target takes an extra 5 Fire damage from burning oil.</p>
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '20'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+          special: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: true
+              formula: 5 + @abilities.int.mod
+            number: null
+            denomination: null
+            bonus: ''
+            modifiers: []
+            types:
+              - fire
+            scaling:
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: int
+          formula: ''
+        visible: true
+        bonus: ''
+      img: icons/consumables/potions/bottle-bulb-empty-glass.webp
+      behaviors: []
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      _id: QNcAPAMkELV9cu48
   uses:
     spent: 0
     recovery: []
@@ -14,16 +430,19 @@ system:
     value: >-
       <p>Your research has revealed the finer points of brewing basic alchemical substances. You
       gain the following benefits.</p><p><em><strong>Quadruple Flasks.</strong></em> When you brew
-      potions, you can brew a batch of four vials of Acid, Alchemist’s Fire, Holy Water, or Oil for
-      1 Reagent. Each batch counts as one potion for the number of potions you can have at once.
-      These batches can be all of one substance or a mix of them. These substances use your
-      Alchemist save DC and retain potency until you finish a Long Rest, after which they become
-      inert.</p><p><em><strong>Quick Flask.</strong></em> When you take the Attack action with a
-      Bomb, you can take a Bonus Action to throw a flask of Alchemist’s Fire, Holy Water, Oil, or
-      Acid, or to use an Oil flask to douse a space.</p><p><em><strong>Potent Flasks.</strong></em>
-      Acid, Alchemist’s Fire, and Holy Water that you brew deal an additional die of damage.
-      Alchemist’s Fire also deals this extra die of damage to burning creatures. Burning Oil adds
-      your Intelligence modifier to the extra Fire damage it deals.</p>
+      potions, you can brew a batch of four vials of
+      @UUID[Compendium.dnd5e.equipment24.Item.phbagAcid0000000]{Acid},
+      @UUID[Compendium.dnd5e.equipment24.Item.phbagAlchemistsF]{Alchemist’s Fire},
+      @UUID[Compendium.dnd5e.equipment24.Item.phbagHolyWater00]{Holy Water}, or
+      @UUID[Compendium.dnd5e.equipment24.Item.phbagOil00000000]{Oil} for 1 Reagent. Each batch
+      counts as one potion for the number of potions you can have at once. These batches can be all
+      of one substance or a mix of them. These substances use your Alchemist save DC and retain
+      potency until you finish a Long Rest, after which they become
+      inert.</p><p>@Embed[.Activity.6HB6zQF81XxACSyt caption=false cite=false
+      nameStyle=inline]</p><p><em><strong>Potent Flasks.</strong></em> Acid, Alchemist’s Fire, and
+      Holy Water that you brew deal an additional die of damage. Alchemist’s Fire also deals this
+      extra die of damage to burning creatures. Burning Oil adds your Intelligence modifier to the
+      extra Fire damage it deals.</p>
     chat: ''
   identifier: fundamental-alchemy
   source:
@@ -50,7 +469,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 6.1.0
   createdTime: 1793310347034
-  modifiedTime: 1794273060566
+  modifiedTime: 1794336794217
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

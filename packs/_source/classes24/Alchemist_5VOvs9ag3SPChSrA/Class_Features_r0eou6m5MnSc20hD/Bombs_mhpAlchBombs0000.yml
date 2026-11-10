@@ -15,7 +15,9 @@ system:
       your Intelligence modifier (minimum of +1).</p><p><em><strong>Alchemist Save DC.</strong></em>
       Some of your Alchemist features require your target to make a saving throw. The save DC equals
       8 plus your Intelligence modifier and Proficiency Bonus. You can use this save DC for your
-      Bombs instead of the DC specified in the Explode property.</p><p></p>
+      Bombs instead of the DC specified in the Explode
+      property.</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpBomb000000000
+      inline]</p>
     chat: ''
   source:
     custom: ''
@@ -72,9 +74,9 @@ system:
 _stats:
   systemId: dnd5e
   systemVersion: 6.1.0
-  coreVersion: '14.369'
+  coreVersion: '14.370'
   createdTime: 1789769322781
-  modifiedTime: 1793311069753
+  modifiedTime: 1794339788825
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

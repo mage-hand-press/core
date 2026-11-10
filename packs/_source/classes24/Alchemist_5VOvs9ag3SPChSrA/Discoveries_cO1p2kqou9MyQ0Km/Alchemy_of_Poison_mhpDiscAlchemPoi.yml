@@ -20,7 +20,9 @@ system:
       damage.</p><p><em><strong>Poison Crafting.</strong></em> You can brew the following poisons at
       the Alchemist levels given. If a poison forces a creature to make a saving throw, it uses your
       Alchemist save DC. These poisons count toward the number of potions you have brewed at one
-      time, and are included in the 5th Edition rules.</p><p></p>
+      time, and are included in the 5th Edition
+      rules.</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpAlchemyPoison
+      inline]</p>
     chat: ''
   identifier: alchemy-of-poison
   source:
@@ -47,7 +49,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 6.1.0
   createdTime: 1793310346954
-  modifiedTime: 1794272747906
+  modifiedTime: 1794339748709
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

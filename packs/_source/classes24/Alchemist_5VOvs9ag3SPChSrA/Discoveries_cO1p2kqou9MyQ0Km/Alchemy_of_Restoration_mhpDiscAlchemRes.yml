@@ -20,7 +20,9 @@ system:
       or <em>@UUID[Compendium.dnd5e.equipment24.Item.dmgSuperiorPotio]{Potion of Superior
       Healing}</em>, the potion has two uses. Drinking the potion expends one
       use.</p><p><em><strong>Expanded Potions.</strong></em> You can brew the following potions at
-      the Alchemist levels given.</p><p></p>
+      the Alchemist levels
+      given.</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpAlchemyRestor
+      inline]</p>
     chat: ''
   identifier: alchemy-of-restoration
   source:
@@ -47,7 +49,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 6.1.0
   createdTime: 1793310346977
-  modifiedTime: 1794273259191
+  modifiedTime: 1794339759515
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

@@ -58,7 +58,8 @@ pages:
       content: >-
         <p>Bomb Formula options appear in alphabetical order. The damage dice, damage type, and
         saving throw for Bomb Formulas are summarized on the following
-        table.</p><p></p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpFormAcidBomb0
+        table.</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpBombFormulae0
+        inline]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpFormAcidBomb0
         caption=false
         nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpFormBramblBom
         caption=false
@@ -74,7 +75,8 @@ pages:
         caption=false
         nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpFormIncendBom
         caption=false
-        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpFormLaughiGas
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpHowManyBombsD
+        inline]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpFormLaughiGas
         caption=false
         nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpFormLightnBom
         caption=false
@@ -84,7 +86,8 @@ pages:
         caption=false
         nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpFormPrismaBom
         caption=false
-        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpFormQuietBomb
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpMissedBombs00
+        inline]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpFormQuietBomb
         caption=false
         nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes24.Item.mhpFormSeekinBom
         caption=false
@@ -103,11 +106,11 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.369'
+      coreVersion: '14.370'
       systemId: dnd5e
       systemVersion: 5.3.0
       createdTime: 1777925453606
-      modifiedTime: 1793311925017
+      modifiedTime: 1794339672772
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null

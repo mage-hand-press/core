@@ -17,7 +17,9 @@ system:
       them, up to a maximum of the number of Reagents listed on the Alchemist Features table. You
       can expend these Reagents immediately to brew new potions.</p><p>Your potions don’t have
       unpredictable effects if a creature drinks one of your potions while still under the effects
-      of another.</p><p></p>
+      of
+      another.</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpPotions000000
+      inline]</p>
     chat: ''
   source:
     custom: ''
@@ -113,9 +115,9 @@ system:
 _stats:
   systemId: dnd5e
   systemVersion: 6.1.0
-  coreVersion: '14.369'
+  coreVersion: '14.370'
   createdTime: 1793310413082
-  modifiedTime: 1793311197333
+  modifiedTime: 1794339812918
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

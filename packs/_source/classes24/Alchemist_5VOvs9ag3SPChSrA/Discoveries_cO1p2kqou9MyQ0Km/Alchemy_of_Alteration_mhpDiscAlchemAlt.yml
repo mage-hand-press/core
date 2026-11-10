@@ -17,7 +17,9 @@ system:
       one time increases by 2.</p><p><em><strong>Potion Ingredients.</strong></em> You gain 4
       additional Reagents which you can only use to brew potions.</p><p><em><strong>Expanded
       Potions.</strong></em> You can brew the following potions at the Alchemist levels given. If a
-      potion forces a creature to make a saving throw, it uses your Alchemist save DC.</p><p></p>
+      potion forces a creature to make a saving throw, it uses your Alchemist save
+      DC.</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpAlchemyAltera
+      inline]</p>
     chat: ''
   identifier: alchemy-of-alteration
   source:
@@ -44,7 +46,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 6.1.0
   createdTime: 1793310346935
-  modifiedTime: 1794272695990
+  modifiedTime: 1794339736305
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

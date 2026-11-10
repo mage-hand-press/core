@@ -590,7 +590,7 @@ pages:
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpEmbeds55e0000.mhpWeaponPropert'
-  - sort: 2000000
+  - sort: 4300000
     name: Blaster
     type: rule
     _id: mhpBlaster000000
@@ -615,16 +615,16 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.370'
       systemId: dnd5e
       systemVersion: 5.3.3
       lastModifiedBy: magehandpress000
       createdTime: 1783118060629
-      modifiedTime: 1789757197111
+      modifiedTime: 1794337234797
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpEmbeds55e0000.mhpBlaster000000'
-  - sort: 2100000
+  - sort: 4400000
     name: Cooldown
     type: rule
     _id: mhpCooldown00000
@@ -650,16 +650,16 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.370'
       systemId: dnd5e
       systemVersion: 5.3.3
       lastModifiedBy: magehandpress000
       createdTime: 1783118068624
-      modifiedTime: 1789757197112
+      modifiedTime: 1794337234797
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpEmbeds55e0000.mhpCooldown00000'
-  - sort: 2200000
+  - sort: 4500000
     name: Firearm
     type: rule
     _id: mhpFirearm000000
@@ -684,16 +684,16 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.370'
       systemId: dnd5e
       systemVersion: 5.3.3
       lastModifiedBy: magehandpress000
       createdTime: 1783118069724
-      modifiedTime: 1789757197112
+      modifiedTime: 1794337234797
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpEmbeds55e0000.mhpFirearm000000'
-  - sort: 2300000
+  - sort: 4600000
     name: Recoil
     type: rule
     system:
@@ -717,17 +717,17 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.370'
       systemId: dnd5e
       systemVersion: 5.3.3
       lastModifiedBy: magehandpress000
       createdTime: 1783118074126
-      modifiedTime: 1789757197112
+      modifiedTime: 1794337234797
       duplicateSource: null
       exportSource: null
     _id: mhpRecoil0000000
     _key: '!journal.pages!mhpEmbeds55e0000.mhpRecoil0000000'
-  - sort: 2400000
+  - sort: 4700000
     name: Reload
     type: rule
     system:
@@ -752,17 +752,17 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.370'
       systemId: dnd5e
       systemVersion: 5.3.3
       lastModifiedBy: magehandpress000
       createdTime: 1783118075480
-      modifiedTime: 1789757197112
+      modifiedTime: 1794337234797
       duplicateSource: null
       exportSource: null
     _id: mhpReload0000000
     _key: '!journal.pages!mhpEmbeds55e0000.mhpReload0000000'
-  - sort: 2500000
+  - sort: 4800000
     name: Weapon Masteries
     type: text
     category: KkIdyGvbhlVXnoGQ
@@ -782,16 +782,16 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.370'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1783118140375
-      modifiedTime: 1789757197112
+      modifiedTime: 1794337234797
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpEmbeds55e0000.mhpWeaponMasteri'
-  - sort: 2600000
+  - sort: 4900000
     name: Automatic
     type: rule
     _id: mhpAutomatic0000
@@ -818,16 +818,16 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.370'
       systemId: dnd5e
       systemVersion: 5.3.3
       lastModifiedBy: magehandpress000
       createdTime: 1783118170217
-      modifiedTime: 1789757197112
+      modifiedTime: 1794337234798
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpEmbeds55e0000.mhpAutomatic0000'
-  - sort: 2700000
+  - sort: 5000000
     name: Bludgeon
     type: rule
     _id: mhpBludgeon00000
@@ -854,16 +854,16 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.370'
       systemId: dnd5e
       systemVersion: 5.3.3
       lastModifiedBy: magehandpress000
       createdTime: 1783118171639
-      modifiedTime: 1789757197112
+      modifiedTime: 1794337234798
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpEmbeds55e0000.mhpBludgeon00000'
-  - sort: 2800000
+  - sort: 5100000
     name: Explode
     type: rule
     _id: mhpExplode000000
@@ -893,16 +893,16 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.370'
       systemId: dnd5e
       systemVersion: 5.3.3
       lastModifiedBy: magehandpress000
       createdTime: 1783118173070
-      modifiedTime: 1789757197112
+      modifiedTime: 1794337234798
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpEmbeds55e0000.mhpExplode000000'
-  - sort: 2900000
+  - sort: 5200000
     name: Jolt
     type: rule
     _id: mhpJolt000000000
@@ -927,16 +927,16 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.370'
       systemId: dnd5e
       systemVersion: 5.3.3
       lastModifiedBy: magehandpress000
       createdTime: 1783118174031
-      modifiedTime: 1789757197112
+      modifiedTime: 1794337234798
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpEmbeds55e0000.mhpJolt000000000'
-  - sort: 3000000
+  - sort: 5300000
     name: Mounted
     type: rule
     _id: mhpMounted000000
@@ -963,16 +963,16 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.370'
       systemId: dnd5e
       systemVersion: 5.3.3
       lastModifiedBy: magehandpress000
       createdTime: 1783118174952
-      modifiedTime: 1789757197112
+      modifiedTime: 1794337234798
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpEmbeds55e0000.mhpMounted000000'
-  - sort: 3100000
+  - sort: 5400000
     name: Overheat
     type: rule
     _id: mhpOverheat00000
@@ -999,16 +999,16 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.370'
       systemId: dnd5e
       systemVersion: 5.3.3
       lastModifiedBy: magehandpress000
       createdTime: 1783118176220
-      modifiedTime: 1789757197112
+      modifiedTime: 1794337234798
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpEmbeds55e0000.mhpOverheat00000'
-  - sort: 3200000
+  - sort: 5500000
     name: Scatter
     type: rule
     _id: mhpScatter000000
@@ -1033,16 +1033,16 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.370'
       systemId: dnd5e
       systemVersion: 5.3.3
       lastModifiedBy: magehandpress000
       createdTime: 1783118177107
-      modifiedTime: 1789757197112
+      modifiedTime: 1794337234798
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpEmbeds55e0000.mhpScatter000000'
-  - sort: 3300000
+  - sort: 5600000
     name: Sighted
     type: rule
     _id: mhpSighted000000
@@ -1068,45 +1068,16 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.370'
       systemId: dnd5e
       systemVersion: 5.3.3
       lastModifiedBy: magehandpress000
       createdTime: 1783118177902
-      modifiedTime: 1789757197113
+      modifiedTime: 1794337234798
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpEmbeds55e0000.mhpSighted000000'
-  - sort: 1650000
-    name: Weapon Properties
-    type: text
-    category: A7SSNNM3XZUI2VxI
-    _id: U9idaEI3rHfCdc3Q
-    system: {}
-    title:
-      show: true
-      level: 1
-    image: {}
-    text:
-      format: 1
-    video:
-      controls: true
-      volume: 0.5
-    src: null
-    ownership:
-      default: -1
-    flags: {}
-    _stats:
-      coreVersion: '14.367'
-      systemId: dnd5e
-      systemVersion: 6.0.3
-      createdTime: 1789757194783
-      modifiedTime: 1789757198831
-      lastModifiedBy: magehandpress000
-      duplicateSource: null
-      exportSource: null
-    _key: '!journal.pages!mhpEmbeds55e0000.U9idaEI3rHfCdc3Q'
-  - sort: 1700000
+  - sort: 1775000
     name: Destructible
     type: rule
     category: A7SSNNM3XZUI2VxI
@@ -1128,18 +1099,18 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.370'
       systemId: dnd5e
       systemVersion: 6.0.3
       createdTime: 1789757249408
-      modifiedTime: 1789757253318
+      modifiedTime: 1794337241449
       lastModifiedBy: magehandpress000
       duplicateSource: >-
         Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.2ZWbXY7RSEayQegM
       exportSource: null
     _id: mhpDestructibleC
     _key: '!journal.pages!mhpEmbeds55e0000.mhpDestructibleC'
-  - sort: 1900000
+  - sort: 1787500
     name: Explode
     type: rule
     category: A7SSNNM3XZUI2VxI
@@ -1153,13 +1124,14 @@ pages:
     text:
       format: 1
       content: >-
-        <p>When you take the Attack action, you can replace one of your ranged attacks with an
-        explosion from this weapon’s projectile. This explosion is a 5-foot-radius Sphere centered
-        on a point you choose within the weapon’s normal range. Each creature within the Sphere
-        makes a Dexterity saving throw (DC 8 plus your Strength or Dexterity modifier and your
-        Proficiency Bonus). On a failed save, a creature takes the weapon’s damage, but don’t add
-        your ability modifier to that damage unless that modifier is negative. On a successful save,
-        a creature takes half as much damage. You can create this explosion only once per turn.</p>
+        <p>When you take the &amp;Reference[Attack] action, you can replace one of your ranged
+        attacks with an explosion from this weapon’s projectile. This explosion is a 5-foot-radius
+        Sphere centered on a point you choose within the weapon’s normal range. Each creature within
+        the Sphere makes a Dexterity saving throw (DC 8 plus your Strength or Dexterity modifier and
+        your Proficiency Bonus). On a failed save, a creature takes the weapon’s damage, but don’t
+        add your ability modifier to that damage unless that modifier is negative. On a successful
+        save, a creature takes half as much damage. You can create this explosion only once per
+        turn.</p>
     video:
       controls: true
       volume: 0.5
@@ -1168,17 +1140,1214 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.370'
       systemId: dnd5e
       systemVersion: 6.0.3
       createdTime: 1789757260876
-      modifiedTime: 1789757264913
+      modifiedTime: 1794337568949
       lastModifiedBy: magehandpress000
       duplicateSource: >-
         Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.HRMC8STHZ5Re14kD
       exportSource: null
     _id: mhpExplodeCopy00
     _key: '!journal.pages!mhpEmbeds55e0000.mhpExplodeCopy00'
+  - sort: 1700000
+    name: Bomb
+    type: text
+    category: A7SSNNM3XZUI2VxI
+    _id: mhpBomb000000000
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="notable"><h4 data-no-toc>Bomb</h4><p>Bombs are weapons with the following
+        traits:</p><div class="subfeature compact"><p><strong>Weapon Category:</strong> Martial
+        Ranged</p><p><strong>Damage on a Hit:</strong> 1d10 Fire plus your Dexterity
+        modifier</p><p><strong>Properties:</strong> Destructible, Finesse, Thrown (Range
+        30/90)</p><p><strong>Mastery:</strong> Explode</p><p><strong>Weight:</strong> 1
+        lb.</p><p><strong>Cost:</strong> 2 GP</p></div><p>@Embed[.mhpDestructibleC caption=false
+        cite=false nameStyle=inline]{New Property: Destructible}</p><p>@Embed[.mhpExplodeCopy00
+        caption=false cite=false nameStyle=inline]{New Mastery Property: Explode}</p></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794336864101
+      modifiedTime: 1794337530605
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpBomb000000000'
+  - sort: 1793750
+    name: Potions
+    type: text
+    category: A7SSNNM3XZUI2VxI
+    _id: mhpPotions000000
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: |-
+        <table>
+            <caption>
+                <p>Potions</p>
+            </caption>
+            <thead>
+                <tr>
+                    <th>
+                        <p>Potion</p>
+                    </th>
+                    <th>
+                        <p>Reagents</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">
+                        <p>Alchemist Level 1</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgPotionOfClimb]{Potion of Climbing}</em></p>
+                    </td>
+                    <td>
+                        <p>1</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgPotionOfDimin]{Potion of Diminution}</em></p>
+                    </td>
+                    <td>
+                        <p>1</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgPotionOfGrowt]{Potion of Growth}</em></p>
+                    </td>
+                    <td>
+                        <p>2</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgPotionOfHeali]{Potion of Healing}</em></p>
+                    </td>
+                    <td>
+                        <p>1</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><em>Potion of Resistance</em></p>
+                    </td>
+                    <td>
+                        <p>1</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgPotionOfWater]{Potion of Water Breathing}</em></p>
+                    </td>
+                    <td>
+                        <p>1</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <p>Alchemist Level 4</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgGreaterPotion]{Potion of Greater Healing}</em></p>
+                    </td>
+                    <td>
+                        <p>2</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgPotionOfInvis]{Potion of Invisibility}</em></p>
+                    </td>
+                    <td>
+                        <p>2</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgSovereignGlue]{Sovereign Glue} (1 oz.)</em></p>
+                    </td>
+                    <td>
+                        <p>1</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgUniversalSolv]{Universal Solvent} (1 oz.)</em></p>
+                    </td>
+                    <td>
+                        <p>1</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <p>Alchemist Level 8</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgPotionOfHeroi]{Potion of Heroism}</em></p>
+                    </td>
+                    <td>
+                        <p>3</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgHillPotionOfG]{Potion of Hill Giant Strength}</em></p>
+                    </td>
+                    <td>
+                        <p>3</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgSuperiorPotio]{Potion of Superior Healing}</em></p>
+                    </td>
+                    <td>
+                        <p>3</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <p>Alchemist Level 12</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgPotionOfFlyin]{Potion of Flying}</em></p>
+                    </td>
+                    <td>
+                        <p>5</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><em>Potion of @UUID[Compendium.dnd5e.equipment24.Item.dmgFrostPotionOf]{Frost}/@UUID[Compendium.dnd5e.equipment24.Item.dmgStonePotionOf]{Stone} Giant Strength</em></p>
+                    </td>
+                    <td>
+                        <p>4</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgPotionOfInvul]{Potion of Invulnerability}</em></p>
+                    </td>
+                    <td>
+                        <p>6</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <p>Alchemist Level 16</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgFirePotionOfG]{Potion of Fire Giant Strength}</em></p>
+                    </td>
+                    <td>
+                        <p>7</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgPotionOfSpeed]{Potion of Speed}</em></p>
+                    </td>
+                    <td>
+                        <p>9</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794336880681
+      modifiedTime: 1794338792358
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpPotions000000'
+  - sort: 1796875
+    name: Bomb Formulas
+    type: text
+    category: A7SSNNM3XZUI2VxI
+    _id: mhpBombFormulae0
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <table><caption><p>Bomb Formulas</p></caption><thead><tr><th><p>Bomb
+        Formula</p></th><th><p>Damage</p></th><th><p>Saving
+        Throw</p></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpFormAcidBomb0]{Acid
+        Bomb}</p></td><td><p>d8s
+        Acid</p></td><td><p>Dexterity</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpFormBramblBom]{Bramble
+        Bomb}</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpFormConcusBom]{Concussion
+        Bomb}</p></td><td><p>d10s
+        Thunder</p></td><td><p>Constitution</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpFormCryoBomb0]{Cryo
+        Bomb}</p></td><td><p>d8s
+        Cold</p></td><td><p>Constitution</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpFormFearBomb0]{Fear
+        Bomb}</p></td><td><p>d6s
+        Psychic</p></td><td><p>Wisdom</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpFormHolyBomb0]{Holy
+        Bomb}</p></td><td><p>d10s/d12s
+        Radiant</p></td><td><p>Dexterity</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpFormImpactBom]{Impact
+        Bomb}</p></td><td><p>d8s
+        Force</p></td><td><p>Strength</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpFormIncendBom]{Incendiary
+        Bomb}</p></td><td><p>d8s
+        Fire</p></td><td><p>Dexterity</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpFormLaughiGas]{Laughing
+        Gas Bomb}</p></td><td><p>d8s
+        Poison</p></td><td><p>Constitution</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpFormLightnBom]{Lightning
+        Bomb}</p></td><td><p>d10s
+        Lightning</p></td><td><p>Dexterity</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpFormOilBomb00]{Oil
+        Bomb}</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpFormPaintBomb]{Paint
+        Bomb}</p></td><td><p>—</p></td><td><p>Dexterity</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpFormPrismaBom]{Prismatic
+        Bomb}</p></td><td><p>d10s
+        Varies</p></td><td><p>Varies</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpFormQuietBomb]{Quiet
+        Bomb}</p></td><td><p>d10s
+        Bludgeoning</p></td><td><p>Dexterity</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpFormSeekinBom]{Seeking
+        Bomb}</p></td><td><p>d10s
+        Fire</p></td><td><p>Dexterity</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpFormSmokeBomb]{Smoke
+        Bomb}</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpFormTelepoBom]{Teleportation
+        Bomb}</p></td><td><p>—</p></td><td><p>—</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-core.classes24.Item.mhpFormWitherBom]{Withering
+        Bomb}</p></td><td><p>d8s Necrotic</p></td><td><p>Constitution</p></td></tr></tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794336899337
+      modifiedTime: 1794338419863
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpBombFormulae0'
+  - sort: 1798438
+    name: Acid Bomb
+    type: text
+    category: A7SSNNM3XZUI2VxI
+    _id: mhpAcidBomb00000
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>By mixing your Bomb’s explosive contents with a few drops of ardenflotic acid, a highly
+        corrosive chemical, you can change it into an Acid Bomb. This Bomb deals Acid damage instead
+        of Fire damage and all of its damage dice are d8s. A target hit by this Bomb or that fails
+        its saving throw against it has a −3 penalty to its AC until the start of your next
+        turn.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794336925679
+      modifiedTime: 1794337252919
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpAcidBomb00000'
+  - sort: 1799219
+    name: Bramble Bomb
+    type: text
+    category: A7SSNNM3XZUI2VxI
+    _id: mhpBrambleBomb00
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>By adding soil and a potent fertilizer to your Bomb’s explosive contents, you can change
+        it into a Bramble Bomb. This Bomb deals no damage. When you use the Bomb’s Explode property,
+        each creature within the explosion makes a Strength saving throw, instead of Dexterity. The
+        area of the explosion is filled with thorny brambles and is &amp;Reference[Difficult
+        Terrain]. A target on the ground hit by this Bomb or that fails its saving throw against it
+        is entangled in the brambles and its Speed is 0 and can’t increase. An entangled creature
+        can take an action to make a Strength (Athletics) check against your Alchemist save DC. On a
+        success, it frees itself from the brambles and its Speed is no longer 0. The brambles
+        shrivel and die after 1 minute.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794336945478
+      modifiedTime: 1794338455053
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpBrambleBomb00'
+  - sort: 1799610
+    name: Concussion Bomb
+    type: text
+    category: A7SSNNM3XZUI2VxI
+    _id: mhpConcussionBom
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>By mixing your Bomb’s explosive contents with a few drops of air elemental essence, you
+        can change it into a Concussion Bomb. This Bomb deals Thunder damage instead of Fire damage.
+        When you use the Bomb’s Explode property, each creature within the explosion makes a
+        Constitution saving throw, instead of Dexterity. A Huge or smaller target hit by this Bomb
+        or that fails its saving throw against it is pushed 10 feet away from you or the center of
+        the explosion, respectively.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794336974654
+      modifiedTime: 1794337257513
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpConcussionBom'
+  - sort: 1800000
+    name: Cryo Bomb
+    type: text
+    category: A7SSNNM3XZUI2VxI
+    _id: mhpCryoBomb00000
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>By replacing your Bomb’s explosive contents with a sliver of ice-nine, you can change it
+        into a Cryo Bomb. This Bomb deals Cold damage instead of Fire damage and all of its damage
+        dice are d8s. When you use the Bomb’s Explode property, each creature within the explosion
+        makes a Constitution saving throw, instead of Dexterity. A target hit by this Bomb or that
+        fails its saving throw against it has a −3 penalty to its attack rolls until the start of
+        your next turn.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794337002235
+      modifiedTime: 1794337234796
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpCryoBomb00000'
+  - sort: 1900000
+    name: Fear Bomb
+    type: text
+    category: A7SSNNM3XZUI2VxI
+    _id: mhpFearBomb00000
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>By mixing your Bomb’s explosive contents with concentrated adrenaline, you can change it
+        into a Fear Bomb. This Bomb deals Psychic damage instead of Fire damage and all of its
+        damage dice are d6s. When you use the Bomb’s Explode property, each creature within the
+        explosion makes a Wisdom saving throw, instead of Dexterity. A target hit by this Bomb or
+        that fails its saving throw against it has the &amp;Reference[Frightened apply=false]
+        condition until the start of your next turn.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794337012910
+      modifiedTime: 1794338483772
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpFearBomb00000'
+  - sort: 2000000
+    name: Holy Bomb
+    type: text
+    category: A7SSNNM3XZUI2VxI
+    _id: mhpHolyBomb00000
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>By adding a few drops of holy water to your Bomb’s explosive contents, you can change it
+        into a Holy Bomb. This Bomb deals Radiant damage instead of Fire damage. If a creature that
+        takes damage from the Bomb is a Fiend or Undead, the Bomb’s damage dice against this
+        creature become d12s.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794337028092
+      modifiedTime: 1794337234796
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpHolyBomb00000'
+  - sort: 2100000
+    name: Impact Bomb
+    type: text
+    category: A7SSNNM3XZUI2VxI
+    _id: mhpImpactBomb000
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>By replacing your Bomb’s explosive contents with a more reactive one, you can change it
+        into an Impact Bomb. This Bomb deals Force damage instead of Fire damage and all of its
+        damage dice are d8s. When you use the Bomb’s Explode property, each creature within the
+        explosion makes a Strength saving throw, instead of Dexterity. A Huge or smaller target hit
+        by this Bomb or that fails its saving throw against it has the &amp;Reference[Prone
+        apply=false] condition.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794337043048
+      modifiedTime: 1794338500537
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpImpactBomb000'
+  - sort: 2200000
+    name: Incendiary Bomb
+    type: text
+    category: A7SSNNM3XZUI2VxI
+    _id: mhpIncendiaryBom
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>By adding a thickening agent to your Bomb’s explosive contents, you can change it into an
+        Incendiary Bomb. All of this Bomb’s damage dice are d8s. When you use the Bomb’s Explode
+        property, the area of the explosion is filled with flames until the start of your next turn.
+        Whenever a creature enters the area or ends its turn there, it must succeed on a Dexterity
+        saving throw or take Fire damage equal to the Bomb’s damage dice.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794337055374
+      modifiedTime: 1794337234796
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpIncendiaryBom'
+  - sort: 2300000
+    name: Laughing Gas Bomb
+    type: text
+    category: A7SSNNM3XZUI2VxI
+    _id: mhpLaughingGasBo
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>By mixing your Bomb’s explosive contents with a drop of jesterate, a highly euphoric
+        chemical, you can change it into a Laughing Gas Bomb. This Bomb deals Poison damage instead
+        of Fire damage and all of its damage dice are d8s. When you use the Bomb’s Explode property,
+        each creature within the explosion makes a Constitution saving throw, instead of Dexterity.
+        A target hit by this Bomb or that fails its saving throw against it laughs uncontrollably
+        and has the &amp;Reference[Poisoned apply=false] condition and can’t cast spells with a
+        Verbal component until the start of your next turn.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794337075269
+      modifiedTime: 1794338521420
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpLaughingGasBo'
+  - sort: 2400000
+    name: Lightning Bomb
+    type: text
+    category: A7SSNNM3XZUI2VxI
+    _id: mhpLightningBomb
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>By replacing your Bomb’s explosive contents with a charged arcane capacitor, you can
+        change it into a Lightning Bomb. This Bomb deals Lightning damage instead of Fire damage. A
+        target hit by this Bomb or that fails its saving throw against it can’t make
+        &amp;Reference[Opportunity Attacks] until the start of its next turn.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794337083839
+      modifiedTime: 1794338534756
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpLightningBomb'
+  - sort: 2500000
+    name: Nuclear Bomb
+    type: text
+    category: A7SSNNM3XZUI2VxI
+    _id: mhpNuclearBomb00
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>You can utilize the most devastating Bomb Formula imaginable. By replacing your Bomb’s
+        explosive contents with your Philosopher’s Stone, you can change it into a Nuclear Bomb. You
+        must use the Bomb’s Explode property. This Bomb deals 10d10 + 100 Force damage instead of
+        its normal Fire damage, and its explosion is a Sphere with a radius of 1 mile.</p><p>This
+        Bomb completely destroys your Philosopher’s Stone.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794337102517
+      modifiedTime: 1794338569453
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpNuclearBomb00'
+  - sort: 2600000
+    name: Oil Bomb
+    type: text
+    category: A7SSNNM3XZUI2VxI
+    _id: mhpOilBomb000000
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>By mixing your Bomb’s explosive contents with a few drops of a super-surfactant, you can
+        change it into an Oil Bomb. This Bomb deals no damage, but instead causes the target or each
+        creature within the Sphere of the Bomb’s Explode property to become coated with a flammable
+        oil. This oil lasts for 1 minute or until it or another creature takes the
+        &amp;Reference[Utilize] action to remove the oil. The next time a creature coated in oil
+        takes Fire damage, you can treat a roll of 1–3 on any damage die as a 4. This destroys the
+        oil on the creature.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794337109464
+      modifiedTime: 1794338590076
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpOilBomb000000'
+  - sort: 2700000
+    name: Paint Bomb
+    type: text
+    category: A7SSNNM3XZUI2VxI
+    _id: mhpPaintBomb0000
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>You can replace your Bomb’s contents with vibrant, magical pigment, changing it into a
+        Paint Bomb. This Bomb deals no damage but instead splatters paint within the Sphere of the
+        Bomb’s Explode property. A target hit by this Bomb or that fails its saving throw against it
+        is coated in paint until the start of your next turn. A coated creature can’t benefit from
+        the &amp;Reference[Invisible apply=false] condition and attacks against it have
+        Advantage.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794337124908
+      modifiedTime: 1794338606915
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpPaintBomb0000'
+  - sort: 2800000
+    name: Quiet Bomb
+    type: text
+    category: A7SSNNM3XZUI2VxI
+    _id: mhpQuietBomb0000
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>By replacing your Bomb’s explosive contents with a pouch of rubber pellets, you can
+        change it into a Quiet Bomb. This Bomb deals Bludgeoning damage instead of Fire damage. When
+        this Bomb detonates, it makes only a low thud, audible out to 10 feet, and releases a puff
+        of smoke to mask the light of the blast.</p><p>Additionally, when you reduce a creature to 0
+        Hit Points with this Bomb, you can instead knock it out. The creature is instead reduced to
+        1 Hit Point. The creature remains &amp;Reference[Unconscious apply=false] until it regains
+        any Hit Points or until someone uses an action to administer first aid to it, which requires
+        a successful [[/check wisdom medicine 10]] check.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794337135126
+      modifiedTime: 1794338650570
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpQuietBomb0000'
+  - sort: 2900000
+    name: Seeking Bomb
+    type: text
+    category: A7SSNNM3XZUI2VxI
+    _id: mhpSeekingBomb00
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>By replacing your Bomb’s explosive contents with a powerful lodestone, you can change it
+        into a Seeking Bomb. Your ranged attack with this Bomb and its explosion ignore
+        &amp;Reference[Half Cover]{Half} and &amp;Reference[Three-Quarters Cover].</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794337156478
+      modifiedTime: 1794338674917
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpSeekingBomb00'
+  - sort: 3000000
+    name: Smoke Bomb
+    type: text
+    category: A7SSNNM3XZUI2VxI
+    _id: mhpSmokeBomb0000
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>By removing your bomb’s explosive contents entirely, you can change it into a Smoke Bomb.
+        This Bomb deals no damage, but creates a Sphere of smoke that is &amp;Reference[Heavily
+        Obscured]. The radius of this Sphere is twice that of the Bomb’s Explode property. The smoke
+        lasts for 1 minute or until a strong wind (such as one created by
+        <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust of Wind}</em>) disperses
+        it.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794337164748
+      modifiedTime: 1794338695389
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpSmokeBomb0000'
+  - sort: 3100000
+    name: Teleportation Bomb
+    type: text
+    category: A7SSNNM3XZUI2VxI
+    _id: mhpTeleportation
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>By replacing your Bomb’s explosive contents with a glowing etherite crystal, you can
+        change it into a Teleportation Bomb. This Bomb deals no damage. Instead, you teleport to the
+        Bomb’s point of impact. This teleportation fails if the Bomb explodes more than 30 feet away
+        from you.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794337175326
+      modifiedTime: 1794337234796
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpTeleportation'
+  - sort: 3200000
+    name: Withering Bomb
+    type: text
+    category: A7SSNNM3XZUI2VxI
+    _id: mhpWitheringBomb
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>By mixing your Bomb’s explosive contents with a powerful desiccating agent, you can
+        change it into a Withering Bomb. This Bomb deals Necrotic damage instead of Fire damage and
+        all of its damage dice are d8s. When you use the Bomb’s Explode property, each creature
+        within the explosion makes a Constitution saving throw, instead of Dexterity. A target hit
+        by this Bomb or that fails its saving throw against it has a −3 penalty on saving throws it
+        makes before the start of your next turn.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794337183973
+      modifiedTime: 1794337234796
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpWitheringBomb'
+  - sort: 3300000
+    name: How Many Bombs Do I Have?
+    type: text
+    category: A7SSNNM3XZUI2VxI
+    _id: mhpHowManyBombsD
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="notable"><h4 data-no-toc>How Many Bombs Do I Have?</h4><p>As an Alchemist, you
+        can use Alchemist’s Supplies to effectively make as many Bombs as you need for the
+        adventuring day at no cost. If you prefer to track your inventory of Bombs manually, you can
+        create a number of Bombs equal to 10 + twice your Alchemist level when you finish a Short or
+        Long Rest. After 24 hours, an unused Bomb becomes inert.</p></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794337199886
+      modifiedTime: 1794339693979
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpHowManyBombsD'
+  - sort: 3400000
+    name: Missed Bombs
+    type: text
+    category: A7SSNNM3XZUI2VxI
+    _id: mhpMissedBombs00
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="notable"><h4 data-no-toc>Missed Bombs</h4><p>For simplicity, we assume that a
+        missed attack roll using a Bomb explodes harmlessly in the background or fails to detonate
+        altogether. The GM decides the secondary effects of a miss, if any.</p></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794337214752
+      modifiedTime: 1794339711503
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpMissedBombs00'
+  - sort: 3850000
+    name: Alchemy of Alteration Potions
+    type: text
+    category: A7SSNNM3XZUI2VxI
+    _id: mhpAlchemyAltera
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <table><caption><p>Expanded
+        Potions</p></caption><thead><tr><th><p>Potion</p></th><th><p>Reagents</p></th></tr></thead><tbody><tr><td
+        colspan="2"><p>Alchemist Level
+        5</p></td></tr><tr><td><p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgPotionOfGaseo]{Potion
+        of Gaseous
+        Form}</em></p></td><td><p>2</p></td></tr><tr><td><p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgPhilterOfLove]{Philter
+        of
+        Love}</em></p></td><td><p>1</p></td></tr><tr><td><p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgPotionOfMindR]{Potion
+        of Mind
+        Reading}</em></p></td><td><p>1</p></td></tr><tr><td><p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgPotionOfAnima]{Potion
+        of Animal Friendship}</em></p></td><td><p>1</p></td></tr><tr><td colspan="2"><p>Alchemist
+        Level
+        8</p></td></tr><tr><td><p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgOilOfEthereal]{Oil
+        of Etherealness}</em></p></td><td><p>3</p></td></tr><tr><td colspan="2"><p>Alchemist Level
+        12</p></td></tr><tr><td><p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgOilOfSlipperi]{Oil
+        of Slipperiness}</em></p></td><td><p>5</p></td></tr></tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794338741931
+      modifiedTime: 1794339146143
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpAlchemyAltera'
+  - sort: 4075000
+    name: Alchemy of Poison Poisons
+    type: text
+    category: A7SSNNM3XZUI2VxI
+    _id: mhpAlchemyPoison
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <table><caption><p>Poisons</p></caption><thead><tr><th><p>Posion</p></th><th><p>Reagents</p></th></tr></thead><tbody><tr><td
+        colspan="2"><p>Alchemist Level
+        5</p></td></tr><tr><td><p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgCarrionCrawle]{Carrion
+        Crawler
+        Mucus}</em></p></td><td><p>2</p></td></tr><tr><td><p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgLolthsSting00]{Lolth’s
+        Sting}</em></p></td><td><p>2</p></td></tr><tr><td><p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgSerpentVenom0]{Serpent
+        Venom}</em></p></td><td><p>2</p></td></tr><tr><td colspan="2"><p>Alchemist Level
+        8</p></td></tr><tr><td><p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgMalice0000000]{Malice}</em></p></td><td><p>3</p></td></tr><tr><td><p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgBurntOthurFum]{Burnt
+        Othur
+        Fumes}</em></p></td><td><p>3</p></td></tr><tr><td><p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgOilOfTaggit00]{Oil
+        of Taggit}</em></p></td><td><p>3</p></td></tr><tr><td colspan="2"><p>Alchemist Level
+        12</p></td></tr><tr><td><p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgWyvernPoison0]{Wyvern
+        Poison}</em></p></td><td><p>4</p></td></tr></tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794338749842
+      modifiedTime: 1794339148363
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpAlchemyPoison'
+  - sort: 4187500
+    name: Alchemy of Restoration Potions
+    type: text
+    category: A7SSNNM3XZUI2VxI
+    _id: mhpAlchemyRestor
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <table><caption><p>Expanded
+        Potions</p></caption><thead><tr><th><p>Potion</p></th><th><p>Reagents</p></th></tr></thead><tbody><tr><td
+        colspan="2"><p>Alchemist Level
+        5</p></td></tr><tr><td><p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgElixirOfHealt]{Elixir
+        of Health}</em></p></td><td><p>2</p></td></tr><tr><td colspan="2"><p>Alchemist Level
+        8</p></td></tr><tr><td><p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgPotionOfLonge]{Potion
+        of Longevity}</em></p></td><td><p>4</p></td></tr><tr><td colspan="2"><p>Alchemist Level
+        12</p></td></tr><tr><td><p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgPotionOfVital]{Potion
+        of
+        Vitality}</em></p></td><td><p>4</p></td></tr><tr><td><p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgSupremePotion]{Potion
+        of Supreme Healing}</em></p></td><td><p>6</p></td></tr></tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794338756962
+      modifiedTime: 1794339150865
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpAlchemyRestor'
+  - sort: 2750000
+    name: Prismatic Bomb
+    type: text
+    category: A7SSNNM3XZUI2VxI
+    _id: mhpPrismaticBomb
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>By adding an ounce of polyjuice, an unpredictable, multicolored chemical, to your Bomb’s
+        explosive contents, you can change it into a Prismatic Bomb. This Bomb deals a
+        randomly-determined damage type instead of Fire damage, and the Bomb’s Explode property
+        requires a randomly-determined type of saving throw. Roll on each of the Prismatic Bomb
+        tables.</p><div class="flex-around
+        align-start"><p>@Embed[Compendium.mage-hand-press-core.tables.RollTable.mhpPismaticBombD
+        caption=false cite=false
+        rollable]</p><p>@Embed[Compendium.mage-hand-press-core.tables.RollTable.mhpPismaticBombS
+        caption=false cite=false rollable]</p></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794339453847
+      modifiedTime: 1794339553115
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpEmbeds55e0000.mhpPrismaticBomb'
 folder: null
 categories:
   - name: Warmage
@@ -1231,11 +2400,11 @@ ownership:
   default: 0
 flags: {}
 _stats:
-  coreVersion: '14.367'
+  coreVersion: '14.370'
   systemId: dnd5e
-  systemVersion: 6.0.0
+  systemVersion: 6.1.0
   createdTime: 1782430563289
-  modifiedTime: 1789757111377
+  modifiedTime: 1794336817697
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

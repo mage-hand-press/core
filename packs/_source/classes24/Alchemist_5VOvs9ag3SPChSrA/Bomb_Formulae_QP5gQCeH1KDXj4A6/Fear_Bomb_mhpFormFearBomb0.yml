@@ -11,7 +11,9 @@ system:
     max: ''
   advancement: {}
   description:
-    value: ''
+    value: >-
+      <p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpFearBomb00000
+      inline]</p>
     chat: ''
   identifier: fear-bomb
   source:
@@ -22,7 +24,9 @@ system:
     custom: ''
     license: ''
   crewed: false
-  enchant: {}
+  enchant:
+    max: ''
+    period: ''
   prerequisites:
     items: []
     repeatable: false
@@ -38,11 +42,11 @@ ownership:
   default: 0
 flags: {}
 _stats:
-  coreVersion: '14.369'
+  coreVersion: '14.370'
   systemId: dnd5e
   systemVersion: 6.1.0
   createdTime: 1793310378479
-  modifiedTime: 1793310378479
+  modifiedTime: 1794339343413
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

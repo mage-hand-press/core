@@ -35,7 +35,7 @@ effects:
         effect: null
         item: null
         message: null
-      magical: true
+      magical: false
     start: null
     duration:
       value: null
@@ -51,11 +51,11 @@ effects:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.370'
       systemId: dnd5e
-      systemVersion: 6.0.3
+      systemVersion: 6.1.0
       createdTime: 1790022371564
-      modifiedTime: 1790025727717
+      modifiedTime: 1794339290828
       lastModifiedBy: magehandpress000
       compendiumSource: null
       duplicateSource: null
@@ -71,7 +71,7 @@ flags:
 system:
   description:
     value: >-
-      <p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5ee0000.JournalEntryPage.mhpAcidBomb00000
+      <p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds55e0000.JournalEntryPage.mhpAcidBomb00000
       inline]</p>
     chat: ''
   source:
@@ -342,9 +342,9 @@ system:
 _stats:
   systemId: dnd5e
   systemVersion: 6.1.0
-  coreVersion: '14.369'
+  coreVersion: '14.370'
   createdTime: 1789769434634
-  modifiedTime: 1793309648734
+  modifiedTime: 1794339229967
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

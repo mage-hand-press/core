@@ -82,7 +82,7 @@ effects:
     start: null
     duration:
       value: 24
-      units: seconds
+      units: hours
       expiry: null
       expired: false
     description: <p>You are immune to falling prone from laughing gas.</p>
@@ -94,11 +94,11 @@ effects:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.370'
       systemId: dnd5e
       systemVersion: 6.0.3
       createdTime: 1790027159152
-      modifiedTime: 1790027182213
+      modifiedTime: 1794339397424
       lastModifiedBy: magehandpress000
       compendiumSource: null
       duplicateSource: null

@@ -1131,38 +1131,192 @@ pages:
     image: {}
     text:
       format: 1
-      content: >-
-        <table><caption><p>Potions</p></caption><thead><tr><th><p>Potion</p></th><th><p>Cost</p></th><th><p>Alchemist
-        Level</p></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd5e.items.aMnWi1WXWpxRHq4r]{Potion
-        of Climbing}</p></td><td><p>1 reagent
-        die</p></td><td><p>3rd</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.gTRFQLdVD1gsKtPi]{Potion
-        of Growth}</p></td><td><p>1 reagent
-        die</p></td><td><p>3rd</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.ytlsBjYsZ7OBSEBs]{Potion
-        of Healing}</p></td><td><p>1 reagent
-        die</p></td><td><p>3rd</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.CAZMwFBWp9VC0ZCg]{Potion
-        of Water Breathing}</p></td><td><p>1 reagent
-        die</p></td><td><p>3rd</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.MAwoj2suj6cvb9Ti]{Universal
-        Solvent}</p></td><td><p>1 reagent
-        die</p></td><td><p>3rd</p></td></tr><tr><td><p>@UUID[Compendium.mage-hand-press-complete-alchemist.equipment14.Item.mhpPotiCureAll00]{Cure-All}</p></td><td><p>2
-        reagent
-        dice</p></td><td><p>7th</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.L887NdWEP5NqHCrQ]{Potion
-        of Greater Healing}</p></td><td><p>2 reagent
-        dice</p></td><td><p>7th</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.wNKYbKYwOHbA7SH8]{Potion
-        of Heroism}</p></td><td><p>2 reagent dice</p></td><td><p>7th</p></td></tr><tr><td><p>Potion
-        of Resistance</p></td><td><p>2 reagent
-        dice</p></td><td><p>7th</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.zJ5LhDvTxYKzPIx4]{Sovereign
-        Glue} (1 ounce)</p></td><td><p>2 reagent
-        dice</p></td><td><p>7th</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.HY8duCwmvlXOruTG]{Potion
-        of Diminution}</p></td><td><p>3 reagent
-        dice</p></td><td><p>14th</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.eTNc8XPtvZNe3yQs]{Potion
-        of Flying}</p></td><td><p>4 reagent
-        dice</p></td><td><p>14th</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.mhFBTY0egW8AeCHe]{Potion
-        of Hill Giant Strength}</p></td><td><p>4 reagent
-        dice</p></td><td><p>14th</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.rTn4p9nJr4Aq2GPB]{Potion
-        of Invisibility}</p></td><td><p>4 reagent
-        dice</p></td><td><p>14th</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.items.5m9ErO9In8Uc5yyf]{Potion
-        of Superior Healing}</p></td><td><p>4 reagent
-        dice</p></td><td><p>14th</p></td></tr></tbody></table>
+      content: |-
+        <table>
+            <caption>
+                <p>Potions</p>
+            </caption>
+            <thead>
+                <tr>
+                    <th>
+                        <p>Potion</p>
+                    </th>
+                    <th>
+                        <p>Cost</p>
+                    </th>
+                    <th>
+                        <p>Alchemist Level</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <p>@UUID[Compendium.dnd5e.items.aMnWi1WXWpxRHq4r]{Potion of Climbing}</p>
+                    </td>
+                    <td>
+                        <p>1 reagent die</p>
+                    </td>
+                    <td>
+                        <p>3rd</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>@UUID[Compendium.dnd5e.items.gTRFQLdVD1gsKtPi]{Potion of Growth}</p>
+                    </td>
+                    <td>
+                        <p>1 reagent die</p>
+                    </td>
+                    <td>
+                        <p>3rd</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>@UUID[Compendium.dnd5e.items.ytlsBjYsZ7OBSEBs]{Potion of Healing}</p>
+                    </td>
+                    <td>
+                        <p>1 reagent die</p>
+                    </td>
+                    <td>
+                        <p>3rd</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>@UUID[Compendium.dnd5e.items.CAZMwFBWp9VC0ZCg]{Potion of Water Breathing}</p>
+                    </td>
+                    <td>
+                        <p>1 reagent die</p>
+                    </td>
+                    <td>
+                        <p>3rd</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>@UUID[Compendium.dnd5e.items.MAwoj2suj6cvb9Ti]{Universal Solvent}</p>
+                    </td>
+                    <td>
+                        <p>1 reagent die</p>
+                    </td>
+                    <td>
+                        <p>3rd</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>@UUID[Compendium.mage-hand-press-complete-alchemist.equipment14.Item.mhpPotiCureAll00]{Cure-All}</p>
+                    </td>
+                    <td>
+                        <p>2 reagent dice</p>
+                    </td>
+                    <td>
+                        <p>7th</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>@UUID[Compendium.dnd5e.items.L887NdWEP5NqHCrQ]{Potion of Greater Healing}</p>
+                    </td>
+                    <td>
+                        <p>2 reagent dice</p>
+                    </td>
+                    <td>
+                        <p>7th</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>@UUID[Compendium.dnd5e.items.wNKYbKYwOHbA7SH8]{Potion of Heroism}</p>
+                    </td>
+                    <td>
+                        <p>2 reagent dice</p>
+                    </td>
+                    <td>
+                        <p>7th</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Potion of Resistance</p>
+                    </td>
+                    <td>
+                        <p>2 reagent dice</p>
+                    </td>
+                    <td>
+                        <p>7th</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>@UUID[Compendium.dnd5e.items.zJ5LhDvTxYKzPIx4]{Sovereign Glue} (1 ounce)</p>
+                    </td>
+                    <td>
+                        <p>2 reagent dice</p>
+                    </td>
+                    <td>
+                        <p>7th</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>@UUID[Compendium.dnd5e.items.HY8duCwmvlXOruTG]{Potion of Diminution}</p>
+                    </td>
+                    <td>
+                        <p>3 reagent dice</p>
+                    </td>
+                    <td>
+                        <p>14th</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>@UUID[Compendium.dnd5e.items.eTNc8XPtvZNe3yQs]{Potion of Flying}</p>
+                    </td>
+                    <td>
+                        <p>4 reagent dice</p>
+                    </td>
+                    <td>
+                        <p>14th</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>@UUID[Compendium.dnd5e.items.mhFBTY0egW8AeCHe]{Potion of Hill Giant Strength}</p>
+                    </td>
+                    <td>
+                        <p>4 reagent dice</p>
+                    </td>
+                    <td>
+                        <p>14th</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>@UUID[Compendium.dnd5e.items.rTn4p9nJr4Aq2GPB]{Potion of Invisibility}</p>
+                    </td>
+                    <td>
+                        <p>4 reagent dice</p>
+                    </td>
+                    <td>
+                        <p>14th</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>@UUID[Compendium.dnd5e.items.5m9ErO9In8Uc5yyf]{Potion of Superior Healing}</p>
+                    </td>
+                    <td>
+                        <p>4 reagent dice</p>
+                    </td>
+                    <td>
+                        <p>14th</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     video:
       controls: true
       volume: 0.5
@@ -1171,11 +1325,11 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.370'
       systemId: dnd5e
       systemVersion: 6.0.3
       createdTime: 1789843956851
-      modifiedTime: 1790023987433
+      modifiedTime: 1794337592379
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null
@@ -2359,11 +2513,11 @@ ownership:
   default: 0
 flags: {}
 _stats:
-  coreVersion: '14.369'
+  coreVersion: '14.370'
   systemId: dnd5e
-  systemVersion: 6.0.6
+  systemVersion: 6.1.0
   createdTime: 1782430563289
-  modifiedTime: 1793051015377
+  modifiedTime: 1794336821854
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

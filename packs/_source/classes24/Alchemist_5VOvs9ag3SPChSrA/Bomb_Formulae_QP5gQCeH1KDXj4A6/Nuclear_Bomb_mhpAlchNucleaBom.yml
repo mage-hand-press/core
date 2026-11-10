@@ -35,7 +35,7 @@ effects:
         effect: null
         item: null
         message: null
-      magical: true
+      magical: false
       rider:
         activities: []
         effects: []
@@ -57,11 +57,11 @@ effects:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.369'
+      coreVersion: '14.370'
       systemId: dnd5e
       systemVersion: 6.1.0
       createdTime: 1793310413394
-      modifiedTime: 1793310413394
+      modifiedTime: 1794339411639
       lastModifiedBy: magehandpress000
       compendiumSource: null
       duplicateSource: null
