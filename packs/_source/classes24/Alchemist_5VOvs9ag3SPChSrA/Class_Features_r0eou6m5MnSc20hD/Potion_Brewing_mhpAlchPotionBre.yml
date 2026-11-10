@@ -43,7 +43,7 @@ system:
     vI5MajTQYkG1TDDj:
       type: utility
       name: Brew
-      img: ''
+      img: systems/dnd5e/icons/svg/items/consumable.svg
       sort: 0
       activation:
         type: minute
@@ -67,7 +67,7 @@ system:
         chatFlavor: ''
       duration:
         units: inst
-        expiry: null
+        expiry: longRest
         concentration: false
         override: false
       effects: []
@@ -117,7 +117,7 @@ _stats:
   systemVersion: 6.1.0
   coreVersion: '14.370'
   createdTime: 1793310413082
-  modifiedTime: 1794339812918
+  modifiedTime: 1794347489125
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

@@ -171,7 +171,9 @@ system:
       effects:
         - _id: mSmDqamA00EUZbmo
           uuid: null
-          level: {}
+          level:
+            min: null
+            max: null
       range:
         units: self
         special: ''
@@ -214,8 +216,8 @@ system:
           - custom:
               enabled: true
               formula: >-
-                (@scale.alchemist.bomb.number +
-                @item.flags.mage-hand-press-core.primedBomb.reagents)d8 + @abilities.int.mod
+                (@scale.alchemist.bomb.number)d8 +
+                (@item.flags.mage-hand-press-core.primedBomb.reagents)d10 + @abilities.int.mod
             number: null
             denomination: null
             bonus: ''
@@ -404,7 +406,7 @@ _stats:
   systemVersion: 6.1.0
   coreVersion: '14.370'
   createdTime: 1789769437565
-  modifiedTime: 1794346861279
+  modifiedTime: 1794347797857
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

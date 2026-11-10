@@ -145,8 +145,8 @@ system:
           - custom:
               enabled: true
               formula: >-
-                (@scale.alchemist.bomb.number +
-                @item.flags.mage-hand-press-core.primedBomb.reagents)d6 + @abilities.int.mod
+                (@scale.alchemist.bomb.number)d6 +
+                (@item.flags.mage-hand-press-core.primedBomb.reagents)d10 + @abilities.int.mod
             number: null
             denomination: null
             bonus: ''
@@ -358,7 +358,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 6.1.0
   createdTime: 1793310378479
-  modifiedTime: 1794346921517
+  modifiedTime: 1794347675724
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
