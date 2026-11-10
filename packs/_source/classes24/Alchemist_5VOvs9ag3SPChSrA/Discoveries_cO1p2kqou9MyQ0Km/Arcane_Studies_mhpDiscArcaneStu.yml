@@ -7,7 +7,19 @@ folder: cO1p2kqou9MyQ0Km
 flags: {}
 system:
   description:
-    value: ''
+    value: >-
+      <p>Dabbling in arcana has granted you limited magic. You gain the following
+      benefits.</p><p><em><strong>Two Cantrips.</strong></em> You learn two cantrips of your choice
+      from the Wizard spell list. Intelligence is your spellcasting ability for this Discovery’s
+      spells.</p><p><em><strong>Level 1 and 2 Spells.</strong></em> Choose a level 1 spell and a
+      level 2 spell from the Wizard spell list. You always have these spells prepared. You can cast
+      each once without a spell slot, and you regain the ability to cast it in that way when you
+      finish a Long Rest. You can also restore your use of a spell by taking the
+      &amp;Reference[Magic] action and expending a number of Reagents equal to the level of the
+      spell. You can also cast these spells using any spell slots you have of the appropriate
+      level.</p><p><em><strong>Spell Change.</strong></em> Whenever you gain a new level, you can
+      replace one of the spells you chose for this Discovery with a different spell of the same
+      level from the Wizard spell list.</p>
     chat: ''
   source:
     custom: ''
@@ -31,14 +43,14 @@ system:
   activities: {}
   advancement:
     T1x93bihXjTLqXig:
-      name: ''
+      name: Cantrips
       type: ItemChoice
       _id: T1x93bihXjTLqXig
       configuration:
         allowDrops: true
         choices:
           '0':
-            count: 3
+            count: 2
             replacement: false
         pool: []
         restriction:
@@ -62,8 +74,198 @@ system:
         added: {}
         replaced: {}
       hint: >-
-        <p>You learn three cantrips of your choice from the wizard spell list. Intelligence is your
-        spellcasting ability for your wizard spells.</p>
+        <p>You learn two cantrips of your choice from the Wizard spell list. Intelligence is your
+        spellcasting ability for this Discovery’s spells.</p>
+    sOy8tPfnMfZJj2Rt:
+      name: Level 1 Spell
+      type: ItemChoice
+      configuration:
+        allowDrops: true
+        choices:
+          '0':
+            count: 1
+            replacement: false
+          '1':
+            count: null
+            replacement: true
+          '2':
+            count: null
+            replacement: true
+          '3':
+            count: null
+            replacement: true
+          '4':
+            count: null
+            replacement: true
+          '5':
+            count: null
+            replacement: true
+          '6':
+            count: null
+            replacement: true
+          '7':
+            count: null
+            replacement: true
+          '8':
+            count: null
+            replacement: true
+          '9':
+            count: null
+            replacement: true
+          '10':
+            count: null
+            replacement: true
+          '11':
+            count: null
+            replacement: true
+          '12':
+            count: null
+            replacement: true
+          '13':
+            count: null
+            replacement: true
+          '14':
+            count: null
+            replacement: true
+          '15':
+            count: null
+            replacement: true
+          '16':
+            count: null
+            replacement: true
+          '17':
+            count: null
+            replacement: true
+          '18':
+            count: null
+            replacement: true
+          '19':
+            count: null
+            replacement: true
+          '20':
+            count: null
+            replacement: true
+        pool: []
+        restriction:
+          list:
+            - class:wizard
+          school: []
+          level: '1'
+        sorting: a
+        spell:
+          ability:
+            - int
+          method: spell
+          uses:
+            max: '1'
+            per: lr
+            requireSlot: false
+          prepared: 2
+        type: spell
+      flags: {}
+      value:
+        added: {}
+        replaced: {}
+      hint: >-
+        <p>Choose a level 1 spell from the Wizard spell list.</p><p>Whenever you gain a new level,
+        you can replace one of the spells you chose for this Discovery with a different spell of the
+        same level from the Wizard spell list.</p>
+      _id: sOy8tPfnMfZJj2Rt
+    dBc1Y0iHek6WlU4f:
+      name: Level 2 Spell
+      type: ItemChoice
+      configuration:
+        allowDrops: true
+        choices:
+          '0':
+            count: 1
+            replacement: false
+          '1':
+            count: null
+            replacement: true
+          '2':
+            count: null
+            replacement: true
+          '3':
+            count: null
+            replacement: true
+          '4':
+            count: null
+            replacement: true
+          '5':
+            count: null
+            replacement: true
+          '6':
+            count: null
+            replacement: true
+          '7':
+            count: null
+            replacement: true
+          '8':
+            count: null
+            replacement: true
+          '9':
+            count: null
+            replacement: true
+          '10':
+            count: null
+            replacement: true
+          '11':
+            count: null
+            replacement: true
+          '12':
+            count: null
+            replacement: true
+          '13':
+            count: null
+            replacement: true
+          '14':
+            count: null
+            replacement: true
+          '15':
+            count: null
+            replacement: true
+          '16':
+            count: null
+            replacement: true
+          '17':
+            count: null
+            replacement: true
+          '18':
+            count: null
+            replacement: true
+          '19':
+            count: null
+            replacement: true
+          '20':
+            count: null
+            replacement: true
+        pool: []
+        restriction:
+          list:
+            - class:wizard
+          school: []
+          level: '2'
+        sorting: a
+        spell:
+          ability:
+            - int
+          method: spell
+          uses:
+            max: '1'
+            per: lr
+            requireSlot: false
+          prepared: 2
+        type: spell
+      flags: {}
+      value:
+        added: {}
+        replaced: {}
+      hint: >-
+        <p>Choose a level 2 spell from the Wizard spell list.</p><p>Whenever you gain a new level,
+        you can replace one of the spells you chose for this Discovery with a different spell of the
+        same level from the Wizard spell list.</p>
+      _id: dBc1Y0iHek6WlU4f
   enchant: {}
   prerequisites:
     items: []
@@ -72,9 +274,9 @@ system:
 _stats:
   systemId: dnd5e
   systemVersion: 6.1.0
-  coreVersion: '14.369'
+  coreVersion: '14.370'
   createdTime: 1789769388570
-  modifiedTime: 1793310079876
+  modifiedTime: 1794272991412
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

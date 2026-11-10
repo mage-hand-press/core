@@ -2,16 +2,243 @@ folder: cO1p2kqou9MyQ0Km
 name: Necrobiology
 type: feat
 _id: mhpDiscNecrobiol
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/commodities/tech/tube-chamber-lightning.webp
 system:
-  activities: {}
+  activities:
+    tbI1h55yyXVh3sfz:
+      type: utility
+      name: Hemoreagent
+      _id: tbI1h55yyXVh3sfz
+      img: systems/dnd5e/icons/svg/statuses/bleeding.svg
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: true
+          max: max(1, @attributes.hd.value)
+        spellSlot: true
+        targets:
+          - type: hitDice
+            value: '1'
+            target: smallest
+            scaling:
+              mode: amount
+              formula: ''
+          - type: itemUses
+            value: '-1'
+            target: feat:reagents
+            scaling:
+              mode: amount
+              formula: '-1'
+      description:
+        value: >-
+          <p>You can take a Bonus Action to extract a measure of your own blood and convert it into
+          Reagents. Expend any number of Hit Point Dice. You regain a number of expended Reagents
+          equal to half the number of Hit Point Dice expended (round down).</p>
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+    R0CkiJfBSqX8OAvg:
+      type: heal
+      name: Lazarus Bolt
+      _id: R0CkiJfBSqX8OAvg
+      img: ''
+      sort: 100000
+      activation:
+        type: action
+        override: false
+        condition: ''
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        value: >-
+          <p>As a &amp;Reference[Magic] action, you can drive a bolt into the torso of a creature
+          within 5 feet of you that has died within the last minute and shock it back to life. That
+          creature revives with 1 Hit Point and gains Temporary Hit Points equal to twice your
+          Alchemist level. This Discovery can’t return to life a creature that lacks a heart, a
+          creature that has died of old age, or a creature that is missing vital organs. Once you
+          use this ability, you can’t use it again until you finish a Long Rest. You can also
+          restore your use of it by expending 3 Reagents (no action required).</p>
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '5'
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: true
+        identifier: ''
+      healing:
+        types:
+          - temphp
+        custom:
+          enabled: true
+          formula: '@classes.alchemist.levels * 2'
+        modifiers: []
+        scaling:
+          number: 1
+        number: null
+        denomination: null
+        bonus: ''
+    me710nk2Djua76FM:
+      type: utility
+      name: Restore Lazarus Bolt Use
+      _id: me710nk2Djua76FM
+      img: systems/dnd5e/icons/svg/action/restore-use.svg
+      sort: 200000
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '3'
+            target: feat:reagents
+            scaling: {}
+          - type: itemUses
+            value: '-1'
+            target: ''
+            scaling: {}
+      description:
+        value: >-
+          <p>You can also restore your use of Lazarus Bolt by expending 3 Reagents (no action
+          required).</p>
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
   uses:
     spent: 0
-    recovery: []
-    max: ''
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '1'
   advancement: {}
   description:
-    value: <p></p><p></p><p></p>
+    value: >-
+      <p>Your explorations into necromancy have borne scientific fruit. You gain the following
+      benefits.</p><p>@Embed[.Activity.tbI1h55yyXVh3sfz caption=false cite=false
+      nameStyle=inline]</p><p>@Embed[.Activity.R0CkiJfBSqX8OAvg caption=false cite=false
+      nameStyle=inline]</p>
     chat: ''
   identifier: necrobiology
   source:
@@ -23,7 +250,8 @@ system:
     items: []
     repeatable: false
     level: null
-  properties: []
+  properties:
+    - mgc
   requirements: ''
   type:
     value: class
@@ -34,11 +262,11 @@ ownership:
   default: 0
 flags: {}
 _stats:
-  coreVersion: '14.369'
+  coreVersion: '14.370'
   systemId: dnd5e
   systemVersion: 6.1.0
   createdTime: 1793310347070
-  modifiedTime: 1793310347070
+  modifiedTime: 1794274554993
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

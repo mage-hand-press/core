@@ -11,7 +11,16 @@ system:
     max: ''
   advancement: {}
   description:
-    value: <p></p><p></p><p></p><p></p><p></p>
+    value: >-
+      <p>Your research has unveiled a plethora of medicines and remedies. You gain the following
+      benefits.</p><p><em><strong>Batch Brewing.</strong></em> The number of potions you can have at
+      one time increases by 2.</p><p><em><strong>Double Dose.</strong></em> Whenever you brew a
+      <em>@UUID[Compendium.dnd5e.equipment24.Item.dmgPotionOfHeali]{Potion of Healing}</em>,
+      <em>@UUID[Compendium.dnd5e.equipment24.Item.dmgGreaterPotion]{Potion of Greater Healing}</em>,
+      or <em>@UUID[Compendium.dnd5e.equipment24.Item.dmgSuperiorPotio]{Potion of Superior
+      Healing}</em>, the potion has two uses. Drinking the potion expends one
+      use.</p><p><em><strong>Expanded Potions.</strong></em> You can brew the following potions at
+      the Alchemist levels given.</p><p></p>
     chat: ''
   identifier: alchemy-of-restoration
   source:
@@ -34,11 +43,11 @@ ownership:
   default: 0
 flags: {}
 _stats:
-  coreVersion: '14.369'
+  coreVersion: '14.370'
   systemId: dnd5e
   systemVersion: 6.1.0
   createdTime: 1793310346977
-  modifiedTime: 1793310346977
+  modifiedTime: 1794273259191
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

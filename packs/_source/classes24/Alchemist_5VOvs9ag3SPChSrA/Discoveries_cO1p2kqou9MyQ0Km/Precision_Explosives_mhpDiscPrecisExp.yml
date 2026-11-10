@@ -7,7 +7,14 @@ folder: cO1p2kqou9MyQ0Km
 flags: {}
 system:
   description:
-    value: ''
+    value: >-
+      <p>Your Bombs are extremely precise. You gain the following
+      benefits.</p><p><em><strong>Improved Bombs.</strong></em> You gain a +1 bonus to your
+      Alchemist save DC. This bonus increases to +2 when you reach Alchemist level
+      11.</p><p><em><strong>Sculpt Explosion.</strong></em> When you use the Bomb’s Explode
+      property, you can choose a number of creatures within the explosion up to your Intelligence
+      modifier (minimum of 1). Each chosen creature automatically succeeds on its saving throws
+      against the Bomb and takes no damage from it.</p>
     chat: ''
   source:
     custom: ''
@@ -38,9 +45,9 @@ system:
 _stats:
   systemId: dnd5e
   systemVersion: 6.1.0
-  coreVersion: '14.369'
+  coreVersion: '14.370'
   createdTime: 1789769389939
-  modifiedTime: 1793310137429
+  modifiedTime: 1794273716609
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

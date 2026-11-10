@@ -2,16 +2,86 @@ folder: cO1p2kqou9MyQ0Km
 name: Guided Explosives
 type: feat
 _id: mhpDiscGuidedExp
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/skills/targeting/target-strike-triple-blue.webp
 system:
-  activities: {}
+  activities:
+    H8fZrtpIREkwx2f0:
+      type: utility
+      name: Seeking Charge
+      _id: H8fZrtpIREkwx2f0
+      img: systems/dnd5e/icons/svg/action/roll-bonus.svg
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: When you miss with an attack roll using a Bomb
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: feat:reagents
+            scaling: {}
+      description:
+        value: >-
+          <p>When you miss with an attack roll using a Bomb, you can expend a Reagent to roll 1d8
+          and add the number rolled to the attack roll, potentially causing the attack to hit.</p>
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: Attack Bonus
+        formula: 1d8
   uses:
     spent: 0
     recovery: []
     max: ''
   advancement: {}
   description:
-    value: <p></p><p></p><p></p><p></p>
+    value: >-
+      <p>You’ve learned how to magnify the explosive potential of your Bombs. You gain the following
+      benefits.</p><p><em><strong>Improved Bombs.</strong></em> You gain a +1 bonus to attack rolls
+      you make using your Bombs. This bonus increases to +2 when you reach Alchemist level
+      11.</p><p><em><strong>Aerodynamic Bombs.</strong></em> The normal and long ranges of your
+      Bombs double.</p><p>@Embed[.Activity.H8fZrtpIREkwx2f0 caption=false cite=false
+      nameStyle=inline]</p>
     chat: ''
   identifier: guided-explosives
   source:
@@ -34,11 +104,11 @@ ownership:
   default: 0
 flags: {}
 _stats:
-  coreVersion: '14.369'
+  coreVersion: '14.370'
   systemId: dnd5e
   systemVersion: 6.1.0
   createdTime: 1793310347053
-  modifiedTime: 1793310347053
+  modifiedTime: 1794274647882
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

@@ -2,16 +2,155 @@ folder: cO1p2kqou9MyQ0Km
 name: Unconventional Explosives
 type: feat
 _id: mhpDiscUnconvExp
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/fire/beam-jet-stream-trails-orange.webp
 system:
-  activities: {}
+  activities:
+    SbGD9MRtcarcT9O9:
+      type: utility
+      name: Explosive Missile
+      _id: SbGD9MRtcarcT9O9
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: When you take the Attakc action with a Bomb
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        value: >-
+          <p>When you take the &amp;Reference[Attack] action with a Bomb, you can take a Bonus
+          Action to load the Bomb onto a crossbow and launch it. The Bomb uses the crossbow’s range,
+          but you can’t use its Explode property for this attack. You can apply a formula and prime
+          this Bomb as normal.</p>
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+    dcjyNHeQiJHO8lD7:
+      type: save
+      name: Fire Eater
+      _id: dcjyNHeQiJHO8lD7
+      img: ''
+      sort: 100000
+      activation:
+        type: bonus
+        override: false
+        condition: When you take the Attack action and use the Bomb's Explode property
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: true
+          max: '@scale.alchemist.reagents'
+        spellSlot: true
+        targets: []
+      description:
+        value: >-
+          <p>When you take the &amp;Reference[Attack] action and use the Bomb’s Explode property,
+          you can take a Bonus Action to drink the Bomb’s contents and spit them out in a 15-foot
+          Cone. This Cone acts as the area of the Bomb’s Explode property. You can apply a formula
+          and prime this Bomb as normal, extending the area of the Cone by 5 feet for each Reagent
+          when you prime the Bomb.</p>
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: cone
+          size: 15 + 5 * @scaling.increase
+          count: ''
+        affects:
+          choice: false
+          type: creature
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      damage:
+        onSave: half
+        parts: []
+      save:
+        ability: []
+        dc:
+          calculation: ''
+          formula: ''
+        visible: true
+        bonus: ''
   uses:
     spent: 0
     recovery: []
     max: ''
   advancement: {}
   description:
-    value: <p></p><p></p><p></p>
+    value: >-
+      <p>You’ve discovered new ways to utilize your Bombs. You gain the following
+      benefits.</p><p>@Embed[.Activity.SbGD9MRtcarcT9O9 caption=false cite=false
+      nameStyle=inline]</p><p>@Embed[.Activity.dcjyNHeQiJHO8lD7 caption=false cite=false
+      nameStyle=inline]</p>
     chat: ''
   identifier: unconventional-explosives
   source:
@@ -34,11 +173,11 @@ ownership:
   default: 0
 flags: {}
 _stats:
-  coreVersion: '14.369'
+  coreVersion: '14.370'
   systemId: dnd5e
   systemVersion: 6.1.0
   createdTime: 1793310347106
-  modifiedTime: 1793310347106
+  modifiedTime: 1794274293634
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

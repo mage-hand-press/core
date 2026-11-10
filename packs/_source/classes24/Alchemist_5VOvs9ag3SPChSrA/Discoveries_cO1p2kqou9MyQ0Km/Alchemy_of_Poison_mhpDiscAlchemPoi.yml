@@ -11,7 +11,16 @@ system:
     max: ''
   advancement: {}
   description:
-    value: <p></p><p></p><p></p><p></p><p></p><p></p>
+    value: >-
+      <p>Your research has taught you how to concoct poisonous compounds. You gain the following
+      benefits.</p><p><em><strong>Batch Brewing.</strong></em> The number of potions you can have at
+      one time increases by 2.</p><p><em><strong>Poisoner’s Kit.</strong></em> You gain proficiency
+      in the Poisoner’s Kit.</p><p><em><strong>Potent Poison.</strong></em> When you make a damage
+      roll that deals Poison damage, it ignores Resistance to Poison
+      damage.</p><p><em><strong>Poison Crafting.</strong></em> You can brew the following poisons at
+      the Alchemist levels given. If a poison forces a creature to make a saving throw, it uses your
+      Alchemist save DC. These poisons count toward the number of potions you have brewed at one
+      time, and are included in the 5th Edition rules.</p><p></p>
     chat: ''
   identifier: alchemy-of-poison
   source:
@@ -34,11 +43,11 @@ ownership:
   default: 0
 flags: {}
 _stats:
-  coreVersion: '14.369'
+  coreVersion: '14.370'
   systemId: dnd5e
   systemVersion: 6.1.0
   createdTime: 1793310346954
-  modifiedTime: 1793310346954
+  modifiedTime: 1794272747906
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

@@ -2,12 +2,329 @@ _id: mhpDiscHomunculu
 name: Homunculus
 type: feat
 img: icons/skills/trades/textiles-stitching-leather-brown.webp
-effects: []
+effects:
+  - name: Acid Infusion
+    img: systems/dnd5e/icons/svg/damage/acid.svg
+    system:
+      origin:
+        item: Compendium.mage-hand-press-core.classes24.Item.mhpDiscHomunculu
+        actor: null
+        behavior: null
+        effect: null
+        message: null
+      changes:
+        - key: system.traits.dr.value
+          type: add
+          value: acid
+          phase: initial
+          _id: cfDnSmkLdxFy9qZY
+          conditions: '{}'
+          replacement: ''
+          priority: null
+        - key: damage
+          type: dnd5e.bonus
+          value: 2d8[acid]
+          phase: initial
+          _id: v3SSXqpnMPGNNd9l
+          conditions: '{}'
+          replacement: ''
+          priority: null
+      conditions: '{}'
+      magical: true
+      rider:
+        statuses: []
+    transfer: false
+    _id: wLskXEw3b1M3fg4t
+    type: base
+    disabled: false
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: >-
+      <p>While infused, your homunculus has &amp;Reference[Resistance] to Acid damage and deals 2d8
+      extra Acid damage on its damage rolls.</p>
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794273420669
+      modifiedTime: 1794273484674
+      lastModifiedBy: magehandpress000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!mhpDiscHomunculu.wLskXEw3b1M3fg4t'
+  - name: Cold Infusion
+    img: systems/dnd5e/icons/svg/damage/cold.svg
+    system:
+      origin:
+        item: Compendium.mage-hand-press-core.classes24.Item.mhpDiscHomunculu
+        actor: null
+        behavior: null
+        effect: null
+        message: null
+      changes:
+        - key: system.traits.dr.value
+          type: add
+          value: cold
+          phase: initial
+          _id: cfDnSmkLdxFy9qZY
+          conditions: '{}'
+          replacement: ''
+          priority: null
+        - key: damage
+          type: dnd5e.bonus
+          value: 2d8[cold]
+          phase: initial
+          _id: v3SSXqpnMPGNNd9l
+          conditions: '{}'
+          replacement: ''
+          priority: null
+      conditions: '{}'
+      magical: true
+      rider:
+        statuses: []
+    transfer: false
+    type: base
+    disabled: false
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: >-
+      <p>While infused, your homunculus has &amp;Reference[Resistance] to Cold damage and deals 2d8
+      extra Cold damage on its damage rolls.</p>
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794273490892
+      modifiedTime: 1794273589126
+      lastModifiedBy: magehandpress000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _id: qcOZLtvO0qwZvWQ5
+    _key: '!items.effects!mhpDiscHomunculu.qcOZLtvO0qwZvWQ5'
+  - name: Fire Infusion
+    img: systems/dnd5e/icons/svg/damage/fire.svg
+    system:
+      origin:
+        item: Compendium.mage-hand-press-core.classes24.Item.mhpDiscHomunculu
+        actor: null
+        behavior: null
+        effect: null
+        message: null
+      changes:
+        - key: system.traits.dr.value
+          type: add
+          value: fire
+          phase: initial
+          _id: cfDnSmkLdxFy9qZY
+          conditions: '{}'
+          replacement: ''
+          priority: null
+        - key: damage
+          type: dnd5e.bonus
+          value: 2d8[fire]
+          phase: initial
+          _id: v3SSXqpnMPGNNd9l
+          conditions: '{}'
+          replacement: ''
+          priority: null
+      conditions: '{}'
+      magical: true
+      rider:
+        statuses: []
+    transfer: false
+    type: base
+    disabled: false
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: >-
+      <p>While infused, your homunculus has &amp;Reference[Resistance] to Fire damage and deals 2d8
+      extra Fire damage on its damage rolls.</p>
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794273491636
+      modifiedTime: 1794273581728
+      lastModifiedBy: magehandpress000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _id: 7efx6695t0AnjIJj
+    _key: '!items.effects!mhpDiscHomunculu.7efx6695t0AnjIJj'
+  - name: Lightning Infusion
+    img: systems/dnd5e/icons/svg/damage/lightning.svg
+    system:
+      origin:
+        item: Compendium.mage-hand-press-core.classes24.Item.mhpDiscHomunculu
+        actor: null
+        behavior: null
+        effect: null
+        message: null
+      changes:
+        - key: system.traits.dr.value
+          type: add
+          value: lightning
+          phase: initial
+          _id: cfDnSmkLdxFy9qZY
+          conditions: '{}'
+          replacement: ''
+          priority: null
+        - key: damage
+          type: dnd5e.bonus
+          value: 2d8[lightning]
+          phase: initial
+          _id: v3SSXqpnMPGNNd9l
+          conditions: '{}'
+          replacement: ''
+          priority: null
+      conditions: '{}'
+      magical: true
+      rider:
+        statuses: []
+    transfer: false
+    type: base
+    disabled: false
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: >-
+      <p>While infused, your homunculus has &amp;Reference[Resistance] to Lightning damage and deals
+      2d8 extra Lightning damage on its damage rolls.</p>
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794273492374
+      modifiedTime: 1794273573888
+      lastModifiedBy: magehandpress000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _id: c4WUqdTJOpSYXd4L
+    _key: '!items.effects!mhpDiscHomunculu.c4WUqdTJOpSYXd4L'
+  - name: Thunder Infusion
+    img: systems/dnd5e/icons/svg/damage/thunder.svg
+    system:
+      origin:
+        item: Compendium.mage-hand-press-core.classes24.Item.mhpDiscHomunculu
+        actor: null
+        behavior: null
+        effect: null
+        message: null
+      changes:
+        - key: system.traits.dr.value
+          type: add
+          value: thunder
+          phase: initial
+          _id: cfDnSmkLdxFy9qZY
+          conditions: '{}'
+          replacement: ''
+          priority: null
+        - key: damage
+          type: dnd5e.bonus
+          value: 2d8[thunder]
+          phase: initial
+          _id: v3SSXqpnMPGNNd9l
+          conditions: '{}'
+          replacement: ''
+          priority: null
+      conditions: '{}'
+      magical: true
+      rider:
+        statuses: []
+    transfer: false
+    type: base
+    disabled: false
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: >-
+      <p>While infused, your homunculus has &amp;Reference[Resistance] to Thunder damage and deals
+      2d8 extra Thunder damage on its damage rolls.</p>
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794273493151
+      modifiedTime: 1794273562727
+      lastModifiedBy: magehandpress000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _id: Fs1Qhr4Piu5GLdeY
+    _key: '!items.effects!mhpDiscHomunculu.Fs1Qhr4Piu5GLdeY'
 folder: cO1p2kqou9MyQ0Km
 flags: {}
 system:
   description:
-    value: <p></p><p></p><p></p><p></p><p></p><p></p>
+    value: >-
+      <p>Your research has taught you how to create an alchemical
+      homunculus.</p><p>@Embed[.Activity.ffnETGUJdLAQdM5m caption=false cite=false
+      nameStyle=inline]</p><p><em><strong>Hit Points.</strong></em> Your homunculus has Hit Points
+      equal to five times your Alchemist level.</p><p><em><strong>Bomb Immunity.</strong></em> Your
+      homunculus automatically succeeds on its saving throws against your Bombs and never takes
+      damage from them.</p><p><em><strong>Combat.</strong></em> The homunculus is an ally to you and
+      your allies. It takes its turn immediately before or after your turn each round (your choice).
+      Your homunculus can’t attack on its turn, but it can take other actions and Bonus Actions as
+      normal.</p><p>Additionally, you can take a Bonus Action to command your homunculus to make one
+      attack with its Reaction. Your homunculus’s attack bonus equals your Intelligence modifier
+      plus your Proficiency Bonus.</p><p>@Embed[.Activity.E2Vli8HCCmmgrt1f caption=false cite=false
+      nameStyle=inline]</p>
     chat: ''
   source:
     custom: ''
@@ -26,11 +343,12 @@ system:
     value: class
     subtype: discovery
   requirements: ''
-  properties: []
+  properties:
+    - mgc
   activities:
     ffnETGUJdLAQdM5m:
       type: summon
-      name: ''
+      name: Create Homunculus
       _id: ffnETGUJdLAQdM5m
       img: ''
       sort: 0
@@ -38,15 +356,24 @@ system:
         type: hour
         override: false
         condition: ''
-        value: 8
+        value: 1
       behaviors: []
       consumption:
         scaling:
           allowed: false
         spellSlot: true
-        targets: []
+        targets:
+          - type: itemUses
+            value: '3'
+            target: feat:reagents
+            scaling: {}
       description:
-        value: ''
+        value: >-
+          <p>By expending 3 Reagents and spending materials worth 10+ GP in a 1-hour long alchemical
+          process, which can be done over a Short Rest, you can create a
+          <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmHomunculus0000]{Homunculus}</strong>. You
+          can only have one homunculus at a time; if you create another one, your existing one
+          dies.</p>
         chatFlavor: ''
       duration:
         units: perm
@@ -85,7 +412,7 @@ system:
       bonuses:
         ac: ''
         hd: ''
-        hp: ''
+        hp: 5 * @classes.alchemist.levels - @summoned.attributes.hp.max
         attackDamage: ''
         saveDamage: ''
         healing: ''
@@ -100,8 +427,8 @@ system:
       profiles:
         - count: ''
           name: ''
-          _id: IQ3lgDWvwfj6xXAB
-          uuid: Compendium.dnd5e.monsters.Actor.ZQTCZfTV9ZoTjNCU
+          _id: ORDkPJQhIPR5fgpC
+          uuid: Compendium.dnd5e.actors24.Actor.mmHomunculus0000
           level:
             min: null
             max: null
@@ -110,6 +437,100 @@ system:
         prompt: true
         mode: ''
       tempHP: ''
+    E2Vli8HCCmmgrt1f:
+      type: utility
+      name: Elemental Infusion
+      _id: E2Vli8HCCmmgrt1f
+      img: systems/dnd5e/icons/svg/action/magic.svg
+      sort: 100000
+      activation:
+        type: action
+        override: false
+        condition: ''
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '2'
+            target: feat:reagents
+            scaling: {}
+      description:
+        value: >-
+          <p>As a &amp;Reference[Magic] action, you can expend 2 Reagents to infuse your homunculus
+          with elemental essence for the next hour. Choose Acid, Cold, Fire, Lightning, or Thunder
+          damage. While infused, your homunculus has &amp;Reference[Resistance] to this damage and
+          deals 2d8 extra damage of that type on its damage rolls.</p>
+        chatFlavor: ''
+      duration:
+        units: hour
+        expiry: null
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: wLskXEw3b1M3fg4t
+          uuid: null
+          level:
+            min: null
+            max: null
+        - _id: qcOZLtvO0qwZvWQ5
+          uuid: null
+          level:
+            min: null
+            max: null
+        - _id: 7efx6695t0AnjIJj
+          uuid: null
+          level:
+            min: null
+            max: null
+        - _id: c4WUqdTJOpSYXd4L
+          uuid: null
+          level:
+            min: null
+            max: null
+        - _id: Fs1Qhr4Piu5GLdeY
+          uuid: null
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: Your homunculus
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: true
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
   advancement: {}
   identifier: homunculus
   enchant: {}
@@ -120,9 +541,9 @@ system:
 _stats:
   systemId: dnd5e
   systemVersion: 6.1.0
-  coreVersion: '14.369'
+  coreVersion: '14.370'
   createdTime: 1793310347014
-  modifiedTime: 1793310347014
+  modifiedTime: 1794273745126
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

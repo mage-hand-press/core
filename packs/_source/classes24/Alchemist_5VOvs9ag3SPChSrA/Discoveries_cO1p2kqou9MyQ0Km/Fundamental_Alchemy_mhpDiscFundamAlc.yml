@@ -11,7 +11,19 @@ system:
     max: ''
   advancement: {}
   description:
-    value: <p></p><p></p><p></p><p></p>
+    value: >-
+      <p>Your research has revealed the finer points of brewing basic alchemical substances. You
+      gain the following benefits.</p><p><em><strong>Quadruple Flasks.</strong></em> When you brew
+      potions, you can brew a batch of four vials of Acid, Alchemist’s Fire, Holy Water, or Oil for
+      1 Reagent. Each batch counts as one potion for the number of potions you can have at once.
+      These batches can be all of one substance or a mix of them. These substances use your
+      Alchemist save DC and retain potency until you finish a Long Rest, after which they become
+      inert.</p><p><em><strong>Quick Flask.</strong></em> When you take the Attack action with a
+      Bomb, you can take a Bonus Action to throw a flask of Alchemist’s Fire, Holy Water, Oil, or
+      Acid, or to use an Oil flask to douse a space.</p><p><em><strong>Potent Flasks.</strong></em>
+      Acid, Alchemist’s Fire, and Holy Water that you brew deal an additional die of damage.
+      Alchemist’s Fire also deals this extra die of damage to burning creatures. Burning Oil adds
+      your Intelligence modifier to the extra Fire damage it deals.</p>
     chat: ''
   identifier: fundamental-alchemy
   source:
@@ -34,11 +46,11 @@ ownership:
   default: 0
 flags: {}
 _stats:
-  coreVersion: '14.369'
+  coreVersion: '14.370'
   systemId: dnd5e
   systemVersion: 6.1.0
   createdTime: 1793310347034
-  modifiedTime: 1793310347034
+  modifiedTime: 1794273060566
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

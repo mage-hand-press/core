@@ -2,16 +2,145 @@ folder: cO1p2kqou9MyQ0Km
 name: Unconventional Potions
 type: feat
 _id: mhpDiscUnconvPot
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/consumables/potions/vial-ornet-silver-black.webp
 system:
-  activities: {}
+  activities:
+    5QjpYEMYV1y3y3Jb:
+      type: utility
+      name: Potion Toss
+      _id: 5QjpYEMYV1y3y3Jb
+      img: systems/dnd5e/icons/svg/action/help.svg
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        value: >-
+          <p>You can take a Bonus Action to hurl a potion at an ally within 30 feet of yourself. The
+          target gains the potion’s benefits as if it had consumed the potion normally.</p>
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '30'
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ally
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+    dwPg9I1gir1f2pZc:
+      type: utility
+      name: Reactionary Gulp
+      _id: dwPg9I1gir1f2pZc
+      img: systems/dnd5e/icons/svg/items/consumable.svg
+      sort: 100000
+      activation:
+        type: reaction
+        override: false
+        condition: When you take damage from a creature you can see
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        value: >-
+          <p>Immediately after you take damage from a creature you can see, you can take a Reaction
+          to drink a potion. You can use this ability to drink a potion that restores your Hit
+          Points, even if the triggering damage reduces you to 0 Hit Points.</p>
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
   uses:
     spent: 0
     recovery: []
     max: ''
   advancement: {}
   description:
-    value: <p></p><p></p><p></p>
+    value: >-
+      <p>Your research has chiefly revealed how to deliver potions quickly. You gain the following
+      benefits.</p><p>@Embed[.Activity.5QjpYEMYV1y3y3Jb caption=false cite=false
+      nameStyle=inline]</p><p>@Embed[.Activity.dwPg9I1gir1f2pZc caption=false cite=false
+      nameStyle=inline]</p>
     chat: ''
   identifier: unconventional-potions
   source:
@@ -34,11 +163,11 @@ ownership:
   default: 0
 flags: {}
 _stats:
-  coreVersion: '14.369'
+  coreVersion: '14.370'
   systemId: dnd5e
   systemVersion: 6.1.0
   createdTime: 1793310347088
-  modifiedTime: 1793310347088
+  modifiedTime: 1794274131596
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

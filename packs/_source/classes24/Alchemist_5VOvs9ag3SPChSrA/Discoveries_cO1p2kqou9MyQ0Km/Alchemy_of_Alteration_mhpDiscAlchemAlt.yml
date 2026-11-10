@@ -11,7 +11,13 @@ system:
     max: ''
   advancement: {}
   description:
-    value: <p></p><p></p><p></p><p></p><p></p>
+    value: >-
+      <p>Your research has revealed how to warp the body and mind. You gain the following
+      benefits.</p><p><em><strong>Batch Brewing.</strong></em> The number of potions you can have at
+      one time increases by 2.</p><p><em><strong>Potion Ingredients.</strong></em> You gain 4
+      additional Reagents which you can only use to brew potions.</p><p><em><strong>Expanded
+      Potions.</strong></em> You can brew the following potions at the Alchemist levels given. If a
+      potion forces a creature to make a saving throw, it uses your Alchemist save DC.</p><p></p>
     chat: ''
   identifier: alchemy-of-alteration
   source:
@@ -34,11 +40,11 @@ ownership:
   default: 0
 flags: {}
 _stats:
-  coreVersion: '14.369'
+  coreVersion: '14.370'
   systemId: dnd5e
   systemVersion: 6.1.0
   createdTime: 1793310346935
-  modifiedTime: 1793310346935
+  modifiedTime: 1794272695990
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

@@ -2,16 +2,114 @@ folder: cO1p2kqou9MyQ0Km
 name: Combat Studies
 type: feat
 _id: mhpDiscCombatStu
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/skills/melee/hand-grip-axe-strike-orange.webp
 system:
-  activities: {}
+  activities:
+    fnAcoDtxaVVpk97Y:
+      type: damage
+      name: Fire Brand
+      _id: fnAcoDtxaVVpk97Y
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: When you hit a creature with an attack using a Melee weapon
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: feat:reagents
+            scaling: {}
+      description:
+        value: >-
+          <p>When you hit a creature with an attack using a Melee weapon, you can expend 1 Reagent
+          to deal an extra 1d10 Fire damage to the target.</p>
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: any
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      damage:
+        critical:
+          allow: true
+          bonus: ''
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 8
+            bonus: ''
+            modifiers: []
+            types:
+              - fire
+            scaling:
+              number: 1
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement:
+    WVK078ubTfsPTTwu:
+      name: Martial Training
+      type: Trait
+      _id: WVK078ubTfsPTTwu
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - weapon:mar
+          - armor:med
+          - armor:shl
+        mode: default
+      flags: {}
+      level: 0
+      hint: <p>You gain proficiency with Martial weapons and training with Medium armor and Shields.</p>
   description:
-    value: <p></p><p></p><p></p><p></p>
+    value: >-
+      <p>Your research extends into the strategy and tactics of warfare. You gain the following
+      benefits.</p><p><em><strong>Martial Training.</strong></em> You gain proficiency with Martial
+      weapons and training with Medium armor and Shields.</p><p><em><strong>Breacher.</strong></em>
+      You can take a Bonus Action to make an attack with a weapon that isn’t a Bomb and doesn’t have
+      the Heavy property.</p><p>@Embed[.Activity.fnAcoDtxaVVpk97Y caption=false cite=false
+      nameStyle=inline]</p>
     chat: ''
   identifier: combat-studies
   source:
@@ -34,11 +132,11 @@ ownership:
   default: 0
 flags: {}
 _stats:
-  coreVersion: '14.369'
+  coreVersion: '14.370'
   systemId: dnd5e
   systemVersion: 6.1.0
   createdTime: 1793310346994
-  modifiedTime: 1793310346994
+  modifiedTime: 1794274760491
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
