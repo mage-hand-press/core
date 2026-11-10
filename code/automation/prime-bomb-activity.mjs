@@ -191,7 +191,8 @@ export class PrimeBombActivity extends dnd5e.documents.activity.EnchantActivity 
 	 * @returns {PrimeBombActivity}
 	 */
 	getFormulaEnchantment(formula) {
-		const item = this.actor.identifiedItems.get(formula || "bombs", { type: "feat" })?.first();
+		const item = this.actor.identifiedItems.get(formula || "bombs", { type: "feat" })?.first()
+			?? this.actor.identifiedItems.get("prime-bomb", { type: "feat" })?.first();
 		return item?.system.activities.getByType("mage-hand-press-core.primeBomb")[0] ?? this;
 	}
 
