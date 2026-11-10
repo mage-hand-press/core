@@ -2,21 +2,34 @@ folder: cO1p2kqou9MyQ0Km
 name: Alchemy of Poison
 type: feat
 _id: mhpDiscAlchemPoi
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/tools/laboratory/mortar-liquid-pink.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement:
+    NETYKmOginC0SqVV:
+      name: ''
+      type: Trait
+      _id: NETYKmOginC0SqVV
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - tool:pois
+        mode: default
+      flags: {}
+      level: 0
+      hint: <p>You gain proficiency in the Poisoner’s Kit.</p>
   description:
     value: >-
       <p>Your research has taught you how to concoct poisonous compounds. You gain the following
       benefits.</p><p><em><strong>Batch Brewing.</strong></em> The number of potions you can have at
       one time increases by 2.</p><p><em><strong>Poisoner’s Kit.</strong></em> You gain proficiency
       in the Poisoner’s Kit.</p><p><em><strong>Potent Poison.</strong></em> When you make a damage
-      roll that deals Poison damage, it ignores Resistance to Poison
+      roll that deals Poison damage, it ignores &amp;Reference[Resistance] to Poison
       damage.</p><p><em><strong>Poison Crafting.</strong></em> You can brew the following poisons at
       the Alchemist levels given. If a poison forces a creature to make a saving throw, it uses your
       Alchemist save DC. These poisons count toward the number of potions you have brewed at one
@@ -39,7 +52,60 @@ system:
   type:
     value: class
     subtype: discovery
-effects: []
+effects:
+  - name: Alchemy of Poison
+    img: icons/tools/laboratory/mortar-liquid-pink.webp
+    system:
+      magical: false
+      origin:
+        item: Compendium.mage-hand-press-core.classes24.Item.mhpDiscAlchemPoi
+        actor: null
+        behavior: null
+        effect: null
+        message: null
+      changes:
+        - key: damage
+          type: dnd5e.damage.ignore.resistance
+          value: poison
+          phase: initial
+          _id: QNClSXWgvQqcrOfg
+          conditions: '{}'
+          replacement: ''
+          priority: null
+      conditions: '{}'
+      rider:
+        statuses: []
+    type: base
+    _id: YJm1cUfAtHxT9nit
+    disabled: false
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: >-
+      <p>When you make a damage roll that deals Poison damage, it ignores &amp;Reference[Resistance]
+      to Poison damage.</p>
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794343618637
+      modifiedTime: 1794343647141
+      lastModifiedBy: magehandpress000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!mhpDiscAlchemPoi.YJm1cUfAtHxT9nit'
 sort: 1300000
 ownership:
   default: 0
@@ -49,7 +115,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 6.1.0
   createdTime: 1793310346954
-  modifiedTime: 1794339748709
+  modifiedTime: 1794343635210
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

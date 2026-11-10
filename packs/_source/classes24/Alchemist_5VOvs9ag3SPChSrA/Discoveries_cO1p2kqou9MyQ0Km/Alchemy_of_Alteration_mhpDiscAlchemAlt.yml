@@ -2,7 +2,7 @@ folder: cO1p2kqou9MyQ0Km
 name: Alchemy of Alteration
 type: feat
 _id: mhpDiscAlchemAlt
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/tools/laboratory/bowl-liquid-gold.webp
 system:
   activities: {}
   uses:
@@ -46,7 +46,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 6.1.0
   createdTime: 1793310346935
-  modifiedTime: 1794339736305
+  modifiedTime: 1794343571939
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
