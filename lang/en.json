@@ -135,7 +135,7 @@
 				"hint": "Configure customization & automation related to Alchemist class.",
 				"FIELDS": {
 					"customization": {
-						"hint": "Add …",
+						"hint": "Add new class feature types, weapon properties, masteries, bomb weapon, and Dynamo spellcasting.",
 						"label": "Alchemist Customization"
 					}
 				},

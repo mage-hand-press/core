@@ -48,6 +48,7 @@ Hooks.once("init", () => {
 Hooks.once("i18nInit", () => {
 	foundry.helpers.Localization.localizeDataModel(data.AlchemistSettingData);
 	foundry.helpers.Localization.localizeDataModel(data.GunslingerSettingData);
+	foundry.helpers.Localization.localizeDataModel(data.InvestigatorSettingData);
 	foundry.helpers.Localization.localizeDataModel(data.WarmageSettingData);
 });
 
