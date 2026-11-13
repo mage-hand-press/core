@@ -5,9 +5,10 @@ img: icons/skills/melee/strike-axe-energy-pink.webp
 system:
   description:
     value: >-
-      <p><em>Prerequisite: House of Lancers</em></p><p>You always have a plan when engaging the
-      enemy. Attacks against you have disadvantage during the first round of combat. You can’t use
-      this feature when you are surprised.</p>
+      <div class="item-entry-details"><p class="item-entry-tag">Prerequisite: House of
+      Lancers</p></div><p>You always have a plan when engaging the enemy. Attacks against you have
+      disadvantage during the first round of combat. You can’t use this feature when you are
+      surprised.</p>
     chat: ''
   source:
     custom: ''
@@ -41,11 +42,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.367'
+  coreVersion: '14.370'
   systemId: dnd5e
-  systemVersion: 6.0.1
+  systemVersion: 6.1.0
   createdTime: 1789423357388
-  modifiedTime: 1789423357388
+  modifiedTime: 1794596232342
   lastModifiedBy: magehandpress000
 _id: mhpTricLeadinEdg
 sort: 1800000

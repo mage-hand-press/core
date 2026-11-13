@@ -1,0 +1,110 @@
+folder: cO1p2kqou9MyQ0Km
+name: Paint Portals
+type: feat
+_id: mhpDiscPaintPort
+img: icons/magic/movement/portal-vortex-orange.webp
+system:
+  activities:
+    EOLCcejdiwSRak1p:
+      type: teleport
+      name: ''
+      _id: EOLCcejdiwSRak1p
+      img: ''
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: Using 10 feet of your movement
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '60'
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: true
+        identifier: ''
+      teleport:
+        override: false
+        units: ft
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <div class="item-entry-details"><p class="item-entry-tag">Prerequisite: 13th level, Pigmintist
+      Field of Study</p></div><p> Through some clever paint mixing, you have infused your paint with
+      a small amount of conjuration magic. Once on each of your turns, you can use 10 feet of your
+      movement to enter any area of wet paint within 5 feet of you, emerging from another area of
+      wet paint of the same color within 60 feet of you. Both areas of paint must be at least the
+      same size as you.</p>
+    chat: ''
+  identifier: paint-portals
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - subclass:pigmintist
+    repeatable: false
+    level: 13
+  properties:
+    - mgc
+  requirements: ''
+  type:
+    value: class
+    subtype: discovery
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.370'
+  systemId: dnd5e
+  systemVersion: 6.1.0
+  createdTime: 1794595142853
+  modifiedTime: 1794595653781
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!mhpDiscPaintPort'

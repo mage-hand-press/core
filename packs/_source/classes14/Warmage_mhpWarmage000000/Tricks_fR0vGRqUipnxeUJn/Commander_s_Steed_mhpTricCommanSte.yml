@@ -5,10 +5,11 @@ img: icons/environment/creatures/horse-tan.webp
 system:
   description:
     value: >-
-      <p><em>Prerequisites: House of Kings</em></p><p>You learn the
-      <em>@UUID[Compendium.dnd5e.spells.Item.5eh2HFbS13078Y3H]{find steed} </em>spell and can cast
-      it at will without expending a spell slot. Your steed is more resilient than most; its hit
-      point maximum is increased by an amount equal to your warmage level.</p>
+      <div class="item-entry-details"><p class="item-entry-tag">Prerequisites: House of
+      Kings</p></div><p>You learn the <em>@UUID[Compendium.dnd5e.spells.Item.5eh2HFbS13078Y3H]{find
+      steed} </em>spell and can cast it at will without expending a spell slot. Your steed is more
+      resilient than most; its hit point maximum is increased by an amount equal to your warmage
+      level.</p>
     chat: ''
   source:
     custom: ''
@@ -104,11 +105,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.367'
+  coreVersion: '14.370'
   systemId: dnd5e
-  systemVersion: 6.0.1
+  systemVersion: 6.1.0
   createdTime: 1789423356135
-  modifiedTime: 1789423356136
+  modifiedTime: 1794596329412
   lastModifiedBy: magehandpress000
 _id: mhpTricCommanSte
 sort: 500000

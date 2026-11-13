@@ -8,11 +8,10 @@ flags: {}
 system:
   description:
     value: >-
-      <p><em>Prerequisite: 17th level</em></p>
-
-      <p>By keeping your potions organized on a bandolier or in a series of pouches, you can quickly
-      draw them at a moment’s notice. Immediately after you take damage from a creature you can see,
-      you can use your reaction to drink a potion.</p>
+      <div class="item-entry-details"><p class="item-entry-tag">Prerequisite: 17th
+      level</p></div><p>By keeping your potions organized on a bandolier or in a series of pouches,
+      you can quickly draw them at a moment’s notice. Immediately after you take damage from a
+      creature you can see, you can use your reaction to drink a potion.</p>
     chat: ''
   source:
     custom: ''
@@ -110,10 +109,10 @@ system:
     level: 17
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.3
-  coreVersion: '14.367'
+  systemVersion: 6.1.0
+  coreVersion: '14.370'
   createdTime: 1789769390045
-  modifiedTime: 1789865027709
+  modifiedTime: 1794595394719
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

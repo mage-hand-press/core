@@ -1,0 +1,123 @@
+folder: cO1p2kqou9MyQ0Km
+name: Antisound
+type: feat
+_id: mhpDiscAntisound
+img: icons/magic/sonic/bell-alarm-red-purple.webp
+system:
+  activities:
+    4UbOk9iaqOPzsMxy:
+      type: utility
+      name: Place
+      _id: 4UbOk9iaqOPzsMxy
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: When you throw a bomb that deals thunder damage in a blast radius
+      behaviors:
+        - name: ''
+          _id: iyVnFnKDGF6yyiHP
+          type: applyActiveEffect
+          config:
+            effects:
+              - Compendium.dnd5e.effects.ActiveEffect.phbeffSilenced00
+            sizes: []
+            types: []
+          level:
+            min: null
+            max: null
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: minute
+        expiry: null
+        concentration: false
+        override: false
+        value: '1'
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: sphere
+          size: '7.5'
+          count: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <div class="item-entry-details"><p class="item-entry-tag">Prerequisite: 13th level, Resonator
+      Field of Study</p></div><p>Whenever you throw a bomb that deals thunder damage in a blast
+      radius, you can choose to magically silence the area after the blast, as per the spell
+      silence. Creatures in the area aren’t immune to thunder damage caused by your bombs. This
+      effect lasts for 1 minute or until you choose to use this feature again.</p>
+    chat: ''
+  identifier: antisound
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - subclass:resonator
+    repeatable: false
+    level: 13
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: discovery
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.370'
+  systemId: dnd5e
+  systemVersion: 6.1.0
+  createdTime: 1794595142816
+  modifiedTime: 1794595568182
+  lastModifiedBy: magehandpress000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!mhpDiscAntisound'

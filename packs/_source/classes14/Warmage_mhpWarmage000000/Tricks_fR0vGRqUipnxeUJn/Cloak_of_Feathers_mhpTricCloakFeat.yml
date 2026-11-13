@@ -12,8 +12,9 @@ system:
   advancement: {}
   description:
     value: >-
-      <p><em>Prerequisite: House of Rooks</em></p><p>While you aren’t wearing armor or wielding a
-      shield, your AC equals 10 + your Dexterity modifier + your Intelligence modifier.</p>
+      <div class="item-entry-details"><p class="item-entry-tag">Prerequisite: House of
+      Rooks</p></div><p>While you aren’t wearing armor or wielding a shield, your AC equals 10 +
+      your Dexterity modifier + your Intelligence modifier.</p>
     chat: ''
   identifier: cloak-of-feathers
   source:
@@ -95,10 +96,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.367'
+  coreVersion: '14.370'
   systemId: dnd5e
-  systemVersion: 6.0.1
+  systemVersion: 6.1.0
   createdTime: 1789423356041
-  modifiedTime: 1789423356042
+  modifiedTime: 1794596336835
   lastModifiedBy: magehandpress000
 _key: '!items!mhpTricCloakFeat'

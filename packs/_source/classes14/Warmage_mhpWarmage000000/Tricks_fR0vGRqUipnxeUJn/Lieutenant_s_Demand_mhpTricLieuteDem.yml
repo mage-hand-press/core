@@ -68,7 +68,8 @@ system:
   advancement: {}
   description:
     value: >-
-      <p><em>Prerequisites: 10th level, House of Kings</em></p><p>You can cast the spell
+      <div class="item-entry-details"><p class="item-entry-tag">Prerequisites: 10th level, House of
+      Kings</p></div><p>You can cast the spell
       <em>@UUID[Compendium.dnd5e.spells.Item.arzCrMRgcNiQuh43]{command}</em> at will without
       expending a spell slot.</p>
     chat: ''
@@ -96,10 +97,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.367'
+  coreVersion: '14.370'
   systemId: dnd5e
-  systemVersion: 6.0.1
+  systemVersion: 6.1.0
   createdTime: 1789423357468
-  modifiedTime: 1789423357468
+  modifiedTime: 1794596223368
   lastModifiedBy: magehandpress000
 _key: '!items!mhpTricLieuteDem'

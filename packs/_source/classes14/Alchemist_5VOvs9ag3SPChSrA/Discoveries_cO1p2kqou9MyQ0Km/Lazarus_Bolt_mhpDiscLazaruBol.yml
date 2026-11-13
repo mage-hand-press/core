@@ -8,16 +8,14 @@ flags: {}
 system:
   description:
     value: >-
-      <p><em>Prerequisite: 9th level</em></p>
-
-      <p>You’ve discovered a radical necromantic workaround: restoring life with direct electricity
-      to the heart. As an action, you can drive a bolt into the torso of a creature within 5 feet of
-      you that has died within the last minute and shock it back to life. That creature returns to
-      life with 1 hit point. This feature can’t return to life a creature that lacks a heart, a
-      creature that has died of old age, or a creature that is missing vital organs.</p>
-
-      <p>Once you use this ability, you can’t use it again until you finish a short or long
-      rest.</p>
+      <div class="item-entry-details"><p class="item-entry-tag">Prerequisite: 9th
+      level</p></div><p>You’ve discovered a radical necromantic workaround: restoring life with
+      direct electricity to the heart. As an action, you can drive a bolt into the torso of a
+      creature within 5 feet of you that has died within the last minute and shock it back to life.
+      That creature returns to life with 1 hit point. This feature can’t return to life a creature
+      that lacks a heart, a creature that has died of old age, or a creature that is missing vital
+      organs.</p><p>Once you use this ability, you can’t use it again until you finish a short or
+      long rest.</p>
     chat: ''
   source:
     custom: ''
@@ -129,10 +127,10 @@ system:
     level: 9
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.3
-  coreVersion: '14.367'
+  systemVersion: 6.1.0
+  coreVersion: '14.370'
   createdTime: 1789769389522
-  modifiedTime: 1789864767933
+  modifiedTime: 1794595366321
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

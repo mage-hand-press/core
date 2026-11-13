@@ -5,8 +5,9 @@ img: icons/sundries/gaming/dice-runed-tan.webp
 system:
   description:
     value: >-
-      <p><em>Prerequisite: 10th level, House of Dice</em></p><p>If you roll a 1 or 2 on a Die of
-      Fate, you keep the die instead of giving it to the GM.</p>
+      <div class="item-entry-details"><p class="item-entry-tag">Prerequisite: 10th level, House of
+      Dice</p></div><p>If you roll a 1 or 2 on a Die of Fate, you keep the die instead of giving it
+      to the GM.</p>
     chat: ''
   source:
     custom: ''
@@ -40,11 +41,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.367'
+  coreVersion: '14.370'
   systemId: dnd5e
-  systemVersion: 6.0.1
+  systemVersion: 6.1.0
   createdTime: 1789423358501
-  modifiedTime: 1789423358501
+  modifiedTime: 1794596028278
   lastModifiedBy: magehandpress000
 _id: mhpTricSnakeEyes
 sort: 3000000

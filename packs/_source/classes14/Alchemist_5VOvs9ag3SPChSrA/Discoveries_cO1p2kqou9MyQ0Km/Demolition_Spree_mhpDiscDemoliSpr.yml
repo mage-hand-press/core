@@ -8,12 +8,12 @@ flags: {}
 system:
   description:
     value: >-
-      <p><em>Prerequisite: 13th level, Mad Bomber Field of Study</em></p>
-
-      <p>When you prime and throw a bomb, you can choose to throw a number of bombs equal to the
-      amount of damage dice for the bomb instead of only one. Each bomb you throw deals 1d10 damage
-      plus your Intelligence modifier and can’t target the same creature or space. You must spend
-      reagent dice separately on these bombs and can apply a bomb formula to only one of them.</p>
+      <div class="item-entry-details"><p class="item-entry-tag">Prerequisite: 13th level, Mad Bomber
+      Field of Study</p></div><p>When you prime and throw a bomb, you can choose to throw a number
+      of bombs equal to the amount of damage dice for the bomb instead of only one. Each bomb you
+      throw deals 1d10 damage plus your Intelligence modifier and can’t target the same creature or
+      space. You must spend reagent dice separately on these bombs and can apply a bomb formula to
+      only one of them.</p>
     chat: ''
   source:
     custom: ''
@@ -133,10 +133,10 @@ system:
     level: 13
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.3
-  coreVersion: '14.367'
+  systemVersion: 6.1.0
+  coreVersion: '14.370'
   createdTime: 1789769388434
-  modifiedTime: 1789864114452
+  modifiedTime: 1794595316948
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

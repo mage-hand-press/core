@@ -8,13 +8,13 @@ flags: {}
 system:
   description:
     value: >-
-      <p><em>Prerequisites: 13th level, Ooze Rancher Field of Study</em></p>
-
-      <p>Tired of waiting for your Oozes to catch up with you, you’ve modified your formula to make
-      extra fast slimes! All slimes you make have a speed of 30 feet, unless it was already higher.
-      Additionally, you can ride any Ooze you make of Medium size or larger as a mount. You and your
-      equipment suffer no ill effect from touching your Oozes directly. Lastly, your Oozes add your
-      proficiency bonus to their damage rolls and initiative rolls.</p>
+      <div class="item-entry-details"><p class="item-entry-tag">Prerequisites: 13th level, Ooze
+      Rancher Field of Study</p></div><p>Tired of waiting for your Oozes to catch up with you,
+      you’ve modified your formula to make extra fast slimes! All slimes you make have a speed of 30
+      feet, unless it was already higher. Additionally, you can ride any Ooze you make of Medium
+      size or larger as a mount. You and your equipment suffer no ill effect from touching your
+      Oozes directly. Lastly, your Oozes add your proficiency bonus to their damage rolls and
+      initiative rolls.</p>
     chat: ''
   source:
     custom: ''
@@ -45,10 +45,10 @@ system:
     level: 13
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.3
-  coreVersion: '14.367'
+  systemVersion: 6.1.0
+  coreVersion: '14.370'
   createdTime: 1789769389733
-  modifiedTime: 1789864792914
+  modifiedTime: 1794595382924
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

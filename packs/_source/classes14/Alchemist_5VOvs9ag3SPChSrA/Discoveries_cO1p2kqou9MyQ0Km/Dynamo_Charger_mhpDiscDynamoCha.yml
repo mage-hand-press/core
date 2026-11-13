@@ -8,11 +8,10 @@ flags: {}
 system:
   description:
     value: >-
-      <p><em>Prerequisites: 13th level, Dynamo Engineer Field of Study</em></p>
-
-      <p>You’ve invented a device that rapidly recharges your spell dynamos. Once per day when you
-      finish a short rest, you can regain 2 expended spell slots stored in dynamos. You can
-      configure these dynamos immediately.</p>
+      <div class="item-entry-details"><p class="item-entry-tag">Prerequisites: 13th level, Dynamo
+      Engineer Field of Study</p></div><p>You’ve invented a device that rapidly recharges your spell
+      dynamos. Once per day when you finish a short rest, you can regain 2 expended spell slots
+      stored in dynamos. You can configure these dynamos immediately.</p>
     chat: ''
   source:
     custom: ''
@@ -121,10 +120,10 @@ system:
     level: 13
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.3
-  coreVersion: '14.367'
+  systemVersion: 6.1.0
+  coreVersion: '14.370'
   createdTime: 1789769388669
-  modifiedTime: 1789864238004
+  modifiedTime: 1794595324371
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

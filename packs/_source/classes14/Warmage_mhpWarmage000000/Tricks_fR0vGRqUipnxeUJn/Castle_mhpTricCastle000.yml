@@ -5,10 +5,10 @@ img: icons/magic/control/energy-stream-link-spiral-white.webp
 system:
   description:
     value: >-
-      <p><em>Prerequisites: 10th level, House of Rooks</em></p><p>As an action, you can choose a
-      willing Small or Medium creature you can see within 120 feet of you. You both teleport,
-      swapping places.</p><p>Once you use this trick, you can’t use it again until you finish a
-      short or long rest.</p>
+      <div class="item-entry-details"><p class="item-entry-tag">Prerequisites: 10th level, House of
+      Rooks</p></div><p>As an action, you can choose a willing Small or Medium creature you can see
+      within 120 feet of you. You both teleport, swapping places.</p><p>Once you use this trick, you
+      can’t use it again until you finish a short or long rest.</p>
     chat: ''
   source:
     custom: ''
@@ -117,11 +117,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.367'
+  coreVersion: '14.370'
   systemId: dnd5e
-  systemVersion: 6.0.1
+  systemVersion: 6.1.0
   createdTime: 1789423355854
-  modifiedTime: 1789425828399
+  modifiedTime: 1794596353019
   lastModifiedBy: magehandpress000
 _id: mhpTricCastle000
 sort: 400000

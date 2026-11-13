@@ -8,13 +8,12 @@ flags: {}
 system:
   description:
     value: >-
-      <p><em>Prerequisites: 13th level, Mutagenist Field of Study</em></p>
-
-      <p>You’ve developed a powerful, but fleeting way to blend your mutagens. When you inject
-      yourself with a mutagen, you can choose to inject a tri-mutagen, which grants you the benefit
-      of all your mutagens at once. This benefit lasts for 1 minute, or until you inject yourself
-      with a different mutagen. Once you use this ability, you can’t use it again until you finish a
-      long rest.</p>
+      <div class="item-entry-details"><p class="item-entry-tag">Prerequisites: 13th level,
+      Mutagenist Field of Study</p></div><p>You’ve developed a powerful, but fleeting way to blend
+      your mutagens. When you inject yourself with a mutagen, you can choose to inject a
+      tri-mutagen, which grants you the benefit of all your mutagens at once. This benefit lasts for
+      1 minute, or until you inject yourself with a different mutagen. Once you use this ability,
+      you can’t use it again until you finish a long rest.</p>
     chat: ''
   source:
     custom: ''
@@ -47,10 +46,10 @@ system:
     level: 13
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.3
-  coreVersion: '14.367'
+  systemVersion: 6.1.0
+  coreVersion: '14.370'
   createdTime: 1789769390350
-  modifiedTime: 1789864918585
+  modifiedTime: 1794595405994
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

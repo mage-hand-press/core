@@ -5,11 +5,12 @@ img: icons/magic/fire/projectile-fireball-sparks-orange.webp
 system:
   description:
     value: >-
-      <p><em>Prerequisite: 5th level</em></p><p>When you cast a warmage cantrip that requires a
-      single spell attack roll, you can select multiple creatures and make a spell attack roll
-      against each one. You can target a number of creatures equal to the number of damage dice the
-      cantrip deals, and split your damage dice up amongst your targets, to a minimum of 1 die of
-      damage per target. Each attack must target a different creature.</p><p>For example,
+      <div class="item-entry-details"><p class="item-entry-tag">Prerequisite: 5th
+      level</p></div><p>When you cast a warmage cantrip that requires a single spell attack roll,
+      you can select multiple creatures and make a spell attack roll against each one. You can
+      target a number of creatures equal to the number of damage dice the cantrip deals, and split
+      your damage dice up amongst your targets, to a minimum of 1 die of damage per target. Each
+      attack must target a different creature.</p><p>For example,
       <em>@UUID[Compendium.dnd5e.spells.Item.EOmsUcFQJTfG2oio]{fire bolt}</em> deals 3d10 damage.
       You can choose to target three creatures and deal 1d10 damage to each creature, or you can
       target two creatures, dealing 1d10 damage to one creature and 2d10 damage to the other
@@ -46,11 +47,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.367'
+  coreVersion: '14.370'
   systemId: dnd5e
-  systemVersion: 6.0.1
+  systemVersion: 6.1.0
   createdTime: 1789423358574
-  modifiedTime: 1789423358577
+  modifiedTime: 1794596017792
   lastModifiedBy: magehandpress000
 _id: mhpTricSplitFire
 sort: 2900000

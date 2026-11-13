@@ -8,11 +8,12 @@ flags: {}
 system:
   description:
     value: >-
-      <p><em>Prerequisites: 13th level, Amorist Field of Study</em></p><p>When you charm a creature,
-      you can choose to place it in a dreamy state, from which it regards everyone it sees as close
-      friends. While the creature is &amp;Reference[charmed apply=false]{charmed}, it is nonhostile
-      and acts as though it is charmed equally by each creature it sees.</p><p>Once you use this
-      ability, you can’t use it again until you finish a short or long rest.</p>
+      <div class="item-entry-details"><p class="item-entry-tag">Prerequisites: 13th level, Amorist
+      Field of Study</p></div><p>When you charm a creature, you can choose to place it in a dreamy
+      state, from which it regards everyone it sees as close friends. While the creature is
+      &amp;Reference[charmed apply=false]{charmed}, it is nonhostile and acts as though it is
+      charmed equally by each creature it sees.</p><p>Once you use this ability, you can’t use it
+      again until you finish a short or long rest.</p>
     chat: ''
   source:
     custom: ''
@@ -117,10 +118,10 @@ system:
     level: 13
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.3
-  coreVersion: '14.367'
+  systemVersion: 6.1.0
+  coreVersion: '14.370'
   createdTime: 1789769388036
-  modifiedTime: 1789863643862
+  modifiedTime: 1794595290845
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

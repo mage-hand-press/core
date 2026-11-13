@@ -5,9 +5,9 @@ img: icons/sundries/scrolls/scroll-bound-sealed-red-green.webp
 system:
   description:
     value: >-
-      <p><em>Prerequisite:
-      </em>@UUID[Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpSpelCryptogra]{cryptogram}<em>
-      cantrip</em></p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpEncryptogram0
+      <div class="item-entry-details"><p class="item-entry-tag">Prerequisite:
+      <em>@UUID[Compendium.mage-hand-press-complete-warmage.spells14.Item.mhpSpelCryptogra]{cryptogram}</em>
+      cantrip</p></div><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpEncryptogram0
       inline]</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpTrickswithEnc
       inline classes="hide-in-embed"]</p>
     chat: ''
@@ -162,11 +162,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.367'
+  coreVersion: '14.370'
   systemId: dnd5e
-  systemVersion: 6.0.1
+  systemVersion: 6.1.0
   createdTime: 1789423356507
-  modifiedTime: 1789423356508
+  modifiedTime: 1794596310602
   lastModifiedBy: magehandpress000
 _id: mhpTricEncryptog
 sort: 900000

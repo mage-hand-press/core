@@ -218,10 +218,11 @@ system:
   advancement: {}
   description:
     value: >-
-      <p><em>Prerequisite: 5th level</em></p><p>When you finish a long rest, you can place a unique
-      sigil on a simple or martial weapon, which becomes your signature focus until you use this
-      ability again. This weapon becomes magical, and you can use it as a spellcasting focus for
-      your warmage spells. Your signature focus is bonded to you, and gains a number of special
+      <div class="item-entry-details"><p class="item-entry-tag">Prerequisite: 5th
+      level</p></div><p>When you finish a long rest, you can place a unique sigil on a simple or
+      martial weapon, which becomes your signature focus until you use this ability again. This
+      weapon becomes magical, and you can use it as a spellcasting focus for your warmage spells.
+      Your signature focus is bonded to you, and gains a number of special
       abilities:</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpSignatureFocu
       inline]</p>
     chat: ''
@@ -314,10 +315,10 @@ flags:
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.367'
+  coreVersion: '14.370'
   systemId: dnd5e
-  systemVersion: 6.0.1
+  systemVersion: 6.1.0
   createdTime: 1789423358346
-  modifiedTime: 1789423358347
+  modifiedTime: 1794596038146
   lastModifiedBy: magehandpress000
 _key: '!items!mhpTricSignatFoc'

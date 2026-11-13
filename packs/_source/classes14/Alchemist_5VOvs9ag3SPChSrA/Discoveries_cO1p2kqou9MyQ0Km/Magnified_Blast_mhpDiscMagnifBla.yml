@@ -8,11 +8,11 @@ flags: {}
 system:
   description:
     value: >-
-      <p><em>Prerequisite: 17th level</em></p>
-
-      <p>Thanks to a new internal design for your bombs, you have expanded their blast radius and
-      magnitude. Whenever you add reagent dice to your bomb’s damage, you can also choose to expand
-      the bomb’s blast radius by a distance of up to 5 feet per two reagent dice spent.</p>
+      <div class="item-entry-details"><p class="item-entry-tag">Prerequisite: 17th
+      level</p></div><p>Thanks to a new internal design for your bombs, you have expanded their
+      blast radius and magnitude. Whenever you add reagent dice to your bomb’s damage, you can also
+      choose to expand the bomb’s blast radius by a distance of up to 5 feet per two reagent dice
+      spent.</p>
     chat: ''
   source:
     custom: ''
@@ -42,10 +42,10 @@ system:
     level: 17
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.3
-  coreVersion: '14.367'
+  systemVersion: 6.1.0
+  coreVersion: '14.370'
   createdTime: 1789769389625
-  modifiedTime: 1789864793576
+  modifiedTime: 1794595374037
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

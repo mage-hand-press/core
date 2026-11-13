@@ -5,9 +5,11 @@ img: icons/sundries/gaming/chess-bishop-gray.webp
 system:
   description:
     value: >-
-      <p><em>Prerequisite: Level 10+ Warmage, House of Bishops</em></p><p>As a Bonus Action, you can
-      expend spell slot to teleport to an unoccupied space you can see. The number of feet you can
-      teleport equals 15 feet times the level of the spell slot expended.</p>
+      <p><em>Prerequisite: Level 10+ Warmage, House of Bishops</em></p>
+
+      <p>As a Bonus Action, you can expend spell slot to teleport to an unoccupied space you can
+      see. The number of feet you can teleport equals 15 feet times the level of the spell slot
+      expended.</p>
     chat: ''
   source:
     custom: ''
@@ -116,11 +118,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.367'
+  coreVersion: '14.370'
   systemId: dnd5e
-  systemVersion: 6.0.1
+  systemVersion: 6.1.0
   createdTime: 1789423570740
-  modifiedTime: 1789425505247
+  modifiedTime: 1794594930802
   lastModifiedBy: magehandpress000
 _id: mhpTricBishopMan
 sort: 4000000

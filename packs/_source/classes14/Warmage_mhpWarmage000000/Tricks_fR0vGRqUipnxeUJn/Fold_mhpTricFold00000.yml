@@ -5,9 +5,9 @@ img: icons/magic/defensive/shield-barrier-blue.webp
 system:
   description:
     value: >-
-      <p><em>Prerequisite: 10th level, House of Cards</em></p><p>You have learned to graciously
-      accept defeat using your Deck of Fate. As a reaction when you are hit by an attack, you can
-      play your entire hand to cast the
+      <div class="item-entry-details"><p class="item-entry-tag">Prerequisite: 10th level, House of
+      Cards</p></div><p>You have learned to graciously accept defeat using your Deck of Fate. As a
+      reaction when you are hit by an attack, you can play your entire hand to cast the
       <em>@UUID[Compendium.dnd5e.spells.Item.z1mx84ONwkXKUZd7]{shield}</em> spell without expending
       a spell slot.</p><p>Once you use this trick, you can’t use it again until you finish a short
       or long rest.</p>
@@ -106,11 +106,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.367'
+  coreVersion: '14.370'
   systemId: dnd5e
-  systemVersion: 6.0.1
+  systemVersion: 6.1.0
   createdTime: 1789423356905
-  modifiedTime: 1789423356906
+  modifiedTime: 1794596285622
   lastModifiedBy: magehandpress000
 _id: mhpTricFold00000
 sort: 1400000

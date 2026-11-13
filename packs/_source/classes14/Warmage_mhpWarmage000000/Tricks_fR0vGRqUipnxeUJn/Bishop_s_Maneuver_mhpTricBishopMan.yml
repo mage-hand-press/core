@@ -5,9 +5,9 @@ img: icons/sundries/gaming/chess-bishop-gray.webp
 system:
   description:
     value: >-
-      <p><em>Prerequisite: 10th level, House of Bishops</em></p><p>You can take the
-      &amp;Reference[Disengage] action as a bonus action. When you do so, your walking speed
-      increases by 10 feet until the end of your turn.</p>
+      <div class="item-entry-details"><p class="item-entry-tag">Prerequisite: 10th level, House of
+      Bishops</p></div><p>You can take the &amp;Reference[Disengage] action as a bonus action. When
+      you do so, your walking speed increases by 10 feet until the end of your turn.</p>
     chat: ''
   source:
     custom: ''
@@ -168,11 +168,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.367'
+  coreVersion: '14.370'
   systemId: dnd5e
-  systemVersion: 6.0.1
+  systemVersion: 6.1.0
   createdTime: 1789423355588
-  modifiedTime: 1789423355588
+  modifiedTime: 1794596375170
   lastModifiedBy: magehandpress000
 _id: mhpTricBishopMan
 sort: 3200000

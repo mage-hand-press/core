@@ -8,9 +8,14 @@ flags: {}
 system:
   description:
     value: >-
-      <p><em>Prerequisite: 17th level</em></p><p>A breakthrough in your alchemical studies has
-      revealed the formulation of several potent elixirs. You can brew the following
-      potions:</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpAlchemyAscend
+      <div class="item-entry-details">
+          <p class="item-entry-tag">Prerequisite: 17th level</p>
+      </div>
+
+      <p>A breakthrough in your alchemical studies has revealed the formulation of several potent
+      elixirs. You can brew the following potions:</p>
+
+      <p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpAlchemyAscend
       inline]</p>
     chat: ''
   source:
@@ -41,10 +46,10 @@ system:
     level: 17
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.3
-  coreVersion: '14.367'
+  systemVersion: 6.1.0
+  coreVersion: '14.370'
   createdTime: 1789769387510
-  modifiedTime: 1789863474996
+  modifiedTime: 1794595262769
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

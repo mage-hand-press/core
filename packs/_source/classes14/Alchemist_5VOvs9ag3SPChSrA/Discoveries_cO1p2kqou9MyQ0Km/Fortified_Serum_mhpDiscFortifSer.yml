@@ -85,9 +85,10 @@ flags: {}
 system:
   description:
     value: >-
-      <p><em>Prerequisites: 13th level, Apothecary Field of Study</em></p><p>Whenever a creature
-      regains hit points by drinking one of your potions, it gains resistance to bludgeoning,
-      piercing, and slashing damage from nonmagical attacks until the end of its next turn.</p>
+      <div class="item-entry-details"><p class="item-entry-tag">Prerequisites: 13th level,
+      Apothecary Field of Study</p></div><p>Whenever a creature regains hit points by drinking one
+      of your potions, it gains resistance to bludgeoning, piercing, and slashing damage from
+      nonmagical attacks until the end of its next turn.</p>
     chat: ''
   source:
     custom: ''
@@ -191,10 +192,10 @@ system:
     level: 13
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.3
-  coreVersion: '14.367'
+  systemVersion: 6.1.0
+  coreVersion: '14.370'
   createdTime: 1789769389205
-  modifiedTime: 1789864716894
+  modifiedTime: 1794595343316
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

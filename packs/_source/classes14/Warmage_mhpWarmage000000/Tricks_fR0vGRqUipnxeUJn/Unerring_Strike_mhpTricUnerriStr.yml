@@ -141,9 +141,9 @@ system:
   advancement: {}
   description:
     value: >-
-      <p><em>Prerequisites: 10th level,
-      </em>@UUID[Compendium.dnd5e.spells.Item.mGGlcLdggHwcL7MG]{true strike}<em>
-      cantrip</em></p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpUnerringStrik
+      <div class="item-entry-details"><p class="item-entry-tag">Prerequisites: 10th level,
+      <em>@UUID[Compendium.dnd5e.spells.Item.mGGlcLdggHwcL7MG]{true strike}</em>
+      cantrip</p></div><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpUnerringStrik
       inline]</p><p>@Embed[Compendium.mage-hand-press-core.journal.JournalEntry.mhpEmbeds5e00000.JournalEntryPage.mhpTrickswithEnc
       inline classes="hide-in-embed"]</p>
     chat: ''
@@ -226,10 +226,10 @@ flags:
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.367'
+  coreVersion: '14.370'
   systemId: dnd5e
-  systemVersion: 6.0.1
+  systemVersion: 6.1.0
   createdTime: 1789423358749
-  modifiedTime: 1789423358750
+  modifiedTime: 1794595997417
   lastModifiedBy: magehandpress000
 _key: '!items!mhpTricUnerriStr'

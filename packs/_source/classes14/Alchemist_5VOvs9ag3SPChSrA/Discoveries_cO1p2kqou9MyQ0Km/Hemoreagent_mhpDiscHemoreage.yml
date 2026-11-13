@@ -8,10 +8,11 @@ flags: {}
 system:
   description:
     value: >-
-      <p><em>Prerequisite: 17th level</em></p><p>When you prime and throw a bomb, you can convert a
-      measure of your own blood into reagents. You can add five or fewer reagent dice to the bomb’s
-      damage roll without expending them, and you take 1d6 necrotic damage for each reagent die
-      added. This damage can’t be reduced or prevented in any way.</p>
+      <div class="item-entry-details"><p class="item-entry-tag">Prerequisite: 17th
+      level</p></div><p>When you prime and throw a bomb, you can convert a measure of your own blood
+      into reagents. You can add five or fewer reagent dice to the bomb’s damage roll without
+      expending them, and you take 1d6 necrotic damage for each reagent die added. This damage can’t
+      be reduced or prevented in any way.</p>
     chat: ''
   source:
     custom: ''
@@ -121,10 +122,10 @@ system:
     level: 17
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.3
-  coreVersion: '14.367'
+  systemVersion: 6.1.0
+  coreVersion: '14.370'
   createdTime: 1789769389419
-  modifiedTime: 1789865140460
+  modifiedTime: 1794595359292
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null

@@ -5,11 +5,11 @@ img: icons/skills/melee/sword-twirl-orange.webp
 system:
   description:
     value: >-
-      <p><em>Prerequisite: 10th level, House of Lancers</em></p><p>Once on each of your turns, when
-      you score a critical hit with a melee attack or reduce a creature to 0 hit points with one,
-      you can make an unarmed strike against a second target. If the target is within range of your
-      Shock Trooper feature, you can lunge toward it. On a hit, the target takes an extra 1d8 force
-      damage.</p>
+      <div class="item-entry-details"><p class="item-entry-tag">Prerequisite: 10th level, House of
+      Lancers</p></div><p>Once on each of your turns, when you score a critical hit with a melee
+      attack or reduce a creature to 0 hit points with one, you can make an unarmed strike against a
+      second target. If the target is within range of your Shock Trooper feature, you can lunge
+      toward it. On a hit, the target takes an extra 1d8 force damage.</p>
     chat: ''
   source:
     custom: ''
@@ -134,11 +134,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.367'
+  coreVersion: '14.370'
   systemId: dnd5e
-  systemVersion: 6.0.1
+  systemVersion: 6.1.0
   createdTime: 1789423356329
-  modifiedTime: 1789423356330
+  modifiedTime: 1794596320381
   lastModifiedBy: magehandpress000
 _id: mhpTricDirectMom
 sort: 700000

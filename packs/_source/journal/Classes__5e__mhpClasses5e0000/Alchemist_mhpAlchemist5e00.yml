@@ -177,6 +177,8 @@ pages:
         caption=false
         nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpDiscAlchemTra
         caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpDiscAntisound
+        caption=false
         nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpDiscArcaneStu
         caption=false
         nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpDiscBallisRes
@@ -215,11 +217,15 @@ pages:
         caption=false
         nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpDiscOozeCowbo
         caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpDiscPaintPort
+        caption=false
         nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpDiscPoisoner0
         caption=false
         nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpDiscPrecisExp
         caption=false
         nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpDiscReactiGul
+        caption=false
+        nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpDiscReagenPul
         caption=false
         nameStyle=h3]</p><p>@Embed[Compendium.mage-hand-press-core.classes14.Item.mhpDiscRecyclPot
         caption=false
@@ -236,11 +242,11 @@ pages:
       default: -1
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.370'
       systemId: dnd5e
       systemVersion: 5.3.0
       createdTime: 1777925554198
-      modifiedTime: 1790198417121
+      modifiedTime: 1794596472748
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null

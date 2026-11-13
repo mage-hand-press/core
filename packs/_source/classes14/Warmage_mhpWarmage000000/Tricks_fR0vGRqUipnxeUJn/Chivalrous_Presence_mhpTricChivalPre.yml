@@ -26,9 +26,10 @@ system:
       value: {}
   description:
     value: >-
-      <p><em>Prerequisite: House of Knights</em></p><p>You gain proficiency in the Insight and
-      Persuasion skills, and you have advantage on ability checks you make to interact with
-      nobility. Additionally, other creatures can always discern when you are telling the truth.</p>
+      <div class="item-entry-details"><p class="item-entry-tag">Prerequisite: House of
+      Knights</p></div><p>You gain proficiency in the Insight and Persuasion skills, and you have
+      advantage on ability checks you make to interact with nobility. Additionally, other creatures
+      can always discern when you are telling the truth.</p>
     chat: ''
   identifier: chivalrous-presence
   source:
@@ -55,10 +56,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.367'
+  coreVersion: '14.370'
   systemId: dnd5e
-  systemVersion: 6.0.1
+  systemVersion: 6.1.0
   createdTime: 1789423355947
-  modifiedTime: 1789423355947
+  modifiedTime: 1794596345352
   lastModifiedBy: magehandpress000
 _key: '!items!mhpTricChivalPre'
