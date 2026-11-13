@@ -102,7 +102,9 @@ system:
       effects:
         - _id: ONCSIXD9omhZoRMr
           uuid: null
-          level: {}
+          level:
+            min: null
+            max: null
       range:
         value: '5'
         units: self
@@ -120,9 +122,9 @@ system:
           stationary: false
         affects:
           count: ''
-          type: ''
+          type: creature
           choice: false
-          special: ''
+          special: Large or smaller
         prompt: true
         override: false
       uses:
@@ -156,10 +158,10 @@ system:
     level: 5
 _stats:
   systemId: dnd5e
-  systemVersion: 6.0.3
-  coreVersion: '14.367'
+  systemVersion: 6.1.0
+  coreVersion: '14.370'
   createdTime: 1789769323629
-  modifiedTime: 1789863129077
+  modifiedTime: 1794601173006
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
