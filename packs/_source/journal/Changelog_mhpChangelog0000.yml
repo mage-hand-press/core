@@ -264,6 +264,38 @@ pages:
       duplicateSource: null
       exportSource: null
     _key: '!journal.pages!mhpChangelog0000.zX4XBDlX83FMxthb'
+  - sort: -400000
+    name: Version 2.1.1
+    type: text
+    _id: mhpVersion211000
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h3 data-no-toc>Version 2.1.1</h3><ul><li><p>Added missing Antisound, Paint Portals, &amp;
+        Reagent Pulse 5e discoveries</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.370'
+      systemId: dnd5e
+      systemVersion: 6.1.0
+      createdTime: 1794596562391
+      modifiedTime: 1794596590309
+      lastModifiedBy: magehandpress000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!mhpChangelog0000.mhpVersion211000'
 folder: null
 categories: []
 sort: 0
