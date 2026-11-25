@@ -10,10 +10,13 @@ system:
       Tiny object that weighs 3 pounds and contains 100 pages. You determine the grimoire’s
       appearance and materials.</p><p>The grimoire starts with four level 1 Investigator spells of
       your choice. <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detect Magic}</em>,
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHeroism000]{Heroism}</em>, <em>Memorize</em>,
-      and <em>Transient Bulwark</em> are recommended.</p><p>Whenever you gain an Investigator level,
-      you can add two Investigator spells of your choice to your grimoire. The Ritual Level column
-      on the Investigator Feature table shows the maximum level of a spell you can add to your
+      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHeroism000]{Heroism}</em>,
+      <em>@UUID[Compendium.mage-hand-press-complete-investigator.spells24.Item.mhpSpelMemorize0]{Memorize}</em>,
+      and
+      <em>@UUID[Compendium.mage-hand-press-complete-investigator.spells24.Item.mhpSpelTransiBul]{Transient
+      Bulwark}</em> are recommended.</p><p>Whenever you gain an Investigator level, you can add two
+      Investigator spells of your choice to your grimoire. The Ritual Level column on the
+      Investigator Feature table shows the maximum level of a spell you can add to your
       grimoire.</p><p><em><strong>Ritual Casting.</strong></em> You can cast any spell as a Ritual
       if that spell has the Ritual tag and the spell is in your grimoire. You must read from the
       book to cast a spell in this way. You can’t cast spells that are in your grimoire except as
@@ -66,10 +69,10 @@ effects: []
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 6.1.0
-  coreVersion: '14.369'
+  systemVersion: 6.1.1
+  coreVersion: '14.370'
   createdTime: 1790399704289
-  modifiedTime: 1793124386284
+  modifiedTime: 1795640097521
   lastModifiedBy: magehandpress000
   duplicateSource: null
   exportSource: null
