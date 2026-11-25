@@ -59,6 +59,7 @@ export default class PrimeBombUsageDialog extends dnd5e.applications.activity.En
 				]
 			};
 		}
+		// TODO: Changing the formula should also change the consumption
 
 		return context;
 	}

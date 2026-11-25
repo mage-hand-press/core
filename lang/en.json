@@ -126,8 +126,11 @@
 			"Overheat": "Overheat",
 			"Recoil": "Recoil",
 			"Renaissance": "Renaissance",
+			"RenaissanceAbbr": "Re",
 			"Scatter": "Scatter",
 			"Sighted": "Sighted",
+			"Truenaming": "Truenaming",
+			"TruenamingAbbr": "Tr",
 			"Twinshot": "Twinshot"
 		},
 		"Setting": {

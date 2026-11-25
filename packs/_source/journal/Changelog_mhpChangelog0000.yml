@@ -277,7 +277,8 @@ pages:
       format: 1
       content: >-
         <h3 data-no-toc>Version 2.1.1</h3><ul><li><p>Added missing Antisound, Paint Portals, &amp;
-        Reagent Pulse 5e discoveries</p></li></ul>
+        Reagent Pulse 5e discoveries</p></li><li><p>Added Truenaming spell tag for
+        Investigator</p></li></ul>
     video:
       controls: true
       volume: 0.5
@@ -291,7 +292,7 @@ pages:
       systemId: dnd5e
       systemVersion: 6.1.0
       createdTime: 1794596562391
-      modifiedTime: 1794596590309
+      modifiedTime: 1795640539611
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null

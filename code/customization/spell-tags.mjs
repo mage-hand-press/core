@@ -15,7 +15,7 @@ export function initialize() {
 /*  Rendering                                   */
 /* -------------------------------------------- */
 
-const VALID_PROPERTIES = new Set(["chronomancy", "renaissance"]);
+const VALID_PROPERTIES = new Set(["chronomancy", "renaissance", "truenaming"]);
 
 /**
  * Add additional properties after spell tag when embedded.
