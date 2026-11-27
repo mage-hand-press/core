@@ -238,14 +238,14 @@ pages:
       content: >-
         <h3 data-no-toc>Version 2.1.0</h3><ul><li><p>[<a
         href="https://github.com/mage-hand-press/premium-content/issues/58" title="Implement
-        Alchemist base class">#58</a>] Implemented 5e version of Alchemist base
-        class</p><ul><li><p>Added new Prime Bomb activity</p></li><li><p>Added Dynamo spellcasting
+        Alchemist base class">#58</a>] Implemented Alchemist base class</p><ul><li><p>Added new
+        Prime Bomb activity</p></li><li><p>Added Dynamo spellcasting
         progression</p></li></ul></li><li><p>[<a
         href="https://github.com/mage-hand-press/premium-content/issues/61" title="Implement
-        Investigator base class">#61</a>] Implemented 5e version of Investigator base
-        class</p><ul><li><p>Added Ritualist spellcasting type</p></li><li><p>Added Occultist
-        progression to Pact Casting</p></li></ul></li><li><p>Added support for automatic compendium
-        source filtering based on selected rules version</p></li></ul>
+        Investigator base class">#61</a>] Implemented Investigator base class</p><ul><li><p>Added
+        Ritualist spellcasting type</p></li><li><p>Added Occultist progression to Pact
+        Casting</p></li></ul></li><li><p>Added support for automatic compendium source filtering
+        based on selected rules version</p></li></ul>
     video:
       controls: true
       volume: 0.5
@@ -259,7 +259,7 @@ pages:
       systemId: dnd5e
       systemVersion: 6.0.6
       createdTime: 1793051688884
-      modifiedTime: 1794439203028
+      modifiedTime: 1795797817925
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null
@@ -278,7 +278,7 @@ pages:
       content: >-
         <h3 data-no-toc>Version 2.1.1</h3><ul><li><p>Added missing Antisound, Paint Portals, &amp;
         Reagent Pulse 5e discoveries</p></li><li><p>Added Truenaming spell tag for
-        Investigator</p></li></ul>
+        Investigator</p></li><li><p>Fixed rules version for 5.5e Alchemist bombs</p></li></ul>
     video:
       controls: true
       volume: 0.5
@@ -292,7 +292,7 @@ pages:
       systemId: dnd5e
       systemVersion: 6.1.0
       createdTime: 1794596562391
-      modifiedTime: 1795640539611
+      modifiedTime: 1795797805101
       lastModifiedBy: magehandpress000
       duplicateSource: null
       exportSource: null

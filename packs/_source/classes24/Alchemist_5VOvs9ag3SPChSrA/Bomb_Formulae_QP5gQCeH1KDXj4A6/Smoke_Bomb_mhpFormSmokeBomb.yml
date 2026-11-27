@@ -79,7 +79,7 @@ system:
     page: ''
     license: ''
     revision: 1
-    rules: '2014'
+    rules: '2024'
   cover: null
   crewed: false
   uses:
